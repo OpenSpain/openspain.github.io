@@ -33,6 +33,14 @@ try {
   assert.equal(await page.locator('iframe').count(), 0);
   assert.equal(await page.locator('.program-card').count(), axisMetadata.length);
   assert.equal(await page.locator('.coverage-row').count(), 4);
+  await page.getByRole('button', { name: /Ver medidas: Constitución clara/ }).click();
+  assert.match(await page.locator('#measure-content .citizen-summary').textContent(), /12 fichas/);
+  assert.match(await page.locator('#measure-content .citizen-summary').textContent(), /40 fichas/);
+  assert.match(await page.locator('#measure-content .evidence-label').first().textContent(), /CIFRA NORMATIVA/);
+  assert.equal(await page.locator('#measure-content .target-figure').count(), 1);
+  await page.locator('#measure-dialog .technical-details > summary').click();
+  assert.match(await page.locator('#measure-content .technical-content').textContent(), /referéndum de ratificación obligatorio/);
+  await page.keyboard.press('Escape');
   await page.locator('#program-guide > summary').click();
   assert.equal(await page.locator('#program-guide-content').isVisible(), true);
   assert.match(await page.locator('#program-guide-content').textContent(), /Qué significa «haremos»/);
@@ -145,6 +153,8 @@ try {
   assert.match(await reportPage.locator('#report-body').textContent(), /Ruta de movilidad abierta/);
   assert.match(await reportPage.locator('#report-body').textContent(), /Unir esfuerzos, no repartir culpas/);
   assert.match(await reportPage.locator('#report-body').textContent(), /Unir no significa impunidad/);
+  assert.match(await reportPage.locator('#eje-30').textContent(), /Constitución clara/);
+  assert.equal(await reportPage.locator('[data-axis-evidence="30"] .target-figure').count(), 1);
   assert.match(await reportPage.locator('[data-axis-evidence="25"]').textContent(), /60\.074/);
   assert.equal(await reportPage.locator('#report-ipc rect').count(), 8);
   assert.equal(await reportPage.locator('[data-axis-evidence]').count(), axisMetadata.length);
@@ -156,7 +166,7 @@ try {
   assert.equal(await page.locator('#axis-data-content > details').count(), axisMetadata.length);
   await page.locator('#diagnostico > summary').click();
   await page.locator('#axis-data-content > details').last().locator(':scope > summary').click();
-  assert.match(await page.locator('#axis-data-content > details').last().textContent(), /Exposición energética exterior/);
+  assert.match(await page.locator('#axis-data-content > details').last().textContent(), /Constitución Española: estructura del texto/);
   assert.equal(await page.locator('#axis-data-content .target-figure').count(), axisMetadata.length);
   await page.locator('#diagnostico > summary').click();
   assert.ok(await page.locator('#sources-content a[href^="https://"]').count() >= 18);

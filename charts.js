@@ -210,6 +210,14 @@ export const observedCharts = {
     source: 'Eurostat · sdg_07_50 · TOTAL, O4000XBIO y G3000', url: energyURL,
     note: 'Importaciones netas sobre energía bruta disponible de cada producto. Puede superar 100 % por balances y existencias; no sumar productos y total. No mide reservas, dependencia de Rusia/Irán o probabilidad de guerra: indica exposición energética.',
   }],
+  30: [{
+    title: 'Constitución Española: estructura del texto',
+    labels: ['Artículos', 'Adicionales', 'Transitorias', 'Derogatoria', 'Final'],
+    values: [169, 4, 9, 1, 1], unit: 'artículos o disposiciones', kind: 'normative',
+    source: 'BOE · Constitución Española · texto consultado el 5 de octubre de 2026',
+    url: 'https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229',
+    note: 'Recuento de artículos y disposiciones, sin preámbulo, títulos ni rúbricas. Las unidades tienen distinta extensión y función: no sumar como índice de complejidad. No mide comprensión, ambigüedad, litigios o calidad, ni demuestra que deba reformarse la Constitución.',
+  }],
 };
 
 observedCharts[2].push(ineFigure('Sobrecarga de gasto en vivienda: 2024',
@@ -265,6 +273,7 @@ export const targetCharts = [
   ['Plazo de reconocimiento: índice de referencia', 100, 85, 75, 'índice', 'Referencia matemática = 100. Gestión de prestaciones, no prueba de solvencia a largo plazo.'],
   ['Participantes en un piloto de protección de ingresos', null, null, 1000, 'personas', 'M12 no fija una meta de participantes: exige tres diseños comparados y un protocolo. En M48, al menos 1.000 participantes solo si se autoriza y financia; sin ello se informa del bloqueo. No representa pagos aprobados ni pobreza reducida.'],
   ['Entidades con planificación de contingencia evaluada', null, 10, 30, 'entidades', 'Indicador de alcance, no servicios preparados o daños evitados. Verificar alternativas, ejercicios, continuidad y correcciones; un plan redactado no cuenta como capacidad ensayada.'],
+  ['Artículos con ficha revisada y prueba de comprensión', null, 12, 40, 'artículos', 'Entregas documentales propuestas, no artículos reformados. Exigir texto oficial, explicación, revisión jurídica independiente y prueba; medir comprensión y errores aparte. Sin equipo y financiación, informar del bloqueo.'],
 ];
 
 function element(tag, text, className) {
@@ -278,7 +287,7 @@ function makeFigure(series, target = false) {
   const figure = element('figure', undefined, `evidence-figure${target ? ' target-figure' : ''}`);
   const maximum = series.ceiling ?? Math.max(1, ...series.values.filter(value => value !== null));
   const label = target ? 'META PROPUESTA · NO PREVISIÓN'
-    : series.kind === 'normative' ? 'CIFRA NORMATIVA · NO PAGO VERIFICADO'
+    : series.kind === 'normative' ? 'CIFRA NORMATIVA · NO RESULTADO OBSERVADO'
     : series.kind === 'announced' ? 'CONTRIBUCIÓN COMUNICADA · ALCANCE LIMITADO'
     : 'DATO OBSERVADO · FECHA Y ALCANCE';
   figure.append(element('p', label, 'evidence-label'), element('figcaption', series.title),

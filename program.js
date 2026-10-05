@@ -36,6 +36,7 @@ export const axisMetadata = [
   ['life', 'Jubilarse con confianza', 'Pensiones suficientes, financiación y equidad entre generaciones.', '◷'],
   ['future', 'Seguridad para elegir. Libertad para crear.', 'Renta básica y transición por IA: opciones, costes y evidencia.', '◇'],
   ['institutions', 'Un país preparado, no improvisado.', 'Planes alternativos ante guerras, fallos y otras crisis.', '◇'],
+  ['institutions', 'Una Constitución que se entienda.', 'Lenguaje claro, menos ambigüedad y las mismas garantías.', '▤'],
 ];
 
 export function getChapter(markdown, number) {

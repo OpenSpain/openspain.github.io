@@ -273,3 +273,31 @@ test('cooperation rejects blame-shifting without demanding conformity or weakeni
   assert.ok(filterAxes(axes, 'institutions', 'tu mas').some(axis => axis.id === 20));
   assert.deepEqual(targetCharts[19].slice(1, 4), [null, 10, 40]);
 });
+
+test('constitutional clarity distinguishes accessible explanations from safeguarded legal reform', () => {
+  const constitution = axes.find(axis => axis.id === 30);
+  assert.equal(axes.length, 30);
+  assert.equal(constitution.category, 'institutions');
+  assert.match(constitution.title, /Constitución clara/);
+  assert.match(constitution.citizenSummary, /12 fichas.*200 personas/);
+  assert.match(constitution.citizenSummary, /40 fichas.*600 participantes/);
+  assert.match(constitution.citizenSummary, /no se promete eliminarla ni imponer una lectura política única/);
+  assert.match(constitution.citizenSummary, /no generalizar|sin generalizar una muestra voluntaria/);
+  assert.match(constitution.technicalBody, /sin atribuir valor normativo a la guía/);
+  assert.match(constitution.technicalBody, /tres quintos de cada Cámara/);
+  assert.match(constitution.technicalBody, /mayoría absoluta del Senado.*dos tercios/);
+  assert.match(constitution.technicalBody, /15 días.*una décima parte/);
+  assert.match(constitution.technicalBody, /disolución inmediata.*referéndum de ratificación obligatorio/);
+  assert.match(constitution.technicalBody, /no hay iniciativa legislativa popular directa/);
+  assert.match(constitution.technicalBody, /No puede iniciarse en tiempo de guerra/);
+  assert.match(constitution.technicalBody, /sin añadir automáticamente un cuarto frente/);
+  assert.match(getChapter(markdown, 5), /Claridad constitucional.*30:/);
+  assert.match(getChapter(markdown, 7), /30\. Constitución clara y accesible/);
+  assert.match(getChapter(markdown, 8), /\[F35\].*no una medición de dificultad/);
+  assert.deepEqual(observedCharts[30][0].values, [169, 4, 9, 1, 1]);
+  assert.equal(observedCharts[30][0].kind, 'normative');
+  assert.match(observedCharts[30][0].note, /no sumar como índice de complejidad/);
+  assert.deepEqual(targetCharts[29].slice(1, 4), [null, 12, 40]);
+  assert.match(targetCharts[29][5], /no artículos reformados/);
+  assert.ok(filterAxes(axes, 'institutions', 'constitucion clara').some(axis => axis.id === 30));
+});

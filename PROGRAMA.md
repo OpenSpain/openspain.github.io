@@ -1555,6 +1555,61 @@ Los delitos graves, incluidos homicidio, crímenes de guerra o delitos contra in
 
 **Riesgos y garantías:** Evitar alarmismo, información sensible expuesta, acumulación inútil, favoritismo en urgencia y restricciones indefinidas. Medidas proporcionadas, supervisión, garantías legales y revisión temporal.
 
+### 2.30. Constitución clara, accesible y con seguridad jurídica
+
+**Qué queremos mejorar:** Que la ciudadanía pueda entender sus derechos, las responsabilidades de las instituciones y los límites del poder sin necesitar conocimientos especializados. Estudiar qué dificultades vienen del lenguaje, de remisiones entre normas o de ambigüedades evitables, sin afirmar que toda interpretación diferente sea un error.
+
+**Qué proponemos:** Simplificar la explicación de la Constitución y evaluar reformas selectivas de su redacción y sistemática para hacerla más clara y coherente, sin recortar derechos ni controles. Separar una guía ciudadana sin valor normativo de cualquier propuesta de modificación del texto constitucional, que requerirá su procedimiento y mayorías.
+
+**Cómo sabremos si funciona:** Mejor comprensión de derechos, competencias y procedimientos en pruebas publicadas; fichas revisadas que conserven el alcance jurídico; y propuestas de reforma con cambios, consecuencias, discrepancias y cauce constitucional explícitos. Menos palabras o menos litigios no demuestran por sí solos mejor protección o claridad.
+
+**Argumento y alternativa:** Un lenguaje más claro puede facilitar el ejercicio de derechos y reducir confusiones, pero una frase breve puede ocultar excepciones necesarias. Comparar mantener el texto y explicarlo mejor, mejorar las leyes de desarrollo y reformar artículos concretos. Los principios constitucionales requieren interpretación al aplicarse a casos nuevos; no se promete eliminarla ni imponer una lectura política única.
+
+**Indicador principal y fuente:** Artículos con ficha comparada, revisión jurídica independiente y prueba de comprensión completadas, registrados con versión, fuente oficial y resultado. Medir aparte aciertos, tiempo por tarea, errores sobre garantías y cambios de significado detectados; el número de fichas es una entrega documental, no una reforma aprobada.
+
+**Qué haremos en el primer año:** Preparar 12 fichas de artículos seleccionados con criterios públicos y probar sus explicaciones con 200 personas voluntarias de perfiles diversos. Cada ficha mostrará texto oficial, explicación accesible, dificultades documentadas y, solo cuando se justifique, una alternativa de redacción con revisión jurídica. Publicar el método, resultados y carencias antes de M12, sujeto a equipo y financiación.
+
+**Qué queremos conseguir en cuatro años:** Ampliar a 40 fichas y 600 participantes acumulados, actualizar anualmente las fuentes y resultados y remitir a las instituciones competentes un dossier de reformas justificadas si la revisión lo aconseja. No comprometer la aprobación de una reforma ni contar una guía o un envío como cambio constitucional.
+
+**Pasos y responsables:** Equipo ciudadano, especialistas plurales en derecho constitucional y accesibilidad y revisión independiente: selección, alcance y protocolo en M1–M3; redacción y contraste jurídico en M4–M6; pruebas y publicación en M7–M12; ampliación condicionada en años 2–4. Gobierno, Cámaras y asambleas autonómicas por los cauces de iniciativa aplicables, y ciudadanía cuando proceda referéndum, deciden la reforma; OpenSpain no puede aprobarla.
+
+**Cómo comprobaremos los avances:** Comparar tareas equivalentes con el texto oficial y las explicaciones, distribuyendo versiones para limitar aprendizaje y sesgos. Publicar reclutamiento, abandonos, aciertos y errores por perfil, sin generalizar una muestra voluntaria a toda España. No aceptar como mejora una explicación que aumente comprensión aparente pero omita una garantía, cambie una competencia o presente una interpretación discutida como obligatoria.
+
+#### Ficha técnica
+
+**Problema a estudiar:** barreras de vocabulario y estructura, remisiones difíciles de seguir y divergencias interpretativas. Distinguir defectos evitables de redacción, desacuerdos de fondo, problemas de leyes de desarrollo y la función legítima de los tribunales. La cantidad de artículos no mide la complejidad del texto.
+
+**Propuestas:**
+
+- Publicar una guía de lenguaje claro, glosario, ejemplos y mapa de derechos, competencias y procedimientos, vinculados al artículo oficial y con fecha de revisión. Ofrecer formatos accesibles y versiones en las lenguas de España según recursos, sin atribuir valor normativo a la guía.
+- Seleccionar artículos por dificultades documentadas en consultas y pruebas, no por conveniencia partidista; publicar texto vigente, problema, alternativa y análisis de consecuencias artículo por artículo.
+- Evaluar simplificación de términos, remisiones y estructura y aclaración de ambigüedades evitables. Si cambia el alcance de un derecho, competencia o garantía, identificarlo como reforma de fondo, no como mera corrección editorial.
+- Incorporar doctrina y jurisprudencia relevantes con fuente y fecha, posiciones alternativas y revisión plural; no sustituir la interpretación judicial por una explicación ciudadana.
+- Conservar derechos fundamentales, igualdad, pluralismo, separación de poderes, controles y protección de minorías. Ninguna reducción de extensión justifica eliminar garantías o imponer una interpretación única.
+- Comparar guía explicativa, reforma de leyes de desarrollo y reforma constitucional, con coste de transición y coherencia con estatutos, leyes y obligaciones europeas e internacionales.
+- Impulsar únicamente reformas justificadas por los cauces de los artículos 166–169, con participación y debate informados. Una consulta informal, una recogida de apoyos o una guía no modifica la Constitución.
+
+**Procedimiento constitucional vigente [F35]:**
+
+| Supuesto | Procedimiento y garantía |
+|---|---|
+| Explicar el texto sin modificarlo | Guía no normativa, vinculada al texto oficial; no sustituye leyes, sentencias ni asesoramiento jurídico. |
+| Reforma por el artículo 167 | Regla general de tres quintos de cada Cámara y mecanismos de acuerdo. Si no se logra por esa vía y el texto obtiene mayoría absoluta del Senado, el Congreso puede aprobarlo por dos tercios conforme al apartado 2. Referéndum si lo solicita, dentro de 15 días de la aprobación, una décima parte de cualquiera de las Cámaras. |
+| Revisión total o parcial que afecte al título preliminar, sección primera del capítulo segundo del título I o título II: artículo 168 | Aprobación del principio por dos tercios de cada Cámara y disolución inmediata de las Cortes; las nuevas Cámaras ratifican la decisión y aprueban el texto por dos tercios de ambas; referéndum de ratificación obligatorio. No eludir este cauce presentando la revisión como simplificación. |
+| Iniciativa y límites: artículos 166 y 169 | Iniciativa conforme al artículo 87.1 y 87.2: no hay iniciativa legislativa popular directa de reforma constitucional. No puede iniciarse en tiempo de guerra ni durante alguno de los estados del artículo 116. |
+
+**Hitos pequeños:** K01 (semanas 1–2): elegir 1 artículo y documentar una dificultad; K02 (semanas 3–4): redactar explicación y comparar alternativas con revisión jurídica; K03 (semanas 5–8): realizar una prueba de comprensión y corregir; K04 (semanas 9–12): publicar ficha, límites y decisión. Se activa según capacidad, sin añadir automáticamente un cuarto frente al arranque.
+
+**Competencias:** instituciones con iniciativa y decisión constitucional según el título X, y tribunales en sus funciones de interpretación y control; colaboración académica y ciudadana para investigación, accesibilidad y debate. No se presupone apoyo institucional ni reforma autorizada.
+
+**Indicadores:** fichas completas y revisadas, personas participantes, aciertos y tiempo por tarea, errores sobre derechos, incidencias jurídicas corregidas y respuestas institucionales documentadas. Separar redacción, remisión, tramitación, aprobación y evaluación posterior.
+
+**Evidencia y diagnóstico pendiente:** texto oficial y procedimientos de reforma [F35]. La Constitución contiene 169 artículos, 4 disposiciones adicionales, 9 transitorias, 1 derogatoria y 1 final; el recuento describe estructura, no dificultad de lectura, ambigüedad o calidad. Falta una medición propia de comprensión y un diagnóstico jurídico de artículos concretos; no se inventa una tasa nacional de incomprensión.
+
+**Coste y financiación:** Pendientes de estimación. Incluir revisión jurídica plural, accesibilidad, traducción, participación, evaluación y actualización; justificar horas y precios antes de activar. No contabilizar supuestos ahorros judiciales como financiación ni considerar gratuita una reforma constitucional.
+
+**Riesgos y garantías:** Pérdida de precisión, sesgo partidista, falsas equivalencias entre guía y norma y exclusión de personas con dificultades de lectura. Texto oficial siempre identificado, discrepancias visibles, revisión independiente y protección de datos; no prometer ausencia de litigios o interpretaciones.
+
 ## 3. Ámbitos pendientes para un programa completo
 
 Esta versión incorpora pensiones y resiliencia, pero no cubre todavía todos los ámbitos de España. Quedan por desarrollar cuidados, adaptación climática y agua por sector, justicia y seguridad, además de accesibilidad en todos los servicios. El eje de contingencia no sustituye planes técnicos de cada ámbito y las pensiones requieren estudio actuarial y presupuestario.
@@ -1563,7 +1618,7 @@ Estas áreas no deben rellenarse con promesas genéricas: requieren diagnóstico
 
 ## 4. Cómo convertir una idea en una medida
 
-**Cómo leer los gráficos:** Cada eje dispone de cifras de fuente o contexto y de un gráfico de metas. Un dato nacional no sustituye la línea base local del piloto: empleo público no prueba duplicidades, participación electoral no mide comprensión y precio hotelero no equivale a alquiler residencial. Las figuras normativas son tablas legales, no nóminas auditadas; las contribuciones comunicadas no demuestran ejecución. Fechas, unidades, universo, cálculos y límites acompañan cada figura en web y PDF. No se convierte un valor ausente en cero ni se dibuja una curva de impacto sin modelo validado.
+**Cómo leer los gráficos:** Cada eje dispone de cifras de fuente o contexto y de un gráfico de metas. Un dato nacional no sustituye la línea base local del piloto: empleo público no prueba duplicidades, participación electoral no mide comprensión y precio hotelero no equivale a alquiler residencial. Las figuras normativas describen normas: las tablas retributivas no son nóminas auditadas y el número de artículos constitucionales no mide complejidad; las contribuciones comunicadas no demuestran ejecución. Fechas, unidades, universo, cálculos y límites acompañan cada figura en web y PDF. No se convierte un valor ausente en cero ni se dibuja una curva de impacto sin modelo validado.
 
 Cada propuesta que pase al programa definitivo tendrá una ficha:
 
@@ -1668,6 +1723,7 @@ No se propone desplegar todos los ejes a escala nacional el primer año. Corrupc
 | Protección intergeneracional | 27: suficiencia y financiación de pensiones. | Cuentas comparables, evaluación actuarial y diálogo social; conecta con empleo del 4 y fiscalidad del 16, sin depender de crecimiento garantizado. |
 | Transición tecnológica y protección | 28: comparar renta básica, garantía de ingresos y apoyos ante IA. | Evidencia, microsimulación, financiación y habilitación legal; conecta con 5, 9, 16 y 24, sin asumir desempleo masivo inevitable. |
 | Preparación ante crisis | 29: continuidad de servicios, alternativas de suministro y ejercicios. | Adhesión de responsables y operadores, recursos, criterios de activación y protección de información sensible; puede estudiarse sin esperar a una crisis. |
+| Claridad constitucional | 30: comprensión, fichas comparadas y reformas justificadas. | Revisión jurídica plural, accesibilidad y pruebas; conecta con 9, 20 y 22. Toda reforma depende de la iniciativa y procedimientos del título X; no añade un cuarto frente inicial ni sustituye el texto vigente. |
 
 ### Crear riqueza y reducir cargas con financiación demostrada
 
@@ -1867,12 +1923,13 @@ Participar o votar dentro de la iniciativa no sustituye las competencias de las 
 | 27. Pensiones suficientes y sostenibles | Evaluar financiación, suficiencia y efectos por generaciones con escenarios revisados, mejorar gestión e información y tramitar reformas con recursos y garantías. |
 | 28. Renta básica y libertad de proyecto | Comparar protección de ingresos compatible con trabajo e innovación, evaluar costes e incentivos y probar solo diseños autorizados y financiados, sin dar por inevitable una renta universal. |
 | 29. Resiliencia y planes de contingencia | Anticipar guerras y otras crisis con alternativas, coordinación, recursos y ejercicios, protegiendo servicios esenciales y revisando lo que falle. |
+| 30. Constitución clara y accesible | Simplificar la explicación y evaluar reformas de redacción justificadas, reduciendo ambigüedades evitables sin recortar derechos ni eludir las garantías de reforma. |
 
 **Regla de cierre:** ninguna propuesta se considerará lista para ejecución sin responsable, encaje legal, coste, financiación y evaluación. Este es un punto de partida para construir un programa, no una promesa de resultados aún no demostrados.
 
 ## 8. Fuentes y límites de la evidencia
 
-Revisión documental y ampliación de gráficos: 4 de octubre de 2026. El calendario T0–M48 conserva su referencia original del 3 de octubre. Las publicaciones antiguas pueden ser pertinentes como evidencia o norma, pero no se presentan como estadísticas actuales. Los registros administrativos, nóminas y datos de pilotos mencionados son fuentes que habrá que obtener legalmente, no datos ya recogidos.
+Revisión documental y ampliación de gráficos: 4 de octubre de 2026; incorporación del eje constitucional y su fuente: 5 de octubre de 2026. El calendario T0–M48 conserva su referencia original del 3 de octubre. Las publicaciones antiguas pueden ser pertinentes como evidencia o norma, pero no se presentan como estadísticas actuales. Los registros administrativos, nóminas y datos de pilotos mencionados son fuentes que habrá que obtener legalmente, no datos ya recogidos.
 
 ### Estadísticas oficiales
 
@@ -1911,6 +1968,8 @@ Revisión documental y ampliación de gráficos: 4 de octubre de 2026. El calend
 **[F33] Transporte de viajeros y viajes particulares.** [Ley 16/1987, LOTT, texto consolidado](https://www.boe.es/buscar/act.php?id=BOE-A-1987-17803): artículo 99.4, autorización para arrendamiento de turismo con conductor; artículo 101, condiciones del transporte privado particular y límites a remuneraciones. La aplicación concreta requiere normas autonómicas, locales y reglamentarias; no se deduce que cualquier particular pueda realizar viajes comerciales mediante una aplicación.
 
 **[F34] CNMC · impugnación de la regulación balear de taxi y VTC, 17 de julio de 2026.** [Nota oficial y expediente LA/02/2026](https://www.cnmc.es/prensa/impugnacion-decreto-vtc-taxi-20260717). Cuestiona determinados artículos del Decreto 6/2026: requisitos de vehículos, solicitudes, contratación parcial y tarifas. Describe la posición de la autoridad de competencia y una actuación judicial, no una sentencia firme ni una derogación general de restricciones españolas. Sus efectos económicos propuestos deben contrastarse, no contabilizarse como mejoras ya medidas.
+
+**[F35] Constitución Española · texto y reforma.** [Texto consolidado del BOE](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229), consultado el 5 de octubre de 2026. Artículos 166–169: iniciativa, procedimiento ordinario y agravado y límites temporales; artículos 87.1–2 y 116 por remisión. Estructura: 169 artículos, 4 disposiciones adicionales, 9 transitorias, 1 derogatoria y 1 final, sin contar preámbulo, títulos o rúbricas como artículos. Son cifras normativas, no una medición de dificultad, ambigüedad o comprensión. No justifican por sí solas reformar el texto; las explicaciones ciudadanas no tienen valor normativo.
 
 **Qué sigue pendiente:** evidencia específica y costes por intervención, fuentes de datos locales, evaluación jurídica detallada y acuerdos de ejecución. Argumentar un mecanismo y definir métricas mejora el diseño, pero no convierte todos los ejes en soluciones probadas.
 
