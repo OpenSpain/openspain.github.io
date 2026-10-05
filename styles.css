@@ -48,6 +48,7 @@ h1 > span, h2 > span { font-family: var(--serif); font-weight: 400; font-style: 
 .hero-description { font-size: 17px; line-height: 1.8; max-width: 465px; color: var(--muted); }
 .hero-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 25px; margin-top: 30px; }
 .signup-note { font-size: 12px; line-height: 1.6; color: var(--muted); margin: 12px 0 0; }
+.program-card { scroll-margin-top: 115px; }
 .button { display: inline-flex; justify-content: space-between; align-items: center; gap: 24px; padding: 17px 22px; border: 0; border-radius: 5px; font-size: 14px; font-weight: 600; transition: transform .2s, background .2s; }
 .button:hover { transform: translateY(-2px); }
 .button-dark { background: var(--blue); color: #fff; box-shadow: 0 5px 15px #2459df18; }
@@ -80,6 +81,10 @@ h1 > span, h2 > span { font-family: var(--serif); font-weight: 400; font-style: 
 .principle-strip > span:nth-child(even) { font-size: 20px; color: var(--blue); }
 .section { max-width: 1440px; margin: auto; padding: 86px 6%; }
 .section-top { display: flex; justify-content: space-between; align-items: center; gap: 20px; }
+.priorities-section .program-chapter { padding: 24px; }
+.priorities-section .data-table { min-width: 720px; }
+.priorities-section .program-chapter > p,
+.priorities-section .program-chapter > ul { line-height: 1.8; }
 .small-tag { font-size: 11px; border: 1px solid var(--line); border-radius: 20px; padding: 7px 12px; letter-spacing: 1px; }
 .section-heading { display: flex; justify-content: space-between; align-items: end; gap: 25px; margin: 26px 0 36px; }
 h2 { font-size: clamp(36px, 3.6vw, 51px); line-height: 1.1; letter-spacing: -2px; margin: 0; font-weight: 600; }

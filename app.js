@@ -35,6 +35,7 @@ function renderCards() {
   const filtered = filterAxes(axes, currentCategory, $('#search').value);
   $('#program-grid').replaceChildren(...filtered.map(axis => {
     const card = element('article', `program-card category-${axis.category}`);
+    card.id = `eje-${axis.id}`;
     const top = element('div', 'card-top');
     const icon = element('span', 'card-icon', axis.icon);
     icon.setAttribute('aria-hidden', 'true');
@@ -53,6 +54,16 @@ function renderCards() {
   }));
   $('#results-count').textContent = `${filtered.length} de ${axes.length} ejes · ${filtered.reduce((sum, axis) => sum + axis.measures.length, 0)} propuestas`;
   $('#empty-state').hidden = filtered.length > 0;
+}
+
+function revealLinkedAxis() {
+  const axis = axes.find(item => window.location.hash === `#eje-${item.id}`);
+  if (!axis) return;
+  currentCategory = 'all';
+  $('#search').value = '';
+  renderFilters();
+  renderCards();
+  $(`#eje-${axis.id}`).scrollIntoView({ behavior: 'instant', block: 'start' });
 }
 
 function appendInline(container, text) {
@@ -256,7 +267,7 @@ async function loadProgram() {
     renderFilters();
     renderCards();
     renderCoverage();
-    for (const [selector, chapter] of [['#method-content', 4], ['#plan-content', 5], ['#sources-content', 8]]) {
+    for (const [selector, chapter] of [['#method-content', 4], ['#plan-content', 5], ['#sources-content', 8], ['#priorities-content', 9]]) {
       const container = $(selector);
       container.replaceChildren();
       appendMarkdown(container, getChapter(markdown, chapter));
@@ -269,6 +280,7 @@ async function loadProgram() {
         createPolicyEvidence(axis.id));
       return disclosure;
     }));
+    revealLinkedAxis();
   } catch (error) {
     console.error('Error al cargar el programa:', error);
     $('#program-error').hidden = false;
@@ -280,6 +292,7 @@ async function loadProgram() {
 }
 
 $('#search').addEventListener('input', renderCards);
+window.addEventListener('hashchange', revealLinkedAxis);
 $('#retry-program').addEventListener('click', loadProgram);
 $('#reset-filters').addEventListener('click', () => {
   currentCategory = 'all';

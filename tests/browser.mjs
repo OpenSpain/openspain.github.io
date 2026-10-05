@@ -33,6 +33,14 @@ try {
   assert.equal(await page.locator('iframe').count(), 0);
   assert.equal(await page.locator('.program-card').count(), axisMetadata.length);
   assert.equal(await page.locator('.coverage-row').count(), 4);
+  for (const headline of await page.locator('.program-card h3').allTextContents()) {
+    assert.ok(headline.endsWith('.'), headline);
+  }
+  assert.equal(await page.locator('#priorities-content tbody tr').count(), 7);
+  assert.equal(await page.locator('#priorities-content').isVisible(), true);
+  assert.match(await page.locator('#priorities-content').textContent(), /Ampliar el parque público y protegido/);
+  assert.match(await page.locator('#priorities-content').textContent(), /habilitar suelo residencial/);
+  assert.match(await page.locator('#priorities-content').textContent(), /primer ciclo de 90 días/);
   await page.getByRole('button', { name: /Ver medidas: Constitución clara/ }).click();
   assert.match(await page.locator('#measure-content .citizen-summary').textContent(), /12 fichas/);
   assert.match(await page.locator('#measure-content .citizen-summary').textContent(), /40 fichas/);
@@ -40,6 +48,11 @@ try {
   assert.equal(await page.locator('#measure-content .target-figure').count(), 1);
   await page.locator('#measure-dialog .technical-details > summary').click();
   assert.match(await page.locator('#measure-content .technical-content').textContent(), /referéndum de ratificación obligatorio/);
+  await page.keyboard.press('Escape');
+  await page.getByRole('button', { name: /Ver medidas: Justicia accesible y ágil/ }).click();
+  assert.match(await page.locator('#measure-content .citizen-summary').textContent(), /sin recortar plazos de defensa/);
+  assert.match(await page.locator('#measure-content .evidence-label').first().textContent(), /ESTIMACIÓN ESTADÍSTICA/);
+  assert.equal(await page.locator('#measure-content .target-figure').count(), 1);
   await page.keyboard.press('Escape');
   await page.locator('#program-guide > summary').click();
   assert.equal(await page.locator('#program-guide-content').isVisible(), true);
@@ -155,6 +168,9 @@ try {
   assert.match(await reportPage.locator('#report-body').textContent(), /Unir no significa impunidad/);
   assert.match(await reportPage.locator('#eje-30').textContent(), /Constitución clara/);
   assert.equal(await reportPage.locator('[data-axis-evidence="30"] .target-figure').count(), 1);
+  assert.match(await reportPage.locator('#eje-31').textContent(), /Justicia accesible y ágil/);
+  assert.match(await reportPage.locator('.report-section').last().textContent(), /Problemas principales y primeras acciones/);
+  assert.match(await reportPage.locator('.report-section').last().textContent(), /habilitar suelo residencial/);
   assert.match(await reportPage.locator('[data-axis-evidence="25"]').textContent(), /60\.074/);
   assert.equal(await reportPage.locator('#report-ipc rect').count(), 8);
   assert.equal(await reportPage.locator('[data-axis-evidence]').count(), axisMetadata.length);
@@ -166,7 +182,7 @@ try {
   assert.equal(await page.locator('#axis-data-content > details').count(), axisMetadata.length);
   await page.locator('#diagnostico > summary').click();
   await page.locator('#axis-data-content > details').last().locator(':scope > summary').click();
-  assert.match(await page.locator('#axis-data-content > details').last().textContent(), /Constitución Española: estructura del texto/);
+  assert.match(await page.locator('#axis-data-content > details').last().textContent(), /Duración media estimada de asuntos civiles/);
   assert.equal(await page.locator('#axis-data-content .target-figure').count(), axisMetadata.length);
   await page.locator('#diagnostico > summary').click();
   assert.ok(await page.locator('#sources-content a[href^="https://"]').count() >= 18);
@@ -205,6 +221,18 @@ try {
   await failurePage.getByRole('button', { name: 'Reintentar' }).click();
   await failurePage.waitForSelector('.program-card');
   assert.equal(await failurePage.locator('.program-card').count(), axisMetadata.length);
+  await page.getByRole('searchbox').fill('zzzzzzzz');
+  await page.evaluate(() => { window.location.hash = '#eje-30'; });
+  await page.waitForFunction(() => document.querySelector('#eje-30')?.getBoundingClientRect().top >= 0
+    && document.querySelector('#eje-30')?.getBoundingClientRect().top < window.innerHeight);
+  assert.equal(await page.getByRole('searchbox').inputValue(), '');
+  assert.match(await page.locator('#eje-30 h3').textContent(), /Constitución clara y accesible/);
+  assert.ok(await page.locator('#eje-30').evaluate(node => node.getBoundingClientRect().top >= document.querySelector('.site-header').getBoundingClientRect().bottom));
+  const linkedPage = await browser.newPage({ viewport: { width: 390, height: 844 } });
+  await linkedPage.goto(`${baseURL.replace(/\/$/, '')}/#eje-31`);
+  await linkedPage.waitForFunction(() => document.querySelector('#eje-31')?.getBoundingClientRect().top >= 0
+    && document.querySelector('#eje-31')?.getBoundingClientRect().top < window.innerHeight);
+  assert.match(await linkedPage.locator('#eje-31 h3').textContent(), /Justicia accesible y ágil/);
   assert.deepEqual(errors, []);
   assert.deepEqual(typeformRequests, [], 'Typeform must not load before the visitor follows a signup link');
   console.log(`Browser checks passed: ${axisMetadata.length} axes, filters, search, charts, dialogs, download, retry and responsive layouts.`);

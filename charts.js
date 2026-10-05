@@ -218,6 +218,13 @@ export const observedCharts = {
     url: 'https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229',
     note: 'Recuento de artículos y disposiciones, sin preámbulo, títulos ni rúbricas. Las unidades tienen distinta extensión y función: no sumar como índice de complejidad. No mide comprensión, ambigüedad, litigios o calidad, ni demuestra que deba reformarse la Constitución.',
   }],
+  31: [{
+    title: 'Duración media estimada de asuntos civiles terminados: 2025',
+    labels: ['Ordinarios', 'Demás verbales'], values: [15.5, 11.1], unit: 'meses', kind: 'estimated',
+    source: 'CGPJ · primera instancia civil · España · hojas Ordinarios y Demas verbales · tabla de 16 de abril de 2026',
+    url: 'https://www.poderjudicial.es/stfls/ESTADISTICA/FICHEROS/Duraciones/20260416%20Juzgados%20de%20Primera%20Instancia%20%20y%20Primera%20Instancia%20e%20Instruccion%20-%20Civil%20-%20Duraciones.xlsx',
+    note: 'Modelo sobre asuntos ingresados, resueltos y pendientes; fila España, 2025, redondeada a una décima. No es una medición directa, mediana, duración de recursos o ejecución, ni predicción para un caso. Demás verbales excluye categorías desglosadas en otras hojas. No prueba corrupción ni sirve como línea base del piloto de gestión.',
+  }],
 };
 
 observedCharts[2].push(ineFigure('Sobrecarga de gasto en vivienda: 2024',
@@ -274,6 +281,7 @@ export const targetCharts = [
   ['Participantes en un piloto de protección de ingresos', null, null, 1000, 'personas', 'M12 no fija una meta de participantes: exige tres diseños comparados y un protocolo. En M48, al menos 1.000 participantes solo si se autoriza y financia; sin ello se informa del bloqueo. No representa pagos aprobados ni pobreza reducida.'],
   ['Entidades con planificación de contingencia evaluada', null, 10, 30, 'entidades', 'Indicador de alcance, no servicios preparados o daños evitados. Verificar alternativas, ejercicios, continuidad y correcciones; un plan redactado no cuenta como capacidad ensayada.'],
   ['Artículos con ficha revisada y prueba de comprensión', null, 12, 40, 'artículos', 'Entregas documentales propuestas, no artículos reformados. Exigir texto oficial, explicación, revisión jurídica independiente y prueba; medir comprensión y errores aparte. Sin equipo y financiación, informar del bloqueo.'],
+  ['Espera en actuaciones de gestión: índice de referencia', 100, 85, 75, 'índice', 'Referencia matemática = 100, no espera observada. Meta de actuaciones seleccionadas en las unidades participantes, no de todos los juicios. Comparar por tipo y complejidad, incluir pendientes y preservar defensa, calidad e independencia.'],
 ];
 
 function element(tag, text, className) {
@@ -288,6 +296,7 @@ function makeFigure(series, target = false) {
   const maximum = series.ceiling ?? Math.max(1, ...series.values.filter(value => value !== null));
   const label = target ? 'META PROPUESTA · NO PREVISIÓN'
     : series.kind === 'normative' ? 'CIFRA NORMATIVA · NO RESULTADO OBSERVADO'
+    : series.kind === 'estimated' ? 'ESTIMACIÓN ESTADÍSTICA · NO PLAZO DE UN CASO'
     : series.kind === 'announced' ? 'CONTRIBUCIÓN COMUNICADA · ALCANCE LIMITADO'
     : 'DATO OBSERVADO · FECHA Y ALCANCE';
   figure.append(element('p', label, 'evidence-label'), element('figcaption', series.title),

@@ -276,7 +276,7 @@ test('cooperation rejects blame-shifting without demanding conformity or weakeni
 
 test('constitutional clarity distinguishes accessible explanations from safeguarded legal reform', () => {
   const constitution = axes.find(axis => axis.id === 30);
-  assert.equal(axes.length, 30);
+  assert.equal(axes.length, 31);
   assert.equal(constitution.category, 'institutions');
   assert.match(constitution.title, /Constitución clara/);
   assert.match(constitution.citizenSummary, /12 fichas.*200 personas/);
@@ -300,4 +300,43 @@ test('constitutional clarity distinguishes accessible explanations from safeguar
   assert.deepEqual(targetCharts[29].slice(1, 4), [null, 12, 40]);
   assert.match(targetCharts[29][5], /no artículos reformados/);
   assert.ok(filterAxes(axes, 'institutions', 'constitucion clara').some(axis => axis.id === 30));
+});
+
+test('justice strengthens defence and integrity without treating delay as corruption', () => {
+  const justice = axes.find(axis => axis.id === 31);
+  assert.equal(justice.category, 'institutions');
+  assert.match(justice.title, /Justicia accesible y ágil/);
+  assert.match(justice.citizenSummary, /3 unidades.*15 %/);
+  assert.match(justice.citizenSummary, /10 unidades.*25 %/);
+  assert.match(justice.citizenSummary, /sin recortar plazos de defensa/);
+  assert.match(justice.citizenSummary, /sin identificar automáticamente lentitud con corrupción/);
+  assert.match(justice.citizenSummary, /no dirigir expedientes ni ofrecer defensa profesional/);
+  assert.match(justice.technicalBody, /no sustituye la notificación oficial ni modifica un plazo procesal/);
+  assert.match(justice.technicalBody, /No prometer abogado gratuito universal/);
+  assert.match(justice.technicalBody, /una queja no sustituye el recurso ni suspende su plazo/);
+  assert.match(justice.technicalBody, /No añade automáticamente un cuarto frente inicial/);
+  assert.match(getChapter(markdown, 5), /Justicia y defensa.*31:/);
+  assert.match(getChapter(markdown, 7), /31\. Justicia accesible y ágil/);
+  for (const ref of [36, 37]) assert.ok(getChapter(markdown, 8).includes(`[F${ref}]`));
+  assert.deepEqual(observedCharts[31][0].values, [15.5, 11.1]);
+  assert.equal(observedCharts[31][0].kind, 'estimated');
+  assert.match(observedCharts[31][0].note, /No es una medición directa/);
+  assert.match(observedCharts[31][0].note, /No prueba corrupción/);
+  assert.deepEqual(targetCharts[30].slice(1, 4), [100, 85, 75]);
+  assert.ok(filterAxes(axes, 'institutions', 'asistencia juridica').some(axis => axis.id === 31));
+});
+
+test('closing priorities reuse programme measures and preserve feasibility and guarantees', () => {
+  const closing = getChapter(markdown, 9);
+  const rows = closing.split('\n').filter(line => line.startsWith('|') && !line.includes('---'));
+  assert.equal(rows.length, 8);
+  assert.match(closing, /Ampliar el parque público y protegido de alquiler/);
+  assert.match(closing, /habilitar suelo residencial donde haya demanda, servicios financiados y garantías/);
+  assert.match(axes[1].technicalBody, /revisar restricciones urbanísticas innecesarias/);
+  assert.match(closing, /Una alerta o denuncia no es una condena/);
+  assert.match(closing, /No confundir demora con corrupción/);
+  assert.match(closing, /hasta 3 frentes/);
+  assert.match(closing, /Si solo hay capacidad para uno/);
+  assert.match(closing, /primer ciclo de 90 días/);
+  for (const [, headline] of axisMetadata) assert.ok(headline.endsWith('.'), headline);
 });

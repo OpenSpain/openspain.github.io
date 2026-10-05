@@ -96,6 +96,7 @@ Cada eje explica qué queremos cambiar, qué haremos en el primer año, qué que
 
 - Elaborar diagnósticos locales de demanda, oferta, suelo disponible, vivienda vacía y capacidad de infraestructuras.
 - Aumentar el parque público y protegido de alquiler con mecanismos que preserven su asequibilidad a largo plazo.
+- Evaluar habilitar suelo residencial y revisar restricciones urbanísticas innecesarias donde exista demanda acreditada, con costes de urbanización, agua, transporte y servicios financiados y respeto a seguridad, ambiente y garantías. No confundir reclasificar suelo con entregar viviendas habitables ni prometer que todo suelo debe urbanizarse.
 - Agilizar licencias con procedimientos claros, plazos verificables y personal suficiente, sin eliminar controles de seguridad o ambientales.
 - Facilitar rehabilitación y movilización de vivienda vacía mediante incentivos y garantías evaluables, distinguiendo viviendas habitables de inmuebles inutilizables.
 - Conectar las políticas de vivienda con transporte, servicios y empleo para evitar construir donde no existe demanda.
@@ -1610,9 +1611,60 @@ Los delitos graves, incluidos homicidio, crímenes de guerra o delitos contra in
 
 **Riesgos y garantías:** Pérdida de precisión, sesgo partidista, falsas equivalencias entre guía y norma y exclusión de personas con dificultades de lectura. Texto oficial siempre identificado, discrepancias visibles, revisión independiente y protección de datos; no prometer ausencia de litigios o interpretaciones.
 
+### 2.31. Justicia accesible y ágil, defensa efectiva e integridad
+
+**Qué queremos mejorar:** Que acceder a la justicia no dependa de poder soportar años de incertidumbre, trámites incomprensibles o costes de defensa inasumibles. Investigar las causas de las demoras sin identificar automáticamente lentitud con corrupción.
+
+**Qué proponemos:** Reforzar capacidad y organización, simplificar trámites repetidos y facilitar seguimiento comprensible de expedientes y acceso efectivo a la defensa. Conectar con los controles de integridad del eje 1, preservando independencia judicial, derechos de víctimas y defensa y revisión de decisiones.
+
+**Cómo sabremos si funciona:** Menos espera en actuaciones de gestión comparables, menos notificaciones fallidas y trámites repetidos, información entendida por las partes y asistencia jurídica accesible. Medir calidad, recursos y errores; resolver más asuntos no basta si se pierde defensa o se desplaza el atasco a ejecución.
+
+**Argumento y alternativa:** Más personal sin diagnóstico puede desplazar un cuello de botella; digitalizar un trámite innecesario no lo elimina. Comparar refuerzo de equipos, organización, interoperabilidad y simplificación legal con mediación u otras vías solo cuando sean procedentes y seguras. No presionar a nadie para renunciar a juicio o aceptar un acuerdo ni prometer una duración universal.
+
+**Indicador principal y fuente:** Mediana y percentil 90 de días entre hitos de gestión definidos por procedimiento, con registros autorizados y datos agregados de las unidades participantes. Separar tiempo administrativo, tramitación judicial, recursos y ejecución; acompañar los asuntos terminados con antigüedad de pendientes y suspensiones justificadas.
+
+**Qué haremos en el primer año:** En 3 unidades judiciales o servicios de gestión adheridos, identificar en M3 los cuellos de botella y reducir un 15 % la mediana de espera de las actuaciones seleccionadas antes de M12, sin recortar plazos de defensa. Publicar un mapa de trámites y acceso a asistencia jurídica y probar sus explicaciones con 100 usuarios voluntarios, sin recopilar expedientes personales en OpenSpain.
+
+**Qué queremos conseguir en cuatro años:** Extender a 10 unidades, reducir un 25 % la espera de las actuaciones comparables de la cohorte inicial y actualizar anualmente capacidad, pendientes y calidad. Todos los servicios participantes mantendrán vías de atención presencial o asistida y seguimiento autorizado, con evaluación de acceso a defensa y recursos comprometidos.
+
+**Pasos y responsables:** Administración de Justicia estatal y autonómica en sus competencias, responsables de oficinas y unidades judiciales, órganos de gobierno judicial y colegios profesionales: diagnóstico y permisos en M1–M3; revisión de procesos, recursos y garantías en M4–M6; pruebas y evaluación en M7–M12; ampliación condicionada en años 2–4. Los jueces deciden los asuntos con independencia; OpenSpain puede preparar propuestas y evaluar información pública, no dirigir expedientes ni ofrecer defensa profesional.
+
+**Cómo comprobaremos los avances:** Comparar con los 12 meses previos a la intervención por tipo de trámite y complejidad, con cohortes y fechas publicadas. Contar asuntos antiguos, pendientes, anulaciones, notificaciones fallidas y cargas trasladadas. No acortar estadísticas dejando de admitir asuntos, excluyendo casos difíciles o convirtiendo rapidez en una prima por condenar, absolver o cerrar.
+
+#### Ficha técnica
+
+**Problema a estudiar:** sobrecarga, vacantes, discontinuidad de equipos, fallos de notificación, sistemas que no interoperan, duplicidades y dificultades para conseguir orientación o asistencia jurídica. Analizar también conflictos de interés o irregularidades cuando existan indicios concretos, sin presumirlos por el retraso o por una resolución desfavorable.
+
+**Propuestas:**
+
+- Publicar diagnósticos agregados por jurisdicción y procedimiento: carga, antigüedad de pendientes, vacantes, notificaciones y fases de recurso y ejecución. Asignar medios según necesidades contrastadas, con presupuesto y evaluación de calidad, no solo volumen.
+- Reutilizar documentos y datos donde exista habilitación legal, mejorar notificaciones y coordinación y eliminar pasos repetidos sin perder contradicción, prueba o recurso. Priorizar interoperabilidad y canales oficiales existentes frente a crear otro portal aislado.
+- Ofrecer a las partes autorizadas seguimiento de fase, última actuación y siguiente paso en lenguaje comprensible, con autenticación, permisos y atención asistida. Una explicación de estado no sustituye la notificación oficial ni modifica un plazo procesal.
+- Facilitar orientación jurídica, solicitud y seguimiento de justicia gratuita según la Ley 1/1996 [F37]; revisar recursos y pago de servicios profesionales y tiempos de designación con datos. No prometer abogado gratuito universal ni reducir el derecho de defensa para ahorrar.
+- Proteger tiempo y medios adecuados de defensa, acceso a actuaciones cuando proceda, presunción de inocencia, prueba, intérprete y accesibilidad. No desatender reparación, información y protección de víctimas ni confundir una denuncia con condena.
+- Reforzar trazabilidad de reparto, conflictos de interés, contratación tecnológica y decisiones de gestión mediante controles independientes y los cauces legales. Proteger a informantes, secreto de actuaciones y datos; distinguir denuncia, investigación y resolución firme.
+- Separar quejas por funcionamiento, denuncias de posibles delitos y recursos contra resoluciones. Publicar cauces y estado agregado cuando proceda; una queja no sustituye el recurso ni suspende su plazo.
+- Evaluar mediación y otras vías de resolución solo en materias admisibles, con información y garantías, sin coacción ni situaciones de violencia o desigualdad que las hagan improcedentes. No convertirlas en obstáculos adicionales al acceso judicial.
+
+**Conexión con corrupción y vivienda:** El eje 1 hace trazable el uso de fondos y exige controles; este eje refuerza capacidad y garantías para investigar, defender, resolver y ejecutar conforme a derecho. Una mejora de gestión no acredita menos corrupción. En vivienda conecta con el eje 2 para resolver conflictos con tutela efectiva, sin desalojo privado, condena automática ni privilegios por renta o afinidad política.
+
+**Datos de contexto [F36]:** El CGPJ estima para asuntos civiles terminados en 2025 en primera instancia 15,5 meses en ordinarios y 11,1 en la categoría «Demás verbales». Son aproximaciones mediante un modelo de asuntos ingresados, resueltos y pendientes, no mediciones individuales ni medias de toda la justicia. No incluyen por sí solas recursos o ejecución ni prueban corrupción; no sirven para pronosticar un caso concreto.
+
+**Hitos pequeños:** J01 (semanas 1–2): elegir 1 procedimiento y mapear fases con fuentes públicas; J02 (semanas 3–4): documentar un cuello de botella y una alternativa con revisión jurídica; J03 (semanas 5–8): acordar acceso legal a datos y recursos o declarar el bloqueo; J04 (semanas 9–12): probar una explicación o mejora autorizada y publicar evaluación agregada. No añade automáticamente un cuarto frente inicial.
+
+**Competencias:** jueces y tribunales en su función jurisdiccional e independencia; órganos de gobierno judicial, Ministerio competente y comunidades con medios transferidos en sus funciones; profesionales y comisiones de asistencia jurídica gratuita según ley. Las reformas procesales y presupuestarias requieren sus procedimientos.
+
+**Indicadores:** espera mediana y percentil 90 por actuación, antigüedad de pendientes, repeticiones, notificaciones fallidas, acceso y tiempos de asistencia jurídica, comprensión, incidencias y coste completo. No puntuar la calidad de un juez por el sentido de sus resoluciones ni publicar expedientes o datos identificativos.
+
+**Evidencia y diagnóstico pendiente:** estimaciones oficiales del CGPJ y sus límites [F36], tutela judicial efectiva y garantías del artículo 24 de la Constitución y gratuidad en los términos del artículo 119 [F35], y Ley 1/1996 [F37]. Falta medir cada unidad, fase y barrera de defensa, además de disponer de acuerdos y recursos; no hay un cálculo validado de demora eliminable.
+
+**Coste y financiación:** Pendientes de estimación. Incluir personal, formación, interoperabilidad, accesibilidad, asistencia jurídica, mantenimiento y evaluación. La reducción del atasco no se contabiliza automáticamente como ahorro ni financia por sí sola el refuerzo.
+
+**Riesgos y garantías:** Presiones sobre independencia, decisiones apresuradas, indefensión, exclusión digital y exposición de datos. Revisión independiente, canales asistidos, acceso limitado y medidas reversibles; ante empeoramiento de garantías, corregir o suspender la intervención.
+
 ## 3. Ámbitos pendientes para un programa completo
 
-Esta versión incorpora pensiones y resiliencia, pero no cubre todavía todos los ámbitos de España. Quedan por desarrollar cuidados, adaptación climática y agua por sector, justicia y seguridad, además de accesibilidad en todos los servicios. El eje de contingencia no sustituye planes técnicos de cada ámbito y las pensiones requieren estudio actuarial y presupuestario.
+Esta versión incorpora pensiones, resiliencia, claridad constitucional y justicia accesible, pero no cubre todavía todos los ámbitos de España. Quedan por desarrollar cuidados, adaptación climática y agua por sector y seguridad ciudadana, además de accesibilidad en todos los servicios. El eje de contingencia no sustituye planes técnicos de cada ámbito, las pensiones requieren estudio actuarial y presupuestario y el eje de justicia no agota las reformas de cada jurisdicción.
 
 Estas áreas no deben rellenarse con promesas genéricas: requieren diagnóstico, participación de personas afectadas y evaluación de recursos.
 
@@ -1724,6 +1776,7 @@ No se propone desplegar todos los ejes a escala nacional el primer año. Corrupc
 | Transición tecnológica y protección | 28: comparar renta básica, garantía de ingresos y apoyos ante IA. | Evidencia, microsimulación, financiación y habilitación legal; conecta con 5, 9, 16 y 24, sin asumir desempleo masivo inevitable. |
 | Preparación ante crisis | 29: continuidad de servicios, alternativas de suministro y ejercicios. | Adhesión de responsables y operadores, recursos, criterios de activación y protección de información sensible; puede estudiarse sin esperar a una crisis. |
 | Claridad constitucional | 30: comprensión, fichas comparadas y reformas justificadas. | Revisión jurídica plural, accesibilidad y pruebas; conecta con 9, 20 y 22. Toda reforma depende de la iniciativa y procedimientos del título X; no añade un cuarto frente inicial ni sustituye el texto vigente. |
+| Justicia y defensa | 31: menos espera de gestión, seguimiento comprensible y asistencia jurídica accesible. | Competencias, independencia, recursos y acceso autorizado a datos; conecta con integridad del 1 y vivienda del 2. No añade un cuarto frente inicial ni reduce garantías para cumplir plazos. |
 
 ### Crear riqueza y reducir cargas con financiación demostrada
 
@@ -1924,12 +1977,13 @@ Participar o votar dentro de la iniciativa no sustituye las competencias de las 
 | 28. Renta básica y libertad de proyecto | Comparar protección de ingresos compatible con trabajo e innovación, evaluar costes e incentivos y probar solo diseños autorizados y financiados, sin dar por inevitable una renta universal. |
 | 29. Resiliencia y planes de contingencia | Anticipar guerras y otras crisis con alternativas, coordinación, recursos y ejercicios, protegiendo servicios esenciales y revisando lo que falle. |
 | 30. Constitución clara y accesible | Simplificar la explicación y evaluar reformas de redacción justificadas, reduciendo ambigüedades evitables sin recortar derechos ni eludir las garantías de reforma. |
+| 31. Justicia accesible y ágil | Reducir demoras evitables y trámites repetidos, facilitar seguimiento y defensa efectiva y reforzar integridad sin interferir en decisiones judiciales. |
 
 **Regla de cierre:** ninguna propuesta se considerará lista para ejecución sin responsable, encaje legal, coste, financiación y evaluación. Este es un punto de partida para construir un programa, no una promesa de resultados aún no demostrados.
 
 ## 8. Fuentes y límites de la evidencia
 
-Revisión documental y ampliación de gráficos: 4 de octubre de 2026; incorporación del eje constitucional y su fuente: 5 de octubre de 2026. El calendario T0–M48 conserva su referencia original del 3 de octubre. Las publicaciones antiguas pueden ser pertinentes como evidencia o norma, pero no se presentan como estadísticas actuales. Los registros administrativos, nóminas y datos de pilotos mencionados son fuentes que habrá que obtener legalmente, no datos ya recogidos.
+Revisión documental y ampliación de gráficos: 4 de octubre de 2026; incorporación de los ejes constitucional y judicial, sus fuentes y el resumen de acciones: 5 de octubre de 2026. El calendario T0–M48 conserva su referencia original del 3 de octubre. Las publicaciones antiguas pueden ser pertinentes como evidencia o norma, pero no se presentan como estadísticas actuales. Los registros administrativos, nóminas y datos de pilotos mencionados son fuentes que habrá que obtener legalmente, no datos ya recogidos.
 
 ### Estadísticas oficiales
 
@@ -1970,6 +2024,10 @@ Revisión documental y ampliación de gráficos: 4 de octubre de 2026; incorpora
 **[F34] CNMC · impugnación de la regulación balear de taxi y VTC, 17 de julio de 2026.** [Nota oficial y expediente LA/02/2026](https://www.cnmc.es/prensa/impugnacion-decreto-vtc-taxi-20260717). Cuestiona determinados artículos del Decreto 6/2026: requisitos de vehículos, solicitudes, contratación parcial y tarifas. Describe la posición de la autoridad de competencia y una actuación judicial, no una sentencia firme ni una derogación general de restricciones españolas. Sus efectos económicos propuestos deben contrastarse, no contabilizarse como mejoras ya medidas.
 
 **[F35] Constitución Española · texto y reforma.** [Texto consolidado del BOE](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229), consultado el 5 de octubre de 2026. Artículos 166–169: iniciativa, procedimiento ordinario y agravado y límites temporales; artículos 87.1–2 y 116 por remisión. Estructura: 169 artículos, 4 disposiciones adicionales, 9 transitorias, 1 derogatoria y 1 final, sin contar preámbulo, títulos o rúbricas como artículos. Son cifras normativas, no una medición de dificultad, ambigüedad o comprensión. No justifican por sí solas reformar el texto; las explicaciones ciudadanas no tienen valor normativo.
+
+**[F36] CGPJ · duración media estimada de asuntos civiles terminados en 2025.** [Metodología oficial](https://www.poderjudicial.es/cgpj/es/Temas/Estadistica-Judicial/Estadistica-por-temas/Actividad-de-los-organos-judiciales/Estimacion-de-los-tiempos-medios-de-los-asuntos-terminados/) y [Excel original de primera instancia civil](https://www.poderjudicial.es/stfls/ESTADISTICA/FICHEROS/Duraciones/20260416%20Juzgados%20de%20Primera%20Instancia%20%20y%20Primera%20Instancia%20e%20Instruccion%20-%20Civil%20-%20Duraciones.xlsx), de 16 de abril de 2026, consultados el 5 de octubre. Hojas «Ordinarios» y «Demas verbales», fila España, columna 2025: 15,464086576143092 y 11,137450171266176 meses, redondeados a 15,5 y 11,1. Modelo de ingresos, resoluciones y pendientes, no medición directa ni previsión individual; no distingue formas de terminación. La categoría «Demás verbales» no incluye todas las modalidades verbales. No cubre por sí sola recursos y ejecución ni cuantifica corrupción.
+
+**[F37] Asistencia jurídica gratuita.** [Ley 1/1996, texto consolidado](https://www.boe.es/buscar/act.php?id=BOE-A-1996-750), consultada el 5 de octubre de 2026, junto con artículos 24 y 119 de la Constitución [F35]. La elegibilidad, alcance y reconocimiento dependen de los supuestos legales; no todo servicio de abogado es gratuito para cualquier persona. La norma no demuestra tiempos reales de designación, suficiencia de medios o ausencia de barreras; deben medirse.
 
 **Qué sigue pendiente:** evidencia específica y costes por intervención, fuentes de datos locales, evaluación jurídica detallada y acuerdos de ejecución. Argumentar un mecanismo y definir métricas mejora el diseño, pero no convierte todos los ejes en soluciones probadas.
 
@@ -2016,3 +2074,21 @@ Revisión documental y ampliación de gráficos: 4 de octubre de 2026; incorpora
 **[F32] Ministerio de Transportes · autorizaciones de viajeros en turismos, 1 de septiembre de 2026.** [Tabla nacional original](https://cdn.transportes.gob.es/portal-web-transportes/transporte-terrestre/estadisticas-tt/webturi.pdf): total 60.074 VT-N y 27.107 VTC-N, distribuido por comunidad autónoma. «N» indica ámbito nacional de la autorización estatal, no habilitación para cualquier servicio urbano. No equivale a personas empleadas, vehículos activos, viajes ni todas las licencias municipales de taxi. El enlace se actualiza: la figura conserva la fecha de la tabla consultada el 4 de octubre de 2026.
 
 **Cálculos transparentes y límites:** con asalariados = 100 − 54,4 %; población menor de 65 = 100 − 20,7 %; otros órganos de publicidad = total menos cuatro ministerios mostrados; no votantes = censo − votantes. Son cálculos de contexto, no nuevas mediciones. Los datos publicados cubren cada eje, pero muchas líneas base específicas del objetivo, costes, comparadores e impactos causales siguen pendientes.
+
+## 9. Problemas principales y primeras acciones
+
+**Una idea central:** menos barreras para vivir y crear, más garantías para todos y responsables que expliquen qué hacen. Este resumen selecciona problemas y acciones del programa; no demuestra su magnitud ni convierte propuestas en medidas aprobadas.
+
+| Problema principal | Acción propuesta | Primer paso comprobable | Ejes |
+|---|---|---|---|
+| Vivienda difícil de encontrar y pagar | Ampliar el parque público y protegido de alquiler, rehabilitar y habilitar suelo residencial donde haya demanda, servicios financiados y garantías; agilizar licencias sin eliminar controles. | Elegir un municipio, contrastar demanda, suelo y vivienda recuperable y comparar al menos 2 alternativas con coste, financiación y responsable. Reclasificar suelo no equivale a entregar viviendas. | 2 |
+| Corrupción y fondos públicos difíciles de seguir | Hacer trazables financiación, conflictos de interés y contratos desde presupuesto hasta entrega; reforzar controles independientes y exigir reparación cuando proceda. | Revisar 10 contratos de una entidad con información pública, registrar fases y carencias y proponer un seguimiento verificable. Una alerta o denuncia no es una condena ni un ahorro demostrado. | 1 y 12 |
+| Justicia lenta y defensa difícil de conseguir | Resolver cuellos de botella, eliminar trámites repetidos y facilitar seguimiento y asistencia jurídica, con independencia y derechos de defensa y víctimas. | Mapear 1 procedimiento, localizar una demora de gestión y comparar una mejora con recursos y revisión jurídica. No confundir demora con corrupción ni prometer un plazo universal de juicio. | 31 |
+| Burocracia que frena actividad y servicios | Reutilizar datos donde sea legal, clarificar responsables y eliminar requisitos redundantes hasta poder operar, no solo constituir una empresa. | Elegir 1 trámite y proponer eliminar o reutilizar 1 petición documental, con base legal y medida de tiempo y calidad. | 6, 14 y 15 |
+| Talento y trabajo que no se traducen en mejores ingresos | Mejorar capacidades y productividad, conectar empresas con clientes e inversión y revisar cargas con financiación explícita y protección efectiva. | Elegir una cohorte, medir ingreso neto y coste total y diseñar una prueba de formación o acceso a clientes; no contar reuniones o inversión anunciada como ventas o renta conseguida. | 4, 9, 11, 15 y 16 |
+| Dependencia energética y vulnerabilidad ante crisis | Reducir consumo fósil, diversificar suministros y preparar alternativas ensayadas para servicios esenciales. | Identificar una función crítica, su dependencia y una alternativa con responsable, recursos y prueba, siguiendo autoridades y protocolos. | 17 y 29 |
+| Constitución difícil de comprender | Explicarla con lenguaje claro y evaluar reformas justificadas de redacción, sin recortar derechos ni imponer una interpretación única. | Preparar 1 ficha con texto oficial, explicación, revisión jurídica y prueba de comprensión. Una guía no modifica la Constitución ni sustituye sus procedimientos de reforma. | 30 |
+
+**La acción importante para empezar:** elegir hasta 3 frentes —vivienda, integridad y contratación y un trámite concreto— y publicar para cada uno problema acotado, responsable confirmado, siguiente entrega, fecha, recursos y criterio de aceptación. Si solo hay capacidad para uno, dejar los demás en espera. Justicia y los otros ejes mantienen su propuesta, pero no se activan sin equipo, competencias y financiación.
+
+**Qué debe verse al final del primer ciclo de 90 días:** fichas y entregas verificadas, carencias declaradas, gasto real y decisión de probar con acuerdo, corregir, esperar o cerrar. Una reunión, un documento o un apoyo no se presentan como una vivienda entregada, corrupción reducida o justicia más rápida.
