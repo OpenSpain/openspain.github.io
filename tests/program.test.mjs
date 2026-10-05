@@ -25,9 +25,7 @@ test('all configured axes and every proposal are read from the source document',
   assert.ok(filterAxes(axes, 'life', 'pequeños propietarios').some(axis => axis.id === 2));
   assert.ok(filterAxes(axes, 'economy', 'venture capital').some(axis => axis.id === 11));
   assert.ok(filterAxes(axes, 'institutions', 'bono desempeño').some(axis => axis.id === 23));
-  assert.ok(axes.every(axis => axis.citizenSummary.includes('**Qué queremos mejorar:**')
-    && axis.citizenSummary.includes('**Qué proponemos:**')
-    && axis.citizenSummary.includes('**Cómo sabremos si funciona:**')
+  assert.ok(axes.every(axis => axis.citizenSummary.includes('#### Plan de actuación')
     && axis.technicalBody.includes('**Coste y financiación:**')
     && axis.technicalBody.includes('**Riesgos y garantías:**')));
   assert.ok(filterAxes(axes, 'future', 'satélite').some(axis => axis.id === 25));
@@ -43,29 +41,23 @@ test('search is accent insensitive and includes all proposal text', () => {
   assert.equal(filterAxes(axes, 'all', 'zzzzzzz').length, 0);
 });
 
-test('all 31 axes provide concise explanations, hypothetical examples and balanced interests', () => {
+test('all 31 axes integrate hypothetical examples and interests in prose without repeated labels', () => {
   for (const axis of axes) {
-    const labels = [
-      '**Qué queremos mejorar:**',
-      '**Qué proponemos:**',
-      '**Cómo sabremos si funciona:**',
-      '**Ejemplo cotidiano (hipotético):**',
-      '**Intereses que hay que equilibrar:**',
-      '**Argumento y alternativa:**',
-    ];
-    const paragraphs = axis.citizenSummary.split('\n\n');
-    assert.deepEqual(paragraphs.slice(0, labels.length).map(paragraph => paragraph.match(/^\*\*[^*]+:\*\*/)?.[0]),
-      labels, `Eje ${axis.id}: orden de lectura`);
-    for (const label of labels) {
-      assert.equal(axis.citizenSummary.split(label).length - 1, 1, `Eje ${axis.id}: ${label}`);
-    }
-    const wordCount = paragraph => paragraph.replace(/^\*\*[^*]+:\*\*\s*/, '').trim().split(/\s+/).length;
-    assert.ok(paragraphs.slice(0, 3).reduce((total, paragraph) => total + wordCount(paragraph), 0) <= 100,
+    const paragraphs = axis.citizenSummary.split('\n\n#### Plan de actuación\n\n')[0].split('\n\n');
+    assert.equal(paragraphs.length, 4, `Eje ${axis.id}: párrafos de primera lectura`);
+    assert.match(paragraphs[0], /^Queremos .+ Para ello, proponemos /);
+    assert.match(paragraphs[1], /^En un caso hipotético, /);
+    assert.match(paragraphs[3], /^Para saber si funciona, proponemos /);
+    assert.doesNotMatch(axis.citizenSummary, /^\*\*.+?:\*\*/m, `Eje ${axis.id}: etiquetas repetidas`);
+    const wordCount = paragraph => paragraph.trim().split(/\s+/).length;
+    assert.ok(wordCount(paragraphs[0]) <= 100,
       `Eje ${axis.id}: explicación inicial demasiado larga`);
-    for (const paragraph of paragraphs.slice(3, 5)) {
+    for (const paragraph of paragraphs.slice(1, 3)) {
       assert.ok(wordCount(paragraph) >= 20 && wordCount(paragraph) <= 80,
         `Eje ${axis.id}: ejemplo o equilibrio sin explicación suficiente o demasiado largo`);
     }
+    assert.match(axis.technicalBody, /\*\*Fundamento y alternativas:\*\*/);
+    assert.match(axis.technicalBody, /\*\*Medición y fuentes:\*\*/);
   }
   const guide = getChapter(markdown, 2).split(/^### /m)[0];
   assert.match(guide, /situaciones hipotéticas/);
@@ -90,17 +82,12 @@ test('private activity reform remains distinct from existing law and public perf
 test('every axis exposes one- and four-year objectives, execution and measurement before technical detail', () => {
   assert.doesNotMatch(markdown, /\bSMART\b/i);
   for (const axis of axes) {
-    for (const label of [
-      '**Qué haremos en el primer año:**',
-      '**Qué queremos conseguir en cuatro años:**',
-      '**Pasos y responsables:**',
-      '**Cómo comprobaremos los avances:**',
-    ]) {
-      assert.equal(axis.citizenSummary.split(label).length - 1, 1, `Eje ${axis.id}: ${label}`);
-    }
-    assert.match(axis.citizenSummary.split('**Qué haremos en el primer año:**')[1].split('\n')[0], /\d/);
-    assert.match(axis.citizenSummary.split('**Qué queremos conseguir en cuatro años:**')[1].split('\n')[0], /\d|anualmente|todas/);
-    assert.match(axis.citizenSummary.split('**Pasos y responsables:**')[1].split('\n')[0], /M1–M3|M1–M6/);
+    assert.equal(axis.citizenSummary.split('#### Plan de actuación').length - 1, 1);
+    const plan = axis.citizenSummary.split('#### Plan de actuación')[1].split('\n\n').filter(Boolean);
+    assert.match(plan.find(paragraph => paragraph.startsWith('En el primer año,')), /\d/);
+    assert.match(plan.find(paragraph => paragraph.startsWith('En cuatro años,')), /\d|anualmente|todas/);
+    assert.match(plan.find(paragraph => paragraph.startsWith('La ejecución correspondería a ')), /M1–M3|M1–M6/);
+    assert.match(axis.technicalBody, /\*\*Medición y fuentes:\*\*/);
   }
   assert.match(markdown, /M12 = 3 de octubre de 2027/);
   assert.match(markdown, /M48 = 3 de octubre de 2030/);
@@ -221,7 +208,7 @@ test('tourism, international talent and longer permits preserve legal and housin
   const migration = axes.find(axis => axis.id === 7);
   const remote = axes.find(axis => axis.id === 25);
   assert.match(tourism.citizenSummary, /alojamiento turístico legal, diverso y a precios accesibles/);
-  assert.match(tourism.citizenSummary, /cesta fija de estancias/);
+  assert.match(tourism.technicalBody, /cesta fija de estancias/);
   assert.match(tourism.citizenSummary, /No comprometer una rebaja porcentual/);
   assert.match(tourism.body, /No reservar el mercado a grandes cadenas/);
   assert.match(migration.citizenSummary, /hasta un año.*hasta tres años.*períodos de dos años/);
@@ -294,7 +281,7 @@ test('cooperation rejects blame-shifting without demanding conformity or weakeni
   const cohesion = axes.find(axis => axis.id === 20);
   assert.match(getChapter(markdown, 1), /Unir esfuerzos, no repartir culpas/);
   assert.match(cohesion.citizenSummary, /10 proyectos.*20 municipios.*5 comunidades/);
-  assert.match(cohesion.citizenSummary, /Alcanzar 40 proyectos.*60 %/);
+  assert.match(cohesion.citizenSummary, /alcanzar 40 proyectos.*60 %/);
   assert.match(cohesion.citizenSummary, /protocolo de diálogo y un registro/);
   assert.match(cohesion.body, /no exime de explicar la responsabilidad actual/);
   assert.match(cohesion.body, /ofrecer revisión|Ofrecer revisión/);
@@ -312,8 +299,8 @@ test('constitutional clarity distinguishes accessible explanations from safeguar
   assert.match(constitution.title, /Constitución clara/);
   assert.match(constitution.citizenSummary, /12 fichas.*200 personas/);
   assert.match(constitution.citizenSummary, /40 fichas.*600 participantes/);
-  assert.match(constitution.citizenSummary, /no se promete eliminarla ni imponer una lectura política única/);
-  assert.match(constitution.citizenSummary, /no generalizar|sin generalizar una muestra voluntaria/);
+  assert.match(constitution.technicalBody, /no se promete eliminarla ni imponer una lectura política única/);
+  assert.match(constitution.technicalBody, /no generalizar|sin generalizar una muestra voluntaria/);
   assert.match(constitution.technicalBody, /sin atribuir valor normativo a la guía/);
   assert.match(constitution.technicalBody, /tres quintos de cada Cámara/);
   assert.match(constitution.technicalBody, /mayoría absoluta del Senado.*dos tercios/);

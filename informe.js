@@ -122,9 +122,6 @@ function renderMarkdown(markdown) {
       list = undefined;
       const paragraph = node(line.startsWith('> ') ? 'blockquote' : 'p');
       inline(paragraph, line.startsWith('> ') ? line.slice(2) : line);
-      if (/^\*\*(Qué queremos mejorar|Qué proponemos|Cómo sabremos si funciona):/.test(line)) {
-        paragraph.className = 'citizen-summary-line';
-      }
       content.append(paragraph);
     }
   }

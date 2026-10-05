@@ -60,7 +60,6 @@ a { color: var(--blue); overflow-wrap: anywhere; text-decoration-color: var(--bl
 .report-body-content .evidence-label, .report-body-content .evidence-unit,
 .report-body-content .evidence-source { text-align: left; hyphens: none; }
 .report-body-content strong { color: var(--navy); }
-.report-body-content .citizen-summary-line { background: #edf1f8; border-left: 3pt solid var(--blue); padding: 9pt 12pt; break-inside: avoid; }
 .technical-heading { font-size: 14pt; margin: 19pt 0 12pt; padding-top: 10pt; border-top: 1px solid var(--line); }
 .policy-evidence { margin: 12pt 0; }
 .evidence-figure { margin: 10pt 0; padding: 10pt; border: 1px solid var(--line); border-radius: 4pt; break-inside: avoid; }
@@ -108,7 +107,6 @@ tbody tr:nth-child(even) { background: #edf1f8; }
   .axis-heading { break-before: auto; font-size: 22pt; padding-top: 15pt; margin: 22pt 0 14pt; }
   .axis-heading .axis-label { margin-bottom: 10pt; }
   .report-body-content p { margin: 8pt 0; }
-  .report-body-content .citizen-summary-line { break-inside: auto; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
   .report-body-content ul { margin: 9pt 0; }
   .report-body-content li { margin-bottom: 6pt; }
   .report-body-content h3:not(.axis-heading) { font-size: 16pt; margin: 17pt 0 10pt; }

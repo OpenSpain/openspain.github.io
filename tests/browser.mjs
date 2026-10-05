@@ -2,7 +2,7 @@ import { chromium } from '@playwright/test';
 import assert from 'node:assert/strict';
 import { mkdir } from 'node:fs/promises';
 import { join } from 'node:path';
-import { axisMetadata, parseProgram } from '../program.js';
+import { axisMetadata, parseProgram, inlineParts } from '../program.js';
 import { observedCharts } from '../charts.js';
 
 const baseURL = process.env.BASE_URL || 'http://127.0.0.1:4173';
@@ -38,11 +38,11 @@ try {
   for (const axis of sourceAxes) {
     await page.locator(`#eje-${axis.id}`).getByRole('button').click();
     const summary = page.locator('#measure-content .citizen-summary');
-    for (const label of ['Ejemplo cotidiano (hipotético):', 'Intereses que hay que equilibrar:']) {
-      const paragraph = axis.citizenSummary.split('\n\n').find(text => text.startsWith(`**${label}**`));
-      assert.equal(await summary.locator('p').filter({ has: page.locator('strong', { hasText: label }) }).textContent(),
-        paragraph.replaceAll('**', ''), `Eje ${axis.id}: ${label}`);
-    }
+    const paragraphs = axis.citizenSummary.split('\n\n').filter(text => !text.startsWith('#### '))
+      .map(text => inlineParts(text).map(part => part.text).join(''));
+    assert.deepEqual(await summary.locator('p').allTextContents(), paragraphs, `Eje ${axis.id}: texto continuo íntegro`);
+    assert.equal(await summary.locator('h4').textContent(), 'Plan de actuación');
+    assert.doesNotMatch(await summary.textContent(), /Ejemplo cotidiano \(hipotético\):|Intereses que hay que equilibrar:|Qué haremos en el primer año:/);
     assert.equal(await page.locator('#measure-content').evaluate(content => {
       const summary = content.querySelector('.citizen-summary');
       const evidence = content.querySelector('.policy-evidence');
@@ -86,12 +86,12 @@ try {
   assert.equal(await page.locator('#measure-content .target-figure').count(), 1);
   await page.keyboard.press('Escape');
   await page.getByRole('button', { name: /Ver medidas: Educación y habilidades para la vida/ }).click();
-  assert.match(await page.locator('#measure-content .citizen-summary').textContent(), /Inglés útil y medible/);
+  assert.match(await page.locator('#measure-content .citizen-summary').textContent(), /En inglés, se propone practicar conversación/);
   await page.keyboard.press('Escape');
   await page.getByRole('searchbox').fill('Uber');
   assert.equal(await page.locator('.program-card').count(), 1);
   await page.getByRole('button', { name: /Ver medidas: Trabajo remoto/ }).click();
-  assert.match(await page.locator('#measure-content .citizen-summary').textContent(), /Ruta de movilidad abierta/);
+  assert.match(await page.locator('#measure-content .citizen-summary').textContent(), /En movilidad, si se activa esta actuación/);
   assert.match(await page.locator('#measure-content .policy-evidence').textContent(), /60\.074/);
   assert.match(await page.locator('#measure-content .policy-evidence').textContent(), /27\.107/);
   await page.locator('#measure-dialog .technical-details > summary').click();
@@ -137,11 +137,9 @@ try {
   await page.getByRole('button', { name: 'Ver todo el programa' }).click();
   assert.equal(await page.locator('.program-card').count(), axisMetadata.length);
   await page.getByRole('button', { name: /Ver medidas: Democracia, igualdad del voto/ }).click();
-  assert.match(await page.locator('#measure-dialog .citizen-summary').textContent(), /Qué queremos mejorar/);
-  assert.match(await page.locator('#measure-dialog .citizen-summary').textContent(), /Qué haremos en el primer año/);
-  assert.match(await page.locator('#measure-dialog .citizen-summary').textContent(), /Qué queremos conseguir en cuatro años/);
-  assert.match(await page.locator('#measure-dialog .citizen-summary').textContent(), /Pasos y responsables/);
-  assert.match(await page.locator('#measure-dialog .citizen-summary').textContent(), /Cómo comprobaremos los avances/);
+  assert.match(await page.locator('#measure-dialog .citizen-summary').textContent(), /En el primer año, proponemos/);
+  assert.match(await page.locator('#measure-dialog .citizen-summary').textContent(), /En cuatro años, el objetivo es/);
+  assert.match(await page.locator('#measure-dialog .citizen-summary').textContent(), /La ejecución correspondería a/);
   assert.equal(await page.locator('#measure-dialog .technical-details').getAttribute('open'), null);
   await page.locator('#measure-dialog .technical-details > summary').click();
   assert.equal(await page.locator('#measure-dialog .technical-details table').isVisible(), true);
@@ -179,27 +177,27 @@ try {
   await reportPage.waitForFunction(() => Boolean(document.documentElement.dataset.reportReady));
   assert.equal(await reportPage.getAttribute('html', 'data-report-ready'), 'true');
   assert.match(await reportPage.locator('#report-body').textContent(), /Donaciones y transparencia/);
-  assert.equal(await reportPage.locator('#report-body strong').filter({ hasText: 'Qué haremos en el primer año:' }).count(), axisMetadata.length);
-  assert.equal(await reportPage.locator('#report-body strong').filter({ hasText: 'Qué queremos conseguir en cuatro años:' }).count(), axisMetadata.length);
-  for (const label of ['Ejemplo cotidiano (hipotético):', 'Intereses que hay que equilibrar:']) {
-    assert.equal(await reportPage.locator('#report-body strong').filter({ hasText: label }).count(), axisMetadata.length);
-  }
+  assert.equal(await reportPage.locator('#report-body h4').filter({ hasText: /^Plan de actuación$/ }).count(), axisMetadata.length);
+  assert.equal(await reportPage.locator('#report-body h4').filter({ hasText: /^Ficha técnica$/ }).count(), axisMetadata.length);
+  assert.equal(await reportPage.locator('#report-body p').filter({ hasText: /^En un caso hipotético,/ }).count(), axisMetadata.length);
   for (const axis of sourceAxes) {
     const evidence = reportPage.locator(`[data-axis-evidence="${axis.id}"]`);
-    assert.equal(await evidence.evaluate(node => {
+    assert.equal(await evidence.evaluate((node, expected) => {
+      const paragraphs = [];
       let previous = node.previousElementSibling;
       while (previous && !previous.classList.contains('axis-heading')) {
-        if (previous.textContent.startsWith('Ejemplo cotidiano (hipotético):')) {
-          return node.nextElementSibling?.classList.contains('technical-heading');
-        }
+        if (previous.tagName === 'P') paragraphs.unshift(previous.textContent);
         previous = previous.previousElementSibling;
       }
-      return false;
-    }), true, `Eje ${axis.id}: ejemplo antes de gráficos y ficha técnica en el informe`);
+      return JSON.stringify(paragraphs) === JSON.stringify(expected)
+        && node.nextElementSibling?.textContent === 'Ficha técnica';
+    }, axis.citizenSummary.split('\n\n').filter(text => !text.startsWith('#### '))
+      .map(text => inlineParts(text).map(part => part.text).join(''))),
+      true, `Eje ${axis.id}: texto continuo íntegro antes de gráficos y ficha técnica en el informe`);
   }
   assert.doesNotMatch(await reportPage.locator('body').textContent(), /\bSMART\b/i);
   assert.match(await reportPage.locator('#report-body').textContent(), /Un seguimiento que no confunda actividad con resultados/);
-  assert.match(await reportPage.locator('#report-body').textContent(), /Ruta de movilidad abierta/);
+  assert.match(await reportPage.locator('#report-body').textContent(), /En movilidad, si se activa esta actuación/);
   assert.match(await reportPage.locator('#report-body').textContent(), /Unir esfuerzos, no repartir culpas/);
   assert.match(await reportPage.locator('#report-body').textContent(), /Unir no significa impunidad/);
   assert.match(await reportPage.locator('#eje-30').textContent(), /Constitución clara/);
@@ -244,7 +242,7 @@ try {
     ['.contents-page', 'breakAfter', 'auto'],
     ['.report-summary', 'breakBefore', 'auto'],
     ['.sources-page', 'breakBefore', 'auto'],
-    ['.citizen-summary-line', 'breakInside', 'auto'],
+    ['.report-body-content p', 'breakInside', 'auto'],
     ['.report-body-content li', 'breakInside', 'auto'],
     ['.evidence-figure', 'breakInside', 'avoid'],
     ['.report-body-content h3', 'breakAfter', 'avoid'],
@@ -253,7 +251,7 @@ try {
     assert.equal(await reportPage.locator(selector).first().evaluate((node, property) => getComputedStyle(node)[property], property),
       expected, `${selector} ${property}`);
   }
-  for (const selector of ['.citizen-summary-line', '.report-body-content li', '.report-note p', '.sources-page > p:not(.kicker)']) {
+  for (const selector of ['.report-body-content p', '.report-body-content li', '.report-note p', '.sources-page > p:not(.kicker)']) {
     const typography = await reportPage.locator(selector).first().evaluate(node => ({
       alignment: getComputedStyle(node).textAlign,
       lastLine: getComputedStyle(node).textAlignLast,

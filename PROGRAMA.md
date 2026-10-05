@@ -19,9 +19,9 @@ Mejorar la calidad de vida en España mediante instituciones fiables, vivienda a
 
 Los problemas siguientes son hipótesis de trabajo y preocupaciones ciudadanas. Su alcance y sus causas deben contrastarse antes de aprobar medidas.
 
-**Primera lectura:** empieza por el problema, la propuesta, cómo medirla, el ejemplo cotidiano y los intereses que hay que equilibrar. Los ejemplos son situaciones hipotéticas: ayudan a entender una medida, pero no son casos documentados, resultados obtenidos ni derechos nuevos. No necesitas compartir una etiqueta política para valorar una propuesta; sí conocer sus beneficios posibles, costes y límites.
+**Primera lectura:** cada eje empieza con una explicación en párrafos cortos que une el problema, la propuesta, un ejemplo y los intereses que hay que equilibrar, sin repetir etiquetas. Los ejemplos son situaciones hipotéticas: ayudan a entender una medida, pero no son casos documentados, resultados obtenidos ni derechos nuevos. No necesitas compartir una etiqueta política para valorar una propuesta; sí conocer sus beneficios posibles, costes y límites.
 
-**Para profundizar:** después encontrarás argumentos y alternativas, objetivos del primer año y de cuatro años, responsables, seguimiento, gráficos y ficha técnica. Las cantidades y los plazos se conservan para poder exigir explicaciones: son planes propuestos para ámbitos delimitados, no previsiones nacionales ni resultados garantizados.
+**Para profundizar:** «Plan de actuación» reúne los objetivos del primer año y de cuatro años, el calendario y los responsables. Después encontrarás gráficos y una «Ficha técnica» con argumentos, alternativas, indicadores, fuentes, medidas, costes y garantías. Las cantidades y los plazos se conservan para poder exigir explicaciones: son planes propuestos para ámbitos delimitados, no previsiones nacionales ni resultados garantizados.
 
 **Palabras que usamos:** «trazabilidad» significa poder seguir quién decide, qué hace y con qué dinero; «interoperabilidad», que sistemas distintos puedan intercambiar información con autorización; «línea base», la situación medida antes de empezar; «cohorte», el mismo grupo seguido durante un período; y «adicionalidad», la mejora que no habría ocurrido sin la ayuda o medida. Medir una actividad no demuestra que haya causado un resultado.
 
@@ -31,29 +31,27 @@ Los problemas siguientes son hipótesis de trabajo y preocupaciones ciudadanas. 
 
 ### 2.1. Corrupción, partidos y confianza institucional
 
-**Qué queremos mejorar:** Saber en qué se gasta el dinero público y poder exigir explicaciones cuando algo no encaja.
+Queremos saber en qué se gasta el dinero público y poder exigir explicaciones cuando algo no encaja. Para ello, proponemos publicar quién financia a los partidos, quién decide sobre fondos públicos y qué intereses personales pueden influir. La propuesta incluye también reforzar controles independientes y proteger a quienes denuncian irregularidades.
 
-**Qué proponemos:** Publicar quién financia a los partidos, quién decide sobre fondos públicos y qué intereses personales pueden influir. Reforzar controles independientes y proteger a quienes denuncian irregularidades.
+En un caso hipotético, una asociación recibe una subvención para actividades del barrio. Cualquier persona puede consultar cuánto recibió, para qué y cómo justificó el gasto. Si falta información, se pide una explicación y se revisa; no se acusa de delito solo por una duda.
 
-**Cómo sabremos si funciona:** Comprobar si la información llega a tiempo, se atienden las recomendaciones y se recuperan fondos cuando lo ordena una resolución firme. Publicar más datos no demuestra menos corrupción.
+La ciudadanía necesita transparencia; las entidades, controles claros que no bloqueen su trabajo; y las personas investigadas, garantías y protección de sus datos. Revisar cuesta recursos, pero no debe depender de a quién afecte.
 
-**Ejemplo cotidiano (hipotético):** Una asociación recibe una subvención para actividades del barrio. Cualquier persona puede consultar cuánto recibió, para qué y cómo justificó el gasto. Si falta información, se pide una explicación y se revisa; no se acusa de delito solo por una duda.
+Para saber si funciona, proponemos comprobar si la información llega a tiempo, se atienden las recomendaciones y se recuperan fondos cuando lo ordena una resolución firme. Publicar más datos no demuestra menos corrupción.
 
-**Intereses que hay que equilibrar:** La ciudadanía necesita transparencia; las entidades, controles claros que no bloqueen su trabajo; y las personas investigadas, garantías y protección de sus datos. Revisar cuesta recursos, pero no debe depender de a quién afecte.
+#### Plan de actuación
 
-**Argumento y alternativa:** La trazabilidad y los controles reducen oportunidades de ocultación y permiten exigir explicaciones, pero publicar más datos no demuestra menos corrupción. Frente a crear otro organismo sin función clara, se prioriza mejorar capacidad e independencia de los existentes y comprobar qué recomendaciones se ejecutan.
+En el primer año, en 10 entidades públicas adheridas, proponemos publicar en plazo el 90 % de los documentos exigibles según un catálogo fijado en M3 y responder motivadamente a todas las recomendaciones de control recibidas en un máximo de 90 días.
 
-**Indicador principal y fuente:** Porcentaje de documentos exigibles publicados en plazo, comprobado contra el catálogo y registros de cada entidad. Añadir cobertura, retrasos y recomendaciones vencidas; las denuncias son señales para investigar, no una estimación de corrupción.
+En cuatro años, el objetivo es extender a 30 entidades, alcanzar un 95 % de publicación en plazo y ejecutar o justificar públicamente todas las recomendaciones vencidas.
 
-**Qué haremos en el primer año:** En 10 entidades públicas adheridas, publicar en plazo el 90 % de los documentos exigibles según un catálogo fijado en M3 y responder motivadamente a todas las recomendaciones de control recibidas en un máximo de 90 días.
-
-**Qué queremos conseguir en cuatro años:** Extender a 30 entidades, alcanzar un 95 % de publicación en plazo y ejecutar o justificar públicamente todas las recomendaciones vencidas.
-
-**Pasos y responsables:** Unidades de transparencia y órganos de control: catálogo, diagnóstico y recursos en M1–M3; publicación reutilizable y registro de recomendaciones en M4–M6; revisión trimestral desde M7. La fiscalización será independiente del equipo fiscalizado.
-
-**Cómo comprobaremos los avances:** Documentos publicados en plazo/documentos exigibles y recomendaciones atendidas/recomendaciones vencidas. Comprobar una muestra independiente y explicar reservas legales. No se promete una cifra de corrupción eliminada ni de ahorro.
+La ejecución correspondería a unidades de transparencia y órganos de control; el calendario previsto incluye catálogo, diagnóstico y recursos en M1–M3; publicación reutilizable y registro de recomendaciones en M4–M6; revisión trimestral desde M7. La fiscalización será independiente del equipo fiscalizado.
 
 #### Ficha técnica
+
+**Fundamento y alternativas:** La trazabilidad y los controles reducen oportunidades de ocultación y permiten exigir explicaciones, pero publicar más datos no demuestra menos corrupción. Frente a crear otro organismo sin función clara, se prioriza mejorar capacidad e independencia de los existentes y comprobar qué recomendaciones se ejecutan.
+
+**Medición y fuentes:** Porcentaje de documentos exigibles publicados en plazo, comprobado contra el catálogo y registros de cada entidad. Añadir cobertura, retrasos y recomendaciones vencidas; las denuncias son señales para investigar, no una estimación de corrupción. Documentos publicados en plazo/documentos exigibles y recomendaciones atendidas/recomendaciones vencidas. Comprobar una muestra independiente y explicar reservas legales. No se promete una cifra de corrupción eliminada ni de ahorro.
 
 **Problema a estudiar:** posibles irregularidades en financiación, nombramientos, subvenciones y contratación; conflictos de interés y falta de rendición de cuentas.
 
@@ -78,29 +76,27 @@ Los problemas siguientes son hipótesis de trabajo y preocupaciones ciudadanas. 
 
 ### 2.2. Vivienda: escasez de oferta y precios elevados
 
-**Qué queremos mejorar:** Encontrar una vivienda que se pueda pagar y alquilar con seguridad, tanto para quien vive en ella como para quien la ofrece.
+Queremos encontrar una vivienda que se pueda pagar y alquilar con seguridad, tanto para quien vive en ella como para quien la ofrece. Para ello, proponemos ampliar el alquiler público y protegido, rehabilitar vivienda y facilitar nueva oferta donde haya demanda, servicios y garantías. Además, planteamos resolver conflictos sin dejar desprotegidos a inquilinos ni propietarios.
 
-**Qué proponemos:** Ampliar el alquiler público y protegido, rehabilitar vivienda y facilitar nueva oferta donde haya demanda, servicios y garantías. Resolver conflictos sin dejar desprotegidos a inquilinos ni propietarios.
+En un caso hipotético, una persona busca alquiler cerca del trabajo y otra tiene un piso que teme alquilar por posibles impagos. Más vivienda asequible y una respuesta fiable ante problemas pueden ampliar opciones para ambas. Construir requiere tiempo; habilitar suelo no garantiza por sí solo un alquiler más barato.
 
-**Cómo sabremos si funciona:** Medir qué parte del ingreso se destina al alquiler, cuántas viviendas asequibles están disponibles y cuánto tardan los conflictos en resolverse con garantías.
+Inquilinos necesitan precios asumibles; propietarios, cobrar y conservar su vivienda; vecinos, servicios y un barrio habitable. Construcción, ayudas y parque público tienen costes: hay que comparar dónde aportan más y evitar desplazar el problema a otro barrio.
 
-**Ejemplo cotidiano (hipotético):** Una persona busca alquiler cerca del trabajo y otra tiene un piso que teme alquilar por posibles impagos. Más vivienda asequible y una respuesta fiable ante problemas pueden ampliar opciones para ambas. Construir requiere tiempo; habilitar suelo no garantiza por sí solo un alquiler más barato.
+Para saber si funciona, proponemos medir qué parte del ingreso se destina al alquiler, cuántas viviendas asequibles están disponibles y cuánto tardan los conflictos en resolverse con garantías.
 
-**Intereses que hay que equilibrar:** Inquilinos necesitan precios asumibles; propietarios, cobrar y conservar su vivienda; vecinos, servicios y un barrio habitable. Construcción, ayudas y parque público tienen costes: hay que comparar dónde aportan más y evitar desplazar el problema a otro barrio.
+#### Plan de actuación
 
-**Argumento y alternativa:** Allí donde la demanda supera la oferta utilizable, ampliar vivienda y agilizar actuaciones puede aliviar restricciones; ayudas a la demanda sin nueva oferta pueden trasladarse a precios. Se compararán rehabilitación, movilización y construcción según plazo y coste. El caso de Auckland respalda construcción tras cambios urbanísticos, no garantiza alquileres más bajos en España [F5].
+En el primer año, en 3 municipios con demanda acreditada, proponemos reducir un 20 % la mediana de días hasta resolver licencias residenciales y dejar identificadas, presupuestadas y con vía de ejecución 150 viviendas de alquiler asequible.
 
-**Indicador principal y fuente:** Mediana y percentil 90 de días de licencia, registros municipales; viviendas habitables entregadas y pagos obligatorios/ingreso neto del hogar. El IPV del INE mide compra, no alquiler ni asequibilidad por sí solo [F4].
+En cuatro años, el objetivo es tener las 150 viviendas realmente disponibles y reducir un 35 % los plazos de licencia. Limitar alquiler y gastos obligatorios del programa al 30 % del ingreso neto del hogar adjudicatario, financiando explícitamente la diferencia cuando proceda.
 
-**Qué haremos en el primer año:** En 3 municipios con demanda acreditada, reducir un 20 % la mediana de días hasta resolver licencias residenciales y dejar identificadas, presupuestadas y con vía de ejecución 150 viviendas de alquiler asequible.
-
-**Qué queremos conseguir en cuatro años:** Tener las 150 viviendas realmente disponibles y reducir un 35 % los plazos de licencia. Limitar alquiler y gastos obligatorios del programa al 30 % del ingreso neto del hogar adjudicatario, financiando explícitamente la diferencia cuando proceda.
-
-**Pasos y responsables:** Ayuntamientos y comunidad autónoma: inventario de demanda, suelo y vivienda recuperable en M1–M3; personal técnico, financiación y contratos en M4–M6; licencias y adjudicaciones en M7–M12; rehabilitación, movilización o construcción en M13–M36; comprobación de ocupación y mantenimiento en M37–M48. Coordinar garantías de alquiler, mediación y apoyos vulnerables sin sustituir decisiones judiciales.
-
-**Cómo comprobaremos los avances:** Plazos frente a los 12 meses anteriores a T0, incluyendo pendientes y denegaciones; viviendas utilizables, no anuncios; pagos/ingreso del hogar. No eliminar controles de seguridad ni recurrir a desalojos automáticos.
+La ejecución correspondería a ayuntamientos y comunidad autónoma; el calendario previsto incluye inventario de demanda, suelo y vivienda recuperable en M1–M3; personal técnico, financiación y contratos en M4–M6; licencias y adjudicaciones en M7–M12; rehabilitación, movilización o construcción en M13–M36; comprobación de ocupación y mantenimiento en M37–M48. Coordinar garantías de alquiler, mediación y apoyos vulnerables sin sustituir decisiones judiciales.
 
 #### Ficha técnica
+
+**Fundamento y alternativas:** Allí donde la demanda supera la oferta utilizable, ampliar vivienda y agilizar actuaciones puede aliviar restricciones; ayudas a la demanda sin nueva oferta pueden trasladarse a precios. Se compararán rehabilitación, movilización y construcción según plazo y coste. El caso de Auckland respalda construcción tras cambios urbanísticos, no garantiza alquileres más bajos en España [F5].
+
+**Medición y fuentes:** Mediana y percentil 90 de días de licencia, registros municipales; viviendas habitables entregadas y pagos obligatorios/ingreso neto del hogar. El IPV del INE mide compra, no alquiler ni asequibilidad por sí solo [F4]. Plazos frente a los 12 meses anteriores a T0, incluyendo pendientes y denegaciones; viviendas utilizables, no anuncios; pagos/ingreso del hogar. No eliminar controles de seguridad ni recurrir a desalojos automáticos.
 
 **Problema a estudiar:** dificultades para alquilar o comprar, especialmente donde se concentra el empleo; insuficiencia de vivienda asequible y obstáculos para construir o rehabilitar.
 
@@ -147,29 +143,27 @@ La cárcel ya existe para determinadas conductas; condena y cumplimiento efectiv
 
 ### 2.3. Vivienda turística y convivencia
 
-**Qué queremos mejorar:** Poder visitar España a un precio asumible sin que los barrios pierdan vivienda o tranquilidad.
+Queremos poder visitar España a un precio asumible sin que los barrios pierdan vivienda o tranquilidad. Para ello, proponemos facilitar alojamiento turístico legal, diverso y a precios accesibles, actuar contra la oferta irregular y ajustar las reglas a lo que ocurre en cada barrio, sin tratar todo alquiler turístico como un problema.
 
-**Qué proponemos:** Facilitar alojamiento turístico legal, diverso y a precios accesibles. Actuar contra la oferta irregular y ajustar las reglas a lo que ocurre en cada barrio, no tratar todo alquiler turístico como un problema.
+En un caso hipotético, en una misma calle hay un alojamiento legal, una familia que busca alquiler y un comercio que vive del turismo. Antes de ampliar o limitar plazas se estudian vivienda, ruido y servicios. Una regla útil allí puede no servir en un municipio con poca demanda turística.
 
-**Cómo sabremos si funciona:** Comparar el precio final de estancias similares, el empleo, la vivienda disponible para residentes y las quejas. Un viaje más barato no basta si empeora la vida del barrio.
+Visitantes buscan opciones asequibles; negocios y trabajadores, actividad estable; residentes, vivienda y descanso. Los controles deben proteger la convivencia sin favorecer solo a grandes operadores ni dar por hecho que cualquier restricción recuperará vivienda.
 
-**Ejemplo cotidiano (hipotético):** En una misma calle hay un alojamiento legal, una familia que busca alquiler y un comercio que vive del turismo. Antes de ampliar o limitar plazas se estudian vivienda, ruido y servicios. Una regla útil allí puede no servir en un municipio con poca demanda turística.
+Para saber si funciona, proponemos comparar el precio final de estancias similares, el empleo, la vivienda disponible para residentes y las quejas. Un viaje más barato no basta si empeora la vida del barrio.
 
-**Intereses que hay que equilibrar:** Visitantes buscan opciones asequibles; negocios y trabajadores, actividad estable; residentes, vivienda y descanso. Los controles deben proteger la convivencia sin favorecer solo a grandes operadores ni dar por hecho que cualquier restricción recuperará vivienda.
+#### Plan de actuación
 
-**Argumento y alternativa:** Una oferta legal más diversa y una competencia efectiva pueden facilitar viajes y gasto local; precios menores no garantizan por sí solos mayor beneficio neto o mejores salarios. Comparar ampliar capacidad compatible, desestacionalizar, mejorar transporte y simplificar requisitos redundantes con límites donde haya presión acreditada. Una prohibición general puede desplazar actividad sin recuperar vivienda; medir costes de servicios y efectos en municipios próximos.
+En el primer año, en 3 municipios, proponemos comprobar la situación registral del 90 % de los anuncios turísticos de una muestra reproducible y revisar todos los posibles incumplimientos detectados. Fijar en M3 la cesta de precios y publicar desde M6 un seguimiento mensual de precio final y oferta legal, con un plan municipal para eliminar barreras redundantes y ampliar capacidad compatible donde exista demanda.
 
-**Indicador principal y fuente:** Anuncios únicos sin autorización exigible/anuncios revisados en una muestra estable, contrastados con registros turísticos y resoluciones. Añadir precio final por noche de una cesta fija de estancias, con ocupantes, fechas, duración, categoría y cargos obligatorios comparables; publicar mediana, dispersión y oferta disponible. Los cambios de alquiler residencial requieren fuentes separadas y no se atribuyen automáticamente a la regulación turística.
+En cuatro años, el objetivo es extender a 10 municipios, comprobar el 95 % de la muestra y reducir un 50 % la proporción de oferta sin autorización exigible respecto a T0. Mantener la serie de precios y evaluar anualmente si aumentó la accesibilidad sin empeorar disponibilidad residencial o convivencia. No comprometer una rebaja porcentual antes de verificar línea base, costes y respuesta del mercado.
 
-**Qué haremos en el primer año:** En 3 municipios, comprobar la situación registral del 90 % de los anuncios turísticos de una muestra reproducible y revisar todos los posibles incumplimientos detectados. Fijar en M3 la cesta de precios y publicar desde M6 un seguimiento mensual de precio final y oferta legal, con un plan municipal para eliminar barreras redundantes y ampliar capacidad compatible donde exista demanda.
-
-**Qué queremos conseguir en cuatro años:** Extender a 10 municipios, comprobar el 95 % de la muestra y reducir un 50 % la proporción de oferta sin autorización exigible respecto a T0. Mantener la serie de precios y evaluar anualmente si aumentó la accesibilidad sin empeorar disponibilidad residencial o convivencia. No comprometer una rebaja porcentual antes de verificar línea base, costes y respuesta del mercado.
-
-**Pasos y responsables:** Turismo autonómico, ayuntamientos e inspección: muestra y acceso legal a registros en M1–M3; coordinación con plataformas y notificaciones en M4–M6; expedientes con garantías desde M7. Proponer límites territoriales solo donde el diagnóstico los justifique.
-
-**Cómo comprobaremos los avances:** Anuncios únicos en muestras comparables, separando indicios, expedientes y resoluciones firmes. Vigilar desplazamiento a zonas vecinas y alquiler residencial; no atribuir toda variación de precios a esta medida.
+La ejecución correspondería a turismo autonómico, ayuntamientos e inspección; el calendario previsto incluye muestra y acceso legal a registros en M1–M3; coordinación con plataformas y notificaciones en M4–M6; expedientes con garantías desde M7. Proponer límites territoriales solo donde el diagnóstico los justifique.
 
 #### Ficha técnica
+
+**Fundamento y alternativas:** Una oferta legal más diversa y una competencia efectiva pueden facilitar viajes y gasto local; precios menores no garantizan por sí solos mayor beneficio neto o mejores salarios. Comparar ampliar capacidad compatible, desestacionalizar, mejorar transporte y simplificar requisitos redundantes con límites donde haya presión acreditada. Una prohibición general puede desplazar actividad sin recuperar vivienda; medir costes de servicios y efectos en municipios próximos.
+
+**Medición y fuentes:** Anuncios únicos sin autorización exigible/anuncios revisados en una muestra estable, contrastados con registros turísticos y resoluciones. Añadir precio final por noche de una cesta fija de estancias, con ocupantes, fechas, duración, categoría y cargos obligatorios comparables; publicar mediana, dispersión y oferta disponible. Los cambios de alquiler residencial requieren fuentes separadas y no se atribuyen automáticamente a la regulación turística. Anuncios únicos en muestras comparables, separando indicios, expedientes y resoluciones firmes. Vigilar desplazamiento a zonas vecinas y alquiler residencial; no atribuir toda variación de precios a esta medida.
 
 **Problema a estudiar:** posible desplazamiento del alquiler residencial, actividad no autorizada y presión sobre barrios. Su impacto varía por localidad y no explica por sí solo todos los precios.
 
@@ -198,29 +192,27 @@ La cárcel ya existe para determinadas conductas; condena y cumplimiento efectiv
 
 ### 2.4. Salarios bajos y calidad del empleo
 
-**Qué queremos mejorar:** Que el sueldo permita vivir y que el trabajo ofrezca estabilidad y posibilidades de mejorar.
+Queremos que el sueldo permita vivir y que el trabajo ofrezca estabilidad y posibilidades de mejorar. Para ello, proponemos combinar formación y mejores herramientas con cumplimiento de derechos laborales y negociación. Producir mejor debe poder traducirse en mejores ingresos, no solo en más trabajo.
 
-**Qué proponemos:** Combinar formación y mejores herramientas con cumplimiento de derechos laborales y negociación. Producir mejor debe poder traducirse en mejores ingresos, no solo en más trabajo.
+En un caso hipotético, un taller incorpora una herramienta que evita repetir tareas. Se comprueba si mejora la producción y si el equipo recibe formación, mejores condiciones o salario. Comprar una máquina no demuestra por sí solo que las personas trabajadoras vivan mejor.
 
-**Cómo sabremos si funciona:** Medir lo que el sueldo permite comprar, el dinero disponible, la estabilidad y el valor producido por hora. Crear puestos no basta si son precarios.
+Trabajadores necesitan ingresos y descanso; empresas, poder sostener empleo e inversión; clientes, calidad y precios. Hay que comprobar quién recibe la mejora y evitar financiar empleos que desaparezcan al terminar la ayuda.
 
-**Ejemplo cotidiano (hipotético):** Un taller incorpora una herramienta que evita repetir tareas. Se comprueba si mejora la producción y si el equipo recibe formación, mejores condiciones o salario. Comprar una máquina no demuestra por sí solo que las personas trabajadoras vivan mejor.
+Para saber si funciona, proponemos medir lo que el sueldo permite comprar, el dinero disponible, la estabilidad y el valor producido por hora. Crear puestos no basta si son precarios.
 
-**Intereses que hay que equilibrar:** Trabajadores necesitan ingresos y descanso; empresas, poder sostener empleo e inversión; clientes, calidad y precios. Hay que comprobar quién recibe la mejora y evitar financiar empleos que desaparezcan al terminar la ayuda.
+#### Plan de actuación
 
-**Argumento y alternativa:** Formación e inversión pueden aumentar valor producido, pero no aseguran que llegue al trabajador; por eso se combinan con negociación y cumplimiento laboral. Frente a subvencionar empleo sin mejora duradera, evaluar salario por hora, continuidad y productividad. La EPA describe empleo, no demuestra el efecto de este piloto [F1].
+En el primer año, en una cohorte de 200 pymes y 1.000 trabajadores, proponemos mejorar un 3 % el salario mediano real por hora frente a T0 mediante formación, inversión y acuerdos laborales.
 
-**Indicador principal y fuente:** Mediana del salario bruto por hora efectiva de toda la cohorte, deflactada con IPC general [F2], a partir de nóminas y horas legalmente accesibles. Registrar desempleo y salidas por separado: no mejorar la mediana expulsando salarios bajos.
+En cuatro años, el objetivo es incorporar 1.000 pymes y 5.000 trabajadores al seguimiento y alcanzar una mejora del 8 % en la cohorte inicial, contando también cierres y salidas.
 
-**Qué haremos en el primer año:** En una cohorte de 200 pymes y 1.000 trabajadores, mejorar un 3 % el salario mediano real por hora frente a T0 mediante formación, inversión y acuerdos laborales.
-
-**Qué queremos conseguir en cuatro años:** Incorporar 1.000 pymes y 5.000 trabajadores al seguimiento y alcanzar una mejora del 8 % en la cohorte inicial, contando también cierres y salidas.
-
-**Pasos y responsables:** Servicios de empleo, empresas y agentes sociales: sectores y medición inicial en M1–M3; formación aplicada, inversión y acuerdos de reparto de mejoras en M4–M6; aplicación desde M7. Ampliar en años 2–4 solo con resultados y financiación.
-
-**Cómo comprobaremos los avances:** Nóminas y horas efectivas ajustadas por IPC; empleo, productividad y comparación con empresas similares. No lograr la mejora mediante horas no pagadas ni presentarla como previsión salarial para toda España.
+La ejecución correspondería a servicios de empleo, empresas y agentes sociales; el calendario previsto incluye sectores y medición inicial en M1–M3; formación aplicada, inversión y acuerdos de reparto de mejoras en M4–M6; aplicación desde M7. Ampliar en años 2–4 solo con resultados y financiación.
 
 #### Ficha técnica
+
+**Fundamento y alternativas:** Formación e inversión pueden aumentar valor producido, pero no aseguran que llegue al trabajador; por eso se combinan con negociación y cumplimiento laboral. Frente a subvencionar empleo sin mejora duradera, evaluar salario por hora, continuidad y productividad. La EPA describe empleo, no demuestra el efecto de este piloto [F1].
+
+**Medición y fuentes:** Mediana del salario bruto por hora efectiva de toda la cohorte, deflactada con IPC general [F2], a partir de nóminas y horas legalmente accesibles. Registrar desempleo y salidas por separado: no mejorar la mediana expulsando salarios bajos. Nóminas y horas efectivas ajustadas por IPC; empleo, productividad y comparación con empresas similares. No lograr la mejora mediante horas no pagadas ni presentarla como previsión salarial para toda España.
 
 **Problema a estudiar:** salarios insuficientes frente al coste de vida, baja productividad en determinados sectores y dificultades para desarrollar carreras profesionales.
 
@@ -244,29 +236,27 @@ La cárcel ya existe para determinadas conductas; condena y cumplimiento efectiv
 
 ### 2.5. Tecnología, inteligencia artificial e innovación
 
-**Qué queremos mejorar:** Que la tecnología ahorre trabajo innecesario y mejore servicios, no que añada errores o complicaciones.
+Queremos que la tecnología ahorre trabajo innecesario y mejore servicios, no que añada errores o complicaciones. Para ello, proponemos desarrollar conocimiento propio y probar inteligencia artificial solo donde sea útil, con revisión humana, protección de datos y comparación con soluciones más sencillas.
 
-**Qué proponemos:** Desarrollar conocimiento propio y probar inteligencia artificial solo donde sea útil, con revisión humana, protección de datos y comparación con soluciones más sencillas.
+En un caso hipotético, una oficina prueba una herramienta que prepara borradores de respuestas frecuentes. El personal los revisa antes de enviarlos y registra errores. Si revisar cuesta más que redactar, se cambia o se abandona la herramienta.
 
-**Cómo sabremos si funciona:** Medir tiempo ahorrado, calidad, coste completo y errores. Contar herramientas instaladas no demuestra que funcionen mejor.
+Usuarios necesitan respuestas fiables y privacidad; trabajadores, formación y capacidad de corregir; proveedores, reglas claras. La rapidez no justifica decisiones opacas ni dependencia costosa de una empresa.
 
-**Ejemplo cotidiano (hipotético):** Una oficina prueba una herramienta que prepara borradores de respuestas frecuentes. El personal los revisa antes de enviarlos y registra errores. Si revisar cuesta más que redactar, se cambia o se abandona la herramienta.
+Para saber si funciona, proponemos medir tiempo ahorrado, calidad, coste completo y errores. Contar herramientas instaladas no demuestra que funcionen mejor.
 
-**Intereses que hay que equilibrar:** Usuarios necesitan respuestas fiables y privacidad; trabajadores, formación y capacidad de corregir; proveedores, reglas claras. La rapidez no justifica decisiones opacas ni dependencia costosa de una empresa.
+#### Plan de actuación
 
-**Argumento y alternativa:** Automatizar tareas repetitivas puede liberar tiempo, pero la revisión, los errores y la dependencia del proveedor pueden consumir el beneficio. Comparar IA con rediseño del proceso y software convencional; usar la alternativa de menor coste total que mantenga calidad.
+En el primer año, proponemos completar 5 pilotos de IA en tareas de bajo riesgo y reducir un 20 % el tiempo por tarea en al menos 3, manteniendo la calidad de las pruebas definidas antes del despliegue.
 
-**Indicador principal y fuente:** Minutos de trabajo y coste completo por tarea equivalente, en registros del piloto y pruebas revisadas. Incluir tareas fallidas, correcciones, supervisión y salida de proveedor; no tratar una demostración como productividad conseguida.
+En cuatro años, el objetivo es mantener 15 aplicaciones evaluadas y lograr que al menos 10 conserven esa mejora del 20 %, con coste total por tarea no superior al inicial.
 
-**Qué haremos en el primer año:** Completar 5 pilotos de IA en tareas de bajo riesgo y reducir un 20 % el tiempo por tarea en al menos 3, manteniendo la calidad de las pruebas definidas antes del despliegue.
-
-**Qué queremos conseguir en cuatro años:** Mantener 15 aplicaciones evaluadas y lograr que al menos 10 conserven esa mejora del 20 %, con coste total por tarea no superior al inicial.
-
-**Pasos y responsables:** Titulares de los procesos, centros tecnológicos y responsables de datos: tareas y pruebas en M1–M3; contratación interoperable y portabilidad en M4–M6; pilotos supervisados en M7–M12; ampliación de casos útiles en años 2–4.
-
-**Cómo comprobaremos los avances:** Tiempo, errores, reclamaciones y coste con mantenimiento y revisión humana, frente al proceso sin herramienta. Suspender ante incidentes graves; no automatizar decisiones opacas sobre derechos.
+La ejecución correspondería a titulares de los procesos, centros tecnológicos y responsables de datos; el calendario previsto incluye tareas y pruebas en M1–M3; contratación interoperable y portabilidad en M4–M6; pilotos supervisados en M7–M12; ampliación de casos útiles en años 2–4.
 
 #### Ficha técnica
+
+**Fundamento y alternativas:** Automatizar tareas repetitivas puede liberar tiempo, pero la revisión, los errores y la dependencia del proveedor pueden consumir el beneficio. Comparar IA con rediseño del proceso y software convencional; usar la alternativa de menor coste total que mantenga calidad.
+
+**Medición y fuentes:** Minutos de trabajo y coste completo por tarea equivalente, en registros del piloto y pruebas revisadas. Incluir tareas fallidas, correcciones, supervisión y salida de proveedor; no tratar una demostración como productividad conseguida. Tiempo, errores, reclamaciones y coste con mantenimiento y revisión humana, frente al proceso sin herramienta. Suspender ante incidentes graves; no automatizar decisiones opacas sobre derechos.
 
 **Problema a estudiar:** barreras para desarrollar tecnología propia, adoptar herramientas útiles y transferir investigación al tejido productivo.
 
@@ -291,29 +281,27 @@ La cárcel ya existe para determinadas conductas; condena y cumplimiento efectiv
 
 ### 2.6. Administración, duplicidades y empleo público
 
-**Qué queremos mejorar:** Resolver un trámite sin ir de una oficina a otra ni entregar varias veces el mismo documento.
+Queremos resolver un trámite sin ir de una oficina a otra ni entregar varias veces el mismo documento. Para ello, proponemos aclarar quién responde, compartir información con autorización y revisar tareas, organismos y personal según la carga real. La revisión incluiría evaluar el servicio con garantías y estudiar ingresos complementarios sin perjudicar la atención.
 
-**Qué proponemos:** Aclarar quién responde, compartir información con autorización y revisar tareas, organismos y personal según la carga real. Evaluar el servicio con garantías y estudiar ingresos complementarios sin perjudicar la atención.
+En un caso hipotético, para pedir una ayuda, una persona entrega un certificado que otra administración ya tiene. Si la ley permite consultarlo, las oficinas lo intercambian de forma segura y explican qué falta. Digitalizar no debe significar obligarla a repetir la gestión en una pantalla.
 
-**Cómo sabremos si funciona:** Medir esperas, trámites repetidos, errores y coste total. Comprobar que también se atiende a quien no puede hacer gestiones por internet.
+Ciudadanía necesita atención sencilla; empleados públicos, medios y responsabilidades claras; administraciones, uso eficiente de recursos. Quitar controles o personal sin medir necesidades puede empeorar el servicio.
 
-**Ejemplo cotidiano (hipotético):** Para pedir una ayuda, una persona entrega un certificado que otra administración ya tiene. Si la ley permite consultarlo, las oficinas lo intercambian de forma segura y explican qué falta. Digitalizar no debe significar obligarla a repetir la gestión en una pantalla.
+Para saber si funciona, proponemos medir esperas, trámites repetidos, errores y coste total. Comprobar que también se atiende a quien no puede hacer gestiones por internet.
 
-**Intereses que hay que equilibrar:** Ciudadanía necesita atención sencilla; empleados públicos, medios y responsabilidades claras; administraciones, uso eficiente de recursos. Quitar controles o personal sin medir necesidades puede empeorar el servicio.
+#### Plan de actuación
 
-**Argumento y alternativa:** Reutilizar datos y clarificar responsabilidades puede evitar trabajo repetido; recortar plantilla antes de medir carga puede aumentar esperas. X-Road muestra una infraestructura de intercambio autenticado y registrado, no prueba un porcentaje de ahorro trasladable a España [F6]. Comparar integración y servicios compartidos antes de suprimir organismos.
+En el primer año, en 10 procedimientos de 3 administraciones, proponemos reducir un 20 % la mediana de resolución y un 50 % las peticiones repetidas de documentación ya disponible legalmente.
 
-**Indicador principal y fuente:** Peticiones repetidas de documentos por expediente y días de resolución, en registros administrativos. Publicar pendientes, complejidad, coste de transición y atención presencial para detectar ahorro aparente a costa del usuario.
+En cuatro años, el objetivo es extender a 50 procedimientos y 10 administraciones; en los procedimientos iniciales, reducir un 35 % los plazos y un 80 % las peticiones repetidas.
 
-**Qué haremos en el primer año:** En 10 procedimientos de 3 administraciones, reducir un 20 % la mediana de resolución y un 50 % las peticiones repetidas de documentación ya disponible legalmente.
-
-**Qué queremos conseguir en cuatro años:** Extender a 50 procedimientos y 10 administraciones; en los procedimientos iniciales, reducir un 35 % los plazos y un 80 % las peticiones repetidas.
-
-**Pasos y responsables:** Administraciones participantes: mapa de procesos y cargas en M1–M3; recursos, formación e intercambio legal de datos en M4–M6; eliminación de pasos redundantes desde M7. Tramitar por separado reorganizaciones que requieran reformas y descontar transición del ahorro neto.
-
-**Cómo comprobaremos los avances:** Expedientes, percentiles de espera, documentos, coste completo y reclamaciones. Mantener atención presencial y no mejorar cifras excluyendo casos difíciles o denegando más solicitudes.
+La ejecución correspondería a administraciones participantes; el calendario previsto incluye mapa de procesos y cargas en M1–M3; recursos, formación e intercambio legal de datos en M4–M6; eliminación de pasos redundantes desde M7. Tramitar por separado reorganizaciones que requieran reformas y descontar transición del ahorro neto.
 
 #### Ficha técnica
+
+**Fundamento y alternativas:** Reutilizar datos y clarificar responsabilidades puede evitar trabajo repetido; recortar plantilla antes de medir carga puede aumentar esperas. X-Road muestra una infraestructura de intercambio autenticado y registrado, no prueba un porcentaje de ahorro trasladable a España [F6]. Comparar integración y servicios compartidos antes de suprimir organismos.
+
+**Medición y fuentes:** Peticiones repetidas de documentos por expediente y días de resolución, en registros administrativos. Publicar pendientes, complejidad, coste de transición y atención presencial para detectar ahorro aparente a costa del usuario. Expedientes, percentiles de espera, documentos, coste completo y reclamaciones. Mantener atención presencial y no mejorar cifras excluyendo casos difíciles o denegando más solicitudes.
 
 **Problema a estudiar:** trámites repetidos, competencias solapadas y sistemas que no se comunican. No se presume que exista exceso de personal en todos los servicios.
 
@@ -349,33 +337,31 @@ La cárcel ya existe para determinadas conductas; condena y cumplimiento efectiv
 
 ### 2.7. Migración irregular, vías legales e integración
 
-**Qué queremos mejorar:** Que la migración se gestione con vías legales claras, integración y protección frente a abusos.
+Queremos que la migración se gestione con vías legales claras, integración y protección frente a abusos. Para ello, proponemos agilizar permisos con garantías, facilitar idioma y reconocimiento de capacidades y combatir la explotación. Atraer talento debe complementar la formación y las oportunidades de quienes ya viven aquí, no fomentar empleo precario.
 
-**Qué proponemos:** Agilizar permisos con garantías, facilitar idioma y reconocimiento de capacidades y combatir la explotación. Atraer talento debe complementar la formación y las oportunidades de quienes ya viven aquí, no fomentar empleo precario.
+En un caso hipotético, una profesional con una oferta de empleo necesita saber qué permiso y reconocimiento de estudios le corresponden. La empresa necesita plazos previsibles y el municipio, capacidad de vivienda y servicios. Una información clara evita falsas expectativas; no crea un permiso nuevo.
 
-**Cómo sabremos si funciona:** Medir esperas de permisos, acceso a protección, integración y respuesta ante abusos. La nacionalidad no es una medida de delincuencia.
+Personas migrantes necesitan derechos y seguridad; trabajadores residentes, oportunidades y condiciones justas; empresas, personal cualificado; municipios, recursos. La protección internacional y la contratación laboral tienen finalidades distintas y no deben confundirse.
 
-**Ejemplo cotidiano (hipotético):** Una profesional con una oferta de empleo necesita saber qué permiso y reconocimiento de estudios le corresponden. La empresa necesita plazos previsibles y el municipio, capacidad de vivienda y servicios. Una información clara evita falsas expectativas; no crea un permiso nuevo.
+Para saber si funciona, proponemos medir esperas de permisos, acceso a protección, integración y respuesta ante abusos. La nacionalidad no es una medida de delincuencia.
 
-**Intereses que hay que equilibrar:** Personas migrantes necesitan derechos y seguridad; trabajadores residentes, oportunidades y condiciones justas; empresas, personal cualificado; municipios, recursos. La protección internacional y la contratación laboral tienen finalidades distintas y no deben confundirse.
+#### Plan de actuación
 
-**Argumento y alternativa:** Talento internacional puede aportar conocimiento, emprendimiento y redes comerciales si encuentra condiciones para desarrollar actividad y transferir capacidades. El beneficio no es automático: importan empleo, vivienda, servicios y retención. Menos incertidumbre, idioma y reconocimiento de competencias pueden facilitar empleo formal. Comparar refuerzo de personal, simplificación legal y acompañamiento, sin usar nacionalidad o irregularidad como indicador de delincuencia.
+En el primer año, en 3 oficinas de extranjería, proponemos reducir un 20 % la mediana de resolución de las categorías de permisos seleccionadas y ofrecer orientación voluntaria a 500 personas.
 
-**Indicador principal y fuente:** Días de resolución por tipo de permiso, expedientes de extranjería; empleo formal a 12 meses entre inscritos elegibles, con acceso legal a datos y pérdidas de seguimiento identificadas. Separar protección internacional e integración laboral.
+En cuatro años, el objetivo es extender a 10 oficinas, reducir un 35 % los plazos iniciales y alcanzar un 60 % de empleo formal a los 12 meses entre participantes habilitados para trabajar inscritos en acompañamiento laboral.
 
-**Qué haremos en el primer año:** En 3 oficinas de extranjería, reducir un 20 % la mediana de resolución de las categorías de permisos seleccionadas y ofrecer orientación voluntaria a 500 personas.
+La ejecución correspondería a unidades estatales de extranjería y servicios autonómicos y locales; el calendario previsto incluye separar categorías y necesidades en M1–M3; reforzar tramitación, traducción y derivaciones en M4–M6; orientación, idioma e inserción desde M7.
 
-**Qué queremos conseguir en cuatro años:** Extender a 10 oficinas, reducir un 35 % los plazos iniciales y alcanzar un 60 % de empleo formal a los 12 meses entre participantes habilitados para trabajar inscritos en acompañamiento laboral.
+Sobre el teletrabajo internacional, los artículos 74 quater y 74 quinquies de la Ley 14/2013 distinguen visado de hasta un año, autorización de residencia de hasta tres años y renovaciones por períodos de dos años si se mantienen las condiciones [F19]. No significa un límite total de un año para vivir en España. Proponer plazos iniciales más largos y renovaciones más previsibles; comparar, como escenario de reforma, visado de hasta dos años y residencia inicial de hasta cinco con simplificar la continuidad del régimen actual. Los plazos ampliados no son permisos vigentes ni una decisión legal aprobada.
 
-**Pasos y responsables:** Unidades estatales de extranjería y servicios autonómicos y locales: separar categorías y necesidades en M1–M3; reforzar tramitación, traducción y derivaciones en M4–M6; orientación, idioma e inserción desde M7.
-
-**Cómo comprobaremos los avances:** Expedientes abiertos, resueltos y pendientes; empleo entre todas las personas elegibles inscritas, incluyendo pérdidas de seguimiento. No acelerar mediante denegaciones indiscriminadas ni condicionar asilo o derechos al empleo.
-
-**Teletrabajo internacional: ley vigente y reforma propuesta:** Los artículos 74 quater y 74 quinquies de la Ley 14/2013 distinguen visado de hasta un año, autorización de residencia de hasta tres años y renovaciones por períodos de dos años si se mantienen las condiciones [F19]. No significa un límite total de un año para vivir en España. Proponer plazos iniciales más largos y renovaciones más previsibles; comparar, como escenario de reforma, visado de hasta dos años y residencia inicial de hasta cinco con simplificar la continuidad del régimen actual. Los plazos ampliados no son permisos vigentes ni una decisión legal aprobada.
-
-**Hito de reforma · M12:** Publicar una comparación jurídica y económica de ambas opciones, con tiempos, coste administrativo, atracción y retención, vivienda y servicios; someter una propuesta motivada a las instituciones competentes. En M48, informar si se aprobó y aplicó, de sus resultados o del bloqueo. No contabilizar una propuesta como permisos concedidos.
+Antes de M12, se propone publicar una comparación jurídica y económica de ambas opciones, con tiempos, coste administrativo, atracción y retención, vivienda y servicios; someter una propuesta motivada a las instituciones competentes. En M48, informar si se aprobó y aplicó, de sus resultados o del bloqueo. No contabilizar una propuesta como permisos concedidos.
 
 #### Ficha técnica
+
+**Fundamento y alternativas:** Talento internacional puede aportar conocimiento, emprendimiento y redes comerciales si encuentra condiciones para desarrollar actividad y transferir capacidades. El beneficio no es automático: importan empleo, vivienda, servicios y retención. Menos incertidumbre, idioma y reconocimiento de competencias pueden facilitar empleo formal. Comparar refuerzo de personal, simplificación legal y acompañamiento, sin usar nacionalidad o irregularidad como indicador de delincuencia.
+
+**Medición y fuentes:** Días de resolución por tipo de permiso, expedientes de extranjería; empleo formal a 12 meses entre inscritos elegibles, con acceso legal a datos y pérdidas de seguimiento identificadas. Separar protección internacional e integración laboral. Expedientes abiertos, resueltos y pendientes; empleo entre todas las personas elegibles inscritas, incluyendo pérdidas de seguimiento. No acelerar mediante denegaciones indiscriminadas ni condicionar asilo o derechos al empleo.
 
 **Problema a estudiar:** entradas y estancias irregulares, explotación laboral, dificultades administrativas y capacidad de acogida e integración. La irregularidad administrativa no debe equipararse automáticamente con delincuencia.
 
@@ -405,29 +391,27 @@ La cárcel ya existe para determinadas conductas; condena y cumplimiento efectiv
 
 ### 2.8. Relaciones exteriores y acuerdos internacionales
 
-**Qué queremos mejorar:** Vender y cooperar con otros países sin depender demasiado de un solo mercado ni decidir nuestra relación con Europa por consignas.
+Queremos vender y cooperar con otros países sin depender demasiado de un solo mercado ni decidir nuestra relación con Europa por consignas. Para ello, proponemos apoyar el acceso de empresas españolas a clientes europeos y estadounidenses y acuerdos útiles. También proponemos comparar permanencia, reformas y alternativas de relación con la UE, explicando beneficios, costes y transición.
 
-**Qué proponemos:** Apoyar el acceso de empresas españolas a clientes europeos y estadounidenses y acuerdos útiles. Comparar permanencia, reformas y alternativas de relación con la UE, explicando beneficios, costes y transición.
+En un caso hipotético, una pequeña empresa quiere vender fuera de España. Necesita conocer normas, costes de entrega y posibles clientes antes de invertir. El acompañamiento puede ayudarla a decidir, pero no asegura ventas ni que otro país acepte las condiciones propuestas.
 
-**Cómo sabremos si funciona:** Comprobar ventas reales, nuevas dependencias y efectos de cada escenario. Una reunión comercial o un estudio no equivalen a un acuerdo logrado.
+Empresas buscan mercados; trabajadores, empleo estable; consumidores, precios y protección; ciudadanía, capacidad democrática de decisión. Comparar opciones exige contar también derechos, mercados y cooperación que podrían perderse.
 
-**Ejemplo cotidiano (hipotético):** Una pequeña empresa quiere vender fuera de España. Necesita conocer normas, costes de entrega y posibles clientes antes de invertir. El acompañamiento puede ayudarla a decidir, pero no asegura ventas ni que otro país acepte las condiciones propuestas.
+Para saber si funciona, proponemos comprobar ventas reales, nuevas dependencias y efectos de cada escenario. Una reunión comercial o un estudio no equivalen a un acuerdo logrado.
 
-**Intereses que hay que equilibrar:** Empresas buscan mercados; trabajadores, empleo estable; consumidores, precios y protección; ciudadanía, capacidad democrática de decisión. Comparar opciones exige contar también derechos, mercados y cooperación que podrían perderse.
+#### Plan de actuación
 
-**Argumento y alternativa:** Diversificar ventas y suministros puede reducir exposición a un mercado, pero añade costes y no elimina riesgos globales. La comparación europea debe incluir beneficios perdidos y transición, no solo contribuciones evitadas. Ningún estudio garantiza que terceros acepten un acuerdo.
+En el primer año, proponemos publicar una evaluación independiente de 3 escenarios europeos —permanencia, reforma y una relación alternativa concreta— y acompañar a 100 pymes en diversificación comercial.
 
-**Indicador principal y fuente:** Pymes de la cohorte con ventas cobradas y sostenidas en nuevos mercados, mediante registros comerciales consentidos; escenarios revisados con comercio, inversión y condiciones jurídicas. No contar ventas brutas como ingreso disponible del Estado.
+En cuatro años, el objetivo es actualizar anualmente la evaluación y lograr que 30 de las 100 pymes mantengan ventas verificadas durante 12 meses en un mercado nuevo.
 
-**Qué haremos en el primer año:** Publicar una evaluación independiente de 3 escenarios europeos —permanencia, reforma y una relación alternativa concreta— y acompañar a 100 pymes en diversificación comercial.
-
-**Qué queremos conseguir en cuatro años:** Actualizar anualmente la evaluación y lograr que 30 de las 100 pymes mantengan ventas verificadas durante 12 meses en un mercado nuevo.
-
-**Pasos y responsables:** Departamento competente en relaciones exteriores, ICEX y evaluadores independientes: preguntas y mercados en M1–M3; contratación del estudio y apoyo comercial en M4–M6; publicación y acompañamiento de operaciones desde M7.
-
-**Cómo comprobaremos los avances:** Informes revisados, ventas efectivas y coste por empresa. No contar reuniones como exportaciones ni prometer acuerdos con terceros, salida de la UE o independencia monetaria en una legislatura.
+La ejecución correspondería a departamento competente en relaciones exteriores, ICEX y evaluadores independientes; el calendario previsto incluye preguntas y mercados en M1–M3; contratación del estudio y apoyo comercial en M4–M6; publicación y acompañamiento de operaciones desde M7.
 
 #### Ficha técnica
+
+**Fundamento y alternativas:** Diversificar ventas y suministros puede reducir exposición a un mercado, pero añade costes y no elimina riesgos globales. La comparación europea debe incluir beneficios perdidos y transición, no solo contribuciones evitadas. Ningún estudio garantiza que terceros acepten un acuerdo.
+
+**Medición y fuentes:** Pymes de la cohorte con ventas cobradas y sostenidas en nuevos mercados, mediante registros comerciales consentidos; escenarios revisados con comercio, inversión y condiciones jurídicas. No contar ventas brutas como ingreso disponible del Estado. Informes revisados, ventas efectivas y coste por empresa. No contar reuniones como exportaciones ni prometer acuerdos con terceros, salida de la UE o independencia monetaria en una legislatura.
 
 **Problema a estudiar:** cómo aprovechar la cooperación internacional para mejorar seguridad, oportunidades económicas, investigación y autonomía estratégica.
 
@@ -463,31 +447,29 @@ La cárcel ya existe para determinadas conductas; condena y cumplimiento efectiv
 
 ### 2.9. Educación y habilidades para la vida
 
-**Qué queremos mejorar:** Entender una factura, valorar una noticia, comunicarse y tomar decisiones cotidianas, además de aprender conocimientos fundamentales.
+Queremos entender una factura, valorar una noticia, comunicarnos y tomar decisiones cotidianas, además de aprender conocimientos fundamentales. Para ello, proponemos integrar pensamiento crítico, finanzas, inglés y habilidades prácticas, emocionales y digitales. También proponemos revisar contenidos repetidos sin debilitar conocimientos básicos ni convertir toda la educación en preparación para trabajar.
 
-**Qué proponemos:** Integrar pensamiento crítico, finanzas, inglés y habilidades prácticas, emocionales y digitales. Revisar contenidos repetidos sin debilitar conocimientos básicos ni convertir toda la educación en preparación para trabajar.
+En un caso hipotético, en clase se comparan dos compras a plazos: importe total, intereses y comisiones. El alumnado explica cuál cuesta más y por qué. El ejercicio ayuda a comprender una decisión sin recomendar un producto financiero.
 
-**Cómo sabremos si funciona:** Comprobar si el alumnado aplica lo aprendido y qué diferencias persisten según sus circunstancias. Añadir asignaturas no demuestra aprendizaje.
+Alumnado necesita formación amplia; familias, oportunidades; docentes, tiempo y preparación. Incorporar habilidades prácticas exige decidir qué se integra o se sustituye, no cargar más contenidos sin medios.
 
-**Ejemplo cotidiano (hipotético):** En clase se comparan dos compras a plazos: importe total, intereses y comisiones. El alumnado explica cuál cuesta más y por qué. El ejercicio ayuda a comprender una decisión sin recomendar un producto financiero.
+Para saber si funciona, proponemos comprobar si el alumnado aplica lo aprendido y qué diferencias persisten según sus circunstancias. Añadir asignaturas no demuestra aprendizaje.
 
-**Intereses que hay que equilibrar:** Alumnado necesita formación amplia; familias, oportunidades; docentes, tiempo y preparación. Incorporar habilidades prácticas exige decidir qué se integra o se sustituye, no cargar más contenidos sin medios.
+#### Plan de actuación
 
-**Argumento y alternativa:** Practicar decisiones sobre información y dinero puede desarrollar habilidades, pero añadir contenido sin formación docente puede sobrecargar el currículo. Comparar integración en materias existentes con módulos adicionales; validar instrumentos y adaptación por edad antes de atribuir mejoras.
+En inglés, se propone practicar conversación, comprensión, escritura y tareas profesionales, no solo exámenes gramaticales. En M3, definir itinerarios por edad y nivel del Marco Común Europeo de Referencia, con evaluación inicial y final comparable. Medir capacidad para mantener una conversación, entender instrucciones, escribir un correo o presentar un proyecto; publicar progresión, horas y abandonos. No prometer bilingüismo en un año ni usar nivel de inglés como condición para conservar derechos.
 
-**Indicador principal y fuente:** Puntuación media sobre 100 con rúbrica fijada previamente, evaluación inicial, final y a seis meses. Informar participación, resultados por contexto y grupo comparable; una prueba mejorada no demuestra por sí sola bienestar psicológico.
+En el primer año, proponemos formar a 100 docentes en 20 centros y mejorar 10 puntos sobre 100 las competencias críticas, financieras y prácticas de los grupos participantes respecto a su evaluación inicial. En M3, publicar una rúbrica por edad y una revisión de carga, duplicidades y contenidos que se propone actualizar.
 
-**Inglés útil y medible:** Practicar conversación, comprensión, escritura y tareas profesionales, no solo exámenes gramaticales. En M3, definir itinerarios por edad y nivel del Marco Común Europeo de Referencia, con evaluación inicial y final comparable. Medir capacidad para mantener una conversación, entender instrucciones, escribir un correo o presentar un proyecto; publicar progresión, horas y abandonos. No prometer bilingüismo en un año ni usar nivel de inglés como condición para conservar derechos.
+En cuatro años, el objetivo es extender a 100 centros y 500 docentes y mantener una mejora de al menos 10 puntos seis meses después del itinerario, publicando brechas por contexto.
 
-**Qué haremos en el primer año:** Formar a 100 docentes en 20 centros y mejorar 10 puntos sobre 100 las competencias críticas, financieras y prácticas de los grupos participantes respecto a su evaluación inicial. En M3, publicar una rúbrica por edad y una revisión de carga, duplicidades y contenidos que se propone actualizar.
-
-**Qué queremos conseguir en cuatro años:** Extender a 100 centros y 500 docentes y mantener una mejora de al menos 10 puntos seis meses después del itinerario, publicando brechas por contexto.
-
-**Pasos y responsables:** Autoridades educativas autonómicas y centros: materiales, rúbrica y evaluación externa en M1–M3; adaptación curricular y formación en M4–M6; actividades prácticas desde M7. Comparar con grupos semejantes antes de ampliar.
-
-**Cómo comprobaremos los avances:** Pruebas con rúbrica publicada, asistencia y seguimiento de todo el alumnado inicialmente inscrito. No excluir resultados desfavorables, medir adhesión ideológica ni sustituir atención clínica por educación emocional.
+La ejecución correspondería a autoridades educativas autonómicas y centros; el calendario previsto incluye materiales, rúbrica y evaluación externa en M1–M3; adaptación curricular y formación en M4–M6; actividades prácticas desde M7. Comparar con grupos semejantes antes de ampliar.
 
 #### Ficha técnica
+
+**Fundamento y alternativas:** Practicar decisiones sobre información y dinero puede desarrollar habilidades, pero añadir contenido sin formación docente puede sobrecargar el currículo. Comparar integración en materias existentes con módulos adicionales; validar instrumentos y adaptación por edad antes de atribuir mejoras.
+
+**Medición y fuentes:** Puntuación media sobre 100 con rúbrica fijada previamente, evaluación inicial, final y a seis meses. Informar participación, resultados por contexto y grupo comparable; una prueba mejorada no demuestra por sí sola bienestar psicológico. Pruebas con rúbrica publicada, asistencia y seguimiento de todo el alumnado inicialmente inscrito. No excluir resultados desfavorables, medir adhesión ideológica ni sustituir atención clínica por educación emocional.
 
 **Problema a estudiar:** si el alumnado adquiere herramientas suficientes para comprender información, gestionar dinero y cuidar su bienestar.
 
@@ -520,29 +502,27 @@ La cárcel ya existe para determinadas conductas; condena y cumplimiento efectiv
 
 ### 2.10. Talento artístico, cultural y otras carreras con ingresos inestables
 
-**Qué queremos mejorar:** Poder dedicarse a una actividad creativa o especializada sin vivir siempre pendiente de pagos inciertos.
+Queremos que sea posible dedicarse a una actividad creativa o especializada sin vivir siempre pendiente de pagos inciertos. Para ello, proponemos facilitar contratos comprensibles, cobro puntual, acceso a clientes y protección adecuada. El apoyo buscaría hacer viables estas carreras sin exigir que toda creación cultural sea rentable.
 
-**Qué proponemos:** Facilitar contratos comprensibles, cobro puntual, acceso a clientes y protección adecuada. Apoyar carreras viables sin exigir que toda creación cultural sea rentable.
+En un caso hipotético, una ilustradora recibe un encargo con precio, plazo de pago y usos de la obra por escrito. Puede planificar su trabajo y reclamar si no cobra. Conseguir un contrato más claro no garantiza que haya encargos todo el año.
 
-**Cómo sabremos si funciona:** Medir ingresos, pagos a tiempo y continuidad profesional, separando resultados económicos y valor cultural.
+Creadores necesitan ingresos y derechos; clientes, entregas claras; público, acceso a cultura diversa. Las ayudas deben explicar si buscan empleo, conservación o acceso cultural, y con qué coste.
 
-**Ejemplo cotidiano (hipotético):** Una ilustradora recibe un encargo con precio, plazo de pago y usos de la obra por escrito. Puede planificar su trabajo y reclamar si no cobra. Conseguir un contrato más claro no garantiza que haya encargos todo el año.
+Para saber si funciona, proponemos medir ingresos, pagos a tiempo y continuidad profesional, separando resultados económicos y valor cultural.
 
-**Intereses que hay que equilibrar:** Creadores necesitan ingresos y derechos; clientes, entregas claras; público, acceso a cultura diversa. Las ayudas deben explicar si buscan empleo, conservación o acceso cultural, y con qué coste.
+#### Plan de actuación
 
-**Argumento y alternativa:** Cobrar a tiempo reduce necesidades de financiación y el acompañamiento puede mejorar contratos y acceso a clientes. No toda actividad cultural debe ser comercialmente rentable: comparar apoyo temporal, espacios y compras públicas, distinguiendo sostenibilidad profesional y valor cultural.
+En el primer año, proponemos acompañar a 200 profesionales creativos y pagar dentro del plazo legal aplicable el 90 % de las facturas exigibles de encargos públicos del piloto.
 
-**Indicador principal y fuente:** Facturas pagadas dentro del plazo aplicable/facturas vencidas y mediana del ingreso neto real de actividad, en registros consentidos y pagos públicos. Separar ayudas extraordinarias, trabajo no remunerado y ceses.
+En cuatro años, el objetivo es ampliar a 1.000 profesionales, alcanzar un 95 % de pago en plazo y mejorar un 10 % el ingreso profesional mediano real de la cohorte inicial.
 
-**Qué haremos en el primer año:** Acompañar a 200 profesionales creativos y pagar dentro del plazo legal aplicable el 90 % de las facturas exigibles de encargos públicos del piloto.
-
-**Qué queremos conseguir en cuatro años:** Ampliar a 1.000 profesionales, alcanzar un 95 % de pago en plazo y mejorar un 10 % el ingreso profesional mediano real de la cohorte inicial.
-
-**Pasos y responsables:** Entidades contratantes, áreas de cultura y organizaciones profesionales: auditar facturas y seleccionar participantes en M1–M3; mentorías y contratos claros en M4–M6; conexión con clientes y seguimiento de pagos desde M7.
-
-**Cómo comprobaremos los avances:** Facturas vencidas, ingreso neto de la actividad ajustado por IPC y continuidad, incluyendo ceses. No contar una ayuda puntual como ingreso sostenible ni reducir valor cultural a rentabilidad.
+La ejecución correspondería a entidades contratantes, áreas de cultura y organizaciones profesionales; el calendario previsto incluye auditar facturas y seleccionar participantes en M1–M3; mentorías y contratos claros en M4–M6; conexión con clientes y seguimiento de pagos desde M7.
 
 #### Ficha técnica
+
+**Fundamento y alternativas:** Cobrar a tiempo reduce necesidades de financiación y el acompañamiento puede mejorar contratos y acceso a clientes. No toda actividad cultural debe ser comercialmente rentable: comparar apoyo temporal, espacios y compras públicas, distinguiendo sostenibilidad profesional y valor cultural.
+
+**Medición y fuentes:** Facturas pagadas dentro del plazo aplicable/facturas vencidas y mediana del ingreso neto real de actividad, en registros consentidos y pagos públicos. Separar ayudas extraordinarias, trabajo no remunerado y ceses. Facturas vencidas, ingreso neto de la actividad ajustado por IPC y continuidad, incluyendo ceses. No contar una ayuda puntual como ingreso sostenible ni reducir valor cultural a rentabilidad.
 
 **Problema a estudiar:** dificultades para convertir capacidades creativas y especializadas en ingresos sostenibles.
 
@@ -567,29 +547,27 @@ La cárcel ya existe para determinadas conductas; condena y cumplimiento efectiv
 
 ### 2.11. Ecosistema de startups, inversión y empresas globales desde España
 
-**Qué queremos mejorar:** Que una buena idea pueda convertirse en una empresa desde España y encontrar clientes dentro y fuera del país.
+Queremos que una buena idea pueda convertirse en una empresa desde España y encontrar clientes dentro y fuera del país. Para ello, proponemos conectar empresas nuevas con talento, investigación, clientes e inversión, especialmente en Europa y Estados Unidos. El apoyo público tendrá condiciones y no garantizará cualquier proyecto.
 
-**Qué proponemos:** Conectar empresas nuevas con talento, investigación, clientes e inversión, especialmente en Europa y Estados Unidos. El apoyo público tendrá condiciones y no garantizará cualquier proyecto.
+En un caso hipotético, un equipo crea una herramienta para ahorrar agua y prueba si alguien pagaría por ella antes de ampliar plantilla. El acompañamiento ayuda a validar clientes y financiación; si no hay demanda, permite revisar el proyecto antes de asumir más deuda.
 
-**Cómo sabremos si funciona:** Medir ventas, inversión realmente recibida, empleo y dinero público en riesgo. Un anuncio de financiación no es dinero desembolsado.
+Emprendedores necesitan oportunidades; inversores, riesgos claros; trabajadores, condiciones; contribuyentes, uso justificado de fondos. No se debe subvencionar sin demostrar qué mejora aporta la ayuda frente a invertir sin ella.
 
-**Ejemplo cotidiano (hipotético):** Un equipo crea una herramienta para ahorrar agua y prueba si alguien pagaría por ella antes de ampliar plantilla. El acompañamiento ayuda a validar clientes y financiación; si no hay demanda, permite revisar el proyecto antes de asumir más deuda.
+Para saber si funciona, proponemos medir ventas, inversión realmente recibida, empleo y dinero público en riesgo. Un anuncio de financiación no es dinero desembolsado.
 
-**Intereses que hay que equilibrar:** Emprendedores necesitan oportunidades; inversores, riesgos claros; trabajadores, condiciones; contribuyentes, uso justificado de fondos. No se debe subvencionar sin demostrar qué mejora aporta la ayuda frente a invertir sin ella.
+#### Plan de actuación
 
-**Argumento y alternativa:** Capital y reglas previsibles pueden permitir proyectos viables, pero una ayuda pública puede financiar inversión que habría sucedido igualmente. Comparar acompañamiento sin subvención, deuda y capital; justificar adicionalidad antes de comprometer fondos.
+En el primer año, proponemos acompañar a 50 proyectos y lograr que 10 reciban inversión privada efectivamente desembolsada, con riesgos y condiciones declarados. Para las startups que opten por internacionalizarse, publicar en M3 el protocolo de acompañamiento y completar antes de M12 un plan individual con mercado elegido, validación de demanda, requisitos y coste de acceso.
 
-**Indicador principal y fuente:** Desembolsos privados acreditados y empleo equivalente a jornada completa mantenido, con seguimiento de la cohorte y cuentas verificables. Presentar inversión bruta, pérdidas y coste público por separado; anuncios y promesas no son inversión.
+En cuatro años, el objetivo es conseguir inversión privada para 30 de esos proyectos y que al menos 20 mantengan actividad y empleo declarado durante 24 meses. Publicar anualmente ventas cobradas por mercado y continuidad de clientes de las startups internacionalizadas, sin fijar una cuota de exportación antes de conocer su línea base y sector.
 
-**Qué haremos en el primer año:** Acompañar a 50 proyectos y lograr que 10 reciban inversión privada efectivamente desembolsada, con riesgos y condiciones declarados. Para las startups que opten por internacionalizarse, publicar en M3 el protocolo de acompañamiento y completar antes de M12 un plan individual con mercado elegido, validación de demanda, requisitos y coste de acceso.
-
-**Qué queremos conseguir en cuatro años:** Conseguir inversión privada para 30 de esos proyectos y que al menos 20 mantengan actividad y empleo declarado durante 24 meses. Publicar anualmente ventas cobradas por mercado y continuidad de clientes de las startups internacionalizadas, sin fijar una cuota de exportación antes de conocer su línea base y sector.
-
-**Pasos y responsables:** Agencias de inversión, universidades y empresas: obstáculos en M1–M3; permisos, preparación financiera y conexiones con capital en M4–M6; desembolsos y ejecución desde M7. Las empresas deciden invertir; la coinversión pública requiere presupuesto y selección competitiva.
-
-**Cómo comprobaremos los avances:** Capital desembolsado, empleo equivalente a jornada completa, supervivencia y pérdidas de toda la cohorte. No contar anuncios o capital público como inversión privada ni asumir adicionalidad o rentabilidad garantizada.
+La ejecución correspondería a agencias de inversión, universidades y empresas; el calendario previsto incluye obstáculos en M1–M3; permisos, preparación financiera y conexiones con capital en M4–M6; desembolsos y ejecución desde M7. Las empresas deciden invertir; la coinversión pública requiere presupuesto y selección competitiva.
 
 #### Ficha técnica
+
+**Fundamento y alternativas:** Capital y reglas previsibles pueden permitir proyectos viables, pero una ayuda pública puede financiar inversión que habría sucedido igualmente. Comparar acompañamiento sin subvención, deuda y capital; justificar adicionalidad antes de comprometer fondos.
+
+**Medición y fuentes:** Desembolsos privados acreditados y empleo equivalente a jornada completa mantenido, con seguimiento de la cohorte y cuentas verificables. Presentar inversión bruta, pérdidas y coste público por separado; anuncios y promesas no son inversión. Capital desembolsado, empleo equivalente a jornada completa, supervivencia y pérdidas de toda la cohorte. No contar anuncios o capital público como inversión privada ni asumir adicionalidad o rentabilidad garantizada.
 
 **Problema a estudiar:** barreras para atraer y mantener inversión que genere empleo de calidad, tecnología y vínculos con proveedores locales.
 
@@ -630,29 +608,27 @@ La cárcel ya existe para determinadas conductas; condena y cumplimiento efectiv
 
 ### 2.12. Licitaciones caras, competencia y grupos de interés
 
-**Qué queremos mejorar:** Que una compra pública tenga un precio razonable, se entregue bien y no dependa de contactos privilegiados.
+Queremos que una compra pública tenga un precio razonable, se entregue bien y no dependa de contactos privilegiados. Para ello, proponemos facilitar competencia, comparar precios y calidad y revisar lo que se entrega. También proponemos publicar quién participa en decisiones y usar alertas de posibles sobrecostes con revisión humana.
 
-**Qué proponemos:** Facilitar competencia, comparar precios y calidad y revisar lo que se entrega. Publicar quién participa en decisiones y usar alertas de posibles sobrecostes con revisión humana.
+En un caso hipotético, un ayuntamiento contrata la reparación de una calle. Se pueden consultar requisitos, ofertas, precio final y cambios de obra. Si el coste sube, se explica la causa y se revisa; elegir lo más barato no sirve si la reparación falla pronto.
 
-**Cómo sabremos si funciona:** Medir ofertas recibidas, calidad, retrasos y sobrecostes justificados o corregidos. Un contrato caro o con una sola oferta no demuestra fraude.
+Ciudadanía necesita buen servicio; empresas, competir en igualdad y cobrar; técnicos, tiempo y criterio profesional. Los controles deben cubrir influencias de todos los operadores y distinguir errores, cambios legítimos e irregularidades.
 
-**Ejemplo cotidiano (hipotético):** Un ayuntamiento contrata la reparación de una calle. Se pueden consultar requisitos, ofertas, precio final y cambios de obra. Si el coste sube, se explica la causa y se revisa; elegir lo más barato no sirve si la reparación falla pronto.
+Para saber si funciona, proponemos medir ofertas recibidas, calidad, retrasos y sobrecostes justificados o corregidos. Un contrato caro o con una sola oferta no demuestra fraude.
 
-**Intereses que hay que equilibrar:** Ciudadanía necesita buen servicio; empresas, competir en igualdad y cobrar; técnicos, tiempo y criterio profesional. Los controles deben cubrir influencias de todos los operadores y distinguir errores, cambios legítimos e irregularidades.
+#### Plan de actuación
 
-**Argumento y alternativa:** Comparabilidad, concurrencia y revisión de ejecución permiten discutir precios y entrega; un contrato caro o con una oferta puede tener explicación legítima. Priorizar capacidad técnica y trazabilidad frente a una IA que prometa detectar fraude sin contexto. La supervisión debe cubrir gasto y calidad, no solo compra barata.
+En el primer año, en 5 entidades contratantes, proponemos hacer trazable el ciclo de 100 contratos y revisar humanamente todas las alertas de alto riesgo antes de adoptar decisiones.
 
-**Indicador principal y fuente:** Contratos con una sola oferta/contratos comparables, datos de licitación y ejecución; precisión de alertas revisadas por especialistas y coste final del servicio. Separar irregularidad, mala gestión y delito acreditado.
+En cuatro años, el objetivo es extender a 20 entidades y 1.000 contratos; reducir un 20 % la proporción de contratos con una sola oferta frente a T0 en categorías comparables, manteniendo calidad y acceso de pymes.
 
-**Qué haremos en el primer año:** En 5 entidades contratantes, hacer trazable el ciclo de 100 contratos y revisar humanamente todas las alertas de alto riesgo antes de adoptar decisiones.
-
-**Qué queremos conseguir en cuatro años:** Extender a 20 entidades y 1.000 contratos; reducir un 20 % la proporción de contratos con una sola oferta frente a T0 en categorías comparables, manteniendo calidad y acceso de pymes.
-
-**Pasos y responsables:** Unidades de contratación y órganos competentes de control: enlazar presupuesto, licitación, adjudicación, modificaciones, facturas y entrega en M1–M6; publicar datos no reservados y activar revisión desde M7; ampliar tras evaluación. Coordinar con controles existentes, no duplicarlos con un organismo sin función definida.
-
-**Cómo comprobaremos los avances:** Contratos trazables/contratos incluidos, ofertas por categoría, coste final y calidad entregada. Separar alertas, reducciones previstas y ahorro neto auditado; una salida de IA no prueba fraude ni autoriza sanciones.
+La ejecución correspondería a unidades de contratación y órganos competentes de control; el calendario previsto incluye enlazar presupuesto, licitación, adjudicación, modificaciones, facturas y entrega en M1–M6; publicar datos no reservados y activar revisión desde M7; ampliar tras evaluación. Coordinar con controles existentes, no duplicarlos con un organismo sin función definida.
 
 #### Ficha técnica
+
+**Fundamento y alternativas:** Comparabilidad, concurrencia y revisión de ejecución permiten discutir precios y entrega; un contrato caro o con una oferta puede tener explicación legítima. Priorizar capacidad técnica y trazabilidad frente a una IA que prometa detectar fraude sin contexto. La supervisión debe cubrir gasto y calidad, no solo compra barata.
+
+**Medición y fuentes:** Contratos con una sola oferta/contratos comparables, datos de licitación y ejecución; precisión de alertas revisadas por especialistas y coste final del servicio. Separar irregularidad, mala gestión y delito acreditado. Contratos trazables/contratos incluidos, ofertas por categoría, coste final y calidad entregada. Separar alertas, reducciones previstas y ahorro neto auditado; una salida de IA no prueba fraude ni autoriza sanciones.
 
 **Problema a estudiar:** sobrecostes, contratos con poca competencia, requisitos que excluyen proveedores y posibles influencias indebidas. Un precio alto no demuestra por sí solo corrupción; la representación de intereses tampoco es ilícita por definición.
 
@@ -684,29 +660,27 @@ La cárcel ya existe para determinadas conductas; condena y cumplimiento efectiv
 
 ### 2.13. Sanidad pública y privada: acceso, eficiencia y financiación
 
-**Qué queremos mejorar:** Recibir atención cuando se necesita y no perderse entre citas, pruebas y distintos servicios.
+Queremos recibir atención cuando se necesita y no perdernos entre citas, pruebas y distintos servicios. Para ello, proponemos organizar mejor citas y atención según gravedad, evitar pruebas repetidas y combinar capacidades públicas y privadas cuando mejore el servicio. La reorganización debe mantener cobertura y seguimiento sin desanimar a pedir atención necesaria.
 
-**Qué proponemos:** Organizar mejor citas y atención según gravedad, evitar pruebas repetidas y combinar capacidades públicas y privadas cuando mejore el servicio. Mantener cobertura y seguimiento sin desanimar a pedir atención necesaria.
+En un caso hipotético, una persona recibe una prueba en otro centro para evitar una espera, con prioridad clínica y autorización adecuadas. El resultado llega a su equipo habitual y tiene seguimiento. Cambiar de centro no debe obligarla a empezar de nuevo ni asumir un coste inesperado.
 
-**Cómo sabremos si funciona:** Medir esperas según necesidad clínica, resultados de salud y coste completo. Una lista más corta no basta si alguien queda fuera o pierde seguimiento.
+Pacientes necesitan acceso y continuidad; profesionales, tiempo y medios; centros, responsabilidades claras; contribuyentes, gasto eficaz. La colaboración exige controlar calidad y casos complejos, no solo contar consultas baratas.
 
-**Ejemplo cotidiano (hipotético):** Una persona recibe una prueba en otro centro para evitar una espera, con prioridad clínica y autorización adecuadas. El resultado llega a su equipo habitual y tiene seguimiento. Cambiar de centro no debe obligarla a empezar de nuevo ni asumir un coste inesperado.
+Para saber si funciona, proponemos medir esperas según necesidad clínica, resultados de salud y coste completo. Una lista más corta no basta si alguien queda fuera o pierde seguimiento.
 
-**Intereses que hay que equilibrar:** Pacientes necesitan acceso y continuidad; profesionales, tiempo y medios; centros, responsabilidades claras; contribuyentes, gasto eficaz. La colaboración exige controlar calidad y casos complejos, no solo contar consultas baratas.
+#### Plan de actuación
 
-**Argumento y alternativa:** Reorganizar agendas o incorporar capacidad puede reducir demoras; externalizar sin controlar selección de pacientes puede ocultar costes y trasladar casos complejos al sistema público. Comparar alternativas con igual prioridad clínica y complejidad, preservando cobertura y continuidad.
+En el primer año, en 3 áreas sanitarias, proponemos reducir un 15 % la mediana de espera de los procesos programados y niveles de prioridad elegidos, sin aumentar cancelaciones ni empeorar resultados clínicos ajustados.
 
-**Indicador principal y fuente:** Espera mediana y percentil 90 por prioridad en registros sanitarios completos, con pendientes, cancelaciones y resultados ajustados. Gasto de bolsillo y atención retrasada son condiciones de calidad, no efectos secundarios prescindibles.
+En cuatro años, el objetivo es extender a 10 áreas y reducir un 25 % la espera en las áreas iniciales, manteniendo acceso universal y sin aumentar gasto de bolsillo por la intervención.
 
-**Qué haremos en el primer año:** En 3 áreas sanitarias, reducir un 15 % la mediana de espera de los procesos programados y niveles de prioridad elegidos, sin aumentar cancelaciones ni empeorar resultados clínicos ajustados.
-
-**Qué queremos conseguir en cuatro años:** Extender a 10 áreas y reducir un 25 % la espera en las áreas iniciales, manteniendo acceso universal y sin aumentar gasto de bolsillo por la intervención.
-
-**Pasos y responsables:** Servicios de salud autonómicos y direcciones clínicas: demanda, capacidad y prioridades en M1–M3; presupuesto de personal, agendas y continuidad en M4–M6; ejecución desde M7. Comparar refuerzo público y colaboración privada por coste completo y resultado, sin seleccionar solo casos fáciles.
-
-**Cómo comprobaremos los avances:** Listas completas, mediana y percentil 90 por prioridad, pendientes, reingresos y resultados ajustados. Revisar urgentemente cualquier señal de daño; no alcanzar la meta excluyendo pacientes o disuadiendo atención necesaria.
+La ejecución correspondería a servicios de salud autonómicos y direcciones clínicas; el calendario previsto incluye demanda, capacidad y prioridades en M1–M3; presupuesto de personal, agendas y continuidad en M4–M6; ejecución desde M7. Comparar refuerzo público y colaboración privada por coste completo y resultado, sin seleccionar solo casos fáciles.
 
 #### Ficha técnica
+
+**Fundamento y alternativas:** Reorganizar agendas o incorporar capacidad puede reducir demoras; externalizar sin controlar selección de pacientes puede ocultar costes y trasladar casos complejos al sistema público. Comparar alternativas con igual prioridad clínica y complejidad, preservando cobertura y continuidad.
+
+**Medición y fuentes:** Espera mediana y percentil 90 por prioridad en registros sanitarios completos, con pendientes, cancelaciones y resultados ajustados. Gasto de bolsillo y atención retrasada son condiciones de calidad, no efectos secundarios prescindibles. Listas completas, mediana y percentil 90 por prioridad, pendientes, reingresos y resultados ajustados. Revisar urgentemente cualquier señal de daño; no alcanzar la meta excluyendo pacientes o disuadiendo atención necesaria.
 
 **Problema a estudiar:** listas de espera, desigualdad territorial, dificultades de acceso a determinados servicios y presión económica sobre hogares y empresas.
 
@@ -744,29 +718,27 @@ La cárcel ya existe para determinadas conductas; condena y cumplimiento efectiv
 
 ### 2.14. Burocracia y creación de empresas
 
-**Qué queremos mejorar:** Abrir un pequeño negocio o aprovechar habilidades y recursos propios sin trámites repetidos ni promesas de dinero fácil.
+Queremos abrir un pequeño negocio o aprovechar habilidades y recursos propios sin trámites repetidos ni promesas de dinero fácil. Para ello, proponemos coordinar trámites hasta poder operar legalmente y facilitar economía colaborativa, servicios y pequeños negocios. La simplificación se acompañaría de formación, acceso a clientes, controles necesarios y protección frente a impagos.
 
-**Qué proponemos:** Coordinar trámites hasta poder operar legalmente y facilitar economía colaborativa, servicios y pequeños negocios. Combinar formación y acceso a clientes con controles necesarios y protección frente a impagos.
+En un caso hipotético, una persona quiere alquilar herramientas que no usa todos los días. Antes de ofrecerlas comprueba obligaciones fiscales, seguridad, seguro y demanda. Una guía coordinada evita pasos repetidos, pero no inventa una exención ni convierte cualquier actividad en segura.
 
-**Cómo sabremos si funciona:** Medir tiempo y coste hasta abrir de verdad, horas de gestión y continuidad del negocio. Registrar una empresa no significa que ya pueda trabajar.
+Quien emprende necesita reglas comprensibles; clientes, seguridad; negocios existentes, competencia justa; administración, cumplimiento. Simplificar es eliminar repetición, no permisos necesarios ni obligaciones laborales o fiscales.
 
-**Ejemplo cotidiano (hipotético):** Una persona quiere alquilar herramientas que no usa todos los días. Antes de ofrecerlas comprueba obligaciones fiscales, seguridad, seguro y demanda. Una guía coordinada evita pasos repetidos, pero no inventa una exención ni convierte cualquier actividad en segura.
+Para saber si funciona, proponemos medir tiempo y coste hasta abrir de verdad, horas de gestión y continuidad del negocio. Registrar una empresa no significa que ya pueda trabajar.
 
-**Intereses que hay que equilibrar:** Quien emprende necesita reglas comprensibles; clientes, seguridad; negocios existentes, competencia justa; administración, cumplimiento. Simplificar es eliminar repetición, no permisos necesarios ni obligaciones laborales o fiscales.
+#### Plan de actuación
 
-**Argumento y alternativa:** Un requisito repetido añade coste sin asegurar más protección; eliminar uno necesario puede crear daños. Comparar ventanilla coordinada y reutilización de datos con declaración responsable solo donde proceda. La apertura efectiva, no la constitución de la sociedad, es el resultado.
+En el primer año, para 5 actividades de bajo riesgo en 3 municipios, proponemos reducir un 25 % la mediana de días desde solicitud completa hasta poder operar y publicar todos los requisitos y tasas antes de solicitar. Antes de M3, publicar una guía revisada para servicios por habilidades, alquiler de herramientas, uso temporal de espacios y movilidad, distinguiendo actividades permitidas, requisitos y reformas necesarias. El transporte remunerado no se tratará automáticamente como actividad de bajo riesgo ni quedará exento de autorización por figurar en la guía.
 
-**Indicador principal y fuente:** Días y coste desde solicitud completa hasta autorización o habilitación legal para operar, en expedientes y tasas. Publicar también tiempo total desde el primer contacto, pendientes e inspecciones para no desplazar la espera fuera del indicador.
+En cuatro años, el objetivo es extender a 20 actividades y 15 municipios y alcanzar un 40 % de reducción en las actividades iniciales, sin aumentar incumplimientos graves detectados.
 
-**Qué haremos en el primer año:** Para 5 actividades de bajo riesgo en 3 municipios, reducir un 25 % la mediana de días desde solicitud completa hasta poder operar y publicar todos los requisitos y tasas antes de solicitar. Antes de M3, publicar una guía revisada para servicios por habilidades, alquiler de herramientas, uso temporal de espacios y movilidad, distinguiendo actividades permitidas, requisitos y reformas necesarias. El transporte remunerado no se tratará automáticamente como actividad de bajo riesgo ni quedará exento de autorización por figurar en la guía.
-
-**Qué queremos conseguir en cuatro años:** Extender a 20 actividades y 15 municipios y alcanzar un 40 % de reducción en las actividades iniciales, sin aumentar incumplimientos graves detectados.
-
-**Pasos y responsables:** Ayuntamientos, comunidad autónoma y unidades estatales del trámite: inventario y eliminación de duplicidades en M1–M3; ventanilla coordinada y asistencia en M4–M6; seguimiento e inspección desde M7. Usar declaración responsable solo donde sea legalmente adecuada.
-
-**Cómo comprobaremos los avances:** Tiempo total para operar, no solo constituir una sociedad, coste y solicitudes pendientes o rechazadas. Mantener controles necesarios de seguridad, consumo y medio ambiente.
+La ejecución correspondería a ayuntamientos, comunidad autónoma y unidades estatales del trámite; el calendario previsto incluye inventario y eliminación de duplicidades en M1–M3; ventanilla coordinada y asistencia en M4–M6; seguimiento e inspección desde M7. Usar declaración responsable solo donde sea legalmente adecuada.
 
 #### Ficha técnica
+
+**Fundamento y alternativas:** Un requisito repetido añade coste sin asegurar más protección; eliminar uno necesario puede crear daños. Comparar ventanilla coordinada y reutilización de datos con declaración responsable solo donde proceda. La apertura efectiva, no la constitución de la sociedad, es el resultado.
+
+**Medición y fuentes:** Días y coste desde solicitud completa hasta autorización o habilitación legal para operar, en expedientes y tasas. Publicar también tiempo total desde el primer contacto, pendientes e inspecciones para no desplazar la espera fuera del indicador. Tiempo total para operar, no solo constituir una sociedad, coste y solicitudes pendientes o rechazadas. Mantener controles necesarios de seguridad, consumo y medio ambiente.
 
 **Problema a estudiar:** costes, trámites repetidos e incertidumbre al iniciar, mantener o cerrar una actividad, especialmente para pequeños negocios. Crear una sociedad y obtener los permisos para operar son procesos distintos: simplificar solo el primero no resuelve todo el problema.
 
@@ -801,29 +773,27 @@ La cárcel ya existe para determinadas conductas; condena y cumplimiento efectiv
 
 ### 2.15. Autónomos: cotizaciones, ingresos variables y protección
 
-**Qué queremos mejorar:** Poder trabajar por cuenta propia sin que un mes de pocos ingresos convierta las obligaciones en una carga imposible.
+Queremos poder trabajar por cuenta propia sin que un mes de pocos ingresos convierta las obligaciones en una carga imposible. Para ello, proponemos evaluar pagos y obligaciones mejor adaptados a ingresos variables, facilitar gestiones y combatir impagos. Cualquier cambio debe mantener la protección social y explicar cómo se financiaría.
 
-**Qué proponemos:** Evaluar pagos y obligaciones mejor adaptados a ingresos variables, facilitar gestiones y combatir impagos. Mantener la protección social y explicar cómo se financiaría cualquier cambio.
+En un caso hipotético, una profesional factura más un mes y menos el siguiente, pero también paga materiales y espera facturas pendientes. Se estudia cómo ajustar pagos a sus ingresos reales y evitar quedarse sin protección. Una propuesta de ajuste no es una cuota nueva ya vigente.
 
-**Cómo sabremos si funciona:** Comparar obligaciones con ingresos después de gastos, puntualidad del cobro y prestaciones. Facturar mucho no equivale a ganar mucho.
+Autónomos necesitan liquidez y protección; clientes, servicios fiables; asalariados, reglas que eviten falsas relaciones por cuenta propia; sistema social, financiación suficiente. Flexibilidad no debe esconder empleo sin derechos.
 
-**Ejemplo cotidiano (hipotético):** Una profesional factura más un mes y menos el siguiente, pero también paga materiales y espera facturas pendientes. Se estudia cómo ajustar pagos a sus ingresos reales y evitar quedarse sin protección. Una propuesta de ajuste no es una cuota nueva ya vigente.
+Para saber si funciona, proponemos comparar obligaciones con ingresos después de gastos, puntualidad del cobro y prestaciones. Facturar mucho no equivale a ganar mucho.
 
-**Intereses que hay que equilibrar:** Autónomos necesitan liquidez y protección; clientes, servicios fiables; asalariados, reglas que eviten falsas relaciones por cuenta propia; sistema social, financiación suficiente. Flexibilidad no debe esconder empleo sin derechos.
+#### Plan de actuación
 
-**Argumento y alternativa:** Ajustar pagos a ingresos variables puede aliviar liquidez, pero reducir cotización sin financiación puede debilitar prestaciones. Comparar ajustes, asistencia y apoyos temporales, usando rendimientos netos y no facturación. La simplificación no equivale a una exención ya aprobada.
+En el primer año, en una cohorte voluntaria de 300 autónomos con ingresos variables, proponemos reducir un 20 % las horas de gestión de cotización y regularización y entregar a todos una explicación verificable de pagos y derechos.
 
-**Indicador principal y fuente:** Horas de gestión por ciclo y cotización/rendimiento neto por perfil, con registros consentidos y reglas vigentes. Para rendimientos nulos o negativos publicar importes absolutos: el cociente no es interpretable.
+En cuatro años, el objetivo es extender el acompañamiento a 3.000 autónomos y reducir un 35 % las horas en la cohorte inicial; presentar una reforma de ajustes y protección con memoria completa de financiación y cobertura.
 
-**Qué haremos en el primer año:** En una cohorte voluntaria de 300 autónomos con ingresos variables, reducir un 20 % las horas de gestión de cotización y regularización y entregar a todos una explicación verificable de pagos y derechos.
-
-**Qué queremos conseguir en cuatro años:** Extender el acompañamiento a 3.000 autónomos y reducir un 35 % las horas en la cohorte inicial; presentar una reforma de ajustes y protección con memoria completa de financiación y cobertura.
-
-**Pasos y responsables:** Seguridad Social, áreas fiscales competentes y organizaciones de autónomos: perfiles y trámites en M1–M3; herramientas públicas y asistencia en M4–M6; seguimiento de regularizaciones desde M7. Cualquier cambio de cuotas o prestaciones se tramitará por la vía normativa competente, no por una exención informal del piloto.
-
-**Cómo comprobaremos los avances:** Horas registradas por ciclo, errores, volatilidad de pagos y cobertura. La meta administrativa no equivale a una rebaja aprobada; no reducir protección o favorecer falso trabajo autónomo.
+La ejecución correspondería a Seguridad Social, áreas fiscales competentes y organizaciones de autónomos; el calendario previsto incluye perfiles y trámites en M1–M3; herramientas públicas y asistencia en M4–M6; seguimiento de regularizaciones desde M7. Cualquier cambio de cuotas o prestaciones se tramitará por la vía normativa competente, no por una exención informal del piloto.
 
 #### Ficha técnica
+
+**Fundamento y alternativas:** Ajustar pagos a ingresos variables puede aliviar liquidez, pero reducir cotización sin financiación puede debilitar prestaciones. Comparar ajustes, asistencia y apoyos temporales, usando rendimientos netos y no facturación. La simplificación no equivale a una exención ya aprobada.
+
+**Medición y fuentes:** Horas de gestión por ciclo y cotización/rendimiento neto por perfil, con registros consentidos y reglas vigentes. Para rendimientos nulos o negativos publicar importes absolutos: el cociente no es interpretable. Horas registradas por ciclo, errores, volatilidad de pagos y cobertura. La meta administrativa no equivale a una rebaja aprobada; no reducir protección o favorecer falso trabajo autónomo.
 
 **Problema a estudiar:** peso de las cotizaciones y obligaciones administrativas sobre actividades con ingresos bajos, estacionales o imprevisibles, y relación entre lo aportado y la protección recibida.
 
@@ -853,29 +823,27 @@ La cárcel ya existe para determinadas conductas; condena y cumplimiento efectiv
 
 ### 2.16. Impuestos e IVA: carga, simplicidad y financiación
 
-**Qué queremos mejorar:** Entender lo que pagamos en impuestos y reducir cargas evitables sin dejar servicios sin financiación.
+Queremos entender lo que pagamos en impuestos y reducir cargas evitables sin dejar servicios sin financiación. Para ello, proponemos comparar cambios en impuestos e IVA, simplificar reglas y explicar quién gana, quién paga y cómo se cubre el coste.
 
-**Qué proponemos:** Comparar cambios en impuestos e IVA, simplificar reglas y explicar quién gana, quién paga y cómo se cubre el coste.
+En un caso hipotético, se estudia bajar el IVA de un producto. Se comprueba cuánto baja el precio final y cuánto deja de ingresar el Estado. Si el comercio conserva la rebaja como margen, el consumidor no recibe todo el beneficio esperado.
 
-**Cómo sabremos si funciona:** Medir impuestos realmente pagados, dinero disponible, precios y cuentas públicas. No asumir que una rebaja se financia sola.
+Hogares y empresas buscan menor carga; usuarios de servicios públicos, financiación estable. Hay que explicar efectos según ingresos y consumo, y comparar rebajas generales con apoyos más concretos.
 
-**Ejemplo cotidiano (hipotético):** Se estudia bajar el IVA de un producto. Se comprueba cuánto baja el precio final y cuánto deja de ingresar el Estado. Si el comercio conserva la rebaja como margen, el consumidor no recibe todo el beneficio esperado.
+Para saber si funciona, proponemos medir impuestos realmente pagados, dinero disponible, precios y cuentas públicas. No debe asumirse que una rebaja se financia sola.
 
-**Intereses que hay que equilibrar:** Hogares y empresas buscan menor carga; usuarios de servicios públicos, financiación estable. Hay que explicar efectos según ingresos y consumo, y comparar rebajas generales con apoyos más concretos.
+#### Plan de actuación
 
-**Argumento y alternativa:** Reducir cargas puede mejorar renta disponible e incentivos, pero el efecto depende del diseño y de cómo se financie. Comparar cambios en IRPF, beneficios fiscales y ayudas focalizadas; una rebaja de IVA puede no trasladarse íntegramente al precio. No asumir autofinanciación por crecimiento.
+En el primer año, proponemos publicar 10 perfiles comparables de carga fiscal total y reducir un 15 % las horas de cumplimiento en una cohorte de 300 hogares, autónomos y pymes mediante información y simplificación legal.
 
-**Indicador principal y fuente:** Impuestos y cotizaciones pagados/ingreso comparable por perfil, con norma y territorio declarados; horas de cumplimiento, recaudación y precios. Distinguir tipo marginal y efectivo, y salario bruto, rendimiento neto y facturación.
+En cuatro años, el objetivo es extender a 3.000 participantes y reducir un 30 % las horas en la cohorte inicial; evaluar al menos 3 alternativas de alivio fiscal, cada una con distribución de efectos y financiación completa, y tramitar las que superen esa evaluación.
 
-**Qué haremos en el primer año:** Publicar 10 perfiles comparables de carga fiscal total y reducir un 15 % las horas de cumplimiento en una cohorte de 300 hogares, autónomos y pymes mediante información y simplificación legal.
-
-**Qué queremos conseguir en cuatro años:** Extender a 3.000 participantes y reducir un 30 % las horas en la cohorte inicial; evaluar al menos 3 alternativas de alivio fiscal, cada una con distribución de efectos y financiación completa, y tramitar las que superen esa evaluación.
-
-**Pasos y responsables:** Hacienda, administraciones tributarias competentes y legisladores: perfiles y obligaciones en M1–M3; herramientas y eliminación legal de duplicidades en M4–M6; evaluación desde M7. Comparar IVA y ayudas directas antes de escoger una rebaja, verificando su traslado al precio.
-
-**Cómo comprobaremos los avances:** Horas, coste, errores y carga efectiva por perfil; efecto presupuestario y precios. No prometer un tipo fiscal concreto sin memoria ni contabilizar crecimiento o fraude evitado como financiación cierta.
+La ejecución correspondería a Hacienda, administraciones tributarias competentes y legisladores; el calendario previsto incluye perfiles y obligaciones en M1–M3; herramientas y eliminación legal de duplicidades en M4–M6; evaluación desde M7. Comparar IVA y ayudas directas antes de escoger una rebaja, verificando su traslado al precio.
 
 #### Ficha técnica
+
+**Fundamento y alternativas:** Reducir cargas puede mejorar renta disponible e incentivos, pero el efecto depende del diseño y de cómo se financie. Comparar cambios en IRPF, beneficios fiscales y ayudas focalizadas; una rebaja de IVA puede no trasladarse íntegramente al precio. No asumir autofinanciación por crecimiento.
+
+**Medición y fuentes:** Impuestos y cotizaciones pagados/ingreso comparable por perfil, con norma y territorio declarados; horas de cumplimiento, recaudación y precios. Distinguir tipo marginal y efectivo, y salario bruto, rendimiento neto y facturación. Horas, coste, errores y carga efectiva por perfil; efecto presupuestario y precios. No prometer un tipo fiscal concreto sin memoria ni contabilizar crecimiento o fraude evitado como financiación cierta.
 
 **Problema a estudiar:** carga fiscal efectiva sobre hogares y empresas, complejidad del cumplimiento y efecto de los impuestos sobre consumo, empleo e inversión. La valoración de que un impuesto es alto debe contrastarse con ingresos, deducciones, servicios financiados y contribuyentes comparables.
 
@@ -908,29 +876,27 @@ La cárcel ya existe para determinadas conductas; condena y cumplimiento efectiv
 
 ### 2.17. Independencia energética: petróleo, gas y aviación
 
-**Qué queremos mejorar:** Depender menos del petróleo y del gas sin perder energía fiable ni trasladar costes inasumibles a hogares y empresas.
+Queremos depender menos del petróleo y del gas sin perder energía fiable ni trasladar costes inasumibles a hogares y empresas. Para ello, proponemos ahorrar energía, mejorar edificios y sustituir combustibles donde sea viable. La transición incluiría desarrollar electricidad, almacenamiento y alternativas para aviación con costes, suministro y emisiones comprobables.
 
-**Qué proponemos:** Ahorrar energía, mejorar edificios y sustituir combustibles donde sea viable. Desarrollar electricidad, almacenamiento y alternativas para aviación con costes, suministro y emisiones comprobables.
+En un caso hipotético, una comunidad de vecinos compara aislar el edificio, cambiar la calefacción o combinar ambas opciones. Cuenta inversión, mantenimiento y factura esperada antes de decidir. La mejor solución depende del edificio y de quién puede pagar el gasto inicial.
 
-**Cómo sabremos si funciona:** Medir combustible importado y consumido, emisiones desde fabricación hasta uso, coste completo y cortes de suministro.
+Hogares necesitan facturas asumibles; empresas, suministro estable; trabajadores, adaptación; vecinos, impactos locales. Reducir emisiones y dependencia exige inversión y no garantiza quedar a salvo de todas las subidas de precios.
 
-**Ejemplo cotidiano (hipotético):** Una comunidad de vecinos compara aislar el edificio, cambiar la calefacción o combinar ambas opciones. Cuenta inversión, mantenimiento y factura esperada antes de decidir. La mejor solución depende del edificio y de quién puede pagar el gasto inicial.
+Para saber si funciona, proponemos medir combustible importado y consumido, emisiones desde fabricación hasta uso, coste completo y cortes de suministro.
 
-**Intereses que hay que equilibrar:** Hogares necesitan facturas asumibles; empresas, suministro estable; trabajadores, adaptación; vecinos, impactos locales. Reducir emisiones y dependencia exige inversión y no garantiza quedar a salvo de todas las subidas de precios.
+#### Plan de actuación
 
-**Argumento y alternativa:** Eficiencia y electrificación pueden reducir exposición a combustibles importados; requieren inversión, suministro y mantenimiento. Comparar aislamiento, equipos y gestión de demanda por coste de ciclo de vida. Cambiar petróleo por gas desplaza dependencia; no crea inmunidad a inflación o shocks.
+En el primer año, en 500 hogares y 20 pymes con consumo fósil medible, proponemos reducir un 15 % el consumo conjunto de gas y derivados del petróleo, ajustado por temperatura y nivel de actividad, sin sustituir uno por otro para aparentar ahorro.
 
-**Indicador principal y fuente:** kWh equivalentes fósiles por hogar o unidad producida, con facturas y contadores ajustados por clima y actividad; coste completo, electricidad adicional y continuidad. Comparar cohortes y tecnologías, no solo potencia instalada.
+En cuatro años, el objetivo es extender a 5.000 hogares y 200 pymes y reducir un 30 % ese consumo en la cohorte inicial, con coste total y fiabilidad publicados.
 
-**Qué haremos en el primer año:** En 500 hogares y 20 pymes con consumo fósil medible, reducir un 15 % el consumo conjunto de gas y derivados del petróleo, ajustado por temperatura y nivel de actividad, sin sustituir uno por otro para aparentar ahorro.
-
-**Qué queremos conseguir en cuatro años:** Extender a 5.000 hogares y 200 pymes y reducir un 30 % ese consumo en la cohorte inicial, con coste total y fiabilidad publicados.
-
-**Pasos y responsables:** Administraciones energéticas y de vivienda, municipios y participantes: auditoría y selección de actuaciones en M1–M3; financiación de aislamiento, eficiencia y electrificación viable en M4–M6; instalación desde M7. Coordinar redes y suministro; evaluar aviación por pilotos y certificación, no prometer sustituir toda la flota.
-
-**Cómo comprobaremos los avances:** Energía fósil en kWh equivalentes, consumo eléctrico, emisiones y factura completa, ajustando clima y producción. No cerrar respaldo energético sin alternativas fiables ni prometer independencia total de la inflación.
+La ejecución correspondería a administraciones energéticas y de vivienda, municipios y participantes; el calendario previsto incluye auditoría y selección de actuaciones en M1–M3; financiación de aislamiento, eficiencia y electrificación viable en M4–M6; instalación desde M7. Coordinar redes y suministro; evaluar aviación por pilotos y certificación, no prometer sustituir toda la flota.
 
 #### Ficha técnica
+
+**Fundamento y alternativas:** Eficiencia y electrificación pueden reducir exposición a combustibles importados; requieren inversión, suministro y mantenimiento. Comparar aislamiento, equipos y gestión de demanda por coste de ciclo de vida. Cambiar petróleo por gas desplaza dependencia; no crea inmunidad a inflación o shocks.
+
+**Medición y fuentes:** kWh equivalentes fósiles por hogar o unidad producida, con facturas y contadores ajustados por clima y actividad; coste completo, electricidad adicional y continuidad. Comparar cohortes y tecnologías, no solo potencia instalada. Energía fósil en kWh equivalentes, consumo eléctrico, emisiones y factura completa, ajustando clima y producción. No cerrar respaldo energético sin alternativas fiables ni prometer independencia total de la inflación.
 
 **Problema a estudiar:** dependencia de combustibles importados, exposición a precios internacionales y dificultad para descarbonizar transporte e industria. Independencia energética no significa necesariamente aislarse ni producir todos los recursos dentro del país.
 
@@ -961,29 +927,27 @@ La cárcel ya existe para determinadas conductas; condena y cumplimiento efectiv
 
 ### 2.18. Espacio: ciencia, industria y servicios útiles
 
-**Qué queremos mejorar:** Que la investigación y la industria espacial sirvan también para resolver problemas en la Tierra.
+Queremos que la investigación y la industria espacial sirvan también para resolver problemas en la Tierra. Para ello, proponemos cooperar en proyectos científicos y empresariales y usar datos espaciales donde mejoren servicios. Antes de financiar infraestructura propia, compararíamos soluciones existentes.
 
-**Qué proponemos:** Cooperar en proyectos científicos y empresariales y usar datos espaciales donde mejoren servicios. Comparar soluciones existentes antes de financiar infraestructura propia.
+En un caso hipotético, un servicio compara imágenes de satélite y mediciones sobre el terreno para detectar zonas con falta de agua. Los datos ayudan a decidir dónde comprobar el problema; no sustituyen la verificación ni obligan a lanzar un satélite nuevo.
 
-**Cómo sabremos si funciona:** Medir capacidades, contratos competidos y servicios realmente mejorados. Tener un proyecto espacial no demuestra utilidad por sí solo.
+Investigadores necesitan continuidad; empresas, competencia; usuarios, datos útiles; contribuyentes, costes justificados. Desarrollar capacidades propias no significa producir todo ni dejar de usar cooperación y datos abiertos.
 
-**Ejemplo cotidiano (hipotético):** Un servicio compara imágenes de satélite y mediciones sobre el terreno para detectar zonas con falta de agua. Los datos ayudan a decidir dónde comprobar el problema; no sustituyen la verificación ni obligan a lanzar un satélite nuevo.
+Para saber si funciona, proponemos medir capacidades, contratos competidos y servicios realmente mejorados. Tener un proyecto espacial no demuestra utilidad por sí solo.
 
-**Intereses que hay que equilibrar:** Investigadores necesitan continuidad; empresas, competencia; usuarios, datos útiles; contribuyentes, costes justificados. Desarrollar capacidades propias no significa producir todo ni dejar de usar cooperación y datos abiertos.
+#### Plan de actuación
 
-**Argumento y alternativa:** Datos satelitales pueden ampliar observación territorial, pero solo aportan valor si mejoran decisiones o servicios. Comparar datos abiertos existentes, contratación y medición terrestre antes de financiar infraestructura propia; no confundir soberanía tecnológica con producir todo.
+En el primer año, proponemos implantar 3 pilotos de uso de datos satelitales en servicios públicos y reducir un 20 % el tiempo de elaboración de mapas operativos en al menos 2.
 
-**Indicador principal y fuente:** Tiempo hasta mapa validado, precisión respecto a referencias y coste por servicio efectivamente utilizado, en registros de usuarios públicos. Un prototipo no equivale a uso operativo ni a un contrato industrial conseguido.
+En cuatro años, el objetivo es mantener 10 servicios usuarios y conseguir que al menos 7 reduzcan un 25 % ese tiempo frente al método inicial, con precisión y coste total evaluados.
 
-**Qué haremos en el primer año:** Implantar 3 pilotos de uso de datos satelitales en servicios públicos y reducir un 20 % el tiempo de elaboración de mapas operativos en al menos 2.
-
-**Qué queremos conseguir en cuatro años:** Mantener 10 servicios usuarios y conseguir que al menos 7 reduzcan un 25 % ese tiempo frente al método inicial, con precisión y coste total evaluados.
-
-**Pasos y responsables:** Agencia Espacial Española, autoridades usuarias y centros de investigación: necesidades en M1–M3; acceso a datos y acuerdos compatibles con programas europeos en M4–M6; pruebas y formación desde M7. Priorizar servicios útiles antes de infraestructura propia.
-
-**Cómo comprobaremos los avances:** Tiempo desde datos disponibles hasta mapa validado, precisión, uso real y coste frente a alternativas. Un prototipo o prestigio institucional no equivale a servicio operativo ni garantiza contratos industriales.
+La ejecución correspondería a Agencia Espacial Española, autoridades usuarias y centros de investigación; el calendario previsto incluye necesidades en M1–M3; acceso a datos y acuerdos compatibles con programas europeos en M4–M6; pruebas y formación desde M7. Priorizar servicios útiles antes de infraestructura propia.
 
 #### Ficha técnica
+
+**Fundamento y alternativas:** Datos satelitales pueden ampliar observación territorial, pero solo aportan valor si mejoran decisiones o servicios. Comparar datos abiertos existentes, contratación y medición terrestre antes de financiar infraestructura propia; no confundir soberanía tecnológica con producir todo.
+
+**Medición y fuentes:** Tiempo hasta mapa validado, precisión respecto a referencias y coste por servicio efectivamente utilizado, en registros de usuarios públicos. Un prototipo no equivale a uso operativo ni a un contrato industrial conseguido. Tiempo desde datos disponibles hasta mapa validado, precisión, uso real y coste frente a alternativas. Un prototipo o prestigio institucional no equivale a servicio operativo ni garantiza contratos industriales.
 
 **Problema a estudiar:** cómo desarrollar capacidades espaciales competitivas y aprovecharlas para investigación, empleo cualificado y servicios públicos.
 
@@ -1011,29 +975,27 @@ La cárcel ya existe para determinadas conductas; condena y cumplimiento efectiv
 
 ### 2.19. Medios de comunicación, pluralismo e independencia editorial
 
-**Qué queremos mejorar:** Saber quién financia la información y poder acceder a versiones distintas sin instrucciones partidistas.
+Queremos saber quién financia la información y poder acceder a versiones distintas sin instrucciones partidistas. Para ello, proponemos publicar financiación y criterios de publicidad institucional, proteger independencia editorial y facilitar correcciones y reclamaciones. Esto no autoriza a imponer una versión oficial de la verdad.
 
-**Qué proponemos:** Publicar financiación y criterios de publicidad institucional, proteger independencia editorial y facilitar correcciones y reclamaciones. No imponer una versión oficial de la verdad.
+En un caso hipotético, dos medios critican de forma diferente una decisión pública. La publicidad institucional se reparte con criterios publicados, no según cuál elogie al Gobierno. Si hay un dato incorrecto, existe una vía de corrección sin censurar la opinión.
 
-**Cómo sabremos si funciona:** Comprobar transparencia, reparto justificado de fondos, correcciones y acceso a voces distintas. Un medio transparente puede seguir teniendo una línea editorial.
+Audiencias necesitan información; periodistas, autonomía; medios, financiación viable; anunciantes, reglas claras. La crítica y la discrepancia deben protegerse sin justificar financiación oculta ni trato de favor.
 
-**Ejemplo cotidiano (hipotético):** Dos medios critican de forma diferente una decisión pública. La publicidad institucional se reparte con criterios publicados, no según cuál elogie al Gobierno. Si hay un dato incorrecto, existe una vía de corrección sin censurar la opinión.
+Para saber si funciona, proponemos comprobar transparencia, reparto justificado de fondos, correcciones y acceso a voces distintas. Un medio transparente puede seguir teniendo una línea editorial.
 
-**Intereses que hay que equilibrar:** Audiencias necesitan información; periodistas, autonomía; medios, financiación viable; anunciantes, reglas claras. La crítica y la discrepancia deben protegerse sin justificar financiación oculta ni trato de favor.
+#### Plan de actuación
 
-**Argumento y alternativa:** Publicar financiación y criterios permite detectar trato desigual, pero no convierte opiniones en neutrales. Proteger procedimientos y reclamaciones frente a imponer una versión oficial de la verdad; la pluralidad incluye críticas al Gobierno.
+En el primer año, en 5 entidades públicas anunciantes, proponemos publicar criterios, adjudicatarios e importes del 100 % de su publicidad institucional no reservada y habilitar trazabilidad de reclamaciones.
 
-**Indicador principal y fuente:** Gasto de publicidad institucional trazado/gasto ejecutado, presupuestos y adjudicaciones; plazos de respuesta a reclamaciones. Explicar reservas legales y contrastar integridad del registro, no puntuar afinidad política.
+En cuatro años, el objetivo es extender a 20 entidades y mantener publicación completa, con respuesta motivada al 90 % de las reclamaciones dentro de 60 días.
 
-**Qué haremos en el primer año:** En 5 entidades públicas anunciantes, publicar criterios, adjudicatarios e importes del 100 % de su publicidad institucional no reservada y habilitar trazabilidad de reclamaciones.
-
-**Qué queremos conseguir en cuatro años:** Extender a 20 entidades y mantener publicación completa, con respuesta motivada al 90 % de las reclamaciones dentro de 60 días.
-
-**Pasos y responsables:** Entidades anunciantes y órganos independientes de control: inventario y reglas en M1–M3; registro reutilizable y canales de reclamación en M4–M6; revisión trimestral desde M7. Evaluar nombramientos y financiación con criterios profesionales y pluralismo.
-
-**Cómo comprobaremos los avances:** Gasto registrado/gasto ejecutado, fechas de publicación y reclamaciones respondidas. No premiar coberturas favorables ni convertir el registro en un listado oficial de medios aceptables.
+La ejecución correspondería a entidades anunciantes y órganos independientes de control; el calendario previsto incluye inventario y reglas en M1–M3; registro reutilizable y canales de reclamación en M4–M6; revisión trimestral desde M7. Evaluar nombramientos y financiación con criterios profesionales y pluralismo.
 
 #### Ficha técnica
+
+**Fundamento y alternativas:** Publicar financiación y criterios permite detectar trato desigual, pero no convierte opiniones en neutrales. Proteger procedimientos y reclamaciones frente a imponer una versión oficial de la verdad; la pluralidad incluye críticas al Gobierno.
+
+**Medición y fuentes:** Gasto de publicidad institucional trazado/gasto ejecutado, presupuestos y adjudicaciones; plazos de respuesta a reclamaciones. Explicar reservas legales y contrastar integridad del registro, no puntuar afinidad política. Gasto registrado/gasto ejecutado, fechas de publicación y reclamaciones respondidas. No premiar coberturas favorables ni convertir el registro en un listado oficial de medios aceptables.
 
 **Problema a estudiar:** interferencias políticas o económicas, opacidad sobre financiación y propiedad y dificultades para distinguir información, opinión y publicidad. Tener una línea editorial no equivale por sí solo a manipulación.
 
@@ -1061,29 +1023,27 @@ La cárcel ya existe para determinadas conductas; condena y cumplimiento efectiv
 
 ### 2.20. Convivencia democrática, memoria y cohesión territorial
 
-**Qué queremos mejorar:** Resolver problemas compartidos aunque tengamos ideas, identidades o recuerdos distintos.
+Queremos resolver problemas compartidos aunque tengamos ideas, identidades o recuerdos distintos. Para ello, proponemos buscar acuerdos con tareas, responsables y fechas, reconocer aportaciones y evitar el «y tú más». Los acuerdos deben preservar memoria rigurosa, diversidad y participación voluntaria, sin silenciar críticas ni responsabilidades.
 
-**Qué proponemos:** Buscar acuerdos con tareas, responsables y fechas, reconocer aportaciones y evitar el «y tú más». Preservar memoria rigurosa, diversidad y participación voluntaria, sin silenciar críticas ni responsabilidades.
+En un caso hipotético, dos municipios con gobiernos distintos coordinan un servicio compartido. Acuerdan presupuesto, tareas y revisión pública sin tener que coincidir en todo. Si algo falla, explican su responsabilidad actual en lugar de responder solo que el otro lo hizo antes.
 
-**Cómo sabremos si funciona:** Comprobar proyectos completados, acuerdos cumplidos y respeto a derechos. Una foto conjunta no demuestra más confianza ni menos división.
+Personas y territorios necesitan reconocimiento y servicios; representantes, poder discrepar; afectados, verdad y reparación. Cooperar no exige olvidar daños, uniformar identidades ni dejar irregularidades sin investigar.
 
-**Ejemplo cotidiano (hipotético):** Dos municipios con gobiernos distintos coordinan un servicio compartido. Acuerdan presupuesto, tareas y revisión pública sin tener que coincidir en todo. Si algo falla, explican su responsabilidad actual en lugar de responder solo que el otro lo hizo antes.
+Para saber si funciona, proponemos comprobar proyectos completados, acuerdos cumplidos y respeto a derechos. Una foto conjunta no demuestra más confianza ni menos división.
 
-**Intereses que hay que equilibrar:** Personas y territorios necesitan reconocimiento y servicios; representantes, poder discrepar; afectados, verdad y reparación. Cooperar no exige olvidar daños, uniformar identidades ni dejar irregularidades sin investigar.
+#### Plan de actuación
 
-**Argumento y alternativa:** Cooperar en problemas concretos puede crear vínculos sin exigir acuerdo ideológico; encuentros aislados no aseguran confianza duradera. Comparar proyectos con continuidad y recursos con actividades simbólicas, preservando memoria, derechos y participación voluntaria.
+En el primer año, proponemos completar 10 proyectos voluntarios de cooperación entre al menos 20 municipios de 5 comunidades autónomas y lograr que el 70 % de los participantes termine la actividad acordada. Antes de M3, publicar un protocolo de diálogo y un registro de acuerdos, discrepancias y compromisos para los proyectos participantes, con responsables, fechas y seguimiento.
 
-**Indicador principal y fuente:** Equipos con actividad conjunta verificable después del apoyo/equipos iniciales, registros y seguimiento consentido. Encuestas de confianza requieren diseño y límites; no se usarán como pruebas de lealtad.
+En cuatro años, el objetivo es alcanzar 40 proyectos y conseguir que el 60 % de los equipos de la primera edición mantenga cooperación verificable durante 12 meses después del apoyo inicial.
 
-**Qué haremos en el primer año:** Completar 10 proyectos voluntarios de cooperación entre al menos 20 municipios de 5 comunidades autónomas y lograr que el 70 % de los participantes termine la actividad acordada. Antes de M3, publicar un protocolo de diálogo y un registro de acuerdos, discrepancias y compromisos para los proyectos participantes, con responsables, fechas y seguimiento.
-
-**Qué queremos conseguir en cuatro años:** Alcanzar 40 proyectos y conseguir que el 60 % de los equipos de la primera edición mantenga cooperación verificable durante 12 meses después del apoyo inicial.
-
-**Pasos y responsables:** Municipios, comunidades, centros educativos y entidades culturales: convocatoria plural y accesible en M1–M3; facilitadores y pequeños proyectos con presupuesto en M4–M6; ejecución desde M7; seguimiento anual de continuidad.
-
-**Cómo comprobaremos los avances:** Participantes inscritos, proyectos entregados y cooperación posterior; publicar conflictos y resultados de confianza sin convertirlos en prueba causal. Añadir compromisos cumplidos o motivadamente incumplidos y respuestas a propuestas, sin contar reuniones como soluciones. No imponer símbolos, identidad ni una opinión sobre la historia.
+La ejecución correspondería a municipios, comunidades, centros educativos y entidades culturales; el calendario previsto incluye convocatoria plural y accesible en M1–M3; facilitadores y pequeños proyectos con presupuesto en M4–M6; ejecución desde M7; seguimiento anual de continuidad.
 
 #### Ficha técnica
+
+**Fundamento y alternativas:** Cooperar en problemas concretos puede crear vínculos sin exigir acuerdo ideológico; encuentros aislados no aseguran confianza duradera. Comparar proyectos con continuidad y recursos con actividades simbólicas, preservando memoria, derechos y participación voluntaria.
+
+**Medición y fuentes:** Equipos con actividad conjunta verificable después del apoyo/equipos iniciales, registros y seguimiento consentido. Encuestas de confianza requieren diseño y límites; no se usarán como pruebas de lealtad. Participantes inscritos, proyectos entregados y cooperación posterior; publicar conflictos y resultados de confianza sin convertirlos en prueba causal. Añadir compromisos cumplidos o motivadamente incumplidos y respuestas a propuestas, sin contar reuniones como soluciones. No imponer símbolos, identidad ni una opinión sobre la historia.
 
 **Problema a estudiar:** polarización alrededor de la Guerra Civil, el franquismo, los símbolos nacionales y los proyectos territoriales; dificultad para construir acuerdos sin excluir identidades ni opiniones democráticas.
 
@@ -1138,29 +1098,27 @@ La cárcel ya existe para determinadas conductas; condena y cumplimiento efectiv
 
 ### 2.21. Jefatura del Estado: utilidad, transparencia y alternativas
 
-**Qué queremos mejorar:** Entender qué hace la jefatura del Estado, cuánto cuesta y qué controles tiene.
+Queremos entender qué hace la jefatura del Estado, cuánto cuesta y qué controles tiene. Para ello, proponemos comparar funciones, costes y controles de la monarquía y alternativas concretas. Los cambios deben debatirse con información pública y por los procedimientos constitucionales.
 
-**Qué proponemos:** Comparar funciones, costes y controles de la monarquía y alternativas concretas. Debatir cambios con información pública y por los procedimientos constitucionales.
+En un caso hipotético, una persona quiere valorar monarquía y república. Encuentra una comparación que incluye elección, funciones, presupuesto, controles y coste de transición de modelos concretos. Puede formarse una opinión sin que el documento le presente una opción como inevitable.
 
-**Cómo sabremos si funciona:** Comprobar información disponible y comparaciones completas. Una preferencia política no es una prueba de ahorro ni de mejor funcionamiento.
+Ciudadanía puede valorar continuidad, elección o distintos símbolos; instituciones necesitan reglas estables y rendición de cuentas. Mejorar transparencia y cambiar la forma de Estado son decisiones distintas, con trámites y consecuencias diferentes.
 
-**Ejemplo cotidiano (hipotético):** Una persona quiere valorar monarquía y república. Encuentra una comparación que incluye elección, funciones, presupuesto, controles y coste de transición de modelos concretos. Puede formarse una opinión sin que el documento le presente una opción como inevitable.
+Para saber si funciona, proponemos comprobar información disponible y comparaciones completas. Una preferencia política no es una prueba de ahorro ni de mejor funcionamiento.
 
-**Intereses que hay que equilibrar:** Ciudadanía puede valorar continuidad, elección o distintos símbolos; instituciones necesitan reglas estables y rendición de cuentas. Mejorar transparencia y cambiar la forma de Estado son decisiones distintas, con trámites y consecuencias diferentes.
+#### Plan de actuación
 
-**Argumento y alternativa:** Comparar funciones, costes y controles evita decidir únicamente por popularidad o rechazo a personas concretas. Separar reformas de transparencia y cambios de forma de Estado; una preferencia democrática no necesita presentarse como conclusión económica inevitable.
+En el primer año, proponemos publicar una comparación revisada de 3 modelos concretos de jefatura del Estado, con funciones, costes completos, controles y procedimiento de reforma, y celebrar 3 deliberaciones plurales con respuesta pública.
 
-**Indicador principal y fuente:** Recomendaciones con respuesta motivada/recomendaciones recibidas y partidas con trazabilidad, cuentas institucionales y revisión jurídica. Comparar costes completos y transición; no atribuir resultados de comercio a la institución sin prueba.
+En cuatro años, el objetivo es actualizar anualmente las cuentas y la comparación y conseguir respuesta motivada de las instituciones adheridas a todas las recomendaciones formalmente recibidas dentro de 90 días.
 
-**Qué haremos en el primer año:** Publicar una comparación revisada de 3 modelos concretos de jefatura del Estado, con funciones, costes completos, controles y procedimiento de reforma, y celebrar 3 deliberaciones plurales con respuesta pública.
-
-**Qué queremos conseguir en cuatro años:** Actualizar anualmente las cuentas y la comparación y conseguir respuesta motivada de las instituciones adheridas a todas las recomendaciones formalmente recibidas dentro de 90 días.
-
-**Pasos y responsables:** Instituciones constitucionales en su competencia y equipo de evaluación independiente: alcance y fuentes en M1–M3; análisis y participación en M4–M9; publicación en M10–M12. Si se promueve una reforma, definir después su tramitación constitucional, mayoría y costes.
-
-**Cómo comprobaremos los avances:** Entregables revisados, trazabilidad de cuentas y recomendaciones respondidas. No se fija como resultado obligatorio una monarquía o una república ni se promete modificar el título II mediante decreto.
+La ejecución correspondería a instituciones constitucionales en su competencia y equipo de evaluación independiente; el calendario previsto incluye alcance y fuentes en M1–M3; análisis y participación en M4–M9; publicación en M10–M12. Si se promueve una reforma, definir después su tramitación constitucional, mayoría y costes.
 
 #### Ficha técnica
+
+**Fundamento y alternativas:** Comparar funciones, costes y controles evita decidir únicamente por popularidad o rechazo a personas concretas. Separar reformas de transparencia y cambios de forma de Estado; una preferencia democrática no necesita presentarse como conclusión económica inevitable.
+
+**Medición y fuentes:** Recomendaciones con respuesta motivada/recomendaciones recibidas y partidas con trazabilidad, cuentas institucionales y revisión jurídica. Comparar costes completos y transición; no atribuir resultados de comercio a la institución sin prueba. Entregables revisados, trazabilidad de cuentas y recomendaciones respondidas. No se fija como resultado obligatorio una monarquía o una república ni se promete modificar el título II mediante decreto.
 
 **Problema a estudiar:** qué aporta la monarquía parlamentaria al país, cómo rinde cuentas y si existen alternativas institucionales que sirvan mejor a la ciudadanía. La valoración debe distinguir funciones constitucionales, conducta de personas concretas y preferencias sobre la forma de Estado.
 
@@ -1189,29 +1147,27 @@ La cárcel ya existe para determinadas conductas; condena y cumplimiento efectiv
 
 ### 2.22. Democracia, igualdad del voto y conocimiento experto
 
-**Qué queremos mejorar:** Tomar decisiones informadas sin que tener más estudios, dinero o una profesión dé más valor al voto.
+Queremos tomar decisiones informadas sin que tener más estudios, dinero o una profesión dé más valor al voto. Para ello, proponemos combinar información accesible, asesoría experta plural y participación ciudadana, manteniendo la igualdad política.
 
-**Qué proponemos:** Combinar información accesible, asesoría experta plural y participación ciudadana, manteniendo la igualdad política.
+En un caso hipotético, antes de una consulta sobre transporte se explican costes y alternativas, intervienen especialistas y se escuchan necesidades de usuarios. Una persona sin título participa en igualdad; las recomendaciones técnicas se publican, pero no sustituyen la decisión democrática.
 
-**Cómo sabremos si funciona:** Medir comprensión, posibilidad real de participar y transparencia del asesoramiento. Saber más de una materia no concede más poder electoral.
+Ciudadanía necesita igualdad y comprensión; especialistas, poder explicar límites; representantes, asumir la decisión. Evitar privilegios no significa ignorar evidencia, y escuchar expertos no significa entregarles el voto de otros.
 
-**Ejemplo cotidiano (hipotético):** Antes de una consulta sobre transporte se explican costes y alternativas, intervienen especialistas y se escuchan necesidades de usuarios. Una persona sin título participa en igualdad; las recomendaciones técnicas se publican, pero no sustituyen la decisión democrática.
+Para saber si funciona, proponemos medir comprensión, posibilidad real de participar y transparencia del asesoramiento. Saber más de una materia no concede más poder electoral.
 
-**Intereses que hay que equilibrar:** Ciudadanía necesita igualdad y comprensión; especialistas, poder explicar límites; representantes, asumir la decisión. Evitar privilegios no significa ignorar evidencia, y escuchar expertos no significa entregarles el voto de otros.
+#### Plan de actuación
 
-**Argumento y alternativa:** Información accesible y asesoría plural pueden mejorar comprensión sin convertir formación o riqueza en poder electoral adicional. Comparar deliberación con consultas ordinarias y publicar sus límites; conocimiento técnico y legitimidad democrática cumplen funciones distintas.
+En el primer año, proponemos completar 3 deliberaciones ciudadanas con selección plural y accesible, y mejorar 15 puntos sobre 100 la comprensión de las opciones debatidas según una prueba publicada antes del proceso.
 
-**Indicador principal y fuente:** Cambio de puntuación en una prueba publicada antes de deliberar y recomendaciones respondidas, con composición y abandonos. Medir comprensión, no si la persona termina apoyando la opción del convocante.
+En cuatro años, el objetivo es completar 12 deliberaciones y publicar respuesta motivada al 100 % de sus recomendaciones por las instituciones adheridas dentro de 90 días desde su recepción.
 
-**Qué haremos en el primer año:** Completar 3 deliberaciones ciudadanas con selección plural y accesible, y mejorar 15 puntos sobre 100 la comprensión de las opciones debatidas según una prueba publicada antes del proceso.
-
-**Qué queremos conseguir en cuatro años:** Completar 12 deliberaciones y publicar respuesta motivada al 100 % de sus recomendaciones por las instituciones adheridas dentro de 90 días desde su recepción.
-
-**Pasos y responsables:** Instituciones convocantes, facilitadores independientes y asesores con conflictos declarados: pregunta, selección y prueba en M1–M3; información, apoyos y deliberación en M4–M9; evaluación y respuesta en M10–M12; nuevas rondas en años 2–4.
-
-**Cómo comprobaremos los avances:** Comprensión antes y después, representatividad, abandonos y respuesta efectiva. La función será consultiva; no introducir votos de distinto valor ni exámenes para acceder al sufragio.
+La ejecución correspondería a instituciones convocantes, facilitadores independientes y asesores con conflictos declarados; el calendario previsto incluye pregunta, selección y prueba en M1–M3; información, apoyos y deliberación en M4–M9; evaluación y respuesta en M10–M12; nuevas rondas en años 2–4.
 
 #### Ficha técnica
+
+**Fundamento y alternativas:** Información accesible y asesoría plural pueden mejorar comprensión sin convertir formación o riqueza en poder electoral adicional. Comparar deliberación con consultas ordinarias y publicar sus límites; conocimiento técnico y legitimidad democrática cumplen funciones distintas.
+
+**Medición y fuentes:** Cambio de puntuación en una prueba publicada antes de deliberar y recomendaciones respondidas, con composición y abandonos. Medir comprensión, no si la persona termina apoyando la opción del convocante. Comprensión antes y después, representatividad, abandonos y respuesta efectiva. La función será consultiva; no introducir votos de distinto valor ni exámenes para acceder al sufragio.
 
 **Problema a estudiar:** cómo mejorar la calidad de las decisiones colectivas cuando la ciudadanía dispone de conocimientos, experiencia, tiempo y acceso a información diferentes. También debe discutirse quién define qué conocimiento cuenta y cómo se controla a quienes toman decisiones.
 
@@ -1269,29 +1225,27 @@ Los delitos graves, incluidos homicidio, crímenes de guerra o delitos contra in
 
 ### 2.23. Remuneración, incentivos y conflictos de interés en cargos públicos
 
-**Qué queremos mejorar:** Atraer personas capaces al servicio público sin que el cargo permita favorecer negocios o intereses propios.
+Queremos atraer personas capaces al servicio público sin que el cargo permita favorecer negocios o intereses propios. Para ello, proponemos evaluar una reforma que permita mantener inversiones y ciertas actividades empresariales compatibles, con controles independientes. También compararíamos sueldo e incentivos limitados por resultados; es una propuesta, no una autorización vigente.
 
-**Qué proponemos:** Evaluar una reforma que permita mantener inversiones y ciertas actividades empresariales compatibles, con controles independientes. Comparar sueldo e incentivos limitados por resultados; es una propuesta, no una autorización vigente.
+En un caso hipotético, una persona con participaciones en una empresa considera aceptar un cargo. Se estudia qué podría conservar legalmente y de qué decisiones tendría que apartarse. Tener acciones no equivale a dirigir el negocio; si el conflicto no puede resolverse, habría que elegir.
 
-**Cómo sabremos si funciona:** Medir calidad del trabajo, coste de pagos y conflictos detectados y corregidos. Pagar más o permitir una actividad no garantiza honestidad.
+El servicio público necesita talento; quien ocupa el cargo, reglas y remuneración claras; ciudadanía, decisiones imparciales. Cualquier compatibilidad o incentivo debe contar el coste de supervisión y evitar premios por resultados ajenos o cifras maquilladas.
 
-**Ejemplo cotidiano (hipotético):** Una persona con participaciones en una empresa considera aceptar un cargo. Se estudia qué podría conservar legalmente y de qué decisiones tendría que apartarse. Tener acciones no equivale a dirigir el negocio; si el conflicto no puede resolverse, habría que elegir.
+Para saber si funciona, proponemos medir calidad del trabajo, coste de pagos y conflictos detectados y corregidos. Pagar más o permitir una actividad no garantiza honestidad.
 
-**Intereses que hay que equilibrar:** El servicio público necesita talento; quien ocupa el cargo, reglas y remuneración claras; ciudadanía, decisiones imparciales. Cualquier compatibilidad o incentivo debe contar el coste de supervisión y evitar premios por resultados ajenos o cifras maquilladas.
+#### Plan de actuación
 
-**Argumento y alternativa:** Remuneración adecuada puede ampliar candidaturas y una compatibilidad bien diseñada puede evitar exclusiones innecesarias; ninguna garantiza integridad. Comparar sueldo fijo, incentivos y actividades compatibles, descontando coste de control y riesgo de captura. La Ley 3/2015 describe el marco vigente, no demuestra eficacia de la reforma [F9].
+En el primer año, proponemos publicar una propuesta de reforma de compatibilidades con revisión jurídica y memoria económica, separando propiedad, gestión empresarial e incentivos públicos. Diseñar y evaluar 2 pilotos de incentivos en equipos de tramitación administrativa donde sean legalmente viables; reducir un 10 % la mediana de días de resolución sin deteriorar calidad o accesibilidad.
 
-**Indicador principal y fuente:** Plazos y calidad frente a equipos comparables, coste total de remuneración y resolución de conflictos, evaluaciones y registros competentes. No atribuir al presidente toda variación del PIB ni equiparar dividendos con una recompensa lícita por favorecer una empresa.
+En cuatro años, el objetivo es ampliar como máximo a 10 equipos que superen evaluación, manteniendo la reducción del 10 % en plazos y publicando coste, criterios y todos los pagos legalmente publicables.
 
-**Qué haremos en el primer año:** Publicar una propuesta de reforma de compatibilidades con revisión jurídica y memoria económica, separando propiedad, gestión empresarial e incentivos públicos. Diseñar y evaluar 2 pilotos de incentivos en equipos de tramitación administrativa donde sean legalmente viables; reducir un 10 % la mediana de días de resolución sin deteriorar calidad o accesibilidad.
-
-**Qué queremos conseguir en cuatro años:** Ampliar como máximo a 10 equipos que superen evaluación, manteniendo la reducción del 10 % en plazos y publicando coste, criterios y todos los pagos legalmente publicables.
-
-**Pasos y responsables:** Administraciones empleadoras y órganos de control: compatibilidad jurídica y comparación de puestos en M1–M3; negociación, presupuesto y evaluación externa en M4–M6; aplicación desde M7. Un equipo jurídico plural preparará la propuesta para las instituciones legislativas competentes antes de M12. Sin habilitación legal se ensayará la medición, pero no se autorizarán actividades incompatibles ni se abonará remuneración nueva.
-
-**Cómo comprobaremos los avances:** Resultado ajustado por recursos y complejidad, coste total y comparación con equipos semejantes. El propio beneficiario no fijará ni evaluará su bono; no premiar recortes o denegaciones por sí solos.
+La ejecución correspondería a administraciones empleadoras y órganos de control; el calendario previsto incluye compatibilidad jurídica y comparación de puestos en M1–M3; negociación, presupuesto y evaluación externa en M4–M6; aplicación desde M7. Un equipo jurídico plural preparará la propuesta para las instituciones legislativas competentes antes de M12. Sin habilitación legal se ensayará la medición, pero no se autorizarán actividades incompatibles ni se abonará remuneración nueva.
 
 #### Ficha técnica
+
+**Fundamento y alternativas:** Remuneración adecuada puede ampliar candidaturas y una compatibilidad bien diseñada puede evitar exclusiones innecesarias; ninguna garantiza integridad. Comparar sueldo fijo, incentivos y actividades compatibles, descontando coste de control y riesgo de captura. La Ley 3/2015 describe el marco vigente, no demuestra eficacia de la reforma [F9].
+
+**Medición y fuentes:** Plazos y calidad frente a equipos comparables, coste total de remuneración y resolución de conflictos, evaluaciones y registros competentes. No atribuir al presidente toda variación del PIB ni equiparar dividendos con una recompensa lícita por favorecer una empresa. Resultado ajustado por recursos y complejidad, coste total y comparación con equipos semejantes. El propio beneficiario no fijará ni evaluará su bono; no premiar recortes o denegaciones por sí solos.
 
 **Problema a estudiar:** cómo atraer y retener personas competentes en responsabilidades públicas y reconocer resultados sin favorecer corrupción, decisiones interesadas o beneficios privados derivados del poder.
 
@@ -1338,29 +1292,27 @@ Los delitos graves, incluidos homicidio, crímenes de guerra o delitos contra in
 
 ### 2.24. Iniciativa, esfuerzo y responsabilidad compartida
 
-**Qué queremos mejorar:** Poder convertir una idea o preocupación en un primer paso útil, con apoyo y oportunidades reales.
+Queremos poder convertir una idea o preocupación en un primer paso útil, con apoyo y oportunidades reales. Para ello, proponemos ofrecer orientación, planificación y proyectos voluntarios para desarrollar capacidades y cooperar. El esfuerzo se reconocería sin culpar a quien afronta falta de recursos, enfermedad o cuidados.
 
-**Qué proponemos:** Ofrecer orientación, planificación y proyectos voluntarios para desarrollar capacidades y cooperar. Reconocer esfuerzo sin culpar a quien afronta falta de recursos, enfermedad o cuidados.
+En un caso hipotético, una persona quiere ofrecer reparaciones pero no sabe por dónde empezar. Con orientación comprueba requisitos y demanda y prueba una actividad viable antes de endeudarse. Si no puede dedicar tiempo por cuidados o salud, el apoyo se adapta, no se atribuye todo a falta de esfuerzo.
 
-**Cómo sabremos si funciona:** Comprobar habilidades, proyectos terminados y bienestar, no solo asistencia o discursos sobre actitud.
+Personas necesitan autonomía y apoyos; clientes y colaboradores, compromisos fiables. No todo el mundo debe emprender, ni una actividad voluntaria puede sustituir derechos, servicios o ingresos suficientes.
 
-**Ejemplo cotidiano (hipotético):** Una persona quiere ofrecer reparaciones pero no sabe por dónde empezar. Con orientación comprueba requisitos y demanda y prueba una actividad viable antes de endeudarse. Si no puede dedicar tiempo por cuidados o salud, el apoyo se adapta, no se atribuye todo a falta de esfuerzo.
+Para saber si funciona, proponemos comprobar habilidades, proyectos terminados y bienestar, no solo asistencia o discursos sobre actitud.
 
-**Intereses que hay que equilibrar:** Personas necesitan autonomía y apoyos; clientes y colaboradores, compromisos fiables. No todo el mundo debe emprender, ni una actividad voluntaria puede sustituir derechos, servicios o ingresos suficientes.
+#### Plan de actuación
 
-**Argumento y alternativa:** Acompañar planificación y acceso a oportunidades puede facilitar acciones sostenidas; no hay una mentalidad nacional única que explique pobreza o desempleo. Comparar mentoría y proyectos prácticos con información sola, teniendo en cuenta salud, recursos y cuidados.
+En el primer año, proponemos acompañar a 500 personas voluntarias y lograr que el 70 % complete un proyecto personal o comunitario con objetivo, acción y revisión definidos al inicio.
 
-**Indicador principal y fuente:** Participantes que completan el proyecto acordado/inscritos y continuidad a seis meses, con evidencias y abandono registrado. No medir obediencia, ideología ni productividad como valor personal.
+En cuatro años, el objetivo es alcanzar 3.000 participantes y conseguir que el 60 % de cada cohorte mantenga una actividad útil elegida por la persona seis meses después del acompañamiento.
 
-**Qué haremos en el primer año:** Acompañar a 500 personas voluntarias y lograr que el 70 % complete un proyecto personal o comunitario con objetivo, acción y revisión definidos al inicio.
-
-**Qué queremos conseguir en cuatro años:** Alcanzar 3.000 participantes y conseguir que el 60 % de cada cohorte mantenga una actividad útil elegida por la persona seis meses después del acompañamiento.
-
-**Pasos y responsables:** Centros educativos y de empleo, municipios y entidades sociales: necesidades y apoyos en M1–M3; mentores y proyectos accesibles en M4–M6; ciclos de planificación, ejecución y revisión desde M7. Coordinar con oportunidades de empleo y servicios.
-
-**Cómo comprobaremos los avances:** Inscritos, proyectos verificables y continuidad, contando abandonos y barreras de salud o cuidados. No medir obediencia ni clasificar derechos o mérito por una supuesta mentalidad nacional.
+La ejecución correspondería a centros educativos y de empleo, municipios y entidades sociales; el calendario previsto incluye necesidades y apoyos en M1–M3; mentores y proyectos accesibles en M4–M6; ciclos de planificación, ejecución y revisión desde M7. Coordinar con oportunidades de empleo y servicios.
 
 #### Ficha técnica
+
+**Fundamento y alternativas:** Acompañar planificación y acceso a oportunidades puede facilitar acciones sostenidas; no hay una mentalidad nacional única que explique pobreza o desempleo. Comparar mentoría y proyectos prácticos con información sola, teniendo en cuenta salud, recursos y cuidados.
+
+**Medición y fuentes:** Participantes que completan el proyecto acordado/inscritos y continuidad a seis meses, con evidencias y abandono registrado. No medir obediencia, ideología ni productividad como valor personal. Inscritos, proyectos verificables y continuidad, contando abandonos y barreras de salud o cuidados. No medir obediencia ni clasificar derechos o mérito por una supuesta mentalidad nacional.
 
 **Problema a estudiar:** barreras para transformar preocupaciones en acción, desarrollar hábitos de constancia y cooperación y percibir que el esfuerzo merece la pena. No se presume que exista una «mentalidad española» única ni que falta de ingresos, enfermedad o desempleo demuestren pereza.
 
@@ -1396,31 +1348,29 @@ Los delitos graves, incluidos homicidio, crímenes de guerra o delitos contra in
 
 ### 2.25. Trabajo remoto, pueblos conectados y movilidad accesible
 
-**Qué queremos mejorar:** Poder trabajar y desplazarse también fuera de las grandes ciudades, sin depender siempre de un coche propio.
+Queremos poder trabajar y desplazarnos también fuera de las grandes ciudades, sin depender siempre de un coche propio. Para ello, proponemos mejorar internet, trabajo remoto y servicios, y comparar transporte público, taxi, VTC, cooperativas y viajes compartidos. Estas opciones requerirían autorización y garantías, sin favorecer una marca.
 
-**Qué proponemos:** Mejorar internet, trabajo remoto y servicios, y comparar transporte público, taxi, VTC, cooperativas y viajes compartidos. Abrir opciones con autorización y garantías, sin favorecer una marca.
+En un caso hipotético, una persona de un pueblo necesita llegar a una cita cuando no hay autobús. Se comparan servicios autorizados y opciones compartidas según coste, horarios y accesibilidad. Compartir gastos no equivale a poder cobrar por transporte comercial sin autorización.
 
-**Cómo sabremos si funciona:** Medir conexión real, empleo, acceso a servicios, precio y espera de viajes e ingresos después de gastos de quienes los prestan.
+Usuarios necesitan movilidad asequible; conductores, ingresos y protección; operadores, competencia justa; municipios, vivienda y servicios. Internet y más vehículos no garantizan repoblación ni sustituyen un transporte público necesario.
 
-**Ejemplo cotidiano (hipotético):** Una persona de un pueblo necesita llegar a una cita cuando no hay autobús. Se comparan servicios autorizados y opciones compartidas según coste, horarios y accesibilidad. Compartir gastos no equivale a poder cobrar por transporte comercial sin autorización.
+Para saber si funciona, proponemos medir conexión real, empleo, acceso a servicios, precio y espera de viajes e ingresos después de gastos de quienes los prestan.
 
-**Intereses que hay que equilibrar:** Usuarios necesitan movilidad asequible; conductores, ingresos y protección; operadores, competencia justa; municipios, vivienda y servicios. Internet y más vehículos no garantizan repoblación ni sustituyen un transporte público necesario.
+#### Plan de actuación
 
-**Argumento y alternativa:** Conectividad y movilidad pueden ampliar opciones laborales, pero sin empleo, vivienda y servicios no garantizan repoblación. Comparar fibra, móvil y satélite por calidad y coste real, y transporte compartido frente a compra individual de vehículo.
+En el primer año, en 10 localidades con déficit acreditado, proponemos dar a 500 hogares o negocios participantes acceso contratado de al menos 100 Mbps de descarga y 20 Mbps de subida, verificado en hora punta, y disponer de 10 puntos de recarga con disponibilidad mensual del 98 %.
 
-**Indicador principal y fuente:** Velocidad y latencia en horas de uso, horas de recarga disponible/horas del mes y empleo mantenido, mediciones técnicas y registros consentidos. Publicar precio, fallos y puntos fuera de servicio, no solo cobertura anunciada.
+En movilidad, si se activa esta actuación, proponemos publicar antes de M3 las reglas y barreras de taxi, VTC y servicios compartidos; antes de M6, comparar precio final y disponibilidad de una cesta fija de trayectos y horarios; antes de M12, presentar una propuesta revisada de reforma y un protocolo de prueba. OpenSpain prepara y contrasta; la autoridad competente decide y autoriza. No ofrecer viajes comerciales sin habilitación ni prometer que la reforma se apruebe en ese plazo.
 
-**Qué haremos en el primer año:** En 10 localidades con déficit acreditado, dar a 500 hogares o negocios participantes acceso contratado de al menos 100 Mbps de descarga y 20 Mbps de subida, verificado en hora punta, y disponer de 10 puntos de recarga con disponibilidad mensual del 98 %.
+En cuatro años, el objetivo es extender a 50 localidades, 3.000 hogares o negocios y 50 puntos de recarga, mantener esos niveles de conectividad y alcanzar un 99 % de disponibilidad de recarga; documentar 300 empleos remotos o híbridos mantenidos durante 12 meses entre participantes.
 
-**Ruta de movilidad abierta:** donde se active esta actuación, publicar antes de M3 las reglas y barreras de taxi, VTC y servicios compartidos; antes de M6, comparar precio final y disponibilidad de una cesta fija de trayectos y horarios; antes de M12, presentar una propuesta revisada de reforma y un protocolo de prueba. OpenSpain prepara y contrasta; la autoridad competente decide y autoriza. No ofrecer viajes comerciales sin habilitación ni prometer que la reforma se apruebe en ese plazo.
-
-**Qué queremos conseguir en cuatro años:** Extender a 50 localidades, 3.000 hogares o negocios y 50 puntos de recarga, mantener esos niveles de conectividad y alcanzar un 99 % de disponibilidad de recarga; documentar 300 empleos remotos o híbridos mantenidos durante 12 meses entre participantes.
-
-**Pasos y responsables:** Administraciones de telecomunicaciones y transporte, municipios, operadores y empleadores: cobertura real y demanda en M1–M3; comparar fibra, móvil y satélite, coste y mantenimiento en M4–M6; despliegue y acuerdos laborales desde M7. Seleccionar pilotos de recarga por demanda, no instalar puntos sin mantenimiento.
-
-**Cómo comprobaremos los avances:** Velocidad medida, latencia, precio, continuidad, horas disponibles/horas del mes y empleo verificado. No contar cobertura anunciada o recarga instalada pero inutilizable; no prometer repoblación automática.
+La ejecución correspondería a administraciones de telecomunicaciones y transporte, municipios, operadores y empleadores; el calendario previsto incluye cobertura real y demanda en M1–M3; comparar fibra, móvil y satélite, coste y mantenimiento en M4–M6; despliegue y acuerdos laborales desde M7. Seleccionar pilotos de recarga por demanda, no instalar puntos sin mantenimiento.
 
 #### Ficha técnica
+
+**Fundamento y alternativas:** Conectividad y movilidad pueden ampliar opciones laborales, pero sin empleo, vivienda y servicios no garantizan repoblación. Comparar fibra, móvil y satélite por calidad y coste real, y transporte compartido frente a compra individual de vehículo.
+
+**Medición y fuentes:** Velocidad y latencia en horas de uso, horas de recarga disponible/horas del mes y empleo mantenido, mediciones técnicas y registros consentidos. Publicar precio, fallos y puntos fuera de servicio, no solo cobertura anunciada. Velocidad medida, latencia, precio, continuidad, horas disponibles/horas del mes y empleo verificado. No contar cobertura anunciada o recarga instalada pero inutilizable; no prometer repoblación automática.
 
 **Problema a estudiar:** oportunidades laborales y servicios concentrados en determinados núcleos, desigualdad de conectividad y dificultades de desplazamiento. Mejorar internet puede ayudar, pero no sustituye vivienda, cuidados, sanidad, educación ni empleo local.
 
@@ -1464,29 +1414,27 @@ Los delitos graves, incluidos homicidio, crímenes de guerra o delitos contra in
 
 ### 2.26. Fabricación de vehículos eléctricos, robótica e IA
 
-**Qué queremos mejorar:** Crear industria y empleo duradero en vehículos eléctricos, robots e inteligencia artificial, no solo grandes anuncios.
+Queremos crear industria y empleo duradero en vehículos eléctricos, robots e inteligencia artificial, no solo grandes anuncios. Para ello, proponemos comparar proyectos con Tesla y otros fabricantes y desarrollar robótica e IA por etapas. Antes de comprometer ayudas, exigiríamos demanda, costes y beneficios comprobables.
 
-**Qué proponemos:** Comparar proyectos con Tesla y otros fabricantes y desarrollar robótica e IA por etapas. Exigir demanda, costes y beneficios comprobables antes de comprometer ayudas.
+En un caso hipotético, una región estudia apoyar una planta de componentes. Compara empleo previsto, consumo de agua y energía, formación y coste de ayudas con otras opciones. Los desembolsos se vincularían a condiciones verificables, no al prestigio de la marca.
 
-**Cómo sabremos si funciona:** Medir inversión ejecutada, empleo mantenido, conocimiento adquirido y coste público. Una fábrica no asegura coches más baratos.
+Trabajadores necesitan empleos sostenibles; empresas, condiciones viables; vecinos, servicios y protección ambiental; contribuyentes, retorno justificable. La inversión debe poder sostenerse y explicar qué ocurre si no cumple lo acordado.
 
-**Ejemplo cotidiano (hipotético):** Una región estudia apoyar una planta de componentes. Compara empleo previsto, consumo de agua y energía, formación y coste de ayudas con otras opciones. Los desembolsos se vincularían a condiciones verificables, no al prestigio de la marca.
+Para saber si funciona, proponemos medir inversión ejecutada, empleo mantenido, conocimiento adquirido y coste público. Una fábrica no asegura coches más baratos.
 
-**Intereses que hay que equilibrar:** Trabajadores necesitan empleos sostenibles; empresas, condiciones viables; vecinos, servicios y protección ambiental; contribuyentes, retorno justificable. La inversión debe poder sostenerse y explicar qué ocurre si no cumple lo acordado.
+#### Plan de actuación
 
-**Argumento y alternativa:** Producción local y transferencia pueden crear capacidades, pero subvencionar una fábrica no asegura competitividad ni coches más baratos. Comparar proveedores, localizaciones y alternativas sin ayudas; apoyar fases con demanda acreditada y no una marca por prestigio.
+En el primer año, proponemos publicar 3 estudios comparables de localización industrial, solicitar propuestas abiertas a al menos 5 fabricantes o proveedores y completar 5 pilotos de robótica o IA en pymes.
 
-**Indicador principal y fuente:** Inversión desembolsada, empleo mantenido, coste por unidad y coste público por resultado adicional, cuentas y evaluación de proyectos. No contar cartas de intención como inversión ni presentar conversaciones hipotéticas con Tesla como acuerdos.
+En cuatro años, el objetivo es lograr 2 proyectos industriales con inversión privada desembolsada y 200 empleos equivalentes a jornada completa mantenidos durante 12 meses; ampliar a 30 pilotos tecnológicos y obtener una mejora del 15 % del coste por unidad en al menos 15, sin empeorar seguridad.
 
-**Qué haremos en el primer año:** Publicar 3 estudios comparables de localización industrial, solicitar propuestas abiertas a al menos 5 fabricantes o proveedores y completar 5 pilotos de robótica o IA en pymes.
-
-**Qué queremos conseguir en cuatro años:** Lograr 2 proyectos industriales con inversión privada desembolsada y 200 empleos equivalentes a jornada completa mantenidos durante 12 meses; ampliar a 30 pilotos tecnológicos y obtener una mejora del 15 % del coste por unidad en al menos 15, sin empeorar seguridad.
-
-**Pasos y responsables:** Administraciones de industria, comunidades, municipios, centros tecnológicos y empresas: demanda, suelo, energía, agua y logística en M1–M3; convocatorias, formación y estudios en M4–M12; proyectos seleccionados en años 2–3; verificación de inversión y empleo en año 4. Coordinar antes conectividad, vivienda y energía.
-
-**Cómo comprobaremos los avances:** Desembolsos, producción, empleo, coste público completo y resultados de pilotos. Invitar también a Tesla no implica acuerdo existente ni garantiza su fábrica; decisiones privadas y permisos pueden impedir la meta, y no se promete una bajada automática de precios.
+La ejecución correspondería a administraciones de industria, comunidades, municipios, centros tecnológicos y empresas; el calendario previsto incluye demanda, suelo, energía, agua y logística en M1–M3; convocatorias, formación y estudios en M4–M12; proyectos seleccionados en años 2–3; verificación de inversión y empleo en año 4. Coordinar antes conectividad, vivienda y energía.
 
 #### Ficha técnica
+
+**Fundamento y alternativas:** Producción local y transferencia pueden crear capacidades, pero subvencionar una fábrica no asegura competitividad ni coches más baratos. Comparar proveedores, localizaciones y alternativas sin ayudas; apoyar fases con demanda acreditada y no una marca por prestigio.
+
+**Medición y fuentes:** Inversión desembolsada, empleo mantenido, coste por unidad y coste público por resultado adicional, cuentas y evaluación de proyectos. No contar cartas de intención como inversión ni presentar conversaciones hipotéticas con Tesla como acuerdos. Desembolsos, producción, empleo, coste público completo y resultados de pilotos. Invitar también a Tesla no implica acuerdo existente ni garantiza su fábrica; decisiones privadas y permisos pueden impedir la meta, y no se promete una bajada automática de precios.
 
 **Problema a estudiar:** cómo ampliar capacidades industriales, empleo cualificado y acceso a tecnologías útiles, y si fabricar en España puede reducir costes y dependencias. Producción local no garantiza por sí sola precios más bajos para compradores.
 
@@ -1516,29 +1464,27 @@ Los delitos graves, incluidos homicidio, crímenes de guerra o delitos contra in
 
 ### 2.27. Pensiones suficientes y sostenibles entre generaciones
 
-**Qué queremos mejorar:** Poder contar con una jubilación suficiente y entender cómo se sostiene hoy y para quienes se jubilen después.
+Queremos poder contar con una jubilación suficiente y entender cómo se sostiene hoy y para quienes se jubilen después. Para ello, proponemos comparar ingresos, gastos y opciones del sistema público con distintos escenarios de empleo y envejecimiento. La revisión incluiría mejorar información y gestión, respetando derechos y sin presentar el ahorro privado como sustituto automático.
 
-**Qué proponemos:** Comparar ingresos, gastos y opciones del sistema público con distintos escenarios de empleo y envejecimiento. Mejorar información y gestión, respetando derechos y sin presentar el ahorro privado como sustituto automático.
+En un caso hipotético, una persona próxima a jubilarse consulta sus derechos vigentes y otra que empieza a trabajar compara escenarios futuros. Se distingue lo reconocido hoy de estimaciones que pueden cambiar. Ninguna previsión promete una pensión concreta dentro de varias décadas.
 
-**Cómo sabremos si funciona:** Medir suficiencia de pensiones, pobreza, financiación y esperas de reconocimiento. Publicar transferencias y deuda, no ocultarlas en una previsión optimista.
+Pensionistas necesitan seguridad; trabajadores, aportaciones asumibles; generaciones futuras, financiación transparente. Reformar exige explicar cómo se reparte el esfuerzo y qué pasa con quienes no pueden ahorrar.
 
-**Ejemplo cotidiano (hipotético):** Una persona próxima a jubilarse consulta sus derechos vigentes y otra que empieza a trabajar compara escenarios futuros. Se distingue lo reconocido hoy de estimaciones que pueden cambiar. Ninguna previsión promete una pensión concreta dentro de varias décadas.
+Para saber si funciona, proponemos medir suficiencia de pensiones, pobreza, financiación y esperas de reconocimiento. Publicar transferencias y deuda, no ocultarlas en una previsión optimista.
 
-**Intereses que hay que equilibrar:** Pensionistas necesitan seguridad; trabajadores, aportaciones asumibles; generaciones futuras, financiación transparente. Reformar exige explicar cómo se reparte el esfuerzo y qué pasa con quienes no pueden ahorrar.
+#### Plan de actuación
 
-**Argumento y alternativa:** Más empleo formal y salarios pueden ampliar recursos, pero el envejecimiento y la duración de las prestaciones también importan. Comparar mejoras de empleo, bases e ingresos, reglas de prestaciones y opciones de jubilación, con efectos distributivos. Un ahorro privado complementario no sustituye por sí solo la suficiencia del sistema público. La ley define derechos actuales, no demuestra equilibrio futuro [F11].
+En el primer año, proponemos publicar 3 escenarios revisados de financiación y suficiencia para 2030, 2050 y 2070, con hipótesis y al menos 10 perfiles de carreras laborales; en 3 unidades participantes, reducir un 15 % la mediana de reconocimiento de las prestaciones seleccionadas.
 
-**Indicador principal y fuente:** Ingresos contributivos, transferencias presupuestarias, gasto y saldo con perímetro contable declarado; prestaciones e ingresos por perfil y generación, cuentas de Seguridad Social y estadísticas oficiales. No comparar una pensión media con un salario de población distinta como si fuese una tasa de sustitución individual.
+En cuatro años, el objetivo es actualizar cada año los escenarios y someter a tramitación un paquete de reformas con financiación y efectos por generaciones publicados. Extender la mejora de gestión a 10 unidades y reducir un 25 % la mediana en las 3 iniciales, sin aumentar errores o denegaciones injustificadas.
 
-**Qué haremos en el primer año:** Publicar 3 escenarios revisados de financiación y suficiencia para 2030, 2050 y 2070, con hipótesis y al menos 10 perfiles de carreras laborales; en 3 unidades participantes, reducir un 15 % la mediana de reconocimiento de las prestaciones seleccionadas.
-
-**Qué queremos conseguir en cuatro años:** Actualizar cada año los escenarios y someter a tramitación un paquete de reformas con financiación y efectos por generaciones publicados. Extender la mejora de gestión a 10 unidades y reducir un 25 % la mediana en las 3 iniciales, sin aumentar errores o denegaciones injustificadas.
-
-**Pasos y responsables:** Seguridad Social, autoridades competentes de Hacienda, agentes sociales y evaluación actuarial independiente: datos, perímetro y perfiles en M1–M3; escenarios y mejoras de proceso en M4–M6; revisión pública y gestión desde M7. Presentar alternativas al diálogo social y a las instituciones legislativas antes de comprometer cambios; ampliación solo con recursos.
-
-**Cómo comprobaremos los avances:** Series con fecha y metodología; expedientes pendientes, mediana y percentil 90; escenarios adversos de empleo, salarios, longevidad e inflación. Presentar incertidumbre y sensibilidad, no probabilidades inventadas. El horizonte de cuatro años no permite demostrar solvencia para varias décadas.
+La ejecución correspondería a Seguridad Social, autoridades competentes de Hacienda, agentes sociales y evaluación actuarial independiente; el calendario previsto incluye datos, perímetro y perfiles en M1–M3; escenarios y mejoras de proceso en M4–M6; revisión pública y gestión desde M7. Presentar alternativas al diálogo social y a las instituciones legislativas antes de comprometer cambios; ampliación solo con recursos.
 
 #### Ficha técnica
+
+**Fundamento y alternativas:** Más empleo formal y salarios pueden ampliar recursos, pero el envejecimiento y la duración de las prestaciones también importan. Comparar mejoras de empleo, bases e ingresos, reglas de prestaciones y opciones de jubilación, con efectos distributivos. Un ahorro privado complementario no sustituye por sí solo la suficiencia del sistema público. La ley define derechos actuales, no demuestra equilibrio futuro [F11].
+
+**Medición y fuentes:** Ingresos contributivos, transferencias presupuestarias, gasto y saldo con perímetro contable declarado; prestaciones e ingresos por perfil y generación, cuentas de Seguridad Social y estadísticas oficiales. No comparar una pensión media con un salario de población distinta como si fuese una tasa de sustitución individual. Series con fecha y metodología; expedientes pendientes, mediana y percentil 90; escenarios adversos de empleo, salarios, longevidad e inflación. Presentar incertidumbre y sensibilidad, no probabilidades inventadas. El horizonte de cuatro años no permite demostrar solvencia para varias décadas.
 
 **Problema a estudiar:** suficiencia y sostenibilidad de pensiones ante cambios demográficos, carreras discontinuas, productividad y financiación. No afirmar que las pensiones desaparecerán ni que están garantizadas sin decisiones futuras.
 
@@ -1565,29 +1511,27 @@ Los delitos graves, incluidos homicidio, crímenes de guerra o delitos contra in
 
 ### 2.28. Renta básica, inteligencia artificial y libertad de proyecto
 
-**Qué queremos mejorar:** No quedarse sin seguridad material ante cambios de empleo o tecnología, y poder elegir un proyecto de vida.
+Queremos que nadie se quede sin seguridad material ante cambios de empleo o tecnología y que pueda elegir un proyecto de vida. Para ello, proponemos comparar una renta para toda la población, apoyos según necesidad y ayudas de transición. Cada opción tendría que explicar su financiación, compatibilidad con trabajar y quién gana o pierde; ninguna es una prestación aprobada.
 
-**Qué proponemos:** Comparar una renta para toda la población, apoyos según necesidad y ayudas de transición. Explicar financiación, compatibilidad con trabajar y quién gana o pierde; no anunciar una prestación aprobada.
+En un caso hipotético, una tarea se automatiza y una persona necesita tiempo para formarse o buscar empleo. Se comparan apoyos universales y según ingresos, incluyendo lo que pagaría en impuestos y las ayudas que cambiarían. No basta con mostrar una cantidad mensual sin explicar el conjunto.
 
-**Cómo sabremos si funciona:** Medir pobreza, dinero disponible, bienestar, empleo y coste después de impuestos y cambios en ayudas. La IA no financia automáticamente una renta.
+Personas necesitan seguridad y autonomía; empresas, adaptación; contribuyentes, financiación viable. Un diseño puede proteger más a unos y exigir más a otros: debe compararse sin prometer que todos ganan.
 
-**Ejemplo cotidiano (hipotético):** Una tarea se automatiza y una persona necesita tiempo para formarse o buscar empleo. Se comparan apoyos universales y según ingresos, incluyendo lo que pagaría en impuestos y las ayudas que cambiarían. No basta con mostrar una cantidad mensual sin explicar el conjunto.
+Para saber si funciona, proponemos medir pobreza, dinero disponible, bienestar, empleo y coste después de impuestos y cambios en ayudas. La IA no financia automáticamente una renta.
 
-**Intereses que hay que equilibrar:** Personas necesitan seguridad y autonomía; empresas, adaptación; contribuyentes, financiación viable. Un diseño puede proteger más a unos y exigir más a otros: debe compararse sin prometer que todos ganan.
+#### Plan de actuación
 
-**Argumento y alternativa:** Una renta incondicional puede reducir incertidumbre y barreras administrativas, pero pagar a toda la población exige recursos y puede tener efectos sobre empleo, precios e impuestos. Finlandia ensayó pagos a 2.000 personas desempleadas, no a toda la población: los efectos laborales fueron pequeños y se comunicó mayor bienestar percibido [F17]. Comparar diseños, no extrapolar ese resultado a una renta universal española.
+En el primer año, proponemos publicar 3 diseños comparables con al menos 10 perfiles de hogares y financiación completa; preparar un protocolo revisado de piloto y declarar si cumple condiciones legales y presupuestarias.
 
-**Indicador principal y fuente:** Renta disponible neta por hogar después de impuestos y prestaciones, privación material y actividad laboral, en registros legalmente accesibles y encuestas de seguimiento. Separar coste bruto de transferencias, financiación y coste neto; no tratar exposición de tareas a IA como empleos que necesariamente desaparecerán.
+En cuatro años, si se autoriza y financia, el objetivo es completar un piloto de al menos 1.000 participantes con 12 meses de seguimiento y comparación adecuada, y publicar resultados y decisión de ampliar, modificar o descartar. Sin autorización, informar del bloqueo; no contar un protocolo como piloto ejecutado.
 
-**Qué haremos en el primer año:** Publicar 3 diseños comparables con al menos 10 perfiles de hogares y financiación completa; preparar un protocolo revisado de piloto y declarar si cumple condiciones legales y presupuestarias.
-
-**Qué queremos conseguir en cuatro años:** Si se autoriza y financia, completar un piloto de al menos 1.000 participantes con 12 meses de seguimiento y comparación adecuada, y publicar resultados y decisión de ampliar, modificar o descartar. Sin autorización, informar del bloqueo; no contar un protocolo como piloto ejecutado.
-
-**Pasos y responsables:** Administraciones de protección social, Hacienda, servicios de empleo y evaluación independiente: perfiles, derechos y alternativas en M1–M3; microsimulación, costes y salvaguardas en M4–M9; protocolo y decisión en M10–M12. La institución competente debe habilitar la prueba antes de pagos y no retirar protección necesaria para crear un grupo de comparación.
-
-**Cómo comprobaremos los avances:** Fijar población, importe, relación con impuestos y prestaciones, método y seguimiento antes de probar. Evaluar incentivos marginales para que mejorar ingresos no active pérdidas bruscas de ayudas. Un piloto limitado no demuestra efectos de financiación, precios o equilibrio de toda la economía.
+La ejecución correspondería a administraciones de protección social, Hacienda, servicios de empleo y evaluación independiente; el calendario previsto incluye perfiles, derechos y alternativas en M1–M3; microsimulación, costes y salvaguardas en M4–M9; protocolo y decisión en M10–M12. La institución competente debe habilitar la prueba antes de pagos y no retirar protección necesaria para crear un grupo de comparación.
 
 #### Ficha técnica
+
+**Fundamento y alternativas:** Una renta incondicional puede reducir incertidumbre y barreras administrativas, pero pagar a toda la población exige recursos y puede tener efectos sobre empleo, precios e impuestos. Finlandia ensayó pagos a 2.000 personas desempleadas, no a toda la población: los efectos laborales fueron pequeños y se comunicó mayor bienestar percibido [F17]. Comparar diseños, no extrapolar ese resultado a una renta universal española.
+
+**Medición y fuentes:** Renta disponible neta por hogar después de impuestos y prestaciones, privación material y actividad laboral, en registros legalmente accesibles y encuestas de seguimiento. Separar coste bruto de transferencias, financiación y coste neto; no tratar exposición de tareas a IA como empleos que necesariamente desaparecerán. Fijar población, importe, relación con impuestos y prestaciones, método y seguimiento antes de probar. Evaluar incentivos marginales para que mejorar ingresos no active pérdidas bruscas de ayudas. Un piloto limitado no demuestra efectos de financiación, precios o equilibrio de toda la economía.
 
 **Problema a estudiar:** cambios de tareas y oportunidades por automatización e IA, inseguridad económica y opciones de participación laboral. No se asume que todo empleo desaparecerá, que la renta básica sea inevitable ni que quien no tenga trabajo carezca de voluntad.
 
@@ -1613,29 +1557,27 @@ Los delitos graves, incluidos homicidio, crímenes de guerra o delitos contra in
 
 ### 2.29. Resiliencia, seguridad económica y planes de contingencia
 
-**Qué queremos mejorar:** Mantener servicios esenciales ante guerras, desastres, pandemias o fallos de suministro, sin improvisar toda la respuesta.
+Queremos mantener servicios esenciales ante guerras, desastres, pandemias o fallos de suministro, sin improvisar toda la respuesta. Para ello, proponemos preparar funcionamiento normal, alternativas cuando algo falla y respuesta de emergencia. Para hacerlo, asignaríamos responsables y recursos, practicaríamos y nos coordinaríamos con los instrumentos existentes, sin prometer riesgo cero.
 
-**Qué proponemos:** Preparar funcionamiento normal, alternativas cuando algo falla y respuesta de emergencia. Asignar responsables y recursos, practicar y coordinarse con los instrumentos existentes, sin prometer riesgo cero.
+En un caso hipotético, un servicio de agua simula una interrupción de suministro eléctrico. Comprueba quién activa la alternativa, cuánto tarda y qué atención mínima mantiene. Los fallos encontrados se corrigen; el ejercicio no garantiza superar cualquier emergencia real.
 
-**Cómo sabremos si funciona:** Comprobar servicios mantenidos, tiempo de respuesta, alternativas que funcionan y fallos corregidos. Tener un plan escrito no demuestra preparación.
+Población necesita continuidad; operadores, medios y coordinación; contribuyentes, reservas proporcionadas. Prepararse cuesta aunque no haya crisis, pero acumular equipos o existencias sin mantenerlos también desperdicia recursos.
 
-**Ejemplo cotidiano (hipotético):** Un servicio de agua simula una interrupción de suministro eléctrico. Comprueba quién activa la alternativa, cuánto tarda y qué atención mínima mantiene. Los fallos encontrados se corrigen; el ejercicio no garantiza superar cualquier emergencia real.
+Para saber si funciona, proponemos comprobar servicios mantenidos, tiempo de respuesta, alternativas que funcionan y fallos corregidos. Tener un plan escrito no demuestra preparación.
 
-**Intereses que hay que equilibrar:** Población necesita continuidad; operadores, medios y coordinación; contribuyentes, reservas proporcionadas. Prepararse cuesta aunque no haya crisis, pero acumular equipos o existencias sin mantenerlos también desperdicia recursos.
+#### Plan de actuación
 
-**Argumento y alternativa:** Una redundancia puede costar más en periodos normales y evitar interrupciones graves; acumular reservas sin rotación desperdicia recursos. Comparar diversificación, contratos alternativos, existencias justificadas y gestión de demanda por coste completo y criticidad. La Estrategia de Preparación de la UE de marzo de 2025 propone anticipación, coordinación y orientación de autosuficiencia de al menos 72 horas [F28]. No certifica que cada hogar o servicio ya esté preparado.
+En el primer año, en 10 entidades públicas u operadores adheridos, proponemos inventariar las funciones esenciales en M3, aprobar antes de M6 sus dependencias, responsables y tiempos de recuperación por servicio, y completar 2 ejercicios coordinados antes de M12. Todas las funciones del alcance acordado tendrán un responsable y una alternativa documentada, o un riesgo residual expresamente aceptado y publicado de forma agregada.
 
-**Indicador principal y fuente:** Pruebas que cumplen el tiempo y nivel mínimo de servicio aprobados/pruebas realizadas, registros de ejercicios y evaluación independiente. Publicar dependencias y resultados agregados sin revelar información sensible; diferenciar capacidades contratadas, disponibles y realmente ensayadas.
+En cuatro años, el objetivo es extender a 30 entidades; alcanzar el 90 % de pruebas dentro del tiempo y nivel mínimo de servicio aprobado y cerrar el 90 % de las correcciones de prioridad alta dentro de 90 días. Mantener 2 ejercicios al año y publicar coste, resultados y revisión del plan después de cada crisis relevante.
 
-**Qué haremos en el primer año:** En 10 entidades públicas u operadores adheridos, inventariar las funciones esenciales en M3, aprobar antes de M6 sus dependencias, responsables y tiempos de recuperación por servicio, y completar 2 ejercicios coordinados antes de M12. Todas las funciones del alcance acordado tendrán un responsable y una alternativa documentada, o un riesgo residual expresamente aceptado y publicado de forma agregada.
-
-**Qué queremos conseguir en cuatro años:** Extender a 30 entidades; alcanzar el 90 % de pruebas dentro del tiempo y nivel mínimo de servicio aprobado y cerrar el 90 % de las correcciones de prioridad alta dentro de 90 días. Mantener 2 ejercicios al año y publicar coste, resultados y revisión del plan después de cada crisis relevante.
-
-**Pasos y responsables:** Autoridades de protección civil, responsables sectoriales, comunidades, municipios y operadores: mapa de riesgos y línea base en M1–M3; convenios, recursos y prioridades en M4–M6; ejercicios y correcciones en M7–M12; ampliación en años 2–4 solo tras evaluación y financiación. OpenSpain puede preparar el método y examinar información pública, no dirigir una emergencia ni certificar reservas de terceros.
-
-**Cómo comprobaremos los avances:** Escenarios, intensidad, duración, funciones incluidas y criterios se fijarán antes del ejercicio. Contar fallos y casos no ensayados; no mejorar el porcentaje eliminando funciones difíciles o relajando tiempos. Los ejercicios no predicen todas las condiciones de una guerra o desastre real.
+La ejecución correspondería a autoridades de protección civil, responsables sectoriales, comunidades, municipios y operadores; el calendario previsto incluye mapa de riesgos y línea base en M1–M3; convenios, recursos y prioridades en M4–M6; ejercicios y correcciones en M7–M12; ampliación en años 2–4 solo tras evaluación y financiación. OpenSpain puede preparar el método y examinar información pública, no dirigir una emergencia ni certificar reservas de terceros.
 
 #### Ficha técnica
+
+**Fundamento y alternativas:** Una redundancia puede costar más en periodos normales y evitar interrupciones graves; acumular reservas sin rotación desperdicia recursos. Comparar diversificación, contratos alternativos, existencias justificadas y gestión de demanda por coste completo y criticidad. La Estrategia de Preparación de la UE de marzo de 2025 propone anticipación, coordinación y orientación de autosuficiencia de al menos 72 horas [F28]. No certifica que cada hogar o servicio ya esté preparado.
+
+**Medición y fuentes:** Pruebas que cumplen el tiempo y nivel mínimo de servicio aprobados/pruebas realizadas, registros de ejercicios y evaluación independiente. Publicar dependencias y resultados agregados sin revelar información sensible; diferenciar capacidades contratadas, disponibles y realmente ensayadas. Escenarios, intensidad, duración, funciones incluidas y criterios se fijarán antes del ejercicio. Contar fallos y casos no ensayados; no mejorar el porcentaje eliminando funciones difíciles o relajando tiempos. Los ejercicios no predicen todas las condiciones de una guerra o desastre real.
 
 **Problema a estudiar:** dependencia de proveedores, rutas y sistemas únicos; falta de coordinación, financiación o práctica; impactos en hogares vulnerables y empresas cuando se interrumpen energía, agua, salud, comunicaciones, pagos, alimentación o transporte.
 
@@ -1678,29 +1620,27 @@ Los delitos graves, incluidos homicidio, crímenes de guerra o delitos contra in
 
 ### 2.30. Constitución clara, accesible y con seguridad jurídica
 
-**Qué queremos mejorar:** Entender derechos, responsabilidades y límites del poder sin necesitar conocimientos jurídicos especializados.
+Queremos entender derechos, responsabilidades y límites del poder sin necesitar conocimientos jurídicos especializados. Para ello, proponemos crear una guía clara, sin valor normativo, y estudiar cambios concretos de redacción cuando estén justificados. Cambiar la Constitución exige su procedimiento y mayorías, sin recortar derechos ni controles.
 
-**Qué proponemos:** Crear una guía clara, sin valor normativo, y estudiar cambios concretos de redacción cuando estén justificados. Cambiar la Constitución exige su procedimiento y mayorías, sin recortar derechos ni controles.
+En un caso hipotético, una persona quiere entender qué significa un derecho constitucional y qué puede hacer para ejercerlo. Consulta una ficha con explicación, límites, normas relacionadas y fuentes oficiales. La ficha orienta, pero no crea una garantía nueva ni sustituye el texto o asesoramiento jurídico.
 
-**Cómo sabremos si funciona:** Probar si se entienden mejor derechos y procedimientos y revisar que las explicaciones no cambien su alcance. Un texto más corto no garantiza más claridad.
+Ciudadanía necesita claridad; profesionales e instituciones, precisión; minorías y personas afectadas, garantías. Simplificar no puede borrar excepciones ni presentar una interpretación discutida como la única posible.
 
-**Ejemplo cotidiano (hipotético):** Una persona quiere entender qué significa un derecho constitucional y qué puede hacer para ejercerlo. Consulta una ficha con explicación, límites, normas relacionadas y fuentes oficiales. La ficha orienta, pero no crea una garantía nueva ni sustituye el texto o asesoramiento jurídico.
+Para saber si funciona, proponemos probar si se entienden mejor derechos y procedimientos y revisar que las explicaciones no cambien su alcance. Un texto más corto no garantiza más claridad.
 
-**Intereses que hay que equilibrar:** Ciudadanía necesita claridad; profesionales e instituciones, precisión; minorías y personas afectadas, garantías. Simplificar no puede borrar excepciones ni presentar una interpretación discutida como la única posible.
+#### Plan de actuación
 
-**Argumento y alternativa:** Un lenguaje más claro puede facilitar el ejercicio de derechos y reducir confusiones, pero una frase breve puede ocultar excepciones necesarias. Comparar mantener el texto y explicarlo mejor, mejorar las leyes de desarrollo y reformar artículos concretos. Los principios constitucionales requieren interpretación al aplicarse a casos nuevos; no se promete eliminarla ni imponer una lectura política única.
+En el primer año, proponemos preparar 12 fichas de artículos seleccionados con criterios públicos y probar sus explicaciones con 200 personas voluntarias de perfiles diversos. Cada ficha mostrará texto oficial, explicación accesible, dificultades documentadas y, solo cuando se justifique, una alternativa de redacción con revisión jurídica. Publicar el método, resultados y carencias antes de M12, sujeto a equipo y financiación.
 
-**Indicador principal y fuente:** Artículos con ficha comparada, revisión jurídica independiente y prueba de comprensión completadas, registrados con versión, fuente oficial y resultado. Medir aparte aciertos, tiempo por tarea, errores sobre garantías y cambios de significado detectados; el número de fichas es una entrega documental, no una reforma aprobada.
+En cuatro años, el objetivo es ampliar a 40 fichas y 600 participantes acumulados, actualizar anualmente las fuentes y resultados y remitir a las instituciones competentes un dossier de reformas justificadas si la revisión lo aconseja. No comprometer la aprobación de una reforma ni contar una guía o un envío como cambio constitucional.
 
-**Qué haremos en el primer año:** Preparar 12 fichas de artículos seleccionados con criterios públicos y probar sus explicaciones con 200 personas voluntarias de perfiles diversos. Cada ficha mostrará texto oficial, explicación accesible, dificultades documentadas y, solo cuando se justifique, una alternativa de redacción con revisión jurídica. Publicar el método, resultados y carencias antes de M12, sujeto a equipo y financiación.
-
-**Qué queremos conseguir en cuatro años:** Ampliar a 40 fichas y 600 participantes acumulados, actualizar anualmente las fuentes y resultados y remitir a las instituciones competentes un dossier de reformas justificadas si la revisión lo aconseja. No comprometer la aprobación de una reforma ni contar una guía o un envío como cambio constitucional.
-
-**Pasos y responsables:** Equipo ciudadano, especialistas plurales en derecho constitucional y accesibilidad y revisión independiente: selección, alcance y protocolo en M1–M3; redacción y contraste jurídico en M4–M6; pruebas y publicación en M7–M12; ampliación condicionada en años 2–4. Gobierno, Cámaras y asambleas autonómicas por los cauces de iniciativa aplicables, y ciudadanía cuando proceda referéndum, deciden la reforma; OpenSpain no puede aprobarla.
-
-**Cómo comprobaremos los avances:** Comparar tareas equivalentes con el texto oficial y las explicaciones, distribuyendo versiones para limitar aprendizaje y sesgos. Publicar reclutamiento, abandonos, aciertos y errores por perfil, sin generalizar una muestra voluntaria a toda España. No aceptar como mejora una explicación que aumente comprensión aparente pero omita una garantía, cambie una competencia o presente una interpretación discutida como obligatoria.
+La ejecución correspondería a equipo ciudadano, especialistas plurales en derecho constitucional y accesibilidad y revisión independiente; el calendario previsto incluye selección, alcance y protocolo en M1–M3; redacción y contraste jurídico en M4–M6; pruebas y publicación en M7–M12; ampliación condicionada en años 2–4. Gobierno, Cámaras y asambleas autonómicas por los cauces de iniciativa aplicables, y ciudadanía cuando proceda referéndum, deciden la reforma; OpenSpain no puede aprobarla.
 
 #### Ficha técnica
+
+**Fundamento y alternativas:** Un lenguaje más claro puede facilitar el ejercicio de derechos y reducir confusiones, pero una frase breve puede ocultar excepciones necesarias. Comparar mantener el texto y explicarlo mejor, mejorar las leyes de desarrollo y reformar artículos concretos. Los principios constitucionales requieren interpretación al aplicarse a casos nuevos; no se promete eliminarla ni imponer una lectura política única.
+
+**Medición y fuentes:** Artículos con ficha comparada, revisión jurídica independiente y prueba de comprensión completadas, registrados con versión, fuente oficial y resultado. Medir aparte aciertos, tiempo por tarea, errores sobre garantías y cambios de significado detectados; el número de fichas es una entrega documental, no una reforma aprobada. Comparar tareas equivalentes con el texto oficial y las explicaciones, distribuyendo versiones para limitar aprendizaje y sesgos. Publicar reclutamiento, abandonos, aciertos y errores por perfil, sin generalizar una muestra voluntaria a toda España. No aceptar como mejora una explicación que aumente comprensión aparente pero omita una garantía, cambie una competencia o presente una interpretación discutida como obligatoria.
 
 **Problema a estudiar:** barreras de vocabulario y estructura, remisiones difíciles de seguir y divergencias interpretativas. Distinguir defectos evitables de redacción, desacuerdos de fondo, problemas de leyes de desarrollo y la función legítima de los tribunales. La cantidad de artículos no mide la complejidad del texto.
 
@@ -1737,29 +1677,27 @@ Los delitos graves, incluidos homicidio, crímenes de guerra o delitos contra in
 
 ### 2.31. Justicia accesible y ágil, defensa efectiva e integridad
 
-**Qué queremos mejorar:** Acceder a la justicia sin esperas evitables, trámites incomprensibles o defensa inasumible, sin identificar automáticamente lentitud con corrupción.
+Queremos acceder a la justicia sin esperas evitables, trámites incomprensibles o defensa inasumible, sin identificar automáticamente lentitud con corrupción. Para ello, proponemos mejorar equipos y organización, evitar gestiones repetidas y explicar el estado de los expedientes a quienes tienen autorización. La mejora debe reforzar defensa y controles de integridad sin interferir en decisiones judiciales.
 
-**Qué proponemos:** Mejorar equipos y organización, evitar gestiones repetidas y explicar el estado de los expedientes a quienes tienen autorización. Reforzar defensa y controles de integridad sin interferir en decisiones judiciales.
+En un caso hipotético, una persona reclama una factura impagada y la otra discute el importe. Ambas pueden conocer el estado autorizado del expediente y recibir notificaciones comprensibles, manteniendo tiempo para defenderse. Mejorar esas gestiones no promete una sentencia en un plazo fijo ni adelanta quién tiene razón.
 
-**Cómo sabremos si funciona:** Medir esperas en gestiones comparables, notificaciones, errores y acceso a defensa. Ir más rápido no sirve si se pierden garantías o el atasco pasa a otra fase.
+Quien reclama necesita respuesta; la otra parte, defensa efectiva; víctimas, protección; profesionales, medios; ciudadanía, independencia judicial. Reducir esperas no justifica recortar recursos ni forzar acuerdos, y una demora no prueba corrupción.
 
-**Ejemplo cotidiano (hipotético):** Una persona reclama una factura impagada y la otra discute el importe. Ambas pueden conocer el estado autorizado del expediente y recibir notificaciones comprensibles, manteniendo tiempo para defenderse. Mejorar esas gestiones no promete una sentencia en un plazo fijo ni adelanta quién tiene razón.
+Para saber si funciona, proponemos medir esperas en gestiones comparables, notificaciones, errores y acceso a defensa. Ir más rápido no sirve si se pierden garantías o el atasco pasa a otra fase.
 
-**Intereses que hay que equilibrar:** Quien reclama necesita respuesta; la otra parte, defensa efectiva; víctimas, protección; profesionales, medios; ciudadanía, independencia judicial. Reducir esperas no justifica recortar recursos ni forzar acuerdos, y una demora no prueba corrupción.
+#### Plan de actuación
 
-**Argumento y alternativa:** Más personal sin diagnóstico puede desplazar un cuello de botella; digitalizar un trámite innecesario no lo elimina. Comparar refuerzo de equipos, organización, interoperabilidad y simplificación legal con mediación u otras vías solo cuando sean procedentes y seguras. No presionar a nadie para renunciar a juicio o aceptar un acuerdo ni prometer una duración universal.
+En el primer año, en 3 unidades judiciales o servicios de gestión adheridos, proponemos identificar en M3 los cuellos de botella y reducir un 15 % la mediana de espera de las actuaciones seleccionadas antes de M12, sin recortar plazos de defensa. Publicar un mapa de trámites y acceso a asistencia jurídica y probar sus explicaciones con 100 usuarios voluntarios, sin recopilar expedientes personales en OpenSpain.
 
-**Indicador principal y fuente:** Mediana y percentil 90 de días entre hitos de gestión definidos por procedimiento, con registros autorizados y datos agregados de las unidades participantes. Separar tiempo administrativo, tramitación judicial, recursos y ejecución; acompañar los asuntos terminados con antigüedad de pendientes y suspensiones justificadas.
+En cuatro años, el objetivo es extender a 10 unidades, reducir un 25 % la espera de las actuaciones comparables de la cohorte inicial y actualizar anualmente capacidad, pendientes y calidad. Todos los servicios participantes mantendrán vías de atención presencial o asistida y seguimiento autorizado, con evaluación de acceso a defensa y recursos comprometidos.
 
-**Qué haremos en el primer año:** En 3 unidades judiciales o servicios de gestión adheridos, identificar en M3 los cuellos de botella y reducir un 15 % la mediana de espera de las actuaciones seleccionadas antes de M12, sin recortar plazos de defensa. Publicar un mapa de trámites y acceso a asistencia jurídica y probar sus explicaciones con 100 usuarios voluntarios, sin recopilar expedientes personales en OpenSpain.
-
-**Qué queremos conseguir en cuatro años:** Extender a 10 unidades, reducir un 25 % la espera de las actuaciones comparables de la cohorte inicial y actualizar anualmente capacidad, pendientes y calidad. Todos los servicios participantes mantendrán vías de atención presencial o asistida y seguimiento autorizado, con evaluación de acceso a defensa y recursos comprometidos.
-
-**Pasos y responsables:** Administración de Justicia estatal y autonómica en sus competencias, responsables de oficinas y unidades judiciales, órganos de gobierno judicial y colegios profesionales: diagnóstico y permisos en M1–M3; revisión de procesos, recursos y garantías en M4–M6; pruebas y evaluación en M7–M12; ampliación condicionada en años 2–4. Los jueces deciden los asuntos con independencia; OpenSpain puede preparar propuestas y evaluar información pública, no dirigir expedientes ni ofrecer defensa profesional.
-
-**Cómo comprobaremos los avances:** Comparar con los 12 meses previos a la intervención por tipo de trámite y complejidad, con cohortes y fechas publicadas. Contar asuntos antiguos, pendientes, anulaciones, notificaciones fallidas y cargas trasladadas. No acortar estadísticas dejando de admitir asuntos, excluyendo casos difíciles o convirtiendo rapidez en una prima por condenar, absolver o cerrar.
+La ejecución correspondería a Administración de Justicia estatal y autonómica en sus competencias, responsables de oficinas y unidades judiciales, órganos de gobierno judicial y colegios profesionales; el calendario previsto incluye diagnóstico y permisos en M1–M3; revisión de procesos, recursos y garantías en M4–M6; pruebas y evaluación en M7–M12; ampliación condicionada en años 2–4. Los jueces deciden los asuntos con independencia; OpenSpain puede preparar propuestas y evaluar información pública, no dirigir expedientes ni ofrecer defensa profesional.
 
 #### Ficha técnica
+
+**Fundamento y alternativas:** Más personal sin diagnóstico puede desplazar un cuello de botella; digitalizar un trámite innecesario no lo elimina. Comparar refuerzo de equipos, organización, interoperabilidad y simplificación legal con mediación u otras vías solo cuando sean procedentes y seguras. No presionar a nadie para renunciar a juicio o aceptar un acuerdo ni prometer una duración universal.
+
+**Medición y fuentes:** Mediana y percentil 90 de días entre hitos de gestión definidos por procedimiento, con registros autorizados y datos agregados de las unidades participantes. Separar tiempo administrativo, tramitación judicial, recursos y ejecución; acompañar los asuntos terminados con antigüedad de pendientes y suspensiones justificadas. Comparar con los 12 meses previos a la intervención por tipo de trámite y complejidad, con cohortes y fechas publicadas. Contar asuntos antiguos, pendientes, anulaciones, notificaciones fallidas y cargas trasladadas. No acortar estadísticas dejando de admitir asuntos, excluyendo casos difíciles o convirtiendo rapidez en una prima por condenar, absolver o cerrar.
 
 **Problema a estudiar:** sobrecarga, vacantes, discontinuidad de equipos, fallos de notificación, sistemas que no interoperan, duplicidades y dificultades para conseguir orientación o asistencia jurídica. Analizar también conflictos de interés o irregularidades cuando existan indicios concretos, sin presumirlos por el retraso o por una resolución desfavorable.
 
