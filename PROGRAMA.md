@@ -19,7 +19,11 @@ Mejorar la calidad de vida en España mediante instituciones fiables, vivienda a
 
 Los problemas siguientes son hipótesis de trabajo y preocupaciones ciudadanas. Su alcance y sus causas deben contrastarse antes de aprobar medidas.
 
-Cada eje explica qué queremos cambiar, qué haremos en el primer año, qué queremos conseguir en cuatro años, quién debe intervenir y cómo comprobaremos los avances. Las cantidades y los plazos se conservan para poder exigir explicaciones: son planes propuestos para ámbitos delimitados, no previsiones nacionales ni resultados garantizados.
+**Primera lectura:** empieza por el problema, la propuesta, cómo medirla, el ejemplo cotidiano y los intereses que hay que equilibrar. Los ejemplos son situaciones hipotéticas: ayudan a entender una medida, pero no son casos documentados, resultados obtenidos ni derechos nuevos. No necesitas compartir una etiqueta política para valorar una propuesta; sí conocer sus beneficios posibles, costes y límites.
+
+**Para profundizar:** después encontrarás argumentos y alternativas, objetivos del primer año y de cuatro años, responsables, seguimiento, gráficos y ficha técnica. Las cantidades y los plazos se conservan para poder exigir explicaciones: son planes propuestos para ámbitos delimitados, no previsiones nacionales ni resultados garantizados.
+
+**Palabras que usamos:** «trazabilidad» significa poder seguir quién decide, qué hace y con qué dinero; «interoperabilidad», que sistemas distintos puedan intercambiar información con autorización; «línea base», la situación medida antes de empezar; «cohorte», el mismo grupo seguido durante un período; y «adicionalidad», la mejora que no habría ocurrido sin la ayuda o medida. Medir una actividad no demuestra que haya causado un resultado.
 
 **Qué significa «haremos»:** expresa la actuación que proponemos impulsar, no una medida ya aprobada. OpenSpain puede investigar, preparar propuestas, reunir apoyos y solicitar acuerdos; las administraciones y demás entidades competentes deben autorizar y ejecutar lo que les corresponde. Si falta un acuerdo, personal o financiación, publicaremos el bloqueo, no una entrega ficticia.
 
@@ -27,11 +31,15 @@ Cada eje explica qué queremos cambiar, qué haremos en el primer año, qué que
 
 ### 2.1. Corrupción, partidos y confianza institucional
 
-**Qué queremos mejorar:** Poder confiar en que los fondos públicos se usan para servir a la ciudadanía.
+**Qué queremos mejorar:** Saber en qué se gasta el dinero público y poder exigir explicaciones cuando algo no encaja.
 
-**Qué proponemos:** Hacer trazables la financiación política, los conflictos de interés y el uso de fondos públicos.
+**Qué proponemos:** Publicar quién financia a los partidos, quién decide sobre fondos públicos y qué intereses personales pueden influir. Reforzar controles independientes y proteger a quienes denuncian irregularidades.
 
-**Cómo sabremos si funciona:** Transparencia efectiva, controles atendidos y fondos recuperados tras resoluciones firmes.
+**Cómo sabremos si funciona:** Comprobar si la información llega a tiempo, se atienden las recomendaciones y se recuperan fondos cuando lo ordena una resolución firme. Publicar más datos no demuestra menos corrupción.
+
+**Ejemplo cotidiano (hipotético):** Una asociación recibe una subvención para actividades del barrio. Cualquier persona puede consultar cuánto recibió, para qué y cómo justificó el gasto. Si falta información, se pide una explicación y se revisa; no se acusa de delito solo por una duda.
+
+**Intereses que hay que equilibrar:** La ciudadanía necesita transparencia; las entidades, controles claros que no bloqueen su trabajo; y las personas investigadas, garantías y protección de sus datos. Revisar cuesta recursos, pero no debe depender de a quién afecte.
 
 **Argumento y alternativa:** La trazabilidad y los controles reducen oportunidades de ocultación y permiten exigir explicaciones, pero publicar más datos no demuestra menos corrupción. Frente a crear otro organismo sin función clara, se prioriza mejorar capacidad e independencia de los existentes y comprobar qué recomendaciones se ejecutan.
 
@@ -70,11 +78,15 @@ Cada eje explica qué queremos cambiar, qué haremos en el primer año, qué que
 
 ### 2.2. Vivienda: escasez de oferta y precios elevados
 
-**Qué queremos mejorar:** Acceder a una vivienda sin renunciar a un proyecto de vida, con garantías para ambas partes.
+**Qué queremos mejorar:** Encontrar una vivienda que se pueda pagar y alquilar con seguridad, tanto para quien vive en ella como para quien la ofrece.
 
-**Qué proponemos:** Aumentar vivienda asequible, proteger a propietarios e inquilinos y resolver conflictos con garantías y apoyos públicos viables.
+**Qué proponemos:** Ampliar el alquiler público y protegido, rehabilitar vivienda y facilitar nueva oferta donde haya demanda, servicios y garantías. Resolver conflictos sin dejar desprotegidos a inquilinos ni propietarios.
 
-**Cómo sabremos si funciona:** Esfuerzo de alquiler, vivienda asequible disponible y resolución de conflictos.
+**Cómo sabremos si funciona:** Medir qué parte del ingreso se destina al alquiler, cuántas viviendas asequibles están disponibles y cuánto tardan los conflictos en resolverse con garantías.
+
+**Ejemplo cotidiano (hipotético):** Una persona busca alquiler cerca del trabajo y otra tiene un piso que teme alquilar por posibles impagos. Más vivienda asequible y una respuesta fiable ante problemas pueden ampliar opciones para ambas. Construir requiere tiempo; habilitar suelo no garantiza por sí solo un alquiler más barato.
+
+**Intereses que hay que equilibrar:** Inquilinos necesitan precios asumibles; propietarios, cobrar y conservar su vivienda; vecinos, servicios y un barrio habitable. Construcción, ayudas y parque público tienen costes: hay que comparar dónde aportan más y evitar desplazar el problema a otro barrio.
 
 **Argumento y alternativa:** Allí donde la demanda supera la oferta utilizable, ampliar vivienda y agilizar actuaciones puede aliviar restricciones; ayudas a la demanda sin nueva oferta pueden trasladarse a precios. Se compararán rehabilitación, movilización y construcción según plazo y coste. El caso de Auckland respalda construcción tras cambios urbanísticos, no garantiza alquileres más bajos en España [F5].
 
@@ -135,11 +147,15 @@ La cárcel ya existe para determinadas conductas; condena y cumplimiento efectiv
 
 ### 2.3. Vivienda turística y convivencia
 
-**Qué queremos mejorar:** Que visitar España sea accesible y genere oportunidades, manteniendo barrios donde se pueda vivir.
+**Qué queremos mejorar:** Poder visitar España a un precio asumible sin que los barrios pierdan vivienda o tranquilidad.
 
-**Qué proponemos:** Facilitar alojamiento turístico legal, diverso y a precios accesibles, combatir la oferta irregular y regular la presión según evidencia local. No tratar todo alquiler turístico como un problema ni sustituir vivienda habitual sin evaluar sus efectos.
+**Qué proponemos:** Facilitar alojamiento turístico legal, diverso y a precios accesibles. Actuar contra la oferta irregular y ajustar las reglas a lo que ocurre en cada barrio, no tratar todo alquiler turístico como un problema.
 
-**Cómo sabremos si funciona:** Oferta turística legal y precio final comparable, empleo y actividad local, disponibilidad residencial y reclamaciones.
+**Cómo sabremos si funciona:** Comparar el precio final de estancias similares, el empleo, la vivienda disponible para residentes y las quejas. Un viaje más barato no basta si empeora la vida del barrio.
+
+**Ejemplo cotidiano (hipotético):** En una misma calle hay un alojamiento legal, una familia que busca alquiler y un comercio que vive del turismo. Antes de ampliar o limitar plazas se estudian vivienda, ruido y servicios. Una regla útil allí puede no servir en un municipio con poca demanda turística.
+
+**Intereses que hay que equilibrar:** Visitantes buscan opciones asequibles; negocios y trabajadores, actividad estable; residentes, vivienda y descanso. Los controles deben proteger la convivencia sin favorecer solo a grandes operadores ni dar por hecho que cualquier restricción recuperará vivienda.
 
 **Argumento y alternativa:** Una oferta legal más diversa y una competencia efectiva pueden facilitar viajes y gasto local; precios menores no garantizan por sí solos mayor beneficio neto o mejores salarios. Comparar ampliar capacidad compatible, desestacionalizar, mejorar transporte y simplificar requisitos redundantes con límites donde haya presión acreditada. Una prohibición general puede desplazar actividad sin recuperar vivienda; medir costes de servicios y efectos en municipios próximos.
 
@@ -182,11 +198,15 @@ La cárcel ya existe para determinadas conductas; condena y cumplimiento efectiv
 
 ### 2.4. Salarios bajos y calidad del empleo
 
-**Qué queremos mejorar:** Que trabajar permita vivir mejor y desarrollar una carrera.
+**Qué queremos mejorar:** Que el sueldo permita vivir y que el trabajo ofrezca estabilidad y posibilidades de mejorar.
 
-**Qué proponemos:** Mejorar productividad, formación, cumplimiento laboral y capacidad de negociación.
+**Qué proponemos:** Combinar formación y mejores herramientas con cumplimiento de derechos laborales y negociación. Producir mejor debe poder traducirse en mejores ingresos, no solo en más trabajo.
 
-**Cómo sabremos si funciona:** Salarios reales, renta disponible, estabilidad y productividad por hora.
+**Cómo sabremos si funciona:** Medir lo que el sueldo permite comprar, el dinero disponible, la estabilidad y el valor producido por hora. Crear puestos no basta si son precarios.
+
+**Ejemplo cotidiano (hipotético):** Un taller incorpora una herramienta que evita repetir tareas. Se comprueba si mejora la producción y si el equipo recibe formación, mejores condiciones o salario. Comprar una máquina no demuestra por sí solo que las personas trabajadoras vivan mejor.
+
+**Intereses que hay que equilibrar:** Trabajadores necesitan ingresos y descanso; empresas, poder sostener empleo e inversión; clientes, calidad y precios. Hay que comprobar quién recibe la mejora y evitar financiar empleos que desaparezcan al terminar la ayuda.
 
 **Argumento y alternativa:** Formación e inversión pueden aumentar valor producido, pero no aseguran que llegue al trabajador; por eso se combinan con negociación y cumplimiento laboral. Frente a subvencionar empleo sin mejora duradera, evaluar salario por hora, continuidad y productividad. La EPA describe empleo, no demuestra el efecto de este piloto [F1].
 
@@ -224,11 +244,15 @@ La cárcel ya existe para determinadas conductas; condena y cumplimiento efectiv
 
 ### 2.5. Tecnología, inteligencia artificial e innovación
 
-**Qué queremos mejorar:** Convertir conocimiento y tecnología en herramientas útiles, oportunidades y servicios mejores.
+**Qué queremos mejorar:** Que la tecnología ahorre trabajo innecesario y mejore servicios, no que añada errores o complicaciones.
 
-**Qué proponemos:** Desarrollar capacidades propias y adoptar IA útil, evaluable y respetuosa con los derechos.
+**Qué proponemos:** Desarrollar conocimiento propio y probar inteligencia artificial solo donde sea útil, con revisión humana, protección de datos y comparación con soluciones más sencillas.
 
-**Cómo sabremos si funciona:** Adopción útil, transferencia de investigación y resultados e incidentes de proyectos.
+**Cómo sabremos si funciona:** Medir tiempo ahorrado, calidad, coste completo y errores. Contar herramientas instaladas no demuestra que funcionen mejor.
+
+**Ejemplo cotidiano (hipotético):** Una oficina prueba una herramienta que prepara borradores de respuestas frecuentes. El personal los revisa antes de enviarlos y registra errores. Si revisar cuesta más que redactar, se cambia o se abandona la herramienta.
+
+**Intereses que hay que equilibrar:** Usuarios necesitan respuestas fiables y privacidad; trabajadores, formación y capacidad de corregir; proveedores, reglas claras. La rapidez no justifica decisiones opacas ni dependencia costosa de una empresa.
 
 **Argumento y alternativa:** Automatizar tareas repetitivas puede liberar tiempo, pero la revisión, los errores y la dependencia del proveedor pueden consumir el beneficio. Comparar IA con rediseño del proceso y software convencional; usar la alternativa de menor coste total que mantenga calidad.
 
@@ -267,11 +291,15 @@ La cárcel ya existe para determinadas conductas; condena y cumplimiento efectiv
 
 ### 2.6. Administración, duplicidades y empleo público
 
-**Qué queremos mejorar:** Entender quién responde de cada servicio y dejar de repetir trámites.
+**Qué queremos mejorar:** Resolver un trámite sin ir de una oficina a otra ni entregar varias veces el mismo documento.
 
-**Qué proponemos:** Clarificar responsabilidades, revisar organismos y plantillas, evaluar desempeño con garantías y explorar ingresos complementarios sin comprometer servicios.
+**Qué proponemos:** Aclarar quién responde, compartir información con autorización y revisar tareas, organismos y personal según la carga real. Evaluar el servicio con garantías y estudiar ingresos complementarios sin perjudicar la atención.
 
-**Cómo sabremos si funciona:** Plazos, calidad, costes netos, adecuación de plantillas y accesibilidad.
+**Cómo sabremos si funciona:** Medir esperas, trámites repetidos, errores y coste total. Comprobar que también se atiende a quien no puede hacer gestiones por internet.
+
+**Ejemplo cotidiano (hipotético):** Para pedir una ayuda, una persona entrega un certificado que otra administración ya tiene. Si la ley permite consultarlo, las oficinas lo intercambian de forma segura y explican qué falta. Digitalizar no debe significar obligarla a repetir la gestión en una pantalla.
+
+**Intereses que hay que equilibrar:** Ciudadanía necesita atención sencilla; empleados públicos, medios y responsabilidades claras; administraciones, uso eficiente de recursos. Quitar controles o personal sin medir necesidades puede empeorar el servicio.
 
 **Argumento y alternativa:** Reutilizar datos y clarificar responsabilidades puede evitar trabajo repetido; recortar plantilla antes de medir carga puede aumentar esperas. X-Road muestra una infraestructura de intercambio autenticado y registrado, no prueba un porcentaje de ahorro trasladable a España [F6]. Comparar integración y servicios compartidos antes de suprimir organismos.
 
@@ -321,11 +349,15 @@ La cárcel ya existe para determinadas conductas; condena y cumplimiento efectiv
 
 ### 2.7. Migración irregular, vías legales e integración
 
-**Qué queremos mejorar:** Gestionar migración con orden, vías legales y protección frente a explotación.
+**Qué queremos mejorar:** Que la migración se gestione con vías legales claras, integración y protección frente a abusos.
 
-**Qué proponemos:** Mejorar vías legales y gestión administrativa, atraer y retener talento internacional, combatir explotación y facilitar integración. Complementar la formación y oportunidades de quienes ya viven en España, no sustituirlas por contratación precaria.
+**Qué proponemos:** Agilizar permisos con garantías, facilitar idioma y reconocimiento de capacidades y combatir la explotación. Atraer talento debe complementar la formación y las oportunidades de quienes ya viven aquí, no fomentar empleo precario.
 
-**Cómo sabremos si funciona:** Plazos de permisos, acceso a protección e integración y explotación detectada.
+**Cómo sabremos si funciona:** Medir esperas de permisos, acceso a protección, integración y respuesta ante abusos. La nacionalidad no es una medida de delincuencia.
+
+**Ejemplo cotidiano (hipotético):** Una profesional con una oferta de empleo necesita saber qué permiso y reconocimiento de estudios le corresponden. La empresa necesita plazos previsibles y el municipio, capacidad de vivienda y servicios. Una información clara evita falsas expectativas; no crea un permiso nuevo.
+
+**Intereses que hay que equilibrar:** Personas migrantes necesitan derechos y seguridad; trabajadores residentes, oportunidades y condiciones justas; empresas, personal cualificado; municipios, recursos. La protección internacional y la contratación laboral tienen finalidades distintas y no deben confundirse.
 
 **Argumento y alternativa:** Talento internacional puede aportar conocimiento, emprendimiento y redes comerciales si encuentra condiciones para desarrollar actividad y transferir capacidades. El beneficio no es automático: importan empleo, vivienda, servicios y retención. Menos incertidumbre, idioma y reconocimiento de competencias pueden facilitar empleo formal. Comparar refuerzo de personal, simplificación legal y acompañamiento, sin usar nacionalidad o irregularidad como indicador de delincuencia.
 
@@ -373,11 +405,15 @@ La cárcel ya existe para determinadas conductas; condena y cumplimiento efectiv
 
 ### 2.8. Relaciones exteriores y acuerdos internacionales
 
-**Qué queremos mejorar:** Cooperar con otros países, facilitar ventas internacionales desde España y decidir nuestra posición europea con información, no consignas.
+**Qué queremos mejorar:** Vender y cooperar con otros países sin depender demasiado de un solo mercado ni decidir nuestra relación con Europa por consignas.
 
-**Qué proponemos:** Impulsar acuerdos útiles y apoyar acceso comercial al mercado europeo y, prioritariamente dentro del americano, a Estados Unidos. Comparar también permanencia, reformas y alternativas de relación con la UE mediante evidencia pública y debate democrático.
+**Qué proponemos:** Apoyar el acceso de empresas españolas a clientes europeos y estadounidenses y acuerdos útiles. Comparar permanencia, reformas y alternativas de relación con la UE, explicando beneficios, costes y transición.
 
-**Cómo sabremos si funciona:** Oportunidades, dependencias y efectos comparados de escenarios europeos.
+**Cómo sabremos si funciona:** Comprobar ventas reales, nuevas dependencias y efectos de cada escenario. Una reunión comercial o un estudio no equivalen a un acuerdo logrado.
+
+**Ejemplo cotidiano (hipotético):** Una pequeña empresa quiere vender fuera de España. Necesita conocer normas, costes de entrega y posibles clientes antes de invertir. El acompañamiento puede ayudarla a decidir, pero no asegura ventas ni que otro país acepte las condiciones propuestas.
+
+**Intereses que hay que equilibrar:** Empresas buscan mercados; trabajadores, empleo estable; consumidores, precios y protección; ciudadanía, capacidad democrática de decisión. Comparar opciones exige contar también derechos, mercados y cooperación que podrían perderse.
 
 **Argumento y alternativa:** Diversificar ventas y suministros puede reducir exposición a un mercado, pero añade costes y no elimina riesgos globales. La comparación europea debe incluir beneficios perdidos y transición, no solo contribuciones evitadas. Ningún estudio garantiza que terceros acepten un acuerdo.
 
@@ -427,11 +463,15 @@ La cárcel ya existe para determinadas conductas; condena y cumplimiento efectiv
 
 ### 2.9. Educación y habilidades para la vida
 
-**Qué queremos mejorar:** Aprender a pensar, gestionar dinero, cuidarse y resolver situaciones cotidianas, desde la escuela y durante toda la vida.
+**Qué queremos mejorar:** Entender una factura, valorar una noticia, comunicarse y tomar decisiones cotidianas, además de aprender conocimientos fundamentales.
 
-**Qué proponemos:** Enseñar pensamiento crítico, finanzas, habilidades emocionales, digitales y prácticas. Revisar lo obsoleto o repetido para liberar tiempo sin debilitar conocimientos fundamentales ni convertir toda educación en preparación laboral.
+**Qué proponemos:** Integrar pensamiento crítico, finanzas, inglés y habilidades prácticas, emocionales y digitales. Revisar contenidos repetidos sin debilitar conocimientos básicos ni convertir toda la educación en preparación para trabajar.
 
-**Cómo sabremos si funciona:** Competencias adquiridas, orientación disponible y brechas por contexto.
+**Cómo sabremos si funciona:** Comprobar si el alumnado aplica lo aprendido y qué diferencias persisten según sus circunstancias. Añadir asignaturas no demuestra aprendizaje.
+
+**Ejemplo cotidiano (hipotético):** En clase se comparan dos compras a plazos: importe total, intereses y comisiones. El alumnado explica cuál cuesta más y por qué. El ejercicio ayuda a comprender una decisión sin recomendar un producto financiero.
+
+**Intereses que hay que equilibrar:** Alumnado necesita formación amplia; familias, oportunidades; docentes, tiempo y preparación. Incorporar habilidades prácticas exige decidir qué se integra o se sustituye, no cargar más contenidos sin medios.
 
 **Argumento y alternativa:** Practicar decisiones sobre información y dinero puede desarrollar habilidades, pero añadir contenido sin formación docente puede sobrecargar el currículo. Comparar integración en materias existentes con módulos adicionales; validar instrumentos y adaptación por edad antes de atribuir mejoras.
 
@@ -480,11 +520,15 @@ La cárcel ya existe para determinadas conductas; condena y cumplimiento efectiv
 
 ### 2.10. Talento artístico, cultural y otras carreras con ingresos inestables
 
-**Qué queremos mejorar:** Poder convertir talento creativo y especializado en una trayectoria sostenible.
+**Qué queremos mejorar:** Poder dedicarse a una actividad creativa o especializada sin vivir siempre pendiente de pagos inciertos.
 
-**Qué proponemos:** Ayudar a convertir capacidades artísticas y profesionales en carreras viables con derechos y protección.
+**Qué proponemos:** Facilitar contratos comprensibles, cobro puntual, acceso a clientes y protección adecuada. Apoyar carreras viables sin exigir que toda creación cultural sea rentable.
 
-**Cómo sabremos si funciona:** Ingresos, continuidad profesional, acceso a mercados y cobro puntual.
+**Cómo sabremos si funciona:** Medir ingresos, pagos a tiempo y continuidad profesional, separando resultados económicos y valor cultural.
+
+**Ejemplo cotidiano (hipotético):** Una ilustradora recibe un encargo con precio, plazo de pago y usos de la obra por escrito. Puede planificar su trabajo y reclamar si no cobra. Conseguir un contrato más claro no garantiza que haya encargos todo el año.
+
+**Intereses que hay que equilibrar:** Creadores necesitan ingresos y derechos; clientes, entregas claras; público, acceso a cultura diversa. Las ayudas deben explicar si buscan empleo, conservación o acceso cultural, y con qué coste.
 
 **Argumento y alternativa:** Cobrar a tiempo reduce necesidades de financiación y el acompañamiento puede mejorar contratos y acceso a clientes. No toda actividad cultural debe ser comercialmente rentable: comparar apoyo temporal, espacios y compras públicas, distinguiendo sostenibilidad profesional y valor cultural.
 
@@ -523,11 +567,15 @@ La cárcel ya existe para determinadas conductas; condena y cumplimiento efectiv
 
 ### 2.11. Ecosistema de startups, inversión y empresas globales desde España
 
-**Qué queremos mejorar:** Crear y hacer crecer empresas desde España, atraer capital y talento y vender en el mundo generando oportunidades duraderas.
+**Qué queremos mejorar:** Que una buena idea pueda convertirse en una empresa desde España y encontrar clientes dentro y fuera del país.
 
-**Qué proponemos:** Construir un ecosistema de startups nacidas en España y capaces de operar globalmente: talento, transferencia de conocimiento, clientes, financiación y acceso europeo y estadounidense. Proteger actividad empresarial lícita sin ayudas ni garantías públicas incondicionales.
+**Qué proponemos:** Conectar empresas nuevas con talento, investigación, clientes e inversión, especialmente en Europa y Estados Unidos. El apoyo público tendrá condiciones y no garantizará cualquier proyecto.
 
-**Cómo sabremos si funciona:** Inversión ejecutada, capital privado, empleo y exposición pública al riesgo.
+**Cómo sabremos si funciona:** Medir ventas, inversión realmente recibida, empleo y dinero público en riesgo. Un anuncio de financiación no es dinero desembolsado.
+
+**Ejemplo cotidiano (hipotético):** Un equipo crea una herramienta para ahorrar agua y prueba si alguien pagaría por ella antes de ampliar plantilla. El acompañamiento ayuda a validar clientes y financiación; si no hay demanda, permite revisar el proyecto antes de asumir más deuda.
+
+**Intereses que hay que equilibrar:** Emprendedores necesitan oportunidades; inversores, riesgos claros; trabajadores, condiciones; contribuyentes, uso justificado de fondos. No se debe subvencionar sin demostrar qué mejora aporta la ayuda frente a invertir sin ella.
 
 **Argumento y alternativa:** Capital y reglas previsibles pueden permitir proyectos viables, pero una ayuda pública puede financiar inversión que habría sucedido igualmente. Comparar acompañamiento sin subvención, deuda y capital; justificar adicionalidad antes de comprometer fondos.
 
@@ -582,11 +630,15 @@ La cárcel ya existe para determinadas conductas; condena y cumplimiento efectiv
 
 ### 2.12. Licitaciones caras, competencia y grupos de interés
 
-**Qué queremos mejorar:** Comprar mejor con dinero público y hacer visible quién influye en las decisiones.
+**Qué queremos mejorar:** Que una compra pública tenga un precio razonable, se entregue bien y no dependa de contactos privilegiados.
 
-**Qué proponemos:** Mejorar competencia, controlar costes y hacer visible la participación de grupos de interés.
+**Qué proponemos:** Facilitar competencia, comparar precios y calidad y revisar lo que se entrega. Publicar quién participa en decisiones y usar alertas de posibles sobrecostes con revisión humana.
 
-**Cómo sabremos si funciona:** Concurrencia, calidad, desviaciones y precisión de alertas contrastadas.
+**Cómo sabremos si funciona:** Medir ofertas recibidas, calidad, retrasos y sobrecostes justificados o corregidos. Un contrato caro o con una sola oferta no demuestra fraude.
+
+**Ejemplo cotidiano (hipotético):** Un ayuntamiento contrata la reparación de una calle. Se pueden consultar requisitos, ofertas, precio final y cambios de obra. Si el coste sube, se explica la causa y se revisa; elegir lo más barato no sirve si la reparación falla pronto.
+
+**Intereses que hay que equilibrar:** Ciudadanía necesita buen servicio; empresas, competir en igualdad y cobrar; técnicos, tiempo y criterio profesional. Los controles deben cubrir influencias de todos los operadores y distinguir errores, cambios legítimos e irregularidades.
 
 **Argumento y alternativa:** Comparabilidad, concurrencia y revisión de ejecución permiten discutir precios y entrega; un contrato caro o con una oferta puede tener explicación legítima. Priorizar capacidad técnica y trazabilidad frente a una IA que prometa detectar fraude sin contexto. La supervisión debe cubrir gasto y calidad, no solo compra barata.
 
@@ -632,11 +684,15 @@ La cárcel ya existe para determinadas conductas; condena y cumplimiento efectiv
 
 ### 2.13. Sanidad pública y privada: acceso, eficiencia y financiación
 
-**Qué queremos mejorar:** Recibir atención sanitaria cuando se necesita, con menos esperas y continuidad.
+**Qué queremos mejorar:** Recibir atención cuando se necesita y no perderse entre citas, pruebas y distintos servicios.
 
-**Qué proponemos:** Mejorar acceso, triaje y continuidad, combinar capacidades cuando aporte valor y reducir costes evitables sin disuadir atención necesaria.
+**Qué proponemos:** Organizar mejor citas y atención según gravedad, evitar pruebas repetidas y combinar capacidades públicas y privadas cuando mejore el servicio. Mantener cobertura y seguimiento sin desanimar a pedir atención necesaria.
 
-**Cómo sabremos si funciona:** Esperas según gravedad, resultados, coste total y atención necesaria no retrasada.
+**Cómo sabremos si funciona:** Medir esperas según necesidad clínica, resultados de salud y coste completo. Una lista más corta no basta si alguien queda fuera o pierde seguimiento.
+
+**Ejemplo cotidiano (hipotético):** Una persona recibe una prueba en otro centro para evitar una espera, con prioridad clínica y autorización adecuadas. El resultado llega a su equipo habitual y tiene seguimiento. Cambiar de centro no debe obligarla a empezar de nuevo ni asumir un coste inesperado.
+
+**Intereses que hay que equilibrar:** Pacientes necesitan acceso y continuidad; profesionales, tiempo y medios; centros, responsabilidades claras; contribuyentes, gasto eficaz. La colaboración exige controlar calidad y casos complejos, no solo contar consultas baratas.
 
 **Argumento y alternativa:** Reorganizar agendas o incorporar capacidad puede reducir demoras; externalizar sin controlar selección de pacientes puede ocultar costes y trasladar casos complejos al sistema público. Comparar alternativas con igual prioridad clínica y complejidad, preservando cobertura y continuidad.
 
@@ -688,11 +744,15 @@ La cárcel ya existe para determinadas conductas; condena y cumplimiento efectiv
 
 ### 2.14. Burocracia y creación de empresas
 
-**Qué queremos mejorar:** Emprender y obtener ingresos adicionales con habilidades o recursos propios, sin trámites innecesarios ni promesas de dinero fácil.
+**Qué queremos mejorar:** Abrir un pequeño negocio o aprovechar habilidades y recursos propios sin trámites repetidos ni promesas de dinero fácil.
 
-**Qué proponemos:** Simplificar hasta poder operar y abrir oportunidades de economía colaborativa, servicios y pequeños negocios, con formación, clientes, controles proporcionados y protección frente a morosidad.
+**Qué proponemos:** Coordinar trámites hasta poder operar legalmente y facilitar economía colaborativa, servicios y pequeños negocios. Combinar formación y acceso a clientes con controles necesarios y protección frente a impagos.
 
-**Cómo sabremos si funciona:** Tiempo y coste hasta poder operar, gestión administrativa y continuidad empresarial.
+**Cómo sabremos si funciona:** Medir tiempo y coste hasta abrir de verdad, horas de gestión y continuidad del negocio. Registrar una empresa no significa que ya pueda trabajar.
+
+**Ejemplo cotidiano (hipotético):** Una persona quiere alquilar herramientas que no usa todos los días. Antes de ofrecerlas comprueba obligaciones fiscales, seguridad, seguro y demanda. Una guía coordinada evita pasos repetidos, pero no inventa una exención ni convierte cualquier actividad en segura.
+
+**Intereses que hay que equilibrar:** Quien emprende necesita reglas comprensibles; clientes, seguridad; negocios existentes, competencia justa; administración, cumplimiento. Simplificar es eliminar repetición, no permisos necesarios ni obligaciones laborales o fiscales.
 
 **Argumento y alternativa:** Un requisito repetido añade coste sin asegurar más protección; eliminar uno necesario puede crear daños. Comparar ventanilla coordinada y reutilización de datos con declaración responsable solo donde proceda. La apertura efectiva, no la constitución de la sociedad, es el resultado.
 
@@ -741,11 +801,15 @@ La cárcel ya existe para determinadas conductas; condena y cumplimiento efectiv
 
 ### 2.15. Autónomos: cotizaciones, ingresos variables y protección
 
-**Qué queremos mejorar:** Que trabajar por cuenta propia sea viable también con ingresos variables.
+**Qué queremos mejorar:** Poder trabajar por cuenta propia sin que un mes de pocos ingresos convierta las obligaciones en una carga imposible.
 
-**Qué proponemos:** Hacer las cotizaciones y obligaciones más proporcionadas a ingresos variables, preservando protección social y combatiendo morosidad.
+**Qué proponemos:** Evaluar pagos y obligaciones mejor adaptados a ingresos variables, facilitar gestiones y combatir impagos. Mantener la protección social y explicar cómo se financiaría cualquier cambio.
 
-**Cómo sabremos si funciona:** Carga respecto a ingresos netos, estabilidad de pagos y protección efectiva.
+**Cómo sabremos si funciona:** Comparar obligaciones con ingresos después de gastos, puntualidad del cobro y prestaciones. Facturar mucho no equivale a ganar mucho.
+
+**Ejemplo cotidiano (hipotético):** Una profesional factura más un mes y menos el siguiente, pero también paga materiales y espera facturas pendientes. Se estudia cómo ajustar pagos a sus ingresos reales y evitar quedarse sin protección. Una propuesta de ajuste no es una cuota nueva ya vigente.
+
+**Intereses que hay que equilibrar:** Autónomos necesitan liquidez y protección; clientes, servicios fiables; asalariados, reglas que eviten falsas relaciones por cuenta propia; sistema social, financiación suficiente. Flexibilidad no debe esconder empleo sin derechos.
 
 **Argumento y alternativa:** Ajustar pagos a ingresos variables puede aliviar liquidez, pero reducir cotización sin financiación puede debilitar prestaciones. Comparar ajustes, asistencia y apoyos temporales, usando rendimientos netos y no facturación. La simplificación no equivale a una exención ya aprobada.
 
@@ -789,11 +853,15 @@ La cárcel ya existe para determinadas conductas; condena y cumplimiento efectiv
 
 ### 2.16. Impuestos e IVA: carga, simplicidad y financiación
 
-**Qué queremos mejorar:** Comprender lo que pagamos y reducir cargas evitables sin ocultar su financiación.
+**Qué queremos mejorar:** Entender lo que pagamos en impuestos y reducir cargas evitables sin dejar servicios sin financiación.
 
-**Qué proponemos:** Evaluar menores cargas e IVA con efectos verificables, financiación explícita y reglas previsibles.
+**Qué proponemos:** Comparar cambios en impuestos e IVA, simplificar reglas y explicar quién gana, quién paga y cómo se cubre el coste.
 
-**Cómo sabremos si funciona:** Carga efectiva, renta disponible, cumplimiento, precios y saldo presupuestario.
+**Cómo sabremos si funciona:** Medir impuestos realmente pagados, dinero disponible, precios y cuentas públicas. No asumir que una rebaja se financia sola.
+
+**Ejemplo cotidiano (hipotético):** Se estudia bajar el IVA de un producto. Se comprueba cuánto baja el precio final y cuánto deja de ingresar el Estado. Si el comercio conserva la rebaja como margen, el consumidor no recibe todo el beneficio esperado.
+
+**Intereses que hay que equilibrar:** Hogares y empresas buscan menor carga; usuarios de servicios públicos, financiación estable. Hay que explicar efectos según ingresos y consumo, y comparar rebajas generales con apoyos más concretos.
 
 **Argumento y alternativa:** Reducir cargas puede mejorar renta disponible e incentivos, pero el efecto depende del diseño y de cómo se financie. Comparar cambios en IRPF, beneficios fiscales y ayudas focalizadas; una rebaja de IVA puede no trasladarse íntegramente al precio. No asumir autofinanciación por crecimiento.
 
@@ -840,11 +908,15 @@ La cárcel ya existe para determinadas conductas; condena y cumplimiento efectiv
 
 ### 2.17. Independencia energética: petróleo, gas y aviación
 
-**Qué queremos mejorar:** Depender menos del petróleo y del gas natural y disponer de energía fiable, asequible y de bajas emisiones.
+**Qué queremos mejorar:** Depender menos del petróleo y del gas sin perder energía fiable ni trasladar costes inasumibles a hogares y empresas.
 
-**Qué proponemos:** Reducir consumo de petróleo y gas natural mediante eficiencia, electrificación y alternativas fiables; desarrollar almacenamiento y aviación de bajas emisiones con viabilidad verificable.
+**Qué proponemos:** Ahorrar energía, mejorar edificios y sustituir combustibles donde sea viable. Desarrollar electricidad, almacenamiento y alternativas para aviación con costes, suministro y emisiones comprobables.
 
-**Cómo sabremos si funciona:** Importaciones y consumo de petróleo y gas por sector, emisiones de ciclo de vida, coste total y fiabilidad.
+**Cómo sabremos si funciona:** Medir combustible importado y consumido, emisiones desde fabricación hasta uso, coste completo y cortes de suministro.
+
+**Ejemplo cotidiano (hipotético):** Una comunidad de vecinos compara aislar el edificio, cambiar la calefacción o combinar ambas opciones. Cuenta inversión, mantenimiento y factura esperada antes de decidir. La mejor solución depende del edificio y de quién puede pagar el gasto inicial.
+
+**Intereses que hay que equilibrar:** Hogares necesitan facturas asumibles; empresas, suministro estable; trabajadores, adaptación; vecinos, impactos locales. Reducir emisiones y dependencia exige inversión y no garantiza quedar a salvo de todas las subidas de precios.
 
 **Argumento y alternativa:** Eficiencia y electrificación pueden reducir exposición a combustibles importados; requieren inversión, suministro y mantenimiento. Comparar aislamiento, equipos y gestión de demanda por coste de ciclo de vida. Cambiar petróleo por gas desplaza dependencia; no crea inmunidad a inflación o shocks.
 
@@ -889,11 +961,15 @@ La cárcel ya existe para determinadas conductas; condena y cumplimiento efectiv
 
 ### 2.18. Espacio: ciencia, industria y servicios útiles
 
-**Qué queremos mejorar:** Participar en el espacio con ciencia, industria y aplicaciones que ayuden aquí.
+**Qué queremos mejorar:** Que la investigación y la industria espacial sirvan también para resolver problemas en la Tierra.
 
-**Qué proponemos:** Participar en ciencia e industria espacial mediante cooperación, contratación competitiva y aplicaciones que mejoren la vida cotidiana.
+**Qué proponemos:** Cooperar en proyectos científicos y empresariales y usar datos espaciales donde mejoren servicios. Comparar soluciones existentes antes de financiar infraestructura propia.
 
-**Cómo sabremos si funciona:** Capacidades, contratos competitivos, empleo y servicios que utilizan datos espaciales.
+**Cómo sabremos si funciona:** Medir capacidades, contratos competidos y servicios realmente mejorados. Tener un proyecto espacial no demuestra utilidad por sí solo.
+
+**Ejemplo cotidiano (hipotético):** Un servicio compara imágenes de satélite y mediciones sobre el terreno para detectar zonas con falta de agua. Los datos ayudan a decidir dónde comprobar el problema; no sustituyen la verificación ni obligan a lanzar un satélite nuevo.
+
+**Intereses que hay que equilibrar:** Investigadores necesitan continuidad; empresas, competencia; usuarios, datos útiles; contribuyentes, costes justificados. Desarrollar capacidades propias no significa producir todo ni dejar de usar cooperación y datos abiertos.
 
 **Argumento y alternativa:** Datos satelitales pueden ampliar observación territorial, pero solo aportan valor si mejoran decisiones o servicios. Comparar datos abiertos existentes, contratación y medición terrestre antes de financiar infraestructura propia; no confundir soberanía tecnológica con producir todo.
 
@@ -935,11 +1011,15 @@ La cárcel ya existe para determinadas conductas; condena y cumplimiento efectiv
 
 ### 2.19. Medios de comunicación, pluralismo e independencia editorial
 
-**Qué queremos mejorar:** Disponer de información plural sin instrucciones partidistas ni financiación opaca.
+**Qué queremos mejorar:** Saber quién financia la información y poder acceder a versiones distintas sin instrucciones partidistas.
 
-**Qué proponemos:** Proteger autonomía editorial, pluralismo y transparencia de financiación sin control partidista ni censura.
+**Qué proponemos:** Publicar financiación y criterios de publicidad institucional, proteger independencia editorial y facilitar correcciones y reclamaciones. No imponer una versión oficial de la verdad.
 
-**Cómo sabremos si funciona:** Transparencia, independencia de procedimientos, correcciones y pluralismo.
+**Cómo sabremos si funciona:** Comprobar transparencia, reparto justificado de fondos, correcciones y acceso a voces distintas. Un medio transparente puede seguir teniendo una línea editorial.
+
+**Ejemplo cotidiano (hipotético):** Dos medios critican de forma diferente una decisión pública. La publicidad institucional se reparte con criterios publicados, no según cuál elogie al Gobierno. Si hay un dato incorrecto, existe una vía de corrección sin censurar la opinión.
+
+**Intereses que hay que equilibrar:** Audiencias necesitan información; periodistas, autonomía; medios, financiación viable; anunciantes, reglas claras. La crítica y la discrepancia deben protegerse sin justificar financiación oculta ni trato de favor.
 
 **Argumento y alternativa:** Publicar financiación y criterios permite detectar trato desigual, pero no convierte opiniones en neutrales. Proteger procedimientos y reclamaciones frente a imponer una versión oficial de la verdad; la pluralidad incluye críticas al Gobierno.
 
@@ -981,11 +1061,15 @@ La cárcel ya existe para determinadas conductas; condena y cumplimiento efectiv
 
 ### 2.20. Convivencia democrática, memoria y cohesión territorial
 
-**Qué queremos mejorar:** Cooperar como país sin exigir que todos pensemos o sintamos lo mismo.
+**Qué queremos mejorar:** Resolver problemas compartidos aunque tengamos ideas, identidades o recuerdos distintos.
 
-**Qué proponemos:** Unir a personas con ideas distintas mediante problemas compartidos, acuerdos concretos y reconocimiento de aportaciones, sin sustituir soluciones por reproches o el «y tú más». Preservar memoria rigurosa, diversidad y símbolos compartidos voluntariamente.
+**Qué proponemos:** Buscar acuerdos con tareas, responsables y fechas, reconocer aportaciones y evitar el «y tú más». Preservar memoria rigurosa, diversidad y participación voluntaria, sin silenciar críticas ni responsabilidades.
 
-**Cómo sabremos si funciona:** Confianza, proyectos compartidos, acuerdos y respeto a derechos e identidades.
+**Cómo sabremos si funciona:** Comprobar proyectos completados, acuerdos cumplidos y respeto a derechos. Una foto conjunta no demuestra más confianza ni menos división.
+
+**Ejemplo cotidiano (hipotético):** Dos municipios con gobiernos distintos coordinan un servicio compartido. Acuerdan presupuesto, tareas y revisión pública sin tener que coincidir en todo. Si algo falla, explican su responsabilidad actual en lugar de responder solo que el otro lo hizo antes.
+
+**Intereses que hay que equilibrar:** Personas y territorios necesitan reconocimiento y servicios; representantes, poder discrepar; afectados, verdad y reparación. Cooperar no exige olvidar daños, uniformar identidades ni dejar irregularidades sin investigar.
 
 **Argumento y alternativa:** Cooperar en problemas concretos puede crear vínculos sin exigir acuerdo ideológico; encuentros aislados no aseguran confianza duradera. Comparar proyectos con continuidad y recursos con actividades simbólicas, preservando memoria, derechos y participación voluntaria.
 
@@ -1054,11 +1138,15 @@ La cárcel ya existe para determinadas conductas; condena y cumplimiento efectiv
 
 ### 2.21. Jefatura del Estado: utilidad, transparencia y alternativas
 
-**Qué queremos mejorar:** Saber para qué sirve la jefatura del Estado y cómo rinde cuentas.
+**Qué queremos mejorar:** Entender qué hace la jefatura del Estado, cuánto cuesta y qué controles tiene.
 
-**Qué proponemos:** Evaluar utilidad, costes y controles de la monarquía y de alternativas concretas mediante debate informado y los cauces constitucionales.
+**Qué proponemos:** Comparar funciones, costes y controles de la monarquía y alternativas concretas. Debatir cambios con información pública y por los procedimientos constitucionales.
 
-**Cómo sabremos si funciona:** Transparencia, controles, costes comparables y calidad del debate de alternativas.
+**Cómo sabremos si funciona:** Comprobar información disponible y comparaciones completas. Una preferencia política no es una prueba de ahorro ni de mejor funcionamiento.
+
+**Ejemplo cotidiano (hipotético):** Una persona quiere valorar monarquía y república. Encuentra una comparación que incluye elección, funciones, presupuesto, controles y coste de transición de modelos concretos. Puede formarse una opinión sin que el documento le presente una opción como inevitable.
+
+**Intereses que hay que equilibrar:** Ciudadanía puede valorar continuidad, elección o distintos símbolos; instituciones necesitan reglas estables y rendición de cuentas. Mejorar transparencia y cambiar la forma de Estado son decisiones distintas, con trámites y consecuencias diferentes.
 
 **Argumento y alternativa:** Comparar funciones, costes y controles evita decidir únicamente por popularidad o rechazo a personas concretas. Separar reformas de transparencia y cambios de forma de Estado; una preferencia democrática no necesita presentarse como conclusión económica inevitable.
 
@@ -1101,11 +1189,15 @@ La cárcel ya existe para determinadas conductas; condena y cumplimiento efectiv
 
 ### 2.22. Democracia, igualdad del voto y conocimiento experto
 
-**Qué queremos mejorar:** Decidir mejor sin convertir títulos o profesión en privilegios políticos.
+**Qué queremos mejorar:** Tomar decisiones informadas sin que tener más estudios, dinero o una profesión dé más valor al voto.
 
-**Qué proponemos:** Debatir cómo aprovechar conocimiento experto y mejorar decisiones sin convertir estudios o profesión en privilegios electorales.
+**Qué proponemos:** Combinar información accesible, asesoría experta plural y participación ciudadana, manteniendo la igualdad política.
 
-**Cómo sabremos si funciona:** Comprensión, accesibilidad, asesoría transparente y calidad de deliberación.
+**Cómo sabremos si funciona:** Medir comprensión, posibilidad real de participar y transparencia del asesoramiento. Saber más de una materia no concede más poder electoral.
+
+**Ejemplo cotidiano (hipotético):** Antes de una consulta sobre transporte se explican costes y alternativas, intervienen especialistas y se escuchan necesidades de usuarios. Una persona sin título participa en igualdad; las recomendaciones técnicas se publican, pero no sustituyen la decisión democrática.
+
+**Intereses que hay que equilibrar:** Ciudadanía necesita igualdad y comprensión; especialistas, poder explicar límites; representantes, asumir la decisión. Evitar privilegios no significa ignorar evidencia, y escuchar expertos no significa entregarles el voto de otros.
 
 **Argumento y alternativa:** Información accesible y asesoría plural pueden mejorar comprensión sin convertir formación o riqueza en poder electoral adicional. Comparar deliberación con consultas ordinarias y publicar sus límites; conocimiento técnico y legitimidad democrática cumplen funciones distintas.
 
@@ -1177,11 +1269,15 @@ Los delitos graves, incluidos homicidio, crímenes de guerra o delitos contra in
 
 ### 2.23. Remuneración, incentivos y conflictos de interés en cargos públicos
 
-**Qué queremos mejorar:** Reconocer buen trabajo público sin convertir el poder en beneficio privado incompatible.
+**Qué queremos mejorar:** Atraer personas capaces al servicio público sin que el cargo permita favorecer negocios o intereses propios.
 
-**Qué proponemos:** Evaluar una reforma que permita mantener inversiones y determinadas actividades empresariales compatibles, en lugar de exigir exclusividad absoluta, junto con remuneración competitiva e incentivos públicos limitados por resultados verificables y control independiente.
+**Qué proponemos:** Evaluar una reforma que permita mantener inversiones y ciertas actividades empresariales compatibles, con controles independientes. Comparar sueldo e incentivos limitados por resultados; es una propuesta, no una autorización vigente.
 
-**Cómo sabremos si funciona:** Calidad atribuible, coste de remuneración, controles y pagos corregidos.
+**Cómo sabremos si funciona:** Medir calidad del trabajo, coste de pagos y conflictos detectados y corregidos. Pagar más o permitir una actividad no garantiza honestidad.
+
+**Ejemplo cotidiano (hipotético):** Una persona con participaciones en una empresa considera aceptar un cargo. Se estudia qué podría conservar legalmente y de qué decisiones tendría que apartarse. Tener acciones no equivale a dirigir el negocio; si el conflicto no puede resolverse, habría que elegir.
+
+**Intereses que hay que equilibrar:** El servicio público necesita talento; quien ocupa el cargo, reglas y remuneración claras; ciudadanía, decisiones imparciales. Cualquier compatibilidad o incentivo debe contar el coste de supervisión y evitar premios por resultados ajenos o cifras maquilladas.
 
 **Argumento y alternativa:** Remuneración adecuada puede ampliar candidaturas y una compatibilidad bien diseñada puede evitar exclusiones innecesarias; ninguna garantiza integridad. Comparar sueldo fijo, incentivos y actividades compatibles, descontando coste de control y riesgo de captura. La Ley 3/2015 describe el marco vigente, no demuestra eficacia de la reforma [F9].
 
@@ -1242,11 +1338,15 @@ Los delitos graves, incluidos homicidio, crímenes de guerra o delitos contra in
 
 ### 2.24. Iniciativa, esfuerzo y responsabilidad compartida
 
-**Qué queremos mejorar:** Pasar de una preocupación a una acción útil con hábitos y oportunidades reales.
+**Qué queremos mejorar:** Poder convertir una idea o preocupación en un primer paso útil, con apoyo y oportunidades reales.
 
-**Qué proponemos:** Facilitar hábitos de esfuerzo, cooperación y honestidad junto con oportunidades reales, sin estereotipos ni imposición ideológica.
+**Qué proponemos:** Ofrecer orientación, planificación y proyectos voluntarios para desarrollar capacidades y cooperar. Reconocer esfuerzo sin culpar a quien afronta falta de recursos, enfermedad o cuidados.
 
-**Cómo sabremos si funciona:** Competencias, proyectos completados, participación y bienestar.
+**Cómo sabremos si funciona:** Comprobar habilidades, proyectos terminados y bienestar, no solo asistencia o discursos sobre actitud.
+
+**Ejemplo cotidiano (hipotético):** Una persona quiere ofrecer reparaciones pero no sabe por dónde empezar. Con orientación comprueba requisitos y demanda y prueba una actividad viable antes de endeudarse. Si no puede dedicar tiempo por cuidados o salud, el apoyo se adapta, no se atribuye todo a falta de esfuerzo.
+
+**Intereses que hay que equilibrar:** Personas necesitan autonomía y apoyos; clientes y colaboradores, compromisos fiables. No todo el mundo debe emprender, ni una actividad voluntaria puede sustituir derechos, servicios o ingresos suficientes.
 
 **Argumento y alternativa:** Acompañar planificación y acceso a oportunidades puede facilitar acciones sostenidas; no hay una mentalidad nacional única que explique pobreza o desempleo. Comparar mentoría y proyectos prácticos con información sola, teniendo en cuenta salud, recursos y cuidados.
 
@@ -1296,11 +1396,15 @@ Los delitos graves, incluidos homicidio, crímenes de guerra o delitos contra in
 
 ### 2.25. Trabajo remoto, pueblos conectados y movilidad accesible
 
-**Qué queremos mejorar:** Tener oportunidades también en pueblos y ciudades pequeñas, y alternativas reales para desplazarse y trabajar.
+**Qué queremos mejorar:** Poder trabajar y desplazarse también fuera de las grandes ciudades, sin depender siempre de un coche propio.
 
-**Qué proponemos:** Conectar trabajo remoto, internet fiable y servicios con movilidad accesible y abierta a competencia: transporte público, taxis, VTC, cooperativas y soluciones compartidas, sin privilegiar una marca ni eliminar garantías.
+**Qué proponemos:** Mejorar internet, trabajo remoto y servicios, y comparar transporte público, taxi, VTC, cooperativas y viajes compartidos. Abrir opciones con autorización y garantías, sin favorecer una marca.
 
-**Cómo sabremos si funciona:** Calidad de internet, empleo y servicios, precio final y espera de los desplazamientos, ingresos netos de quienes trabajan y recarga disponible.
+**Cómo sabremos si funciona:** Medir conexión real, empleo, acceso a servicios, precio y espera de viajes e ingresos después de gastos de quienes los prestan.
+
+**Ejemplo cotidiano (hipotético):** Una persona de un pueblo necesita llegar a una cita cuando no hay autobús. Se comparan servicios autorizados y opciones compartidas según coste, horarios y accesibilidad. Compartir gastos no equivale a poder cobrar por transporte comercial sin autorización.
+
+**Intereses que hay que equilibrar:** Usuarios necesitan movilidad asequible; conductores, ingresos y protección; operadores, competencia justa; municipios, vivienda y servicios. Internet y más vehículos no garantizan repoblación ni sustituyen un transporte público necesario.
 
 **Argumento y alternativa:** Conectividad y movilidad pueden ampliar opciones laborales, pero sin empleo, vivienda y servicios no garantizan repoblación. Comparar fibra, móvil y satélite por calidad y coste real, y transporte compartido frente a compra individual de vehículo.
 
@@ -1360,11 +1464,15 @@ Los delitos graves, incluidos homicidio, crímenes de guerra o delitos contra in
 
 ### 2.26. Fabricación de vehículos eléctricos, robótica e IA
 
-**Qué queremos mejorar:** Desarrollar industria de vehículos eléctricos, robótica e IA que aporte oportunidades y productos competitivos.
+**Qué queremos mejorar:** Crear industria y empleo duradero en vehículos eléctricos, robots e inteligencia artificial, no solo grandes anuncios.
 
-**Qué proponemos:** Explorar fabricación de vehículos eléctricos con Tesla y otros fabricantes y desarrollar robótica e IA por fases, con costes y beneficios públicos verificables.
+**Qué proponemos:** Comparar proyectos con Tesla y otros fabricantes y desarrollar robótica e IA por etapas. Exigir demanda, costes y beneficios comprobables antes de comprometer ayudas.
 
-**Cómo sabremos si funciona:** Inversión, empleo, capacidades, coste público y precios o coste total de uso.
+**Cómo sabremos si funciona:** Medir inversión ejecutada, empleo mantenido, conocimiento adquirido y coste público. Una fábrica no asegura coches más baratos.
+
+**Ejemplo cotidiano (hipotético):** Una región estudia apoyar una planta de componentes. Compara empleo previsto, consumo de agua y energía, formación y coste de ayudas con otras opciones. Los desembolsos se vincularían a condiciones verificables, no al prestigio de la marca.
+
+**Intereses que hay que equilibrar:** Trabajadores necesitan empleos sostenibles; empresas, condiciones viables; vecinos, servicios y protección ambiental; contribuyentes, retorno justificable. La inversión debe poder sostenerse y explicar qué ocurre si no cumple lo acordado.
 
 **Argumento y alternativa:** Producción local y transferencia pueden crear capacidades, pero subvencionar una fábrica no asegura competitividad ni coches más baratos. Comparar proveedores, localizaciones y alternativas sin ayudas; apoyar fases con demanda acreditada y no una marca por prestigio.
 
@@ -1408,11 +1516,15 @@ Los delitos graves, incluidos homicidio, crímenes de guerra o delitos contra in
 
 ### 2.27. Pensiones suficientes y sostenibles entre generaciones
 
-**Qué queremos mejorar:** Poder planificar la jubilación con información fiable, protección suficiente y financiación que no oculte cargas a las generaciones siguientes.
+**Qué queremos mejorar:** Poder contar con una jubilación suficiente y entender cómo se sostiene hoy y para quienes se jubilen después.
 
-**Qué proponemos:** Evaluar el sistema público y sus fuentes de financiación con escenarios demográficos y económicos, mejorar información y gestión y comparar reformas y complementos voluntarios sin prometer solvencia automática ni retirada de derechos.
+**Qué proponemos:** Comparar ingresos, gastos y opciones del sistema público con distintos escenarios de empleo y envejecimiento. Mejorar información y gestión, respetando derechos y sin presentar el ahorro privado como sustituto automático.
 
-**Cómo sabremos si funciona:** Suficiencia de prestaciones, pobreza en mayores, ingresos y gastos, transferencias y deuda identificadas, previsiones revisadas y tiempos de reconocimiento.
+**Cómo sabremos si funciona:** Medir suficiencia de pensiones, pobreza, financiación y esperas de reconocimiento. Publicar transferencias y deuda, no ocultarlas en una previsión optimista.
+
+**Ejemplo cotidiano (hipotético):** Una persona próxima a jubilarse consulta sus derechos vigentes y otra que empieza a trabajar compara escenarios futuros. Se distingue lo reconocido hoy de estimaciones que pueden cambiar. Ninguna previsión promete una pensión concreta dentro de varias décadas.
+
+**Intereses que hay que equilibrar:** Pensionistas necesitan seguridad; trabajadores, aportaciones asumibles; generaciones futuras, financiación transparente. Reformar exige explicar cómo se reparte el esfuerzo y qué pasa con quienes no pueden ahorrar.
 
 **Argumento y alternativa:** Más empleo formal y salarios pueden ampliar recursos, pero el envejecimiento y la duración de las prestaciones también importan. Comparar mejoras de empleo, bases e ingresos, reglas de prestaciones y opciones de jubilación, con efectos distributivos. Un ahorro privado complementario no sustituye por sí solo la suficiencia del sistema público. La ley define derechos actuales, no demuestra equilibrio futuro [F11].
 
@@ -1453,11 +1565,15 @@ Los delitos graves, incluidos homicidio, crímenes de guerra o delitos contra in
 
 ### 2.28. Renta básica, inteligencia artificial y libertad de proyecto
 
-**Qué queremos mejorar:** Disponer de seguridad material y opciones de vida ante cambios tecnológicos, sin obligar a todo el mundo a emprender ni prometer que la IA financiará automáticamente el bienestar.
+**Qué queremos mejorar:** No quedarse sin seguridad material ante cambios de empleo o tecnología, y poder elegir un proyecto de vida.
 
-**Qué proponemos:** Comparar renta básica universal e incondicional, garantía focalizada de ingresos y apoyos de transición. Evaluar una base de protección compatible con trabajar, innovar y desarrollar talento, con financiación y efectos distributivos explícitos.
+**Qué proponemos:** Comparar una renta para toda la población, apoyos según necesidad y ayudas de transición. Explicar financiación, compatibilidad con trabajar y quién gana o pierde; no anunciar una prestación aprobada.
 
-**Cómo sabremos si funciona:** Pobreza y privación, renta disponible, bienestar, empleo, horas trabajadas, formación, creación de actividad y coste neto con financiación.
+**Cómo sabremos si funciona:** Medir pobreza, dinero disponible, bienestar, empleo y coste después de impuestos y cambios en ayudas. La IA no financia automáticamente una renta.
+
+**Ejemplo cotidiano (hipotético):** Una tarea se automatiza y una persona necesita tiempo para formarse o buscar empleo. Se comparan apoyos universales y según ingresos, incluyendo lo que pagaría en impuestos y las ayudas que cambiarían. No basta con mostrar una cantidad mensual sin explicar el conjunto.
+
+**Intereses que hay que equilibrar:** Personas necesitan seguridad y autonomía; empresas, adaptación; contribuyentes, financiación viable. Un diseño puede proteger más a unos y exigir más a otros: debe compararse sin prometer que todos ganan.
 
 **Argumento y alternativa:** Una renta incondicional puede reducir incertidumbre y barreras administrativas, pero pagar a toda la población exige recursos y puede tener efectos sobre empleo, precios e impuestos. Finlandia ensayó pagos a 2.000 personas desempleadas, no a toda la población: los efectos laborales fueron pequeños y se comunicó mayor bienestar percibido [F17]. Comparar diseños, no extrapolar ese resultado a una renta universal española.
 
@@ -1497,11 +1613,15 @@ Los delitos graves, incluidos homicidio, crímenes de guerra o delitos contra in
 
 ### 2.29. Resiliencia, seguridad económica y planes de contingencia
 
-**Qué queremos mejorar:** Que guerras, crisis energéticas, pandemias, desastres naturales, fallos tecnológicos o interrupciones comerciales no dejen sin servicios esenciales a la población ni obliguen a improvisar toda respuesta.
+**Qué queremos mejorar:** Mantener servicios esenciales ante guerras, desastres, pandemias o fallos de suministro, sin improvisar toda la respuesta.
 
-**Qué proponemos:** Preparar un plan A de funcionamiento ordinario, un plan B de continuidad y alternativas y un plan C de emergencia y recuperación, con responsables, recursos, umbrales de activación y simulacros. Cooperar con la UE y los instrumentos existentes, sin prometer aislamiento total o riesgo cero.
+**Qué proponemos:** Preparar funcionamiento normal, alternativas cuando algo falla y respuesta de emergencia. Asignar responsables y recursos, practicar y coordinarse con los instrumentos existentes, sin prometer riesgo cero.
 
-**Cómo sabremos si funciona:** Servicios esenciales que mantienen el mínimo acordado, tiempos de activación y recuperación, disponibilidad comprobada de alternativas y correcciones ejecutadas tras ejercicios o incidentes.
+**Cómo sabremos si funciona:** Comprobar servicios mantenidos, tiempo de respuesta, alternativas que funcionan y fallos corregidos. Tener un plan escrito no demuestra preparación.
+
+**Ejemplo cotidiano (hipotético):** Un servicio de agua simula una interrupción de suministro eléctrico. Comprueba quién activa la alternativa, cuánto tarda y qué atención mínima mantiene. Los fallos encontrados se corrigen; el ejercicio no garantiza superar cualquier emergencia real.
+
+**Intereses que hay que equilibrar:** Población necesita continuidad; operadores, medios y coordinación; contribuyentes, reservas proporcionadas. Prepararse cuesta aunque no haya crisis, pero acumular equipos o existencias sin mantenerlos también desperdicia recursos.
 
 **Argumento y alternativa:** Una redundancia puede costar más en periodos normales y evitar interrupciones graves; acumular reservas sin rotación desperdicia recursos. Comparar diversificación, contratos alternativos, existencias justificadas y gestión de demanda por coste completo y criticidad. La Estrategia de Preparación de la UE de marzo de 2025 propone anticipación, coordinación y orientación de autosuficiencia de al menos 72 horas [F28]. No certifica que cada hogar o servicio ya esté preparado.
 
@@ -1558,11 +1678,15 @@ Los delitos graves, incluidos homicidio, crímenes de guerra o delitos contra in
 
 ### 2.30. Constitución clara, accesible y con seguridad jurídica
 
-**Qué queremos mejorar:** Que la ciudadanía pueda entender sus derechos, las responsabilidades de las instituciones y los límites del poder sin necesitar conocimientos especializados. Estudiar qué dificultades vienen del lenguaje, de remisiones entre normas o de ambigüedades evitables, sin afirmar que toda interpretación diferente sea un error.
+**Qué queremos mejorar:** Entender derechos, responsabilidades y límites del poder sin necesitar conocimientos jurídicos especializados.
 
-**Qué proponemos:** Simplificar la explicación de la Constitución y evaluar reformas selectivas de su redacción y sistemática para hacerla más clara y coherente, sin recortar derechos ni controles. Separar una guía ciudadana sin valor normativo de cualquier propuesta de modificación del texto constitucional, que requerirá su procedimiento y mayorías.
+**Qué proponemos:** Crear una guía clara, sin valor normativo, y estudiar cambios concretos de redacción cuando estén justificados. Cambiar la Constitución exige su procedimiento y mayorías, sin recortar derechos ni controles.
 
-**Cómo sabremos si funciona:** Mejor comprensión de derechos, competencias y procedimientos en pruebas publicadas; fichas revisadas que conserven el alcance jurídico; y propuestas de reforma con cambios, consecuencias, discrepancias y cauce constitucional explícitos. Menos palabras o menos litigios no demuestran por sí solos mejor protección o claridad.
+**Cómo sabremos si funciona:** Probar si se entienden mejor derechos y procedimientos y revisar que las explicaciones no cambien su alcance. Un texto más corto no garantiza más claridad.
+
+**Ejemplo cotidiano (hipotético):** Una persona quiere entender qué significa un derecho constitucional y qué puede hacer para ejercerlo. Consulta una ficha con explicación, límites, normas relacionadas y fuentes oficiales. La ficha orienta, pero no crea una garantía nueva ni sustituye el texto o asesoramiento jurídico.
+
+**Intereses que hay que equilibrar:** Ciudadanía necesita claridad; profesionales e instituciones, precisión; minorías y personas afectadas, garantías. Simplificar no puede borrar excepciones ni presentar una interpretación discutida como la única posible.
 
 **Argumento y alternativa:** Un lenguaje más claro puede facilitar el ejercicio de derechos y reducir confusiones, pero una frase breve puede ocultar excepciones necesarias. Comparar mantener el texto y explicarlo mejor, mejorar las leyes de desarrollo y reformar artículos concretos. Los principios constitucionales requieren interpretación al aplicarse a casos nuevos; no se promete eliminarla ni imponer una lectura política única.
 
@@ -1613,11 +1737,15 @@ Los delitos graves, incluidos homicidio, crímenes de guerra o delitos contra in
 
 ### 2.31. Justicia accesible y ágil, defensa efectiva e integridad
 
-**Qué queremos mejorar:** Que acceder a la justicia no dependa de poder soportar años de incertidumbre, trámites incomprensibles o costes de defensa inasumibles. Investigar las causas de las demoras sin identificar automáticamente lentitud con corrupción.
+**Qué queremos mejorar:** Acceder a la justicia sin esperas evitables, trámites incomprensibles o defensa inasumible, sin identificar automáticamente lentitud con corrupción.
 
-**Qué proponemos:** Reforzar capacidad y organización, simplificar trámites repetidos y facilitar seguimiento comprensible de expedientes y acceso efectivo a la defensa. Conectar con los controles de integridad del eje 1, preservando independencia judicial, derechos de víctimas y defensa y revisión de decisiones.
+**Qué proponemos:** Mejorar equipos y organización, evitar gestiones repetidas y explicar el estado de los expedientes a quienes tienen autorización. Reforzar defensa y controles de integridad sin interferir en decisiones judiciales.
 
-**Cómo sabremos si funciona:** Menos espera en actuaciones de gestión comparables, menos notificaciones fallidas y trámites repetidos, información entendida por las partes y asistencia jurídica accesible. Medir calidad, recursos y errores; resolver más asuntos no basta si se pierde defensa o se desplaza el atasco a ejecución.
+**Cómo sabremos si funciona:** Medir esperas en gestiones comparables, notificaciones, errores y acceso a defensa. Ir más rápido no sirve si se pierden garantías o el atasco pasa a otra fase.
+
+**Ejemplo cotidiano (hipotético):** Una persona reclama una factura impagada y la otra discute el importe. Ambas pueden conocer el estado autorizado del expediente y recibir notificaciones comprensibles, manteniendo tiempo para defenderse. Mejorar esas gestiones no promete una sentencia en un plazo fijo ni adelanta quién tiene razón.
+
+**Intereses que hay que equilibrar:** Quien reclama necesita respuesta; la otra parte, defensa efectiva; víctimas, protección; profesionales, medios; ciudadanía, independencia judicial. Reducir esperas no justifica recortar recursos ni forzar acuerdos, y una demora no prueba corrupción.
 
 **Argumento y alternativa:** Más personal sin diagnóstico puede desplazar un cuello de botella; digitalizar un trámite innecesario no lo elimina. Comparar refuerzo de equipos, organización, interoperabilidad y simplificación legal con mediación u otras vías solo cuando sean procedentes y seguras. No presionar a nadie para renunciar a juicio o aceptar un acuerdo ni prometer una duración universal.
 

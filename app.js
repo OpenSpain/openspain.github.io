@@ -163,7 +163,6 @@ function openMeasure(axis, trigger) {
   const heading = element('h2', '', axis.title);
   heading.id = 'measure-title';
   content.replaceChildren(heading);
-  content.append(createPolicyEvidence(axis.id));
   const summary = element('div', 'citizen-summary');
   appendMarkdown(summary, axis.citizenSummary);
   const details = element('details', 'technical-details');
@@ -171,7 +170,7 @@ function openMeasure(axis, trigger) {
   const technical = element('div', 'technical-content');
   appendMarkdown(technical, axis.technicalBody);
   details.append(technical);
-  content.append(summary, details);
+  content.append(summary, createPolicyEvidence(axis.id), details);
   openDialog($('#measure-dialog'), trigger);
 }
 

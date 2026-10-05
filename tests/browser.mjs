@@ -2,7 +2,7 @@ import { chromium } from '@playwright/test';
 import assert from 'node:assert/strict';
 import { mkdir } from 'node:fs/promises';
 import { join } from 'node:path';
-import { axisMetadata } from '../program.js';
+import { axisMetadata, parseProgram } from '../program.js';
 import { observedCharts } from '../charts.js';
 
 const baseURL = process.env.BASE_URL || 'http://127.0.0.1:4173';
@@ -32,6 +32,26 @@ try {
   assert.match(await page.locator('#participa').textContent(), /no es una afiliación, una firma electoral ni un compromiso de avalar/);
   assert.equal(await page.locator('iframe').count(), 0);
   assert.equal(await page.locator('.program-card').count(), axisMetadata.length);
+  const sourceResponse = await page.request.get(`${baseURL}/PROGRAMA.md`);
+  assert.equal(sourceResponse.status(), 200);
+  const sourceAxes = parseProgram(await sourceResponse.text());
+  for (const axis of sourceAxes) {
+    await page.locator(`#eje-${axis.id}`).getByRole('button').click();
+    const summary = page.locator('#measure-content .citizen-summary');
+    for (const label of ['Ejemplo cotidiano (hipotético):', 'Intereses que hay que equilibrar:']) {
+      const paragraph = axis.citizenSummary.split('\n\n').find(text => text.startsWith(`**${label}**`));
+      assert.equal(await summary.locator('p').filter({ has: page.locator('strong', { hasText: label }) }).textContent(),
+        paragraph.replaceAll('**', ''), `Eje ${axis.id}: ${label}`);
+    }
+    assert.equal(await page.locator('#measure-content').evaluate(content => {
+      const summary = content.querySelector('.citizen-summary');
+      const evidence = content.querySelector('.policy-evidence');
+      const technical = content.querySelector('.technical-details');
+      return Boolean(summary.compareDocumentPosition(evidence) & Node.DOCUMENT_POSITION_FOLLOWING)
+        && Boolean(evidence.compareDocumentPosition(technical) & Node.DOCUMENT_POSITION_FOLLOWING);
+    }), true, `Eje ${axis.id}: explicación antes de gráficos y ficha técnica`);
+    await page.keyboard.press('Escape');
+  }
   assert.equal(await page.locator('.coverage-row').count(), 4);
   for (const headline of await page.locator('.program-card h3').allTextContents()) {
     assert.ok(headline.endsWith('.'), headline);
@@ -161,6 +181,22 @@ try {
   assert.match(await reportPage.locator('#report-body').textContent(), /Donaciones y transparencia/);
   assert.equal(await reportPage.locator('#report-body strong').filter({ hasText: 'Qué haremos en el primer año:' }).count(), axisMetadata.length);
   assert.equal(await reportPage.locator('#report-body strong').filter({ hasText: 'Qué queremos conseguir en cuatro años:' }).count(), axisMetadata.length);
+  for (const label of ['Ejemplo cotidiano (hipotético):', 'Intereses que hay que equilibrar:']) {
+    assert.equal(await reportPage.locator('#report-body strong').filter({ hasText: label }).count(), axisMetadata.length);
+  }
+  for (const axis of sourceAxes) {
+    const evidence = reportPage.locator(`[data-axis-evidence="${axis.id}"]`);
+    assert.equal(await evidence.evaluate(node => {
+      let previous = node.previousElementSibling;
+      while (previous && !previous.classList.contains('axis-heading')) {
+        if (previous.textContent.startsWith('Ejemplo cotidiano (hipotético):')) {
+          return node.nextElementSibling?.classList.contains('technical-heading');
+        }
+        previous = previous.previousElementSibling;
+      }
+      return false;
+    }), true, `Eje ${axis.id}: ejemplo antes de gráficos y ficha técnica en el informe`);
+  }
   assert.doesNotMatch(await reportPage.locator('body').textContent(), /\bSMART\b/i);
   assert.match(await reportPage.locator('#report-body').textContent(), /Un seguimiento que no confunda actividad con resultados/);
   assert.match(await reportPage.locator('#report-body').textContent(), /Ruta de movilidad abierta/);
@@ -204,6 +240,19 @@ try {
   assert.ok(reportSizes.body >= 14.6, 'Report body must be at least 11pt');
   assert.ok(reportSizes.contents >= 14.6, 'Contents entries must be at least 11pt');
   assert.ok(reportSizes.table >= 13.3, 'Report summary tables must be at least 10pt');
+  for (const [selector, property, expected] of [
+    ['.contents-page', 'breakAfter', 'auto'],
+    ['.report-summary', 'breakBefore', 'auto'],
+    ['.sources-page', 'breakBefore', 'auto'],
+    ['.citizen-summary-line', 'breakInside', 'auto'],
+    ['.report-body-content li', 'breakInside', 'auto'],
+    ['.evidence-figure', 'breakInside', 'avoid'],
+    ['.report-body-content h3', 'breakAfter', 'avoid'],
+    ['.report-body-content tr', 'breakInside', 'avoid'],
+  ]) {
+    assert.equal(await reportPage.locator(selector).first().evaluate((node, property) => getComputedStyle(node)[property], property),
+      expected, `${selector} ${property}`);
+  }
   for (const selector of ['.citizen-summary-line', '.report-body-content li', '.report-note p', '.sources-page > p:not(.kicker)']) {
     const typography = await reportPage.locator(selector).first().evaluate(node => ({
       alignment: getComputedStyle(node).textAlign,

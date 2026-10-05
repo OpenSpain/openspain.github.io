@@ -30,6 +30,7 @@ function renderMarkdown(markdown) {
   let list;
   let table;
   let tableBody;
+  let activeAxisId;
   const lines = markdown.replaceAll('\r\n', '\n').split('\n');
   for (const line of lines) {
     if (!line.trim()) {
@@ -39,6 +40,7 @@ function renderMarkdown(markdown) {
     }
     if (line.startsWith('# ')) continue;
     if (line.startsWith('## ')) {
+      activeAxisId = undefined;
       section = node('section', undefined, line.startsWith('## 7. ') ? 'report-section report-summary' : 'report-section');
       section.append(node('h2', line.slice(3)));
       content = node('div', undefined, 'report-body-content');
@@ -55,6 +57,9 @@ function renderMarkdown(markdown) {
       container.append(section);
     }
     if (line.startsWith('#### ')) {
+      if (line === '#### Ficha técnica' && activeAxisId !== undefined) {
+        content.append(createPolicyEvidence(activeAxisId));
+      }
       content.append(node('h4', line.slice(5), 'technical-heading'));
       list = undefined;
       continue;
@@ -63,6 +68,7 @@ function renderMarkdown(markdown) {
       const title = line.slice(4);
       const heading = node('h3', undefined);
       const match = title.match(/^2\.(\d+)\. (.+)/);
+      activeAxisId = match ? Number(match[1]) : undefined;
       if (match) {
         heading.className = 'axis-heading';
         heading.id = `eje-${match[1]}`;
@@ -73,7 +79,6 @@ function renderMarkdown(markdown) {
         heading.textContent = title;
       }
       content.append(heading);
-      if (match) content.append(createPolicyEvidence(Number(match[1])));
       list = undefined;
       continue;
     }

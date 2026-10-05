@@ -43,6 +43,37 @@ test('search is accent insensitive and includes all proposal text', () => {
   assert.equal(filterAxes(axes, 'all', 'zzzzzzz').length, 0);
 });
 
+test('all 31 axes provide concise explanations, hypothetical examples and balanced interests', () => {
+  for (const axis of axes) {
+    const labels = [
+      '**Qué queremos mejorar:**',
+      '**Qué proponemos:**',
+      '**Cómo sabremos si funciona:**',
+      '**Ejemplo cotidiano (hipotético):**',
+      '**Intereses que hay que equilibrar:**',
+      '**Argumento y alternativa:**',
+    ];
+    const paragraphs = axis.citizenSummary.split('\n\n');
+    assert.deepEqual(paragraphs.slice(0, labels.length).map(paragraph => paragraph.match(/^\*\*[^*]+:\*\*/)?.[0]),
+      labels, `Eje ${axis.id}: orden de lectura`);
+    for (const label of labels) {
+      assert.equal(axis.citizenSummary.split(label).length - 1, 1, `Eje ${axis.id}: ${label}`);
+    }
+    const wordCount = paragraph => paragraph.replace(/^\*\*[^*]+:\*\*\s*/, '').trim().split(/\s+/).length;
+    assert.ok(paragraphs.slice(0, 3).reduce((total, paragraph) => total + wordCount(paragraph), 0) <= 100,
+      `Eje ${axis.id}: explicación inicial demasiado larga`);
+    for (const paragraph of paragraphs.slice(3, 5)) {
+      assert.ok(wordCount(paragraph) >= 20 && wordCount(paragraph) <= 80,
+        `Eje ${axis.id}: ejemplo o equilibrio sin explicación suficiente o demasiado largo`);
+    }
+  }
+  const guide = getChapter(markdown, 2).split(/^### /m)[0];
+  assert.match(guide, /situaciones hipotéticas/);
+  assert.match(guide, /no son casos documentados, resultados obtenidos ni derechos nuevos/);
+  assert.match(guide, /beneficios posibles, costes y límites/);
+  assert.match(guide, /«línea base»/);
+});
+
 test('private activity reform remains distinct from existing law and public performance incentives', () => {
   const axis = axes.find(axis => axis.id === 23);
   assert.match(axis.citizenSummary, /reforma que permita mantener inversiones/);
