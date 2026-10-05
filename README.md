@@ -1,6 +1,6 @@
 # OpenSpain
 
-Web informativa de un programa ciudadano independiente. HTML, CSS y JavaScript nativos, sin servicios externos, fuentes remotas, analítica ni base de datos.
+Web informativa de un programa ciudadano independiente. HTML, CSS y JavaScript nativos, sin fuentes remotas, analítica ni base de datos propia. El registro de simpatizantes enlaza a un formulario externo de Typeform, que solo se abre cuando el visitante sigue el enlace.
 
 Identidad editorial azul noche, azul eléctrico, marfil y acentos dorados, compartida por la web y el PDF. Los textos de lectura y las tarjetas priorizan legibilidad también en móvil; el gráfico se desplaza horizontalmente en pantallas pequeñas para conservar etiquetas legibles.
 
@@ -18,15 +18,19 @@ No es necesario instalar dependencias para ejecutar la web. También puede publi
 
 ## Publicar en GitHub Pages
 
-Repositorio: <https://github.com/OpenSpain/openspain-website>.
+Repositorio: <https://github.com/OpenSpain/openspain.github.io>.
 
-Web pública: <https://openspain.github.io/openspain-website/>.
+Web pública: <https://openspain.github.io/>.
 
 En **Settings → Pages → Build and deployment**, selecciona **GitHub Actions** como origen. El workflow `.github/workflows/pages.yml` comprueba el programa y publica automáticamente cada cambio en `main`; también puede ejecutarse manualmente desde **Actions → Deploy GitHub Pages → Run workflow**.
 
 El despliegue copia únicamente los archivos públicos a un artefacto de Pages. El repositorio conserva las fuentes y las pruebas, pero la web no sirve dependencias, pruebas ni herramientas de desarrollo.
 
 GitHub Pages sirve los archivos; no ejecuta `npm start` ni genera el PDF. Regenera y sube el PDF cuando cambie el programa. La disponibilidad de Pages en repositorios privados depende del plan de GitHub.
+
+## Logo para formularios
+
+`openspain-logo.png` es el logo horizontal con fondo transparente (2400 × 560 píxeles), listo para subir a Typeform. `openspain-logo.svg` conserva la versión vectorial editable; el texto usa la familia tipográfica del sitio y puede variar si no está instalada. La web publicada sirve ambos archivos desde su raíz.
 
 ## Contenido y datos
 
@@ -49,7 +53,8 @@ GitHub Pages sirve los archivos; no ejecuta `npm start` ni genera el PDF. Regene
 - Revisión de indicadores: 3 de octubre de 2026. La EPA del segundo trimestre de 2026 y el IPC adelantado de septiembre de 2026 proceden de notas oficiales del INE enlazadas en la web. El adelanto se identifica como estimación, no dato definitivo ni consulta en tiempo real.
 - La serie del IPC general de 2025 y enero–agosto de 2026 procede de la [nota del INE de agosto de 2026](https://www.ine.es/dyngs/Prensa/IPC0826.htm). Se conserva una escala común de 0 a 7 % al alternar años. No se mezclan adelantos, IPCA ni meses todavía no disponibles con la serie definitiva.
 - El gráfico de propuestas cuenta medidas; no representa financiación, apoyos ciudadanos ni impactos estimados.
-- El formulario genera una descarga local. No envía, almacena ni publica aportaciones y no afirma que exista una comunidad de miembros.
+- El formulario de propuestas genera una descarga local. No envía, almacena ni publica aportaciones y no afirma que exista una comunidad de miembros.
+- Los botones «Hazte simpatizante» del inicio y de «Participa» abren <https://g8rpxrjtmaa.typeform.com/to/thCRjB7o> en otra pestaña, sin enviar la URL de origen ni incrustar scripts o formularios externos. La inscripción no constituye afiliación ni aval electoral. La configuración de campos, consentimientos, responsable, conservación y privacidad se gestiona en Typeform; el sitio no almacena respuestas ni certifica el cumplimiento legal del formulario.
 - Las propuestas de IA para contratación son orientaciones del programa. Esta web no estima contratos ni incorpora un sistema de IA operativo.
 - Donaciones: sección preparada, sin pagos activos ni receptor publicado. El registro está vacío; no es un servicio de pago ni un sistema contable. Antes de habilitar cobros deben definirse responsable, encaje jurídico y fiscal, condiciones y controles. El capítulo 6 de `PROGRAMA.md` recoge transparencia de ingresos y gastos, y publicación de nombres con consentimiento salvo obligación legal. No publiques datos bancarios o personales privados.
 

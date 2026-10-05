@@ -13,9 +13,24 @@ const errors = [];
 try {
   const page = await browser.newPage({ viewport: { width: 1440, height: 1000 } });
   page.on('pageerror', error => errors.push(error.message));
+  const typeformRequests = [];
+  page.on('request', request => {
+    if (new URL(request.url()).hostname.endsWith('.typeform.com')) typeformRequests.push(request.url());
+  });
   const response = await page.goto(baseURL);
   assert.equal(response.status(), 200);
   await page.waitForSelector('.program-card');
+  const signupURL = 'https://g8rpxrjtmaa.typeform.com/to/thCRjB7o';
+  const signupLinks = page.getByRole('link', { name: /Hazte simpatizante/ });
+  assert.equal(await signupLinks.count(), 2);
+  for (const link of await signupLinks.all()) {
+    assert.equal(await link.getAttribute('href'), signupURL);
+    assert.equal(await link.getAttribute('target'), '_blank');
+    assert.equal(await link.getAttribute('rel'), 'noopener noreferrer');
+  }
+  assert.match(await page.locator('.signup-note').textContent(), /no es una afiliación ni un aval electoral/);
+  assert.match(await page.locator('#participa').textContent(), /no es una afiliación, una firma electoral ni un compromiso de avalar/);
+  assert.equal(await page.locator('iframe').count(), 0);
   assert.equal(await page.locator('.program-card').count(), axisMetadata.length);
   assert.equal(await page.locator('.coverage-row').count(), 4);
   await page.locator('#program-guide > summary').click();
@@ -106,6 +121,7 @@ try {
   await page.screenshot({ path: join(screenshotDir, 'openspain-desktop.png'), fullPage: true });
   for (const width of [320, 390, 768, 1440]) {
     await page.setViewportSize({ width, height: 900 });
+    assert.equal(await page.locator('.hero').getByRole('link', { name: /Hazte simpatizante/ }).isVisible(), true);
     assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth), `Horizontal overflow at ${width}px`);
     assert.ok(await page.locator('.card-description').first().evaluate(node => Number.parseFloat(getComputedStyle(node).fontSize) >= 15));
     await page.evaluate(() => window.scrollTo(0, 1200));
@@ -180,6 +196,7 @@ try {
   await failurePage.waitForSelector('.program-card');
   assert.equal(await failurePage.locator('.program-card').count(), axisMetadata.length);
   assert.deepEqual(errors, []);
+  assert.deepEqual(typeformRequests, [], 'Typeform must not load before the visitor follows a signup link');
   console.log(`Browser checks passed: ${axisMetadata.length} axes, filters, search, charts, dialogs, download, retry and responsive layouts.`);
 } finally {
   await browser.close();

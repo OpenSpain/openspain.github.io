@@ -11,6 +11,8 @@ const files = new Map([
   ['/PROGRAMA.md', ['PROGRAMA.md', 'text/plain; charset=utf-8']],
   ['/favicon.svg', ['favicon.svg', 'image/svg+xml']],
   ['/bandera.svg', ['bandera.svg', 'image/svg+xml']],
+  ['/openspain-logo.svg', ['openspain-logo.svg', 'image/svg+xml']],
+  ['/openspain-logo.png', ['openspain-logo.png', 'image/png']],
   ['/informe.html', ['informe.html', 'text/html; charset=utf-8']],
   ['/informe.css', ['informe.css', 'text/css; charset=utf-8']],
   ['/informe.js', ['informe.js', 'text/javascript; charset=utf-8']],

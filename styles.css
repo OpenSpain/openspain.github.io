@@ -47,6 +47,7 @@ h1 > span, h2 > span { font-family: var(--serif); font-weight: 400; font-style: 
 .hero h1 > span { color: var(--blue); }
 .hero-description { font-size: 17px; line-height: 1.8; max-width: 465px; color: var(--muted); }
 .hero-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 25px; margin-top: 30px; }
+.signup-note { font-size: 12px; line-height: 1.6; color: var(--muted); margin: 12px 0 0; }
 .button { display: inline-flex; justify-content: space-between; align-items: center; gap: 24px; padding: 17px 22px; border: 0; border-radius: 5px; font-size: 14px; font-weight: 600; transition: transform .2s, background .2s; }
 .button:hover { transform: translateY(-2px); }
 .button-dark { background: var(--blue); color: #fff; box-shadow: 0 5px 15px #2459df18; }

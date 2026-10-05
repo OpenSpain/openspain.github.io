@@ -27,7 +27,7 @@ jobs:
         run: |
           mkdir _site
           cp .nojekyll index.html styles.css app.js program.js charts.js \
-            favicon.svg bandera.svg PROGRAMA.md \
+            favicon.svg bandera.svg openspain-logo.svg openspain-logo.png PROGRAMA.md \
             informe.html informe.css informe.js \
             OpenSpain-Programa.pdf OpenSpain-Presentacion.pdf _site/
       - uses: actions/upload-pages-artifact@v3
