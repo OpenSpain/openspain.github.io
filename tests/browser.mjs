@@ -43,6 +43,14 @@ try {
     assert.deepEqual(await summary.locator('p').allTextContents(), paragraphs, `Eje ${axis.id}: texto continuo íntegro`);
     assert.equal(await summary.locator('h4').textContent(), 'Plan de actuación');
     assert.doesNotMatch(await summary.textContent(), /Ejemplo cotidiano \(hipotético\):|Intereses que hay que equilibrar:|Qué haremos en el primer año:/);
+    if ([1, 4, 6, 9, 13, 16, 17, 22, 23, 30, 31].includes(axis.id)) {
+      await page.locator('#measure-dialog .technical-details > summary').click();
+      const measures = await page.locator('#measure-content .technical-content li').allTextContents();
+      for (const measure of axis.measures) {
+        assert.ok(measures.includes(inlineParts(measure).map(part => part.text).join('')),
+          `Eje ${axis.id}: propuesta íntegra en la ficha técnica`);
+      }
+    }
     assert.equal(await page.locator('#measure-content').evaluate(content => {
       const summary = content.querySelector('.citizen-summary');
       const evidence = content.querySelector('.policy-evidence');

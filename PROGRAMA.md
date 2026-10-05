@@ -31,7 +31,7 @@ Los problemas siguientes son hipótesis de trabajo y preocupaciones ciudadanas. 
 
 ### 2.1. Corrupción, partidos y confianza institucional
 
-Queremos saber en qué se gasta el dinero público y poder exigir explicaciones cuando algo no encaja. Para ello, proponemos publicar quién financia a los partidos, quién decide sobre fondos públicos y qué intereses personales pueden influir. La propuesta incluye también reforzar controles independientes y proteger a quienes denuncian irregularidades.
+Queremos saber en qué se gasta el dinero público y poder exigir explicaciones cuando algo no encaja. Para ello, proponemos publicar quién financia a los partidos y sindicatos, quién decide sobre fondos públicos y qué intereses personales pueden influir. La propuesta incluye también reforzar controles independientes y proteger a quienes denuncian irregularidades.
 
 En un caso hipotético, una asociación recibe una subvención para actividades del barrio. Cualquier persona puede consultar cuánto recibió, para qué y cómo justificó el gasto. Si falta información, se pide una explicación y se revisa; no se acusa de delito solo por una duda.
 
@@ -58,6 +58,9 @@ La ejecución correspondería a unidades de transparencia y órganos de control;
 **Propuestas:**
 
 - Publicar financiación, donaciones, subvenciones y gastos de partidos y entidades vinculadas en formatos reutilizables, con los límites de protección de datos que correspondan.
+- Publicar la financiación de sindicatos y organizaciones empresariales, distinguiendo cuotas, servicios, patrimonio, subvenciones y contratos públicos. Contrastar sus cuentas auditadas con presupuestos, resoluciones y la Base de Datos Nacional de Subvenciones, sin depender únicamente de datos de los propios beneficiarios ni revelar identidades de afiliados [F38].
+- Evaluar finalidad, resultados e independencia de las subvenciones sindicales y comparar mantenerlas con condiciones, reducirlas o sustituirlas por recursos propios. Estimar efectos sobre representación y servicios antes de cambiar el modelo; recibir financiación pública no demuestra por sí solo obediencia política ni corrupción.
+- Exigir criterios públicos de acceso a ayudas y canales independientes de reclamación frente a concesiones partidistas, coacciones o compra de votos. Investigar indicios con garantías, sin presumir cómo votan las personas beneficiarias ni condicionar sus derechos políticos a recibir una ayuda.
 - Reforzar la independencia, los recursos y la capacidad de seguimiento de los órganos de fiscalización.
 - Establecer criterios públicos de mérito y procedimientos transparentes para puestos técnicos y directivos.
 - Proteger a quienes denuncien irregularidades y facilitar canales seguros con seguimiento.
@@ -66,11 +69,11 @@ La ejecución correspondería a unidades de transparencia y órganos de control;
 
 **Competencias:** Estado y demás administraciones dentro de sus atribuciones; órganos de control y justicia con independencia.
 
-**Indicadores:** cumplimiento de obligaciones de transparencia, tiempo de fiscalización, recomendaciones ejecutadas y recuperación de fondos tras resolución firme. El número de denuncias, por sí solo, no mide la corrupción.
+**Indicadores:** cumplimiento de obligaciones de transparencia, tiempo de fiscalización, recomendaciones ejecutadas y recuperación de fondos tras resolución firme. Para ayudas: financiación pública y propia por entidad, cuentas contrastadas, finalidad y resultados verificados y reclamaciones resueltas con garantías. El número de denuncias, por sí solo, no mide la corrupción ni demuestra cómo votan sus beneficiarios.
 
 **Evidencia y diagnóstico pendiente:** Auditorías, financiación política, resoluciones y cumplimiento de transparencia. Contrastar alcance, actualidad y limitaciones antes de aprobar medidas.
 
-**Coste y financiación:** Pendientes de estimación. Incluir fiscalización, canales de denuncia y sistemas de publicación. No hay presupuesto ni financiación aprobados en este borrador.
+**Coste y financiación:** Pendientes de estimación. Incluir fiscalización, canales de denuncia, sistemas de publicación y revisión de ayudas y financiación sindical. No hay presupuesto ni financiación aprobados en este borrador.
 
 **Riesgos y garantías:** Evitar acusaciones sin prueba, proteger denunciantes y preservar independencia judicial.
 
@@ -196,7 +199,7 @@ Queremos que el sueldo permita vivir y que el trabajo ofrezca estabilidad y posi
 
 En un caso hipotético, un taller incorpora una herramienta que evita repetir tareas. Se comprueba si mejora la producción y si el equipo recibe formación, mejores condiciones o salario. Comprar una máquina no demuestra por sí solo que las personas trabajadoras vivan mejor.
 
-Trabajadores necesitan ingresos y descanso; empresas, poder sostener empleo e inversión; clientes, calidad y precios. Hay que comprobar quién recibe la mejora y evitar financiar empleos que desaparezcan al terminar la ayuda.
+Trabajadores necesitan ingresos y descanso; empresas, poder sostener empleo e inversión; clientes, calidad y precios. Hay que comprobar quién recibe la mejora y evitar financiar empleos que desaparezcan al terminar la ayuda. La representación laboral necesita tiempo y controles, no privilegios sin justificación ni su eliminación indiscriminada.
 
 Para saber si funciona, proponemos medir lo que el sueldo permite comprar, el dinero disponible, la estabilidad y el valor producido por hora. Crear puestos no basta si son precarios.
 
@@ -220,17 +223,19 @@ La ejecución correspondería a servicios de empleo, empresas y agentes sociales
 
 - Favorecer inversión productiva, formación y adopción tecnológica, especialmente en pequeñas empresas.
 - Reforzar el cumplimiento de la normativa laboral y la negociación colectiva.
+- Revisar el uso y coste del crédito horario y las liberaciones sindicales según ley y convenio, con controles proporcionados y datos agregados. Preservar tiempo suficiente para representación, negociación y defensa de trabajadores, sin vigilancia de afiliación, represalias ni supresión general de la figura [F38].
+- Evaluar atención a trabajadores, acuerdos, conflictos resueltos y cumplimiento de obligaciones de representación, no solo horas o número de reuniones. La falta de utilidad debe acreditarse en cada caso; medir costes no demuestra por sí solo que la representación sea innecesaria.
 - Diseñar formación y acreditaciones conectadas con demanda laboral real, con evaluación de inserción y mejora salarial.
 - Facilitar el crecimiento empresarial eliminando trabas innecesarias sin rebajar derechos laborales.
 - Evaluar salarios, fiscalidad y prestaciones conjuntamente para mejorar la renta disponible y evitar desincentivos injustificados.
 
 **Competencias:** Estado, comunidades autónomas y agentes sociales según la medida.
 
-**Indicadores:** salario mediano real, renta disponible, productividad por hora, estabilidad laboral y pobreza de personas ocupadas.
+**Indicadores:** salario mediano real, renta disponible, productividad por hora, estabilidad laboral y pobreza de personas ocupadas. Para representación laboral: coste y uso agregado del crédito horario, atención, acuerdos y cumplimiento, sin identificar afiliados ni usar resultados como excusa para represalias.
 
 **Evidencia y diagnóstico pendiente:** EPA, estadísticas salariales y datos de productividad y coste de vida. Contrastar alcance, actualidad y limitaciones antes de aprobar medidas.
 
-**Coste y financiación:** Pendientes de estimación. Incluir formación, inspección y apoyo a inversión productiva. No hay presupuesto ni financiación aprobados en este borrador.
+**Coste y financiación:** Pendientes de estimación. Incluir formación, inspección, apoyo a inversión productiva y revisión proporcionada del crédito horario. No hay presupuesto ni financiación aprobados en este borrador.
 
 **Riesgos y garantías:** No confundir más productividad con mejoras salariales automáticas ni rebajar derechos.
 
@@ -285,7 +290,7 @@ Queremos resolver un trámite sin ir de una oficina a otra ni entregar varias ve
 
 En un caso hipotético, para pedir una ayuda, una persona entrega un certificado que otra administración ya tiene. Si la ley permite consultarlo, las oficinas lo intercambian de forma segura y explican qué falta. Digitalizar no debe significar obligarla a repetir la gestión en una pantalla.
 
-Ciudadanía necesita atención sencilla; empleados públicos, medios y responsabilidades claras; administraciones, uso eficiente de recursos. Quitar controles o personal sin medir necesidades puede empeorar el servicio.
+Ciudadanía necesita atención sencilla; empleados públicos, medios y responsabilidades claras; administraciones, uso eficiente de recursos. Quitar controles o personal sin medir necesidades puede empeorar el servicio. Revisar Senado, CCAA y centralización exige comparar funciones, costes y servicios, no dar por hecho que eliminar una institución elimina el trabajo que realiza.
 
 Para saber si funciona, proponemos medir esperas, trámites repetidos, errores y coste total. Comprobar que también se atiende a quien no puede hacer gestiones por internet.
 
@@ -315,6 +320,10 @@ La ejecución correspondería a administraciones participantes; el calendario pr
 - Publicar un mapa de responsabilidades, financiación y servicios por nivel de gobierno, distinguiendo una duplicidad real de una competencia compartida o un servicio de apoyo necesario.
 - Evaluar fusiones, servicios compartidos, reasignación de funciones o supresión de organismos donde exista redundancia acreditada. Para diputaciones y otras entidades territoriales, comparar alternativas que aseguren asistencia a municipios pequeños y continuidad de los servicios.
 - Distinguir una reforma de organismos de una modificación de la organización territorial: eliminar niveles de gobierno o alterar competencias puede requerir cambios constitucionales, estatutarios o legales, no una decisión administrativa simple.
+- Comparar el Senado actual, una reforma de su representación territorial y su supresión mediante reforma constitucional. Identificar sus funciones legislativas, de control y territoriales, quién las asumiría y qué contrapesos cambiarían; publicar costes y ahorro neto, no afirmar que carece de toda función [F35].
+- Comparar mantener y mejorar la organización autonómica con reasignar competencias, compartir servicios o propuestas de centralización y supresión de niveles autonómicos. Contar personal, deuda, contratos, sistemas, proximidad y continuidad de servicios: no presumir que la convivencia o el gasto mejoran por eliminar las CCAA.
+- Analizar el cauce jurídico de cada alternativa territorial. Eliminar el derecho a la autonomía reconocido en el artículo 2 afectaría al título preliminar y requeriría el procedimiento del artículo 168, con nuevas Cortes y referéndum obligatorio; otras reformas deben identificar sus cambios constitucionales, estatutarios y legales [F35].
+- Comparar centralización de funciones concretas con coordinación y estándares comunes de educación, sanidad y otros servicios. Evaluar calidad, acceso y coste total por territorio, preservando derechos, diversidad lingüística, rendición de cuentas y atención cercana; centralizar no garantiza por sí solo menos sesgo político o mayor eficiencia.
 - Estimar el ahorro neto de cada reorganización, descontando transición, sistemas, obligaciones y servicios que otra entidad deba asumir; no confundir eliminar una entidad con eliminar su coste.
 - Evaluar ingresos complementarios de entidades públicas mediante publicidad, aprovechamiento de espacios y otros servicios compatibles con su misión. Estudiar, por ejemplo, espacios publicitarios en transporte público como Metro de Madrid, sin presuponer sus ingresos actuales ni que cubran todos sus costes.
 - Adjudicar estos aprovechamientos de forma competitiva y transparente, con límites de privacidad, accesibilidad, seguridad y saturación comercial.
@@ -329,9 +338,9 @@ La ejecución correspondería a administraciones participantes; el calendario pr
 
 **Indicadores:** tiempos de resolución, documentos solicitados repetidamente, coste por procedimiento, ahorro neto verificado, ingresos complementarios netos, adecuación de plantillas, calidad ajustada por complejidad, accesibilidad y satisfacción ciudadana.
 
-**Evidencia y diagnóstico pendiente:** Mapa de competencias, procesos, cargas de trabajo y cuentas de cada entidad. Contrastar alcance, actualidad y limitaciones antes de aprobar medidas.
+**Evidencia y diagnóstico pendiente:** Mapa de competencias, procesos, cargas de trabajo y cuentas de cada entidad. Para Senado y alternativas territoriales, marco constitucional [F35], funciones, presupuestos y obligaciones que habría que redistribuir. Contrastar alcance, actualidad y limitaciones antes de aprobar medidas.
 
-**Coste y financiación:** Pendientes de estimación. Incluir auditorías, transición, interoperabilidad y formación. No hay presupuesto ni financiación aprobados en este borrador.
+**Coste y financiación:** Pendientes de estimación. Incluir auditorías, transición, interoperabilidad, formación y comparación jurídica y económica de modelos territoriales y parlamentarios. No hay presupuesto ni financiación aprobados en este borrador.
 
 **Riesgos y garantías:** No dar por hecho ahorro al suprimir entidades ni deteriorar servicios o garantías laborales.
 
@@ -480,6 +489,7 @@ La ejecución correspondería a autoridades educativas autonómicas y centros; e
 - Incluir educación emocional, relaciones saludables y habilidades para pedir ayuda, sin sustituir la atención clínica.
 - Formar al profesorado y evaluar la carga curricular antes de añadir nuevas asignaturas.
 - Usar materiales contrastados y plurales, evitando adoctrinamiento partidista.
+- Establecer objetivos comunes y evaluación comparable de aprendizajes, con revisión plural de materiales de historia y cultura y respeto a las lenguas y derechos educativos. Comparar coordinación curricular y centralización de funciones concretas por sus resultados, carga docente y viabilidad jurídica, no por afinidad con un gobierno [F35].
 - Enseñar a comparar ahorro, inversión diversificada y costes financieros, distinguir rentabilidad nominal y real y reconocer estafas y promesas de ingresos pasivos garantizados. La educación general no sustituye asesoramiento regulado cuando sea necesario.
 - Reforzar orientación educativa y acceso a profesionales cuando se detecten necesidades.
 - Desarrollar habilidades de uso cotidiano: comprender contratos y nóminas, realizar trámites, comparar servicios, proteger datos y cuentas, usar IA críticamente, comunicarse, cooperar y resolver desacuerdos. Adaptar contenidos a edad y necesidades, con ejercicios reales y sin publicidad.
@@ -689,6 +699,7 @@ La ejecución correspondería a servicios de salud autonómicos y direcciones cl
 **Propuestas:**
 
 - Mantener una cobertura pública universal y una atención basada en la necesidad clínica, no en la capacidad de pago.
+- Reforzar estándares comunes de acceso, información interoperable y comparación de resultados entre territorios. Comparar compras y servicios compartidos, coordinación y centralización de funciones concretas con la gestión existente, contando transición, respuesta local y continuidad asistencial; no exigir uniformidad de toda la organización como garantía de calidad [F35].
 - Reforzar atención primaria, prevención y salud mental para mejorar acceso y continuidad asistencial.
 - Evaluar colaboración con centros privados para necesidades concretas cuando aporte capacidad y resultados adicionales, comparándola con reforzar los medios públicos.
 - Exigir a los acuerdos de colaboración precios y criterios transparentes, calidad verificable, auditorías y obligaciones que eviten seleccionar únicamente pacientes o tratamientos rentables.
@@ -823,7 +834,7 @@ La ejecución correspondería a Seguridad Social, áreas fiscales competentes y 
 
 ### 2.16. Impuestos e IVA: carga, simplicidad y financiación
 
-Queremos entender lo que pagamos en impuestos y reducir cargas evitables sin dejar servicios sin financiación. Para ello, proponemos comparar cambios en impuestos e IVA, simplificar reglas y explicar quién gana, quién paga y cómo se cubre el coste.
+Queremos entender lo que pagamos en impuestos y reducir cargas evitables sin dejar servicios sin financiación. Para ello, proponemos comparar cambios en impuestos e IVA, simplificar reglas y explicar quién gana, quién paga y cómo se cubre el coste. Revisaríamos también las exenciones de la Iglesia Católica, otras confesiones y entidades sin ánimo de lucro con criterios comunes de actividad y finalidad.
 
 En un caso hipotético, se estudia bajar el IVA de un producto. Se comprueba cuánto baja el precio final y cuánto deja de ingresar el Estado. Si el comercio conserva la rebaja como margen, el consumidor no recibe todo el beneficio esperado.
 
@@ -852,6 +863,8 @@ La ejecución correspondería a Hacienda, administraciones tributarias competent
 - Publicar ejemplos de carga total para perfiles de hogares, autónomos y empresas, distinguiendo impuestos, cotizaciones, tasas y costes administrativos.
 - Evaluar reducciones focalizadas donde aporten mayor mejora de renta disponible o inversión, con memoria presupuestaria y distributiva.
 - Revisar deducciones y beneficios fiscales que no acrediten su objetivo, evitando privilegios difíciles de justificar.
+- Inventariar las exenciones de IBI y otros beneficios de la Iglesia Católica, otras confesiones y entidades sin ánimo de lucro por inmueble, actividad y fundamento legal, con datos agregados y protección de información personal. No afirmar que todo inmueble religioso está exento ni confundir una exención legal con evasión fiscal [F40].
+- Comparar mantener, limitar o retirar exenciones según actividad y finalidad social, con criterios de igualdad, libertad religiosa, neutralidad y sostenibilidad municipal. Publicar recaudación estimada y efectos sobre servicios y patrimonio; identificar leyes y acuerdos internacionales que habría que modificar, sin tratar toda entidad religiosa como equivalente a una persona física.
 - Simplificar obligaciones y mejorar previsibilidad, con periodos de adaptación razonables a los cambios.
 - Evaluar la carga sobre trabajo cualificado y emprendimiento mediante perfiles que incluyan 100.000 y 150.000 euros anuales, identificando territorio, situación familiar, deducciones y qué ingreso se compara. No presentar el tipo marginal como porcentaje aplicado a toda la renta.
 - Comparar ajustes de tramos y beneficios fiscales con otras mejoras de renta disponible, publicando coste recaudatorio, efectos por niveles de ingresos y financiación. Eliminar incentivos ineficaces no implica ahorro inmediato igual a su coste nominal.
@@ -866,17 +879,17 @@ La ejecución correspondería a Hacienda, administraciones tributarias competent
 
 **Competencias:** Estado, comunidades autónomas y entidades locales en sus respectivos tributos, respetando los regímenes forales y especiales; Unión Europea en el marco común del IVA.
 
-**Indicadores:** carga efectiva por renta y tipo de actividad, coste de cumplimiento, renta disponible, inversión adicional, efecto sobre precios y saldo presupuestario.
+**Indicadores:** carga efectiva por renta y tipo de actividad, coste de cumplimiento, renta disponible, inversión adicional, efecto sobre precios y saldo presupuestario. Para exenciones: fundamento, coste fiscal estimado por actividad, recaudación municipal y efectos sobre servicios, distinguiendo estimación y recaudación realmente obtenida.
 
-**Evidencia y diagnóstico pendiente:** Tributación por perfiles, recaudación y efectos de beneficios fiscales. Contrastar alcance, actualidad y limitaciones antes de aprobar medidas.
+**Evidencia y diagnóstico pendiente:** Tributación por perfiles, recaudación y efectos de beneficios fiscales. Para entidades religiosas y sin ánimo de lucro: supuestos legales [F40], datos municipales y actividades, sin presuponer un importe nacional recuperable. Contrastar alcance, actualidad y limitaciones antes de aprobar medidas.
 
-**Coste y financiación:** Pendientes de estimación. Incluir gestión y pérdida de ingresos de cada alternativa, con escenarios de financiación. No hay presupuesto ni financiación aprobados en este borrador.
+**Coste y financiación:** Pendientes de estimación. Incluir gestión, inventario y revisión de exenciones y pérdida o aumento estimado de ingresos de cada alternativa, con escenarios de financiación. No hay presupuesto ni financiación aprobados en este borrador.
 
 **Riesgos y garantías:** No asumir que una rebaja se autofinancia o llega íntegramente al consumidor.
 
 ### 2.17. Independencia energética: petróleo, gas y aviación
 
-Queremos depender menos del petróleo y del gas sin perder energía fiable ni trasladar costes inasumibles a hogares y empresas. Para ello, proponemos ahorrar energía, mejorar edificios y sustituir combustibles donde sea viable. La transición incluiría desarrollar electricidad, almacenamiento y alternativas para aviación con costes, suministro y emisiones comprobables.
+Queremos depender menos del petróleo y del gas sin perder energía fiable ni trasladar costes inasumibles a hogares y empresas. Para ello, proponemos ahorrar energía, mejorar edificios y sustituir combustibles donde sea viable. La transición incluiría comparar energía nuclear, renovables, redes y almacenamiento por seguridad, coste y suministro, además de alternativas para aviación.
 
 En un caso hipotético, una comunidad de vecinos compara aislar el edificio, cambiar la calefacción o combinar ambas opciones. Cuenta inversión, mantenimiento y factura esperada antes de decidir. La mejor solución depende del edificio y de quién puede pagar el gasto inicial.
 
@@ -908,6 +921,9 @@ La ejecución correspondería a administraciones energéticas y de vivienda, mun
 - Ampliar generación baja en emisiones, redes, almacenamiento y gestión de demanda con planificación territorial, evaluación ambiental y análisis de fiabilidad y coste total.
 - Favorecer autoconsumo individual y compartido y comunidades energéticas, incluyendo hogares que no disponen de tejado propio.
 - Evaluar alternativas de generación firme e interconexión sin decidir el conjunto del sistema por una sola tecnología.
+- Incluir expresamente la energía nuclear en la comparación: continuidad o extensión de operación de centrales existentes y construcción de nuevas instalaciones frente a otras combinaciones de generación, redes, almacenamiento y gestión de demanda. Separar escenarios, disponibilidad y aportación al sistema; no anunciar obras, extensiones ni cierres como ya autorizados [F41].
+- Exigir para cada opción nuclear evaluación de seguridad, autorizaciones e informes exigibles del Consejo de Seguridad Nuclear, financiación, plazos realistas, combustible, agua, residuos y desmantelamiento. Comparar coste completo y riesgos de retrasos y sobrecostes, sin trasladarlos al contribuyente sin explicarlo; bajas emisiones no significan ausencia de impactos [F41].
+- Publicar información accesible sobre ventajas, límites y riesgos de nuclear y alternativas, con fuentes y supuestos comparables. Evaluar suministro fiable y asequible sin dar preferencia automática a una tecnología ni presentar consignas sobre la Agenda 2030 como evidencia técnica.
 - Impulsar investigación y pilotos de combustibles sostenibles de aviación, incluidos combustibles sintéticos, verificando emisiones de ciclo de vida, electricidad necesaria y origen de materias primas.
 - Explorar propulsión eléctrica o de hidrógeno en los segmentos donde resulte viable, sin presentarla como sustituto inmediato de toda la aviación comercial.
 - Exigir certificación de seguridad y evaluar costes, infraestructura y disponibilidad antes de ampliar soluciones aeronáuticas.
@@ -917,11 +933,11 @@ La ejecución correspondería a administraciones energéticas y de vivienda, mun
 
 **Competencias:** Estado, comunidades autónomas y ayuntamientos según energía, transporte y territorio; Unión Europea y autoridades aeronáuticas en regulación y certificación.
 
-**Indicadores:** dependencia de importaciones energéticas, consumo e importación de petróleo y gas natural por sector, necesidad de generación eléctrica con gas, emisiones de ciclo de vida, coste y fiabilidad del suministro, acceso a autoconsumo y resultados de pilotos.
+**Indicadores:** dependencia de importaciones energéticas, consumo e importación de petróleo y gas natural por sector, necesidad de generación eléctrica con gas, emisiones de ciclo de vida, coste y fiabilidad del suministro, acceso a autoconsumo y resultados de pilotos. Para escenarios nucleares y alternativas: generación disponible, coste del sistema, calendario, financiación, seguridad, gestión de residuos y desmantelamiento; comparar supuestos, no confundir estudios con instalaciones autorizadas.
 
-**Evidencia y diagnóstico pendiente:** Balances energéticos, costes del sistema y resultados de pilotos. Contrastar alcance, actualidad y limitaciones antes de aprobar medidas.
+**Evidencia y diagnóstico pendiente:** Balances energéticos, costes del sistema y resultados de pilotos. Para nuclear: marco regulatorio [F41], informes de seguridad, proyectos y escenarios de costes y residuos específicos; no hay una viabilidad acreditada de nuevas centrales en este borrador. Contrastar alcance, actualidad y limitaciones antes de aprobar medidas.
 
-**Coste y financiación:** Pendientes de estimación. Incluir redes, generación, almacenamiento, aislamiento, electrificación de edificios e industria, transporte y certificación. No hay presupuesto ni financiación aprobados en este borrador.
+**Coste y financiación:** Pendientes de estimación. Incluir redes, generación, almacenamiento, aislamiento, electrificación de edificios e industria, transporte y certificación. Los escenarios nucleares incluirán inversión, financiación, operación, combustible, gestión de residuos, desmantelamiento y posibles garantías públicas. No hay presupuesto ni financiación aprobados en este borrador.
 
 **Riesgos y garantías:** Evitar promesas de autosuficiencia o aviación neutra sin viabilidad demostrada, cortes de suministro y traslados de costes a quienes no puedan financiar la transición.
 
@@ -1147,7 +1163,7 @@ La ejecución correspondería a instituciones constitucionales en su competencia
 
 ### 2.22. Democracia, igualdad del voto y conocimiento experto
 
-Queremos tomar decisiones informadas sin que tener más estudios, dinero o una profesión dé más valor al voto. Para ello, proponemos combinar información accesible, asesoría experta plural y participación ciudadana, manteniendo la igualdad política.
+Queremos tomar decisiones informadas sin que tener más estudios, dinero o una profesión dé más valor al voto. Para ello, proponemos combinar información accesible, asesoría experta plural y participación ciudadana, manteniendo la igualdad política. Revisaríamos la proporcionalidad electoral y el cumplimiento de compromisos; recibir ayudas no justifica perder el derecho a votar.
 
 En un caso hipotético, antes de una consulta sobre transporte se explican costes y alternativas, intervienen especialistas y se escuchan necesidades de usuarios. Una persona sin título participa en igualdad; las recomendaciones técnicas se publican, pero no sustituyen la decisión democrática.
 
@@ -1204,7 +1220,9 @@ Los delitos graves, incluidos homicidio, crímenes de guerra o delitos contra in
 - Exigir motivación pública cuando una decisión se aparte de evidencia relevante, permitiendo discutir objetivos y alternativas sin presentar una preferencia política como conclusión científica inevitable.
 - Probar procesos deliberativos con selección representativa, accesibilidad y compensación razonable para que participar no dependa de tener dinero o tiempo libre; aclarar si su función es consultiva.
 - Mejorar rendición de cuentas y evaluación de representantes y políticas por resultados, respeto a derechos y calidad de decisiones, no solo por credenciales académicas.
-- Distinguir igualdad del derecho al voto de las reglas que convierten votos en escaños; estudiar proporcionalidad y representación territorial de forma separada y conforme al marco constitucional.
+- Publicar balances periódicos de compromisos electorales, incluido el programa del presidente y su Gobierno, con situación inicial, responsable, recursos, avances, bloqueos y cambios motivados. Definir periodicidad y criterios antes de evaluar, contrastar con fuentes independientes y distinguir un compromiso incumplido de un delito o de un resultado ajeno al control del gobernante.
+- Distinguir igualdad del derecho al voto de las reglas que convierten votos en escaños; comparar proporcionalidad, circunscripciones y representación territorial con simulaciones sobre los mismos votos y explicar qué cambios bastarían por ley y cuáles exigen reforma constitucional [F35]. Tener más votos no garantiza más escaños ni permite atribuir corrupción sin indicios; la formación de Gobierno depende del procedimiento de investidura, no de una regla automática de partido más votado.
+- Proteger el sufragio universal e igual de quienes reciben prestaciones, becas o subvenciones: no retirar el voto por su situación económica o por recibir ayudas. Combatir compra de votos, coacciones y uso partidista de recursos mediante investigación y controles con garantías, no castigos colectivos [F35].
 - Separar decisiones sobre fines y prioridades de la validación técnica de medios: publicar evidencia, revisión especializada y responsabilidades profesionales en salud, IA y otros ámbitos de riesgo.
 - Garantizar accesibilidad y protección frente a coacciones para personas mayores y otras que requieran apoyos, sin pruebas de estudios, afinidad política ni un límite superior de edad para votar.
 - Explicar públicamente las diferencias entre penas, inhabilitaciones y derechos electorales y aplicar únicamente las restricciones legalmente procedentes, mediante los órganos competentes y con garantías.
@@ -1213,19 +1231,19 @@ Los delitos graves, incluidos homicidio, crímenes de guerra o delitos contra in
 
 **Competencias:** instituciones legislativas y electorales en sus atribuciones; administraciones educativas y organismos públicos en información, participación y evaluación.
 
-**Indicadores:** comprensión cívica, accesibilidad de información, participación por contexto socioeconómico, transparencia de asesoría y decisiones, representatividad de procesos deliberativos y seguimiento de recomendaciones. No se medirá la calidad democrática por el porcentaje de votantes que apoye a una opción determinada.
+**Indicadores:** comprensión cívica, accesibilidad de información, participación por contexto socioeconómico, transparencia de asesoría y decisiones, representatividad de procesos deliberativos y seguimiento de recomendaciones. Para reformas electorales: proporcionalidad y representación de escenarios comparables; para compromisos: balances publicados, verificación y cambios motivados, no solo anuncios. No se medirá la calidad democrática por el porcentaje de votantes que apoye a una opción determinada.
 
 **Referencias jurídicas de partida:** Ley Orgánica del Régimen Electoral General, especialmente sufragio activo y pasivo, y Ley Orgánica 2/2018 sobre participación electoral de personas con discapacidad. Las consecuencias de una condena concreta requieren examinar la sentencia y la normativa aplicable.
 
 **Evidencia y diagnóstico pendiente:** Normativa electoral y evaluación de información y participación. Contrastar alcance, actualidad y limitaciones antes de aprobar medidas.
 
-**Coste y financiación:** Pendientes de estimación. Incluir educación cívica, asesoría y procesos deliberativos accesibles. No hay presupuesto ni financiación aprobados en este borrador.
+**Coste y financiación:** Pendientes de estimación. Incluir educación cívica, asesoría, procesos deliberativos accesibles, simulaciones electorales y verificación de compromisos. No hay presupuesto ni financiación aprobados en este borrador.
 
 **Riesgos y garantías:** Preservar igualdad, libertad del voto y apoyos; no sustituir legitimidad por credenciales.
 
 ### 2.23. Remuneración, incentivos y conflictos de interés en cargos públicos
 
-Queremos atraer personas capaces al servicio público sin que el cargo permita favorecer negocios o intereses propios. Para ello, proponemos evaluar una reforma que permita mantener inversiones y ciertas actividades empresariales compatibles, con controles independientes. También compararíamos sueldo e incentivos limitados por resultados; es una propuesta, no una autorización vigente.
+Queremos atraer personas capaces al servicio público sin que el cargo permita favorecer negocios o intereses propios. Para ello, proponemos evaluar una reforma que permita mantener inversiones y ciertas actividades empresariales compatibles, con controles independientes. También compararíamos sueldo e incentivos limitados por resultados; es una propuesta, no una autorización vigente. Exigir cuentas al presidente y revisar beneficios tras el cese no equivale a un despido laboral ni a retirar pensiones ordinarias.
 
 En un caso hipotético, una persona con participaciones en una empresa considera aceptar un cargo. Se estudia qué podría conservar legalmente y de qué decisiones tendría que apartarse. Tener acciones no equivale a dirigir el negocio; si el conflicto no puede resolverse, habría que elegir.
 
@@ -1268,6 +1286,7 @@ La ejecución correspondería a administraciones empleadoras y órganos de contr
 - Exigir trazabilidad de intereses y rendimientos conforme a la protección de datos, controles independientes y prohibiciones de uso de información privilegiada, recursos públicos o trato preferente. Declarar intereses no basta: si un conflicto no puede resolverse efectivamente, deberá elegirse entre la actividad afectada y el cargo.
 - Evaluar pilotos de remuneración variable donde sean legalmente viables, con objetivos públicos, componente limitado y evaluación independiente; no presentar el modelo como aplicable automáticamente a todos los cargos.
 - Estudiar incentivos para responsables políticos, incluido el presidente, solo mediante reglas públicas anteriores al periodo evaluado, presupuesto y verificación independiente. No usar únicamente PIB, recaudación o recortes ni pagar recompensas desde empresas beneficiadas; un bono no sustituye responsabilidad política o jurídica.
+- Vincular los balances de compromisos del eje 22 a rendición de cuentas parlamentaria, sin convertir al presidente en un empleado sujeto a despido por una comisión evaluadora. Explicar investidura, cese, cuestión de confianza y moción de censura; cualquier mecanismo nuevo debe preservar legitimidad democrática y tramitar su reforma constitucional cuando proceda [F35].
 - Medir mejoras atribuibles de servicio, calidad, accesibilidad y eficiencia, ajustadas por recursos y contexto. No premiar exclusivamente recortes, multas, recaudación o denegaciones.
 - Impedir que una persona fije, evalúe o autorice por sí sola su propio incentivo; prever revisión y recuperación de pagos indebidos cuando exista base legal.
 - Analizar antes del nombramiento actividades, patrimonio e intereses relevantes, incluyendo incentivos diferidos u opciones que puedan depender de empresas afectadas por sus decisiones.
@@ -1275,7 +1294,7 @@ La ejecución correspondería a administraciones empleadoras y órganos de contr
 - No proponer acciones o pagos de empresas reguladas, adjudicatarias o beneficiarias como recompensa personal por decisiones públicas que las favorezcan, aunque se alegue impacto positivo.
 - Evaluar por separado incentivos en empresas públicas, incluyendo sus objetivos de servicio y riesgos; no conceder participaciones de patrimonio público sin el encaje jurídico y la valoración que correspondan.
 - Publicar coste, criterios, evaluaciones y pagos de los sistemas de incentivos, con límites legales de protección de datos y medidas para detectar manipulación.
-- Inventariar indemnizaciones de cese, dotaciones, servicios y beneficios posteriores al cargo; evaluar la eliminación o limitación temporal de ventajas personales indefinidas sin necesidad acreditada, mediante reforma y transición jurídica. No presentar todos esos conceptos como un «salario vitalicio».
+- Inventariar indemnizaciones de cese, dotaciones, servicios y beneficios posteriores al cargo, con importe, duración, finalidad y base legal; evaluar la eliminación o limitación temporal de ventajas personales indefinidas sin necesidad acreditada, mediante reforma y transición jurídica. No presentar todos esos conceptos como un «salario vitalicio» [F10].
 - Separar esos beneficios de las pensiones ordinarias obtenidas conforme a las reglas aplicables. Mantener protección de seguridad según riesgo acreditado y revisar por separado oficina, personal, transporte y demás apoyos, con coste y finalidad públicos.
 
 **Límites:** el artículo 13 de la Ley 3/2015 establece dedicación exclusiva para los altos cargos sujetos a ella, con excepciones concretas; también existen límites sobre participaciones y conflictos de interés. La compatibilidad más amplia descrita aquí es una propuesta de reforma, no una autorización vigente. Otras funciones y administraciones pueden tener reglas diferentes. Cambiar esos límites exige examinar y reformar la normativa correspondiente, no solo acreditar que alguien genera valor.
@@ -1652,6 +1671,7 @@ La ejecución correspondería a equipo ciudadano, especialistas plurales en dere
 - Incorporar doctrina y jurisprudencia relevantes con fuente y fecha, posiciones alternativas y revisión plural; no sustituir la interpretación judicial por una explicación ciudadana.
 - Conservar derechos fundamentales, igualdad, pluralismo, separación de poderes, controles y protección de minorías. Ninguna reducción de extensión justifica eliminar garantías o imponer una interpretación única.
 - Comparar guía explicativa, reforma de leyes de desarrollo y reforma constitucional, con coste de transición y coherencia con estatutos, leyes y obligaciones europeas e internacionales.
+- Identificar el cauce jurídico de las alternativas sobre Senado y organización territorial del eje 6, proporcionalidad y control del Gobierno del eje 22 y elección del CGPJ del eje 31. No presentar cambios de instituciones o competencias como simples aclaraciones del texto; separar propuestas, mayorías necesarias, aprobación y entrada en vigor [F35].
 - Impulsar únicamente reformas justificadas por los cauces de los artículos 166–169, con participación y debate informados. Una consulta informal, una recogida de apoyos o una guía no modifica la Constitución.
 
 **Procedimiento constitucional vigente [F35]:**
@@ -1677,7 +1697,7 @@ La ejecución correspondería a equipo ciudadano, especialistas plurales en dere
 
 ### 2.31. Justicia accesible y ágil, defensa efectiva e integridad
 
-Queremos acceder a la justicia sin esperas evitables, trámites incomprensibles o defensa inasumible, sin identificar automáticamente lentitud con corrupción. Para ello, proponemos mejorar equipos y organización, evitar gestiones repetidas y explicar el estado de los expedientes a quienes tienen autorización. La mejora debe reforzar defensa y controles de integridad sin interferir en decisiones judiciales.
+Queremos acceder a la justicia sin esperas evitables, trámites incomprensibles o defensa inasumible, sin identificar automáticamente lentitud con corrupción. Para ello, proponemos mejorar equipos y organización, evitar gestiones repetidas y explicar el estado de los expedientes a quienes tienen autorización. La mejora debe reforzar defensa e integridad y revisar la elección y los nombramientos del CGPJ frente a influencias partidistas o corporativas, sin interferir en decisiones judiciales.
 
 En un caso hipotético, una persona reclama una factura impagada y la otra discute el importe. Ambas pueden conocer el estado autorizado del expediente y recibir notificaciones comprensibles, manteniendo tiempo para defenderse. Mejorar esas gestiones no promete una sentencia en un plazo fijo ni adelanta quién tiene razón.
 
@@ -1709,10 +1729,14 @@ La ejecución correspondería a Administración de Justicia estatal y autonómic
 - Facilitar orientación jurídica, solicitud y seguimiento de justicia gratuita según la Ley 1/1996 [F37]; revisar recursos y pago de servicios profesionales y tiempos de designación con datos. No prometer abogado gratuito universal ni reducir el derecho de defensa para ahorrar.
 - Proteger tiempo y medios adecuados de defensa, acceso a actuaciones cuando proceda, presunción de inocencia, prueba, intérprete y accesibilidad. No desatender reparación, información y protección de víctimas ni confundir una denuncia con condena.
 - Reforzar trazabilidad de reparto, conflictos de interés, contratación tecnológica y decisiones de gestión mediante controles independientes y los cauces legales. Proteger a informantes, secreto de actuaciones y datos; distinguir denuncia, investigación y resolución firme.
+- Revisar el sistema de elección del Consejo General del Poder Judicial (CGPJ) y comparar el modelo parlamentario vigente con alternativas de elección de los 12 vocales del turno judicial por jueces y magistrados y otros diseños jurídicamente viables. Explicar ventajas, riesgos de influencia política y corporativa, pluralidad y cauce de reforma, sin confundir gobierno judicial con función de juzgar [F35] [F39].
+- Reforzar criterios públicos de mérito, comparecencias, motivación de nombramientos, declaraciones de intereses y revisión por los cauces competentes; publicar procedimientos y retrasos de renovación. Evaluar garantías de independencia y funcionamiento, no si las sentencias benefician a un partido ni cuotas de condenas o absoluciones.
 - Separar quejas por funcionamiento, denuncias de posibles delitos y recursos contra resoluciones. Publicar cauces y estado agregado cuando proceda; una queja no sustituye el recurso ni suspende su plazo.
 - Evaluar mediación y otras vías de resolución solo en materias admisibles, con información y garantías, sin coacción ni situaciones de violencia o desigualdad que las hagan improcedentes. No convertirlas en obstáculos adicionales al acceso judicial.
 
 **Conexión con corrupción y vivienda:** El eje 1 hace trazable el uso de fondos y exige controles; este eje refuerza capacidad y garantías para investigar, defender, resolver y ejecutar conforme a derecho. Una mejora de gestión no acredita menos corrupción. En vivienda conecta con el eje 2 para resolver conflictos con tutela efectiva, sin desalojo privado, condena automática ni privilegios por renta o afinidad política.
+
+**Elección del CGPJ y límites:** El artículo 122 de la Constitución distingue 12 vocales entre jueces y magistrados y 8 juristas a propuesta de las Cámaras; la LOPJ vigente atribuye la designación de los 20 a las Cortes, 10 por Cámara por mayoría de tres quintos [F35] [F39]. Los cambios deben distinguir lo regulado por ley orgánica de lo fijado constitucionalmente. El CGPJ es un órgano de gobierno, no el tribunal que dicta todas las sentencias. Su relación institucional con las Cortes no permite dar por probada la parcialidad de cada juez ni justifica eliminar controles y responsabilidad.
 
 **Datos de contexto [F36]:** El CGPJ estima para asuntos civiles terminados en 2025 en primera instancia 15,5 meses en ordinarios y 11,1 en la categoría «Demás verbales». Son aproximaciones mediante un modelo de asuntos ingresados, resueltos y pendientes, no mediciones individuales ni medias de toda la justicia. No incluyen por sí solas recursos o ejecución ni prueban corrupción; no sirven para pronosticar un caso concreto.
 
@@ -1720,11 +1744,11 @@ La ejecución correspondería a Administración de Justicia estatal y autonómic
 
 **Competencias:** jueces y tribunales en su función jurisdiccional e independencia; órganos de gobierno judicial, Ministerio competente y comunidades con medios transferidos en sus funciones; profesionales y comisiones de asistencia jurídica gratuita según ley. Las reformas procesales y presupuestarias requieren sus procedimientos.
 
-**Indicadores:** espera mediana y percentil 90 por actuación, antigüedad de pendientes, repeticiones, notificaciones fallidas, acceso y tiempos de asistencia jurídica, comprensión, incidencias y coste completo. No puntuar la calidad de un juez por el sentido de sus resoluciones ni publicar expedientes o datos identificativos.
+**Indicadores:** espera mediana y percentil 90 por actuación, antigüedad de pendientes, repeticiones, notificaciones fallidas, acceso y tiempos de asistencia jurídica, comprensión, incidencias y coste completo. Para gobierno judicial: publicidad y motivación de nombramientos, conflictos examinados y renovación en plazo, sin presentarlos como prueba automática de independencia. No puntuar la calidad de un juez por el sentido de sus resoluciones ni publicar expedientes o datos identificativos.
 
 **Evidencia y diagnóstico pendiente:** estimaciones oficiales del CGPJ y sus límites [F36], tutela judicial efectiva y garantías del artículo 24 de la Constitución y gratuidad en los términos del artículo 119 [F35], y Ley 1/1996 [F37]. Falta medir cada unidad, fase y barrera de defensa, además de disponer de acuerdos y recursos; no hay un cálculo validado de demora eliminable.
 
-**Coste y financiación:** Pendientes de estimación. Incluir personal, formación, interoperabilidad, accesibilidad, asistencia jurídica, mantenimiento y evaluación. La reducción del atasco no se contabiliza automáticamente como ahorro ni financia por sí sola el refuerzo.
+**Coste y financiación:** Pendientes de estimación. Incluir personal, formación, interoperabilidad, accesibilidad, asistencia jurídica, mantenimiento, evaluación y revisión jurídica comparada de elección y nombramientos del CGPJ. La reducción del atasco no se contabiliza automáticamente como ahorro ni financia por sí sola el refuerzo.
 
 **Riesgos y garantías:** Presiones sobre independencia, decisiones apresuradas, indefensión, exclusión digital y exposición de datos. Revisión independiente, canales asistidos, acceso limitado y medidas reversibles; ante empeoramiento de garantías, corregir o suspender la intervención.
 
@@ -2089,11 +2113,19 @@ Revisión documental y ampliación de gráficos: 4 de octubre de 2026; incorpora
 
 **[F34] CNMC · impugnación de la regulación balear de taxi y VTC, 17 de julio de 2026.** [Nota oficial y expediente LA/02/2026](https://www.cnmc.es/prensa/impugnacion-decreto-vtc-taxi-20260717). Cuestiona determinados artículos del Decreto 6/2026: requisitos de vehículos, solicitudes, contratación parcial y tarifas. Describe la posición de la autoridad de competencia y una actuación judicial, no una sentencia firme ni una derogación general de restricciones españolas. Sus efectos económicos propuestos deben contrastarse, no contabilizarse como mejoras ya medidas.
 
-**[F35] Constitución Española · texto y reforma.** [Texto consolidado del BOE](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229), consultado el 5 de octubre de 2026. Artículos 166–169: iniciativa, procedimiento ordinario y agravado y límites temporales; artículos 87.1–2 y 116 por remisión. Estructura: 169 artículos, 4 disposiciones adicionales, 9 transitorias, 1 derogatoria y 1 final, sin contar preámbulo, títulos o rúbricas como artículos. Son cifras normativas, no una medición de dificultad, ambigüedad o comprensión. No justifican por sí solas reformar el texto; las explicaciones ciudadanas no tienen valor normativo.
+**[F35] Constitución Española · texto y reforma.** [Texto consolidado del BOE](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229), consultado el 5 de octubre de 2026. Artículos 166–169: iniciativa, procedimiento ordinario y agravado y límites temporales; artículos 87.1–2 y 116 por remisión. Para las ampliaciones institucionales: artículos 2 y 137, autonomía; 23 y 68, participación y sufragio; 66, 69 y 90, funciones parlamentarias y Senado; 99, 101, 108 y 112–114, investidura, cese y responsabilidad del Gobierno; 117 y 122, independencia y gobierno judicial; 27 y 149, educación y distribución competencial. Estructura: 169 artículos, 4 disposiciones adicionales, 9 transitorias, 1 derogatoria y 1 final, sin contar preámbulo, títulos o rúbricas como artículos. Son cifras normativas, no una medición de dificultad, ambigüedad o comprensión. No justifican por sí solas reformar el texto; las explicaciones ciudadanas no tienen valor normativo.
 
 **[F36] CGPJ · duración media estimada de asuntos civiles terminados en 2025.** [Metodología oficial](https://www.poderjudicial.es/cgpj/es/Temas/Estadistica-Judicial/Estadistica-por-temas/Actividad-de-los-organos-judiciales/Estimacion-de-los-tiempos-medios-de-los-asuntos-terminados/) y [Excel original de primera instancia civil](https://www.poderjudicial.es/stfls/ESTADISTICA/FICHEROS/Duraciones/20260416%20Juzgados%20de%20Primera%20Instancia%20%20y%20Primera%20Instancia%20e%20Instruccion%20-%20Civil%20-%20Duraciones.xlsx), de 16 de abril de 2026, consultados el 5 de octubre. Hojas «Ordinarios» y «Demas verbales», fila España, columna 2025: 15,464086576143092 y 11,137450171266176 meses, redondeados a 15,5 y 11,1. Modelo de ingresos, resoluciones y pendientes, no medición directa ni previsión individual; no distingue formas de terminación. La categoría «Demás verbales» no incluye todas las modalidades verbales. No cubre por sí sola recursos y ejecución ni cuantifica corrupción.
 
 **[F37] Asistencia jurídica gratuita.** [Ley 1/1996, texto consolidado](https://www.boe.es/buscar/act.php?id=BOE-A-1996-750), consultada el 5 de octubre de 2026, junto con artículos 24 y 119 de la Constitución [F35]. La elegibilidad, alcance y reconocimiento dependen de los supuestos legales; no todo servicio de abogado es gratuito para cualquier persona. La norma no demuestra tiempos reales de designación, suficiencia de medios o ausencia de barreras; deben medirse.
+
+**[F38] Financiación y representación sindical.** [Ley Orgánica 11/1985 de Libertad Sindical](https://www.boe.es/buscar/act.php?id=BOE-A-1985-16660), [Estatuto de los Trabajadores, artículo 68](https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a68) y [Ley 38/2003 General de Subvenciones](https://www.boe.es/buscar/act.php?id=BOE-A-2003-20977), textos consultados el 5 de octubre de 2026. Marco de libertad sindical, crédito horario, acumulación conforme a convenio y control y publicidad de ayudas. No demuestra qué proporción de ingresos proviene del Estado, utilidad de cada liberación ni dependencia partidista; requiere cuentas, registros y evaluación independiente.
+
+**[F39] CGPJ · designación y nombramientos.** [Ley Orgánica 6/1985 del Poder Judicial, artículo 567](https://www.boe.es/buscar/act.php?id=BOE-A-1985-12666#a567), texto consultado el 5 de octubre de 2026, junto con artículo 122 de la Constitución [F35]. Cada Cámara elige 10 vocales por tres quintos: 6 del turno judicial y 4 juristas, con requisitos y comparecencias previstos en la ley. Describe el modelo vigente, no prueba imparcialidad o sesgo de resoluciones ni eficacia de una alternativa.
+
+**[F40] IBI, entidades religiosas y entidades sin ánimo de lucro.** [Texto refundido de la Ley Reguladora de las Haciendas Locales, artículo 62](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a62), [Ley 49/2002, artículo 15](https://www.boe.es/buscar/act.php?id=BOE-A-2002-25039#a15) y [Acuerdo con la Santa Sede sobre asuntos económicos de 1979](https://www.boe.es/buscar/act.php?id=BOE-A-1979-29490), consultados el 5 de octubre de 2026. Las exenciones dependen de titularidad, régimen, uso y supuestos legales; no toda propiedad religiosa está exenta por el mero hecho de serlo. Revisar una exención exige identificar su fundamento y efectos, no inventar recaudación recuperable ni equiparar beneficio legal con fraude.
+
+**[F41] Energía nuclear · autorización, seguridad y residuos.** [Ley 25/1964 sobre energía nuclear](https://www.boe.es/buscar/act.php?id=BOE-A-1964-7544), [Real Decreto 1217/2024, Reglamento sobre instalaciones nucleares y radiactivas](https://www.boe.es/buscar/act.php?id=BOE-A-2024-25205) y [Real Decreto 102/2014 sobre gestión responsable y segura del combustible nuclear gastado y los residuos radiactivos](https://www.boe.es/buscar/act.php?id=BOE-A-2014-2489), consultados el 5 de octubre de 2026. Marco de autorización, control, residuos y desmantelamiento; no demuestra costes, plazos o rentabilidad de una extensión o nueva central. Cada escenario requiere estudios técnicos, regulatorios y económicos propios y comparación del sistema completo.
 
 **Qué sigue pendiente:** evidencia específica y costes por intervención, fuentes de datos locales, evaluación jurídica detallada y acuerdos de ejecución. Argumentar un mecanismo y definir métricas mejora el diseño, pero no convierte todos los ejes en soluciones probadas.
 

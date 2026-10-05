@@ -358,3 +358,43 @@ test('closing priorities reuse programme measures and preserve feasibility and g
   assert.match(closing, /primer ciclo de 90 días/);
   for (const [, headline] of axisMetadata) assert.ok(headline.endsWith('.'), headline);
 });
+
+test('citizen contributions cover all agreed topics without unconditional abolition or loss of rights', () => {
+  const byId = id => axes.find(axis => axis.id === id);
+  for (const [id, topic] of [
+    [1, /financiación de sindicatos/],
+    [1, /reducirlas o sustituirlas por recursos propios/],
+    [4, /crédito horario y las liberaciones sindicales/],
+    [6, /Senado actual.*supresión mediante reforma constitucional/],
+    [6, /propuestas de centralización y supresión de niveles autonómicos/],
+    [9, /coordinación curricular y centralización de funciones concretas/],
+    [13, /centralización de funciones concretas.*continuidad asistencial/],
+    [16, /exenciones de IBI.*Iglesia Católica/],
+    [17, /extensión de operación.*construcción de nuevas instalaciones/],
+    [22, /compromisos electorales.*presidente y su Gobierno/],
+    [22, /comparar proporcionalidad, circunscripciones y representación territorial/],
+    [23, /limitación temporal de ventajas personales indefinidas/],
+    [31, /12 vocales del turno judicial por jueces y magistrados/],
+  ]) {
+    assert.ok(byId(id).measures.some(measure => topic.test(measure)), `Eje ${id}: ${topic}`);
+  }
+  assert.match(byId(1).body, /recibir financiación pública no demuestra por sí solo obediencia política/);
+  assert.match(byId(1).body, /sin presumir cómo votan las personas beneficiarias/);
+  assert.match(byId(4).body, /sin vigilancia de afiliación, represalias ni supresión general/);
+  assert.match(byId(6).body, /artículo 168.*referéndum obligatorio/);
+  assert.match(byId(16).body, /identificar leyes y acuerdos internacionales/);
+  assert.match(byId(17).body, /Consejo de Seguridad Nuclear.*residuos y desmantelamiento/);
+  assert.match(byId(17).body, /no anunciar obras, extensiones ni cierres como ya autorizados/);
+  assert.match(byId(22).body, /no retirar el voto.*recibir ayudas/);
+  assert.match(byId(23).body, /sin convertir al presidente en un empleado sujeto a despido/);
+  assert.match(byId(23).body, /pensiones ordinarias/);
+  assert.match(byId(31).body, /no el tribunal que dicta todas las sentencias/);
+  assert.match(byId(31).body, /no si las sentencias benefician a un partido/);
+  for (const reference of [38, 39, 40, 41]) {
+    assert.equal((getChapter(markdown, 8).match(new RegExp(`\\*\\*\\[F${reference}\\]`, 'g')) || []).length, 1);
+  }
+  for (const [id, query] of [[1, 'sindicatos'], [4, 'liberaciones sindicales'], [6, 'senado'],
+    [16, 'iglesia ibi'], [17, 'nuclear'], [22, 'compromisos electorales'], [31, 'elección cgpj']]) {
+    assert.ok(filterAxes(axes, 'all', query).some(axis => axis.id === id), query);
+  }
+});
