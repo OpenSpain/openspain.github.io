@@ -222,6 +222,7 @@ h3 { font-size: 18px; letter-spacing: -.5px; line-height: 1.3; margin: 10px 0; f
 .method-grid h3 { font-size: 16px; margin-top: 18px; }
 .method-grid p { font-size: 14px; line-height: 1.85; color: var(--muted); }
 .donations-section { padding-top: 0; }
+.donations-section + .priorities-section { padding-top: 0; }
 .donation-principles { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; margin-bottom: 30px; }
 .donation-principles article { border-top: 2px solid var(--blue); padding-top: 22px; }
 .donation-principles article > span { font: 13px monospace; color: var(--blue); }

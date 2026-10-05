@@ -168,6 +168,19 @@ try {
   await page.screenshot({ path: join(screenshotDir, 'openspain-desktop.png'), fullPage: true });
   for (const width of [320, 390, 768, 1440]) {
     await page.setViewportSize({ width, height: 900 });
+    const prioritiesSpacing = await page.evaluate(() => {
+      const donations = document.querySelector('#donaciones');
+      const register = donations.querySelector('.donor-register');
+      const priorities = document.querySelector('#prioridades');
+      return {
+        gap: priorities.querySelector('.section-top').getBoundingClientRect().top - register.getBoundingClientRect().bottom,
+        expected: Number.parseFloat(getComputedStyle(donations).paddingBottom),
+        topPadding: Number.parseFloat(getComputedStyle(priorities).paddingTop),
+      };
+    });
+    assert.equal(prioritiesSpacing.topPadding, 0, `No duplicated section padding at ${width}px`);
+    assert.ok(Math.abs(prioritiesSpacing.gap - prioritiesSpacing.expected) <= 1,
+      `Priorities gap must use only the preceding section spacing at ${width}px`);
     assert.equal(await page.locator('.hero').getByRole('link', { name: /Hazte simpatizante/ }).isVisible(), true);
     assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth), `Horizontal overflow at ${width}px`);
     assert.ok(await page.locator('.card-description').first().evaluate(node => Number.parseFloat(getComputedStyle(node).fontSize) >= 15));
