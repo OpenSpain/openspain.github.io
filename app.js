@@ -290,6 +290,17 @@ async function loadProgram() {
   }
 }
 
+const orbitToggle = $('#orbit-toggle');
+const heroArt = $('.hero-art');
+heroArt.dataset.orbitMotion = 'running';
+orbitToggle.textContent = 'Pausar animación';
+orbitToggle.hidden = false;
+orbitToggle.addEventListener('click', () => {
+  const paused = heroArt.dataset.orbitMotion === 'running';
+  heroArt.dataset.orbitMotion = paused ? 'paused' : 'running';
+  orbitToggle.textContent = paused ? 'Reanudar animación' : 'Pausar animación';
+});
+
 $('#search').addEventListener('input', renderCards);
 window.addEventListener('hashchange', revealLinkedAxis);
 $('#retry-program').addEventListener('click', loadProgram);

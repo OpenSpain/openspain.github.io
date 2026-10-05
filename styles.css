@@ -69,6 +69,15 @@ h1 > span, h2 > span { font-family: var(--serif); font-weight: 400; font-style: 
 .orbit-one { width: 330px; height: 156px; top: 119px; left: calc(50% - 165px); }
 .orbit-two { width: 390px; height: 245px; top: 79px; left: calc(50% - 195px); }
 .orbit-one::after { content: ''; width: 10px; height: 10px; background: var(--gold); border-radius: 50%; position: absolute; top: 20px; right: 37px; box-shadow: 0 0 18px #f0cc7655; }
+.orbit-toggle { position: absolute; top: 12px; right: 16px; z-index: 3; padding: 6px 9px; border: 1px solid #a3c0ff66; border-radius: 5px; background: var(--navy); color: #e1eaff; font-size: 11px; }
+@media (prefers-reduced-motion: no-preference) {
+  .orbit-one::after { top: 0; right: auto; left: 0; offset-path: ellipse(50% 50% at 50% 50%); offset-anchor: center; offset-distance: 87.5%; animation: satellite-orbit 18s linear infinite; }
+  .hero-art[data-orbit-motion="paused"] .orbit-one::after { animation-play-state: paused; }
+}
+@keyframes satellite-orbit {
+  from { offset-distance: 87.5%; }
+  to { offset-distance: 187.5%; }
+}
 .land { position: absolute; bottom: 0; left: 0; right: 0; overflow: hidden; border-radius: 0 0 8px 8px; }
 .land-back { height: 212px; background: #3d68b7; clip-path: polygon(0 29%, 22% 14%, 48% 27%, 69% 12%, 100% 0, 100% 100%, 0 100%); }
 .land-front { height: 178px; background: #132d58; clip-path: polygon(0 0, 28% 14%, 56% 0, 80% 27%, 100% 20%, 100% 100%, 0 100%); }
@@ -452,6 +461,7 @@ form .button { align-self: flex-start; }
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
+  .orbit-toggle { display: none; }
   *, *::before, *::after { transition: none !important; animation: none !important; }
 }
 @media (max-width: 800px) {

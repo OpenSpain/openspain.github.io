@@ -12,6 +12,7 @@ const browser = await chromium.launch();
 const errors = [];
 try {
   const page = await browser.newPage({ viewport: { width: 1440, height: 1000 } });
+  await page.emulateMedia({ reducedMotion: 'no-preference' });
   page.on('pageerror', error => errors.push(error.message));
   const typeformRequests = [];
   page.on('request', request => {
@@ -20,6 +21,46 @@ try {
   const response = await page.goto(baseURL);
   assert.equal(response.status(), 200);
   await page.waitForSelector('.program-card');
+  const satelliteStyle = property => page.locator('.orbit-one').evaluate((node, property) =>
+    getComputedStyle(node, '::after')[property], property);
+  assert.equal(await satelliteStyle('animationName'), 'satellite-orbit');
+  assert.equal(await satelliteStyle('animationDuration'), '18s');
+  assert.equal(await satelliteStyle('animationIterationCount'), 'infinite');
+  assert.match(await satelliteStyle('offsetPath'), /^ellipse\(/);
+  await page.getByRole('button', { name: 'Pausar animación', exact: true }).click();
+  assert.equal(await satelliteStyle('animationPlayState'), 'paused');
+  const orbitPositions = await page.locator('.hero-art').evaluate(node => {
+    const animation = node.getAnimations({ subtree: true }).find(item => item.animationName === 'satellite-orbit');
+    const satellite = node.querySelector('.orbit-one');
+    animation.currentTime = 0;
+    const start = Number.parseFloat(getComputedStyle(satellite, '::after').offsetDistance);
+    animation.currentTime = 4500;
+    const quarter = Number.parseFloat(getComputedStyle(satellite, '::after').offsetDistance);
+    animation.currentTime = 18000;
+    const loop = Number.parseFloat(getComputedStyle(satellite, '::after').offsetDistance);
+    return { start, quarter, loop };
+  });
+  assert.equal(orbitPositions.start, 87.5);
+  assert.equal(orbitPositions.quarter - orbitPositions.start, 25);
+  assert.equal(orbitPositions.loop, orbitPositions.start);
+  await page.getByRole('button', { name: 'Reanudar animación', exact: true }).click();
+  assert.equal(await satelliteStyle('animationPlayState'), 'running');
+  await page.waitForFunction(() =>
+    Number.parseFloat(getComputedStyle(document.querySelector('.orbit-one'), '::after').offsetDistance) > 87.5);
+  await page.emulateMedia({ reducedMotion: 'reduce' });
+  assert.equal(await satelliteStyle('animationName'), 'none');
+  assert.equal(await satelliteStyle('offsetPath'), 'none');
+  assert.equal(await page.locator('#orbit-toggle').isVisible(), false);
+  await page.emulateMedia({ reducedMotion: 'no-preference', media: 'print' });
+  assert.equal(await page.locator('.hero-art').isVisible(), false);
+  await page.emulateMedia({ media: 'screen' });
+  assert.equal(await page.getByRole('button', { name: 'Pausar animación', exact: true }).isVisible(), true);
+  const staticPage = await browser.newPage({ javaScriptEnabled: false, reducedMotion: 'no-preference' });
+  await staticPage.goto(baseURL);
+  assert.equal(await staticPage.locator('.orbit-one').evaluate(node =>
+    getComputedStyle(node, '::after').animationPlayState), 'paused');
+  assert.equal(await staticPage.locator('#orbit-toggle').isVisible(), false);
+  await staticPage.close();
   const signupURL = 'https://g8rpxrjtmaa.typeform.com/to/thCRjB7o';
   const signupLinks = page.getByRole('link', { name: /Hazte simpatizante/ });
   assert.equal(await signupLinks.count(), 2);
@@ -168,6 +209,8 @@ try {
   await page.screenshot({ path: join(screenshotDir, 'openspain-desktop.png'), fullPage: true });
   for (const width of [320, 390, 768, 1440]) {
     await page.setViewportSize({ width, height: 900 });
+    assert.match(await satelliteStyle('offsetPath'), /^ellipse\(/, `Responsive orbit path at ${width}px`);
+    assert.equal(await satelliteStyle('animationPlayState'), 'running', `Orbit animation at ${width}px`);
     const prioritiesSpacing = await page.evaluate(() => {
       const donations = document.querySelector('#donaciones');
       const register = donations.querySelector('.donor-register');
