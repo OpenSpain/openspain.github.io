@@ -1,0 +1,17 @@
+{
+  "name": "openspain",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "test": "node --test tests/program.test.mjs",
+    "test:browser": "node tests/browser.mjs",
+    "pdf": "node export-pdf.mjs",
+    "pdf:presentacion": "node export-presentacion.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.0"
+  }
+}

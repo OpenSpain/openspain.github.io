@@ -1,0 +1,142 @@
+:root { --ink: #15243e; --navy: #0d1b34; --blue: #2459df; --gold: #f0cc76; --muted: #394b66; --line: #d6dae2; }
+* { box-sizing: border-box; }
+body { font-family: Arial, Helvetica, sans-serif; color: var(--ink); margin: 0; background: #f8f6f0; font-size: 11pt; line-height: 1.65; font-weight: 400; }
+em { font-family: Georgia, serif; font-weight: 400; }
+h1, h2, h3, h4 { font-family: 'Avenir Next', Avenir, 'Segoe UI', sans-serif; line-height: 1.15; font-weight: 600; }
+h2 { font-size: 28pt; letter-spacing: -1pt; margin: 14pt 0 22pt; }
+h3 { font-size: 19pt; letter-spacing: -.5pt; }
+p { margin: 11pt 0; }
+a { color: var(--blue); overflow-wrap: anywhere; text-decoration-color: var(--blue); text-underline-offset: 3px; }
+.kicker { font-size: 9pt; letter-spacing: .8pt; font-weight: 700; }
+.cover { min-height: 255mm; position: relative; overflow: hidden; padding: 0 0 10mm; isolation: isolate; }
+.cover-brand { font-size: 27pt; font-weight: 700; letter-spacing: -1.3pt; margin-bottom: 40pt; }
+.cover-brand span { font-weight: 400; }
+.report-flag { display: inline-block; vertical-align: middle; margin-left: 13pt; border-radius: 2pt; }
+.cover > .kicker { margin-top: 24pt; }
+.cover h1 { font-size: 53pt; letter-spacing: -2.5pt; line-height: 1.05; margin: 25pt 0; position: relative; z-index: 2; }
+.cover h1 em { color: var(--blue); }
+.cover-description { font-size: 13pt; line-height: 1.8; position: relative; z-index: 2; }
+.cover-art { position: absolute; left: 0; right: 0; bottom: 26mm; height: 90mm; background: radial-gradient(ellipse at 50% 40%, #234486, var(--navy) 75%); border-radius: 70mm 70mm 3mm 3mm; overflow: hidden; z-index: -1; }
+.cover-sun { background: radial-gradient(circle at 30% 25%, #c3ddff, #508eff 38%, #2459df 70%, #143366); width: 55mm; height: 55mm; border-radius: 50%; position: absolute; top: 8mm; left: calc(50% - 27.5mm); }
+.cover-orbit { width: 112mm; height: 49mm; border: 1px solid #a7c5ff; border-radius: 50%; position: absolute; left: calc(50% - 56mm); top: 11mm; transform: rotate(-20deg); }
+.cover-orbit::after { content: ''; position: absolute; top: 4mm; right: 15mm; width: 3mm; height: 3mm; border-radius: 50%; background: var(--gold); }
+.cover-hill { position: absolute; height: 42mm; bottom: 0; left: 0; right: 0; background: repeating-linear-gradient(25deg, transparent 0, transparent 12px, #a7c5ff26 13px, transparent 14px), #132d58; clip-path: polygon(0 0, 30% 20%, 60% 8%, 100% 32%, 100% 100%, 0 100%); }
+.cover-art > span { position: absolute; bottom: 9mm; left: 10mm; font-size: 9pt; color: #e1eaff; letter-spacing: .8pt; }
+.cover-bottom { position: absolute; bottom: 0; left: 0; right: 0; display: flex; justify-content: space-between; gap: 20pt; border-top: 1px solid var(--line); font-size: 8pt; line-height: 1.5; padding-top: 8pt; }
+.lead { font-size: 11pt; color: var(--muted); line-height: 1.8; }
+.report-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12pt; margin: 26pt 0; }
+.report-stats > div { background: #e8eefb; padding: 16pt 12pt; border-radius: 5pt; }
+.report-stats > div:last-child { background: var(--navy); color: #fff; }
+.report-stats > div:last-child strong { color: var(--gold); }
+.report-stats > div:last-child small { color: #cad5e9; }
+.report-stats strong { font-size: 28pt; letter-spacing: -1pt; line-height: 1.1; font-weight: 500; }
+.report-stats strong > span { font-size: 13pt; }
+.report-stats p { font-size: 10pt; margin-bottom: 4pt; }
+.report-stats small { font-size: 9pt; color: var(--muted); }
+.report-chart { border: 1px solid var(--line); border-radius: 6pt; padding: 18pt; margin: 22pt 0; }
+.report-chart h3 { font-size: 16pt; margin: 10pt 0; }
+.report-chart > p:not(.kicker) { font-size: 10pt; color: var(--muted); }
+.report-chart svg { width: 100%; height: auto; display: block; margin: 15pt 0; }
+.report-chart small { font-size: 9.5pt; line-height: 1.6; display: block; color: var(--muted); }
+.report-note { background: var(--navy); color: #f8f6f0; padding: 17pt; border-radius: 5pt; font-size: 10pt; line-height: 1.8; }
+.report-note p { margin-bottom: 0; }
+.data-source { font-size: 9pt; color: var(--muted); overflow-wrap: anywhere; }
+.contents-page h2 { margin-bottom: 28pt; }
+#report-contents { display: grid; grid-template-columns: 1fr 1fr; gap: 0 25pt; }
+.contents-link { display: flex; align-items: baseline; gap: 10pt; padding: 6pt 0; border-top: 1px solid var(--line); text-decoration: none; font-size: 11pt; line-height: 1.4; break-inside: avoid; }
+.contents-link > span { font-family: monospace; color: var(--blue); font-size: 11pt; font-weight: 700; min-width: 17pt; }
+.contents-note { font-size: 10pt; color: var(--muted); margin-top: 18pt; }
+.report-section { margin-bottom: 25pt; }
+.report-section > h2 { border-top: 3pt solid var(--navy); padding-top: 18pt; }
+.axis-heading { border-top: 2pt solid var(--blue); padding-top: 20pt; margin-top: 20pt; font-size: 22pt; font-weight: 700; line-height: 1.2; }
+.axis-heading .axis-label { display: table; background: #e8eefb; border-radius: 3pt; padding: 6pt 9pt; font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: 700; letter-spacing: .2pt; color: var(--navy); margin-bottom: 12pt; }
+.report-body-content p { color: var(--muted); }
+.report-body-content p, .report-body-content li, .report-body-content blockquote,
+.report-note p, .sources-page > p:not(.kicker), .lead, .contents-note {
+  text-align: justify;
+  text-align-last: start;
+  hyphens: auto;
+}
+.report-body-content .evidence-label, .report-body-content .evidence-unit,
+.report-body-content .evidence-source { text-align: left; hyphens: none; }
+.report-body-content strong { color: var(--navy); }
+.report-body-content .citizen-summary-line { background: #edf1f8; border-left: 3pt solid var(--blue); padding: 9pt 12pt; break-inside: avoid; }
+.technical-heading { font-size: 14pt; margin: 19pt 0 12pt; padding-top: 10pt; border-top: 1px solid var(--line); }
+.policy-evidence { margin: 12pt 0; }
+.evidence-figure { margin: 10pt 0; padding: 10pt; border: 1px solid var(--line); border-radius: 4pt; break-inside: avoid; }
+.evidence-figure figcaption { font-size: 12pt; line-height: 1.4; font-weight: 700; }
+.evidence-label { margin: 0 0 5pt; font-size: 9pt; font-weight: 700; color: var(--blue); }
+.evidence-unit, .evidence-source, .evidence-note { font-size: 9.5pt; line-height: 1.5; color: var(--muted); margin: 5pt 0; }
+.evidence-figure svg { width: 100%; height: auto; display: block; margin: 8pt 0; }
+.target-figure { background: #fcf7e9; border-left: 3pt solid #b28c37; }
+.target-figure .evidence-label { color: #755418; }
+.evidence-gap { background: #edf1f8; padding: 9pt; font-size: 10pt; line-height: 1.6; border-left: 3pt solid var(--blue); break-inside: avoid; }
+.evidence-table { display: none; }
+.report-chart .kicker { margin: 0; }
+.report-chart > p:not(.kicker) { margin: 6pt 0; }
+.report-body-content ul { padding-left: 18pt; margin: 12pt 0; }
+.report-body-content li { padding-left: 4pt; margin-bottom: 9pt; }
+.report-body-content li::marker { color: var(--blue); }
+blockquote { margin: 15pt 0; padding: 12pt 18pt; background: #edf1f8; border-left: 3pt solid var(--blue); font-size: 11pt; }
+table { border-collapse: collapse; width: 100%; font-size: 10pt; margin: 20pt 0; }
+th, td { padding: 10pt 8pt; text-align: left; vertical-align: top; border-bottom: 1px solid var(--line); }
+th { background: var(--navy); color: white; font-weight: 500; }
+td:first-child { font-weight: 600; width: 29%; }
+tbody tr:nth-child(even) { background: #edf1f8; }
+.sources-page h3 { font-size: 15pt; margin-top: 26pt; }
+.sources-page p { font-size: 10.5pt; }
+.sources-page a { font-size: 10pt; }
+.closing { margin-top: 35pt; background: var(--navy); color: #f8f6f0; padding: 25pt; border-radius: 5pt; }
+.closing > p { font-size: 7pt; letter-spacing: 1.5pt; }
+.closing h2 { font-size: 36pt; }
+.closing h2 em { color: var(--gold); }
+.closing > span { font-size: 17pt; letter-spacing: -.8pt; }
+[hidden] { display: none; }
+@page { size: A4; margin: 17mm 18mm 19mm; }
+@media print {
+  body { background: #fffdf8; line-height: 1.5; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .cover, .data-page, .contents-page { break-after: page; }
+  .report-section { break-before: auto; margin-bottom: 18pt; }
+  .sources-page { break-before: page; margin-top: 0; }
+  .report-section > h2 { font-size: 25pt; padding-top: 13pt; margin: 20pt 0 15pt; }
+  .axis-heading { break-before: auto; font-size: 22pt; padding-top: 15pt; margin: 22pt 0 14pt; }
+  .axis-heading .axis-label { margin-bottom: 10pt; }
+  .report-body-content p { margin: 8pt 0; }
+  .report-body-content ul { margin: 9pt 0; }
+  .report-body-content li { margin-bottom: 6pt; }
+  .report-body-content h3:not(.axis-heading) { font-size: 16pt; margin: 17pt 0 10pt; }
+  .report-body-content blockquote { margin: 10pt 0; padding: 10pt 14pt; }
+  .data-page h2 { font-size: 25pt; margin: 12pt 0 16pt; }
+  .data-page .lead { font-size: 11pt; line-height: 1.6; }
+  .report-stats { margin: 18pt 0; }
+  .report-stats > div { padding: 12pt; }
+  .report-chart { padding: 12pt; margin: 16pt 0; }
+  .report-chart svg { max-height: 140pt; margin: 10pt 0; }
+  .report-note { padding: 12pt; line-height: 1.6; }
+  .data-source { margin-bottom: 0; }
+  table { margin: 14pt 0; }
+  th, td { padding: 8pt; }
+  .report-summary { break-before: page; }
+  .report-summary table { font-size: 10pt; line-height: 1.4; }
+  .report-summary th, .report-summary td { padding: 6pt; }
+  .sources-page h2 { font-size: 26pt; margin: 10pt 0 14pt; }
+  .sources-page h3 { font-size: 14pt; margin: 12pt 0 6pt; }
+  .sources-page p { margin: 5pt 0; }
+  .sources-page > .kicker { margin: 0 0 8pt; break-after: avoid; }
+  .sources-page > .closing { display: none; }
+  .closing { display: flex; align-items: end; justify-content: space-between; gap: 15pt; margin-top: 12pt; padding: 9pt 12pt; }
+  .closing > p { display: none; }
+  .closing h2 { font-size: 18pt; margin: 0; }
+  .closing > span { font-size: 12pt; }
+  h2, h3, h4 { break-after: avoid; }
+  p, li { orphans: 3; widows: 3; }
+  .report-stats, .report-chart, .report-note, .closing, tr { break-inside: avoid; }
+  thead { display: table-header-group; }
+  .report-body-content li { break-inside: avoid; }
+  .sources-page > .closing h2 { break-before: auto; }
+}
+@media screen {
+  body { max-width: 210mm; margin: 30px auto; padding: 18mm; box-shadow: 0 8px 60px #15243e1c; background: #fffdf8; }
+  .cover, .data-page, .contents-page, .sources-page { margin-bottom: 60px; }
+  .axis-heading { margin-top: 60px; }
+}
