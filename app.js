@@ -1,4 +1,4 @@
-import { categories, parseProgram, filterAxes, ipc, months, getChapter, inlineParts } from './program.js';
+import { categories, parseProgram, filterAxes, ipc, months, getChapter, inlineParts, detailHeading } from './program.js';
 import { createPolicyEvidence, observedCharts } from './charts.js';
 
 const $ = selector => document.querySelector(selector);
@@ -166,7 +166,7 @@ function openMeasure(axis, trigger) {
   const summary = element('div', 'citizen-summary');
   appendMarkdown(summary, axis.citizenSummary);
   const details = element('details', 'technical-details');
-  details.append(element('summary', '', 'Ficha técnica · medidas, costes y garantías'));
+  details.append(element('summary', '', detailHeading));
   const technical = element('div', 'technical-content');
   appendMarkdown(technical, axis.technicalBody);
   details.append(technical);

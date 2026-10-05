@@ -6,6 +6,8 @@ export const categories = [
   { id: 'future', label: 'El siguiente salto', short: 'Tecnología y futuro' },
 ];
 
+export const detailHeading = 'La propuesta en detalle';
+
 export const axisMetadata = [
   ['institutions', 'Integridad sin excepciones.', 'Que cada euro público tenga explicación.', '◎'],
   ['life', 'Una casa. Un proyecto de vida.', 'Vivienda accesible y garantías para ambas partes.', '⌂'],
@@ -58,6 +60,7 @@ export function inlineParts(text) {
 }
 
 export function parseProgram(markdown) {
+  markdown = markdown.replaceAll('\r\n', '\n');
   const matches = [...markdown.matchAll(/^### 2\.(\d+)\. (.+)\r?$/gm)];
   if (!matches.length) throw new Error('El documento no contiene ejes reconocibles.');
   return matches.map((match, index) => {
@@ -66,18 +69,19 @@ export function parseProgram(markdown) {
     const nextSection = markdown.indexOf('\n## ', start);
     const end = matches[index + 1]?.index ?? (nextSection === -1 ? markdown.length : nextSection);
     const body = markdown.slice(start, end).trim();
-    const measuresBlock = body.match(/\*\*Propuestas:\*\*\s*([\s\S]*?)(?=\n\*\*|$)/)?.[1];
-    const measures = measuresBlock ? [...measuresBlock.matchAll(/^- (.+)$/gm)].map(item => item[1]) : [];
-    if (!measures.length) throw new Error(`El eje ${id} no contiene propuestas reconocibles.`);
     const metadata = axisMetadata[id - 1];
     if (!metadata) throw new Error(`Falta información visual para el eje ${id}.`);
-    const marker = '\n#### Ficha técnica';
+    const marker = `\n#### ${detailHeading}`;
     const split = body.indexOf(marker);
-    if (split === -1) throw new Error(`El eje ${id} no distingue resumen ciudadano y ficha técnica.`);
+    if (split === -1) throw new Error(`El eje ${id} no distingue resumen ciudadano y propuesta en detalle.`);
+    const technicalBody = body.slice(split + marker.length).trim();
+    const measuresBlock = technicalBody.match(/^- .+(?:\n- .+)*/m)?.[0];
+    const measures = measuresBlock ? measuresBlock.split('\n').map(line => line.slice(2)) : [];
+    if (!measures.length) throw new Error(`El eje ${id} no contiene propuestas reconocibles.`);
     return {
       id, title: match[2], body, measures,
       citizenSummary: body.slice(0, split).trim(),
-      technicalBody: body.slice(split + marker.length).trim(),
+      technicalBody,
       category: metadata[0], headline: metadata[1], description: metadata[2], icon: metadata[3],
       searchText: normalize(`${match[2]} ${body} ${metadata[1]}`),
     };

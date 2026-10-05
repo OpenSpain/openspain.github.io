@@ -1,4 +1,4 @@
-import { categories, parseProgram, ipc, months, inlineParts } from './program.js';
+import { categories, parseProgram, ipc, months, inlineParts, detailHeading } from './program.js';
 import { createPolicyEvidence } from './charts.js';
 
 function node(tag, text, className) {
@@ -57,7 +57,7 @@ function renderMarkdown(markdown) {
       container.append(section);
     }
     if (line.startsWith('#### ')) {
-      if (line === '#### Ficha técnica' && activeAxisId !== undefined) {
+      if (line === `#### ${detailHeading}` && activeAxisId !== undefined) {
         content.append(createPolicyEvidence(activeAxisId));
       }
       content.append(node('h4', line.slice(5), 'technical-heading'));

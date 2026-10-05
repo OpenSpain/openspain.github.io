@@ -21,13 +21,13 @@ Los problemas siguientes son hipótesis de trabajo y preocupaciones ciudadanas. 
 
 **Primera lectura:** cada eje empieza con una explicación en párrafos cortos que une el problema, la propuesta, un ejemplo y los intereses que hay que equilibrar, sin repetir etiquetas. Los ejemplos son situaciones hipotéticas: ayudan a entender una medida, pero no son casos documentados, resultados obtenidos ni derechos nuevos. No necesitas compartir una etiqueta política para valorar una propuesta; sí conocer sus beneficios posibles, costes y límites.
 
-**Para profundizar:** «Plan de actuación» reúne los objetivos del primer año y de cuatro años, el calendario y los responsables. Después encontrarás gráficos y una «Ficha técnica» con argumentos, alternativas, indicadores, fuentes, medidas, costes y garantías. Las cantidades y los plazos se conservan para poder exigir explicaciones: son planes propuestos para ámbitos delimitados, no previsiones nacionales ni resultados garantizados.
+**Para profundizar:** «Plan de actuación» reúne los objetivos del primer año y de cuatro años, el calendario y los responsables. Después encontrarás gráficos y «La propuesta en detalle»: explica el problema y las alternativas, conserva las medidas en una lista y desarrolla su evaluación, fuentes, costes y garantías en párrafos sin etiquetas repetidas. Las cantidades y los plazos se conservan para poder exigir explicaciones: son planes propuestos para ámbitos delimitados, no previsiones nacionales ni resultados garantizados.
 
 **Palabras que usamos:** «trazabilidad» significa poder seguir quién decide, qué hace y con qué dinero; «interoperabilidad», que sistemas distintos puedan intercambiar información con autorización; «línea base», la situación medida antes de empezar; «cohorte», el mismo grupo seguido durante un período; y «adicionalidad», la mejora que no habría ocurrido sin la ayuda o medida. Medir una actividad no demuestra que haya causado un resultado.
 
 **Qué significa «haremos»:** expresa la actuación que proponemos impulsar, no una medida ya aprobada. OpenSpain puede investigar, preparar propuestas, reunir apoyos y solicitar acuerdos; las administraciones y demás entidades competentes deben autorizar y ejecutar lo que les corresponde. Si falta un acuerdo, personal o financiación, publicaremos el bloqueo, no una entrega ficticia.
 
-**Cómo leer los plazos:** el primer año tiene como referencia octubre de 2026–2027 y el horizonte de cuatro años, octubre de 2030. Los códigos M3, M6, M12 y M48 indican meses desde el inicio de referencia; sirven para seguir los pasos, no para afirmar que todos los ejes estén activos. Los capítulos 4 y 5 explican condiciones, calendario y financiación. Las demás medidas de cada ficha requieren su propio desarrollo antes de ejecutarse.
+**Cómo leer los plazos:** el primer año tiene como referencia octubre de 2026–2027 y el horizonte de cuatro años, octubre de 2030. Los códigos M3, M6, M12 y M48 indican meses desde el inicio de referencia; sirven para seguir los pasos, no para afirmar que todos los ejes estén activos. Los capítulos 4 y 5 explican condiciones, calendario y financiación. Las demás medidas de cada eje requieren su propio desarrollo antes de ejecutarse.
 
 ### 2.1. Corrupción, partidos y confianza institucional
 
@@ -47,15 +47,13 @@ En cuatro años, el objetivo es extender a 30 entidades, alcanzar un 95 % de pub
 
 La ejecución correspondería a unidades de transparencia y órganos de control; el calendario previsto incluye catálogo, diagnóstico y recursos en M1–M3; publicación reutilizable y registro de recomendaciones en M4–M6; revisión trimestral desde M7. La fiscalización será independiente del equipo fiscalizado.
 
-#### Ficha técnica
+#### La propuesta en detalle
 
-**Fundamento y alternativas:** La trazabilidad y los controles reducen oportunidades de ocultación y permiten exigir explicaciones, pero publicar más datos no demuestra menos corrupción. Frente a crear otro organismo sin función clara, se prioriza mejorar capacidad e independencia de los existentes y comprobar qué recomendaciones se ejecutan.
+Queremos estudiar las posibles irregularidades en financiación, nombramientos, subvenciones y contratación, así como los conflictos de interés y las dificultades para exigir cuentas. Una sospecha requiere comprobación; no equivale a un delito demostrado.
 
-**Medición y fuentes:** Porcentaje de documentos exigibles publicados en plazo, comprobado contra el catálogo y registros de cada entidad. Añadir cobertura, retrasos y recomendaciones vencidas; las denuncias son señales para investigar, no una estimación de corrupción. Documentos publicados en plazo/documentos exigibles y recomendaciones atendidas/recomendaciones vencidas. Comprobar una muestra independiente y explicar reservas legales. No se promete una cifra de corrupción eliminada ni de ahorro.
+Poder seguir quién decide y cómo se utiliza el dinero facilita detectar problemas y exigir explicaciones. Por eso, proponemos reforzar la capacidad y la independencia de los órganos de control existentes y comprobar qué recomendaciones se ejecutan, antes de crear otro organismo sin una función clara. Publicar más información, por sí solo, no demuestra que haya menos corrupción.
 
-**Problema a estudiar:** posibles irregularidades en financiación, nombramientos, subvenciones y contratación; conflictos de interés y falta de rendición de cuentas.
-
-**Propuestas:**
+Para abordar estos problemas, proponemos las siguientes medidas:
 
 - Publicar financiación, donaciones, subvenciones y gastos de partidos y entidades vinculadas en formatos reutilizables, con los límites de protección de datos que correspondan.
 - Publicar la financiación de sindicatos y organizaciones empresariales, distinguiendo cuotas, servicios, patrimonio, subvenciones y contratos públicos. Contrastar sus cuentas auditadas con presupuestos, resoluciones y la Base de Datos Nacional de Subvenciones, sin depender únicamente de datos de los propios beneficiarios ni revelar identidades de afiliados [F38].
@@ -67,15 +65,17 @@ La ejecución correspondería a unidades de transparencia y órganos de control;
 - Aplicar controles proporcionados sobre conflictos de interés y puertas giratorias, con sanciones efectivas y garantías.
 - Utilizar estimación asistida por IA para identificar posibles sobrecostes en contratación, con el método, los límites y la revisión humana descritos en el eje de licitaciones. Una desviación estimada no demuestra por sí sola corrupción.
 
-**Competencias:** Estado y demás administraciones dentro de sus atribuciones; órganos de control y justicia con independencia.
+Para comprobar los avances, compararemos los documentos exigibles según el catálogo de cada entidad con los publicados dentro de plazo, utilizando sus registros y una muestra independiente. Publicaremos la cobertura, los retrasos, el tiempo de fiscalización y la proporción de recomendaciones atendidas respecto de las vencidas. También seguiremos la recuperación de fondos cuando la ordene una resolución firme.
 
-**Indicadores:** cumplimiento de obligaciones de transparencia, tiempo de fiscalización, recomendaciones ejecutadas y recuperación de fondos tras resolución firme. Para ayudas: financiación pública y propia por entidad, cuentas contrastadas, finalidad y resultados verificados y reclamaciones resueltas con garantías. El número de denuncias, por sí solo, no mide la corrupción ni demuestra cómo votan sus beneficiarios.
+En las ayudas, contrastaremos la financiación pública y propia de cada entidad, sus cuentas, la finalidad de los fondos, los resultados verificados y las reclamaciones resueltas con garantías. Explicaremos las reservas legales que impidan publicar información. Las denuncias son señales para investigar, no una medida de corrupción ni una prueba de cómo votan sus beneficiarios. No prometemos una cifra de corrupción eliminada ni de ahorro.
 
-**Evidencia y diagnóstico pendiente:** Auditorías, financiación política, resoluciones y cumplimiento de transparencia. Contrastar alcance, actualidad y limitaciones antes de aprobar medidas.
+El Estado y las demás administraciones aplicarían las medidas dentro de sus atribuciones. Los órganos de control y la justicia actuarían con independencia.
 
-**Coste y financiación:** Pendientes de estimación. Incluir fiscalización, canales de denuncia, sistemas de publicación y revisión de ayudas y financiación sindical. No hay presupuesto ni financiación aprobados en este borrador.
+El diagnóstico deberá revisar auditorías, financiación política, resoluciones y cumplimiento de transparencia. Antes de aprobar medidas, habrá que comprobar el alcance, la actualidad y las limitaciones de estas fuentes.
 
-**Riesgos y garantías:** Evitar acusaciones sin prueba, proteger denunciantes y preservar independencia judicial.
+El coste y su financiación están pendientes de estimación. El cálculo deberá incluir fiscalización, canales de denuncia, sistemas de publicación y revisión de ayudas y financiación sindical. No hay presupuesto ni financiación aprobados en este borrador.
+
+La aplicación deberá evitar acusaciones sin prueba, proteger denunciantes y preservar independencia judicial.
 
 ### 2.2. Vivienda: escasez de oferta y precios elevados
 
@@ -95,15 +95,13 @@ En cuatro años, el objetivo es tener las 150 viviendas realmente disponibles y 
 
 La ejecución correspondería a ayuntamientos y comunidad autónoma; el calendario previsto incluye inventario de demanda, suelo y vivienda recuperable en M1–M3; personal técnico, financiación y contratos en M4–M6; licencias y adjudicaciones en M7–M12; rehabilitación, movilización o construcción en M13–M36; comprobación de ocupación y mantenimiento en M37–M48. Coordinar garantías de alquiler, mediación y apoyos vulnerables sin sustituir decisiones judiciales.
 
-#### Ficha técnica
+#### La propuesta en detalle
 
-**Fundamento y alternativas:** Allí donde la demanda supera la oferta utilizable, ampliar vivienda y agilizar actuaciones puede aliviar restricciones; ayudas a la demanda sin nueva oferta pueden trasladarse a precios. Se compararán rehabilitación, movilización y construcción según plazo y coste. El caso de Auckland respalda construcción tras cambios urbanísticos, no garantiza alquileres más bajos en España [F5].
+Alquilar o comprar resulta difícil para muchos hogares, especialmente donde se concentra el empleo. Queremos comprobar dónde faltan viviendas asequibles y qué obstáculos impiden construir, rehabilitar o poner en uso las que ya existen.
 
-**Medición y fuentes:** Mediana y percentil 90 de días de licencia, registros municipales; viviendas habitables entregadas y pagos obligatorios/ingreso neto del hogar. El IPV del INE mide compra, no alquiler ni asequibilidad por sí solo [F4]. Plazos frente a los 12 meses anteriores a T0, incluyendo pendientes y denegaciones; viviendas utilizables, no anuncios; pagos/ingreso del hogar. No eliminar controles de seguridad ni recurrir a desalojos automáticos.
+Cuando muchas personas buscan vivienda y hay pocas disponibles para vivir, ampliar la oferta y agilizar las actuaciones puede aliviar el problema. Compararemos rehabilitar, recuperar viviendas sin uso y construir según su coste y el tiempo necesario. Las ayudas económicas también deben evaluarse: si no aumenta la oferta, parte de la ayuda puede acabar trasladándose a precios más altos. La experiencia de Auckland aporta evidencia sobre construcción tras cambios urbanísticos, pero no garantiza alquileres más bajos en España [F5].
 
-**Problema a estudiar:** dificultades para alquilar o comprar, especialmente donde se concentra el empleo; insuficiencia de vivienda asequible y obstáculos para construir o rehabilitar.
-
-**Propuestas:**
+Para abordar estos problemas, proponemos las siguientes medidas:
 
 - Elaborar diagnósticos locales de demanda, oferta, suelo disponible, vivienda vacía y capacidad de infraestructuras.
 - Aumentar el parque público y protegido de alquiler con mecanismos que preserven su asequibilidad a largo plazo.
@@ -117,19 +115,21 @@ La ejecución correspondería a ayuntamientos y comunidad autónoma; el calendar
 - Evaluar garantías y coberturas de alquiler con condiciones transparentes y coste acreditado, para reducir riesgos de pequeños propietarios sin ocultar responsabilidades ni trasladar todo el coste a inquilinos.
 - Coordinar la protección de hogares vulnerables con apoyos públicos y alternativas habitacionales, evitando que su coste recaiga indefinidamente sobre un propietario sin mecanismos de apoyo; cualquier medida requiere encaje legal y financiación.
 
-**Competencias:** principalmente comunidades autónomas y ayuntamientos; Estado en financiación, legislación aplicable y coordinación.
+Para comprobar los resultados, mediremos las viviendas habitables realmente entregadas y mantenidas como asequibles, la oferta residencial de cada zona y qué proporción del ingreso neto del hogar se destina a vivienda y gastos obligatorios. No contaremos anuncios como viviendas disponibles. El Índice de Precios de Vivienda (IPV) del INE mide precios de compra, no alquileres ni asequibilidad por sí solo [F4].
 
-**Indicadores:** esfuerzo de alquiler respecto a ingresos, vivienda asequible incorporada y mantenida, plazos de licencia y oferta residencial por zona.
+Los registros municipales permitirán comparar los plazos de licencia con los 12 meses anteriores al inicio de referencia, T0. Publicaremos la mediana —el plazo que divide los expedientes en dos mitades— y el percentil 90 —el plazo dentro del que se resuelve el 90 %—, sin ocultar expedientes pendientes o denegados. La mejora no puede lograrse eliminando controles de seguridad ni recurriendo a desalojos automáticos.
 
-**Evidencia y diagnóstico pendiente:** Oferta y demanda local, ingresos, licencias y parque de vivienda. Contrastar alcance, actualidad y limitaciones antes de aprobar medidas.
+La aplicación correspondería principalmente a las comunidades autónomas y los ayuntamientos. El Estado intervendría en financiación, legislación aplicable y coordinación.
 
-**Datos contrastados y alcance:** El IPV nacional del segundo trimestre de 2026 registra un aumento anual del 12,2 % en precios de compra [F4]. No mide alquileres. Interior registra 14.875 hechos conocidos por allanamiento y usurpación en 2025, frente a 16.426 en 2024 y 15.289 en 2023 [F7]. No son viviendas únicas ocupadas ni condenas; la serie incluye distintos inmuebles y delitos. No se presenta como un dato anual de 2026.
+El diagnóstico deberá revisar oferta y demanda local, ingresos, licencias y parque de vivienda. Antes de aprobar medidas, habrá que comprobar el alcance, la actualidad y las limitaciones de estas fuentes.
 
-**Parque no equivale a necesidad cubierta:** El Censo de 2021 contabilizó 26.623.708 viviendas, 18.536.616 principales en el apartado de parque y 3.837.328 clasificadas como vacías por consumo eléctrico [F14]. Los 18.539.223 hogares familiares son otro universo: no se restan hogares o personas del parque para declarar un excedente. Disponibilidad, estado, ubicación y precio deben contrastarse. Estas cifras son históricas, no el stock actual.
+El IPV nacional del segundo trimestre de 2026 registra un aumento anual del 12,2 % en precios de compra [F4]. No mide alquileres. Interior registra 14.875 hechos conocidos por allanamiento y usurpación en 2025, frente a 16.426 en 2024 y 15.289 en 2023 [F7]. No son viviendas únicas ocupadas ni condenas; la serie incluye distintos inmuebles y delitos. No se presenta como un dato anual de 2026.
 
-**Personas que necesitan vivienda:** La encuesta de 2022 registró 28.552 adultos usuarios de centros de alojamiento o restauración en municipios de más de 20.000 habitantes [F15]. No cuenta a todas las personas sin hogar ni a todos los hogares que necesitan una vivienda asequible. Este programa no dispone aún de un total nacional comparable y verificado. Para dimensionar cada piloto, depurar listas de solicitantes y emergencia residencial, estimar formación de hogares y emancipación retrasada y cruzar demanda con oferta habitable y asequible; identificar solapamientos para no contar dos veces un hogar.
+El Censo de 2021 contabilizó 26.623.708 viviendas, 18.536.616 principales en el apartado de parque y 3.837.328 clasificadas como vacías por consumo eléctrico [F14]. Los 18.539.223 hogares familiares son otro universo: no se restan hogares o personas del parque para declarar un excedente. Disponibilidad, estado, ubicación y precio deben contrastarse. Estas cifras son históricas, no el stock actual.
 
-**Ocupación: distinguir conductas antes de proponer penas:**
+La encuesta de 2022 registró 28.552 adultos usuarios de centros de alojamiento o restauración en municipios de más de 20.000 habitantes [F15]. No cuenta a todas las personas sin hogar ni a todos los hogares que necesitan una vivienda asequible. Este programa no dispone aún de un total nacional comparable y verificado. Para dimensionar cada piloto, habrá que depurar listas de solicitantes y emergencia residencial, estimar formación de hogares y emancipación retrasada y cruzar demanda con oferta habitable y asequible; se identificarán solapamientos para no contar dos veces un hogar.
+
+Antes de proponer penas por ocupación, hay que distinguir estas situaciones y sus respuestas legales:
 
 | Situación | Marco penal de referencia | Respuesta a evaluar |
 |---|---|---|
@@ -140,9 +140,9 @@ La ejecución correspondería a ayuntamientos y comunidad autónoma; el calendar
 
 La cárcel ya existe para determinadas conductas; condena y cumplimiento efectivo no son lo mismo. El artículo 795 de la LECrim incluye los artículos 202 y 245 desde abril de 2025, sujeto a requisitos procesales: no garantiza desalojo universal en 48 horas [F8]. La propuesta prioriza capacidad judicial, restitución procedente, reparación y protección; cualquier cambio de sanciones necesita evaluación jurídica y empírica.
 
-**Coste y financiación:** Pendientes de estimación. Incluir suelo, construcción, rehabilitación, garantías y apoyos habitacionales. No hay presupuesto ni financiación aprobados en este borrador.
+El coste y su financiación están pendientes de estimación. El cálculo deberá incluir suelo, construcción, rehabilitación, garantías y apoyos habitacionales. No hay presupuesto ni financiación aprobados en este borrador.
 
-**Riesgos y garantías:** Evitar ayudas que eleven precios, desplazamientos y traslados de costes sin financiación.
+La aplicación deberá evitar ayudas que eleven precios, desplazamientos y traslados de costes sin financiación.
 
 ### 2.3. Vivienda turística y convivencia
 
@@ -162,15 +162,13 @@ En cuatro años, el objetivo es extender a 10 municipios, comprobar el 95 % de l
 
 La ejecución correspondería a turismo autonómico, ayuntamientos e inspección; el calendario previsto incluye muestra y acceso legal a registros en M1–M3; coordinación con plataformas y notificaciones en M4–M6; expedientes con garantías desde M7. Proponer límites territoriales solo donde el diagnóstico los justifique.
 
-#### Ficha técnica
+#### La propuesta en detalle
 
-**Fundamento y alternativas:** Una oferta legal más diversa y una competencia efectiva pueden facilitar viajes y gasto local; precios menores no garantizan por sí solos mayor beneficio neto o mejores salarios. Comparar ampliar capacidad compatible, desestacionalizar, mejorar transporte y simplificar requisitos redundantes con límites donde haya presión acreditada. Una prohibición general puede desplazar actividad sin recuperar vivienda; medir costes de servicios y efectos en municipios próximos.
+En algunas localidades, la vivienda turística puede desplazar alquiler residencial, aumentar la presión sobre los barrios o funcionar sin la autorización exigida. Su impacto debe comprobarse en cada zona: no explica por sí solo todos los precios de la vivienda.
 
-**Medición y fuentes:** Anuncios únicos sin autorización exigible/anuncios revisados en una muestra estable, contrastados con registros turísticos y resoluciones. Añadir precio final por noche de una cesta fija de estancias, con ocupantes, fechas, duración, categoría y cargos obligatorios comparables; publicar mediana, dispersión y oferta disponible. Los cambios de alquiler residencial requieren fuentes separadas y no se atribuyen automáticamente a la regulación turística. Anuncios únicos en muestras comparables, separando indicios, expedientes y resoluciones firmes. Vigilar desplazamiento a zonas vecinas y alquiler residencial; no atribuir toda variación de precios a esta medida.
+Una oferta turística legal más diversa y una competencia efectiva pueden facilitar los viajes y el gasto local, pero precios menores no garantizan mayor beneficio neto ni mejores salarios. Compararemos ampliar la capacidad compatible con el barrio, repartir la actividad durante el año, mejorar el transporte y simplificar requisitos redundantes con establecer límites donde exista presión acreditada. Una prohibición general puede desplazar la actividad sin recuperar vivienda; también hay que estudiar los costes de servicios y los efectos en municipios próximos.
 
-**Problema a estudiar:** posible desplazamiento del alquiler residencial, actividad no autorizada y presión sobre barrios. Su impacto varía por localidad y no explica por sí solo todos los precios.
-
-**Propuestas:**
+Para abordar estos problemas, proponemos las siguientes medidas:
 
 - Hacer verificables los registros y autorizaciones exigibles, coordinando administraciones y plataformas conforme a la normativa.
 - Inspeccionar la oferta irregular y exigir responsabilidad por incumplimientos con procedimientos garantistas.
@@ -183,15 +181,17 @@ La ejecución correspondería a turismo autonómico, ayuntamientos e inspección
 - Evaluar nueva oferta y rehabilitación de edificios compatibles, especialmente inmuebles sin uso residencial cuando la normativa lo permita. Coordinar capacidad con transporte y servicios; no desplazar residentes o dañar espacios protegidos para aumentar plazas.
 - Favorecer temporadas y destinos con capacidad disponible mediante información y conectividad, sin prometer crecimiento ilimitado o subvencionar viajes sin beneficio adicional contrastado.
 
-**Competencias:** comunidades autónomas y ayuntamientos, con el marco estatal y europeo aplicable.
+Para evaluar la actividad no autorizada, compararemos los anuncios únicos sin autorización exigible con todos los anuncios revisados en una muestra estable, contrastándolos con registros turísticos, inspecciones y resoluciones. Separaremos indicios, expedientes y resoluciones firmes.
 
-**Indicadores:** oferta turística autorizada y no autorizada, precio final y disponibilidad por temporada, empleo y actividad local, coste público asociado, vivienda recuperada para residencia, alquiler residencial y reclamaciones vecinales.
+Seguiremos el precio final por noche de una cesta fija de estancias, manteniendo comparables ocupantes, fechas, duración, categoría y cargos obligatorios. Publicaremos la mediana, las diferencias entre precios, la disponibilidad por temporada, el empleo, la actividad local, el coste público y las reclamaciones vecinales. La vivienda recuperada para residencia y los alquileres residenciales se comprobarán con fuentes específicas. Vigilar los municipios próximos permitirá detectar desplazamientos; no atribuiremos automáticamente toda variación de precios a esta regulación.
 
-**Evidencia y diagnóstico pendiente:** Registros turísticos, inspecciones y mercado residencial por zona. Contrastar alcance, actualidad y limitaciones antes de aprobar medidas.
+La aplicación correspondería a las comunidades autónomas y los ayuntamientos, dentro del marco estatal y europeo aplicable.
 
-**Coste y financiación:** Pendientes de estimación. Incluir registro, inspección y gestión territorial. No hay presupuesto ni financiación aprobados en este borrador.
+El diagnóstico deberá revisar registros turísticos, inspecciones y mercado residencial por zona. Antes de aprobar medidas, habrá que comprobar el alcance, la actualidad y las limitaciones de estas fuentes.
 
-**Riesgos y garantías:** Evitar restricciones indiscriminadas y desplazamiento de actividad a otras zonas.
+El coste y su financiación están pendientes de estimación. El cálculo deberá incluir registro, inspección y gestión territorial. No hay presupuesto ni financiación aprobados en este borrador.
+
+La aplicación deberá evitar restricciones indiscriminadas y desplazamiento de actividad a otras zonas.
 
 ### 2.4. Salarios bajos y calidad del empleo
 
@@ -211,15 +211,13 @@ En cuatro años, el objetivo es incorporar 1.000 pymes y 5.000 trabajadores al s
 
 La ejecución correspondería a servicios de empleo, empresas y agentes sociales; el calendario previsto incluye sectores y medición inicial en M1–M3; formación aplicada, inversión y acuerdos de reparto de mejoras en M4–M6; aplicación desde M7. Ampliar en años 2–4 solo con resultados y financiación.
 
-#### Ficha técnica
+#### La propuesta en detalle
 
-**Fundamento y alternativas:** Formación e inversión pueden aumentar valor producido, pero no aseguran que llegue al trabajador; por eso se combinan con negociación y cumplimiento laboral. Frente a subvencionar empleo sin mejora duradera, evaluar salario por hora, continuidad y productividad. La EPA describe empleo, no demuestra el efecto de este piloto [F1].
+Queremos estudiar los salarios que no alcanzan para afrontar el coste de vida, la baja productividad de determinados sectores y las dificultades para desarrollar una carrera profesional.
 
-**Medición y fuentes:** Mediana del salario bruto por hora efectiva de toda la cohorte, deflactada con IPC general [F2], a partir de nóminas y horas legalmente accesibles. Registrar desempleo y salidas por separado: no mejorar la mediana expulsando salarios bajos. Nóminas y horas efectivas ajustadas por IPC; empleo, productividad y comparación con empresas similares. No lograr la mejora mediante horas no pagadas ni presentarla como previsión salarial para toda España.
+La formación y la inversión pueden aumentar el valor producido, pero no aseguran que esa mejora llegue al trabajador. Por eso deben combinarse con negociación y cumplimiento de las normas laborales. Antes de subvencionar empleo sin una mejora duradera, evaluaremos el salario por hora, la continuidad y la productividad. La EPA describe la situación del empleo, pero no demuestra el efecto de este piloto [F1].
 
-**Problema a estudiar:** salarios insuficientes frente al coste de vida, baja productividad en determinados sectores y dificultades para desarrollar carreras profesionales.
-
-**Propuestas:**
+Para abordar estos problemas, proponemos las siguientes medidas:
 
 - Favorecer inversión productiva, formación y adopción tecnológica, especialmente en pequeñas empresas.
 - Reforzar el cumplimiento de la normativa laboral y la negociación colectiva.
@@ -229,15 +227,17 @@ La ejecución correspondería a servicios de empleo, empresas y agentes sociales
 - Facilitar el crecimiento empresarial eliminando trabas innecesarias sin rebajar derechos laborales.
 - Evaluar salarios, fiscalidad y prestaciones conjuntamente para mejorar la renta disponible y evitar desincentivos injustificados.
 
-**Competencias:** Estado, comunidades autónomas y agentes sociales según la medida.
+La evaluación seguirá a todo el grupo participante, utilizando nóminas y horas efectivamente trabajadas a las que se pueda acceder legalmente. Calcularemos la mediana del salario bruto por hora y descontaremos el efecto de la inflación con el IPC general [F2]. Registraremos por separado desempleo y salidas: excluir a quienes cobran menos no puede presentarse como una mejora salarial.
 
-**Indicadores:** salario mediano real, renta disponible, productividad por hora, estabilidad laboral y pobreza de personas ocupadas. Para representación laboral: coste y uso agregado del crédito horario, atención, acuerdos y cumplimiento, sin identificar afiliados ni usar resultados como excusa para represalias.
+Compararemos los resultados con empresas similares y observaremos renta disponible, productividad por hora, estabilidad laboral y pobreza de personas ocupadas. En la representación laboral, revisaremos costes y uso agregado del crédito horario, atención, acuerdos y cumplimiento, sin identificar afiliados ni justificar represalias. La mejora no puede basarse en horas no pagadas ni presentarse como una previsión salarial para toda España.
 
-**Evidencia y diagnóstico pendiente:** EPA, estadísticas salariales y datos de productividad y coste de vida. Contrastar alcance, actualidad y limitaciones antes de aprobar medidas.
+El Estado, las comunidades autónomas y los agentes sociales intervendrían según sus atribuciones y la medida concreta.
 
-**Coste y financiación:** Pendientes de estimación. Incluir formación, inspección, apoyo a inversión productiva y revisión proporcionada del crédito horario. No hay presupuesto ni financiación aprobados en este borrador.
+El diagnóstico deberá revisar la EPA, las estadísticas salariales y los datos de productividad y coste de vida. Antes de aprobar medidas, habrá que comprobar el alcance, la actualidad y las limitaciones de estas fuentes.
 
-**Riesgos y garantías:** No confundir más productividad con mejoras salariales automáticas ni rebajar derechos.
+El coste y su financiación están pendientes de estimación. El cálculo deberá incluir formación, inspección, apoyo a inversión productiva y revisión proporcionada del crédito horario. No hay presupuesto ni financiación aprobados en este borrador.
+
+La aplicación no deberá confundir más productividad con mejoras salariales automáticas ni rebajar derechos.
 
 ### 2.5. Tecnología, inteligencia artificial e innovación
 
@@ -257,15 +257,13 @@ En cuatro años, el objetivo es mantener 15 aplicaciones evaluadas y lograr que 
 
 La ejecución correspondería a titulares de los procesos, centros tecnológicos y responsables de datos; el calendario previsto incluye tareas y pruebas en M1–M3; contratación interoperable y portabilidad en M4–M6; pilotos supervisados en M7–M12; ampliación de casos útiles en años 2–4.
 
-#### Ficha técnica
+#### La propuesta en detalle
 
-**Fundamento y alternativas:** Automatizar tareas repetitivas puede liberar tiempo, pero la revisión, los errores y la dependencia del proveedor pueden consumir el beneficio. Comparar IA con rediseño del proceso y software convencional; usar la alternativa de menor coste total que mantenga calidad.
+Queremos identificar qué impide desarrollar tecnología propia, adoptar herramientas que realmente ayuden y llevar los resultados de la investigación a empresas y servicios.
 
-**Medición y fuentes:** Minutos de trabajo y coste completo por tarea equivalente, en registros del piloto y pruebas revisadas. Incluir tareas fallidas, correcciones, supervisión y salida de proveedor; no tratar una demostración como productividad conseguida. Tiempo, errores, reclamaciones y coste con mantenimiento y revisión humana, frente al proceso sin herramienta. Suspender ante incidentes graves; no automatizar decisiones opacas sobre derechos.
+Automatizar tareas repetitivas puede liberar tiempo, pero corregir errores, supervisar resultados y depender de un proveedor puede consumir ese beneficio. Compararemos la IA con reorganizar el proceso y utilizar software convencional. La alternativa elegida deberá mantener la calidad con el menor coste total, no limitarse a ofrecer una demostración llamativa.
 
-**Problema a estudiar:** barreras para desarrollar tecnología propia, adoptar herramientas útiles y transferir investigación al tejido productivo.
-
-**Propuestas:**
+Para abordar estos problemas, proponemos las siguientes medidas:
 
 - Facilitar colaboración entre universidades, centros de investigación y empresas mediante acuerdos transparentes.
 - Apoyar proyectos innovadores con convocatorias competitivas, hitos verificables y publicación de resultados.
@@ -274,15 +272,17 @@ La ejecución correspondería a titulares de los procesos, centros tecnológicos
 - Favorecer interoperabilidad, estándares abiertos y portabilidad para reducir dependencia de proveedores.
 - Evaluar cada aplicación por su utilidad y coste total, no por incorporar la etiqueta «IA».
 
-**Competencias:** Estado, comunidades autónomas, universidades y Unión Europea.
+Compararemos los minutos de trabajo y el coste completo de una tarea equivalente con y sin herramienta, utilizando registros del piloto y pruebas revisadas. El cálculo incluirá tareas fallidas, correcciones, reclamaciones, supervisión humana, mantenimiento y costes de cambiar de proveedor.
 
-**Indicadores:** adopción tecnológica útil, transferencia de investigación, inversión privada movilizada, resultados de proyectos y errores o incidentes de los sistemas.
+También observaremos la adopción útil, la transferencia de investigación, la inversión privada movilizada y los resultados e incidentes de los proyectos. Una demostración no se contará como productividad conseguida. Ante incidentes graves habrá que suspender la aplicación; no se automatizarán decisiones opacas que afecten a derechos.
 
-**Evidencia y diagnóstico pendiente:** Estadísticas de innovación, transferencia y evaluaciones de aplicaciones. Contrastar alcance, actualidad y limitaciones antes de aprobar medidas.
+El Estado, las comunidades autónomas, las universidades y la Unión Europea intervendrían dentro de sus atribuciones.
 
-**Coste y financiación:** Pendientes de estimación. Incluir investigación, formación, pilotos, infraestructura y mantenimiento. No hay presupuesto ni financiación aprobados en este borrador.
+El diagnóstico deberá revisar estadísticas de innovación, transferencia y evaluaciones de aplicaciones. Antes de aprobar medidas, habrá que comprobar el alcance, la actualidad y las limitaciones de estas fuentes.
 
-**Riesgos y garantías:** Proteger derechos y datos, evitar dependencia tecnológica y proyectos sin utilidad.
+El coste y su financiación están pendientes de estimación. El cálculo deberá incluir investigación, formación, pilotos, infraestructura y mantenimiento. No hay presupuesto ni financiación aprobados en este borrador.
+
+La aplicación deberá proteger derechos y datos, evitar dependencia tecnológica y proyectos sin utilidad.
 
 ### 2.6. Administración, duplicidades y empleo público
 
@@ -302,15 +302,13 @@ En cuatro años, el objetivo es extender a 50 procedimientos y 10 administracion
 
 La ejecución correspondería a administraciones participantes; el calendario previsto incluye mapa de procesos y cargas en M1–M3; recursos, formación e intercambio legal de datos en M4–M6; eliminación de pasos redundantes desde M7. Tramitar por separado reorganizaciones que requieran reformas y descontar transición del ahorro neto.
 
-#### Ficha técnica
+#### La propuesta en detalle
 
-**Fundamento y alternativas:** Reutilizar datos y clarificar responsabilidades puede evitar trabajo repetido; recortar plantilla antes de medir carga puede aumentar esperas. X-Road muestra una infraestructura de intercambio autenticado y registrado, no prueba un porcentaje de ahorro trasladable a España [F6]. Comparar integración y servicios compartidos antes de suprimir organismos.
+Los trámites repetidos, las competencias que se solapan y los sistemas que no intercambian información pueden dificultar la atención. Esto no permite presumir que sobre personal en todos los servicios: antes hay que conocer su trabajo y sus necesidades.
 
-**Medición y fuentes:** Peticiones repetidas de documentos por expediente y días de resolución, en registros administrativos. Publicar pendientes, complejidad, coste de transición y atención presencial para detectar ahorro aparente a costa del usuario. Expedientes, percentiles de espera, documentos, coste completo y reclamaciones. Mantener atención presencial y no mejorar cifras excluyendo casos difíciles o denegando más solicitudes.
+Reutilizar datos con autorización y aclarar responsabilidades puede evitar trabajo duplicado. Recortar plantillas antes de medir la carga, en cambio, puede aumentar las esperas. Compararemos integrar procesos y compartir servicios antes de suprimir organismos. X-Road muestra una infraestructura de intercambio autenticado y registrado, no un porcentaje de ahorro que pueda trasladarse automáticamente a España [F6].
 
-**Problema a estudiar:** trámites repetidos, competencias solapadas y sistemas que no se comunican. No se presume que exista exceso de personal en todos los servicios.
-
-**Propuestas:**
+Para abordar estos problemas, proponemos las siguientes medidas:
 
 - Auditar procesos y competencias antes de proponer recortes o reorganizaciones.
 - Aplicar el principio de aportar los datos una sola vez cuando exista base legal para compartirlos.
@@ -334,15 +332,17 @@ La ejecución correspondería a administraciones participantes; el calendario pr
 - Distinguir funcionarios de carrera, personal interino, laboral y cargos de confianza: sus sistemas de acceso, estabilidad y responsabilidades no son idénticos.
 - Revisar reglas de empleo público cuando sea necesario, preservando mérito, imparcialidad y protección frente a ceses arbitrarios o represalias políticas. La estabilidad no debe confundirse con ausencia de responsabilidad.
 
-**Competencias:** todas las administraciones, mediante coordinación y acuerdos cuando sean necesarios.
+Los registros administrativos permitirán comprobar cuántas veces se pide el mismo documento por expediente, cuánto tarda la resolución y qué cuesta el procedimiento completo. Publicaremos los casos pendientes, su complejidad, la mediana y otros percentiles de espera, las reclamaciones y el coste de transición, para no presentar como ahorro una carga trasladada al usuario.
 
-**Indicadores:** tiempos de resolución, documentos solicitados repetidamente, coste por procedimiento, ahorro neto verificado, ingresos complementarios netos, adecuación de plantillas, calidad ajustada por complejidad, accesibilidad y satisfacción ciudadana.
+La evaluación incluirá ahorro neto verificado, ingresos complementarios netos, adecuación de plantillas, calidad según la complejidad de los casos, accesibilidad y satisfacción ciudadana. Mantendremos la atención presencial. No mejoraremos las cifras excluyendo casos difíciles o denegando más solicitudes.
 
-**Evidencia y diagnóstico pendiente:** Mapa de competencias, procesos, cargas de trabajo y cuentas de cada entidad. Para Senado y alternativas territoriales, marco constitucional [F35], funciones, presupuestos y obligaciones que habría que redistribuir. Contrastar alcance, actualidad y limitaciones antes de aprobar medidas.
+La aplicación correspondería a todas las administraciones, mediante coordinación y acuerdos cuando sean necesarios.
 
-**Coste y financiación:** Pendientes de estimación. Incluir auditorías, transición, interoperabilidad, formación y comparación jurídica y económica de modelos territoriales y parlamentarios. No hay presupuesto ni financiación aprobados en este borrador.
+El diagnóstico deberá revisar el mapa de competencias, los procesos, las cargas de trabajo y las cuentas de cada entidad. Para comparar el Senado y las alternativas territoriales, se examinarán el marco constitucional [F35], las funciones, los presupuestos y las obligaciones que habría que redistribuir. Antes de aprobar medidas, habrá que comprobar el alcance, la actualidad y las limitaciones de estas fuentes.
 
-**Riesgos y garantías:** No dar por hecho ahorro al suprimir entidades ni deteriorar servicios o garantías laborales.
+El coste y su financiación están pendientes de estimación. El cálculo deberá incluir auditorías, transición, interoperabilidad, formación y comparación jurídica y económica de modelos territoriales y parlamentarios. No hay presupuesto ni financiación aprobados en este borrador.
+
+La aplicación no deberá dar por hecho ahorro al suprimir entidades ni deteriorar servicios o garantías laborales.
 
 ### 2.7. Migración irregular, vías legales e integración
 
@@ -366,15 +366,13 @@ Sobre el teletrabajo internacional, los artículos 74 quater y 74 quinquies de l
 
 Antes de M12, se propone publicar una comparación jurídica y económica de ambas opciones, con tiempos, coste administrativo, atracción y retención, vivienda y servicios; someter una propuesta motivada a las instituciones competentes. En M48, informar si se aprobó y aplicó, de sus resultados o del bloqueo. No contabilizar una propuesta como permisos concedidos.
 
-#### Ficha técnica
+#### La propuesta en detalle
 
-**Fundamento y alternativas:** Talento internacional puede aportar conocimiento, emprendimiento y redes comerciales si encuentra condiciones para desarrollar actividad y transferir capacidades. El beneficio no es automático: importan empleo, vivienda, servicios y retención. Menos incertidumbre, idioma y reconocimiento de competencias pueden facilitar empleo formal. Comparar refuerzo de personal, simplificación legal y acompañamiento, sin usar nacionalidad o irregularidad como indicador de delincuencia.
+Queremos estudiar las entradas y estancias irregulares, la explotación laboral, los obstáculos administrativos y la capacidad de acogida e integración. Una situación administrativa irregular no debe equipararse automáticamente con delincuencia.
 
-**Medición y fuentes:** Días de resolución por tipo de permiso, expedientes de extranjería; empleo formal a 12 meses entre inscritos elegibles, con acceso legal a datos y pérdidas de seguimiento identificadas. Separar protección internacional e integración laboral. Expedientes abiertos, resueltos y pendientes; empleo entre todas las personas elegibles inscritas, incluyendo pérdidas de seguimiento. No acelerar mediante denegaciones indiscriminadas ni condicionar asilo o derechos al empleo.
+El talento internacional puede aportar conocimiento, emprendimiento y conexiones comerciales si encuentra condiciones para desarrollar su actividad y compartir capacidades. El beneficio no es automático: depende también del empleo, la vivienda, los servicios y la continuidad de la estancia. Compararemos refuerzo de personal, simplificación legal y acompañamiento, incluyendo idioma y reconocimiento de competencias, sin utilizar la nacionalidad o la irregularidad como indicador de delincuencia.
 
-**Problema a estudiar:** entradas y estancias irregulares, explotación laboral, dificultades administrativas y capacidad de acogida e integración. La irregularidad administrativa no debe equipararse automáticamente con delincuencia.
-
-**Propuestas:**
+Para abordar estos problemas, proponemos las siguientes medidas:
 
 - Mejorar la tramitación de permisos y las vías legales vinculadas a necesidades reales, reagrupación y protección internacional.
 - Reforzar la lucha contra la trata, el tráfico de personas y la explotación laboral, incluida la responsabilidad de empleadores.
@@ -388,15 +386,17 @@ Antes de M12, se propone publicar una comparación jurídica y económica de amb
 - Evaluar plazos más largos para teletrabajo internacional con criterios públicos y continuidad documental. Mantener requisitos de actividad, medios, cobertura y obligaciones laborales, fiscales y de Seguridad Social; no ofrecer exenciones automáticas.
 - Mantener separadas las vías de talento, emprendimiento y teletrabajo: un turista no obtiene derecho a trabajar por alquilar una vivienda y una autorización para actividad remota extranjera no habilita cualquier empleo local.
 
-**Competencias:** Estado y Unión Europea en fronteras, extranjería y asilo; comunidades autónomas y municipios en distintos servicios de integración y acogida.
+Los expedientes de extranjería permitirán seguir plazos por categoría de permiso, casos abiertos, resueltos y pendientes, coste y continuidad de las renovaciones y acceso a vías legales. Separaremos protección internacional e integración laboral. No se acelerarán resultados mediante denegaciones indiscriminadas ni se condicionarán el asilo o los derechos al empleo.
 
-**Indicadores:** plazos por categoría, coste y continuidad de renovación, acceso a vías legales, inserción laboral, actividad y retención a 12 y 24 meses, transferencia de capacidades, explotación detectada y protección. Separar empleo local de teletrabajo internacional y no sumar dos veces personas de cohortes compartidas.
+Con acceso legal a los datos, mediremos empleo formal a 12 meses entre todas las personas elegibles inscritas e identificaremos las pérdidas de seguimiento. Observaremos actividad y retención a 12 y 24 meses, transferencia de capacidades, explotación detectada y protección. Distinguiremos empleo local y teletrabajo internacional, y no contaremos dos veces a personas incluidas en grupos de seguimiento compartidos.
 
-**Evidencia y diagnóstico pendiente:** Expedientes de extranjería y asilo, servicios de acogida e inspección laboral. Contrastar alcance, actualidad y limitaciones antes de aprobar medidas.
+El Estado y la Unión Europea intervendrían en fronteras, extranjería y asilo. Las comunidades autónomas y los municipios participarían en los servicios de integración y acogida que les corresponden.
 
-**Coste y financiación:** Pendientes de estimación. Incluir tramitación, acogida, integración y cooperación. No hay presupuesto ni financiación aprobados en este borrador.
+El diagnóstico deberá revisar expedientes de extranjería y asilo, servicios de acogida e inspección laboral. Antes de aprobar medidas, habrá que comprobar el alcance, la actualidad y las limitaciones de estas fuentes.
 
-**Riesgos y garantías:** No equiparar irregularidad y delincuencia; preservar asilo, derechos y garantías.
+El coste y su financiación están pendientes de estimación. El cálculo deberá incluir tramitación, acogida, integración y cooperación. No hay presupuesto ni financiación aprobados en este borrador.
+
+La aplicación no deberá equiparar irregularidad y delincuencia, y deberá preservar el asilo, los derechos y las garantías.
 
 ### 2.8. Relaciones exteriores y acuerdos internacionales
 
@@ -416,15 +416,13 @@ En cuatro años, el objetivo es actualizar anualmente la evaluación y lograr qu
 
 La ejecución correspondería a departamento competente en relaciones exteriores, ICEX y evaluadores independientes; el calendario previsto incluye preguntas y mercados en M1–M3; contratación del estudio y apoyo comercial en M4–M6; publicación y acompañamiento de operaciones desde M7.
 
-#### Ficha técnica
+#### La propuesta en detalle
 
-**Fundamento y alternativas:** Diversificar ventas y suministros puede reducir exposición a un mercado, pero añade costes y no elimina riesgos globales. La comparación europea debe incluir beneficios perdidos y transición, no solo contribuciones evitadas. Ningún estudio garantiza que terceros acepten un acuerdo.
+Queremos comprobar cómo aprovechar la cooperación internacional para mejorar la seguridad, las oportunidades económicas, la investigación y la autonomía estratégica.
 
-**Medición y fuentes:** Pymes de la cohorte con ventas cobradas y sostenidas en nuevos mercados, mediante registros comerciales consentidos; escenarios revisados con comercio, inversión y condiciones jurídicas. No contar ventas brutas como ingreso disponible del Estado. Informes revisados, ventas efectivas y coste por empresa. No contar reuniones como exportaciones ni prometer acuerdos con terceros, salida de la UE o independencia monetaria en una legislatura.
+Vender y obtener suministros en mercados distintos puede reducir la dependencia de uno solo, pero añade costes y no elimina los riesgos globales. Al comparar escenarios europeos, incluiremos los beneficios que se perderían y los costes de transición, no solo las contribuciones que podrían evitarse. Ningún estudio garantiza que otros países acepten un acuerdo.
 
-**Problema a estudiar:** cómo aprovechar la cooperación internacional para mejorar seguridad, oportunidades económicas, investigación y autonomía estratégica.
-
-**Propuestas:**
+Para abordar estos problemas, proponemos las siguientes medidas:
 
 - Definir prioridades públicas de cooperación comercial, científica, energética y educativa.
 - Evaluar beneficios, riesgos y obligaciones de los acuerdos, dentro de las competencias españolas y europeas.
@@ -442,17 +440,19 @@ La ejecución correspondería a departamento competente en relaciones exteriores
 - Evaluar costes de transición, obligaciones y derechos, efectos sobre contratos y financiación y condiciones que requerirían negociación con terceros. No contar contribuciones evitadas como ahorro íntegro sin descontar beneficios perdidos y nuevos costes.
 - Publicar hipótesis, escenarios, sensibilidad e incertidumbre de la comparación, con revisión experta plural y debate democrático informado.
 
-**Límites:** estudiar alternativas no constituye una propuesta automática de salida. Una retirada requeriría los procedimientos jurídicos aplicables, incluido el artículo 50 del Tratado de la Unión Europea, y decisiones institucionales legítimas. La evaluación deberá contrastar el marco vigente antes de recomendar cambios.
+El seguimiento de las pymes participantes distinguirá reuniones, exportaciones, ventas cobradas y ventas sostenidas en nuevos mercados, utilizando registros comerciales consentidos. Revisaremos los informes, el coste por empresa, la diversificación comercial, los proyectos científicos conjuntos y la exposición a dependencias críticas.
 
-**Competencias:** Estado y Unión Europea; otras administraciones en sus ámbitos de colaboración.
+Los escenarios se contrastarán con datos de comercio e inversión y con sus condiciones jurídicas, explicando efectos económicos, sociales e institucionales e incertidumbres. Una venta bruta no es ingreso disponible del Estado. No prometemos acuerdos con terceros, salida de la UE o independencia monetaria en una legislatura.
 
-**Indicadores:** diversificación comercial, proyectos científicos conjuntos, participación de pymes, exposición a dependencias críticas y efectos económicos, sociales e institucionales de cada escenario europeo, con sus incertidumbres.
+Estudiar alternativas no constituye una propuesta automática de salida. Una retirada requeriría los procedimientos jurídicos aplicables, incluido el artículo 50 del Tratado de la Unión Europea, y decisiones institucionales legítimas. La evaluación deberá contrastar el marco vigente antes de recomendar cambios.
 
-**Evidencia y diagnóstico pendiente:** Comercio, inversión, fondos, contribuciones y condiciones jurídicas de cada escenario. Contrastar alcance, actualidad y limitaciones antes de aprobar medidas.
+La aplicación correspondería al Estado y a la Unión Europea, con participación de otras administraciones en sus ámbitos de colaboración.
 
-**Coste y financiación:** Pendientes de estimación. Incluir evaluación, cooperación y posibles costes de transición. No hay presupuesto ni financiación aprobados en este borrador.
+El diagnóstico deberá revisar comercio, inversión, fondos, contribuciones y condiciones jurídicas de cada escenario. Antes de aprobar medidas, habrá que comprobar el alcance, la actualidad y las limitaciones de estas fuentes.
 
-**Riesgos y garantías:** No presentar relaciones alternativas como acuerdos garantizados ni beneficios brutos como ahorro neto.
+El coste y su financiación están pendientes de estimación. El cálculo deberá incluir evaluación, cooperación y posibles costes de transición. No hay presupuesto ni financiación aprobados en este borrador.
+
+La aplicación no deberá presentar relaciones alternativas como acuerdos garantizados ni beneficios brutos como ahorro neto.
 
 ### 2.9. Educación y habilidades para la vida
 
@@ -474,15 +474,13 @@ En cuatro años, el objetivo es extender a 100 centros y 500 docentes y mantener
 
 La ejecución correspondería a autoridades educativas autonómicas y centros; el calendario previsto incluye materiales, rúbrica y evaluación externa en M1–M3; adaptación curricular y formación en M4–M6; actividades prácticas desde M7. Comparar con grupos semejantes antes de ampliar.
 
-#### Ficha técnica
+#### La propuesta en detalle
 
-**Fundamento y alternativas:** Practicar decisiones sobre información y dinero puede desarrollar habilidades, pero añadir contenido sin formación docente puede sobrecargar el currículo. Comparar integración en materias existentes con módulos adicionales; validar instrumentos y adaptación por edad antes de atribuir mejoras.
+Queremos comprobar si el alumnado adquiere herramientas suficientes para entender información, gestionar dinero y cuidar su bienestar, y qué apoyos necesita para utilizarlas.
 
-**Medición y fuentes:** Puntuación media sobre 100 con rúbrica fijada previamente, evaluación inicial, final y a seis meses. Informar participación, resultados por contexto y grupo comparable; una prueba mejorada no demuestra por sí sola bienestar psicológico. Pruebas con rúbrica publicada, asistencia y seguimiento de todo el alumnado inicialmente inscrito. No excluir resultados desfavorables, medir adhesión ideológica ni sustituir atención clínica por educación emocional.
+Practicar decisiones sobre información y dinero puede desarrollar habilidades, pero añadir contenidos sin formar al profesorado puede sobrecargar el currículo. Compararemos integrar estas actividades en las materias existentes con añadir módulos. Antes de atribuir mejoras, validaremos la evaluación y su adaptación a cada edad.
 
-**Problema a estudiar:** si el alumnado adquiere herramientas suficientes para comprender información, gestionar dinero y cuidar su bienestar.
-
-**Propuestas:**
+Para abordar estos problemas, proponemos las siguientes medidas:
 
 - Integrar pensamiento crítico, alfabetización mediática y comprensión de datos en actividades prácticas.
 - Enseñar finanzas personales adaptadas a la edad: presupuesto, ahorro, intereses, deuda, impuestos y prevención de estafas, sin publicidad comercial.
@@ -500,15 +498,17 @@ La ejecución correspondería a autoridades educativas autonómicas y centros; e
 - Mejorar inglés práctico desde la escuela y en programas accesibles para adultos: conversación frecuente, comprensión de acentos, lectura y escritura aplicadas, con profesorado preparado y materiales adaptados. Mantener las demás lenguas y conocimientos fundamentales.
 - Ofrecer a emprendedores y trabajadores práctica de inglés profesional: presentar un producto, entrevistar clientes, negociar condiciones y atender soporte. Coordinar con los itinerarios internacionales, sin confundir formación lingüística con asesoramiento jurídico o financiero.
 
-**Competencias:** Estado y comunidades autónomas en currículo y recursos; centros en su aplicación.
+Se utilizará una puntuación media sobre 100 y una rúbrica publicada de antemano, con evaluación inicial, final y a seis meses. Seguiremos a todo el alumnado inicialmente inscrito, registrando asistencia, participación y resultados por contexto socioeconómico, con un grupo comparable cuando proceda. No se excluirán resultados desfavorables.
 
-**Indicadores:** competencias adquiridas, formación docente, acceso a orientación y diferencias de resultados por contexto socioeconómico.
+También observaremos formación docente y acceso a orientación. Una mejora en una prueba no demuestra por sí sola mayor bienestar psicológico. La evaluación no medirá adhesión ideológica ni sustituirá la atención clínica por educación emocional.
 
-**Evidencia y diagnóstico pendiente:** Evaluación educativa, currículo y disponibilidad de orientación. Contrastar alcance, actualidad y limitaciones antes de aprobar medidas.
+El Estado y las comunidades autónomas intervendrían en currículo y recursos, y los centros educativos en su aplicación.
 
-**Coste y financiación:** Pendientes de estimación. Incluir materiales, formación docente y apoyo profesional. No hay presupuesto ni financiación aprobados en este borrador.
+El diagnóstico deberá revisar evaluación educativa, currículo y disponibilidad de orientación. Antes de aprobar medidas, habrá que comprobar el alcance, la actualidad y las limitaciones de estas fuentes.
 
-**Riesgos y garantías:** Evitar sobrecarga curricular, publicidad comercial y adoctrinamiento.
+El coste y su financiación están pendientes de estimación. El cálculo deberá incluir materiales, formación docente y apoyo profesional. No hay presupuesto ni financiación aprobados en este borrador.
+
+La aplicación deberá evitar sobrecarga curricular, publicidad comercial y adoctrinamiento.
 
 ### 2.10. Talento artístico, cultural y otras carreras con ingresos inestables
 
@@ -528,15 +528,13 @@ En cuatro años, el objetivo es ampliar a 1.000 profesionales, alcanzar un 95 % 
 
 La ejecución correspondería a entidades contratantes, áreas de cultura y organizaciones profesionales; el calendario previsto incluye auditar facturas y seleccionar participantes en M1–M3; mentorías y contratos claros en M4–M6; conexión con clientes y seguimiento de pagos desde M7.
 
-#### Ficha técnica
+#### La propuesta en detalle
 
-**Fundamento y alternativas:** Cobrar a tiempo reduce necesidades de financiación y el acompañamiento puede mejorar contratos y acceso a clientes. No toda actividad cultural debe ser comercialmente rentable: comparar apoyo temporal, espacios y compras públicas, distinguiendo sostenibilidad profesional y valor cultural.
+Muchas personas encuentran dificultades para convertir sus capacidades creativas o especializadas en ingresos sostenibles. Queremos conocer qué barreras afectan a sus contratos, cobros y continuidad profesional.
 
-**Medición y fuentes:** Facturas pagadas dentro del plazo aplicable/facturas vencidas y mediana del ingreso neto real de actividad, en registros consentidos y pagos públicos. Separar ayudas extraordinarias, trabajo no remunerado y ceses. Facturas vencidas, ingreso neto de la actividad ajustado por IPC y continuidad, incluyendo ceses. No contar una ayuda puntual como ingreso sostenible ni reducir valor cultural a rentabilidad.
+Cobrar a tiempo reduce la necesidad de financiar la actividad mientras llega el pago. El acompañamiento también puede ayudar a mejorar contratos y encontrar clientes. Compararemos apoyos temporales, espacios y compras públicas, distinguiendo la sostenibilidad profesional del valor cultural: no toda actividad cultural tiene que ser comercialmente rentable.
 
-**Problema a estudiar:** dificultades para convertir capacidades creativas y especializadas en ingresos sostenibles.
-
-**Propuestas:**
+Para abordar estos problemas, proponemos las siguientes medidas:
 
 - Facilitar formación en contratos, propiedad intelectual, precios, comercialización y gestión económica.
 - Impulsar mentorías y conexiones con clientes, empresas y circuitos culturales, con selección transparente.
@@ -545,15 +543,17 @@ La ejecución correspondería a entidades contratantes, áreas de cultura y orga
 - Apoyar acceso a espacios, equipamiento y mercados mediante programas abiertos y evaluables.
 - Defender la remuneración y los derechos de creadores en entornos digitales y usos de IA conforme al marco legal.
 
-**Competencias:** Estado, comunidades autónomas y ayuntamientos según fiscalidad, protección social y políticas culturales.
+Con registros consentidos y datos de pagos públicos, compararemos las facturas pagadas dentro del plazo aplicable con las facturas vencidas y mediremos los tiempos de cobro. Seguiremos la mediana del ingreso neto real de la actividad, descontando la inflación con el IPC, el acceso a mercados y la continuidad profesional.
 
-**Indicadores:** ingresos medianos, continuidad profesional, plazos de cobro y acceso a mercados. El valor cultural no se reduce a rentabilidad comercial.
+Separaremos ayudas extraordinarias, trabajo no remunerado y ceses, manteniendo en el seguimiento a quienes abandonen la actividad. Una ayuda puntual no es ingreso sostenible. El valor cultural no se reducirá a rentabilidad comercial ni se mantendrán apoyos sin evaluación.
 
-**Evidencia y diagnóstico pendiente:** Estadísticas culturales y laborales, contratos y trayectoria profesional. Contrastar alcance, actualidad y limitaciones antes de aprobar medidas.
+El Estado, las comunidades autónomas y los ayuntamientos intervendrían según sus atribuciones en fiscalidad, protección social y políticas culturales.
 
-**Coste y financiación:** Pendientes de estimación. Incluir formación, mentorías, espacios y protección social. No hay presupuesto ni financiación aprobados en este borrador.
+El diagnóstico deberá revisar estadísticas culturales y laborales, contratos y trayectoria profesional. Antes de aprobar medidas, habrá que comprobar el alcance, la actualidad y las limitaciones de estas fuentes.
 
-**Riesgos y garantías:** No reducir valor cultural a rentabilidad ni sostener apoyos sin evaluación.
+El coste y su financiación están pendientes de estimación. El cálculo deberá incluir formación, mentorías, espacios y protección social. No hay presupuesto ni financiación aprobados en este borrador.
+
+La aplicación no deberá reducir valor cultural a rentabilidad ni sostener apoyos sin evaluación.
 
 ### 2.11. Ecosistema de startups, inversión y empresas globales desde España
 
@@ -573,15 +573,13 @@ En cuatro años, el objetivo es conseguir inversión privada para 30 de esos pro
 
 La ejecución correspondería a agencias de inversión, universidades y empresas; el calendario previsto incluye obstáculos en M1–M3; permisos, preparación financiera y conexiones con capital en M4–M6; desembolsos y ejecución desde M7. Las empresas deciden invertir; la coinversión pública requiere presupuesto y selección competitiva.
 
-#### Ficha técnica
+#### La propuesta en detalle
 
-**Fundamento y alternativas:** Capital y reglas previsibles pueden permitir proyectos viables, pero una ayuda pública puede financiar inversión que habría sucedido igualmente. Comparar acompañamiento sin subvención, deuda y capital; justificar adicionalidad antes de comprometer fondos.
+Queremos identificar las barreras que dificultan atraer y mantener inversión capaz de generar empleo de calidad, tecnología y relaciones con proveedores locales.
 
-**Medición y fuentes:** Desembolsos privados acreditados y empleo equivalente a jornada completa mantenido, con seguimiento de la cohorte y cuentas verificables. Presentar inversión bruta, pérdidas y coste público por separado; anuncios y promesas no son inversión. Capital desembolsado, empleo equivalente a jornada completa, supervivencia y pérdidas de toda la cohorte. No contar anuncios o capital público como inversión privada ni asumir adicionalidad o rentabilidad garantizada.
+El capital y unas reglas previsibles pueden permitir proyectos viables, pero una ayuda pública también puede pagar una inversión que habría ocurrido sin ella. Compararemos acompañamiento sin subvención, préstamos y participación en el capital. Antes de comprometer fondos, habrá que justificar la mejora adicional que se espera conseguir gracias al apoyo.
 
-**Problema a estudiar:** barreras para atraer y mantener inversión que genere empleo de calidad, tecnología y vínculos con proveedores locales.
-
-**Propuestas:**
+Para abordar estos problemas, proponemos las siguientes medidas:
 
 - Ofrecer procedimientos previsibles y coordinación administrativa para proyectos empresariales.
 - Mejorar disponibilidad de talento, conectividad, energía e infraestructuras según necesidades acreditadas.
@@ -604,17 +602,19 @@ La ejecución correspondería a agencias de inversión, universidades y empresas
 - Atraer cofundadores, investigadores y profesionales internacionales y facilitar el retorno voluntario de españoles, conectando permisos e integración del eje 7 con proyectos que acrediten necesidad. Acompañar aprendizaje con equipos locales; una llegada no equivale a una empresa o empleo sostenible.
 - Medir primeras ventas cobradas, clientes recurrentes, supervivencia, inversión ejecutada, empleo y actividad realizada en España. Separar domiciliación, propiedad, puestos de trabajo y tributación efectiva: ingresos mundiales de una empresa no equivalen a ingreso fiscal español ni a dinero disponible del Estado.
 
-**Hitos pequeños del itinerario startup:** Tras activar y financiar esta línea, S01 (semanas 1–2): problema, cliente y responsable identificados; S02 (semanas 3–4): pruebas de demanda documentadas y decisión de continuar; S03 (semanas 5–8): prototipo o demostración contrastada con clientes; S04 (semanas 9–12): revisión comercial y plan de siguiente etapa, incluyendo mercado y requisitos cuando proceda. Un prototipo no se cuenta como venta y una expansión no exige abrir simultáneamente en Europa y Estados Unidos. Estos hitos no añaden un cuarto frente al arranque de 90 días ni garantizan una venta en doce semanas.
+Se verificarán los desembolsos privados y el empleo equivalente a jornada completa que se mantiene, mediante cuentas comprobables y seguimiento de todo el grupo participante. Separaremos inversión bruta, capital privado por fase, pérdidas, exposición pública al riesgo y coste público por resultado adicional. Los anuncios, las promesas y el capital público no se contarán como inversión privada.
 
-**Competencias:** Estado, comunidades autónomas, ayuntamientos y Unión Europea.
+También registraremos primeras ventas, facturación cobrada por mercado, clientes recurrentes, supervivencia, empleo y actividad real en España y colaboración local. No se excluirán empresas que cierren ni se supondrá que toda inversión es adicional o que su rentabilidad está garantizada.
 
-**Indicadores:** inversión ejecutada, capital privado movilizado por fase, primeras ventas y facturación cobrada por mercado, clientes recurrentes, supervivencia de toda la cohorte, empleo y actividad real en España, colaboración local, exposición pública al riesgo y coste público por resultado adicional.
+Tras activar y financiar esta línea, el itinerario startup avanzaría por estas etapas: S01 (semanas 1–2): problema, cliente y responsable identificados; S02 (semanas 3–4): pruebas de demanda documentadas y decisión de continuar; S03 (semanas 5–8): prototipo o demostración contrastada con clientes; S04 (semanas 9–12): revisión comercial y plan de siguiente etapa, incluyendo mercado y requisitos cuando proceda. Un prototipo no se cuenta como venta y una expansión no exige abrir simultáneamente en Europa y Estados Unidos. Estos hitos no añaden un cuarto frente al arranque de 90 días ni garantizan una venta en doce semanas.
 
-**Evidencia y diagnóstico pendiente:** Proyectos ejecutados, financiación por fase y resultados de incentivos. Contrastar alcance, actualidad y limitaciones antes de aprobar medidas.
+El Estado, las comunidades autónomas, los ayuntamientos y la Unión Europea intervendrían dentro de sus atribuciones.
 
-**Coste y financiación:** Pendientes de estimación. Incluir facilitación, infraestructuras y eventual coste de incentivos o coinversión. No hay presupuesto ni financiación aprobados en este borrador.
+El diagnóstico deberá revisar proyectos ejecutados, financiación por fase y resultados de incentivos. Antes de aprobar medidas, habrá que comprobar el alcance, la actualidad y las limitaciones de estas fuentes.
 
-**Riesgos y garantías:** Evitar favoritismo, subvenciones sin adicionalidad y garantías incondicionales de pérdidas privadas.
+El coste y su financiación están pendientes de estimación. El cálculo deberá incluir facilitación, infraestructuras y eventual coste de incentivos o coinversión. No hay presupuesto ni financiación aprobados en este borrador.
+
+La aplicación deberá evitar favoritismo, subvenciones sin adicionalidad y garantías incondicionales de pérdidas privadas.
 
 ### 2.12. Licitaciones caras, competencia y grupos de interés
 
@@ -634,15 +634,13 @@ En cuatro años, el objetivo es extender a 20 entidades y 1.000 contratos; reduc
 
 La ejecución correspondería a unidades de contratación y órganos competentes de control; el calendario previsto incluye enlazar presupuesto, licitación, adjudicación, modificaciones, facturas y entrega en M1–M6; publicar datos no reservados y activar revisión desde M7; ampliar tras evaluación. Coordinar con controles existentes, no duplicarlos con un organismo sin función definida.
 
-#### Ficha técnica
+#### La propuesta en detalle
 
-**Fundamento y alternativas:** Comparabilidad, concurrencia y revisión de ejecución permiten discutir precios y entrega; un contrato caro o con una oferta puede tener explicación legítima. Priorizar capacidad técnica y trazabilidad frente a una IA que prometa detectar fraude sin contexto. La supervisión debe cubrir gasto y calidad, no solo compra barata.
+Queremos estudiar los sobrecostes, la escasa competencia en contratos, los requisitos que excluyen proveedores y las posibles influencias indebidas. Un precio alto no demuestra por sí solo corrupción; representar intereses tampoco es ilícito por definición.
 
-**Medición y fuentes:** Contratos con una sola oferta/contratos comparables, datos de licitación y ejecución; precisión de alertas revisadas por especialistas y coste final del servicio. Separar irregularidad, mala gestión y delito acreditado. Contratos trazables/contratos incluidos, ofertas por categoría, coste final y calidad entregada. Separar alertas, reducciones previstas y ahorro neto auditado; una salida de IA no prueba fraude ni autoriza sanciones.
+Comparar contratos equivalentes, facilitar la participación de proveedores y revisar la ejecución permite discutir precio y entrega con fundamento. Un contrato caro o con una sola oferta puede tener una explicación legítima. Priorizaremos capacidad técnica y un recorrido verificable de las decisiones frente a una IA que prometa detectar fraude sin contexto. La supervisión atenderá al gasto y a la calidad, no solo a comprar barato.
 
-**Problema a estudiar:** sobrecostes, contratos con poca competencia, requisitos que excluyen proveedores y posibles influencias indebidas. Un precio alto no demuestra por sí solo corrupción; la representación de intereses tampoco es ilícita por definición.
-
-**Propuestas:**
+Para abordar estos problemas, proponemos las siguientes medidas:
 
 - Publicar el ciclo completo de contratación: planificación, criterios, adjudicación, modificaciones, ejecución y evaluación, protegiendo los datos legalmente reservados.
 - Comparar costes totales y calidad entre contratos equivalentes, no solo precios iniciales.
@@ -658,15 +656,17 @@ La ejecución correspondería a unidades de contratación y órganos competentes
 - Garantizar acceso plural a consultas públicas para evitar que solo participen actores con mayores recursos.
 - En reformas de movilidad y plataformas, publicar reuniones, propuestas y justificación de las reglas con participación de asociaciones de taxi, VTC, plataformas, cooperativas, conductores y usuarios. Representar intereses es legítimo; ninguna asociación o empresa tendrá un veto privilegiado ni se presumirá corrupción por defender su posición.
 
-**Competencias:** todas las entidades contratantes; legisladores y autoridades de competencia y control en sus ámbitos.
+Los datos de licitación y ejecución permitirán comparar contratos con una sola oferta respecto de contratos equivalentes, ofertas por categoría, participación de pymes y proporción de contratos cuyo recorrido se puede comprobar. Seguiremos desviaciones de coste y plazo, coste final, calidad entregada e influencias sobre las normas.
 
-**Indicadores:** ofertas por contrato, concurrencia de pymes, desviaciones de coste y plazo, calidad entregada, trazabilidad de influencias normativas y precisión de las alertas de IA contrastadas mediante revisión independiente.
+Especialistas y revisión independiente comprobarán la precisión de las alertas de IA. Separaremos irregularidad, mala gestión y delito acreditado, así como alertas, reducciones previstas y ahorro neto auditado. Una salida de IA no prueba fraude ni autoriza sanciones.
 
-**Evidencia y diagnóstico pendiente:** Pliegos, adjudicación, ejecución y referencias de coste comparables. Contrastar alcance, actualidad y limitaciones antes de aprobar medidas.
+Las entidades contratantes aplicarían las medidas que les corresponden. Los legisladores y las autoridades de competencia y control intervendrían en sus respectivos ámbitos.
 
-**Coste y financiación:** Pendientes de estimación. Incluir capacidad técnica, publicación, revisión y validación de herramientas. No hay presupuesto ni financiación aprobados en este borrador.
+El diagnóstico deberá revisar pliegos, adjudicación, ejecución y referencias de coste comparables. Antes de aprobar medidas, habrá que comprobar el alcance, la actualidad y las limitaciones de estas fuentes.
 
-**Riesgos y garantías:** No convertir una alerta de IA o un precio alto en prueba automática de fraude.
+El coste y su financiación están pendientes de estimación. El cálculo deberá incluir capacidad técnica, publicación, revisión y validación de herramientas. No hay presupuesto ni financiación aprobados en este borrador.
+
+La aplicación no deberá convertir una alerta de IA o un precio alto en prueba automática de fraude.
 
 ### 2.13. Sanidad pública y privada: acceso, eficiencia y financiación
 
@@ -686,17 +686,15 @@ En cuatro años, el objetivo es extender a 10 áreas y reducir un 25 % la espera
 
 La ejecución correspondería a servicios de salud autonómicos y direcciones clínicas; el calendario previsto incluye demanda, capacidad y prioridades en M1–M3; presupuesto de personal, agendas y continuidad en M4–M6; ejecución desde M7. Comparar refuerzo público y colaboración privada por coste completo y resultado, sin seleccionar solo casos fáciles.
 
-#### Ficha técnica
+#### La propuesta en detalle
 
-**Fundamento y alternativas:** Reorganizar agendas o incorporar capacidad puede reducir demoras; externalizar sin controlar selección de pacientes puede ocultar costes y trasladar casos complejos al sistema público. Comparar alternativas con igual prioridad clínica y complejidad, preservando cobertura y continuidad.
+Las listas de espera, las diferencias territoriales y las dificultades para acceder a determinados servicios pueden perjudicar la atención y aumentar la presión económica sobre hogares y empresas.
 
-**Medición y fuentes:** Espera mediana y percentil 90 por prioridad en registros sanitarios completos, con pendientes, cancelaciones y resultados ajustados. Gasto de bolsillo y atención retrasada son condiciones de calidad, no efectos secundarios prescindibles. Listas completas, mediana y percentil 90 por prioridad, pendientes, reingresos y resultados ajustados. Revisar urgentemente cualquier señal de daño; no alcanzar la meta excluyendo pacientes o disuadiendo atención necesaria.
+Reorganizar agendas o ampliar la capacidad puede reducir demoras. Externalizar sin controlar qué pacientes se atienden, en cambio, puede ocultar costes y dejar los casos complejos al sistema público. Compararemos alternativas con la misma prioridad clínica y complejidad, manteniendo cobertura y continuidad.
 
-**Problema a estudiar:** listas de espera, desigualdad territorial, dificultades de acceso a determinados servicios y presión económica sobre hogares y empresas.
+Proponemos estudiar una combinación de provisión pública y privada que garantice atención universal y reduzca esperas y costes evitables, sin trasladar el ahorro aparente a pagos de bolsillo o a una peor cobertura. No se presupone que la gestión privada sea siempre más barata ni que la pública sea siempre más eficiente.
 
-**Orientación propuesta:** estudiar una combinación de provisión pública y privada que garantice atención universal y reduzca esperas y costes evitables, sin trasladar el ahorro aparente a pagos de bolsillo o a una peor cobertura. No se presupone que la gestión privada sea siempre más barata ni que la pública sea siempre más eficiente.
-
-**Propuestas:**
+Para abordar estos problemas, proponemos las siguientes medidas:
 
 - Mantener una cobertura pública universal y una atención basada en la necesidad clínica, no en la capacidad de pago.
 - Reforzar estándares comunes de acceso, información interoperable y comparación de resultados entre territorios. Comparar compras y servicios compartidos, coordinación y centralización de funciones concretas con la gestión existente, contando transición, respuesta local y continuidad asistencial; no exigir uniformidad de toda la organización como garantía de calidad [F35].
@@ -715,17 +713,19 @@ La ejecución correspondería a servicios de salud autonómicos y direcciones cl
 - Investigar fraude acreditable, como suplantaciones o facturación indebida, mediante controles proporcionados, revisión humana y vías de recurso.
 - Evaluar derivaciones desde urgencias por seguridad clínica y resultados, no solo por número de pacientes evitados; no sancionar a alguien porque su consulta finalmente resulte menos grave de lo que temía.
 
-**Límites:** no proponer una bajada de ingresos públicos sin financiación alternativa acreditada, ni seguros privados obligatorios o copagos como solución automática. Una reducción de cargas debe evaluarse por el coste total para cada hogar y empresa, no solo por una partida de la nómina.
+Utilizaremos registros sanitarios completos para medir las esperas por prioridad clínica. Publicaremos la mediana y el percentil 90 —el plazo dentro del que se atiende al 90 %—, junto con pacientes pendientes, cancelaciones, reingresos, reconsultas tras derivación y resultados de salud ajustados por complejidad.
 
-**Competencias:** comunidades autónomas en organización y prestación sanitaria; Estado en bases, coordinación y materias fiscales de su competencia, respetando los distintos regímenes de financiación.
+Compararemos coste total por proceso, gasto de bolsillo, diferencias de acceso por renta y territorio y necesidades de atención no cubiertas o retrasadas. Estas son condiciones de calidad, no efectos secundarios prescindibles. Cualquier señal de daño exigirá revisión urgente; la meta no puede alcanzarse excluyendo pacientes o disuadiendo atención necesaria.
 
-**Indicadores:** esperas por prioridad clínica, necesidades de atención no cubiertas, resultados de salud ajustados por complejidad, coste total por proceso, gasto de bolsillo, diferencias de acceso por renta y territorio, reconsultas tras derivación y casos de atención necesaria retrasada.
+No se propondrá una bajada de ingresos públicos sin financiación alternativa acreditada, ni se impondrán seguros privados obligatorios o copagos como solución automática. Una reducción de cargas debe evaluarse por el coste total para cada hogar y empresa, no solo por una partida de la nómina.
 
-**Evidencia y diagnóstico pendiente:** Listas de espera, resultados clínicos, recursos y costes comparables. Contrastar alcance, actualidad y limitaciones antes de aprobar medidas.
+Las comunidades autónomas intervendrían en organización y prestación sanitaria. El Estado lo haría en bases, coordinación y materias fiscales de su competencia, respetando los distintos regímenes de financiación.
 
-**Coste y financiación:** Pendientes de estimación. Incluir personal, capacidad asistencial, coordinación y evaluación de contratos. No hay presupuesto ni financiación aprobados en este borrador.
+El diagnóstico deberá revisar listas de espera, resultados clínicos, recursos y costes comparables. Antes de aprobar medidas, habrá que comprobar el alcance, la actualidad y las limitaciones de estas fuentes.
 
-**Riesgos y garantías:** No disuadir atención necesaria ni ahorrar desplazando costes a pacientes.
+El coste y su financiación están pendientes de estimación. El cálculo deberá incluir personal, capacidad asistencial, coordinación y evaluación de contratos. No hay presupuesto ni financiación aprobados en este borrador.
+
+La aplicación no deberá disuadir atención necesaria ni ahorrar desplazando costes a pacientes.
 
 ### 2.14. Burocracia y creación de empresas
 
@@ -745,15 +745,13 @@ En cuatro años, el objetivo es extender a 20 actividades y 15 municipios y alca
 
 La ejecución correspondería a ayuntamientos, comunidad autónoma y unidades estatales del trámite; el calendario previsto incluye inventario y eliminación de duplicidades en M1–M3; ventanilla coordinada y asistencia en M4–M6; seguimiento e inspección desde M7. Usar declaración responsable solo donde sea legalmente adecuada.
 
-#### Ficha técnica
+#### La propuesta en detalle
 
-**Fundamento y alternativas:** Un requisito repetido añade coste sin asegurar más protección; eliminar uno necesario puede crear daños. Comparar ventanilla coordinada y reutilización de datos con declaración responsable solo donde proceda. La apertura efectiva, no la constitución de la sociedad, es el resultado.
+Los pequeños negocios pueden afrontar costes, trámites repetidos e incertidumbre al iniciar, mantener o cerrar una actividad. Crear una sociedad y conseguir los permisos para operar son procesos distintos: simplificar solo el primero no resuelve todo el problema.
 
-**Medición y fuentes:** Días y coste desde solicitud completa hasta autorización o habilitación legal para operar, en expedientes y tasas. Publicar también tiempo total desde el primer contacto, pendientes e inspecciones para no desplazar la espera fuera del indicador. Tiempo total para operar, no solo constituir una sociedad, coste y solicitudes pendientes o rechazadas. Mantener controles necesarios de seguridad, consumo y medio ambiente.
+Pedir un requisito repetido añade coste sin asegurar más protección, pero eliminar uno necesario puede causar daños. Compararemos una ventanilla coordinada y la reutilización autorizada de datos con la declaración responsable solo donde proceda. El resultado que buscamos es poder abrir legalmente la actividad, no solo constituir la sociedad.
 
-**Problema a estudiar:** costes, trámites repetidos e incertidumbre al iniciar, mantener o cerrar una actividad, especialmente para pequeños negocios. Crear una sociedad y obtener los permisos para operar son procesos distintos: simplificar solo el primero no resuelve todo el problema.
-
-**Propuestas:**
+Para abordar estos problemas, proponemos las siguientes medidas:
 
 - Integrar los trámites estatales, autonómicos y municipales en una ventanilla coordinada, con seguimiento del expediente y asistencia humana.
 - Publicar requisitos, tasas y plazos por actividad antes de iniciar la solicitud, evitando peticiones sucesivas de documentación que podía haberse identificado desde el principio.
@@ -770,17 +768,19 @@ La ejecución correspondería a ayuntamientos, comunidad autónoma y unidades es
 - Revisar barreras de acceso que protejan a operadores instalados sin aportar seguridad o interés general; conectar la movilidad remunerada con el eje 25 y la protección del trabajo con el 15. No llamar «colaborativo» a cualquier negocio para eludir sus obligaciones.
 - Reforzar cumplimiento de plazos de pago y resolución de conflictos comerciales para que pequeñas empresas no financien involuntariamente a clientes o administraciones morosas.
 
-**Competencias:** Estado, comunidades autónomas y ayuntamientos según el trámite.
+Los expedientes y las tasas permitirán medir días y coste desde la solicitud completa hasta la autorización o habilitación legal para operar. Publicaremos también el tiempo desde el primer contacto, para no desplazar la espera fuera del indicador, y las solicitudes pendientes o rechazadas.
 
-**Indicadores:** tiempo y coste hasta poder operar, horas de gestión administrativa, documentación repetida, incidencias y supervivencia empresarial. La rapidez no debe medirse a costa de seguridad o cumplimiento.
+Seguiremos horas de gestión, documentación repetida, inspecciones, incidencias y supervivencia empresarial. La rapidez no puede lograrse eliminando controles necesarios de seguridad, consumo o medio ambiente, ni reduciendo derechos o protección de acreedores.
 
-**Economía colaborativa: empezar con una prueba viable:** en los municipios participantes, elegir modalidades con demanda contrastada y habilitación clara. Primero explicar las reglas y calcular costes; después probar legalmente con clientes; finalmente revisar ingresos netos, horas y reclamaciones antes de ampliar. La guía es una entrega de OpenSpain, no una autorización administrativa. Este itinerario se integra en el frente de simplificación, no añade un cuarto frente inicial ni obliga a activar transporte.
+El Estado, las comunidades autónomas y los ayuntamientos intervendrían según el trámite y sus atribuciones.
 
-**Evidencia y diagnóstico pendiente:** Requisitos por actividad, expedientes, tasas y tiempos efectivos. Contrastar alcance, actualidad y limitaciones antes de aprobar medidas.
+En los municipios participantes, se elegirán modalidades de economía colaborativa con demanda contrastada y habilitación clara. Primero se explicarán las reglas y se calcularán costes; después se probará legalmente con clientes; finalmente se revisarán ingresos netos, horas y reclamaciones antes de ampliar. La guía es una entrega de OpenSpain, no una autorización administrativa. Este itinerario se integra en el frente de simplificación, no añade un cuarto frente inicial ni obliga a activar transporte.
 
-**Coste y financiación:** Pendientes de estimación. Incluir coordinación, herramientas, asistencia y acompañamiento. No hay presupuesto ni financiación aprobados en este borrador.
+El diagnóstico deberá revisar requisitos por actividad, expedientes, tasas y tiempos efectivos. Antes de aprobar medidas, habrá que comprobar el alcance, la actualidad y las limitaciones de estas fuentes.
 
-**Riesgos y garantías:** Simplificar sin eliminar controles necesarios, derechos ni protección de acreedores.
+El coste y su financiación están pendientes de estimación. El cálculo deberá incluir coordinación, herramientas, asistencia y acompañamiento. No hay presupuesto ni financiación aprobados en este borrador.
+
+La aplicación deberá simplificar sin eliminar controles necesarios, derechos ni protección de acreedores.
 
 ### 2.15. Autónomos: cotizaciones, ingresos variables y protección
 
@@ -800,15 +800,13 @@ En cuatro años, el objetivo es extender el acompañamiento a 3.000 autónomos y
 
 La ejecución correspondería a Seguridad Social, áreas fiscales competentes y organizaciones de autónomos; el calendario previsto incluye perfiles y trámites en M1–M3; herramientas públicas y asistencia en M4–M6; seguimiento de regularizaciones desde M7. Cualquier cambio de cuotas o prestaciones se tramitará por la vía normativa competente, no por una exención informal del piloto.
 
-#### Ficha técnica
+#### La propuesta en detalle
 
-**Fundamento y alternativas:** Ajustar pagos a ingresos variables puede aliviar liquidez, pero reducir cotización sin financiación puede debilitar prestaciones. Comparar ajustes, asistencia y apoyos temporales, usando rendimientos netos y no facturación. La simplificación no equivale a una exención ya aprobada.
+Queremos estudiar cómo afectan las cotizaciones y las obligaciones administrativas a actividades con ingresos bajos, estacionales o imprevisibles, y qué relación existe entre lo aportado y la protección recibida.
 
-**Medición y fuentes:** Horas de gestión por ciclo y cotización/rendimiento neto por perfil, con registros consentidos y reglas vigentes. Para rendimientos nulos o negativos publicar importes absolutos: el cociente no es interpretable. Horas registradas por ciclo, errores, volatilidad de pagos y cobertura. La meta administrativa no equivale a una rebaja aprobada; no reducir protección o favorecer falso trabajo autónomo.
+Ajustar los pagos a ingresos variables puede aliviar la falta de liquidez, pero reducir cotizaciones sin financiación puede debilitar las prestaciones. Compararemos ajustes, asistencia y apoyos temporales a partir de los rendimientos netos, no de la facturación. Simplificar la gestión no significa que exista una exención ya aprobada.
 
-**Problema a estudiar:** peso de las cotizaciones y obligaciones administrativas sobre actividades con ingresos bajos, estacionales o imprevisibles, y relación entre lo aportado y la protección recibida.
-
-**Propuestas:**
+Para abordar estos problemas, proponemos las siguientes medidas:
 
 - Evaluar una cotización más proporcionada a los rendimientos netos, no a la facturación bruta, con especial atención a actividades de bajos ingresos.
 - Facilitar ajustes ante cambios de ingresos y regularizaciones comprensibles, evitando saltos de carga injustificados y problemas de liquidez.
@@ -820,17 +818,19 @@ La ejecución correspondería a Seguridad Social, áreas fiscales competentes y 
 - Exigir condiciones comprensibles sobre comisiones, cambios contractuales, asignación de servicios y suspensión de cuentas, con cauces de reclamación y revisión humana conforme al marco aplicable. Favorecer alternativas y uso de varias plataformas cuando sea legalmente compatible, sin trasladar datos personales de clientes sin base legal.
 - Medir ingresos netos por hora total dedicada, incluyendo espera, desplazamientos sin cliente y gestión. Incorporar comisiones, energía, mantenimiento, seguro, financiación y amortización del equipo propio o alquiler, según corresponda, además de cotización e impuestos; no equiparar facturación a salario ni prometer una rentabilidad.
 
-**Límites:** cualquier reducción de cuotas debe explicar cómo afecta a pensiones y otras prestaciones y quién cubre la financiación necesaria. Las condiciones concretas deberán contrastarse con la normativa vigente antes de redactar una reforma.
+Con registros consentidos y reglas vigentes, mediremos horas de gestión por ciclo y qué proporción del rendimiento neto representa la cotización de cada perfil y nivel de ingresos. Si el rendimiento es nulo o negativo, publicaremos importes absolutos: dividir la cotización entre ese rendimiento no ofrece una comparación interpretable.
 
-**Competencias:** principalmente Estado en Seguridad Social y fiscalidad estatal; otras administraciones en apoyos de su competencia.
+Seguiremos errores, volatilidad de pagos, cobertura efectiva y morosidad. Una meta de simplificación administrativa no equivale a una rebaja aprobada. No se reducirá la protección sin evaluar su financiación ni se favorecerá el falso trabajo autónomo.
 
-**Indicadores:** carga de cotización respecto a rendimientos netos por nivel de ingresos, volatilidad de pagos, cobertura efectiva, tiempo de gestión y morosidad.
+Cualquier reducción de cuotas debe explicar cómo afecta a pensiones y otras prestaciones y quién cubre la financiación necesaria. Las condiciones concretas deberán contrastarse con la normativa vigente antes de redactar una reforma.
 
-**Evidencia y diagnóstico pendiente:** Rendimientos, cotizaciones, cobertura y morosidad por perfiles. Contrastar alcance, actualidad y limitaciones antes de aprobar medidas.
+La aplicación correspondería principalmente al Estado en Seguridad Social y fiscalidad estatal. Otras administraciones participarían mediante los apoyos de su competencia.
 
-**Coste y financiación:** Pendientes de estimación. Incluir sistemas de ajuste, apoyos y financiación de prestaciones. No hay presupuesto ni financiación aprobados en este borrador.
+El diagnóstico deberá revisar rendimientos, cotizaciones, cobertura y morosidad por perfiles. Antes de aprobar medidas, habrá que comprobar el alcance, la actualidad y las limitaciones de estas fuentes.
 
-**Riesgos y garantías:** No reducir cuotas sin evaluar cobertura y sostenibilidad ni favorecer falsos autónomos.
+El coste y su financiación están pendientes de estimación. El cálculo deberá incluir sistemas de ajuste, apoyos y financiación de prestaciones. No hay presupuesto ni financiación aprobados en este borrador.
+
+La aplicación no deberá reducir cuotas sin evaluar cobertura y sostenibilidad ni favorecer falsos autónomos.
 
 ### 2.16. Impuestos e IVA: carga, simplicidad y financiación
 
@@ -850,15 +850,13 @@ En cuatro años, el objetivo es extender a 3.000 participantes y reducir un 30 %
 
 La ejecución correspondería a Hacienda, administraciones tributarias competentes y legisladores; el calendario previsto incluye perfiles y obligaciones en M1–M3; herramientas y eliminación legal de duplicidades en M4–M6; evaluación desde M7. Comparar IVA y ayudas directas antes de escoger una rebaja, verificando su traslado al precio.
 
-#### Ficha técnica
+#### La propuesta en detalle
 
-**Fundamento y alternativas:** Reducir cargas puede mejorar renta disponible e incentivos, pero el efecto depende del diseño y de cómo se financie. Comparar cambios en IRPF, beneficios fiscales y ayudas focalizadas; una rebaja de IVA puede no trasladarse íntegramente al precio. No asumir autofinanciación por crecimiento.
+Queremos comprobar la carga fiscal real de hogares y empresas, las dificultades para cumplir las obligaciones y los efectos de los impuestos sobre consumo, empleo e inversión. Para valorar si una carga es alta, hay que comparar ingresos, deducciones, servicios financiados y contribuyentes en condiciones semejantes.
 
-**Medición y fuentes:** Impuestos y cotizaciones pagados/ingreso comparable por perfil, con norma y territorio declarados; horas de cumplimiento, recaudación y precios. Distinguir tipo marginal y efectivo, y salario bruto, rendimiento neto y facturación. Horas, coste, errores y carga efectiva por perfil; efecto presupuestario y precios. No prometer un tipo fiscal concreto sin memoria ni contabilizar crecimiento o fraude evitado como financiación cierta.
+Reducir cargas puede dejar más renta disponible y mejorar incentivos, pero su efecto depende del diseño y de la financiación. Compararemos cambios en IRPF, beneficios fiscales y ayudas dirigidas a necesidades concretas. Una rebaja de IVA puede no llegar íntegramente al precio; no supondremos que el crecimiento paga por sí solo la rebaja.
 
-**Problema a estudiar:** carga fiscal efectiva sobre hogares y empresas, complejidad del cumplimiento y efecto de los impuestos sobre consumo, empleo e inversión. La valoración de que un impuesto es alto debe contrastarse con ingresos, deducciones, servicios financiados y contribuyentes comparables.
-
-**Propuestas:**
+Para abordar estos problemas, proponemos las siguientes medidas:
 
 - Publicar ejemplos de carga total para perfiles de hogares, autónomos y empresas, distinguiendo impuestos, cotizaciones, tasas y costes administrativos.
 - Evaluar reducciones focalizadas donde aporten mayor mejora de renta disponible o inversión, con memoria presupuestaria y distributiva.
@@ -873,19 +871,21 @@ La ejecución correspondería a Hacienda, administraciones tributarias competent
 - Reducir problemas de tesorería vinculados al IVA de facturas no cobradas mediante revisión de los mecanismos legales disponibles y sus límites.
 - Reforzar prevención del fraude con controles proporcionados y garantías, sin tratar a todos los contribuyentes como sospechosos.
 
-**Distinciones importantes:** el IVA repercutido no equivale a beneficio del negocio; el IVA soportado puede ser deducible según la actividad y las reglas aplicables. Tampoco debe confundirse la cuota de autónomos con un impuesto: financia protección social.
+Compararemos impuestos y cotizaciones pagados respecto de ingresos comparables por perfil, actividad y nivel de renta, indicando norma y territorio. Diferenciaremos el tipo marginal del efectivo, así como salario bruto, rendimiento neto y facturación. Seguiremos horas, coste y errores de cumplimiento, renta disponible, recaudación, inversión adicional, precios y saldo presupuestario.
 
-**Financiación:** presentar escenarios de recaudación y gasto para cada rebaja. No dar por hecho que el crecimiento o la lucha contra el fraude compensarán íntegramente la pérdida de ingresos, ni trasladarla a deuda o recortes sin explicarlo.
+Para las exenciones, revisaremos su fundamento, coste fiscal estimado por actividad, recaudación municipal y efectos sobre servicios. Distinguiremos estimaciones de ingresos realmente obtenidos. No prometemos un tipo fiscal concreto sin una memoria de efectos ni contaremos crecimiento o fraude evitado como financiación cierta.
 
-**Competencias:** Estado, comunidades autónomas y entidades locales en sus respectivos tributos, respetando los regímenes forales y especiales; Unión Europea en el marco común del IVA.
+El IVA repercutido no equivale a beneficio del negocio; el IVA soportado puede ser deducible según la actividad y las reglas aplicables. Tampoco debe confundirse la cuota de autónomos con un impuesto: financia protección social.
 
-**Indicadores:** carga efectiva por renta y tipo de actividad, coste de cumplimiento, renta disponible, inversión adicional, efecto sobre precios y saldo presupuestario. Para exenciones: fundamento, coste fiscal estimado por actividad, recaudación municipal y efectos sobre servicios, distinguiendo estimación y recaudación realmente obtenida.
+Cada propuesta de rebaja deberá presentar escenarios de recaudación y gasto. No se dará por hecho que el crecimiento o la lucha contra el fraude compensarán íntegramente la pérdida de ingresos, ni se trasladará esa pérdida a deuda o recortes sin explicarlo.
 
-**Evidencia y diagnóstico pendiente:** Tributación por perfiles, recaudación y efectos de beneficios fiscales. Para entidades religiosas y sin ánimo de lucro: supuestos legales [F40], datos municipales y actividades, sin presuponer un importe nacional recuperable. Contrastar alcance, actualidad y limitaciones antes de aprobar medidas.
+El Estado, las comunidades autónomas y las entidades locales intervendrían en sus respectivos tributos, respetando los regímenes forales y especiales. La Unión Europea establece el marco común del IVA.
 
-**Coste y financiación:** Pendientes de estimación. Incluir gestión, inventario y revisión de exenciones y pérdida o aumento estimado de ingresos de cada alternativa, con escenarios de financiación. No hay presupuesto ni financiación aprobados en este borrador.
+El diagnóstico deberá revisar la tributación por perfiles, la recaudación y los efectos de los beneficios fiscales. En las entidades religiosas y sin ánimo de lucro, se examinarán los supuestos legales [F40], los datos municipales y las actividades, sin presuponer un importe nacional recuperable. Antes de aprobar medidas, habrá que comprobar el alcance, la actualidad y las limitaciones de estas fuentes.
 
-**Riesgos y garantías:** No asumir que una rebaja se autofinancia o llega íntegramente al consumidor.
+El coste y su financiación están pendientes de estimación. El cálculo deberá incluir gestión, inventario y revisión de exenciones y pérdida o aumento estimado de ingresos de cada alternativa, con escenarios de financiación. No hay presupuesto ni financiación aprobados en este borrador.
+
+La aplicación no deberá asumir que una rebaja se autofinancia o llega íntegramente al consumidor.
 
 ### 2.17. Independencia energética: petróleo, gas y aviación
 
@@ -905,15 +905,13 @@ En cuatro años, el objetivo es extender a 5.000 hogares y 200 pymes y reducir u
 
 La ejecución correspondería a administraciones energéticas y de vivienda, municipios y participantes; el calendario previsto incluye auditoría y selección de actuaciones en M1–M3; financiación de aislamiento, eficiencia y electrificación viable en M4–M6; instalación desde M7. Coordinar redes y suministro; evaluar aviación por pilotos y certificación, no prometer sustituir toda la flota.
 
-#### Ficha técnica
+#### La propuesta en detalle
 
-**Fundamento y alternativas:** Eficiencia y electrificación pueden reducir exposición a combustibles importados; requieren inversión, suministro y mantenimiento. Comparar aislamiento, equipos y gestión de demanda por coste de ciclo de vida. Cambiar petróleo por gas desplaza dependencia; no crea inmunidad a inflación o shocks.
+Depender de combustibles importados expone al país a precios internacionales y dificulta reducir emisiones del transporte y la industria. Ganar independencia energética no significa necesariamente aislarse ni producir todos los recursos dentro del país.
 
-**Medición y fuentes:** kWh equivalentes fósiles por hogar o unidad producida, con facturas y contadores ajustados por clima y actividad; coste completo, electricidad adicional y continuidad. Comparar cohortes y tecnologías, no solo potencia instalada. Energía fósil en kWh equivalentes, consumo eléctrico, emisiones y factura completa, ajustando clima y producción. No cerrar respaldo energético sin alternativas fiables ni prometer independencia total de la inflación.
+La eficiencia y la electrificación pueden reducir la exposición a combustibles importados, pero requieren inversión, suministro y mantenimiento. Compararemos aislamiento, equipos y gestión de demanda por su coste durante toda la vida útil. Sustituir petróleo por gas desplaza la dependencia; no elimina la exposición a la inflación o a interrupciones externas.
 
-**Problema a estudiar:** dependencia de combustibles importados, exposición a precios internacionales y dificultad para descarbonizar transporte e industria. Independencia energética no significa necesariamente aislarse ni producir todos los recursos dentro del país.
-
-**Propuestas:**
+Para abordar estos problemas, proponemos las siguientes medidas:
 
 - Reducir demanda de petróleo mediante eficiencia, transporte público y electrificación donde sean técnica y económicamente adecuadas.
 - Reducir demanda de gas natural en edificios e industria mediante aislamiento, eficiencia y electrificación, incluidas bombas de calor donde sean adecuadas; evaluar inversión, coste total y apoyos para hogares y empresas con menos capacidad económica.
@@ -929,17 +927,19 @@ La ejecución correspondería a administraciones energéticas y de vivienda, mun
 - Exigir certificación de seguridad y evaluar costes, infraestructura y disponibilidad antes de ampliar soluciones aeronáuticas.
 - Desarrollar capacidades industriales y diversificar suministros de equipos y minerales para no sustituir una dependencia por otra.
 
-**Límites:** el hidrógeno es un vector energético que requiere energía para producirse; los combustibles alternativos no son automáticamente neutros en emisiones. Reducir petróleo sustituyéndolo por gas no elimina la dependencia fósil. Deben evaluarse emisiones de ciclo de vida, incluidas fugas de metano, y alternativas para usos difíciles de electrificar. No se promete autosuficiencia completa, suministro sin respaldo viable ni vuelos sin impacto con tecnologías aún no acreditadas.
+Las facturas y los contadores permitirán comparar energía fósil en kWh equivalentes por hogar o unidad producida, ajustando clima y actividad. Registraremos consumo eléctrico adicional, emisiones, factura y coste completo, continuidad y fiabilidad del suministro. Compararemos grupos y tecnologías, no solo potencia instalada.
 
-**Competencias:** Estado, comunidades autónomas y ayuntamientos según energía, transporte y territorio; Unión Europea y autoridades aeronáuticas en regulación y certificación.
+También seguiremos dependencia de importaciones, petróleo y gas natural por sector, necesidad de generación eléctrica con gas, acceso a autoconsumo y resultados de pilotos. En escenarios nucleares y sus alternativas, compararemos generación disponible, coste del sistema, calendario, financiación, seguridad, residuos y desmantelamiento. Un estudio no es una instalación autorizada. No se retirará respaldo sin alternativas fiables ni se prometerá independencia total de la inflación.
 
-**Indicadores:** dependencia de importaciones energéticas, consumo e importación de petróleo y gas natural por sector, necesidad de generación eléctrica con gas, emisiones de ciclo de vida, coste y fiabilidad del suministro, acceso a autoconsumo y resultados de pilotos. Para escenarios nucleares y alternativas: generación disponible, coste del sistema, calendario, financiación, seguridad, gestión de residuos y desmantelamiento; comparar supuestos, no confundir estudios con instalaciones autorizadas.
+El hidrógeno es un vector energético que requiere energía para producirse; los combustibles alternativos no son automáticamente neutros en emisiones. Reducir petróleo sustituyéndolo por gas no elimina la dependencia fósil. Deben evaluarse emisiones de ciclo de vida, incluidas fugas de metano, y alternativas para usos difíciles de electrificar. No se promete autosuficiencia completa, suministro sin respaldo viable ni vuelos sin impacto con tecnologías aún no acreditadas.
 
-**Evidencia y diagnóstico pendiente:** Balances energéticos, costes del sistema y resultados de pilotos. Para nuclear: marco regulatorio [F41], informes de seguridad, proyectos y escenarios de costes y residuos específicos; no hay una viabilidad acreditada de nuevas centrales en este borrador. Contrastar alcance, actualidad y limitaciones antes de aprobar medidas.
+El Estado, las comunidades autónomas y los ayuntamientos intervendrían según sus atribuciones en energía, transporte y territorio. La Unión Europea y las autoridades aeronáuticas lo harían en regulación y certificación.
 
-**Coste y financiación:** Pendientes de estimación. Incluir redes, generación, almacenamiento, aislamiento, electrificación de edificios e industria, transporte y certificación. Los escenarios nucleares incluirán inversión, financiación, operación, combustible, gestión de residuos, desmantelamiento y posibles garantías públicas. No hay presupuesto ni financiación aprobados en este borrador.
+El diagnóstico deberá revisar los balances energéticos, los costes del sistema y los resultados de pilotos. En energía nuclear, se examinarán el marco regulatorio [F41], los informes de seguridad y los proyectos y escenarios específicos de costes y residuos. Este borrador no acredita la viabilidad de nuevas centrales. Antes de aprobar medidas, habrá que comprobar el alcance, la actualidad y las limitaciones de estas fuentes.
 
-**Riesgos y garantías:** Evitar promesas de autosuficiencia o aviación neutra sin viabilidad demostrada, cortes de suministro y traslados de costes a quienes no puedan financiar la transición.
+El coste y su financiación están pendientes de estimación. El cálculo deberá incluir redes, generación, almacenamiento, aislamiento, electrificación de edificios e industria, transporte y certificación. Los escenarios nucleares incluirán inversión, financiación, operación, combustible, gestión de residuos, desmantelamiento y posibles garantías públicas. No hay presupuesto ni financiación aprobados en este borrador.
+
+La aplicación deberá evitar promesas de autosuficiencia o aviación neutra sin viabilidad demostrada, cortes de suministro y traslados de costes a quienes no puedan financiar la transición.
 
 ### 2.18. Espacio: ciencia, industria y servicios útiles
 
@@ -959,15 +959,13 @@ En cuatro años, el objetivo es mantener 10 servicios usuarios y conseguir que a
 
 La ejecución correspondería a Agencia Espacial Española, autoridades usuarias y centros de investigación; el calendario previsto incluye necesidades en M1–M3; acceso a datos y acuerdos compatibles con programas europeos en M4–M6; pruebas y formación desde M7. Priorizar servicios útiles antes de infraestructura propia.
 
-#### Ficha técnica
+#### La propuesta en detalle
 
-**Fundamento y alternativas:** Datos satelitales pueden ampliar observación territorial, pero solo aportan valor si mejoran decisiones o servicios. Comparar datos abiertos existentes, contratación y medición terrestre antes de financiar infraestructura propia; no confundir soberanía tecnológica con producir todo.
+Queremos comprobar cómo desarrollar capacidades espaciales competitivas y utilizarlas para investigación, empleo cualificado y mejores servicios públicos.
 
-**Medición y fuentes:** Tiempo hasta mapa validado, precisión respecto a referencias y coste por servicio efectivamente utilizado, en registros de usuarios públicos. Un prototipo no equivale a uso operativo ni a un contrato industrial conseguido. Tiempo desde datos disponibles hasta mapa validado, precisión, uso real y coste frente a alternativas. Un prototipo o prestigio institucional no equivale a servicio operativo ni garantiza contratos industriales.
+Los datos satelitales pueden ampliar la observación del territorio, pero solo aportan valor si mejoran decisiones o servicios. Antes de financiar infraestructura propia, compararemos datos abiertos existentes, contratación y medición terrestre. Tener capacidad de decisión tecnológica no exige producirlo todo dentro del país.
 
-**Problema a estudiar:** cómo desarrollar capacidades espaciales competitivas y aprovecharlas para investigación, empleo cualificado y servicios públicos.
-
-**Propuestas:**
+Para abordar estos problemas, proponemos las siguientes medidas:
 
 - Coordinar una estrategia con la Agencia Espacial Española, la ESA y programas europeos, evitando duplicar capacidades sin justificación.
 - Priorizar aplicaciones de observación terrestre, comunicaciones y navegación para incendios, agua, agricultura, emergencias e infraestructuras.
@@ -977,17 +975,19 @@ La ejecución correspondería a Agencia Espacial Española, autoridades usuarias
 - Evaluar infraestructura y misiones por utilidad, coste total, riesgos y alternativas de cooperación, no solo por prestigio.
 - Incorporar seguridad, prevención de residuos orbitales y cumplimiento de obligaciones internacionales.
 
-**Límites:** participar en la economía espacial no exige construir un programa nacional tripulado ni competir en todas las tecnologías. Las inversiones se priorizarán por resultados científicos, estratégicos y sociales demostrables.
+Los registros de usuarios públicos permitirán medir el tiempo desde que existen datos disponibles hasta obtener un mapa validado, su precisión frente a referencias y el coste por servicio realmente utilizado. Compararemos estos resultados con otras formas de obtener la información.
 
-**Competencias:** principalmente Estado, con participación de comunidades autónomas, universidades y organismos europeos e internacionales.
+También seguiremos contratos competitivos obtenidos, capacidades desarrolladas, empleo cualificado, transferencia tecnológica, uso de datos espaciales en servicios públicos y sostenibilidad de las misiones. Un prototipo o el prestigio de una institución no equivalen a un servicio operativo ni garantizan contratos industriales.
 
-**Indicadores:** contratos competitivos obtenidos, capacidades desarrolladas, empleo cualificado, transferencia tecnológica, servicios públicos que utilizan datos espaciales y sostenibilidad de las misiones.
+Participar en la economía espacial no exige construir un programa nacional tripulado ni competir en todas las tecnologías. Las inversiones se priorizarán por resultados científicos, estratégicos y sociales demostrables.
 
-**Evidencia y diagnóstico pendiente:** Programas, contratos, misiones y aplicaciones científicas y públicas. Contrastar alcance, actualidad y limitaciones antes de aprobar medidas.
+La aplicación correspondería principalmente al Estado, con participación de comunidades autónomas, universidades y organismos europeos e internacionales.
 
-**Coste y financiación:** Pendientes de estimación. Incluir investigación, formación, infraestructura y cooperación. No hay presupuesto ni financiación aprobados en este borrador.
+El diagnóstico deberá revisar programas, contratos, misiones y aplicaciones científicas y públicas. Antes de aprobar medidas, habrá que comprobar el alcance, la actualidad y las limitaciones de estas fuentes.
 
-**Riesgos y garantías:** No duplicar capacidades por prestigio ni ignorar seguridad o residuos orbitales.
+El coste y su financiación están pendientes de estimación. El cálculo deberá incluir investigación, formación, infraestructura y cooperación. No hay presupuesto ni financiación aprobados en este borrador.
+
+La aplicación no deberá duplicar capacidades por prestigio ni ignorar seguridad o residuos orbitales.
 
 ### 2.19. Medios de comunicación, pluralismo e independencia editorial
 
@@ -1007,15 +1007,13 @@ En cuatro años, el objetivo es extender a 20 entidades y mantener publicación 
 
 La ejecución correspondería a entidades anunciantes y órganos independientes de control; el calendario previsto incluye inventario y reglas en M1–M3; registro reutilizable y canales de reclamación en M4–M6; revisión trimestral desde M7. Evaluar nombramientos y financiación con criterios profesionales y pluralismo.
 
-#### Ficha técnica
+#### La propuesta en detalle
 
-**Fundamento y alternativas:** Publicar financiación y criterios permite detectar trato desigual, pero no convierte opiniones en neutrales. Proteger procedimientos y reclamaciones frente a imponer una versión oficial de la verdad; la pluralidad incluye críticas al Gobierno.
+Queremos estudiar las interferencias políticas o económicas, la falta de claridad sobre financiación y propiedad y las dificultades para distinguir información, opinión y publicidad. Tener una línea editorial no equivale por sí solo a manipulación.
 
-**Medición y fuentes:** Gasto de publicidad institucional trazado/gasto ejecutado, presupuestos y adjudicaciones; plazos de respuesta a reclamaciones. Explicar reservas legales y contrastar integridad del registro, no puntuar afinidad política. Gasto registrado/gasto ejecutado, fechas de publicación y reclamaciones respondidas. No premiar coberturas favorables ni convertir el registro en un listado oficial de medios aceptables.
+Publicar la financiación y los criterios de reparto permite detectar tratos desiguales, pero no convierte las opiniones en neutrales. La propuesta protege procedimientos y vías de reclamación, en lugar de imponer una versión oficial de la verdad. La pluralidad incluye las críticas al Gobierno.
 
-**Problema a estudiar:** interferencias políticas o económicas, opacidad sobre financiación y propiedad y dificultades para distinguir información, opinión y publicidad. Tener una línea editorial no equivale por sí solo a manipulación.
-
-**Propuestas:**
+Para abordar estos problemas, proponemos las siguientes medidas:
 
 - Reforzar procedimientos transparentes y garantías de independencia en nombramientos y dirección de medios públicos, con criterios profesionales y control parlamentario plural.
 - Proteger la autonomía editorial frente a instrucciones partidistas y conflictos de interés, con mecanismos de denuncia y revisión independientes.
@@ -1025,17 +1023,19 @@ La ejecución correspondería a entidades anunciantes y órganos independientes 
 - Reforzar alfabetización mediática y acceso a información pública para que la ciudadanía pueda contrastar fuentes.
 - Evaluar concentración y barreras que limiten pluralismo, sin exigir que todos los medios compartan una orientación política ni censurar críticas.
 
-**Límites:** despolitizar no significa prohibir opiniones políticas ni dar al Gobierno el poder de decidir qué periodismo es aceptable. Deben preservarse libertad de expresión, información y garantías judiciales.
+Compararemos el gasto de publicidad institucional cuyo recorrido puede comprobarse con todo el gasto ejecutado, utilizando presupuestos y adjudicaciones. Revisaremos la integridad del registro, las fechas de publicación, las reservas legales y los plazos de respuesta a reclamaciones.
 
-**Competencias:** Estado, comunidades autónomas y organismos competentes según titularidad de medios, publicidad institucional y normativa aplicable, dentro del marco europeo.
+Seguiremos transparencia de nombramientos y financiación, distribución conforme a criterios publicados, reclamaciones resueltas, correcciones y concentración del mercado. No puntuaremos afinidad política o neutralidad mediante listas partidistas de medios «buenos» y «malos», ni premiaremos coberturas favorables o crearemos un listado oficial de medios aceptables.
 
-**Indicadores:** transparencia de nombramientos y financiación, distribución de publicidad institucional conforme a criterios publicados, reclamaciones resueltas, correcciones y concentración del mercado. No se calificará neutralidad mediante listas partidistas de medios «buenos» y «malos».
+Despolitizar no significa prohibir opiniones políticas ni dar al Gobierno el poder de decidir qué periodismo es aceptable. Deben preservarse libertad de expresión, información y garantías judiciales.
 
-**Evidencia y diagnóstico pendiente:** Nombramientos, propiedad, publicidad institucional y mecanismos de reclamación. Contrastar alcance, actualidad y limitaciones antes de aprobar medidas.
+El Estado, las comunidades autónomas y los organismos competentes intervendrían según la titularidad de los medios, la publicidad institucional y la normativa aplicable, dentro del marco europeo.
 
-**Coste y financiación:** Pendientes de estimación. Incluir transparencia, control y alfabetización mediática. No hay presupuesto ni financiación aprobados en este borrador.
+El diagnóstico deberá revisar nombramientos, propiedad, publicidad institucional y mecanismos de reclamación. Antes de aprobar medidas, habrá que comprobar el alcance, la actualidad y las limitaciones de estas fuentes.
 
-**Riesgos y garantías:** No convertir despolitización en censura ni en clasificación oficial de medios aceptables.
+El coste y su financiación están pendientes de estimación. El cálculo deberá incluir transparencia, control y alfabetización mediática. No hay presupuesto ni financiación aprobados en este borrador.
+
+La aplicación no deberá convertir despolitización en censura ni en clasificación oficial de medios aceptables.
 
 ### 2.20. Convivencia democrática, memoria y cohesión territorial
 
@@ -1055,21 +1055,19 @@ En cuatro años, el objetivo es alcanzar 40 proyectos y conseguir que el 60 % de
 
 La ejecución correspondería a municipios, comunidades, centros educativos y entidades culturales; el calendario previsto incluye convocatoria plural y accesible en M1–M3; facilitadores y pequeños proyectos con presupuesto en M4–M6; ejecución desde M7; seguimiento anual de continuidad.
 
-#### Ficha técnica
+#### La propuesta en detalle
 
-**Fundamento y alternativas:** Cooperar en problemas concretos puede crear vínculos sin exigir acuerdo ideológico; encuentros aislados no aseguran confianza duradera. Comparar proyectos con continuidad y recursos con actividades simbólicas, preservando memoria, derechos y participación voluntaria.
+La polarización alrededor de la Guerra Civil, el franquismo, los símbolos nacionales y los proyectos territoriales puede dificultar acuerdos. Queremos estudiar cómo construirlos sin excluir identidades ni opiniones democráticas.
 
-**Medición y fuentes:** Equipos con actividad conjunta verificable después del apoyo/equipos iniciales, registros y seguimiento consentido. Encuestas de confianza requieren diseño y límites; no se usarán como pruebas de lealtad. Participantes inscritos, proyectos entregados y cooperación posterior; publicar conflictos y resultados de confianza sin convertirlos en prueba causal. Añadir compromisos cumplidos o motivadamente incumplidos y respuestas a propuestas, sin contar reuniones como soluciones. No imponer símbolos, identidad ni una opinión sobre la historia.
+Cooperar para resolver problemas concretos puede crear vínculos sin exigir acuerdo ideológico, pero un encuentro aislado no asegura confianza duradera. Compararemos proyectos con continuidad y recursos con actividades simbólicas, preservando memoria, derechos y participación voluntaria.
 
-**Problema a estudiar:** polarización alrededor de la Guerra Civil, el franquismo, los símbolos nacionales y los proyectos territoriales; dificultad para construir acuerdos sin excluir identidades ni opiniones democráticas.
+Proponemos fomentar un orgullo de país basado en libertades, derechos, diversidad y proyectos compartidos. Superar la confrontación no significa borrar la historia, equiparar democracia y dictadura ni exigir que las víctimas renuncien a verdad, justicia y reparación.
 
-**Orientación propuesta:** fomentar un orgullo de país basado en libertades, derechos, diversidad y proyectos compartidos. Superar la confrontación no significa borrar la historia, equiparar democracia y dictadura ni exigir que las víctimas renuncien a verdad, justicia y reparación.
+El objetivo es ampliar cooperación y confianza, no conseguir que todas las personas voten igual, hablen la misma lengua o sientan los símbolos de la misma manera. Conviene empezar por problemas compartidos y compromisos que mejoren la vida, sin negar desacuerdos históricos o territoriales.
 
-**Unir sin uniformar:** el objetivo es ampliar cooperación y confianza, no conseguir que todas las personas voten igual, hablen la misma lengua o sientan los símbolos de la misma manera. Conviene empezar por problemas compartidos y compromisos que mejoren la vida, sin negar desacuerdos históricos o territoriales.
+Ante un problema, habrá que aclarar qué ocurre, qué sabemos, qué alternativas hay, quién tiene competencia y qué se hará después. Comparar decisiones anteriores puede aportar contexto, pero no exime de explicar la responsabilidad actual. Reconocer un acierto ajeno o corregir un error propio no debe tratarse como una derrota de partido.
 
-**Del «y tú más» al siguiente paso:** ante un problema, aclarar qué ocurre, qué sabemos, qué alternativas hay, quién tiene competencia y qué se hará después. Comparar decisiones anteriores puede aportar contexto, pero no exime de explicar la responsabilidad actual. Reconocer un acierto ajeno o corregir un error propio no debe tratarse como una derrota de partido.
-
-**Opciones a evaluar:**
+Estas alternativas permitirían comparar distintas formas de cooperación:
 
 | Opción | Cómo probarla | Qué observar y qué evitar |
 |---|---|---|
@@ -1079,7 +1077,7 @@ La ejecución correspondería a municipios, comunidades, centros educativos y en
 | Intercambios educativos y culturales | Actividades accesibles entre localidades, lenguas y generaciones, con igualdad de trato. | Participación y cooperación posterior; no atribuir automáticamente a un encuentro cambios duraderos. |
 | Información sobre aportaciones y necesidades | Explicar financiación y servicios con datos comparables y contexto. | Comprensión y corrección de errores; no construir listas de territorios o ciudadanos «más españoles». |
 
-**Propuestas:**
+Para abordar estos problemas, proponemos las siguientes medidas:
 
 - Promover educación histórica rigurosa sobre la Guerra Civil, la dictadura franquista y la construcción democrática, apoyada en investigación, archivos y contraste de fuentes, no en relatos partidistas obligatorios.
 - Facilitar reconocimiento y reparación de víctimas conforme al marco legal, sin culpabilizar a generaciones posteriores por hechos que no cometieron.
@@ -1098,19 +1096,21 @@ La ejecución correspondería a municipios, comunidades, centros educativos y en
 - Publicar correcciones de datos y cambios de posición, distinguiendo error, desacuerdo e irregularidad acreditada. Ofrecer revisión de la moderación y aplicar las mismas reglas a participantes afines y críticos.
 - Facilitar proyectos compartidos entre personas de distintas posiciones democráticas, sin imponer unanimidad ni usar la unión como argumento para silenciar oposición, denuncias o reclamaciones de derechos.
 
-**Límites:** el orgullo nacional debe ser voluntario y compatible con la crítica al poder. Unir no significa impunidad: investigar irregularidades, exigir responsabilidades y reparar daños sigue siendo necesario. No se propone censurar opiniones, justificar la violencia, imponer un himno ni condicionar la participación al sentimiento nacional de cada persona.
+Compararemos los equipos que mantienen una actividad conjunta verificable después del apoyo con los equipos iniciales, mediante registros y seguimiento consentido. Contaremos participantes inscritos, proyectos entregados, cooperación posterior, abandonos, conflictos y compromisos cumplidos o motivadamente incumplidos, además de respuestas a propuestas. Una reunión no se contará como una solución.
 
-**Competencias:** Estado, comunidades autónomas, ayuntamientos e instituciones educativas y culturales en sus atribuciones; reformas y símbolos oficiales mediante los cauces jurídicos aplicables.
+Observaremos confianza entre territorios, participación en proyectos compartidos, conocimiento histórico contrastado, discriminación por identidad o lengua, calidad de acuerdos y acceso equitativo a servicios. Las encuestas de confianza deberán explicar su diseño y límites: no prueban por sí solas causalidad ni se utilizarán como pruebas de lealtad. No se impondrán símbolos, identidad o una opinión sobre la historia.
 
-**Indicadores:** confianza entre territorios, participación en proyectos compartidos, conocimiento histórico contrastado, discriminación por identidad o lengua, calidad de acuerdos institucionales y acceso equitativo a servicios.
+El orgullo nacional debe ser voluntario y compatible con la crítica al poder. Unir no significa impunidad: investigar irregularidades, exigir responsabilidades y reparar daños sigue siendo necesario. No se propone censurar opiniones, justificar la violencia, imponer un himno ni condicionar la participación al sentimiento nacional de cada persona.
 
-**Seguimiento de la cooperación:** publicar compromisos con responsable y fecha/compromisos aceptados, cumplidos/compromisos vencidos y propuestas con respuesta motivada/propuestas recibidas dentro del alcance acordado. Mostrar cantidades y retrasos, incluidos abandonos y desacuerdos. Estos registros describen el trabajo de los proyectos, no prueban una reducción nacional de polarización ni miden conformidad ideológica.
+El Estado, las comunidades autónomas, los ayuntamientos y las instituciones educativas y culturales intervendrían dentro de sus atribuciones. Las reformas y los cambios de símbolos oficiales seguirían los cauces jurídicos aplicables.
 
-**Evidencia y diagnóstico pendiente:** Experiencias de cooperación, participación y datos territoriales comparables. Contrastar alcance, actualidad y limitaciones antes de aprobar medidas.
+Para seguir la cooperación, publicaremos qué proporción de los compromisos aceptados tiene responsable y fecha, cuántos compromisos vencidos se han cumplido y qué proporción de las propuestas recibidas tiene respuesta motivada dentro del alcance acordado. Se mostrarán cantidades y retrasos, incluidos abandonos y desacuerdos. Estos registros describen el trabajo de los proyectos, no prueban una reducción nacional de polarización ni miden conformidad ideológica.
 
-**Coste y financiación:** Pendientes de estimación. Incluir facilitación, intercambios, proyectos y evaluación. No hay presupuesto ni financiación aprobados en este borrador.
+El diagnóstico deberá revisar experiencias de cooperación, participación y datos territoriales comparables. Antes de aprobar medidas, habrá que comprobar el alcance, la actualidad y las limitaciones de estas fuentes.
 
-**Riesgos y garantías:** No imponer símbolos o borrar historia; evitar participación decorativa y pruebas de lealtad.
+El coste y su financiación están pendientes de estimación. El cálculo deberá incluir facilitación, intercambios, proyectos y evaluación. No hay presupuesto ni financiación aprobados en este borrador.
+
+La aplicación no deberá imponer símbolos ni borrar la historia. También deberá evitar una participación sin efectos reales y las pruebas de lealtad.
 
 ### 2.21. Jefatura del Estado: utilidad, transparencia y alternativas
 
@@ -1130,15 +1130,13 @@ En cuatro años, el objetivo es actualizar anualmente las cuentas y la comparaci
 
 La ejecución correspondería a instituciones constitucionales en su competencia y equipo de evaluación independiente; el calendario previsto incluye alcance y fuentes en M1–M3; análisis y participación en M4–M9; publicación en M10–M12. Si se promueve una reforma, definir después su tramitación constitucional, mayoría y costes.
 
-#### Ficha técnica
+#### La propuesta en detalle
 
-**Fundamento y alternativas:** Comparar funciones, costes y controles evita decidir únicamente por popularidad o rechazo a personas concretas. Separar reformas de transparencia y cambios de forma de Estado; una preferencia democrática no necesita presentarse como conclusión económica inevitable.
+Queremos estudiar qué aporta la monarquía parlamentaria, cómo rinde cuentas y si otros modelos institucionales podrían servir mejor a la ciudadanía. Hay que distinguir funciones constitucionales, conducta de personas concretas y preferencias sobre la forma de Estado.
 
-**Medición y fuentes:** Recomendaciones con respuesta motivada/recomendaciones recibidas y partidas con trazabilidad, cuentas institucionales y revisión jurídica. Comparar costes completos y transición; no atribuir resultados de comercio a la institución sin prueba. Entregables revisados, trazabilidad de cuentas y recomendaciones respondidas. No se fija como resultado obligatorio una monarquía o una república ni se promete modificar el título II mediante decreto.
+Comparar funciones, costes y controles evita decidir únicamente por popularidad o rechazo a personas concretas. Separaremos las reformas de transparencia de los cambios de forma de Estado. Una preferencia democrática no tiene que presentarse como una conclusión económica inevitable.
 
-**Problema a estudiar:** qué aporta la monarquía parlamentaria al país, cómo rinde cuentas y si existen alternativas institucionales que sirvan mejor a la ciudadanía. La valoración debe distinguir funciones constitucionales, conducta de personas concretas y preferencias sobre la forma de Estado.
-
-**Propuestas:**
+Para abordar estos problemas, proponemos las siguientes medidas:
 
 - Elaborar una comparación pública entre la monarquía parlamentaria actual, reformas compatibles con ella y alternativas republicanas concretas, evitando tratar todas las repúblicas como un único modelo.
 - Explicar las funciones y límites de la jefatura del Estado: su contribución debe valorarse dentro de sus atribuciones, no exigirle gobernar o decidir políticas que corresponden a otras instituciones.
@@ -1149,17 +1147,19 @@ La ejecución correspondería a instituciones constitucionales en su competencia
 - Analizar los costes de transición, legitimidad, rendición de cuentas, sistema de designación y posibles conflictos de cada alternativa, sin asumir que un cambio de nombre elimina problemas de poder.
 - Facilitar debate informado y, si se impulsa una reforma de la forma de Estado, tramitarla por los cauces constitucionales correspondientes, con participación y garantías.
 
-**Límites:** la crítica a la monarquía y su defensa son posiciones democráticas legítimas. La institución no debe utilizarse para promocionar partidos. Cambiar la forma de Estado no puede hacerse mediante un decreto ni confundirse con una consulta informal; una reforma del título II está sujeta al procedimiento agravado del artículo 168 de la Constitución, con referéndum de ratificación.
+Las cuentas institucionales y la revisión jurídica permitirán comprobar la trazabilidad de las partidas y la proporción de recomendaciones con respuesta motivada respecto de las recibidas. Revisaremos entregas, cumplimiento de controles, transparencia, confianza y accesibilidad institucional.
 
-**Competencias:** instituciones constitucionales y ciudadanía mediante los procedimientos aplicables; obligaciones y controles dentro del marco legal vigente.
+Compararemos costes completos, posibles transiciones y calidad de la evaluación de alternativas. La popularidad no sustituye la rendición de cuentas ni demuestra por sí sola utilidad; tampoco atribuiremos resultados comerciales a la institución sin pruebas. No se fija como resultado obligatorio una monarquía o una república ni se promete cambiar el título II mediante decreto.
 
-**Indicadores:** transparencia efectiva, cumplimiento de controles, confianza y accesibilidad institucional, costes totales comparables y calidad de la evaluación de alternativas. La popularidad no sustituye la rendición de cuentas ni prueba por sí sola la utilidad de un modelo.
+La crítica a la monarquía y su defensa son posiciones democráticas legítimas. La institución no debe utilizarse para promocionar partidos. Cambiar la forma de Estado no puede hacerse mediante un decreto ni confundirse con una consulta informal; una reforma del título II está sujeta al procedimiento agravado del artículo 168 de la Constitución, con referéndum de ratificación.
 
-**Evidencia y diagnóstico pendiente:** Funciones, cuentas y reglas de modelos institucionales concretos. Contrastar alcance, actualidad y limitaciones antes de aprobar medidas.
+Las instituciones constitucionales y la ciudadanía intervendrían mediante los procedimientos aplicables. Las obligaciones y los controles se ejercerían dentro del marco legal vigente.
 
-**Coste y financiación:** Pendientes de estimación. Incluir evaluación y posibles costes de reforma y transición. No hay presupuesto ni financiación aprobados en este borrador.
+El diagnóstico deberá revisar funciones, cuentas y reglas de modelos institucionales concretos. Antes de aprobar medidas, habrá que comprobar el alcance, la actualidad y las limitaciones de estas fuentes.
 
-**Riesgos y garantías:** No atribuir beneficios sin prueba ni confundir debate con un cambio ya aprobado.
+El coste y su financiación están pendientes de estimación. El cálculo deberá incluir evaluación y posibles costes de reforma y transición. No hay presupuesto ni financiación aprobados en este borrador.
+
+La aplicación no deberá atribuir beneficios sin prueba ni confundir debate con un cambio ya aprobado.
 
 ### 2.22. Democracia, igualdad del voto y conocimiento experto
 
@@ -1179,29 +1179,27 @@ En cuatro años, el objetivo es completar 12 deliberaciones y publicar respuesta
 
 La ejecución correspondería a instituciones convocantes, facilitadores independientes y asesores con conflictos declarados; el calendario previsto incluye pregunta, selección y prueba en M1–M3; información, apoyos y deliberación en M4–M9; evaluación y respuesta en M10–M12; nuevas rondas en años 2–4.
 
-#### Ficha técnica
+#### La propuesta en detalle
 
-**Fundamento y alternativas:** Información accesible y asesoría plural pueden mejorar comprensión sin convertir formación o riqueza en poder electoral adicional. Comparar deliberación con consultas ordinarias y publicar sus límites; conocimiento técnico y legitimidad democrática cumplen funciones distintas.
+Las personas disponen de conocimientos, experiencia, tiempo y acceso a información diferentes. Queremos estudiar cómo mejorar las decisiones colectivas sin convertir esas diferencias en privilegios políticos, y discutir quién define qué conocimiento cuenta y cómo se controla a quienes deciden.
 
-**Medición y fuentes:** Cambio de puntuación en una prueba publicada antes de deliberar y recomendaciones respondidas, con composición y abandonos. Medir comprensión, no si la persona termina apoyando la opción del convocante. Comprensión antes y después, representatividad, abandonos y respuesta efectiva. La función será consultiva; no introducir votos de distinto valor ni exámenes para acceder al sufragio.
+La información accesible y una asesoría plural pueden ayudar a comprender las opciones sin dar más poder electoral a quienes tienen formación o riqueza. Compararemos la deliberación con consultas ordinarias, publicando sus límites. El conocimiento técnico y la legitimidad democrática cumplen funciones distintas.
 
-**Problema a estudiar:** cómo mejorar la calidad de las decisiones colectivas cuando la ciudadanía dispone de conocimientos, experiencia, tiempo y acceso a información diferentes. También debe discutirse quién define qué conocimiento cuenta y cómo se controla a quienes toman decisiones.
+La democracia no consiste solo en votar o imponer la voluntad de una mayoría. También requiere derechos, pluralismo, elecciones libres, controles del poder, protección de minorías y posibilidad real de sustituir a los gobernantes.
 
-**Qué entendemos por democracia:** no solo votar o imponer la voluntad de una mayoría. También requiere derechos, pluralismo, elecciones libres, controles del poder, protección de minorías y posibilidad real de sustituir a los gobernantes.
-
-**La cuestión del voto igual:** la igualdad del sufragio reconoce la misma condición política a las personas con derecho a votar; no afirma que todas sepan lo mismo ni que todas las opiniones técnicas sean igual de fiables. Un experto puede comprender mejor un asunto de su especialidad y, aun así, tener intereses propios o discrepar con otros especialistas sobre sus consecuencias.
+La igualdad del sufragio reconoce la misma condición política a las personas con derecho a votar; no afirma que todas sepan lo mismo ni que todas las opiniones técnicas sean igual de fiables. Un experto puede comprender mejor un asunto de su especialidad y, aun así, tener intereses propios o discrepar con otros especialistas sobre sus consecuencias.
 
 Los títulos académicos no son una medida universal de buen juicio, honestidad o conocimiento de todos los asuntos públicos. La experiencia de trabajadores, pacientes, cuidadores o pequeños empresarios también aporta información relevante. Además, decidir quién soporta un coste o qué derechos proteger exige valores y legitimidad, no solo una respuesta técnica.
 
-**Ejemplo sanitario:** cualquier elector puede decidir sobre prioridades, financiación y acceso a la sanidad porque esas decisiones le afectan. Eso no le habilita para operar, prescribir o determinar por votación la eficacia de un tratamiento. Las actuaciones clínicas requieren evidencia y profesionales con la cualificación exigible; la ciudadanía conserva el derecho a informarse, cuestionar y exigir cuentas.
+En sanidad, cualquier elector puede decidir sobre prioridades, financiación y acceso a la sanidad porque esas decisiones le afectan. Eso no le habilita para operar, prescribir o determinar por votación la eficacia de un tratamiento. Las actuaciones clínicas requieren evidencia y profesionales con la cualificación exigible; la ciudadanía conserva el derecho a informarse, cuestionar y exigir cuentas.
 
-**Ejemplo de inteligencia artificial:** no hace falta ser ingeniero para opinar sobre privacidad, empleo o responsabilidad de un sistema. Sí hace falta competencia demostrable para sostener afirmaciones técnicas sobre su funcionamiento, evaluar seguridad o diseñar una solución. La experiencia relevante puede existir sin un título concreto, y un título no garantiza dominar todas las especialidades. Una conversación entre personas no especialistas debe reconocer sus límites, no quedar prohibida.
+En inteligencia artificial, no hace falta ser ingeniero para opinar sobre privacidad, empleo o responsabilidad de un sistema. Sí hace falta competencia demostrable para sostener afirmaciones técnicas sobre su funcionamiento, evaluar seguridad o diseñar una solución. La experiencia relevante puede existir sin un título concreto, y un título no garantiza dominar todas las especialidades. Una conversación entre personas no especialistas debe reconocer sus límites, no quedar prohibida.
 
-**Edad, apoyos y condenas:** una edad avanzada o una educación limitada no demuestran incapacidad para decidir y no justifican por sí solas retirar el voto. Deben facilitarse información accesible y apoyos que respeten la voluntad de la persona y eviten coacciones, sin sustituir su elección. La reforma electoral de 2018 eliminó las exclusiones por discapacidad que recogía la ley.
+Una edad avanzada o una educación limitada no demuestran incapacidad para decidir y no justifican por sí solas retirar el voto. Deben facilitarse información accesible y apoyos que respeten la voluntad de la persona y eviten coacciones, sin sustituir su elección. La reforma electoral de 2018 eliminó las exclusiones por discapacidad que recogía la ley.
 
 Los delitos graves, incluidos homicidio, crímenes de guerra o delitos contra instituciones, exigen investigación, responsabilidad individual y las penas legalmente aplicables. Una acusación o etiqueta política no equivale a una condena, y una condena no elimina automáticamente todos los derechos. Debe distinguirse sufragio activo (votar), sufragio pasivo (ser candidato) y ejercicio de cargos: sus restricciones y consecuencias jurídicas no son idénticas ni pueden imponerse como castigo colectivo.
 
-**Alternativas que conviene comparar:**
+Para mejorar las decisiones colectivas, conviene comparar estas alternativas:
 
 | Modelo | Aportación posible | Riesgos y límites |
 |---|---|---|
@@ -1210,9 +1208,9 @@ Los delitos graves, incluidos homicidio, crímenes de guerra o delitos contra in
 | Asesoría experta independiente | Mejorar diagnóstico, diseño y evaluación de medidas concretas. | Los expertos pueden discrepar o tener conflictos de interés; necesitan transparencia y no sustituyen por sí solos la legitimidad democrática. |
 | Deliberación ciudadana informada | Dar tiempo, información contrastada y escucha para considerar alternativas. | Requiere selección y facilitación cuidadosas, recursos y claridad sobre el alcance de sus recomendaciones. |
 
-**Orientación propuesta:** mejorar la calidad de la información y de las decisiones sin convertir formación, riqueza o profesión en privilegios electorales. Distinguir el peso de la evidencia en un análisis del valor del voto de cada persona.
+Proponemos mejorar la calidad de la información y de las decisiones sin convertir formación, riqueza o profesión en privilegios electorales. Para ello, distinguiremos el peso de la evidencia en un análisis del valor del voto de cada persona.
 
-**Propuestas:**
+Para abordar estos problemas, proponemos las siguientes medidas:
 
 - Reforzar educación cívica, pensamiento crítico y comprensión de instituciones, presupuestos y datos, accesibles también a adultos y sin exámenes que condicionen el derecho a votar.
 - Publicar explicaciones comprensibles de propuestas electorales y legislativas, con costes, fuentes, incertidumbres y diferencias entre hechos, estimaciones y preferencias.
@@ -1227,19 +1225,21 @@ Los delitos graves, incluidos homicidio, crímenes de guerra o delitos contra in
 - Garantizar accesibilidad y protección frente a coacciones para personas mayores y otras que requieran apoyos, sin pruebas de estudios, afinidad política ni un límite superior de edad para votar.
 - Explicar públicamente las diferencias entre penas, inhabilitaciones y derechos electorales y aplicar únicamente las restricciones legalmente procedentes, mediante los órganos competentes y con garantías.
 
-**Límites:** cualquier cambio electoral debe analizarse conforme al sufragio universal e igual y a los derechos de participación. Un examen de votantes o un voto de distinto peso por títulos no es un simple ajuste administrativo. Las herramientas de IA tampoco deben clasificar ciudadanos como más o menos merecedores de representación.
+Antes de deliberar se publicará una prueba de comprensión y se compararán sus puntuaciones iniciales y finales. Informaremos composición, representatividad, participación por contexto socioeconómico y abandonos, así como accesibilidad de la información, transparencia de asesoría y decisiones y recomendaciones efectivamente respondidas.
 
-**Competencias:** instituciones legislativas y electorales en sus atribuciones; administraciones educativas y organismos públicos en información, participación y evaluación.
+Las simulaciones electorales compararán proporcionalidad y representación en escenarios equivalentes. El seguimiento de compromisos recogerá balances publicados, verificación y cambios motivados, no solo anuncios. Mediremos comprensión, no apoyo a la opción del convocante. La deliberación será consultiva; no introduciremos votos de distinto valor ni exámenes para acceder al sufragio.
 
-**Indicadores:** comprensión cívica, accesibilidad de información, participación por contexto socioeconómico, transparencia de asesoría y decisiones, representatividad de procesos deliberativos y seguimiento de recomendaciones. Para reformas electorales: proporcionalidad y representación de escenarios comparables; para compromisos: balances publicados, verificación y cambios motivados, no solo anuncios. No se medirá la calidad democrática por el porcentaje de votantes que apoye a una opción determinada.
+Cualquier cambio electoral debe analizarse conforme al sufragio universal e igual y a los derechos de participación. Un examen de votantes o un voto de distinto peso por títulos no es un simple ajuste administrativo. Las herramientas de IA tampoco deben clasificar ciudadanos como más o menos merecedores de representación.
 
-**Referencias jurídicas de partida:** Ley Orgánica del Régimen Electoral General, especialmente sufragio activo y pasivo, y Ley Orgánica 2/2018 sobre participación electoral de personas con discapacidad. Las consecuencias de una condena concreta requieren examinar la sentencia y la normativa aplicable.
+Las instituciones legislativas y electorales intervendrían dentro de sus atribuciones. Las administraciones educativas y los organismos públicos participarían en información, participación y evaluación.
 
-**Evidencia y diagnóstico pendiente:** Normativa electoral y evaluación de información y participación. Contrastar alcance, actualidad y limitaciones antes de aprobar medidas.
+Las referencias jurídicas de partida son la Ley Orgánica del Régimen Electoral General, especialmente sus reglas de sufragio activo y pasivo, y la Ley Orgánica 2/2018 sobre participación electoral de personas con discapacidad. Las consecuencias de una condena concreta requieren examinar la sentencia y la normativa aplicable.
 
-**Coste y financiación:** Pendientes de estimación. Incluir educación cívica, asesoría, procesos deliberativos accesibles, simulaciones electorales y verificación de compromisos. No hay presupuesto ni financiación aprobados en este borrador.
+El diagnóstico deberá revisar normativa electoral y evaluación de información y participación. Antes de aprobar medidas, habrá que comprobar el alcance, la actualidad y las limitaciones de estas fuentes.
 
-**Riesgos y garantías:** Preservar igualdad, libertad del voto y apoyos; no sustituir legitimidad por credenciales.
+El coste y su financiación están pendientes de estimación. El cálculo deberá incluir educación cívica, asesoría, procesos deliberativos accesibles, simulaciones electorales y verificación de compromisos. No hay presupuesto ni financiación aprobados en este borrador.
+
+La aplicación deberá preservar la igualdad, la libertad del voto y los apoyos necesarios. Las credenciales no sustituirán la legitimidad democrática.
 
 ### 2.23. Remuneración, incentivos y conflictos de interés en cargos públicos
 
@@ -1259,17 +1259,15 @@ En cuatro años, el objetivo es ampliar como máximo a 10 equipos que superen ev
 
 La ejecución correspondería a administraciones empleadoras y órganos de control; el calendario previsto incluye compatibilidad jurídica y comparación de puestos en M1–M3; negociación, presupuesto y evaluación externa en M4–M6; aplicación desde M7. Un equipo jurídico plural preparará la propuesta para las instituciones legislativas competentes antes de M12. Sin habilitación legal se ensayará la medición, pero no se autorizarán actividades incompatibles ni se abonará remuneración nueva.
 
-#### Ficha técnica
+#### La propuesta en detalle
 
-**Fundamento y alternativas:** Remuneración adecuada puede ampliar candidaturas y una compatibilidad bien diseñada puede evitar exclusiones innecesarias; ninguna garantiza integridad. Comparar sueldo fijo, incentivos y actividades compatibles, descontando coste de control y riesgo de captura. La Ley 3/2015 describe el marco vigente, no demuestra eficacia de la reforma [F9].
+Queremos estudiar cómo atraer y retener personas competentes en responsabilidades públicas y reconocer resultados sin favorecer corrupción, decisiones interesadas o beneficios privados derivados del poder.
 
-**Medición y fuentes:** Plazos y calidad frente a equipos comparables, coste total de remuneración y resolución de conflictos, evaluaciones y registros competentes. No atribuir al presidente toda variación del PIB ni equiparar dividendos con una recompensa lícita por favorecer una empresa. Resultado ajustado por recursos y complejidad, coste total y comparación con equipos semejantes. El propio beneficiario no fijará ni evaluará su bono; no premiar recortes o denegaciones por sí solos.
+Una remuneración adecuada puede ampliar las candidaturas y unas compatibilidades bien diseñadas pueden evitar exclusiones innecesarias; ninguna garantiza integridad. Compararemos sueldo fijo, incentivos y actividades compatibles, incluyendo el coste de control y el riesgo de que intereses privados condicionen decisiones públicas. La Ley 3/2015 describe el marco vigente, no demuestra la eficacia de la reforma [F9].
 
-**Problema a estudiar:** cómo atraer y retener personas competentes en responsabilidades públicas y reconocer resultados sin favorecer corrupción, decisiones interesadas o beneficios privados derivados del poder.
+Ganar más mediante una remuneración legítima no equivale a corrupción. Se propone evaluar una reforma de la exclusividad para permitir inversiones y determinadas actividades empresariales cuando puedan ser realmente compatibles con el cargo, también examinando su aplicabilidad al presidente del Gobierno. No se trata de autorizar cualquier ingreso por alegar que el país mejora: deben preservarse dedicación suficiente, imparcialidad y ausencia de conflictos irresolubles. Los incentivos por resultados públicos tendrán reglas previas, financiación, límites y control independiente.
 
-**Orientación propuesta:** ganar más mediante una remuneración legítima no equivale a corrupción. Se propone evaluar una reforma de la exclusividad para permitir inversiones y determinadas actividades empresariales cuando puedan ser realmente compatibles con el cargo, también examinando su aplicabilidad al presidente del Gobierno. No se trata de autorizar cualquier ingreso por alegar que el país mejora: deben preservarse dedicación suficiente, imparcialidad y ausencia de conflictos irresolubles. Los incentivos por resultados públicos tendrán reglas previas, financiación, límites y control independiente.
-
-**Distinciones necesarias:**
+Hay que distinguir estos instrumentos, porque no tienen la misma finalidad ni los mismos riesgos:
 
 | Instrumento | Posible utilidad | Condiciones y riesgos |
 |---|---|---|
@@ -1279,7 +1277,7 @@ La ejecución correspondería a administraciones empleadoras y órganos de contr
 | Inversiones o ingresos privados permitidos | Evitar identificar todo patrimonio o ingreso legítimo con corrupción. | Examinar cargo, actividad, participaciones y normativa; declarar intereses y aplicar controles e incompatibilidades exigibles. |
 | Propiedad y gestión de empresas durante el cargo | Permitir actividad empresarial compatible si se reforma el régimen aplicable. | Ser propietario no equivale a dirigir el negocio. La gestión activa exige comprobar dedicación y conflictos; para un presidente, abstenerse de un expediente puede no neutralizar su influencia. |
 
-**Propuestas:**
+Para abordar estos problemas, proponemos las siguientes medidas:
 
 - Comparar remuneración, responsabilidad, dificultad de selección y resultados por tipo de puesto, distinguiendo representantes electos, altos cargos, directivos públicos y empleados públicos.
 - Evaluar una reforma que sustituya la exclusividad absoluta por compatibilidad condicionada en los casos admisibles, distinguiendo inversiones, propiedad y gestión activa. Publicar actividades permitidas, prohibidas y sujetas a revisión previa por el órgano competente, sin permitir que el interesado se autorice a sí mismo.
@@ -1297,17 +1295,19 @@ La ejecución correspondería a administraciones empleadoras y órganos de contr
 - Inventariar indemnizaciones de cese, dotaciones, servicios y beneficios posteriores al cargo, con importe, duración, finalidad y base legal; evaluar la eliminación o limitación temporal de ventajas personales indefinidas sin necesidad acreditada, mediante reforma y transición jurídica. No presentar todos esos conceptos como un «salario vitalicio» [F10].
 - Separar esos beneficios de las pensiones ordinarias obtenidas conforme a las reglas aplicables. Mantener protección de seguridad según riesgo acreditado y revisar por separado oficina, personal, transporte y demás apoyos, con coste y finalidad públicos.
 
-**Límites:** el artículo 13 de la Ley 3/2015 establece dedicación exclusiva para los altos cargos sujetos a ella, con excepciones concretas; también existen límites sobre participaciones y conflictos de interés. La compatibilidad más amplia descrita aquí es una propuesta de reforma, no una autorización vigente. Otras funciones y administraciones pueden tener reglas diferentes. Cambiar esos límites exige examinar y reformar la normativa correspondiente, no solo acreditar que alguien genera valor.
+Las evaluaciones y registros competentes permitirán comparar plazos, calidad y accesibilidad del servicio con equipos semejantes, ajustando recursos y complejidad. Seguiremos capacidad de atraer talento, resultados atribuibles, coste total de remuneración, cumplimiento de controles, resolución de conflictos y pagos corregidos.
 
-**Competencias:** instituciones legislativas, administraciones empleadoras, órganos de gobierno de entidades públicas y órganos de control en sus atribuciones.
+No atribuiremos al presidente toda variación del PIB ni equipararemos dividendos con una recompensa lícita por favorecer a una empresa. Un aumento de patrimonio se analizará por su origen y circunstancias, sin presumirlo lícito o corrupto automáticamente. El propio beneficiario no fijará ni evaluará su bono; los recortes o las denegaciones, por sí solos, no merecerán un premio.
 
-**Indicadores:** capacidad de atraer talento, calidad y accesibilidad del servicio, resultados atribuibles, coste total de remuneración, cumplimiento de controles, conflictos detectados y pagos corregidos. Un aumento de patrimonio debe analizarse según su origen y circunstancias, no presumirse lícito ni corrupto automáticamente.
+El artículo 13 de la Ley 3/2015 establece dedicación exclusiva para los altos cargos sujetos a ella, con excepciones concretas; también existen límites sobre participaciones y conflictos de interés. La compatibilidad más amplia descrita aquí es una propuesta de reforma, no una autorización vigente. Otras funciones y administraciones pueden tener reglas diferentes. Cambiar esos límites exige examinar y reformar la normativa correspondiente, no solo acreditar que alguien genera valor.
 
-**Evidencia y diagnóstico pendiente:** Retribución por puesto, resultados y normativa de incompatibilidades. Contrastar alcance, actualidad y limitaciones antes de aprobar medidas.
+Las instituciones legislativas, las administraciones empleadoras, los órganos de gobierno de entidades públicas y los órganos de control intervendrían dentro de sus atribuciones.
 
-**Coste y financiación:** Pendientes de estimación. Incluir remuneración, evaluación y auditoría, con límites presupuestarios. No hay presupuesto ni financiación aprobados en este borrador.
+El diagnóstico deberá revisar retribución por puesto, resultados y normativa de incompatibilidades. Antes de aprobar medidas, habrá que comprobar el alcance, la actualidad y las limitaciones de estas fuentes.
 
-**Riesgos y garantías:** No premiar recortes o denegaciones por sí solos ni permitir autoevaluación o conflictos encubiertos.
+El coste y su financiación están pendientes de estimación. El cálculo deberá incluir remuneración, evaluación y auditoría, con límites presupuestarios. No hay presupuesto ni financiación aprobados en este borrador.
+
+La aplicación no deberá premiar recortes o denegaciones por sí solos ni permitir autoevaluación o conflictos encubiertos.
 
 ### 2.24. Iniciativa, esfuerzo y responsabilidad compartida
 
@@ -1327,17 +1327,15 @@ En cuatro años, el objetivo es alcanzar 3.000 participantes y conseguir que el 
 
 La ejecución correspondería a centros educativos y de empleo, municipios y entidades sociales; el calendario previsto incluye necesidades y apoyos en M1–M3; mentores y proyectos accesibles en M4–M6; ciclos de planificación, ejecución y revisión desde M7. Coordinar con oportunidades de empleo y servicios.
 
-#### Ficha técnica
+#### La propuesta en detalle
 
-**Fundamento y alternativas:** Acompañar planificación y acceso a oportunidades puede facilitar acciones sostenidas; no hay una mentalidad nacional única que explique pobreza o desempleo. Comparar mentoría y proyectos prácticos con información sola, teniendo en cuenta salud, recursos y cuidados.
+Queremos estudiar qué impide convertir preocupaciones en acciones, mantener hábitos de constancia y cooperación y percibir que el esfuerzo merece la pena. No existe una «mentalidad española» única que permita explicar estos problemas, ni la falta de ingresos, la enfermedad o el desempleo demuestran pereza.
 
-**Medición y fuentes:** Participantes que completan el proyecto acordado/inscritos y continuidad a seis meses, con evidencias y abandono registrado. No medir obediencia, ideología ni productividad como valor personal. Inscritos, proyectos verificables y continuidad, contando abandonos y barreras de salud o cuidados. No medir obediencia ni clasificar derechos o mérito por una supuesta mentalidad nacional.
+Acompañar la planificación y facilitar oportunidades puede ayudar a sostener proyectos. Compararemos mentoría y actividades prácticas con proporcionar solo información, teniendo en cuenta salud, recursos y responsabilidades de cuidados.
 
-**Problema a estudiar:** barreras para transformar preocupaciones en acción, desarrollar hábitos de constancia y cooperación y percibir que el esfuerzo merece la pena. No se presume que exista una «mentalidad española» única ni que falta de ingresos, enfermedad o desempleo demuestren pereza.
+Proponemos promover autonomía, honestidad, perseverancia, empatía, pensamiento crítico y cuidado de lo común. Combinaremos responsabilidad personal con oportunidades y condiciones que permitan actuar, sin sustituir derechos ni crítica legítima por obediencia.
 
-**Orientación propuesta:** promover autonomía, honestidad, perseverancia, empatía, pensamiento crítico y cuidado de lo común. Combinar responsabilidad personal con oportunidades y condiciones que permitan actuar, sin sustituir derechos ni crítica legítima por obediencia.
-
-**Propuestas:**
+Para abordar estos problemas, proponemos las siguientes medidas:
 
 - Enseñar a convertir una preocupación en un objetivo, una acción concreta y una revisión de resultados en centros educativos y programas abiertos para adultos.
 - Ofrecer proyectos prácticos de cooperación, emprendimiento, ciencia, cultura y mejora comunitaria, con acompañamiento y sin exigir una afiliación o visión política.
@@ -1351,19 +1349,21 @@ La ejecución correspondería a centros educativos y de empleo, municipios y ent
 - Acompañar a quienes necesiten apoyo por salud mental, discapacidad, falta de recursos u otras circunstancias, sin imponer diagnósticos de «falta de voluntad».
 - Promover honestidad y responsabilidad también en instituciones y empresas: cumplir compromisos, explicar errores y corregir incentivos que recompensen engaño o favoritismo.
 
-**Límites:** educar en valores no autoriza a imponer una ideología, eliminar el derecho a protestar ni clasificar ciudadanos como merecedores de derechos según una supuesta actitud. Debe respetarse libertad de conciencia y diversidad de proyectos de vida.
+Compararemos quienes completan el proyecto acordado con todas las personas inscritas y seguiremos su continuidad a seis meses, utilizando evidencias y registrando abandonos y barreras de salud o cuidados. Observaremos competencias adquiridas, acceso a oportunidades, participación, bienestar y diferencias por contexto socioeconómico.
 
-**Competencias:** administraciones educativas y de empleo, centros, entidades sociales y empresas dentro de sus atribuciones; participación ciudadana voluntaria.
+No mediremos obediencia, ideología ni productividad como valor personal. Tampoco utilizaremos nacionalidad o una supuesta mentalidad para clasificar derechos o mérito, ni confundiremos esfuerzo con explotación.
 
-**Indicadores:** proyectos completados, competencias adquiridas, acceso a oportunidades, continuidad de participación, bienestar y diferencias por contexto socioeconómico. No usar cuestionarios de obediencia ni nacionalidad como medida de mérito.
+Educar en valores no autoriza a imponer una ideología, eliminar el derecho a protestar ni clasificar ciudadanos como merecedores de derechos según una supuesta actitud. Debe respetarse libertad de conciencia y diversidad de proyectos de vida.
 
-**Autonomía financiera, sin promesas de riqueza:** para participantes que elijan esa ruta, medir ingreso neto recurrente, gasto esencial mensual, deuda, liquidez y meses de gastos cubiertos por ahorro accesible. Separar valoración de activos, dinero disponible y rentabilidad incierta; no contar una ganancia puntual como ingreso estable. Emprender o invertir puede producir pérdidas y no sustituye derechos o protección social.
+Las administraciones educativas y de empleo, los centros, las entidades sociales y las empresas intervendrían dentro de sus atribuciones. La participación ciudadana sería voluntaria.
 
-**Evidencia y diagnóstico pendiente:** Evaluación de programas educativos, comunitarios y de empleo. Contrastar alcance, actualidad y limitaciones antes de aprobar medidas.
+Para participantes que elijan trabajar en su autonomía financiera, mediremos ingreso neto recurrente, gasto esencial mensual, deuda, liquidez y meses de gastos cubiertos por ahorro accesible. Distinguiremos valoración de activos, dinero disponible y rentabilidad incierta; no contaremos una ganancia puntual como ingreso estable. Emprender o invertir puede producir pérdidas y no sustituye derechos o protección social.
 
-**Coste y financiación:** Pendientes de estimación. Incluir acompañamiento, formación y acceso a proyectos y oportunidades. No hay presupuesto ni financiación aprobados en este borrador.
+El diagnóstico deberá revisar evaluación de programas educativos, comunitarios y de empleo. Antes de aprobar medidas, habrá que comprobar el alcance, la actualidad y las limitaciones de estas fuentes.
 
-**Riesgos y garantías:** No estereotipar por nacionalidad ni confundir esfuerzo con explotación o falta de recursos con pereza.
+El coste y su financiación están pendientes de estimación. El cálculo deberá incluir acompañamiento, formación y acceso a proyectos y oportunidades. No hay presupuesto ni financiación aprobados en este borrador.
+
+La aplicación no deberá estereotipar por nacionalidad ni confundir esfuerzo con explotación o falta de recursos con pereza.
 
 ### 2.25. Trabajo remoto, pueblos conectados y movilidad accesible
 
@@ -1385,15 +1385,13 @@ En cuatro años, el objetivo es extender a 50 localidades, 3.000 hogares o negoc
 
 La ejecución correspondería a administraciones de telecomunicaciones y transporte, municipios, operadores y empleadores; el calendario previsto incluye cobertura real y demanda en M1–M3; comparar fibra, móvil y satélite, coste y mantenimiento en M4–M6; despliegue y acuerdos laborales desde M7. Seleccionar pilotos de recarga por demanda, no instalar puntos sin mantenimiento.
 
-#### Ficha técnica
+#### La propuesta en detalle
 
-**Fundamento y alternativas:** Conectividad y movilidad pueden ampliar opciones laborales, pero sin empleo, vivienda y servicios no garantizan repoblación. Comparar fibra, móvil y satélite por calidad y coste real, y transporte compartido frente a compra individual de vehículo.
+La concentración de empleo y servicios, las diferencias de conectividad y las dificultades de desplazamiento pueden limitar oportunidades. Mejorar internet ayuda, pero no sustituye vivienda, cuidados, sanidad, educación ni empleo local.
 
-**Medición y fuentes:** Velocidad y latencia en horas de uso, horas de recarga disponible/horas del mes y empleo mantenido, mediciones técnicas y registros consentidos. Publicar precio, fallos y puntos fuera de servicio, no solo cobertura anunciada. Velocidad medida, latencia, precio, continuidad, horas disponibles/horas del mes y empleo verificado. No contar cobertura anunciada o recarga instalada pero inutilizable; no prometer repoblación automática.
+La conectividad y la movilidad pueden ampliar las opciones laborales, pero no garantizan repoblación si faltan empleo, vivienda y servicios. Compararemos fibra, conexión móvil y satélite por calidad y coste real, y transporte compartido frente a la compra individual de un vehículo.
 
-**Problema a estudiar:** oportunidades laborales y servicios concentrados en determinados núcleos, desigualdad de conectividad y dificultades de desplazamiento. Mejorar internet puede ayudar, pero no sustituye vivienda, cuidados, sanidad, educación ni empleo local.
-
-**Propuestas:**
+Para abordar estos problemas, proponemos las siguientes medidas:
 
 - Facilitar trabajo remoto e híbrido en tareas compatibles, mediante acuerdos claros sobre equipos, costes, seguridad, desconexión y evaluación por resultados; no convertirlo en obligación universal ni negar el valor del trabajo presencial.
 - Publicar mapas de cobertura y calidad efectiva de internet por localidad, incluyendo velocidad, latencia, fiabilidad, precio y capacidad en horas de uso, no solo cobertura anunciada.
@@ -1413,23 +1411,25 @@ La ejecución correspondería a administraciones de telecomunicaciones y transpo
 - Evaluar coste total, acceso de hogares de distintos ingresos y emisiones de ciclo de vida de alternativas de movilidad; no asumir que comprar un coche eléctrico es la mejor opción para todos.
 - Desarrollar trámites y servicios digitales accesibles con apoyo presencial y protección de datos, para que conectividad no se convierta en una nueva barrera.
 
-**Límites:** ni teletrabajo ni satélite ni coche eléctrico son soluciones universales. La transición debe preservar derechos laborales, privacidad, accesibilidad y alternativas para personas que no pueden o no quieren adoptar una tecnología.
+Las mediciones técnicas comprobarán velocidad y latencia en las horas reales de uso, precio, fallos y continuidad de internet. En la recarga, compararemos las horas disponibles con las horas del mes y publicaremos puntos fuera de servicio: instalar un equipo inutilizable no es ofrecer recarga.
 
-**Competencias:** Estado, comunidades autónomas, ayuntamientos y reguladores según telecomunicaciones, empleo, vivienda, transporte y energía; empresas y trabajadores en acuerdos dentro del marco laboral.
+Con registros consentidos, verificaremos empleo mantenido, acceso a trabajo remoto cuando sea compatible y continuidad de servicios locales. También mediremos tiempos de desplazamiento y coste de movilidad por hogar. No contaremos cobertura anunciada como servicio comprobado ni prometemos repoblación automática.
 
-**Indicadores:** calidad y asequibilidad real de internet, acceso a trabajo remoto cuando sea compatible, continuidad de empleo y servicios locales, tiempos de desplazamiento, disponibilidad de recarga y coste de movilidad por hogar.
+Ni teletrabajo ni satélite ni coche eléctrico son soluciones universales. La transición debe preservar derechos laborales, privacidad, accesibilidad y alternativas para personas que no pueden o no quieren adoptar una tecnología.
 
-**Movilidad: datos, competencia e ingresos reales:** la tabla estatal de 1 de septiembre de 2026 registra 60.074 autorizaciones VT-N y 27.107 VTC-N [F32]. No es un recuento de conductores, viajes o todas las licencias municipales de taxi, ni acredita habilitación urbana de cada vehículo. Para el ámbito participante, publicar precio final mediano y dispersión, espera, solicitudes atendidas y canceladas, acceso de personas con discapacidad, incidentes y kilómetros sin pasajero. En una muestra consentida de conductores, medir ingreso neto por hora total dedicada y distribución, con costes y abandonos; la tabla nacional no permite estimar lo que ganarían.
+El Estado, las comunidades autónomas, los ayuntamientos y los reguladores intervendrían según sus atribuciones en telecomunicaciones, empleo, vivienda, transporte y energía. Las empresas y los trabajadores acordarían las condiciones dentro del marco laboral.
 
-**Ejemplo de barreras en discusión:** en julio de 2026, la CNMC recurrió determinados artículos de la regulación balear por considerarlos restrictivos, incluidos requisitos de vehículos y prohibición de contratación parcial de VTC [F34]. Es una impugnación, no una anulación firme de todo el decreto. Evaluar cada regla y territorio; no atribuir corrupción al taxi ni dar por demostrados precios menores o mejores ingresos tras liberalizar.
+La tabla estatal de 1 de septiembre de 2026 registra 60.074 autorizaciones VT-N y 27.107 VTC-N [F32]. No es un recuento de conductores, viajes o todas las licencias municipales de taxi, ni acredita habilitación urbana de cada vehículo. Para el ámbito participante, publicaremos precio final mediano y dispersión, espera, solicitudes atendidas y canceladas, acceso de personas con discapacidad, incidentes y kilómetros sin pasajero. En una muestra consentida de conductores, mediremos ingreso neto por hora total dedicada y distribución, con costes y abandonos; la tabla nacional no permite estimar lo que ganarían.
 
-**Qué comprobaremos antes de ampliar:** la prueba deberá estar autorizada y financiada y mostrar resultados frente a alternativas, con costes, accesibilidad, condiciones de trabajo y congestión. Si empeoran garantías o el ingreso neto no justifica los riesgos, corregir o detener; no fijar ahora una rebaja nacional del precio ni un sueldo prometido. Los servicios esenciales que el mercado no cubra requieren una solución pública explícita, no esperar que una plataforma los preste por sí sola.
+En julio de 2026, la CNMC recurrió determinados artículos de la regulación balear por considerarlos restrictivos, incluidos requisitos de vehículos y prohibición de contratación parcial de VTC [F34]. Es una impugnación, no una anulación firme de todo el decreto. Evaluaremos cada regla y territorio, sin atribuir corrupción al taxi ni dar por demostrados precios menores o mejores ingresos tras liberalizar.
 
-**Evidencia y diagnóstico pendiente:** Cobertura real, demanda local, servicios y costes de movilidad. Contrastar alcance, actualidad y limitaciones antes de aprobar medidas.
+La prueba deberá estar autorizada y financiada y mostrar resultados frente a alternativas, con costes, accesibilidad, condiciones de trabajo y congestión. Si empeoran garantías o el ingreso neto no justifica los riesgos, se corregirá o detendrá la prueba. No se promete una rebaja nacional del precio ni un sueldo para los conductores. Los servicios esenciales que el mercado no cubra requieren una solución pública explícita; no puede esperarse que una plataforma los preste por sí sola.
 
-**Coste y financiación:** Pendientes de estimación. Incluir conectividad, espacios compartidos, transporte, recarga, mantenimiento, revisión regulatoria, seguimiento y eventual transición de operadores. No hay presupuesto ni financiación aprobados en este borrador; ingresos de conductores o comisiones privadas no financian automáticamente los costes públicos.
+El diagnóstico deberá revisar cobertura real, demanda local, servicios y costes de movilidad. Antes de aprobar medidas, habrá que comprobar el alcance, la actualidad y las limitaciones de estas fuentes.
 
-**Riesgos y garantías:** No prometer repoblación automática ni imponer teletrabajo o una tecnología como solución universal.
+El coste y su financiación están pendientes de estimación. El cálculo deberá incluir conectividad, espacios compartidos, transporte, recarga, mantenimiento, revisión regulatoria, seguimiento y eventual transición de operadores. No hay presupuesto ni financiación aprobados en este borrador; ingresos de conductores o comisiones privadas no financian automáticamente los costes públicos.
+
+La aplicación no deberá prometer repoblación automática ni imponer teletrabajo o una tecnología como solución universal.
 
 ### 2.26. Fabricación de vehículos eléctricos, robótica e IA
 
@@ -1449,15 +1449,13 @@ En cuatro años, el objetivo es lograr 2 proyectos industriales con inversión p
 
 La ejecución correspondería a administraciones de industria, comunidades, municipios, centros tecnológicos y empresas; el calendario previsto incluye demanda, suelo, energía, agua y logística en M1–M3; convocatorias, formación y estudios en M4–M12; proyectos seleccionados en años 2–3; verificación de inversión y empleo en año 4. Coordinar antes conectividad, vivienda y energía.
 
-#### Ficha técnica
+#### La propuesta en detalle
 
-**Fundamento y alternativas:** Producción local y transferencia pueden crear capacidades, pero subvencionar una fábrica no asegura competitividad ni coches más baratos. Comparar proveedores, localizaciones y alternativas sin ayudas; apoyar fases con demanda acreditada y no una marca por prestigio.
+Queremos estudiar cómo ampliar capacidades industriales, empleo cualificado y acceso a tecnologías útiles, y si fabricar en España puede reducir costes y dependencias. Producir aquí no garantiza por sí solo precios más bajos para compradores.
 
-**Medición y fuentes:** Inversión desembolsada, empleo mantenido, coste por unidad y coste público por resultado adicional, cuentas y evaluación de proyectos. No contar cartas de intención como inversión ni presentar conversaciones hipotéticas con Tesla como acuerdos. Desembolsos, producción, empleo, coste público completo y resultados de pilotos. Invitar también a Tesla no implica acuerdo existente ni garantiza su fábrica; decisiones privadas y permisos pueden impedir la meta, y no se promete una bajada automática de precios.
+La producción local y la transferencia tecnológica pueden crear capacidades, pero subvencionar una fábrica no asegura competitividad ni coches más baratos. Compararemos proveedores, localizaciones y alternativas sin ayudas. El apoyo se decidirá por fases con demanda acreditada, no por el prestigio de una marca.
 
-**Problema a estudiar:** cómo ampliar capacidades industriales, empleo cualificado y acceso a tecnologías útiles, y si fabricar en España puede reducir costes y dependencias. Producción local no garantiza por sí sola precios más bajos para compradores.
-
-**Propuestas:**
+Para abordar estos problemas, proponemos las siguientes medidas:
 
 - Explorar inversión y colaboración industrial con Tesla y otros fabricantes de vehículos eléctricos, baterías, componentes y recarga, sin presentar conversaciones hipotéticas como negociaciones o acuerdos existentes.
 - Comparar localizaciones, demanda, energía, red, agua, logística, proveedores y talento antes de ofrecer recursos o incentivos.
@@ -1469,17 +1467,19 @@ La ejecución correspondería a administraciones de industria, comunidades, muni
 - Condicionar apoyos públicos, cuando sean legales y estén justificados, a inversión ejecutada, empleo y transferencia verificables, con límites y recuperación por incumplimiento; comparar también alternativas sin subvención.
 - Aplicar requisitos ambientales, laborales, de competencia y seguridad y prever reconversión y formación ante cambios en tareas y empleo.
 
-**Límites:** no se propone un acuerdo exclusivo con una empresa ni una garantía pública ilimitada de rentabilidad. La ayuda a una fábrica no demuestra que sus productos sean asequibles ni que exista beneficio público adicional.
+Las cuentas y la evaluación de proyectos permitirán verificar inversión desembolsada, producción, empleo mantenido, cualificaciones, participación de proveedores, transferencia y resultados de pilotos. Compararemos coste por unidad, coste público completo por resultado adicional, precio final y coste total de uso de vehículos y tecnologías.
 
-**Competencias:** Estado, comunidades autónomas y ayuntamientos según industria, suelo, infraestructuras y formación; Unión Europea en los marcos aplicables; empresas privadas en decisiones de inversión.
+Las cartas de intención no se contarán como inversión. Invitar también a Tesla no implica un acuerdo existente ni garantiza una fábrica: las decisiones privadas y los permisos pueden impedir la meta. No prometemos que una subvención produzca una bajada automática de precios.
 
-**Indicadores:** inversión ejecutada, producción competitiva, empleo y cualificaciones, participación de proveedores, transferencia, coste público por resultado adicional y evolución del precio final y coste total de uso de vehículos y tecnologías.
+No se propone un acuerdo exclusivo con una empresa ni una garantía pública ilimitada de rentabilidad. La ayuda a una fábrica no demuestra que sus productos sean asequibles ni que exista beneficio público adicional.
 
-**Evidencia y diagnóstico pendiente:** Demanda, costes industriales, proveedores y planes acreditados de inversión. Contrastar alcance, actualidad y limitaciones antes de aprobar medidas.
+El Estado, las comunidades autónomas y los ayuntamientos intervendrían según sus atribuciones en industria, suelo, infraestructuras y formación. La Unión Europea establecería los marcos aplicables, y las empresas privadas tomarían las decisiones de inversión.
 
-**Coste y financiación:** Pendientes de estimación. Incluir infraestructura, formación y eventual coste de incentivos y apoyo industrial. No hay presupuesto ni financiación aprobados en este borrador.
+El diagnóstico deberá revisar demanda, costes industriales, proveedores y planes acreditados de inversión. Antes de aprobar medidas, habrá que comprobar el alcance, la actualidad y las limitaciones de estas fuentes.
 
-**Riesgos y garantías:** No dar por existente un acuerdo con Tesla ni garantizar que una subvención abarate precios finales.
+El coste y su financiación están pendientes de estimación. El cálculo deberá incluir infraestructura, formación y eventual coste de incentivos y apoyo industrial. No hay presupuesto ni financiación aprobados en este borrador.
+
+La aplicación no deberá dar por existente un acuerdo con Tesla ni garantizar que una subvención abarate precios finales.
 
 ### 2.27. Pensiones suficientes y sostenibles entre generaciones
 
@@ -1499,15 +1499,13 @@ En cuatro años, el objetivo es actualizar cada año los escenarios y someter a 
 
 La ejecución correspondería a Seguridad Social, autoridades competentes de Hacienda, agentes sociales y evaluación actuarial independiente; el calendario previsto incluye datos, perímetro y perfiles en M1–M3; escenarios y mejoras de proceso en M4–M6; revisión pública y gestión desde M7. Presentar alternativas al diálogo social y a las instituciones legislativas antes de comprometer cambios; ampliación solo con recursos.
 
-#### Ficha técnica
+#### La propuesta en detalle
 
-**Fundamento y alternativas:** Más empleo formal y salarios pueden ampliar recursos, pero el envejecimiento y la duración de las prestaciones también importan. Comparar mejoras de empleo, bases e ingresos, reglas de prestaciones y opciones de jubilación, con efectos distributivos. Un ahorro privado complementario no sustituye por sí solo la suficiencia del sistema público. La ley define derechos actuales, no demuestra equilibrio futuro [F11].
+Queremos estudiar la suficiencia y la sostenibilidad de las pensiones ante cambios demográficos, carreras discontinuas, productividad y financiación. No afirmamos que vayan a desaparecer ni que estén garantizadas sin decisiones futuras.
 
-**Medición y fuentes:** Ingresos contributivos, transferencias presupuestarias, gasto y saldo con perímetro contable declarado; prestaciones e ingresos por perfil y generación, cuentas de Seguridad Social y estadísticas oficiales. No comparar una pensión media con un salario de población distinta como si fuese una tasa de sustitución individual. Series con fecha y metodología; expedientes pendientes, mediana y percentil 90; escenarios adversos de empleo, salarios, longevidad e inflación. Presentar incertidumbre y sensibilidad, no probabilidades inventadas. El horizonte de cuatro años no permite demostrar solvencia para varias décadas.
+Más empleo formal y mejores salarios pueden ampliar recursos, pero también importan el envejecimiento y la duración de las prestaciones. Compararemos empleo, bases e ingresos, reglas de prestaciones y opciones de jubilación, explicando cómo afectan a distintos grupos. El ahorro privado complementario no sustituye por sí solo la suficiencia del sistema público. La ley define derechos actuales, no demuestra equilibrio futuro [F11].
 
-**Problema a estudiar:** suficiencia y sostenibilidad de pensiones ante cambios demográficos, carreras discontinuas, productividad y financiación. No afirmar que las pensiones desaparecerán ni que están garantizadas sin decisiones futuras.
-
-**Propuestas:**
+Para abordar estos problemas, proponemos las siguientes medidas:
 
 - Publicar cuentas comprensibles del sistema, separando cotizaciones, transferencias, prestaciones contributivas y no contributivas, costes administrativos y deuda, sin ocultar financiación presupuestaria.
 - Comparar escenarios con supuestos de empleo, actividad, migración, salarios, productividad, longevidad y precios; contrastarlos con proyecciones oficiales y revisión independiente.
@@ -1518,15 +1516,17 @@ La ejecución correspondería a Seguridad Social, autoridades competentes de Hac
 - Estudiar complementos voluntarios de ahorro de bajo coste, diversificados y supervisados, con riesgos, comisiones y tratamiento fiscal transparentes; no imponer sustitución de pensiones públicas por rentabilidad financiera incierta.
 - Identificar financiación de protección mínima y apoyos por carreras de cuidados, evaluando su impacto; los beneficios asociados a cargos públicos se revisarán por separado en el eje 23.
 
-**Competencias:** Estado en Seguridad Social y legislación básica, con participación institucional y social; otras administraciones según servicios y apoyos de su competencia.
+Con cuentas de Seguridad Social y estadísticas oficiales, compararemos ingresos contributivos, transferencias presupuestarias, gasto y saldo, indicando qué partidas incluye cada cálculo y manteniendo el mismo perímetro contable. Revisaremos prestaciones e ingresos por perfil y generación, suficiencia, pobreza en mayores, carga intergeneracional y errores de previsión. Una pensión media y un salario de otra población no forman una tasa de sustitución individual.
 
-**Indicadores:** suficiencia por perfil, pobreza en mayores, ingresos y gastos con igual perímetro, carga intergeneracional, errores de previsión, plazos y reclamaciones. No usar solo saldo anual ni importe nominal de pensión como prueba de sostenibilidad.
+Las series tendrán fecha y metodología. En la gestión, seguiremos pendientes, mediana y percentil 90 de los plazos y reclamaciones. Los escenarios incluirán cambios adversos de empleo, salarios, longevidad e inflación y explicarán incertidumbre y sensibilidad, sin inventar probabilidades. Ni el saldo anual ni el importe nominal prueban sostenibilidad; cuatro años no permiten demostrar solvencia durante varias décadas.
 
-**Evidencia y diagnóstico pendiente:** Cuentas y series oficiales de Seguridad Social, demografía y proyecciones económicas; revisar comparabilidad, actualidad y supuestos. Referencia jurídica: texto refundido de la Ley General de la Seguridad Social [F11].
+El Estado intervendría en Seguridad Social y legislación básica, con participación institucional y social. Otras administraciones lo harían mediante los servicios y apoyos de su competencia.
 
-**Coste y financiación:** Pendientes de estimación. Separar estudio y gestión del coste de cualquier reforma de prestaciones, cotizaciones o impuestos; publicar inversión, gasto recurrente y financiación. No hay un paquete actuarial aprobado ni ahorro acreditado en este borrador.
+El diagnóstico deberá revisar las cuentas y series oficiales de Seguridad Social, la demografía y las proyecciones económicas, comprobando su comparabilidad, actualidad y supuestos. La referencia jurídica es el texto refundido de la Ley General de la Seguridad Social [F11].
 
-**Riesgos y garantías:** Evitar alarmismo, garantías infundadas de rentabilidad, recortes encubiertos y traslados de carga sin explicación. Preservar derechos y tramitar cambios con revisión jurídica y transición.
+El coste y su financiación están pendientes de estimación. El cálculo deberá separar el estudio y la gestión del coste de cualquier reforma de prestaciones, cotizaciones o impuestos. Se publicarán inversión, gasto recurrente y financiación. No hay un paquete actuarial aprobado ni ahorro acreditado en este borrador.
+
+La aplicación deberá evitar alarmismo, garantías infundadas de rentabilidad, recortes encubiertos y traslados de carga sin explicación. Los derechos se preservarán y los cambios se tramitarán con revisión jurídica y transición.
 
 ### 2.28. Renta básica, inteligencia artificial y libertad de proyecto
 
@@ -1546,15 +1546,13 @@ En cuatro años, si se autoriza y financia, el objetivo es completar un piloto d
 
 La ejecución correspondería a administraciones de protección social, Hacienda, servicios de empleo y evaluación independiente; el calendario previsto incluye perfiles, derechos y alternativas en M1–M3; microsimulación, costes y salvaguardas en M4–M9; protocolo y decisión en M10–M12. La institución competente debe habilitar la prueba antes de pagos y no retirar protección necesaria para crear un grupo de comparación.
 
-#### Ficha técnica
+#### La propuesta en detalle
 
-**Fundamento y alternativas:** Una renta incondicional puede reducir incertidumbre y barreras administrativas, pero pagar a toda la población exige recursos y puede tener efectos sobre empleo, precios e impuestos. Finlandia ensayó pagos a 2.000 personas desempleadas, no a toda la población: los efectos laborales fueron pequeños y se comunicó mayor bienestar percibido [F17]. Comparar diseños, no extrapolar ese resultado a una renta universal española.
+La automatización y la IA pueden cambiar tareas y oportunidades y aumentar la incertidumbre económica. Queremos estudiar las opciones de participación laboral y protección sin asumir que todo empleo desaparecerá, que la renta básica es inevitable o que no tener trabajo demuestra falta de voluntad.
 
-**Medición y fuentes:** Renta disponible neta por hogar después de impuestos y prestaciones, privación material y actividad laboral, en registros legalmente accesibles y encuestas de seguimiento. Separar coste bruto de transferencias, financiación y coste neto; no tratar exposición de tareas a IA como empleos que necesariamente desaparecerán. Fijar población, importe, relación con impuestos y prestaciones, método y seguimiento antes de probar. Evaluar incentivos marginales para que mejorar ingresos no active pérdidas bruscas de ayudas. Un piloto limitado no demuestra efectos de financiación, precios o equilibrio de toda la economía.
+Una renta incondicional puede reducir incertidumbre y barreras administrativas, pero pagar a toda la población exige recursos y puede afectar a empleo, precios e impuestos. Finlandia ensayó pagos a 2.000 personas desempleadas, no a toda la población: los efectos laborales fueron pequeños y se comunicó mayor bienestar percibido [F17]. Compararemos diseños sin extrapolar ese resultado a una renta universal española.
 
-**Problema a estudiar:** cambios de tareas y oportunidades por automatización e IA, inseguridad económica y opciones de participación laboral. No se asume que todo empleo desaparecerá, que la renta básica sea inevitable ni que quien no tenga trabajo carezca de voluntad.
-
-**Propuestas:**
+Para abordar estos problemas, proponemos las siguientes medidas:
 
 - Comparar una renta individual universal e incondicional, una garantía focalizada o impuesto negativo sobre la renta y apoyos a transiciones laborales, incluyendo administración, elegibilidad y financiación.
 - En la opción universal, estudiar acceso no condicionado a buscar trabajo y compatibilidad con ingresos laborales o empresariales; especificar población y residencia, imposición y suficiencia antes de recomendar importes.
@@ -1564,15 +1562,17 @@ La ejecución correspondería a administraciones de protección social, Hacienda
 - Diseñar pilotos con revisión ética, legal y evaluación independiente, comparando con la protección vigente; no financiar pagos mediante fondos o ahorros todavía hipotéticos.
 - Analizar cómo productividad, beneficios y empleo por IA afectan a recursos públicos, sin contabilizar automáticamente el valor de la automatización como ingreso estatal.
 
-**Competencias:** Estado y administraciones competentes en prestaciones, impuestos y empleo; cambios presupuestarios y normativos por sus procedimientos, con cooperación para pilotos.
+Con registros legalmente accesibles y encuestas de seguimiento, mediremos renta disponible neta por hogar después de impuestos y prestaciones, privación material, empleo y horas, bienestar con instrumentos publicados, participación voluntaria y efectos distributivos. Separaremos coste bruto de transferencias, financiación y coste neto; la satisfacción o el número de pagos no bastan para demostrar éxito.
 
-**Indicadores:** renta neta y privación por hogar, empleo y horas, bienestar con instrumentos publicados, participación voluntaria, coste bruto y neto y efectos distributivos. No usar solo satisfacción o número de pagos como prueba de éxito.
+Antes de probar se fijarán población, importe, relación con impuestos y prestaciones, método y seguimiento. Evaluaremos cómo cambian las ayudas cuando aumentan los ingresos, para evitar pérdidas bruscas. Que una tarea esté expuesta a IA no significa que el empleo vaya a desaparecer. Un piloto limitado no demuestra efectos sobre financiación, precios o el conjunto de la economía.
 
-**Evidencia y diagnóstico pendiente:** Experimentos comparables y microsimulación española con reglas vigentes. Kela documenta el ensayo finlandés y sus límites [F17]; falta demostrar coste y efectos de una aplicación universal en España.
+El Estado y las administraciones competentes intervendrían en prestaciones, impuestos y empleo, con cooperación para los pilotos. Los cambios presupuestarios y normativos seguirían sus procedimientos.
 
-**Coste y financiación:** Pendientes de estimación. Ejemplo exclusivamente aritmético: 1.000 personas × 500 euros × 12 meses = 6 millones de euros en transferencias, antes de administración y evaluación. No es un presupuesto aprobado, un importe recomendado ni prueba de suficiencia; financiación, compensaciones tributarias y prestaciones deben modelarse aparte.
+El diagnóstico deberá revisar experimentos comparables y microsimulación española con reglas vigentes. Kela documenta el ensayo finlandés y sus límites [F17]; falta demostrar coste y efectos de una aplicación universal en España.
 
-**Riesgos y garantías:** Evitar falsa certeza sobre IA, incentivos mal diseñados, pérdida de prestaciones necesarias y promesas de pagos sin recursos. No imponer emprendimiento ni sustituir libertad de proyecto por desprotección.
+El coste y su financiación están pendientes de estimación. Como ejemplo exclusivamente aritmético, 1.000 personas × 500 euros × 12 meses = 6 millones de euros en transferencias, antes de administración y evaluación. No es un presupuesto aprobado, un importe recomendado ni prueba de suficiencia; financiación, compensaciones tributarias y prestaciones deben modelarse aparte.
+
+La aplicación deberá evitar falsas certezas sobre IA, incentivos mal diseñados, pérdida de prestaciones necesarias y promesas de pagos sin recursos. No se impondrá emprendimiento ni se sustituirá libertad de proyecto por desprotección.
 
 ### 2.29. Resiliencia, seguridad económica y planes de contingencia
 
@@ -1592,15 +1592,13 @@ En cuatro años, el objetivo es extender a 30 entidades; alcanzar el 90 % de pru
 
 La ejecución correspondería a autoridades de protección civil, responsables sectoriales, comunidades, municipios y operadores; el calendario previsto incluye mapa de riesgos y línea base en M1–M3; convenios, recursos y prioridades en M4–M6; ejercicios y correcciones en M7–M12; ampliación en años 2–4 solo tras evaluación y financiación. OpenSpain puede preparar el método y examinar información pública, no dirigir una emergencia ni certificar reservas de terceros.
 
-#### Ficha técnica
+#### La propuesta en detalle
 
-**Fundamento y alternativas:** Una redundancia puede costar más en periodos normales y evitar interrupciones graves; acumular reservas sin rotación desperdicia recursos. Comparar diversificación, contratos alternativos, existencias justificadas y gestión de demanda por coste completo y criticidad. La Estrategia de Preparación de la UE de marzo de 2025 propone anticipación, coordinación y orientación de autosuficiencia de al menos 72 horas [F28]. No certifica que cada hogar o servicio ya esté preparado.
+Depender de un solo proveedor, ruta o sistema y carecer de coordinación, financiación o práctica puede agravar una interrupción. Queremos estudiar sus efectos en hogares vulnerables y empresas cuando fallan energía, agua, salud, comunicaciones, pagos, alimentación o transporte.
 
-**Medición y fuentes:** Pruebas que cumplen el tiempo y nivel mínimo de servicio aprobados/pruebas realizadas, registros de ejercicios y evaluación independiente. Publicar dependencias y resultados agregados sin revelar información sensible; diferenciar capacidades contratadas, disponibles y realmente ensayadas. Escenarios, intensidad, duración, funciones incluidas y criterios se fijarán antes del ejercicio. Contar fallos y casos no ensayados; no mejorar el porcentaje eliminando funciones difíciles o relajando tiempos. Los ejercicios no predicen todas las condiciones de una guerra o desastre real.
+Disponer de una alternativa puede costar más en periodos normales y evitar interrupciones graves, mientras que acumular reservas sin renovarlas puede desperdiciar recursos. Compararemos diversificación, contratos alternativos, existencias justificadas y gestión de demanda por coste completo e importancia del servicio. La Estrategia de Preparación de la UE de marzo de 2025 propone anticipación, coordinación y orientación de autosuficiencia de al menos 72 horas [F28]; no certifica que cada hogar o servicio ya esté preparado.
 
-**Problema a estudiar:** dependencia de proveedores, rutas y sistemas únicos; falta de coordinación, financiación o práctica; impactos en hogares vulnerables y empresas cuando se interrumpen energía, agua, salud, comunicaciones, pagos, alimentación o transporte.
-
-**Propuestas:**
+Para abordar estos problemas, proponemos las siguientes medidas:
 
 - Mantener un registro de riesgos con exposición, consecuencias, señales tempranas, responsable, alternativa, coste y revisión trimestral. Usar categorías justificadas, no probabilidades numéricas inventadas.
 - Diversificar suministros y rutas donde reduzca riesgo neto, comprobar sustitución real y coordinar reservas energéticas y sanitarias con autoridades y marcos europeos. Inventariar cantidades útiles, caducidad, rotación y disponibilidad; no duplicar reservas existentes sin necesidad.
@@ -1611,7 +1609,11 @@ La ejecución correspondería a autoridades de protección civil, responsables s
 - Proteger integridad del gasto urgente: registrar decisiones, motivar excepciones y revisar contratos y entrega posteriormente, preservando agilidad, derechos y controles.
 - Publicar después de cada ejercicio o crisis qué falló, qué se cambia, quién responde y cuándo se comprobará la corrección. Evitar declarar éxito por haber redactado un plan.
 
-**Plan B y aprendizaje de guerras:** Antes de un incidente, reducir puntos únicos de fallo, ensayar interrupciones y contratar alternativas cuando tengan sentido. Durante él, proteger funciones esenciales y población vulnerable, activar cooperación y comunicar información verificada. Después, medir recuperación y corregir vulnerabilidades.
+Con registros de ejercicios y evaluación independiente, compararemos las pruebas que cumplen el tiempo y el nivel mínimo de servicio aprobados con todas las realizadas. Escenarios, intensidad, duración, funciones y criterios se fijarán antes del ejercicio. Publicaremos inventario y resultados agregados, distinguiendo capacidades contratadas, disponibles y realmente ensayadas.
+
+Seguiremos alternativas, tiempos de activación y recuperación, fallos, correcciones cerradas y coste completo. Contaremos casos no ensayados y no mejoraremos porcentajes eliminando funciones difíciles o relajando tiempos. Los órganos competentes verificarán las reservas y vulnerabilidades sensibles sin publicarlas de forma que aumente el riesgo. Un ejercicio no predice todas las condiciones de una guerra o desastre real.
+
+Antes de un incidente, habría que reducir puntos únicos de fallo, ensayar interrupciones y contratar alternativas cuando tengan sentido. Durante él, habría que proteger funciones esenciales y población vulnerable, activar cooperación y comunicar información verificada. Después, habría que medir recuperación y corregir vulnerabilidades.
 
 | Riesgo o escenario | Señal y decisión de activación | Plan B / C y responsable | Comprobación |
 |---|---|---|---|
@@ -1621,21 +1623,19 @@ La ejecución correspondería a autoridades de protección civil, responsables s
 | Inundación, incendio, sequía u otro fenómeno extremo | Avisos oficiales y umbrales del plan territorial | Protección civil, servicios y municipios ejecutan protección, ayuda y recuperación previstas | Aviso recibido, ayuda accesible y restablecimiento de servicios |
 | Crisis de precios, empleo o liquidez | Impacto verificado y criterios económicos previamente publicados | Administraciones competentes activan apoyos limitados y presupuestados | Cobertura del daño y sostenibilidad, fraude revisado y retirada de ayudas |
 
-**Rusia–Ucrania: qué se podía preparar mejor:** La estrategia europea reconoce insuficiencias de anticipación y coordinación [F28]. España tenía una dependencia energética exterior del 69,38 % en 2021 y del 74,202 % en 2022 [F21]; ese indicador no mide cuánto procedía de Rusia. Diversificar, mejorar eficiencia, evaluar reservas y ensayar respuestas a precios y suministro eran opciones previas razonables, con costes y limitaciones. No demostrarían que España pudiera impedir la invasión o evitar todos los precios internacionales.
+En relación con la guerra Rusia–Ucrania, la estrategia europea reconoce insuficiencias de anticipación y coordinación [F28]. España tenía una dependencia energética exterior del 69,38 % en 2021 y del 74,202 % en 2022 [F21]; ese indicador no mide cuánto procedía de Rusia. Diversificar, mejorar eficiencia, evaluar reservas y ensayar respuestas a precios y suministro eran opciones previas razonables, con costes y limitaciones. No demostrarían que España pudiera impedir la invasión o evitar todos los precios internacionales.
 
-**Irán y Oriente Medio: qué preparar sin inventar hechos:** Estudiar exposición a precios globales, rutas marítimas y suministros ante escaladas o interrupciones. Que España tenga poca compra directa de un país no elimina exposición al mercado internacional. El cierre de Hormuz se trata aquí como escenario de estrés, no como un hecho confirmado por este documento; no se afirma una cronología actual de hostilidades sin fuente y fecha verificadas.
+Ante posibles escaladas en Irán y Oriente Medio, estudiaremos la exposición a precios globales, rutas marítimas y suministros y sus posibles interrupciones. Que España tenga poca compra directa de un país no elimina exposición al mercado internacional. El cierre de Hormuz se trata aquí como escenario de estrés, no como un hecho confirmado por este documento; no se afirma una cronología actual de hostilidades sin fuente y fecha verificadas.
 
-**Hitos pequeños:** R01 (semanas 1–2): identificar funciones y responsables; R02 (semanas 3–4): registrar dependencias y capacidades ya existentes; R03 (semanas 5–8): aprobar una alternativa, recursos y criterios de activación para una función; R04 (semanas 9–12): ensayarla y asignar correcciones. Se activa según capacidad, sin convertirlo automáticamente en un cuarto frente del arranque ciudadano.
+El trabajo se organizaría en estas etapas: R01 (semanas 1–2): identificar funciones y responsables; R02 (semanas 3–4): registrar dependencias y capacidades ya existentes; R03 (semanas 5–8): aprobar una alternativa, recursos y criterios de activación para una función; R04 (semanas 9–12): ensayarla y asignar correcciones. Se activa según capacidad, sin convertirlo automáticamente en un cuarto frente del arranque ciudadano.
 
-**Competencias:** autoridades y operadores según protección civil, salud, energía, comunicaciones, defensa, transporte, hacienda y servicios; coordinación autonómica, local y europea. No se crean poderes excepcionales mediante una propuesta ciudadana.
+Las autoridades y los operadores intervendrían según sus atribuciones en protección civil, salud, energía, comunicaciones, defensa, transporte, hacienda y servicios, con coordinación autonómica, local y europea. Una propuesta ciudadana no crea poderes excepcionales.
 
-**Indicadores:** cobertura del inventario, alternativas disponibles y ensayadas, tiempo de activación y recuperación, fallos, correcciones cerradas y coste completo. Las reservas y vulnerabilidades sensibles se verifican por los órganos competentes, no se publican de forma que aumente el riesgo.
+El diagnóstico deberá revisar dependencia energética documentada [F21], marco europeo [F28] y datos de operadores todavía por obtener; falta una evaluación completa de capacidades y riesgos españoles por servicio. No hay una estimación validada de pérdidas evitadas.
 
-**Evidencia y diagnóstico pendiente:** dependencia energética documentada [F21], marco europeo [F28] y datos de operadores todavía por obtener; falta una evaluación completa de capacidades y riesgos españoles por servicio. No hay una estimación validada de pérdidas evitadas.
+El coste y su financiación están pendientes de estimación. El cálculo deberá incluir personal, ejercicios, mantenimiento, rotación de reservas, alternativas y apoyo a hogares. Se comparará con los daños posibles y la importancia de cada servicio, sin suponer ahorro garantizado. No hay un fondo financiado ni infraestructura de emergencia operativa de OpenSpain.
 
-**Coste y financiación:** Pendientes de estimación. Incluir personal, ejercicios, mantenimiento, rotación de reservas, alternativas y apoyo a hogares; comparar con daños y criticidad sin suponer ahorro garantizado. No hay un fondo financiado ni infraestructura de emergencia operativa de OpenSpain.
-
-**Riesgos y garantías:** Evitar alarmismo, información sensible expuesta, acumulación inútil, favoritismo en urgencia y restricciones indefinidas. Medidas proporcionadas, supervisión, garantías legales y revisión temporal.
+La aplicación deberá evitar alarmismo, exposición de información sensible, acumulación inútil, favoritismo en urgencia y restricciones indefinidas. Las medidas serán proporcionadas, con supervisión, garantías legales y revisión temporal.
 
 ### 2.30. Constitución clara, accesible y con seguridad jurídica
 
@@ -1655,15 +1655,13 @@ En cuatro años, el objetivo es ampliar a 40 fichas y 600 participantes acumulad
 
 La ejecución correspondería a equipo ciudadano, especialistas plurales en derecho constitucional y accesibilidad y revisión independiente; el calendario previsto incluye selección, alcance y protocolo en M1–M3; redacción y contraste jurídico en M4–M6; pruebas y publicación en M7–M12; ampliación condicionada en años 2–4. Gobierno, Cámaras y asambleas autonómicas por los cauces de iniciativa aplicables, y ciudadanía cuando proceda referéndum, deciden la reforma; OpenSpain no puede aprobarla.
 
-#### Ficha técnica
+#### La propuesta en detalle
 
-**Fundamento y alternativas:** Un lenguaje más claro puede facilitar el ejercicio de derechos y reducir confusiones, pero una frase breve puede ocultar excepciones necesarias. Comparar mantener el texto y explicarlo mejor, mejorar las leyes de desarrollo y reformar artículos concretos. Los principios constitucionales requieren interpretación al aplicarse a casos nuevos; no se promete eliminarla ni imponer una lectura política única.
+El vocabulario, la estructura y las remisiones entre artículos pueden dificultar entender la Constitución. Queremos distinguir problemas evitables de redacción de los desacuerdos de fondo, los problemas de sus leyes de desarrollo y la función legítima de los tribunales. Contar artículos no mide la complejidad.
 
-**Medición y fuentes:** Artículos con ficha comparada, revisión jurídica independiente y prueba de comprensión completadas, registrados con versión, fuente oficial y resultado. Medir aparte aciertos, tiempo por tarea, errores sobre garantías y cambios de significado detectados; el número de fichas es una entrega documental, no una reforma aprobada. Comparar tareas equivalentes con el texto oficial y las explicaciones, distribuyendo versiones para limitar aprendizaje y sesgos. Publicar reclutamiento, abandonos, aciertos y errores por perfil, sin generalizar una muestra voluntaria a toda España. No aceptar como mejora una explicación que aumente comprensión aparente pero omita una garantía, cambie una competencia o presente una interpretación discutida como obligatoria.
+Un lenguaje más claro puede facilitar el ejercicio de derechos, pero una frase breve también puede ocultar excepciones necesarias. Compararemos explicar mejor el texto vigente, mejorar las leyes de desarrollo y reformar artículos concretos. Los principios constitucionales requieren interpretación al aplicarse a casos nuevos; no se promete eliminarla ni imponer una lectura política única.
 
-**Problema a estudiar:** barreras de vocabulario y estructura, remisiones difíciles de seguir y divergencias interpretativas. Distinguir defectos evitables de redacción, desacuerdos de fondo, problemas de leyes de desarrollo y la función legítima de los tribunales. La cantidad de artículos no mide la complejidad del texto.
-
-**Propuestas:**
+Para abordar estos problemas, proponemos las siguientes medidas:
 
 - Publicar una guía de lenguaje claro, glosario, ejemplos y mapa de derechos, competencias y procedimientos, vinculados al artículo oficial y con fecha de revisión. Ofrecer formatos accesibles y versiones en las lenguas de España según recursos, sin atribuir valor normativo a la guía.
 - Seleccionar artículos por dificultades documentadas en consultas y pruebas, no por conveniencia partidista; publicar texto vigente, problema, alternativa y análisis de consecuencias artículo por artículo.
@@ -1674,7 +1672,11 @@ La ejecución correspondería a equipo ciudadano, especialistas plurales en dere
 - Identificar el cauce jurídico de las alternativas sobre Senado y organización territorial del eje 6, proporcionalidad y control del Gobierno del eje 22 y elección del CGPJ del eje 31. No presentar cambios de instituciones o competencias como simples aclaraciones del texto; separar propuestas, mayorías necesarias, aprobación y entrada en vigor [F35].
 - Impulsar únicamente reformas justificadas por los cauces de los artículos 166–169, con participación y debate informados. Una consulta informal, una recogida de apoyos o una guía no modifica la Constitución.
 
-**Procedimiento constitucional vigente [F35]:**
+Registraremos los artículos con ficha comparada, revisión jurídica independiente y prueba de comprensión completadas, con versión, fuente oficial y resultado. Seguiremos participantes, aciertos, tiempo por tarea, errores sobre derechos y garantías, cambios de significado, incidencias corregidas y respuestas institucionales documentadas. Una ficha es una entrega documental, no una reforma aprobada.
+
+Compararemos tareas equivalentes con el texto oficial y las explicaciones, distribuyendo versiones para limitar aprendizaje y sesgos. Publicaremos reclutamiento, abandonos y resultados por perfil, sin generalizar una muestra voluntaria a toda España. Separaremos redacción, remisión, tramitación, aprobación y evaluación posterior. No aceptaremos una explicación que parezca más comprensible pero omita garantías, cambie competencias o presente una interpretación discutida como obligatoria.
+
+La Constitución establece los siguientes procedimientos de reforma [F35]:
 
 | Supuesto | Procedimiento y garantía |
 |---|---|
@@ -1683,17 +1685,15 @@ La ejecución correspondería a equipo ciudadano, especialistas plurales en dere
 | Revisión total o parcial que afecte al título preliminar, sección primera del capítulo segundo del título I o título II: artículo 168 | Aprobación del principio por dos tercios de cada Cámara y disolución inmediata de las Cortes; las nuevas Cámaras ratifican la decisión y aprueban el texto por dos tercios de ambas; referéndum de ratificación obligatorio. No eludir este cauce presentando la revisión como simplificación. |
 | Iniciativa y límites: artículos 166 y 169 | Iniciativa conforme al artículo 87.1 y 87.2: no hay iniciativa legislativa popular directa de reforma constitucional. No puede iniciarse en tiempo de guerra ni durante alguno de los estados del artículo 116. |
 
-**Hitos pequeños:** K01 (semanas 1–2): elegir 1 artículo y documentar una dificultad; K02 (semanas 3–4): redactar explicación y comparar alternativas con revisión jurídica; K03 (semanas 5–8): realizar una prueba de comprensión y corregir; K04 (semanas 9–12): publicar ficha, límites y decisión. Se activa según capacidad, sin añadir automáticamente un cuarto frente al arranque.
+El trabajo se organizaría en estas etapas: K01 (semanas 1–2): elegir 1 artículo y documentar una dificultad; K02 (semanas 3–4): redactar explicación y comparar alternativas con revisión jurídica; K03 (semanas 5–8): realizar una prueba de comprensión y corregir; K04 (semanas 9–12): publicar ficha, límites y decisión. Se activa según capacidad, sin añadir automáticamente un cuarto frente al arranque.
 
-**Competencias:** instituciones con iniciativa y decisión constitucional según el título X, y tribunales en sus funciones de interpretación y control; colaboración académica y ciudadana para investigación, accesibilidad y debate. No se presupone apoyo institucional ni reforma autorizada.
+Las instituciones con iniciativa y decisión constitucional intervendrían según el título X, y los tribunales en sus funciones de interpretación y control. La colaboración académica y ciudadana contribuiría a investigación, accesibilidad y debate. No se presupone apoyo institucional ni reforma autorizada.
 
-**Indicadores:** fichas completas y revisadas, personas participantes, aciertos y tiempo por tarea, errores sobre derechos, incidencias jurídicas corregidas y respuestas institucionales documentadas. Separar redacción, remisión, tramitación, aprobación y evaluación posterior.
+El diagnóstico deberá revisar el texto oficial y los procedimientos de reforma [F35]. La Constitución contiene 169 artículos, 4 disposiciones adicionales, 9 transitorias, 1 derogatoria y 1 final; el recuento describe estructura, no dificultad de lectura, ambigüedad o calidad. Falta una medición propia de comprensión y un diagnóstico jurídico de artículos concretos; no se inventa una tasa nacional de incomprensión.
 
-**Evidencia y diagnóstico pendiente:** texto oficial y procedimientos de reforma [F35]. La Constitución contiene 169 artículos, 4 disposiciones adicionales, 9 transitorias, 1 derogatoria y 1 final; el recuento describe estructura, no dificultad de lectura, ambigüedad o calidad. Falta una medición propia de comprensión y un diagnóstico jurídico de artículos concretos; no se inventa una tasa nacional de incomprensión.
+El coste y su financiación están pendientes de estimación. El cálculo deberá incluir revisión jurídica plural, accesibilidad, traducción, participación, evaluación y actualización, justificando horas y precios antes de activar. No se contabilizarán supuestos ahorros judiciales como financiación ni se considerará gratuita una reforma constitucional.
 
-**Coste y financiación:** Pendientes de estimación. Incluir revisión jurídica plural, accesibilidad, traducción, participación, evaluación y actualización; justificar horas y precios antes de activar. No contabilizar supuestos ahorros judiciales como financiación ni considerar gratuita una reforma constitucional.
-
-**Riesgos y garantías:** Pérdida de precisión, sesgo partidista, falsas equivalencias entre guía y norma y exclusión de personas con dificultades de lectura. Texto oficial siempre identificado, discrepancias visibles, revisión independiente y protección de datos; no prometer ausencia de litigios o interpretaciones.
+Los riesgos incluyen pérdida de precisión, sesgo partidista, falsas equivalencias entre guía y norma y exclusión de personas con dificultades de lectura. El texto oficial estará siempre identificado, las discrepancias serán visibles y habrá revisión independiente y protección de datos. No se promete ausencia de litigios o interpretaciones.
 
 ### 2.31. Justicia accesible y ágil, defensa efectiva e integridad
 
@@ -1713,15 +1713,13 @@ En cuatro años, el objetivo es extender a 10 unidades, reducir un 25 % la esper
 
 La ejecución correspondería a Administración de Justicia estatal y autonómica en sus competencias, responsables de oficinas y unidades judiciales, órganos de gobierno judicial y colegios profesionales; el calendario previsto incluye diagnóstico y permisos en M1–M3; revisión de procesos, recursos y garantías en M4–M6; pruebas y evaluación en M7–M12; ampliación condicionada en años 2–4. Los jueces deciden los asuntos con independencia; OpenSpain puede preparar propuestas y evaluar información pública, no dirigir expedientes ni ofrecer defensa profesional.
 
-#### Ficha técnica
+#### La propuesta en detalle
 
-**Fundamento y alternativas:** Más personal sin diagnóstico puede desplazar un cuello de botella; digitalizar un trámite innecesario no lo elimina. Comparar refuerzo de equipos, organización, interoperabilidad y simplificación legal con mediación u otras vías solo cuando sean procedentes y seguras. No presionar a nadie para renunciar a juicio o aceptar un acuerdo ni prometer una duración universal.
+La sobrecarga, las vacantes, los cambios de equipo, los fallos de notificación y los sistemas que no intercambian información pueden alargar los expedientes. También queremos estudiar duplicidades y barreras para obtener orientación o asistencia jurídica. Los conflictos de interés o las irregularidades se investigarán cuando existan indicios concretos, no se presumirán por un retraso o una resolución desfavorable.
 
-**Medición y fuentes:** Mediana y percentil 90 de días entre hitos de gestión definidos por procedimiento, con registros autorizados y datos agregados de las unidades participantes. Separar tiempo administrativo, tramitación judicial, recursos y ejecución; acompañar los asuntos terminados con antigüedad de pendientes y suspensiones justificadas. Comparar con los 12 meses previos a la intervención por tipo de trámite y complejidad, con cohortes y fechas publicadas. Contar asuntos antiguos, pendientes, anulaciones, notificaciones fallidas y cargas trasladadas. No acortar estadísticas dejando de admitir asuntos, excluyendo casos difíciles o convirtiendo rapidez en una prima por condenar, absolver o cerrar.
+Añadir personal sin diagnóstico puede trasladar el atasco a otra fase; digitalizar un trámite innecesario no lo elimina. Compararemos refuerzo de equipos, organización, intercambio autorizado de información y simplificación legal con mediación u otras vías solo cuando sean procedentes y seguras. Nadie será presionado para renunciar a juicio o aceptar un acuerdo, y no prometemos una duración universal.
 
-**Problema a estudiar:** sobrecarga, vacantes, discontinuidad de equipos, fallos de notificación, sistemas que no interoperan, duplicidades y dificultades para conseguir orientación o asistencia jurídica. Analizar también conflictos de interés o irregularidades cuando existan indicios concretos, sin presumirlos por el retraso o por una resolución desfavorable.
-
-**Propuestas:**
+Para abordar estos problemas, proponemos las siguientes medidas:
 
 - Publicar diagnósticos agregados por jurisdicción y procedimiento: carga, antigüedad de pendientes, vacantes, notificaciones y fases de recurso y ejecución. Asignar medios según necesidades contrastadas, con presupuesto y evaluación de calidad, no solo volumen.
 - Reutilizar documentos y datos donde exista habilitación legal, mejorar notificaciones y coordinación y eliminar pasos repetidos sin perder contradicción, prueba o recurso. Priorizar interoperabilidad y canales oficiales existentes frente a crear otro portal aislado.
@@ -1734,23 +1732,25 @@ La ejecución correspondería a Administración de Justicia estatal y autonómic
 - Separar quejas por funcionamiento, denuncias de posibles delitos y recursos contra resoluciones. Publicar cauces y estado agregado cuando proceda; una queja no sustituye el recurso ni suspende su plazo.
 - Evaluar mediación y otras vías de resolución solo en materias admisibles, con información y garantías, sin coacción ni situaciones de violencia o desigualdad que las hagan improcedentes. No convertirlas en obstáculos adicionales al acceso judicial.
 
-**Conexión con corrupción y vivienda:** El eje 1 hace trazable el uso de fondos y exige controles; este eje refuerza capacidad y garantías para investigar, defender, resolver y ejecutar conforme a derecho. Una mejora de gestión no acredita menos corrupción. En vivienda conecta con el eje 2 para resolver conflictos con tutela efectiva, sin desalojo privado, condena automática ni privilegios por renta o afinidad política.
+Con registros autorizados y datos agregados de las unidades participantes, mediremos mediana y percentil 90 de días entre hitos de gestión definidos por procedimiento. Compararemos con los 12 meses previos por trámite y complejidad, publicando grupos y fechas de seguimiento. Separaremos tiempo administrativo, tramitación judicial, recursos y ejecución, junto con antigüedad de pendientes y suspensiones justificadas.
 
-**Elección del CGPJ y límites:** El artículo 122 de la Constitución distingue 12 vocales entre jueces y magistrados y 8 juristas a propuesta de las Cámaras; la LOPJ vigente atribuye la designación de los 20 a las Cortes, 10 por Cámara por mayoría de tres quintos [F35] [F39]. Los cambios deben distinguir lo regulado por ley orgánica de lo fijado constitucionalmente. El CGPJ es un órgano de gobierno, no el tribunal que dicta todas las sentencias. Su relación institucional con las Cortes no permite dar por probada la parcialidad de cada juez ni justifica eliminar controles y responsabilidad.
+Contaremos asuntos antiguos, repeticiones, anulaciones, notificaciones fallidas y cargas trasladadas. Seguiremos acceso y tiempos de asistencia jurídica, comprensión, incidencias y coste completo. En el gobierno judicial, observaremos publicidad y motivación de nombramientos, conflictos examinados y renovación en plazo, sin tratarlos como prueba automática de independencia. No mejoraremos las cifras excluyendo casos difíciles ni premiaremos condenar, absolver o cerrar. No puntuaremos jueces por el sentido de sus resoluciones ni publicaremos expedientes identificativos.
 
-**Datos de contexto [F36]:** El CGPJ estima para asuntos civiles terminados en 2025 en primera instancia 15,5 meses en ordinarios y 11,1 en la categoría «Demás verbales». Son aproximaciones mediante un modelo de asuntos ingresados, resueltos y pendientes, no mediciones individuales ni medias de toda la justicia. No incluyen por sí solas recursos o ejecución ni prueban corrupción; no sirven para pronosticar un caso concreto.
+El eje 1 hace trazable el uso de fondos y exige controles; este eje refuerza capacidad y garantías para investigar, defender, resolver y ejecutar conforme a derecho. Una mejora de gestión no acredita menos corrupción. En vivienda conecta con el eje 2 para resolver conflictos con tutela efectiva, sin desalojo privado, condena automática ni privilegios por renta o afinidad política.
 
-**Hitos pequeños:** J01 (semanas 1–2): elegir 1 procedimiento y mapear fases con fuentes públicas; J02 (semanas 3–4): documentar un cuello de botella y una alternativa con revisión jurídica; J03 (semanas 5–8): acordar acceso legal a datos y recursos o declarar el bloqueo; J04 (semanas 9–12): probar una explicación o mejora autorizada y publicar evaluación agregada. No añade automáticamente un cuarto frente inicial.
+El artículo 122 de la Constitución distingue 12 vocales entre jueces y magistrados y 8 juristas a propuesta de las Cámaras; la LOPJ vigente atribuye la designación de los 20 a las Cortes, 10 por Cámara por mayoría de tres quintos [F35] [F39]. Los cambios deben distinguir lo regulado por ley orgánica de lo fijado constitucionalmente. El CGPJ es un órgano de gobierno, no el tribunal que dicta todas las sentencias. Su relación institucional con las Cortes no permite dar por probada la parcialidad de cada juez ni justifica eliminar controles y responsabilidad.
 
-**Competencias:** jueces y tribunales en su función jurisdiccional e independencia; órganos de gobierno judicial, Ministerio competente y comunidades con medios transferidos en sus funciones; profesionales y comisiones de asistencia jurídica gratuita según ley. Las reformas procesales y presupuestarias requieren sus procedimientos.
+El CGPJ estima para asuntos civiles terminados en 2025 en primera instancia 15,5 meses en ordinarios y 11,1 en la categoría «Demás verbales» [F36]. Son aproximaciones mediante un modelo de asuntos ingresados, resueltos y pendientes, no mediciones individuales ni medias de toda la justicia. No incluyen por sí solas recursos o ejecución ni prueban corrupción; no sirven para pronosticar un caso concreto.
 
-**Indicadores:** espera mediana y percentil 90 por actuación, antigüedad de pendientes, repeticiones, notificaciones fallidas, acceso y tiempos de asistencia jurídica, comprensión, incidencias y coste completo. Para gobierno judicial: publicidad y motivación de nombramientos, conflictos examinados y renovación en plazo, sin presentarlos como prueba automática de independencia. No puntuar la calidad de un juez por el sentido de sus resoluciones ni publicar expedientes o datos identificativos.
+El trabajo se organizaría en estas etapas: J01 (semanas 1–2): elegir 1 procedimiento y mapear fases con fuentes públicas; J02 (semanas 3–4): documentar un cuello de botella y una alternativa con revisión jurídica; J03 (semanas 5–8): acordar acceso legal a datos y recursos o declarar el bloqueo; J04 (semanas 9–12): probar una explicación o mejora autorizada y publicar evaluación agregada. No añade automáticamente un cuarto frente inicial.
 
-**Evidencia y diagnóstico pendiente:** estimaciones oficiales del CGPJ y sus límites [F36], tutela judicial efectiva y garantías del artículo 24 de la Constitución y gratuidad en los términos del artículo 119 [F35], y Ley 1/1996 [F37]. Falta medir cada unidad, fase y barrera de defensa, además de disponer de acuerdos y recursos; no hay un cálculo validado de demora eliminable.
+Los jueces y tribunales ejercerían su función jurisdiccional con independencia. Los órganos de gobierno judicial, el Ministerio competente y las comunidades con medios transferidos actuarían dentro de sus funciones. Los profesionales y las comisiones de asistencia jurídica gratuita intervendrían según la ley. Las reformas procesales y presupuestarias requieren sus procedimientos.
 
-**Coste y financiación:** Pendientes de estimación. Incluir personal, formación, interoperabilidad, accesibilidad, asistencia jurídica, mantenimiento, evaluación y revisión jurídica comparada de elección y nombramientos del CGPJ. La reducción del atasco no se contabiliza automáticamente como ahorro ni financia por sí sola el refuerzo.
+El diagnóstico deberá revisar las estimaciones oficiales del CGPJ y sus límites [F36], la tutela judicial efectiva y las garantías del artículo 24 de la Constitución, la gratuidad en los términos del artículo 119 [F35] y la Ley 1/1996 [F37]. Falta medir cada unidad, fase y barrera de defensa, además de disponer de acuerdos y recursos; no hay un cálculo validado de demora eliminable.
 
-**Riesgos y garantías:** Presiones sobre independencia, decisiones apresuradas, indefensión, exclusión digital y exposición de datos. Revisión independiente, canales asistidos, acceso limitado y medidas reversibles; ante empeoramiento de garantías, corregir o suspender la intervención.
+El coste y su financiación están pendientes de estimación. El cálculo deberá incluir personal, formación, interoperabilidad, accesibilidad, asistencia jurídica, mantenimiento, evaluación y revisión jurídica comparada de elección y nombramientos del CGPJ. La reducción del atasco no se contabiliza automáticamente como ahorro ni financia por sí sola el refuerzo.
+
+La aplicación debe prevenir presiones sobre la independencia, decisiones apresuradas, indefensión, exclusión digital y exposición de datos. Habrá revisión independiente, canales asistidos, acceso limitado y medidas reversibles; ante un empeoramiento de garantías, habrá que corregir o suspender la intervención.
 
 ## 3. Ámbitos pendientes para un programa completo
 

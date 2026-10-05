@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
-import { parseProgram, filterAxes, categories, axisMetadata, ipc, getChapter, inlineParts } from '../program.js';
+import { parseProgram, filterAxes, categories, axisMetadata, ipc, getChapter, inlineParts, detailHeading } from '../program.js';
 import { observedCharts, targetCharts } from '../charts.js';
 
 const markdown = await readFile(new URL('../PROGRAMA.md', import.meta.url), 'utf8');
@@ -11,8 +11,9 @@ test('all configured axes and every proposal are read from the source document',
   assert.equal(axes.length, axisMetadata.length);
   assert.deepEqual(axes.map(axis => axis.id), Array.from({ length: axisMetadata.length }, (_, index) => index + 1));
   const programSection = markdown.split('## 2. Mapa de problemas y propuestas')[1].split('## 3.')[0];
-  const proposalBlocks = [...programSection.matchAll(/\*\*Propuestas:\*\*\s*([\s\S]*?)(?=\n\*\*|$)/g)];
-  const count = proposalBlocks.reduce((sum, block) => sum + [...block[1].matchAll(/^- /gm)].length, 0);
+  const detailBlocks = programSection.split(`#### ${detailHeading}`).slice(1);
+  const count = detailBlocks.reduce((sum, block) => sum + (block.match(/^- .+(?:\n- .+)*/m)?.[0].split('\n').length ?? 0), 0);
+  assert.equal(detailBlocks.length, axes.length);
   assert.equal(axes.reduce((sum, axis) => sum + axis.measures.length, 0), count);
   assert.ok(axes.every(axis => categories.some(category => category.id === axis.category)));
   assert.ok(axes[11].measures.some(measure => measure.includes('IA')));
@@ -26,8 +27,8 @@ test('all configured axes and every proposal are read from the source document',
   assert.ok(filterAxes(axes, 'economy', 'venture capital').some(axis => axis.id === 11));
   assert.ok(filterAxes(axes, 'institutions', 'bono desempeño').some(axis => axis.id === 23));
   assert.ok(axes.every(axis => axis.citizenSummary.includes('#### Plan de actuación')
-    && axis.technicalBody.includes('**Coste y financiación:**')
-    && axis.technicalBody.includes('**Riesgos y garantías:**')));
+    && axis.technicalBody.includes('El coste y su financiación están pendientes de estimación.')
+    && !/^\*\*[^*]+:\*\*/m.test(axis.technicalBody)));
   assert.ok(filterAxes(axes, 'future', 'satélite').some(axis => axis.id === 25));
   assert.ok(filterAxes(axes, 'future', 'Tesla').some(axis => axis.id === 26));
 });
@@ -39,6 +40,28 @@ test('search is accent insensitive and includes all proposal text', () => {
   assert.equal(filterAxes(axes, 'life', 'hidrogeno').length, 0);
   assert.equal(filterAxes(axes, 'future', '').length, axisMetadata.filter(axis => axis[0] === 'future').length);
   assert.equal(filterAxes(axes, 'all', 'zzzzzzz').length, 0);
+});
+
+test('all 31 detailed proposals explain the problem before measures and evaluate them without field labels', () => {
+  assert.equal((markdown.match(/^#### La propuesta en detalle$/gm) ?? []).length, 31);
+  assert.doesNotMatch(markdown, /Ficha técnica/);
+  for (const axis of axes) {
+    const paragraphs = axis.technicalBody.split('\n\n');
+    for (const paragraph of paragraphs.slice(0, 2)) {
+      assert.ok(paragraph.endsWith('.'), `Eje ${axis.id}: explicación inicial en frases completas`);
+      assert.ok(paragraph.split(/\s+/).length <= 110, `Eje ${axis.id}: párrafo inicial demasiado largo`);
+    }
+    assert.doesNotMatch(axis.technicalBody, /^\*\*[^*]+:\*\*/m, `Eje ${axis.id}: sin etiquetas de formulario`);
+    const measureIndex = paragraphs.findIndex(paragraph => paragraph.startsWith('- '));
+    assert.ok(measureIndex >= 3, `Eje ${axis.id}: problema y alternativas antes de medidas`);
+    assert.equal(paragraphs[measureIndex - 1], 'Para abordar estos problemas, proponemos las siguientes medidas:');
+    assert.ok(paragraphs[measureIndex + 1] && !paragraphs[measureIndex + 1].startsWith('- '),
+      `Eje ${axis.id}: evaluación explicada después de medidas`);
+    assert.match(axis.technicalBody, /El diagnóstico deberá revisar /);
+    assert.match(axis.technicalBody, /El coste y su financiación están pendientes de estimación/);
+  }
+  assert.match(axes[1].technicalBody, /mediana —el plazo que divide los expedientes en dos mitades—/);
+  assert.match(axes[1].technicalBody, /percentil 90 —el plazo dentro del que se resuelve el 90 %—/);
 });
 
 test('all 31 axes integrate hypothetical examples and interests in prose without repeated labels', () => {
@@ -56,8 +79,7 @@ test('all 31 axes integrate hypothetical examples and interests in prose without
       assert.ok(wordCount(paragraph) >= 20 && wordCount(paragraph) <= 80,
         `Eje ${axis.id}: ejemplo o equilibrio sin explicación suficiente o demasiado largo`);
     }
-    assert.match(axis.technicalBody, /\*\*Fundamento y alternativas:\*\*/);
-    assert.match(axis.technicalBody, /\*\*Medición y fuentes:\*\*/);
+    assert.match(axis.technicalBody, /Para abordar estos problemas, proponemos las siguientes medidas:/);
   }
   const guide = getChapter(markdown, 2).split(/^### /m)[0];
   assert.match(guide, /situaciones hipotéticas/);
@@ -87,7 +109,7 @@ test('every axis exposes one- and four-year objectives, execution and measuremen
     assert.match(plan.find(paragraph => paragraph.startsWith('En el primer año,')), /\d/);
     assert.match(plan.find(paragraph => paragraph.startsWith('En cuatro años,')), /\d|anualmente|todas/);
     assert.match(plan.find(paragraph => paragraph.startsWith('La ejecución correspondería a ')), /M1–M3|M1–M6/);
-    assert.match(axis.technicalBody, /\*\*Medición y fuentes:\*\*/);
+    assert.ok(axis.technicalBody.indexOf('- ') < axis.technicalBody.indexOf('El coste y su financiación'));
   }
   assert.match(markdown, /M12 = 3 de octubre de 2027/);
   assert.match(markdown, /M48 = 3 de octubre de 2030/);
@@ -108,7 +130,11 @@ test('every axis exposes one- and four-year objectives, execution and measuremen
 test('parser supports CRLF and fails explicitly on invalid source', () => {
   assert.equal(parseProgram(markdown.replaceAll('\n', '\r\n')).length, axisMetadata.length);
   assert.throws(() => parseProgram('# vacío'), /ejes/);
-  assert.throws(() => parseProgram('### 2.1. Prueba\n\n**Propuestas:**\n'), /propuestas/);
+  assert.deepEqual(parseProgram(markdown.replaceAll('\n', '\r\n')).map(axis => axis.measures), axes.map(axis => axis.measures));
+  assert.throws(() => parseProgram(`### 2.1. Prueba\n\nResumen.\n\n#### ${detailHeading}\n\nSin medidas.`), /propuestas/);
+  assert.throws(() => parseProgram('### 2.1. Prueba\n\n- Sin separador.'), /no distingue/);
+  const sample = parseProgram(`### 2.1. Prueba\n\nResumen.\n\n- No es una medida del detalle.\n\n#### ${detailHeading}\n\nExplicación.\n\n- Primera medida.\n- Segunda medida.\n\nOtra explicación.\n\n- Ampliación, no nueva medida.`);
+  assert.deepEqual(sample[0].measures, ['Primera medida.', 'Segunda medida.']);
 });
 
 test('IPC distinguishes the complete 2025 series from definitive January–August 2026', () => {
@@ -253,7 +279,7 @@ test('collaborative economy opens income routes without bypassing transport or l
   assert.match(mobility.body, /no destinatarios preferentes/);
   assert.match(mobility.body, /Es una impugnación, no una anulación firme/);
   assert.match(mobility.body, /No es un recuento de conductores/);
-  assert.match(mobility.body, /no fijar ahora una rebaja nacional del precio ni un sueldo prometido/);
+  assert.match(mobility.body, /No se promete una rebaja nacional del precio ni un sueldo para los conductores/);
   assert.match(influence.body, /ninguna asociación o empresa tendrá un veto privilegiado/);
   assert.deepEqual(observedCharts[25].at(-1).values, [60074, 27107]);
   assert.match(observedCharts[25].at(-1).note, /No son conductores/);

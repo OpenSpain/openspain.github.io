@@ -2,7 +2,7 @@ import { chromium } from '@playwright/test';
 import assert from 'node:assert/strict';
 import { mkdir } from 'node:fs/promises';
 import { join } from 'node:path';
-import { axisMetadata, parseProgram, inlineParts } from '../program.js';
+import { axisMetadata, parseProgram, inlineParts, detailHeading } from '../program.js';
 import { observedCharts } from '../charts.js';
 
 const baseURL = process.env.BASE_URL || 'http://127.0.0.1:4173';
@@ -84,21 +84,27 @@ try {
     assert.deepEqual(await summary.locator('p').allTextContents(), paragraphs, `Eje ${axis.id}: texto continuo íntegro`);
     assert.equal(await summary.locator('h4').textContent(), 'Plan de actuación');
     assert.doesNotMatch(await summary.textContent(), /Ejemplo cotidiano \(hipotético\):|Intereses que hay que equilibrar:|Qué haremos en el primer año:/);
-    if ([1, 4, 6, 9, 13, 16, 17, 22, 23, 30, 31].includes(axis.id)) {
-      await page.locator('#measure-dialog .technical-details > summary').click();
-      const measures = await page.locator('#measure-content .technical-content li').allTextContents();
-      for (const measure of axis.measures) {
-        assert.ok(measures.includes(inlineParts(measure).map(part => part.text).join('')),
-          `Eje ${axis.id}: propuesta íntegra en la ficha técnica`);
-      }
+    assert.equal(await page.locator('#measure-dialog .technical-details > summary').textContent(), detailHeading);
+    await page.locator('#measure-dialog .technical-details > summary').click();
+    const measures = await page.locator('#measure-content .technical-content li').allTextContents();
+    for (const measure of axis.measures) {
+      assert.ok(measures.includes(inlineParts(measure).map(part => part.text).join('')),
+        `Eje ${axis.id}: propuesta íntegra en el detalle`);
     }
+    const expectedParagraphs = axis.technicalBody.split('\n\n').filter(text =>
+      !text.startsWith('- ') && !text.startsWith('|'))
+      .map(text => inlineParts(text).map(part => part.text).join(''));
+    assert.deepEqual(await page.locator('#measure-content .technical-content p').allTextContents(),
+      expectedParagraphs, `Eje ${axis.id}: explicación detallada íntegra y en orden`);
+    assert.doesNotMatch(await page.locator('#measure-content .technical-content').textContent(),
+      /Fundamento y alternativas:|Medición y fuentes:|Problema a estudiar:|Coste y financiación:|Riesgos y garantías:/);
     assert.equal(await page.locator('#measure-content').evaluate(content => {
       const summary = content.querySelector('.citizen-summary');
       const evidence = content.querySelector('.policy-evidence');
       const technical = content.querySelector('.technical-details');
       return Boolean(summary.compareDocumentPosition(evidence) & Node.DOCUMENT_POSITION_FOLLOWING)
         && Boolean(evidence.compareDocumentPosition(technical) & Node.DOCUMENT_POSITION_FOLLOWING);
-    }), true, `Eje ${axis.id}: explicación antes de gráficos y ficha técnica`);
+    }), true, `Eje ${axis.id}: explicación antes de gráficos y detalle`);
     await page.keyboard.press('Escape');
   }
   assert.equal(await page.locator('.coverage-row').count(), 4);
@@ -242,7 +248,7 @@ try {
   assert.equal(await reportPage.getAttribute('html', 'data-report-ready'), 'true');
   assert.match(await reportPage.locator('#report-body').textContent(), /Donaciones y transparencia/);
   assert.equal(await reportPage.locator('#report-body h4').filter({ hasText: /^Plan de actuación$/ }).count(), axisMetadata.length);
-  assert.equal(await reportPage.locator('#report-body h4').filter({ hasText: /^Ficha técnica$/ }).count(), axisMetadata.length);
+  assert.equal(await reportPage.locator('#report-body h4').filter({ hasText: new RegExp(`^${detailHeading}$`) }).count(), axisMetadata.length);
   assert.equal(await reportPage.locator('#report-body p').filter({ hasText: /^En un caso hipotético,/ }).count(), axisMetadata.length);
   for (const axis of sourceAxes) {
     const evidence = reportPage.locator(`[data-axis-evidence="${axis.id}"]`);
@@ -253,11 +259,24 @@ try {
         if (previous.tagName === 'P') paragraphs.unshift(previous.textContent);
         previous = previous.previousElementSibling;
       }
-      return JSON.stringify(paragraphs) === JSON.stringify(expected)
-        && node.nextElementSibling?.textContent === 'Ficha técnica';
-    }, axis.citizenSummary.split('\n\n').filter(text => !text.startsWith('#### '))
-      .map(text => inlineParts(text).map(part => part.text).join(''))),
-      true, `Eje ${axis.id}: texto continuo íntegro antes de gráficos y ficha técnica en el informe`);
+      return JSON.stringify(paragraphs) === JSON.stringify(expected.paragraphs)
+        && node.nextElementSibling?.textContent === expected.heading;
+    }, { heading: detailHeading, paragraphs: axis.citizenSummary.split('\n\n').filter(text => !text.startsWith('#### '))
+      .map(text => inlineParts(text).map(part => part.text).join('')) }),
+      true, `Eje ${axis.id}: texto continuo íntegro antes de gráficos y detalle en el informe`);
+    assert.deepEqual(await reportPage.locator(`#eje-${axis.id}`).evaluate(heading => {
+      const paragraphs = [];
+      let node = heading.nextElementSibling;
+      let detail = false;
+      while (node && node.tagName !== 'H3') {
+        if (node.tagName === 'H4' && node.textContent !== 'Plan de actuación') detail = true;
+        else if (detail && node.tagName === 'P') paragraphs.push(node.textContent);
+        node = node.nextElementSibling;
+      }
+      return paragraphs;
+    }), axis.technicalBody.split('\n\n').filter(text => !text.startsWith('- ') && !text.startsWith('|'))
+      .map(text => inlineParts(text).map(part => part.text).join('')),
+    `Eje ${axis.id}: explicación detallada íntegra en el informe`);
   }
   assert.doesNotMatch(await reportPage.locator('body').textContent(), /\bSMART\b/i);
   assert.match(await reportPage.locator('#report-body').textContent(), /Un seguimiento que no confunda actividad con resultados/);
