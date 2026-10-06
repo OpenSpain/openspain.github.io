@@ -14,9 +14,12 @@ try {
   const page = await browser.newPage({ viewport: { width: 1440, height: 1000 } });
   await page.emulateMedia({ reducedMotion: 'no-preference' });
   page.on('pageerror', error => errors.push(error.message));
-  const typeformRequests = [];
+  const signupProviderRequests = [];
   page.on('request', request => {
-    if (new URL(request.url()).hostname.endsWith('.typeform.com')) typeformRequests.push(request.url());
+    const hostname = new URL(request.url()).hostname;
+    if (['tally.so', 'typeform.com'].some(domain => hostname === domain || hostname.endsWith(`.${domain}`))) {
+      signupProviderRequests.push(request.url());
+    }
   });
   const response = await page.goto(baseURL);
   assert.equal(response.status(), 200);
@@ -61,14 +64,19 @@ try {
     getComputedStyle(node, '::after').animationPlayState), 'paused');
   assert.equal(await staticPage.locator('#orbit-toggle').isVisible(), false);
   await staticPage.close();
-  const signupURL = 'https://g8rpxrjtmaa.typeform.com/to/thCRjB7o';
+  const signupURL = 'https://tally.so/r/D4lvRN';
   const signupLinks = page.getByRole('link', { name: /Hazte simpatizante/ });
   assert.equal(await signupLinks.count(), 2);
   for (const link of await signupLinks.all()) {
     assert.equal(await link.getAttribute('href'), signupURL);
     assert.equal(await link.getAttribute('target'), '_blank');
     assert.equal(await link.getAttribute('rel'), 'noopener noreferrer');
+    assert.match(await link.textContent(), /abre Tally en otra pestaña/);
   }
+  assert.doesNotMatch(await page.locator('body').textContent(), /Typeform/i);
+  assert.equal(await page.locator('a[href*="typeform.com"]').count(), 0);
+  assert.match(await page.locator('.signup-note').textContent(), /Formulario externo en Tally/);
+  assert.match(await page.locator('#participa').textContent(), /formulario externo en Tally/);
   assert.match(await page.locator('.signup-note').textContent(), /no es una afiliación ni un aval electoral/);
   assert.match(await page.locator('#participa').textContent(), /no es una afiliación, una firma electoral ni un compromiso de avalar/);
   assert.equal(await page.locator('iframe').count(), 0);
@@ -364,7 +372,7 @@ try {
     && document.querySelector('#eje-31')?.getBoundingClientRect().top < window.innerHeight);
   assert.match(await linkedPage.locator('#eje-31 h3').textContent(), /Justicia accesible y ágil/);
   assert.deepEqual(errors, []);
-  assert.deepEqual(typeformRequests, [], 'Typeform must not load before the visitor follows a signup link');
+  assert.deepEqual(signupProviderRequests, [], 'Signup providers must not load before the visitor follows a signup link');
   console.log(`Browser checks passed: ${axisMetadata.length} axes, filters, search, charts, dialogs, download, retry and responsive layouts.`);
 } finally {
   await browser.close();
