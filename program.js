@@ -27,7 +27,7 @@ export const axisMetadata = [
   ['economy', 'Impuestos que se entiendan.', 'Menor carga viable. Financiación explícita.', '%'],
   ['future', 'Menos dependencia. Más futuro.', 'Menos petróleo y gas, con energía fiable y asequible.', '☀'],
   ['future', 'La próxima frontera.', 'Ciencia y economía espacial con utilidad.', '✦'],
-  ['institutions', 'Información, no instrucciones.', 'Medios independientes, plurales y transparentes.', '≋'],
+  ['institutions', '¿Quién paga a quién?', 'Dinero público a medios, a la vista. Sin censura.', '≋'],
   ['institutions', 'Unir esfuerzos. Resolver juntos.', 'Menos «y tú más». Acuerdos con pluralidad y responsabilidad.', '∞'],
   ['institutions', 'Instituciones que se justifican.', 'Monarquía y alternativas: utilidad, costes y controles.', '◇'],
   ['institutions', 'Mismo voto. Mejores decisiones.', 'Igualdad política, deliberación y conocimiento experto.', '☷'],

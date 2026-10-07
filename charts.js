@@ -269,7 +269,7 @@ export const targetCharts = [
   ['Horas de cumplimiento: índice de referencia', 100, 85, 70, 'índice', 'Referencia matemática = 100. No representa tipo de IRPF, renta disponible o ahorro nacional.'],
   ['Consumo fósil: índice de referencia', 100, 85, 70, 'índice', 'Referencia matemática = 100. Ajustar clima y actividad, incluir electricidad y coste total.'],
   ['Tiempo de mapas: índice de referencia', 100, 80, 75, 'índice', 'Referencia matemática = 100. El alcance pasa de pilotos a servicios; comparar tareas equivalentes.'],
-  ['Entidades con publicidad institucional trazable', null, 5, 20, 'entidades', 'Indicador de despliegue, no clasificación de medios ni medida de neutralidad editorial.'],
+  ['Entidades con publicidad institucional trazable', null, 5, 20, 'entidades', 'Metas propuestas, no adhesiones confirmadas. Medir por separado cobertura del gasto y destinatarios finales verificables; un registro parcial no acredita recorrido completo. No es una clasificación de medios ni una medida de neutralidad editorial.'],
   ['Proyectos de cooperación completados', null, 10, 40, 'proyectos', 'Indicador de entrega. Cooperación sostenida y confianza requieren seguimiento separado.'],
   ['Modelos de jefatura del Estado comparados', null, 3, 3, 'modelos', 'Comparación actualizada anualmente. No representa cambio de régimen ni legitimidad medida.'],
   ['Deliberaciones ciudadanas completadas', null, 3, 12, 'procesos', 'Indicador de entrega. Medir además comprensión, accesibilidad y respuesta institucional.'],

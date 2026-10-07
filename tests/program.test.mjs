@@ -42,6 +42,43 @@ test('search is accent insensitive and includes all proposal text', () => {
   assert.equal(filterAxes(axes, 'all', 'zzzzzzz').length, 0);
 });
 
+test('media transparency follows documented payments without inventing dependence or activating another front', () => {
+  const media = axes.find(axis => axis.id === 19);
+  assert.equal(media.headline, '¿Quién paga a quién?');
+  assert.match(media.citizenSummary, /5 entidades públicas anunciantes/);
+  assert.match(media.citizenSummary, /20 entidades/);
+  assert.match(media.citizenSummary, /100 % de su publicidad institucional no reservada/);
+  assert.match(media.citizenSummary, /90 % de las reclamaciones dentro de 60 días/);
+  assert.match(media.citizenSummary, /hasta 10 expedientes.*todos si hay menos/);
+  assert.match(media.citizenSummary, /no añade un cuarto frente/);
+  assert.match(media.technicalBody, /porcentaje de gasto con destinatario final verificable/);
+  assert.match(media.technicalBody, /no puede calcularse cobertura/);
+  assert.match(media.technicalBody, /Sin ingresos comparables.*no un porcentaje de dependencia/);
+  assert.match(media.technicalBody, /no sumar el contrato de una agencia con su distribución/);
+  assert.match(media.technicalBody, /no prueba autocensura/);
+  assert.ok(media.measures.some(measure => measure.includes('RTVE') && measure.includes('renovaciones pendientes')));
+  assert.ok(media.measures.some(measure => measure.includes('código abierto') && measure.includes('metodología reproducible')));
+  assert.deepEqual(targetCharts[media.id - 1].slice(1, 4), [null, 5, 20]);
+  assert.match(getChapter(markdown, 5), /C01 y C02 se aplicarán a «¿Quién paga a quién\?»/);
+  assert.match(getChapter(markdown, 5), /registro parcial no cumple por sí solo la meta anual/);
+  assert.match(getChapter(markdown, 7), /19\. Medios libres.*¿Quién paga a quién/);
+  assert.match(getChapter(markdown, 9), /Dinero público a medios difícil de seguir/);
+  for (const query of ['quien paga a quien', 'agencia intermediaria', 'patrocinios', 'RTVE']) {
+    assert.ok(filterAxes(axes, 'institutions', query).some(axis => axis.id === 19));
+  }
+});
+
+test('institutional maps preserve evidence, identities and independence safeguards', () => {
+  const byId = id => axes.find(axis => axis.id === id);
+  assert.match(byId(1).technicalBody, /fuente, fecha y tipo de relación/);
+  assert.match(byId(1).technicalBody, /evitar confundir homónimos/);
+  assert.match(byId(1).technicalBody, /no recopilaremos familiares por defecto/);
+  assert.match(byId(12).technicalBody, /separando lotes y contratos para evitar duplicidades/);
+  assert.match(byId(23).technicalBody, /No tratar una declaración como conflicto acreditado/);
+  assert.match(byId(31).technicalBody, /mapa de mecanismos de independencia institucional para CGPJ y Fiscalía/);
+  assert.match(byId(31).technicalBody, /sin etiquetar jueces o fiscales/);
+});
+
 test('all 31 detailed proposals explain the problem before measures and evaluate them without field labels', () => {
   assert.equal((markdown.match(/^#### La propuesta en detalle$/gm) ?? []).length, 31);
   assert.doesNotMatch(markdown, /Ficha técnica/);
@@ -373,7 +410,7 @@ test('justice strengthens defence and integrity without treating delay as corrup
 test('closing priorities reuse programme measures and preserve feasibility and guarantees', () => {
   const closing = getChapter(markdown, 9);
   const rows = closing.split('\n').filter(line => line.startsWith('|') && !line.includes('---'));
-  assert.equal(rows.length, 8);
+  assert.equal(rows.length, 9);
   assert.match(closing, /Ampliar el parque público y protegido de alquiler/);
   assert.match(closing, /habilitar suelo residencial donde haya demanda, servicios financiados y garantías/);
   assert.match(axes[1].technicalBody, /revisar restricciones urbanísticas innecesarias/);
@@ -382,7 +419,7 @@ test('closing priorities reuse programme measures and preserve feasibility and g
   assert.match(closing, /hasta 3 frentes/);
   assert.match(closing, /Si solo hay capacidad para uno/);
   assert.match(closing, /primer ciclo de 90 días/);
-  for (const [, headline] of axisMetadata) assert.ok(headline.endsWith('.'), headline);
+  for (const [, headline] of axisMetadata) assert.match(headline, /[.?]$/);
 });
 
 test('citizen contributions cover all agreed topics without unconditional abolition or loss of rights', () => {

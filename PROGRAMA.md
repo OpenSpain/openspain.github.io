@@ -63,11 +63,14 @@ Para abordar estos problemas, proponemos las siguientes medidas:
 - Establecer criterios públicos de mérito y procedimientos transparentes para puestos técnicos y directivos.
 - Proteger a quienes denuncien irregularidades y facilitar canales seguros con seguimiento.
 - Aplicar controles proporcionados sobre conflictos de interés y puertas giratorias, con sanciones efectivas y garantías.
+- Preparar un mapa abierto de decisiones y cargos que conecte personas, funciones, instituciones, nombramientos, intereses declarados y contratos mediante relaciones documentadas. Cada conexión incluirá fuente, fecha y tipo de relación; se distinguirán hechos, datos pendientes e indicios sometidos a revisión, sin llamar «red clientelar» a una mera coincidencia.
 - Utilizar estimación asistida por IA para identificar posibles sobrecostes en contratación, con el método, los límites y la revisión humana descritos en el eje de licitaciones. Una desviación estimada no demuestra por sí sola corrupción.
 
 Para comprobar los avances, compararemos los documentos exigibles según el catálogo de cada entidad con los publicados dentro de plazo, utilizando sus registros y una muestra independiente. Publicaremos la cobertura, los retrasos, el tiempo de fiscalización y la proporción de recomendaciones atendidas respecto de las vencidas. También seguiremos la recuperación de fondos cuando la ordene una resolución firme.
 
 En las ayudas, contrastaremos la financiación pública y propia de cada entidad, sus cuentas, la finalidad de los fondos, los resultados verificados y las reclamaciones resueltas con garantías. Explicaremos las reservas legales que impidan publicar información. Las denuncias son señales para investigar, no una medida de corrupción ni una prueba de cómo votan sus beneficiarios. No prometemos una cifra de corrupción eliminada ni de ahorro.
+
+El mapa reutilizará registros y documentos oficiales antes de crear otra base de datos. Verificaremos identidades para evitar confundir homónimos, conservaremos fechas de vigencia y ofreceremos corrección y revisión. Una relación profesional, familiar o partidista no demuestra trato de favor; no recopilaremos familiares por defecto ni publicaremos domicilios, contactos privados u otros datos innecesarios. El acceso público a un documento no elimina la obligación de justificar su reutilización y proteger datos personales. Mediremos cobertura documental y errores de enlace, no personas supuestamente corruptas.
 
 El Estado y las demás administraciones aplicarían las medidas dentro de sus atribuciones. Los órganos de control y la justicia actuarían con independencia.
 
@@ -643,6 +646,7 @@ Comparar contratos equivalentes, facilitar la participación de proveedores y re
 Para abordar estos problemas, proponemos las siguientes medidas:
 
 - Publicar el ciclo completo de contratación: planificación, criterios, adjudicación, modificaciones, ejecución y evaluación, protegiendo los datos legalmente reservados.
+- Preparar una herramienta de contratos abiertos con identificadores de expediente y proveedor, fuentes y fechas, que permita consultar adjudicaciones recurrentes, concentración por proveedor, cambios de adjudicatario y modificaciones. Comparar por entidad, periodo y categoría, separando lotes y contratos para evitar duplicidades; enlazar con el registro de publicidad institucional del eje 19.
 - Comparar costes totales y calidad entre contratos equivalentes, no solo precios iniciales.
 - Diseñar requisitos proporcionados y dividir contratos en lotes cuando sea adecuado para facilitar concurrencia.
 - Revisar contratos con una sola oferta, ampliaciones reiteradas o desviaciones relevantes como señales de riesgo, no como prueba automática de fraude.
@@ -657,6 +661,8 @@ Para abordar estos problemas, proponemos las siguientes medidas:
 - En reformas de movilidad y plataformas, publicar reuniones, propuestas y justificación de las reglas con participación de asociaciones de taxi, VTC, plataformas, cooperativas, conductores y usuarios. Representar intereses es legítimo; ninguna asociación o empresa tendrá un veto privilegiado ni se presumirá corrupción por defender su posición.
 
 Los datos de licitación y ejecución permitirán comparar contratos con una sola oferta respecto de contratos equivalentes, ofertas por categoría, participación de pymes y proporción de contratos cuyo recorrido se puede comprobar. Seguiremos desviaciones de coste y plazo, coste final, calidad entregada e influencias sobre las normas.
+
+Una adjudicación recurrente, concentración elevada o cambio de proveedor será una señal contextual para solicitar explicación, no una acusación. La herramienta distinguirá presupuesto, importe adjudicado, modificaciones y pagos documentados, con impuestos y periodos explícitos; no sumará esas fases como si fueran gastos diferentes. El prototipo documental se integraría en el frente existente de integridad y contratación, sujeto a responsable, revisión y recursos, sin anunciar un nuevo sistema operativo.
 
 Especialistas y revisión independiente comprobarán la precisión de las alertas de IA. Separaremos irregularidad, mala gestión y delito acreditado, así como alertas, reducciones previstas y ahorro neto auditado. Una salida de IA no prueba fraude ni autoriza sanciones.
 
@@ -991,21 +997,23 @@ La aplicación no deberá duplicar capacidades por prestigio ni ignorar segurida
 
 ### 2.19. Medios de comunicación, pluralismo e independencia editorial
 
-Queremos saber quién financia la información y poder acceder a versiones distintas sin instrucciones partidistas. Para ello, proponemos publicar financiación y criterios de publicidad institucional, proteger independencia editorial y facilitar correcciones y reclamaciones. Esto no autoriza a imponer una versión oficial de la verdad.
+Queremos saber quién financia la información y poder acceder a versiones distintas sin instrucciones partidistas. Para ello, proponemos «¿Quién paga a quién?»: una herramienta abierta para seguir el dinero público destinado a medios, desde la administración y la campaña hasta los intermediarios y destinatarios documentados. También proponemos proteger independencia editorial y facilitar correcciones y reclamaciones, sin imponer una versión oficial de la verdad.
 
-En un caso hipotético, dos medios critican de forma diferente una decisión pública. La publicidad institucional se reparte con criterios publicados, no según cuál elogie al Gobierno. Si hay un dato incorrecto, existe una vía de corrección sin censurar la opinión.
+En un caso hipotético, un ayuntamiento contrata mediante una agencia una campaña de prevención de incendios. Se pueden consultar finalidad, criterios, contrato y medios utilizados cuando exista desglose verificable. Si solo se conoce lo cobrado por la agencia, el registro declara que falta el reparto: no atribuye todo el importe a un periódico ni deduce su línea editorial.
 
 Audiencias necesitan información; periodistas, autonomía; medios, financiación viable; anunciantes, reglas claras. La crítica y la discrepancia deben protegerse sin justificar financiación oculta ni trato de favor.
 
-Para saber si funciona, proponemos comprobar transparencia, reparto justificado de fondos, correcciones y acceso a voces distintas. Un medio transparente puede seguir teniendo una línea editorial.
+Para saber si funciona, proponemos comprobar cobertura del gasto, desglose hasta destinatarios, retrasos de publicación, reparto justificado y reclamaciones. Publicar pagos no demuestra independencia editorial ni permite inferir autocensura; un medio transparente puede seguir teniendo una línea editorial.
 
 #### Plan de actuación
 
-En el primer año, en 5 entidades públicas anunciantes, proponemos publicar criterios, adjudicatarios e importes del 100 % de su publicidad institucional no reservada y habilitar trazabilidad de reclamaciones.
+En el primer año, en 5 entidades públicas anunciantes, proponemos publicar criterios, adjudicatarios e importes del 100 % de su publicidad institucional no reservada y habilitar trazabilidad de reclamaciones. Cada registro distinguirá administración, campaña, contrato, intermediario y destinatario final documentado, presupuesto, adjudicación y pagos. La ausencia de desglose se publicará como carencia, no como recorrido completo.
 
 En cuatro años, el objetivo es extender a 20 entidades y mantener publicación completa, con respuesta motivada al 90 % de las reclamaciones dentro de 60 días.
 
-La ejecución correspondería a entidades anunciantes y órganos independientes de control; el calendario previsto incluye inventario y reglas en M1–M3; registro reutilizable y canales de reclamación en M4–M6; revisión trimestral desde M7. Evaluar nombramientos y financiación con criterios profesionales y pluralismo.
+La ejecución correspondería a entidades anunciantes y órganos independientes de control; el calendario previsto incluye inventario y reglas en M1–M3; registro reutilizable y canales de reclamación en M4–M6; revisión trimestral desde M7. Evaluar nombramientos y financiación con criterios profesionales y pluralismo. OpenSpain puede preparar un prototipo con datos públicos y solicitar desgloses, no obligar a entregarlos ni certificar ingresos privados; las 5 y 20 entidades son metas propuestas, no adhesiones confirmadas.
+
+El primer entregable de «¿Quién paga a quién?» sería seleccionar 1 entidad y 1 ejercicio con criterio publicado, inventariar fuentes y revisar hasta 10 expedientes de publicidad institucional, o todos si hay menos. Preparar un registro descargable y una vista administración → campaña → agencia → medio con enlaces verificables, importes y huecos explícitos. La aceptación exigirá revisión por una persona distinta de quien extrae los datos y conciliación con el gasto ejecutado publicado, o explicación de por qué no puede conciliarse. Podrá sustituir el caso de contratación del frente de integridad si se prioriza y hay recursos; no añade un cuarto frente ni da por activado todo el eje.
 
 #### La propuesta en detalle
 
@@ -1016,14 +1024,22 @@ Publicar la financiación y los criterios de reparto permite detectar tratos des
 Para abordar estos problemas, proponemos las siguientes medidas:
 
 - Reforzar procedimientos transparentes y garantías de independencia en nombramientos y dirección de medios públicos, con criterios profesionales y control parlamentario plural.
+- Preparar fichas comparables de RTVE y medios públicos autonómicos: normativa, titularidad, requisitos profesionales, candidaturas legalmente publicables, órgano que propone y vota, motivación del nombramiento o cese, mandato, incompatibilidades y renovaciones pendientes. Distinguir reglas vigentes, práctica documentada y propuestas de reforma, sin puntuar afinidad editorial.
 - Proteger la autonomía editorial frente a instrucciones partidistas y conflictos de interés, con mecanismos de denuncia y revisión independientes.
 - Publicar criterios y adjudicaciones de publicidad institucional, evitando premiar o castigar coberturas favorables o críticas.
+- Hacer consultable el recorrido de cada campaña: administración y órgano responsable, finalidad, público destinatario, fechas, expediente, procedimiento, presupuesto, adjudicatario, agencia intermediaria, medio y grupo propietario cuando estén documentados, modificaciones y pagos. Mantener identificadores, fuente y fecha de consulta para evitar duplicar importes.
+- Separar publicidad institucional, suscripciones, subvenciones, patrocinios de actos y otros contratos con medios. Distinguir gasto previsto, adjudicado y pagado y no sumar el contrato de una agencia con su distribución como si fueran dos gastos públicos distintos.
+- Publicar antes del reparto criterios justificables de audiencia, territorio, público destinatario, accesibilidad y coste; explicar excepciones y permitir revisión. Comparar distribución y concentración entre años y cambios de gobierno con periodos, volumen y tipos de campaña comparables, sin deducir favoritismo solo por una variación.
+- Publicar datos reutilizables, código abierto y metodología reproducible del prototipo, con registro de cobertura, transformaciones y correcciones. Reutilizar portales y herramientas existentes cuando cubran la necesidad; permitir a periodistas y ciudadanía consultar, descargar y señalar errores sin exigir afiliación.
 - Facilitar transparencia sobre propiedad, financiación pública y contenido patrocinado, con obligaciones proporcionadas y respeto a la confidencialidad de fuentes periodísticas.
+- Calcular la proporción de financiación pública únicamente cuando numerador y denominador sean verificables y correspondan a la misma entidad, periodo y criterio contable. Sin ingresos comparables, mostrar importes conocidos y límites de cobertura, no un porcentaje de dependencia ni una puntuación de independencia.
 - Favorecer rectificaciones, trazabilidad de correcciones y mecanismos de reclamación que no permitan al Gobierno imponer una versión oficial de los hechos.
 - Reforzar alfabetización mediática y acceso a información pública para que la ciudadanía pueda contrastar fuentes.
 - Evaluar concentración y barreras que limiten pluralismo, sin exigir que todos los medios compartan una orientación política ni censurar críticas.
 
-Compararemos el gasto de publicidad institucional cuyo recorrido puede comprobarse con todo el gasto ejecutado, utilizando presupuestos y adjudicaciones. Revisaremos la integridad del registro, las fechas de publicación, las reservas legales y los plazos de respuesta a reclamaciones.
+Compararemos el gasto de publicidad institucional cuyo recorrido puede comprobarse con todo el gasto ejecutado del mismo ámbito y ejercicio, utilizando presupuestos, adjudicaciones y pagos documentados. Publicaremos por separado cobertura de contratación y porcentaje de gasto con destinatario final verificable, retraso entre publicación oficial e incorporación al registro, campos ausentes, reservas legales y plazos de respuesta a reclamaciones. Si falta un total comparable, declararemos que no puede calcularse cobertura; un registro parcial no se presentará como todo el gasto.
+
+La vista enlazará documentos, no rumores ni inferencias sobre contenidos. Cuando un contrato solo identifique una agencia, el destinatario final quedará pendiente; el importe no se asignará a un medio sin evidencia. La financiación de un grupo no se trasladará automáticamente a cada cabecera. Revisaremos cambios de propiedad y denominaciones con fechas, identificadores y un cauce de corrección. Obtener ingresos públicos no prueba autocensura, compra de cobertura o corrupción.
 
 Seguiremos transparencia de nombramientos y financiación, distribución conforme a criterios publicados, reclamaciones resueltas, correcciones y concentración del mercado. No puntuaremos afinidad política o neutralidad mediante listas partidistas de medios «buenos» y «malos», ni premiaremos coberturas favorables o crearemos un listado oficial de medios aceptables.
 
@@ -1031,9 +1047,9 @@ Despolitizar no significa prohibir opiniones políticas ni dar al Gobierno el po
 
 El Estado, las comunidades autónomas y los organismos competentes intervendrían según la titularidad de los medios, la publicidad institucional y la normativa aplicable, dentro del marco europeo.
 
-El diagnóstico deberá revisar nombramientos, propiedad, publicidad institucional y mecanismos de reclamación. Antes de aprobar medidas, habrá que comprobar el alcance, la actualidad y las limitaciones de estas fuentes.
+El diagnóstico deberá revisar nombramientos, propiedad, publicidad institucional y mecanismos de reclamación. Inventariar informes de publicidad, portales de transparencia, Plataforma de Contratación del Sector Público y plataformas autonómicas, resoluciones de ayudas y documentos de los medios públicos; comprobar qué publican realmente y solicitar información faltante por los cauces competentes. El gráfico estatal de 2024 describe gasto por órgano anunciante, no ingresos de cada medio ni un reparto completo entre cabeceras. Antes de aprobar medidas, habrá que comprobar el alcance, la actualidad y las limitaciones de estas fuentes.
 
-El coste y su financiación están pendientes de estimación. El cálculo deberá incluir transparencia, control y alfabetización mediática. No hay presupuesto ni financiación aprobados en este borrador.
+El coste y su financiación están pendientes de estimación. El cálculo deberá incluir extracción y revisión de datos, conciliación, desarrollo y alojamiento, mantenimiento, accesibilidad, revisión jurídica, correcciones, control y alfabetización mediática. No hay presupuesto ni financiación aprobados en este borrador.
 
 La aplicación no deberá convertir despolitización en censura ni en clasificación oficial de medios aceptables.
 
@@ -1288,6 +1304,7 @@ Para abordar estos problemas, proponemos las siguientes medidas:
 - Medir mejoras atribuibles de servicio, calidad, accesibilidad y eficiencia, ajustadas por recursos y contexto. No premiar exclusivamente recortes, multas, recaudación o denegaciones.
 - Impedir que una persona fije, evalúe o autorice por sí sola su propio incentivo; prever revisión y recuperación de pagos indebidos cuando exista base legal.
 - Analizar antes del nombramiento actividades, patrimonio e intereses relevantes, incluyendo incentivos diferidos u opciones que puedan depender de empresas afectadas por sus decisiones.
+- Conectar declaraciones legalmente publicables con cargos, competencias, nombramientos y decisiones documentadas en el mapa del eje 1; registrar abstenciones y resoluciones de compatibilidad cuando sean accesibles. No tratar una declaración como conflicto acreditado ni publicar relaciones familiares salvo pertinencia, base legal y revisión; habilitar corrección de identidades y datos.
 - Aplicar el régimen de compatibilidad correspondiente y controles sobre cambios patrimoniales, contratación y actividad posterior al cese. Declarar un interés o abstenerse en un expediente no resuelve por sí solo todas las incompatibilidades.
 - No proponer acciones o pagos de empresas reguladas, adjudicatarias o beneficiarias como recompensa personal por decisiones públicas que las favorezcan, aunque se alegue impacto positivo.
 - Evaluar por separado incentivos en empresas públicas, incluyendo sus objetivos de servicio y riesgos; no conceder participaciones de patrimonio público sin el encaje jurídico y la valoración que correspondan.
@@ -1729,6 +1746,7 @@ Para abordar estos problemas, proponemos las siguientes medidas:
 - Reforzar trazabilidad de reparto, conflictos de interés, contratación tecnológica y decisiones de gestión mediante controles independientes y los cauces legales. Proteger a informantes, secreto de actuaciones y datos; distinguir denuncia, investigación y resolución firme.
 - Revisar el sistema de elección del Consejo General del Poder Judicial (CGPJ) y comparar el modelo parlamentario vigente con alternativas de elección de los 12 vocales del turno judicial por jueces y magistrados y otros diseños jurídicamente viables. Explicar ventajas, riesgos de influencia política y corporativa, pluralidad y cauce de reforma, sin confundir gobierno judicial con función de juzgar [F35] [F39].
 - Reforzar criterios públicos de mérito, comparecencias, motivación de nombramientos, declaraciones de intereses y revisión por los cauces competentes; publicar procedimientos y retrasos de renovación. Evaluar garantías de independencia y funcionamiento, no si las sentencias benefician a un partido ni cuotas de condenas o absoluciones.
+- Preparar un mapa de mecanismos de independencia institucional para CGPJ y Fiscalía: base normativa, funciones, quién propone y nombra, votaciones cuando procedan, requisitos, mandatos, incompatibilidades, ceses y renovaciones. Distinguir competencias y garantías de cada órgano, norma vigente, práctica documentada y alternativas; cualquier comparación con estándares europeos incluirá documento, fecha, ámbito y límites, sin etiquetar jueces o fiscales por una afinidad política supuesta.
 - Separar quejas por funcionamiento, denuncias de posibles delitos y recursos contra resoluciones. Publicar cauces y estado agregado cuando proceda; una queja no sustituye el recurso ni suspende su plazo.
 - Evaluar mediación y otras vías de resolución solo en materias admisibles, con información y garantías, sin coacción ni situaciones de violencia o desigualdad que las hagan improcedentes. No convertirlas en obstáculos adicionales al acceso judicial.
 
@@ -1916,6 +1934,8 @@ Contrastar cada eje con su meta M48, publicar evaluación independiente y propon
 
 OpenSpain puede redactar fichas, reunir evidencia y propuestas, solicitar reuniones y publicar apoyos y respuestas; no puede ordenar gasto público, licencias, decisiones judiciales o reformas legales.
 
+También puede preparar herramientas abiertas para que ciudadanía, periodistas y organizaciones recorran problema → datos → evidencia → propuesta → seguimiento. «¿Quién paga a quién?» y los mapas de contratos, cargos y mecanismos institucionales son proyectos propuestos, no plataformas ya disponibles ni nuevos frentes activos. Compartirán fuentes fechadas, metodología reproducible, código abierto, datos legalmente reutilizables y revisión de errores. Se reutilizarán herramientas existentes y se priorizará un entregable mantenible antes que un grafo nacional sin cobertura fiable; no se afirma colaboración ni respaldo de ninguna persona u organización.
+
 **M3:** disponer de la cartera completa y 3 fichas desarrolladas, con carencias declaradas. **M6:** remitir las fichas de los frentes activados a las instituciones competentes y publicar constancia y estado de respuesta. **M12:** publicar el estado de todos los ejes, distinguiendo pendientes de activos y resultados de compromisos, sin llamar «aprobado» a un apoyo verbal. Repetir el balance cada año hasta M48.
 
 El seguimiento distinguirá propuesta, remitida, acuerdo formal, financiada, en ejecución, resultado evaluado y cerrada. Publicar apoyos políticos requerirá consentimiento y evidencia; la falta de respuesta se declarará como tal.
@@ -1949,6 +1969,8 @@ Los siguientes hitos son propuestos, no realizados. D7, D14 y D30 indican días 
 | H04 · Balance y siguiente ciclo | D90 | Publicar entregas aceptadas, carencias, gasto y decisión por frente: probar con acuerdo, corregir, esperar o cerrar. Definir el siguiente hito con fecha y criterio antes de abrir otro. | Coordinación y revisor independiente |
 
 La contratación del primer ciclo es una prueba de trazabilidad con información pública, no una acusación de fraude. El trabajo de vivienda no anuncia una obra ni un desalojo; la simplificación no autoriza a saltarse requisitos legales.
+
+Si H00 prioriza publicidad institucional dentro del frente de integridad, C01 y C02 se aplicarán a «¿Quién paga a quién?» con 1 entidad, 1 ejercicio y hasta 10 expedientes, o todos si hay menos. Se conservarán los plazos y la revisión independiente, y el entregable incluirá fuentes, conceptos separados, intermediarios, destinatarios acreditados y carencias. Es una sustitución motivada del caso de contratación, no un proyecto adicional simultáneo; el registro parcial no cumple por sí solo la meta anual del eje 19.
 
 ### Cómo convertir cualquier eje en un siguiente hito
 
@@ -2055,7 +2077,7 @@ Participar o votar dentro de la iniciativa no sustituye las competencias de las 
 | 16. Fiscalidad sencilla y proporcionada | Evaluar menores cargas e IVA con efectos verificables, financiación explícita y reglas previsibles. |
 | 17. Energía y transporte con menor dependencia | Reducir consumo de petróleo y gas natural mediante eficiencia, electrificación y alternativas fiables, y desarrollar aviación de bajas emisiones con viabilidad verificable. |
 | 18. Una economía espacial útil | Participar en ciencia e industria espacial mediante cooperación, contratación competitiva y aplicaciones que mejoren la vida cotidiana. |
-| 19. Medios libres e independientes | Proteger autonomía editorial, pluralismo y transparencia de financiación sin control partidista ni censura. |
+| 19. Medios libres e independientes | Impulsar «¿Quién paga a quién?» para seguir pagos públicos a medios y proteger autonomía editorial, pluralismo y nombramientos transparentes, sin censura ni clasificaciones partidistas. |
 | 20. Unir sin uniformar | Cooperar entre personas con ideas distintas, evitar el «y tú más», reconocer aportaciones y cumplir acuerdos sin silenciar crítica, memoria o responsabilidades. |
 | 21. Jefatura del Estado al servicio de la ciudadanía | Evaluar utilidad, costes y controles de la monarquía y de alternativas concretas mediante debate informado y los cauces constitucionales. |
 | 22. Democracia informada e igualdad política | Debatir cómo aprovechar conocimiento experto y mejorar decisiones sin convertir estudios o profesión en privilegios electorales. |
@@ -2181,6 +2203,7 @@ Revisión documental y ampliación de gráficos: 4 de octubre de 2026; incorpora
 |---|---|---|---|
 | Vivienda difícil de encontrar y pagar | Ampliar el parque público y protegido de alquiler, rehabilitar y habilitar suelo residencial donde haya demanda, servicios financiados y garantías; agilizar licencias sin eliminar controles. | Elegir un municipio, contrastar demanda, suelo y vivienda recuperable y comparar al menos 2 alternativas con coste, financiación y responsable. Reclasificar suelo no equivale a entregar viviendas. | 2 |
 | Corrupción y fondos públicos difíciles de seguir | Hacer trazables financiación, conflictos de interés y contratos desde presupuesto hasta entrega; reforzar controles independientes y exigir reparación cuando proceda. | Revisar 10 contratos de una entidad con información pública, registrar fases y carencias y proponer un seguimiento verificable. Una alerta o denuncia no es una condena ni un ahorro demostrado. | 1 y 12 |
+| Dinero público a medios difícil de seguir | Impulsar «¿Quién paga a quién?»: enlazar administración, campaña, agencia y destinatarios acreditados, separando publicidad, ayudas, suscripciones y patrocinios; proteger pluralismo e independencia editorial. | Seleccionar 1 entidad y 1 ejercicio y revisar hasta 10 expedientes, o todos si hay menos, con datos descargables, revisión y huecos explícitos. Puede sustituir el caso del frente de integridad; no prueba autocensura ni activa un cuarto frente. | 1, 12 y 19 |
 | Justicia lenta y defensa difícil de conseguir | Resolver cuellos de botella, eliminar trámites repetidos y facilitar seguimiento y asistencia jurídica, con independencia y derechos de defensa y víctimas. | Mapear 1 procedimiento, localizar una demora de gestión y comparar una mejora con recursos y revisión jurídica. No confundir demora con corrupción ni prometer un plazo universal de juicio. | 31 |
 | Burocracia que frena actividad y servicios | Reutilizar datos donde sea legal, clarificar responsables y eliminar requisitos redundantes hasta poder operar, no solo constituir una empresa. | Elegir 1 trámite y proponer eliminar o reutilizar 1 petición documental, con base legal y medida de tiempo y calidad. | 6, 14 y 15 |
 | Talento y trabajo que no se traducen en mejores ingresos | Mejorar capacidades y productividad, conectar empresas con clientes e inversión y revisar cargas con financiación explícita y protección efectiva. | Elegir una cohorte, medir ingreso neto y coste total y diseñar una prueba de formación o acceso a clientes; no contar reuniones o inversión anunciada como ventas o renta conseguida. | 4, 9, 11, 15 y 16 |

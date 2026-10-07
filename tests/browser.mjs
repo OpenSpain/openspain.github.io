@@ -117,9 +117,11 @@ try {
   }
   assert.equal(await page.locator('.coverage-row').count(), 4);
   for (const headline of await page.locator('.program-card h3').allTextContents()) {
-    assert.ok(headline.endsWith('.'), headline);
+    assert.match(headline, /[.?]$/);
   }
-  assert.equal(await page.locator('#priorities-content tbody tr').count(), 7);
+  assert.equal(await page.locator('#priorities-content tbody tr').count(), 8);
+  assert.match(await page.locator('#eje-19 h3').textContent(), /¿Quién paga a quién\?/);
+  assert.match(await page.locator('#priorities-content').textContent(), /Dinero público a medios difícil de seguir/);
   assert.equal(await page.locator('#priorities-content').isVisible(), true);
   assert.match(await page.locator('#priorities-content').textContent(), /Ampliar el parque público y protegido/);
   assert.match(await page.locator('#priorities-content').textContent(), /habilitar suelo residencial/);
