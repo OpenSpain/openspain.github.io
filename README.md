@@ -4,6 +4,8 @@ Web informativa de un programa ciudadano independiente. HTML, CSS y JavaScript n
 
 Identidad editorial azul noche, azul eléctrico, marfil y acentos dorados, compartida por la web y el PDF. Los textos de lectura y las tarjetas priorizan legibilidad también en móvil; el gráfico se desplaza horizontalmente en pantallas pequeñas para conservar etiquetas legibles.
 
+El lema de portada es «Abrir España. Ampliar oportunidades.», compartido por la web y el programa PDF. «Open» conecta apertura a personas, ideas y propuestas con menos barreras para vivir y crear y transparencia sobre decisiones y dinero público. Al cambiarlo, actualiza también título y descripción de la web y regenera el PDF.
+
 La ilustración de portada anima el punto dorado alrededor de su órbita con CSS, sin mover los textos. Incluye un botón para pausar y reanudar; permanece estática sin JavaScript o con la preferencia de movimiento reducido, y no se imprime.
 
 ## Abrir la web

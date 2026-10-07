@@ -24,6 +24,11 @@ try {
   const response = await page.goto(baseURL);
   assert.equal(response.status(), 200);
   await page.waitForSelector('.program-card');
+  const slogan = 'Abrir España. Ampliar oportunidades.';
+  assert.equal((await page.locator('#hero-title').innerText()).replace(/\s+/g, ' '), slogan);
+  assert.equal(await page.title(), `OpenSpain — ${slogan}`);
+  assert.match(await page.locator('.hero-description').textContent(), /Menos barreras para vivir y crear/);
+  assert.match(await page.locator('.hero-description').textContent(), /cómo se utiliza el dinero público/);
   const satelliteStyle = property => page.locator('.orbit-one').evaluate((node, property) =>
     getComputedStyle(node, '::after')[property], property);
   assert.equal(await satelliteStyle('animationName'), 'satellite-orbit');
@@ -256,6 +261,7 @@ try {
   await reportPage.goto(`${baseURL}/informe.html`);
   await reportPage.waitForFunction(() => Boolean(document.documentElement.dataset.reportReady));
   assert.equal(await reportPage.getAttribute('html', 'data-report-ready'), 'true');
+  assert.equal((await reportPage.locator('.cover h1').innerText()).replace(/\s+/g, ' '), slogan);
   assert.match(await reportPage.locator('#report-body').textContent(), /Donaciones y transparencia/);
   assert.equal(await reportPage.locator('#report-body h4').filter({ hasText: /^Plan de actuación$/ }).count(), axisMetadata.length);
   assert.equal(await reportPage.locator('#report-body h4').filter({ hasText: new RegExp(`^${detailHeading}$`) }).count(), axisMetadata.length);
