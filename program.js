@@ -59,10 +59,39 @@ export function inlineParts(text) {
   });
 }
 
+function getIntroductionSection(markdown, number) {
+  const chapter = getChapter(markdown.replaceAll('\r\n', '\n'), 1);
+  const headings = [...chapter.matchAll(/^### 1\.(\d+)\. .+$/gm)];
+  const index = headings.findIndex(heading => Number(heading[1]) === number);
+  if (index === -1) throw new Error(number === 1
+    ? 'Falta el decálogo de exigencias ciudadanas.' : `Falta el apartado 1.${number} del programa.`);
+  return chapter.slice(headings[index].index + headings[index][0].length,
+    headings[index + 1]?.index ?? chapter.length).trim();
+}
+
 export function getCitizenDemands(markdown) {
-  const demands = getChapter(markdown.replaceAll('\r\n', '\n'), 1).split(/^### 1\.1\. .+\n/m)[1]?.trim();
-  if (!demands) throw new Error('Falta el decálogo de exigencias ciudadanas.');
-  return demands;
+  return getIntroductionSection(markdown, 1);
+}
+
+export function getInitiativeActions(markdown) {
+  return getIntroductionSection(markdown, 2);
+}
+
+function numberedMessages(section, count) {
+  const messages = [...section.matchAll(/^- \*\*(\d+)\. (.+)\*\* (.+)$/gm)]
+    .map(match => ({ id: Number(match[1]), title: match[2], description: match[3] }));
+  if (messages.length !== count || messages.some((message, index) => message.id !== index + 1)) {
+    throw new Error(`El apartado debe contener ${count} mensajes numerados.`);
+  }
+  return messages;
+}
+
+export function getInitiativeActionItems(markdown) {
+  return numberedMessages(getInitiativeActions(markdown), 15);
+}
+
+export function getChangeVideoMessages(markdown) {
+  return numberedMessages(getIntroductionSection(markdown, 3), 6);
 }
 
 export function parseProgram(markdown) {

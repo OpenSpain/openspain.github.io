@@ -58,6 +58,27 @@ h1 > span, h2 > span { font-family: var(--serif); font-weight: 400; font-style: 
 .text-link { font-size: 14px; font-weight: 600; }
 .text-link > span { margin-left: 8px; }
 .text-link:hover { text-decoration: underline; text-underline-offset: 4px; }
+.brand > img { display: block; width: 180px; height: auto; }
+nav a[aria-current="page"] { color: var(--blue); text-decoration: underline; text-underline-offset: 6px; }
+.page-intro { padding-bottom: 35px; }
+.page-intro h1 > span { color: var(--blue); }
+.page-lead { max-width: 760px; font-size: 18px; line-height: 1.8; color: var(--muted); }
+.page-intro + .section { padding-top: 35px; }
+.change-previews { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+.change-preview { display: flex; flex-direction: column; align-items: flex-start; gap: 15px; padding: 28px; border: 1px solid var(--line); border-radius: 9px; background: var(--surface); }
+.change-preview h3 { font-size: 23px; line-height: 1.35; margin: 0; }
+.change-preview > .text-link { margin-top: auto; color: var(--blue); }
+.change-preview:hover { border-color: var(--blue); }
+.landscape-video { margin: 28px 0 0; }
+.landscape-video video { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; background: var(--navy); border-radius: 12px; }
+.landscape-video figcaption { font-size: 14px; line-height: 1.8; color: var(--muted); margin: 16px 0; }
+.landscape-video .video-transcript { max-width: 900px; }
+.actions-content > .measure-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; padding: 0; list-style: none; }
+.actions-content li { scroll-margin-top: 155px; border: 1px solid var(--line); border-radius: 9px; background: var(--surface); padding: 28px; margin: 0; }
+.actions-content li > strong { display: block; font-size: 22px; line-height: 1.4; margin-bottom: 15px; }
+.actions-content a, .video-transcript a { color: var(--blue); text-decoration: underline; text-underline-offset: 3px; }
+.content-error { padding-block: 0; }
+video:focus-visible { outline: 3px solid var(--blue); outline-offset: 5px; }
 .hero-footnote { display: flex; align-items: center; gap: 9px; margin-top: 30px; font-size: 13px; color: var(--muted); }
 .tiny-orbit { font-size: 20px; color: var(--blue); }
 .hero-art { height: 510px; position: relative; background: radial-gradient(ellipse at 50% 45%, #234486, var(--navy) 72%); border-radius: 160px 160px 12px 12px; isolation: isolate; box-shadow: 0 26px 65px #0d1b341c; }
@@ -321,6 +342,7 @@ form .button { align-self: flex-start; }
   .method-grid { gap: 20px; }
 }
 @media (max-width: 800px) {
+  .change-previews { grid-template-columns: repeat(2, 1fr); }
   .founder-section { gap: 25px; padding-block: 40px; }
   .founder-identity { gap: 15px; }
   .founder-monogram { width: 80px; height: 100px; font-size: 43px; }
@@ -362,6 +384,10 @@ form .button { align-self: flex-start; }
   .participate { padding: 35px; grid-template-columns: 1.5fr 1fr; }
 }
 @media (max-width: 560px) {
+  .change-previews, .actions-content > .measure-list { grid-template-columns: 1fr; }
+  .page-lead { font-size: 16px; }
+  .change-preview, .actions-content li { padding: 22px; }
+  .manifesto-bottom { flex-wrap: wrap; gap: 20px; }
   .donation-principles { grid-template-columns: 1fr; gap: 20px; }
   .donor-register { padding: 20px 16px; }
   .country-flag { width: 24px; height: 16px; margin-left: 9px; }
@@ -464,7 +490,7 @@ form .button { align-self: flex-start; }
   .orbit-toggle { display: none; }
   *, *::before, *::after { transition: none !important; animation: none !important; }
 }
-@media (max-width: 800px) {
+@media (max-width: 1100px) {
   html { scroll-padding-top: 150px; }
   .site-header { height: auto; flex-wrap: wrap; gap: 12px; padding-block: 14px; }
   .site-header nav { width: 100%; min-width: 0; overflow-x: auto; gap: 22px; padding: 4px 2px 8px; white-space: nowrap; scrollbar-width: thin; }

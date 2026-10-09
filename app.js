@@ -1,19 +1,12 @@
-import { categories, parseProgram, filterAxes, ipc, months, getChapter, getCitizenDemands, inlineParts } from './program.js?v=20261009-video';
-import { createPolicyEvidence, observedCharts } from './charts.js?v=20261009-video';
+import { categories, parseProgram, filterAxes, ipc, months, getChapter, getCitizenDemands } from './program.js?v=20261009-pages';
+import { createPolicyEvidence, observedCharts } from './charts.js?v=20261009-pages';
+import { element, appendMarkdown, openDialog } from './ui.js?v=20261009-pages';
 
 const $ = selector => document.querySelector(selector);
 let axes = [];
 let currentCategory = 'all';
 let chartYear = '2026';
-let lastDialogTrigger;
 const number = value => value.toLocaleString('es-ES', { maximumFractionDigits: 2 });
-
-function element(tag, className, text) {
-  const node = document.createElement(tag);
-  if (className) node.className = className;
-  if (text !== undefined) node.textContent = text;
-  return node;
-}
 
 function renderFilters() {
   $('#filters').replaceChildren(...categories.map(category => {
@@ -64,99 +57,6 @@ function revealLinkedAxis() {
   renderFilters();
   renderCards();
   $(`#eje-${axis.id}`).scrollIntoView({ behavior: 'instant', block: 'start' });
-}
-
-function appendInline(container, text) {
-  for (const part of inlineParts(text)) {
-    if (part.type === 'text') container.append(document.createTextNode(part.text));
-    else {
-      const node = element(part.type === 'link' ? 'a' : 'strong', '', part.text);
-      if (part.type === 'link') {
-        node.href = part.href;
-        if (!part.href.startsWith('#')) {
-          node.target = '_blank';
-          node.rel = 'noopener noreferrer';
-        }
-      }
-      container.append(node);
-    }
-  }
-}
-
-function appendMarkdown(container, markdown) {
-  let list;
-  let table;
-  let tableBody;
-  for (const line of markdown.split('\n')) {
-    if (!line.trim()) {
-      list = undefined;
-      table = undefined;
-      continue;
-    }
-    if (line.startsWith('#### ')) {
-      container.append(element('h4', 'technical-heading', line.slice(5)));
-      list = undefined;
-      table = undefined;
-      continue;
-    }
-    if (line.startsWith('### ')) {
-      container.append(element('h3', 'chapter-heading', line.slice(4)));
-      list = undefined;
-      table = undefined;
-      continue;
-    }
-    if (line.startsWith('|')) {
-      const cells = line.split('|').slice(1, -1).map(cell => cell.trim());
-      if (cells.every(cell => /^:?-+:?$/.test(cell))) continue;
-      if (!table) {
-        const wrapper = element('div', 'table-scroll');
-        wrapper.tabIndex = 0;
-        table = element('table', 'data-table measure-table');
-        const head = element('thead');
-        const row = element('tr');
-        cells.forEach(cell => {
-          const th = element('th');
-          th.scope = 'col';
-          appendInline(th, cell);
-          row.append(th);
-        });
-        head.append(row);
-        tableBody = element('tbody');
-        table.append(head, tableBody);
-        wrapper.append(table);
-        container.append(wrapper);
-      } else {
-        const row = element('tr');
-        cells.forEach(cell => {
-          const td = element('td');
-          appendInline(td, cell);
-          row.append(td);
-        });
-        tableBody.append(row);
-      }
-      continue;
-    }
-    if (line.startsWith('- ')) {
-      if (!list) {
-        list = element('ul', 'measure-list');
-        container.append(list);
-      }
-      const item = element('li');
-      appendInline(item, line.slice(2));
-      list.append(item);
-    } else {
-      list = undefined;
-      const paragraph = element('p', 'measure-paragraph');
-      appendInline(paragraph, line);
-      container.append(paragraph);
-    }
-  }
-}
-
-function openDialog(dialog, trigger) {
-  lastDialogTrigger = trigger;
-  dialog.showModal();
-  document.body.classList.add('dialog-open');
 }
 
 function openMeasure(axis, trigger) {
@@ -272,7 +172,7 @@ async function loadProgram() {
     renderFilters();
     renderCards();
     renderCoverage();
-    for (const [selector, chapter] of [['#method-content', 4], ['#plan-content', 5], ['#sources-content', 8], ['#priorities-content', 9]]) {
+    for (const [selector, chapter] of [['#sources-content', 8]]) {
       const container = $(selector);
       container.replaceChildren();
       appendMarkdown(container, getChapter(markdown, chapter));
@@ -300,26 +200,6 @@ async function loadProgram() {
   }
 }
 
-const orbitToggle = $('#orbit-toggle');
-const sympathizerVideo = $('#sympathizer-video');
-if (sympathizerVideo) {
-  const showVideoError = () => {
-    console.error('No se pudo cargar o reproducir el vídeo de simpatizantes.', sympathizerVideo.error);
-    $('#sympathizer-video-error').hidden = false;
-  };
-  sympathizerVideo.addEventListener('error', showVideoError);
-  sympathizerVideo.querySelector('source').addEventListener('error', showVideoError);
-}
-const heroArt = $('.hero-art');
-heroArt.dataset.orbitMotion = 'running';
-orbitToggle.textContent = 'Pausar animación';
-orbitToggle.hidden = false;
-orbitToggle.addEventListener('click', () => {
-  const paused = heroArt.dataset.orbitMotion === 'running';
-  heroArt.dataset.orbitMotion = paused ? 'paused' : 'running';
-  orbitToggle.textContent = paused ? 'Reanudar animación' : 'Pausar animación';
-});
-
 $('#search').addEventListener('input', renderCards);
 window.addEventListener('hashchange', revealLinkedAxis);
 $('#retry-program').addEventListener('click', loadProgram);
@@ -346,39 +226,5 @@ $('#toggle-data').addEventListener('click', () => {
   $('#toggle-data').setAttribute('aria-expanded', String(expanded));
   $('#toggle-data').textContent = expanded ? 'Ocultar tabla −' : 'Ver tabla de datos +';
 });
-document.querySelectorAll('dialog').forEach(dialog => {
-  dialog.querySelector('.close-dialog').addEventListener('click', () => dialog.close());
-  dialog.addEventListener('click', event => {
-    if (event.target !== dialog) return;
-    const rect = dialog.getBoundingClientRect();
-    if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom) dialog.close();
-  });
-  dialog.addEventListener('close', () => {
-    document.body.classList.remove('dialog-open');
-    lastDialogTrigger?.focus();
-  });
-});
-$('#open-contribution').addEventListener('click', event => openDialog($('#contribution-dialog'), event.currentTarget));
-$('#contribution-form').addEventListener('submit', event => {
-  event.preventDefault();
-  const form = event.currentTarget;
-  if (!form.reportValidity()) return;
-  const fields = new FormData(form);
-  if (['title', 'problem', 'solution', 'evaluation'].some(key => !String(fields.get(key)).trim())) {
-    $('#download-status').textContent = 'Completa todos los campos con contenido, no solo espacios.';
-    return;
-  }
-  const text = `# ${String(fields.get('title')).trim()}\n\n> Aportación ciudadana. No enviada ni aprobada por OpenSpain.\n\n## Problema\n\n${String(fields.get('problem')).trim()}\n\n## Propuesta\n\n${String(fields.get('solution')).trim()}\n\n## Evaluación\n\n${String(fields.get('evaluation')).trim()}\n`;
-  const url = URL.createObjectURL(new Blob([text], { type: 'text/markdown;charset=utf-8' }));
-  const link = element('a');
-  link.href = url;
-  link.download = 'mi-propuesta-openspain.md';
-  document.body.append(link);
-  link.click();
-  link.remove();
-  setTimeout(() => URL.revokeObjectURL(url), 1000);
-  $('#download-status').textContent = 'Descarga preparada. Tu propuesta no se ha enviado a ningún servidor.';
-});
-
 renderChart();
 loadProgram();

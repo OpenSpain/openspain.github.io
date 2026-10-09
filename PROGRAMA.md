@@ -34,6 +34,41 @@ Cada exigencia se desarrolla en los ejes enlazados y deberá concretarse con res
 
 Estas propuestas recogen ideas de la transcripción de una entrevista a Miriam González sobre España Mejor facilitada por una persona participante: ética pública, asesores, mérito, conflictos de interés, encuentros ciudadanos, debate, vivienda y oportunidades. No se presentan como citas literales, como reproducción de sus 99 principios ni como colaboración o respaldo de esa organización. Las cifras, acusaciones y comparaciones de la entrevista no se incorporan como hechos verificados.
 
+### 1.2. Cambios que impulsamos
+
+Estas quince acciones resumen el programa, no son reformas aprobadas ni resultados obtenidos. Distinguimos lo que proponemos impulsar de las alternativas institucionales que todavía estamos comparando. OpenSpain puede investigar, formular, reunir apoyos y solicitar acuerdos; las instituciones competentes deben autorizar y ejecutar cada cambio.
+
+- **1. Acabar con ventajas indefinidas injustificadas tras dejar un cargo.** Inventariar indemnizaciones, oficinas, personal, transporte y otros beneficios; proponer su eliminación o limitación cuando no exista necesidad acreditada. Sin retirar pensiones ordinarias ni protección de seguridad necesaria. No todos estos beneficios son salarios ni vitalicios. Desarrollo: [cargos públicos](#eje-23).
+- **2. Exigir dimisión por mentir deliberadamente al Parlamento.** Acreditar hechos relevantes mediante un procedimiento independiente y con garantías. Rectificar errores no equivale a sancionar opiniones o cambios de criterio; no se plantea pérdida automática del escaño. Desarrollo: [integridad](#eje-1).
+- **3. Prevenir conflictos de interés desde el primer día.** Declaraciones, revisión independiente, instrucciones escritas, abstención efectiva y consecuencias por ocultación deliberada o incumplimiento grave acreditado. Desarrollo: [conflictos de interés](#eje-23).
+- **4. Saber quién asesora, cuánto cobra y para qué.** Publicar funciones, experiencia pertinente, retribución y justificación de cada puesto de confianza, con protección de datos privados. Desarrollo: [asesores y transparencia](#eje-1).
+- **5. Combatir el favoritismo en puestos técnicos y directivos.** Selección transparente y auditorías de adecuación al puesto, sin confundir capacidad con afiliación o títulos ni imponer credenciales para representar a la ciudadanía. Desarrollo: [mérito](#eje-1).
+- **6. Hacer visible el recorrido del dinero público.** Conectar presupuestos, contratos, adjudicatarios, modificaciones y entregas; facilitar control independiente y proteger a quienes denuncian irregularidades. Una alerta no es una condena. Desarrollo: [contratación](#eje-12).
+- **7. Mostrar quién paga a los medios.** Seguir publicidad institucional, patrocinios e intermediarios mediante documentos contrastables, sin deducir afinidad editorial de un pago. Desarrollo: [medios independientes](#eje-19).
+- **8. Eliminar duplicidades administrativas acreditadas.** Compartir servicios, fusionar o suprimir organismos cuando esté justificado, contando costes de transición y garantizando continuidad de la atención. Eliminar una entidad no elimina automáticamente su coste. Desarrollo: [administración](#eje-6).
+- **9. Evitar que las fronteras administrativas compliquen la vida.** Coordinar trámites, sistemas y estándares entre administraciones; no pedir repetidamente documentos que puedan consultarse legalmente. No confundir coordinación con supresión de comunidades autónomas. Desarrollo: [coordinación administrativa](#eje-6).
+- **10. Revisar el Senado y la organización territorial.** Comparar reforma, redistribución de funciones y supresión de niveles, explicando quién asumiría responsabilidades, costes y reformas jurídicas necesarias. Alternativas en evaluación: el programa no elige una abolición general ni promete ahorro por eliminar comunidades autónomas. Desarrollo: [alternativas territoriales](#eje-6).
+- **11. Impulsar reformas constitucionales concretas y justificadas.** Explicar qué artículo cambiaríamos, para resolver qué problema y con qué consecuencias. Separar claridad de reformas de instituciones o competencias, preservando derechos y procedimientos de aprobación. Las alternativas de fondo siguen sujetas a comparación. Desarrollo: [Constitución](#eje-30).
+- **12. Exigir cuentas durante el mandato, no solo en elecciones.** Publicar avances, bloqueos y cambios de compromisos; encuentros abiertos periódicos con representantes y seguimiento de preguntas ciudadanas. Desarrollo: [rendición de cuentas](#eje-22).
+- **13. Ampliar vivienda asequible realmente disponible.** Rehabilitación, nueva oferta y alquiler público o protegido, con colaboración privada cuando aporte valor y garantías para propietarios e inquilinos. No contar anuncios como viviendas entregadas. Desarrollo: [vivienda](#eje-2).
+- **14. Facilitar trabajar, emprender y desarrollar talento.** Eliminar trámites redundantes, mejorar oportunidades de financiación y clientes y reforzar educación práctica, conocimientos básicos e inglés. Sin prometer crédito, riqueza o éxito empresarial. Desarrollo: [emprendimiento](#eje-14) y [educación](#eje-9).
+- **15. Mejorar justicia y servicios públicos sin recortar garantías.** Reducir demoras evitables, publicar tiempos y responsabilidades y evaluar calidad y acceso, no solo expedientes cerrados o ahorro. Desarrollo: [justicia](#eje-31) y [sanidad](#eje-13).
+
+La financiación, el encaje legal, los responsables y las condiciones de cada acción se desarrollan en los ejes enlazados. Este resumen no modifica sus metas ni activa nuevos frentes. La coordinación, la centralización de competencias y la supresión de autonomías son alternativas distintas: ninguna se adopta por utilizar la expresión «menos dependencia».
+
+### 1.3. Qué queremos cambiar en seis mensajes
+
+Guion editorial del vídeo horizontal, vinculado a las acciones anteriores. Resume propuestas, no logros ni decisiones institucionales ya tomadas.
+
+- **1. Menos privilegios injustificados.** Revisar ventajas indefinidas tras el cargo. Sin retirar pensiones ordinarias ni seguridad necesaria.
+- **2. La mentira deliberada tiene consecuencias.** Exigir dimisión cuando se acredite con independencia, pruebas y garantías.
+- **3. Dinero público rastreable.** Seguir contratos y pagos a medios. Una alerta no es una condena.
+- **4. Menos duplicidades y trámites.** Eliminar repeticiones acreditadas sin deteriorar servicios ni derechos.
+- **5. Reformas institucionales con explicación y garantías.** Comparar alternativas sobre Constitución, Senado y organización territorial. No anunciar una abolición general ya decidida.
+- **6. Más vivienda y oportunidades.** Ampliar alquiler asequible y facilitar trabajar, aprender y emprender. Medir entregas, no anuncios.
+
+No basta con anunciar cambios: hay que explicar quién los ejecuta, cuánto cuestan y cómo se comprueban.
+
 ## 2. Mapa de problemas y propuestas
 
 Los problemas siguientes son hipótesis de trabajo y preocupaciones ciudadanas. Su alcance y sus causas deben contrastarse antes de aprobar medidas.

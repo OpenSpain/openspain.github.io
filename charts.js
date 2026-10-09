@@ -1,4 +1,4 @@
-import { ipc } from './program.js?v=20261009-video';
+import { ipc } from './program.js?v=20261009-pages';
 
 const censusURL = 'https://www.ine.es/prensa/censo_2021_jun.pdf';
 const crimeURL = 'https://estadisticasdecriminalidad.ses.mir.es/sec/jaxiPx/Tabla.htm?path=/Datos11//l0/&file=11002.px&type=pcaxis&L=0';

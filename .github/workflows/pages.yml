@@ -26,13 +26,15 @@ jobs:
       - name: Prepare public files
         run: |
           mkdir _site
-          cp .nojekyll index.html styles.css app.js program.js charts.js \
-            favicon.svg bandera.svg openspain-logo.svg openspain-logo.png PROGRAMA.md \
+          cp .nojekyll index.html cambios.html programa.html como.html transparencia.html participa.html \
+            styles.css app.js program.js charts.js site.js ui.js routes.js \
+            favicon.svg bandera.svg openspain-logo.svg openspain-logo.png openspain-instagram.svg openspain-instagram.png PROGRAMA.md \
             informe.html informe.css informe.js \
             OpenSpain-Programa.pdf OpenSpain-Presentacion.pdf _site/
           mkdir _site/video
           cp video/OpenSpain-Hazte-Simpatizante.mp4 video/hazte-simpatizante-portada.jpg \
-            video/hazte-simpatizante-es.vtt _site/video/
+            video/hazte-simpatizante-es.vtt video/OpenSpain-Cambios.mp4 \
+            video/cambios-portada.jpg video/cambios-es.vtt _site/video/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site

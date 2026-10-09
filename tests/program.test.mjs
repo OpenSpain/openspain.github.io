@@ -1,11 +1,50 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
-import { parseProgram, filterAxes, categories, axisMetadata, ipc, getChapter, getCitizenDemands, inlineParts, detailMarker } from '../program.js';
+import { parseProgram, filterAxes, categories, axisMetadata, ipc, getChapter, getCitizenDemands, getInitiativeActions, getInitiativeActionItems, getChangeVideoMessages, inlineParts, detailMarker } from '../program.js';
+import { pages, legacyTarget } from '../routes.js';
 import { observedCharts, targetCharts } from '../charts.js';
 
 const markdown = await readFile(new URL('../PROGRAMA.md', import.meta.url), 'utf8');
 const axes = parseProgram(markdown);
+
+test('actions and video messages are separate summaries without adopting evaluated alternatives', () => {
+  const actions = getInitiativeActionItems(markdown);
+  assert.equal(actions.length, 15);
+  assert.equal(getChangeVideoMessages(markdown).length, 6);
+  assert.equal((getCitizenDemands(markdown).match(/^- /gm) || []).length, 10);
+  assert.equal((getInitiativeActions(markdown).match(/^- /gm) || []).length, 15);
+  assert.match(actions[0].description, /No todos estos beneficios son salarios ni vitalicios/);
+  assert.match(actions[9].description, /no elige una abolición general/);
+  assert.match(actions[10].description, /siguen sujetas a comparación/);
+  assert.match(getInitiativeActions(markdown), /no modifica sus metas ni activa nuevos frentes/);
+  for (const action of actions) {
+    for (const link of inlineParts(action.description).filter(part => part.type === 'link')) {
+      assert.ok(axes.some(axis => link.href === `#eje-${axis.id}`));
+    }
+  }
+});
+
+test('all six pages preserve relative navigation and old public anchors', async () => {
+  assert.equal(pages.length, 6);
+  for (const [path] of pages) {
+    const html = await readFile(new URL(`../${path}`, import.meta.url), 'utf8');
+    for (const [destination] of pages) assert.ok(html.includes(`href="./${destination}"`), `${path} → ${destination}`);
+    assert.equal((html.match(/aria-current="page"/g) || []).length, 1);
+    assert.ok(html.includes('site.js?v=20261009-pages'));
+    assert.doesNotMatch(html, /autoplay/);
+  }
+  for (const axis of axes) assert.equal(legacyTarget(`#eje-${axis.id}`), `programa.html#eje-${axis.id}`);
+  assert.equal(legacyTarget('#plan'), 'como.html#plan');
+  assert.equal(legacyTarget('#participa'), 'participa.html#participa');
+  assert.equal(legacyTarget('#donaciones'), 'transparencia.html#donaciones');
+  assert.equal(legacyTarget('#eje-32'), undefined);
+  assert.equal(legacyTarget('#vision'), undefined);
+  const avatar = await readFile(new URL('../openspain-instagram.png', import.meta.url));
+  assert.equal(avatar.subarray(1, 4).toString(), 'PNG');
+  assert.equal(avatar.readUInt32BE(16), 1080);
+  assert.equal(avatar.readUInt32BE(20), 1080);
+});
 
 test('citizen demands contain exactly ten commitments and link to existing axes', () => {
   const demands = getCitizenDemands(markdown);

@@ -1,5 +1,5 @@
-import { categories, parseProgram, ipc, months, inlineParts, detailMarker } from './program.js?v=20261009-video';
-import { createPolicyEvidence } from './charts.js?v=20261009-video';
+import { categories, parseProgram, ipc, months, inlineParts, detailMarker } from './program.js?v=20261009-pages';
+import { createPolicyEvidence } from './charts.js?v=20261009-pages';
 
 function node(tag, text, className) {
   const result = document.createElement(tag);

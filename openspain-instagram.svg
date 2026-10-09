@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080" role="img" aria-labelledby="title">
+  <title id="title">OpenSpain: símbolo para perfil de Instagram</title>
+  <rect width="1080" height="1080" fill="#f8f6f0"/>
+  <g transform="translate(46.3 70.2) scale(3.5)">
+    <g fill="none" stroke="#2459df" stroke-width="8" stroke-linecap="square">
+      <path d="M 151 60 A 82 82 0 1 0 215 122"/>
+      <path d="M 174 101 L 229 46 M 210 46 H 229 V 65" stroke-width="5"/>
+    </g>
+    <path fill="#2459df" fill-rule="evenodd" d="M 167 140 A 32 32 0 1 1 103 140 A 32 32 0 1 1 167 140 Z M 145 140 A 10 10 0 1 0 125 140 A 10 10 0 1 0 145 140 Z"/>
+  </g>
+</svg>

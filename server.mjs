@@ -4,15 +4,20 @@ import { readFile } from 'node:fs/promises';
 const files = new Map([
   ['/', ['index.html', 'text/html; charset=utf-8']],
   ['/index.html', ['index.html', 'text/html; charset=utf-8']],
+  ...['cambios', 'programa', 'como', 'transparencia', 'participa'].map(page =>
+    [`/${page}.html`, [`${page}.html`, 'text/html; charset=utf-8']]),
   ['/styles.css', ['styles.css', 'text/css; charset=utf-8']],
   ['/app.js', ['app.js', 'text/javascript; charset=utf-8']],
   ['/program.js', ['program.js', 'text/javascript; charset=utf-8']],
   ['/charts.js', ['charts.js', 'text/javascript; charset=utf-8']],
+  ...['ui', 'site', 'routes'].map(module => [`/${module}.js`, [`${module}.js`, 'text/javascript; charset=utf-8']]),
   ['/PROGRAMA.md', ['PROGRAMA.md', 'text/plain; charset=utf-8']],
   ['/favicon.svg', ['favicon.svg', 'image/svg+xml']],
   ['/bandera.svg', ['bandera.svg', 'image/svg+xml']],
   ['/openspain-logo.svg', ['openspain-logo.svg', 'image/svg+xml']],
   ['/openspain-logo.png', ['openspain-logo.png', 'image/png']],
+  ['/openspain-instagram.svg', ['openspain-instagram.svg', 'image/svg+xml']],
+  ['/openspain-instagram.png', ['openspain-instagram.png', 'image/png']],
   ['/informe.html', ['informe.html', 'text/html; charset=utf-8']],
   ['/informe.css', ['informe.css', 'text/css; charset=utf-8']],
   ['/informe.js', ['informe.js', 'text/javascript; charset=utf-8']],
@@ -21,6 +26,9 @@ const files = new Map([
   ['/video/OpenSpain-Hazte-Simpatizante.mp4', ['video/OpenSpain-Hazte-Simpatizante.mp4', 'video/mp4']],
   ['/video/hazte-simpatizante-portada.jpg', ['video/hazte-simpatizante-portada.jpg', 'image/jpeg']],
   ['/video/hazte-simpatizante-es.vtt', ['video/hazte-simpatizante-es.vtt', 'text/vtt; charset=utf-8']],
+  ['/video/OpenSpain-Cambios.mp4', ['video/OpenSpain-Cambios.mp4', 'video/mp4']],
+  ['/video/cambios-portada.jpg', ['video/cambios-portada.jpg', 'image/jpeg']],
+  ['/video/cambios-es.vtt', ['video/cambios-es.vtt', 'text/vtt; charset=utf-8']],
 ]);
 const port = Number(process.env.PORT || 4173);
 if (!Number.isInteger(port) || port < 1 || port > 65535) {
