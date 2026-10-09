@@ -32,7 +32,7 @@ No es necesario instalar dependencias para ejecutar la web. También puede publi
 
 Repositorio: <https://github.com/OpenSpain/openspain.github.io>.
 
-Web pública: <https://openspain.github.io/>.
+Web pública: <https://openspain.org/>. La dirección de GitHub Pages conserva compatibilidad.
 
 En **Settings → Pages → Build and deployment**, selecciona **GitHub Actions** como origen. El workflow `.github/workflows/pages.yml` comprueba el programa y publica automáticamente cada cambio en `main`; también puede ejecutarse manualmente desde **Actions → Deploy GitHub Pages → Run workflow**.
 
@@ -70,7 +70,7 @@ GitHub Pages sirve los archivos; no ejecuta `npm start` ni genera el PDF. Regene
 - El eje 29 incorpora planes A/B/C, funciones esenciales, dependencias, activación, ejercicios y correcciones ante guerras, crisis energéticas, desastres y otros incidentes. La orientación europea de 72 horas no es una certificación de capacidad nacional. El cierre de Hormuz es un escenario de estrés, no un evento confirmado aquí; no se publica información sensible de operadores.
 - El eje 30 propone una Constitución clara y accesible: explicación no normativa, diagnóstico de ambigüedades evitables y reformas de redacción justificadas, sin recortar derechos ni imponer una lectura única. Metas documentales: 12 fichas probadas con 200 participantes el primer año y 40 con 600 participantes acumulados en cuatro años, sujetas a recursos; no son reformas aprobadas ni una muestra representativa. La fuente F35 y el gráfico de estructura son normativos, no una medida de complejidad. Se distinguen los procedimientos de los artículos 166–169, incluido el referéndum obligatorio del 168; el eje no activa un cuarto frente inicial.
 - El eje 31 conecta justicia accesible y ágil con integridad y vivienda, preservando defensa, asistencia jurídica, protección de víctimas e independencia. Propone reducir esperas de actuaciones de gestión seleccionadas un 15 % en el primer año y un 25 % en cuatro años, en 3 y 10 unidades adheridas respectivamente; no son plazos de juicio ni resultados garantizados. F36 documenta las estimaciones civiles del CGPJ de 2025 (15,5 meses en ordinarios y 11,1 en «Demás verbales»), no duraciones individuales ni prueba de corrupción; F37 documenta asistencia jurídica gratuita sin prometer acceso universal.
-- Las tarjetas tienen títulos con puntuación final y enlaces directos como <https://openspain.github.io/#eje-19>, <https://openspain.github.io/#eje-30> y <https://openspain.github.io/#eje-31>. Al abrir uno, se muestran todos los ejes, se limpia la búsqueda y se desplaza la tarjeta correspondiente bajo la cabecera.
+- Las tarjetas tienen títulos con puntuación final y enlaces directos como <https://openspain.org/programa.html#eje-19>, <https://openspain.org/programa.html#eje-30> y <https://openspain.org/programa.html#eje-31>. Al abrir uno, se muestran todos los ejes, se limpia la búsqueda y se desplaza la tarjeta correspondiente bajo la cabecera.
 - El capítulo 9 cierra el programa y el PDF con problemas, acciones y primeros pasos. La web muestra el mismo resumen en un desplegable en `cambios.html#prioridades`; el enlace antiguo se conserva mediante redirección. Vivienda incluye habilitar suelo según demanda, servicios, financiación y garantías; el arranque conserva hasta tres frentes y no da por activas todas las medidas.
 - El capítulo 5 baja la ejecución a hitos de 2–4 semanas y un arranque de 90 días: hasta tres frentes, responsable confirmado, evidencia y criterio de aceptación. El resto queda pendiente; con menos capacidad se trabaja un solo frente. Un hito documental no se cuenta como impacto de una política.
 - Cooperación: los principios y el eje 20 refuerzan unir sin uniformar y evitar el «y tú más», con protocolo de diálogo, respuesta motivada, reconocimiento de aportaciones y compromisos con responsable y fecha. No se equipara cooperación con unanimidad, impunidad o censura; los registros de proyectos no prueban menor polarización nacional. El enfoque también aparece en el método de la web y la presentación de una página.
@@ -116,7 +116,7 @@ Genera `video/OpenSpain-Hazte-Simpatizante.mp4`: vertical 1080 × 1920, 30 fps, 
 
 Sigue la identidad de la web: marfil, azul noche con planeta y órbita, azul eléctrico y dorado; Avenir Next con acentos en Georgia cursiva; logo, etiquetas con punto y flechas ↗. Abre con «España no necesita más eslóganes. Necesita datos, responsables y resultados comprobables» y reutiliza textos de la web como «No somos un partido. Somos un punto de partida.»; las entradas de texto se ajustan a una rejilla de medio compás para que coincidan con los golpes de audio. El cierre muestra un QR (`video/qr-simpatizante.svg`) al mismo formulario de simpatizantes que la web, sin nombrar la herramienta, y aclara que la inscripción no es afiliación, firma ni compromiso de aval. Los textos resumen el programa (31 ejes, problemas y tres frentes iniciales) sin presentar medidas como aprobadas. Si cambia el enlace del formulario, regenera el QR y el vídeo.
 
-La página `participa.html` muestra el vídeo vertical con controles nativos, sin reproducción automática ni bucle, `playsinline` y `preload="none"`. Mantiene el botón de inscripción fuera del reproductor, subtítulos españoles (`video/hazte-simpatizante-es.vtt`), transcripción desplegable y enlace de descarga. La portada estática (`video/hazte-simpatizante-portada.jpg`) evita iniciar animaciones al cargar. GitHub Pages y el servidor local publican únicamente los MP4, portadas y subtítulos, no las fuentes de renderizado. El servidor local admite rangos de bytes para avanzar en los vídeos.
+La página `participa.html` muestra el vídeo vertical con controles nativos, sin reproducción automática ni bucle, `playsinline` y `preload="none"`. Mantiene el botón de inscripción fuera del reproductor, subtítulos españoles (`video/hazte-simpatizante-es.vtt`), transcripción desplegable y enlace de descarga. La portada estática (`video/hazte-simpatizante-portada.jpg`) evita iniciar animaciones al cargar. El cierre, los subtítulos y la transcripción usan `openspain.org`; las URLs de los tres recursos llevan una versión para renovar la caché cuando se regeneran. GitHub Pages y el servidor local publican únicamente los MP4, portadas y subtítulos, no las fuentes de renderizado. El servidor local admite rangos de bytes para avanzar en los vídeos.
 
 Cuando regeneres el vídeo, actualiza subtítulos, transcripción, tamaño de descarga y portada. La portada actual se extrae del segundo 42,5 y se reduce a 540 × 960 píxeles:
 
@@ -137,6 +137,14 @@ La portada y `cambios.html` muestran este vídeo a todo el ancho, con subtítulo
 ```sh
 ffmpeg -y -ss 17 -i video/OpenSpain-Cambios.mp4 -frames:v 1 -vf scale=1280:720 -q:v 3 video/cambios-portada.jpg
 ```
+
+## Serie de Instagram
+
+`node video/render-instagram.mjs` genera 32 vídeos verticales 1080 × 1920 a 30 fps: el decálogo completo y una pieza por cada eje. Incluyen texto con entradas y salidas suaves, música original, portada JPG, subtítulos VTT, guiones JSON y descripciones listas para copiar. `--only eje-01` o `--only 00-decalogo` permite regenerar una pieza.
+
+Los guiones leen directamente el programa: cada eje conserva propuesta, costes y garantías y criterios de comprobación; omite el ejemplo hipotético y las metas de pilotos para no confundirlos con resultados. El decálogo utiliza sus títulos y resúmenes editoriales en `video/instagram.mjs`, que deben revisarse si cambian las exigencias; el JSON conserva también sus descripciones originales. La duración se adapta al texto, con un máximo de 2,5 palabras por segundo; no se comprimen garantías para cumplir una duración comercial. Todas las piezas indican que son propuestas, muestran `openspain.org` y terminan invitando a comentar «PARTICIPA». El envío del enlace debe hacerse manualmente: no hay automatización de mensajes.
+
+Los resultados se guardan en `video/instagram/`, excluidos de Git y del despliegue web. Requiere las mismas dependencias, Chromium y ffmpeg que los otros vídeos.
 
 ## Comprobaciones
 

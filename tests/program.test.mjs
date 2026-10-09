@@ -4,9 +4,46 @@ import { readFile } from 'node:fs/promises';
 import { parseProgram, filterAxes, categories, axisMetadata, ipc, getChapter, getCitizenDemands, getInitiativeActions, getInitiativeActionItems, getChangeVideoMessages, inlineParts, detailMarker } from '../program.js';
 import { pages, legacyTarget } from '../routes.js';
 import { observedCharts, targetCharts } from '../charts.js';
+import { getInstagramVideos, participationMessage } from '../video/instagram.mjs';
 
 const markdown = await readFile(new URL('../PROGRAMA.md', import.meta.url), 'utf8');
 const axes = parseProgram(markdown);
+
+test('Instagram series covers the decalogue and every axis without inventing measures or results', () => {
+  const videos = getInstagramVideos(markdown);
+  assert.equal(videos.length, 32);
+  assert.equal(videos[0].scenes.filter(scene => scene.label.startsWith('EXIGENCIA')).length, 10);
+  for (const [index, video] of videos.entries()) {
+    assert.equal(video.duration, video.scenes.reduce((sum, scene) => sum + scene.duration, 0));
+    assert.equal(video.scenes.at(-1).body, participationMessage);
+    assert.match(video.caption, /no medidas aprobadas ni resultados obtenidos/);
+    assert.match(video.url, /^https:\/\/openspain\.org\/programa\.html#/);
+    for (const scene of video.scenes) {
+      assert.ok(scene.duration >= 6);
+      assert.ok(`${scene.title} ${scene.body}`.trim().split(/\s+/).length / scene.duration <= 2.5);
+      assert.doesNotMatch(scene.body, /caso hipotético|\*\*|\[F\d+\]/);
+    }
+    if (index) {
+      assert.equal(video.title, axes[index - 1].title);
+      assert.ok(video.scenes.some(scene => scene.label === 'COSTES Y GARANTÍAS'));
+      assert.ok(video.scenes.some(scene => scene.label === 'CÓMO COMPROBARLO'));
+    }
+  }
+  assert.deepEqual(getInstagramVideos(markdown.replaceAll('\n', '\r\n')), videos);
+  assert.throws(() => getInstagramVideos(markdown.replace('### 2.31.', '### 3.31.')));
+});
+
+test('presentation video, captions and transcript use the public domain and versioned media', async () => {
+  for (const path of ['video/video.html', 'video/hazte-simpatizante-es.vtt', 'participa.html']) {
+    const content = await readFile(new URL(`../${path}`, import.meta.url), 'utf8');
+    assert.match(content, /openspain\.org/);
+    assert.doesNotMatch(content, /openspain\.github\.io/);
+  }
+  const html = await readFile(new URL('../participa.html', import.meta.url), 'utf8');
+  for (const filename of ['OpenSpain-Hazte-Simpatizante.mp4', 'hazte-simpatizante-portada.jpg', 'hazte-simpatizante-es.vtt']) {
+    assert.ok(html.includes(`${filename}?v=20261009-org`));
+  }
+});
 
 test('actions and video messages are separate summaries without adopting evaluated alternatives', () => {
   const actions = getInitiativeActionItems(markdown);

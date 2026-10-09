@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>OpenSpain — Serie de Instagram</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body { margin: 0; width: 1080px; height: 1920px; overflow: hidden; }
+    body { font-family: 'Avenir Next', Avenir, sans-serif; background: #f8f6f0; color: #15243e; }
+    #stage { width: 1080px; height: 1920px; padding: 230px 150px 380px 90px; }
+    #stage.dark { background: #10213e; color: #f8f6f0; }
+    .logo { display: block; width: 340px; background: #f8f6f0; padding: 12px; border-radius: 12px; }
+    #label { margin: 70px 0 32px; font-size: 28px; font-weight: 700; letter-spacing: 2px; color: #2459df; }
+    .dark #label { color: #f0cc76; }
+    #copy { height: 920px; display: flex; flex-direction: column; justify-content: center; gap: 38px; }
+    h1 { margin: 0; font-size: 76px; line-height: 1.12; letter-spacing: -2px; }
+    p { margin: 0; font-size: 52px; line-height: 1.35; }
+    #footer { position: absolute; top: 1450px; left: 90px; width: 840px; border-top: 2px solid #8d98aa; padding-top: 25px; }
+    #footer strong { display: block; font-size: 35px; }
+    #footer span { display: block; margin-top: 20px; font-size: 24px; line-height: 1.4; }
+    #position { position: absolute; top: 230px; right: 150px; font-size: 26px; }
+  </style>
+</head>
+<body>
+  <div id="stage">
+    <img class="logo" src="../openspain-logo.svg" alt="OpenSpain">
+    <div id="position"></div>
+    <div id="label"></div>
+    <div id="copy"><h1></h1><p></p></div>
+    <div id="footer"><strong>openspain.org</strong><span>PROPUESTAS, NO MEDIDAS APROBADAS<br>Desarrollo, costes y garantías en el programa.</span></div>
+  </div>
+  <script>
+    window.ready = Promise.all([document.fonts.ready, document.querySelector('.logo').decode()]);
+    window.showScene = (scene, index, total) => {
+      document.querySelector('#stage').classList.toggle('dark', index % 2 === 1);
+      document.querySelector('#position').textContent = `${index + 1} / ${total}`;
+      document.querySelector('#label').textContent = scene.label;
+      const title = document.querySelector('h1');
+      const body = document.querySelector('p');
+      title.textContent = scene.title;
+      title.hidden = !scene.title;
+      body.textContent = scene.body;
+      body.style.fontSize = '52px';
+      const copy = document.querySelector('#copy');
+      while (copy.scrollHeight > copy.clientHeight && parseFloat(body.style.fontSize) > 42) {
+        body.style.fontSize = `${parseFloat(body.style.fontSize) - 1}px`;
+      }
+      if (copy.scrollHeight > copy.clientHeight) throw new Error('El texto no cabe en la zona segura.');
+      for (const node of [title, body, document.querySelector('#label')]) {
+        if (node.scrollWidth > node.clientWidth + 1) throw new Error('Texto desbordado horizontalmente.');
+      }
+    };
+  </script>
+</body>
+</html>
