@@ -2,7 +2,7 @@ import { chromium } from '@playwright/test';
 import assert from 'node:assert/strict';
 import { mkdir } from 'node:fs/promises';
 import { join } from 'node:path';
-import { axisMetadata, parseProgram, inlineParts, detailHeading } from '../program.js';
+import { axisMetadata, parseProgram, inlineParts } from '../program.js';
 import { observedCharts } from '../charts.js';
 
 const baseURL = process.env.BASE_URL || 'http://127.0.0.1:4173';
@@ -86,6 +86,18 @@ try {
   assert.match(await page.locator('#participa').textContent(), /no es una afiliación, una firma electoral ni un compromiso de avalar/);
   assert.equal(await page.locator('iframe').count(), 0);
   assert.equal(await page.locator('.program-card').count(), axisMetadata.length);
+  assert.equal(await page.locator('#citizen-demands-content li').count(), 10);
+  assert.equal(await page.locator('#citizen-demands-content').isVisible(), true);
+  assert.match(await page.locator('#citizen-demands-content').textContent(), /La verdad ante el Parlamento/);
+  const conflictsLink = page.locator('#citizen-demands-content a[href="#eje-23"]');
+  assert.equal(await conflictsLink.getAttribute('target'), null);
+  await conflictsLink.click();
+  assert.equal(new URL(page.url()).hash, '#eje-23');
+  assert.equal(await page.locator('#eje-23').isVisible(), true);
+  await page.locator('#eje-23').getByRole('button').click();
+  assert.match(await page.locator('#measure-content').textContent(), /sistema preventivo de conflictos de interés/);
+  assert.match(await page.locator('#measure-content').textContent(), /sustituto sin el mismo conflicto/);
+  await page.keyboard.press('Escape');
   const sourceResponse = await page.request.get(`${baseURL}/PROGRAMA.md`);
   assert.equal(sourceResponse.status(), 200);
   const sourceAxes = parseProgram(await sourceResponse.text());
@@ -97,8 +109,9 @@ try {
     assert.deepEqual(await summary.locator('p').allTextContents(), paragraphs, `Eje ${axis.id}: texto continuo íntegro`);
     assert.equal(await summary.locator('h4').textContent(), 'Plan de actuación');
     assert.doesNotMatch(await summary.textContent(), /Ejemplo cotidiano \(hipotético\):|Intereses que hay que equilibrar:|Qué haremos en el primer año:/);
-    assert.equal(await page.locator('#measure-dialog .technical-details > summary').textContent(), detailHeading);
-    await page.locator('#measure-dialog .technical-details > summary').click();
+    assert.equal(await page.locator('#measure-dialog .technical-details').count(), 0);
+    assert.equal(await page.locator('#measure-content .technical-content').isVisible(), true);
+    assert.doesNotMatch(await page.locator('#measure-content').textContent(), /La propuesta en detalle|proposal-detail/);
     const measures = await page.locator('#measure-content .technical-content li').allTextContents();
     for (const measure of axis.measures) {
       assert.ok(measures.includes(inlineParts(measure).map(part => part.text).join('')),
@@ -114,7 +127,7 @@ try {
     assert.equal(await page.locator('#measure-content').evaluate(content => {
       const summary = content.querySelector('.citizen-summary');
       const evidence = content.querySelector('.policy-evidence');
-      const technical = content.querySelector('.technical-details');
+      const technical = content.querySelector('.technical-content');
       return Boolean(summary.compareDocumentPosition(evidence) & Node.DOCUMENT_POSITION_FOLLOWING)
         && Boolean(evidence.compareDocumentPosition(technical) & Node.DOCUMENT_POSITION_FOLLOWING);
     }), true, `Eje ${axis.id}: explicación antes de gráficos y detalle`);
@@ -136,7 +149,6 @@ try {
   assert.match(await page.locator('#measure-content .citizen-summary').textContent(), /40 fichas/);
   assert.match(await page.locator('#measure-content .evidence-label').first().textContent(), /CIFRA NORMATIVA/);
   assert.equal(await page.locator('#measure-content .target-figure').count(), 1);
-  await page.locator('#measure-dialog .technical-details > summary').click();
   assert.match(await page.locator('#measure-content .technical-content').textContent(), /referéndum de ratificación obligatorio/);
   await page.keyboard.press('Escape');
   await page.getByRole('button', { name: /Ver medidas: Justicia accesible y ágil/ }).click();
@@ -164,7 +176,6 @@ try {
   assert.match(await page.locator('#measure-content .citizen-summary').textContent(), /En movilidad, si se activa esta actuación/);
   assert.match(await page.locator('#measure-content .policy-evidence').textContent(), /60\.074/);
   assert.match(await page.locator('#measure-content .policy-evidence').textContent(), /27\.107/);
-  await page.locator('#measure-dialog .technical-details > summary').click();
   assert.match(await page.locator('#measure-content .technical-content').textContent(), /Es una impugnación, no una anulación firme/);
   await page.keyboard.press('Escape');
   await page.getByRole('searchbox').fill('economía colaborativa');
@@ -176,7 +187,6 @@ try {
   assert.match(await page.locator('#metodo').textContent(), /Menos «y tú más»/);
   await page.getByRole('button', { name: /Ver medidas: Convivencia democrática/ }).click();
   assert.match(await page.locator('#measure-content .citizen-summary').textContent(), /protocolo de diálogo y un registro/);
-  await page.locator('#measure-dialog .technical-details > summary').click();
   assert.match(await page.locator('#measure-content .technical-content').textContent(), /Unir no significa impunidad/);
   await page.keyboard.press('Escape');
   await page.getByRole('button', { name: '2025', exact: true }).click();
@@ -210,11 +220,9 @@ try {
   assert.match(await page.locator('#measure-dialog .citizen-summary').textContent(), /En el primer año, proponemos/);
   assert.match(await page.locator('#measure-dialog .citizen-summary').textContent(), /En cuatro años, el objetivo es/);
   assert.match(await page.locator('#measure-dialog .citizen-summary').textContent(), /La ejecución correspondería a/);
-  assert.equal(await page.locator('#measure-dialog .technical-details').getAttribute('open'), null);
-  await page.locator('#measure-dialog .technical-details > summary').click();
-  assert.equal(await page.locator('#measure-dialog .technical-details table').isVisible(), true);
-  assert.equal(await page.locator('#measure-dialog .technical-details table tbody tr').count(), 4);
-  assert.match(await page.locator('#measure-dialog .technical-details table').textContent(), /Voto ponderado/);
+  assert.equal(await page.locator('#measure-dialog .technical-content table').isVisible(), true);
+  assert.equal(await page.locator('#measure-dialog .technical-content table tbody tr').count(), 4);
+  assert.match(await page.locator('#measure-dialog .technical-content table').textContent(), /Voto ponderado/);
   await page.getByRole('button', { name: 'Cerrar detalle de medidas' }).click();
   await page.getByRole('button', { name: 'Prepara tu propuesta' }).click();
   await page.getByLabel('Título de tu propuesta').fill('Energía compartida');
@@ -262,9 +270,15 @@ try {
   await reportPage.waitForFunction(() => Boolean(document.documentElement.dataset.reportReady));
   assert.equal(await reportPage.getAttribute('html', 'data-report-ready'), 'true');
   assert.equal((await reportPage.locator('.cover h1').innerText()).replace(/\s+/g, ' '), slogan);
+  const principlesSection = reportPage.locator('.report-section').filter({
+    has: reportPage.getByRole('heading', { name: '1. Propósito y principios', exact: true }),
+  });
+  assert.equal(await principlesSection.locator('li').filter({ hasText: /^\d+\./ }).count(), 10);
+  assert.equal(await principlesSection.locator('a[href="#eje-23"]').getAttribute('target'), null);
+  assert.match(await principlesSection.textContent(), /Diez exigencias ciudadanas/);
   assert.match(await reportPage.locator('#report-body').textContent(), /Donaciones y transparencia/);
   assert.equal(await reportPage.locator('#report-body h4').filter({ hasText: /^Plan de actuación$/ }).count(), axisMetadata.length);
-  assert.equal(await reportPage.locator('#report-body h4').filter({ hasText: new RegExp(`^${detailHeading}$`) }).count(), axisMetadata.length);
+  assert.doesNotMatch(await reportPage.locator('#report-body').textContent(), /La propuesta en detalle|proposal-detail/);
   assert.equal(await reportPage.locator('#report-body p').filter({ hasText: /^En un caso hipotético,/ }).count(), axisMetadata.length);
   for (const axis of sourceAxes) {
     const evidence = reportPage.locator(`[data-axis-evidence="${axis.id}"]`);
@@ -276,8 +290,9 @@ try {
         previous = previous.previousElementSibling;
       }
       return JSON.stringify(paragraphs) === JSON.stringify(expected.paragraphs)
-        && node.nextElementSibling?.textContent === expected.heading;
-    }, { heading: detailHeading, paragraphs: axis.citizenSummary.split('\n\n').filter(text => !text.startsWith('#### '))
+        && node.nextElementSibling?.textContent === expected.firstParagraph;
+    }, { firstParagraph: inlineParts(axis.technicalBody.split('\n\n')[0]).map(part => part.text).join(''),
+      paragraphs: axis.citizenSummary.split('\n\n').filter(text => !text.startsWith('#### '))
       .map(text => inlineParts(text).map(part => part.text).join('')) }),
       true, `Eje ${axis.id}: texto continuo íntegro antes de gráficos y detalle en el informe`);
     assert.deepEqual(await reportPage.locator(`#eje-${axis.id}`).evaluate(heading => {
@@ -285,7 +300,7 @@ try {
       let node = heading.nextElementSibling;
       let detail = false;
       while (node && node.tagName !== 'H3') {
-        if (node.tagName === 'H4' && node.textContent !== 'Plan de actuación') detail = true;
+        if (node.classList.contains('policy-evidence')) detail = true;
         else if (detail && node.tagName === 'P') paragraphs.push(node.textContent);
         node = node.nextElementSibling;
       }

@@ -1,17 +1,61 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
-import { parseProgram, filterAxes, categories, axisMetadata, ipc, getChapter, inlineParts, detailHeading } from '../program.js';
+import { parseProgram, filterAxes, categories, axisMetadata, ipc, getChapter, getCitizenDemands, inlineParts, detailMarker } from '../program.js';
 import { observedCharts, targetCharts } from '../charts.js';
 
 const markdown = await readFile(new URL('../PROGRAMA.md', import.meta.url), 'utf8');
 const axes = parseProgram(markdown);
 
+test('citizen demands contain exactly ten commitments and link to existing axes', () => {
+  const demands = getCitizenDemands(markdown);
+  const items = demands.split('\n').filter(line => line.startsWith('- '));
+  assert.equal(items.length, 10);
+  assert.deepEqual(items.map(item => Number(item.match(/^- \*\*(\d+)\./)[1])),
+    Array.from({ length: 10 }, (_, index) => index + 1));
+  const links = inlineParts(demands).filter(part => part.type === 'link');
+  assert.ok(links.length >= 10);
+  for (const link of links) {
+    assert.ok(axes.some(axis => link.href === `#eje-${axis.id}`), link.href);
+  }
+  assert.equal(getCitizenDemands(markdown.replaceAll('\n', '\r\n')), demands);
+  assert.throws(() => getCitizenDemands('## 1. Principios\n\nSin decálogo.\n\n## 2. Ejes'),
+    /Falta el decálogo/);
+  assert.match(demands, /no activa nuevos pilotos ni modifica las metas/);
+  assert.match(demands, /no se incorporan como hechos verificados/);
+  assert.deepEqual(inlineParts('[Conflictos](#eje-23)'), [
+    { type: 'link', text: 'Conflictos', href: '#eje-23' },
+  ]);
+  assert.ok(inlineParts('[no](javascript:alert(1))').every(part => part.type === 'text'));
+});
+
+test('integrity and preventive conflicts retain due process and existing pilot scope', () => {
+  const integrity = axes.find(axis => axis.id === 1);
+  const conflicts = axes.find(axis => axis.id === 23);
+  const democracy = axes.find(axis => axis.id === 22);
+  assert.ok(integrity.measures.some(measure => /currículum profesional.*retribución/.test(measure)));
+  assert.ok(integrity.measures.some(measure => /código ético público/.test(measure)));
+  assert.match(integrity.technicalBody, /pruebas de falsedad y de conocimiento de esa falsedad/);
+  assert.match(integrity.technicalBody, /no equivale a que una comisión pueda retirar su escaño/);
+  assert.match(conflicts.technicalBody, /conflictos reales, potenciales y aparentes/);
+  assert.match(conflicts.technicalBody, /sustituto sin el mismo conflicto/);
+  assert.match(conflicts.technicalBody, /ni trato de favor ni exclusión automática por parentesco/);
+  assert.match(conflicts.technicalBody, /más conflictos declarados puede significar mejor detección/i);
+  assert.match(conflicts.technicalBody, /sin activar otro piloto ni autorizar nuevas compatibilidades/);
+  assert.match(conflicts.citizenSummary, /2 pilotos/);
+  assert.match(conflicts.citizenSummary, /como máximo a 10 equipos/);
+  assert.match(democracy.technicalBody, /encuentros abiertos al menos trimestrales/);
+  assert.match(democracy.technicalBody, /plazo propuesto de 30 días/);
+  assert.match(democracy.technicalBody, /no confundir crítica política contundente con insulto/);
+  assert.ok(filterAxes(axes, 'institutions', 'mentira deliberada').some(axis => axis.id === 1));
+  assert.ok(filterAxes(axes, 'institutions', 'sistema preventivo').some(axis => axis.id === 23));
+});
+
 test('all configured axes and every proposal are read from the source document', () => {
   assert.equal(axes.length, axisMetadata.length);
   assert.deepEqual(axes.map(axis => axis.id), Array.from({ length: axisMetadata.length }, (_, index) => index + 1));
   const programSection = markdown.split('## 2. Mapa de problemas y propuestas')[1].split('## 3.')[0];
-  const detailBlocks = programSection.split(`#### ${detailHeading}`).slice(1);
+  const detailBlocks = programSection.split(detailMarker).slice(1);
   const count = detailBlocks.reduce((sum, block) => sum + (block.match(/^- .+(?:\n- .+)*/m)?.[0].split('\n').length ?? 0), 0);
   assert.equal(detailBlocks.length, axes.length);
   assert.equal(axes.reduce((sum, axis) => sum + axis.measures.length, 0), count);
@@ -68,6 +112,26 @@ test('media transparency follows documented payments without inventing dependenc
   }
 });
 
+test('electoral integrity protects access and secrecy without treating suspicions as proven fraud', () => {
+  const democracy = axes.find(axis => axis.id === 22);
+  assert.match(democracy.citizenSummary, /voto presencial, por correo y desde el extranjero/);
+  assert.ok(democracy.measures.some(measure => /sin vincular identidad con opción votada/.test(measure)));
+  assert.ok(democracy.measures.some(measure => /CERA.*ERTA/.test(measure)));
+  assert.match(democracy.technicalBody, /no demuestra por sí sola fraude/);
+  assert.match(democracy.technicalBody, /ni afirmar que todo voto exterior exige acudir presencialmente al consulado/);
+  assert.match(democracy.technicalBody, /Más denuncias no significa automáticamente más fraude/);
+  assert.match(democracy.technicalBody, /no modifica las metas de deliberación ni activa un nuevo piloto electoral/);
+  assert.match(democracy.citizenSummary, /completar 3 deliberaciones/);
+  assert.match(democracy.citizenSummary, /completar 12 deliberaciones/);
+  assert.match(axes.find(axis => axis.id === 1).technicalBody, /controles de integridad electoral del eje 22/);
+  assert.match(axes.find(axis => axis.id === 31).technicalBody, /sin sustituir reclamaciones electorales ni sus plazos/);
+  assert.match(getChapter(markdown, 7), /22\. Democracia informada.*garantías del voto presencial/);
+  assert.equal((getChapter(markdown, 8).match(/\*\*\[F42\]/g) || []).length, 1);
+  for (const query of ['voto por correo', 'suplantaciones', 'CERA', 'ERTA']) {
+    assert.ok(filterAxes(axes, 'institutions', query).some(axis => axis.id === 22), query);
+  }
+});
+
 test('institutional maps preserve evidence, identities and independence safeguards', () => {
   const byId = id => axes.find(axis => axis.id === id);
   assert.match(byId(1).technicalBody, /fuente, fecha y tipo de relación/);
@@ -80,7 +144,8 @@ test('institutional maps preserve evidence, identities and independence safeguar
 });
 
 test('all 31 detailed proposals explain the problem before measures and evaluate them without field labels', () => {
-  assert.equal((markdown.match(/^#### La propuesta en detalle$/gm) ?? []).length, 31);
+  assert.equal(markdown.split(detailMarker).length - 1, 31);
+  assert.doesNotMatch(markdown, /La propuesta en detalle/);
   assert.doesNotMatch(markdown, /Ficha técnica/);
   for (const axis of axes) {
     const paragraphs = axis.technicalBody.split('\n\n');
@@ -168,9 +233,9 @@ test('parser supports CRLF and fails explicitly on invalid source', () => {
   assert.equal(parseProgram(markdown.replaceAll('\n', '\r\n')).length, axisMetadata.length);
   assert.throws(() => parseProgram('# vacío'), /ejes/);
   assert.deepEqual(parseProgram(markdown.replaceAll('\n', '\r\n')).map(axis => axis.measures), axes.map(axis => axis.measures));
-  assert.throws(() => parseProgram(`### 2.1. Prueba\n\nResumen.\n\n#### ${detailHeading}\n\nSin medidas.`), /propuestas/);
+  assert.throws(() => parseProgram(`### 2.1. Prueba\n\nResumen.\n\n${detailMarker}\n\nSin medidas.`), /propuestas/);
   assert.throws(() => parseProgram('### 2.1. Prueba\n\n- Sin separador.'), /no distingue/);
-  const sample = parseProgram(`### 2.1. Prueba\n\nResumen.\n\n- No es una medida del detalle.\n\n#### ${detailHeading}\n\nExplicación.\n\n- Primera medida.\n- Segunda medida.\n\nOtra explicación.\n\n- Ampliación, no nueva medida.`);
+  const sample = parseProgram(`### 2.1. Prueba\n\nResumen.\n\n- No es una medida del detalle.\n\n${detailMarker}\n\nExplicación.\n\n- Primera medida.\n- Segunda medida.\n\nOtra explicación.\n\n- Ampliación, no nueva medida.`);
   assert.deepEqual(sample[0].measures, ['Primera medida.', 'Segunda medida.']);
 });
 

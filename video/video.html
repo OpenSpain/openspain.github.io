@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>OpenSpain — Hazte simpatizante (vídeo)</title>
+<style>
+  :root {
+    --paper: #f8f6f0; --surface: #fffdf8; --ink: #15243e; --navy: #0d1b34; --blue: #2459df;
+    --muted: #536177; --line: #d6dae2; --gold: #f0cc76; --tint: #e5ebfa; --soft: #cad5e9;
+    --serif: Georgia, 'Times New Roman', serif; --sans: 'Avenir Next', Avenir, sans-serif;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 1080px; height: 1920px; overflow: hidden; background: var(--paper); }
+  body { font-family: var(--sans); color: var(--ink); -webkit-font-smoothing: antialiased; }
+  #stage { position: absolute; inset: 0; overflow: hidden; }
+  .scene { position: absolute; inset: 0; display: none; padding: 0 90px; flex-direction: column; justify-content: center; background: var(--paper); overflow: hidden; }
+  .scene.on { display: flex; }
+  .scene.navy { background: radial-gradient(ellipse at 70% 30%, #234486, var(--navy) 70%); color: #f8f6f0; }
+  .scene.tint { background: var(--tint); }
+  .inner { position: relative; will-change: transform; }
+  .el { visibility: hidden; }
+  .el.on { visibility: visible; }
+
+  .eyebrow { display: flex; align-items: center; gap: 22px; font-size: 32px; font-weight: 700; letter-spacing: .08em; white-space: nowrap; text-transform: uppercase; margin-bottom: 44px; }
+  .eyebrow::before { content: ""; width: 18px; height: 18px; border-radius: 50%; background: var(--blue); box-shadow: 0 0 0 10px #2459df1f; flex-shrink: 0; }
+  .navy .eyebrow { color: var(--soft); }
+  .navy .eyebrow::before { background: var(--gold); box-shadow: 0 0 0 10px #f0cc7626; }
+  .h { font-weight: 600; letter-spacing: -.045em; line-height: 1.02; white-space: nowrap; display: block; }
+  .s { font-family: var(--serif); font-style: italic; font-weight: 400; letter-spacing: -.02em; line-height: 1.08; white-space: nowrap; display: block; color: var(--blue); }
+  .navy .s { color: var(--gold); }
+  .rel { position: relative; }
+  .strike { position: absolute; left: -2%; width: 104%; top: 52%; height: 16px; border-radius: 8px; background: var(--blue); transform-origin: 0 50%; }
+  .lead { font-size: 50px; line-height: 1.5; color: var(--muted); margin-top: 48px; max-width: 880px; }
+  .navy .lead { color: var(--soft); }
+
+  .logo { position: absolute; top: 150px; left: 90px; width: 400px; z-index: 40; }
+  .logo svg { width: 100%; height: auto; display: block; }
+
+  /* Stat card (como .stat-highlight de la web) */
+  .stat { background: var(--navy); color: #fff; border-radius: 22px; padding: 56px 60px 50px; }
+  .stat .eyebrow { color: var(--soft); margin-bottom: 10px; }
+  .stat .eyebrow::before { background: var(--gold); box-shadow: 0 0 0 10px #f0cc7626; }
+  .stat .num { font-size: 400px; font-weight: 600; line-height: 1; letter-spacing: -.06em; color: var(--gold); }
+  .stat .lbl { font-size: 70px; font-weight: 600; letter-spacing: -.03em; }
+  .stat .lbl span { font-family: var(--serif); font-style: italic; font-weight: 400; color: var(--gold); }
+  .checks { margin-top: 50px; font-size: 58px; font-weight: 600; letter-spacing: -.02em; line-height: 1.55; }
+  .checks .el::before { content: "↗ "; color: var(--blue); }
+  .note { font-size: 34px; color: var(--muted); margin-top: 30px; }
+
+  /* Tarjetas del programa */
+  .card { display: flex; align-items: center; gap: 40px; background: var(--surface); border: 2px solid var(--line); border-radius: 18px; padding: 44px 46px; margin-top: 26px; box-shadow: 0 12px 40px #15243e10; }
+  .card .n { font-family: var(--serif); font-style: italic; font-size: 96px; color: var(--blue); width: 120px; line-height: 1; }
+  .card .t { font-size: 68px; font-weight: 600; letter-spacing: -.035em; line-height: 1.05; }
+  .card .t small { display: block; font-size: 34px; font-weight: 500; letter-spacing: 0; color: var(--muted); margin-top: 10px; }
+
+  /* Arte del planeta (como .hero-art) */
+  .planet { position: absolute; width: 460px; height: 460px; border-radius: 50%; left: 330px; top: 250px;
+    background: radial-gradient(circle at 32% 25%, #c3ddff, #508eff 38%, #2459df 68%, #143366);
+    box-shadow: 0 0 160px #508eff55, inset -24px -36px 60px #0d1b3455; overflow: hidden; }
+  .planet::after { content: ""; position: absolute; inset: 0; background: repeating-linear-gradient(0deg, transparent 0 16px, #c7deff26 16px 18px); }
+  .orbits { position: absolute; left: 0; top: 0; width: 1080px; height: 1100px; pointer-events: none; }
+  .grid { position: absolute; inset: 0; background-image: linear-gradient(#a7c5ff10 2px, transparent 2px), linear-gradient(90deg, #a7c5ff10 2px, transparent 2px); background-size: 90px 90px; }
+  .float { position: absolute; display: flex; gap: 22px; align-items: center; background: var(--surface); color: var(--ink); border: 2px solid var(--line); padding: 30px 38px; border-radius: 16px; font-size: 40px; line-height: 1.35; box-shadow: 0 16px 50px #0d1b3440; }
+  .float b { font-weight: 700; }
+  .float i { font-style: normal; color: var(--blue); font-size: 62px; }
+
+  .bigarrow { position: absolute; right: 70px; top: 230px; font-weight: 300; font-size: 640px; line-height: 1; color: var(--blue); }
+
+  /* CTA (como .participate) */
+  #cta { justify-content: flex-start; padding-top: 300px; }
+  #cta .qr { display: flex; align-items: center; gap: 44px; margin-top: 60px; background: var(--surface); border: 2px solid var(--line); border-radius: 22px; padding: 34px; box-shadow: 0 16px 50px #15243e14; }
+  #cta .qr img { width: 360px; height: 360px; display: block; }
+  #cta .qr .txt { font-size: 40px; line-height: 1.4; color: var(--muted); }
+  #cta .qr .txt b { display: block; color: var(--ink); font-size: 56px; letter-spacing: -.03em; margin-bottom: 14px; line-height: 1.1; }
+  .btn { display: inline-flex; align-items: center; gap: 60px; background: var(--blue); color: #fff; font-size: 52px; font-weight: 600; padding: 34px 46px; border-radius: 12px; box-shadow: 0 14px 40px #2459df40; margin-top: 50px; align-self: flex-start; }
+  .url { font-size: 48px; font-weight: 600; margin-top: 30px; color: var(--ink); }
+  .legal { font-size: 32px; line-height: 1.5; color: var(--muted); margin-top: 14px; }
+
+  #progress { position: absolute; left: 0; bottom: 0; height: 10px; background: var(--blue); z-index: 50; }
+</style>
+</head>
+<body>
+<div id="stage">
+
+  <!-- S1: España no necesita más eslóganes -->
+  <section class="scene" data-in="0" data-out="2.5">
+    <div class="inner">
+      <div class="el eyebrow" data-in="0" data-fx="rise">Independiente. Abierto. Por construir.</div>
+      <div class="el h fit" data-in="0" data-fx="slam" data-max="300">España</div>
+      <div class="el h fit" data-in="0.5" data-fx="slam">no necesita</div>
+      <div class="rel">
+        <div class="el s fit" data-in="1" data-fx="slam">más eslóganes.</div>
+        <div class="el strike" data-in="1.75" data-fx="strike"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- S2: necesita -->
+  <section class="scene navy" data-in="2.5" data-out="4.5">
+    <div class="inner">
+      <div class="el eyebrow" data-in="2.5" data-fx="rise">Necesita</div>
+      <div class="el h fit" data-in="2.75" data-fx="slam" data-max="230">Datos.</div>
+      <div class="el s fit" data-in="3.25" data-fx="slam" data-max="230">Responsables.</div>
+      <div class="el h fit" data-in="3.75" data-fx="slam" data-max="230">Resultados</div>
+      <div class="el s fit" data-in="4" data-fx="slam" data-max="230">comprobables.</div>
+    </div>
+  </section>
+
+  <!-- S3: problemas -->
+  <section class="scene" data-in="4.5" data-out="6.0">
+    <div class="inner">
+      <div class="el eyebrow" data-in="4.5" data-fx="rise">Problema 01</div>
+      <div class="el h fit" data-in="4.5" data-fx="slam" data-max="300">Vivienda</div>
+      <div class="el s fit" data-in="5" data-fx="wipe">difícil de encontrar</div>
+      <div class="el s fit" data-in="5.25" data-fx="wipe">y de pagar.</div>
+    </div>
+  </section>
+  <section class="scene navy" data-in="6" data-out="7.5">
+    <div class="inner">
+      <div class="el eyebrow" data-in="6" data-fx="rise">Problema 02</div>
+      <div class="el h fit" data-in="6" data-fx="slam">Dinero</div>
+      <div class="el h fit" data-in="6" data-fx="slam">público</div>
+      <div class="el s fit" data-in="6.5" data-fx="wipe">difícil de seguir.</div>
+    </div>
+  </section>
+  <section class="scene" data-in="7.5" data-out="9.0">
+    <div class="inner">
+      <div class="el eyebrow" data-in="7.5" data-fx="rise">Problema 03</div>
+      <div class="el h fit" data-in="7.5" data-fx="slam">Justicia</div>
+      <div class="el h fit" data-in="7.5" data-fx="slam">lenta</div>
+      <div class="el s fit" data-in="8" data-fx="wipe">y defensa difícil</div>
+      <div class="el s fit" data-in="8.25" data-fx="wipe">de conseguir.</div>
+    </div>
+  </section>
+  <section class="scene navy" data-in="9" data-out="10.5">
+    <div class="inner">
+      <div class="el eyebrow" data-in="9" data-fx="rise">Problema 04</div>
+      <div class="el h fit" data-in="9" data-fx="slam">Burocracia</div>
+      <div class="el s fit" data-in="9.5" data-fx="wipe">que frena actividad</div>
+      <div class="el s fit" data-in="9.75" data-fx="wipe">y servicios.</div>
+    </div>
+  </section>
+
+  <!-- S4: cooperación -->
+  <section class="scene navy" data-in="10.5" data-out="12.0">
+    <div class="inner">
+      <div class="el eyebrow" data-in="10.5" data-fx="rise">Sin cheques en blanco</div>
+      <div class="el h fit" data-in="10.5" data-fx="slam">Menos</div>
+      <div class="el h fit" data-in="10.75" data-fx="slam">«y tú más».</div>
+      <div class="el s fit" data-in="11.25" data-fx="slam">Más soluciones.</div>
+    </div>
+  </section>
+  <section class="scene tint" data-in="12" data-out="13.5">
+    <div class="inner">
+      <div class="el h fit" data-in="12" data-fx="slam">Unir</div>
+      <div class="el h fit" data-in="12.25" data-fx="slam">esfuerzos.</div>
+      <div class="el s fit" data-in="12.5" data-fx="slam">Resolver juntos.</div>
+      <div class="el lead" data-in="13" data-fx="wipe">Colaborar sin pensar todos igual.</div>
+    </div>
+  </section>
+
+  <!-- S5: 31 ejes -->
+  <section class="scene" data-in="13.5" data-out="18.5">
+    <div class="inner">
+      <div class="el stat" data-in="13.5" data-fx="pop">
+        <div class="eyebrow">Nuestro borrador</div>
+        <div class="num" data-count="31" data-dur="1.0">0</div>
+        <div class="lbl">ejes de actuación.<br><span>Con evidencia.</span></div>
+      </div>
+      <div class="checks">
+        <div class="el" data-in="15.25" data-fx="wipe">Fuentes públicas citadas.</div>
+        <div class="el" data-in="16" data-fx="wipe">Planes a 1 y a 4 años.</div>
+        <div class="el" data-in="16.75" data-fx="wipe">Indicadores para comprobarlo.</div>
+      </div>
+      <div class="el note" data-in="17.25" data-fx="rise">Propuestas, no medidas aprobadas.</div>
+    </div>
+  </section>
+
+  <!-- S6: tres frentes -->
+  <section class="scene" data-in="18.5" data-out="22.5">
+    <div class="inner">
+      <div class="el eyebrow" data-in="18.5" data-fx="rise">Para empezar, tres frentes</div>
+      <div class="el h fit" data-in="18.5" data-fx="slam" data-max="140">Menos ruido.</div>
+      <div class="el s fit" data-in="19" data-fx="slam" data-max="140">Más soluciones.</div>
+      <div class="el card" data-in="19.5" data-fx="slide"><span class="n">01</span><span class="t">Integridad y contratación<small>Del presupuesto a la entrega, trazable.</small></span></div>
+      <div class="el card" data-in="20.25" data-fx="slide"><span class="n">02</span><span class="t">Vivienda accesible<small>Más oferta, con garantías para todos.</small></span></div>
+      <div class="el card" data-in="21" data-fx="slide"><span class="n">03</span><span class="t">Menos burocracia<small>Un trámite concreto, menos papeles.</small></span></div>
+    </div>
+  </section>
+
+  <!-- S7: no somos un partido -->
+  <section class="scene navy" data-in="22.5" data-out="25.0" style="justify-content:flex-end;padding-bottom:300px">
+    <div class="grid"></div>
+    <svg class="orbits" viewBox="0 0 1080 1100">
+      <ellipse cx="560" cy="480" rx="430" ry="170" fill="none" stroke="#a7c5ff55" stroke-width="3" transform="rotate(-18 560 480)"/>
+      <ellipse cx="560" cy="480" rx="330" ry="120" fill="none" stroke="#a7c5ff33" stroke-width="3" transform="rotate(-18 560 480)"/>
+      <circle id="orbit-dot" r="16" fill="#f0cc76"/>
+    </svg>
+    <div class="el planet" data-in="22.5" data-fx="pop"></div>
+    <div class="el float" data-in="23" data-fx="pop" style="right:70px;top:610px;transform-origin:50% 50%"><i>↗</i><span>Más oportunidades.<br><b>Menos barreras.</b></span></div>
+    <div class="inner">
+      <div class="el h fit" data-in="23.25" data-fx="slam">No somos</div>
+      <div class="el h fit" data-in="23.5" data-fx="slam">un partido.</div>
+      <div class="el s fit" data-in="24" data-fx="slam">Somos un punto</div>
+      <div class="el s fit" data-in="24.25" data-fx="slam">de partida.</div>
+    </div>
+  </section>
+
+  <!-- S8: el futuro no viene hecho -->
+  <section class="scene tint" data-in="25" data-out="27.0" style="justify-content:flex-end;padding-bottom:520px">
+    <div class="el bigarrow" data-in="25" data-fx="arrow">↗</div>
+    <div class="inner">
+      <div class="el h fit" data-in="25.25" data-fx="slam">El futuro</div>
+      <div class="el s fit" data-in="25.75" data-fx="slam">no viene hecho.</div>
+    </div>
+  </section>
+
+  <!-- S9: CTA -->
+  <section class="scene" id="cta" data-in="27" data-out="99">
+    <div class="inner">
+      <div class="el eyebrow" data-in="27" data-fx="rise">El siguiente paso no es un eslogan.</div>
+      <div class="el h fit" data-in="27.25" data-fx="slam" data-max="178">Hazte</div>
+      <div class="el h fit" data-in="27.5" data-fx="slam">simpatizante.</div>
+      <div class="el s fit" data-in="27.75" data-fx="slam">Construyamos juntos.</div>
+      <div class="el qr" data-in="28.25" data-fx="pop"><img src="qr-simpatizante.svg" alt=""><div class="txt"><b>Escanea y apúntate.</b>Recibe novedades de OpenSpain.</div></div>
+      <div class="el url" data-in="28.75" data-fx="rise">o entra en <span style="color:var(--blue)">openspain.github.io</span> ↗</div>
+      <div class="el legal" data-in="29.25" data-fx="rise">No es afiliación, ni firma ni compromiso de aval electoral.</div>
+    </div>
+  </section>
+
+  <div class="logo" id="logo"></div>
+  <div id="progress"></div>
+</div>
+<script>
+// PACE estira la línea de tiempo (permanencia de cada escena); ANIM suaviza cada animación.
+const PACE = 1.4, ANIM = 1.2, CTA_AT = 27 * PACE, CTA_HOLD = 7;
+const DURATION = CTA_AT + CTA_HOLD;
+const W = 1080, PAD = 90;
+const clamp = (x, a = 0, b = 1) => Math.min(b, Math.max(a, x));
+const easeOut = p => 1 - Math.pow(1 - p, 3);
+const easeInOut = p => p < .5 ? 4 * p * p * p : 1 - Math.pow(-2 * p + 2, 3) / 2;
+const easeOutBack = p => { const c = 1.6; return 1 + (c + 1) * Math.pow(p - 1, 3) + c * Math.pow(p - 1, 2); };
+const TRANS = 0.4;
+
+const logoSvg = text => `<svg viewBox="80 30 1040 180" xmlns="http://www.w3.org/2000/svg">
+  <g fill="none" stroke="#2459df" stroke-width="8" stroke-linecap="square"><path d="M 151 60 A 82 82 0 1 0 215 122"/><path d="M 174 101 L 229 46 M 210 46 H 229 V 65" stroke-width="5"/></g>
+  <path fill="#2459df" fill-rule="evenodd" d="M 167 140 A 32 32 0 1 1 103 140 A 32 32 0 1 1 167 140 Z M 145 140 A 10 10 0 1 0 125 140 A 10 10 0 1 0 145 140 Z"/>
+  <g fill="${text}" font-family="'Avenir Next', Avenir, sans-serif" font-size="120"><text x="270" y="179" font-weight="900" textLength="300" lengthAdjust="spacingAndGlyphs">open</text><text x="570" y="179" font-weight="400" textLength="310" lengthAdjust="spacingAndGlyphs">spain</text></g>
+  <circle cx="903" cy="164" r="15" fill="#2459df"/>
+  <clipPath id="flag"><rect x="969" y="100" width="125" height="82" rx="8"/></clipPath>
+  <g clip-path="url(#flag)"><path fill="#aa2525" d="M 969 100 H 1094 V 182 H 969 Z"/><path fill="#f0c83d" d="M 969 120.5 H 1094 V 161.5 H 969 Z"/></g></svg>`;
+const logo = document.getElementById('logo');
+logo.innerHTML = logoSvg('#15243e');
+let logoDark = false;
+
+const scenes = [...document.querySelectorAll('.scene')];
+scenes.forEach((s, i) => { s.style.zIndex = i + 1; s._in = +s.dataset.in * PACE; s._out = +s.dataset.out * PACE; });
+const els = [...document.querySelectorAll('.el')];
+for (const el of els) { el._in = +el.dataset.in * PACE; el._out = el.dataset.out ? +el.dataset.out * PACE : 999; }
+
+// Ajusta cada titular al ancho útil, con un tope por línea.
+function fitAll() {
+  for (const el of document.querySelectorAll('.fit')) {
+    const sc = el.closest('.scene'); const was = sc.style.display; sc.style.display = 'flex';
+    el.style.width = 'max-content';
+    let lo = 40, hi = 600;
+    while (hi - lo > 1) { const mid = (lo + hi) / 2; el.style.fontSize = mid + 'px'; if (el.getBoundingClientRect().width > W - PAD * 2) hi = mid; else lo = mid; }
+    el.style.fontSize = Math.min(lo, +(el.dataset.max || 260)) + 'px';
+    el.style.width = ''; sc.style.display = was;
+  }
+}
+
+const HITS = [...new Set(els.filter(e => ['slam', 'pop', 'strike'].includes(e.dataset.fx)).map(e => e._in))].sort((a, b) => a - b);
+const FLASHES = scenes.map(s => s._in);
+
+function render(t) {
+  let top = null;
+  for (const sc of scenes) {
+    // La escena se revela antes de su entrada para quedar completa justo en el golpe.
+    const start = sc._in === 0 ? 0 : sc._in - TRANS;
+    const on = t >= start && t < sc._out;
+    sc.classList.toggle('on', on);
+    if (!on) continue;
+    const p = easeInOut(clamp((t - start) / TRANS));
+    sc.style.clipPath = sc._in === 0 ? 'none' : `circle(${p * 120}% at 50% 50%)`;
+    if (t >= sc._in - TRANS / 2) top = sc;
+    const inner = sc.querySelector('.inner');
+    if (inner) inner.style.transform = `scale(${1 + Math.max(0, t - sc._in) * 0.008})`;
+  }
+
+  for (const el of els) {
+    const on = t >= el._in && t < el._out;
+    el.classList.toggle('on', on);
+    if (!on) continue;
+    const l = (t - el._in) / ANIM, fx = el.dataset.fx;
+    let tr = '', op = 1;
+    if (fx === 'slam') {
+      const p = clamp(l / 0.13);
+      tr = `translateY(${(1 - easeOut(p)) * 30}px) scale(${1.18 - 0.18 * easeOutBack(p)})`; op = clamp(l / 0.03);
+    } else if (fx === 'rise') {
+      const p = easeOut(clamp(l / 0.35)); tr = `translateY(${(1 - p) * 40}px)`; op = p;
+    } else if (fx === 'wipe') {
+      const p = easeOut(clamp(l / 0.35)); el.style.clipPath = `inset(-10% ${(1 - p) * 100}% -10% 0)`;
+    } else if (fx === 'strike') {
+      tr = `scaleX(${easeOut(clamp(l / 0.16))}) rotate(-2deg)`;
+    } else if (fx === 'slide') {
+      const p = easeOutBack(clamp(l / 0.3)); tr = `translateX(${(1 - p) * 1100}px)`;
+    } else if (fx === 'pop') {
+      const p = clamp(l / 0.35); tr = `scale(${0.6 + 0.4 * easeOutBack(p)})${el.classList.contains('float') ? ' rotate(-4deg)' : ''}`; op = clamp(l / 0.1);
+    } else if (fx === 'arrow') {
+      const p = easeOut(clamp(l / 0.55));
+      tr = `translate(${(1 - p) * -260 + l * 24}px, ${(1 - p) * 260 - l * 24}px) rotate(-8deg)`; op = p;
+    }
+    el.style.transform = tr; el.style.opacity = op;
+    const num = el.querySelector('[data-count]');
+    if (num) num.textContent = Math.round(easeOut(clamp((l - 0.2) / +num.dataset.dur)) * +num.dataset.count);
+  }
+
+  // Punto dorado recorriendo la órbita.
+  const a = t * 1.6, rx = 430, ry = 170, rot = -18 * Math.PI / 180;
+  const x = rx * Math.cos(a), y = ry * Math.sin(a);
+  const dot = document.getElementById('orbit-dot');
+  dot.setAttribute('cx', 560 + x * Math.cos(rot) - y * Math.sin(rot));
+  dot.setAttribute('cy', 480 + x * Math.sin(rot) + y * Math.cos(rot));
+
+  const dark = top?.classList.contains('navy');
+  if (dark !== logoDark) { logo.innerHTML = logoSvg(dark ? '#f8f6f0' : '#15243e'); logoDark = dark; }
+  logo.style.opacity = clamp(t / 0.3);
+  document.getElementById('progress').style.width = (clamp(t / CTA_AT) * 100) + '%';
+  document.getElementById('progress').style.opacity = t < CTA_AT ? 1 : 0;
+}
+
+window.DURATION = DURATION; window.PACE = PACE; window.HITS = HITS; window.FLASHES = FLASHES; window.render = render;
+window.ready = document.fonts.ready.then(() => Promise.all([...document.images].map(i => i.decode().catch(() => {})))).then(() => { fitAll(); render(0); });
+if (!navigator.webdriver) window.ready.then(() => { const t0 = performance.now(); const loop = () => { render(((performance.now() - t0) / 1000) % DURATION); requestAnimationFrame(loop); }; loop(); });
+</script>
+</body>
+</html>

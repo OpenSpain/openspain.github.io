@@ -15,13 +15,32 @@ Mejorar la calidad de vida en España mediante instituciones fiables, vivienda a
 - **Participación plural:** recoger aportaciones de ciudadanía, profesionales y personas afectadas, sin exigir afiliación política.
 - **Unir esfuerzos, no repartir culpas:** buscar soluciones compartidas, reconocer aportaciones ajenas y corregir errores propios. El «y tú más» no sustituye responder por una decisión; cooperar no significa ocultar responsabilidades, renunciar a la crítica ni pensar todos igual.
 
+### 1.1. Diez exigencias ciudadanas al Gobierno y a nuestros representantes
+
+No pedimos que todos pensemos igual. Exigimos unas reglas mínimas a cualquier gobierno y representante, sea del partido que sea, también a quienes votamos. La responsabilidad política no empieza únicamente cuando hay una condena penal; una sospecha tampoco equivale a culpabilidad.
+
+- **1. La verdad ante el Parlamento.** Rectificar públicamente los errores y dimitir cuando se acredite una mentira deliberada sobre hechos relevantes, mediante un procedimiento con independencia, pruebas, audiencia y resolución motivada. Opiniones, previsiones fallidas y cambios de criterio no son por sí solos mentiras. La renuncia al escaño no se presenta como pérdida automática del mandato. Desarrollo: [integridad pública](#eje-1).
+- **2. Reglas éticas con consecuencias.** Un código público que explique obligaciones, investigación de incumplimientos y consecuencias proporcionadas. Cumplir la ley es obligatorio, pero no agota la responsabilidad política. Desarrollo: [integridad pública](#eje-1).
+- **3. Saber quién asesora y por qué.** Publicar funciones, currículum profesional pertinente, retribución y justificación del nombramiento de asesores y personal de confianza, respetando datos privados. Desarrollo: [transparencia y nombramientos](#eje-1).
+- **4. Competencia para gestionar, no favoritismo.** Selección transparente y auditorías de adecuación al puesto para funciones técnicas y directivas. No exigir un título universitario para representar a la ciudadanía ni confundir títulos con capacidad. Desarrollo: [mérito y controles](#eje-1) y [administración eficaz](#eje-6).
+- **5. Conflictos de interés prevenidos desde el primer día.** Declararlos, revisarlos de forma independiente y resolverlos mediante medidas escritas, abstención efectiva y sustitución cuando corresponda. Incluir intereses familiares relevantes sin convertir el parentesco en prueba de una infracción. Desarrollo: [sistema preventivo de conflictos de interés](#eje-23).
+- **6. Dinero público y financiación política rastreables.** Cuentas comprensibles, contratos y subvenciones contrastables, controles independientes y seguimiento público de recomendaciones. Desarrollo: [financiación e integridad](#eje-1) y [contratación pública](#eje-12).
+- **7. Representantes accesibles y que rindan cuentas.** Encuentros periódicos abiertos en sus circunscripciones, preguntas ciudadanas y seguimiento público de compromisos. No basta con aparecer durante la campaña. Desarrollo: [rendición de cuentas democrática](#eje-22).
+- **8. Debate parlamentario sin insultos personales.** Reglas claras y medidas disciplinarias proporcionadas, incluida la expulsión de la sesión cuando proceda, con garantías frente a su uso partidista. Discrepar con dureza no equivale a insultar. Desarrollo: [calidad del debate y participación](#eje-22).
+- **9. Vivienda asequible entregada, no solo anunciada.** Ampliar el alquiler asequible mediante actuaciones públicas y colaboración privada cuando aporte valor, preservando el patrimonio público y la asequibilidad. Medir viviendas disponibles y esfuerzo económico de los hogares. Desarrollo: [vivienda accesible](#eje-2).
+- **10. Oportunidades reales para construir una vida.** Educación con conocimientos básicos, pensamiento crítico y experiencia práctica; menos trámites redundantes para trabajar y emprender, sin eliminar protecciones necesarias. Medir obstáculos eliminados y resultados, no únicamente ayudas anunciadas. Desarrollo: [educación](#eje-9), [empleo](#eje-4) y [emprendimiento](#eje-14).
+
+Cada exigencia se desarrolla en los ejes enlazados y deberá concretarse con responsable competente, plazo, prueba de cumplimiento y respuesta ante el incumplimiento antes de ejecutarse. El decálogo no activa nuevos pilotos ni modifica las metas ya propuestas; las ampliaciones requieren diagnóstico, desarrollo jurídico, recursos y financiación.
+
+Estas propuestas recogen ideas de la transcripción de una entrevista a Miriam González sobre España Mejor facilitada por una persona participante: ética pública, asesores, mérito, conflictos de interés, encuentros ciudadanos, debate, vivienda y oportunidades. No se presentan como citas literales, como reproducción de sus 99 principios ni como colaboración o respaldo de esa organización. Las cifras, acusaciones y comparaciones de la entrevista no se incorporan como hechos verificados.
+
 ## 2. Mapa de problemas y propuestas
 
 Los problemas siguientes son hipótesis de trabajo y preocupaciones ciudadanas. Su alcance y sus causas deben contrastarse antes de aprobar medidas.
 
 **Primera lectura:** cada eje empieza con una explicación en párrafos cortos que une el problema, la propuesta, un ejemplo y los intereses que hay que equilibrar, sin repetir etiquetas. Los ejemplos son situaciones hipotéticas: ayudan a entender una medida, pero no son casos documentados, resultados obtenidos ni derechos nuevos. No necesitas compartir una etiqueta política para valorar una propuesta; sí conocer sus beneficios posibles, costes y límites.
 
-**Para profundizar:** «Plan de actuación» reúne los objetivos del primer año y de cuatro años, el calendario y los responsables. Después encontrarás gráficos y «La propuesta en detalle»: explica el problema y las alternativas, conserva las medidas en una lista y desarrolla su evaluación, fuentes, costes y garantías en párrafos sin etiquetas repetidas. Las cantidades y los plazos se conservan para poder exigir explicaciones: son planes propuestos para ámbitos delimitados, no previsiones nacionales ni resultados garantizados.
+**Para profundizar:** «Plan de actuación» reúne los objetivos del primer año y de cuatro años, el calendario y los responsables. Después encontrarás gráficos y una explicación del problema y las alternativas, las medidas en una lista y su evaluación, fuentes, costes y garantías en párrafos sin etiquetas repetidas. Las cantidades y los plazos se conservan para poder exigir explicaciones: son planes propuestos para ámbitos delimitados, no previsiones nacionales ni resultados garantizados.
 
 **Palabras que usamos:** «trazabilidad» significa poder seguir quién decide, qué hace y con qué dinero; «interoperabilidad», que sistemas distintos puedan intercambiar información con autorización; «línea base», la situación medida antes de empezar; «cohorte», el mismo grupo seguido durante un período; y «adicionalidad», la mejora que no habría ocurrido sin la ayuda o medida. Medir una actividad no demuestra que haya causado un resultado.
 
@@ -47,7 +66,7 @@ En cuatro años, el objetivo es extender a 30 entidades, alcanzar un 95 % de pub
 
 La ejecución correspondería a unidades de transparencia y órganos de control; el calendario previsto incluye catálogo, diagnóstico y recursos en M1–M3; publicación reutilizable y registro de recomendaciones en M4–M6; revisión trimestral desde M7. La fiscalización será independiente del equipo fiscalizado.
 
-#### La propuesta en detalle
+<!-- proposal-detail -->
 
 Queremos estudiar las posibles irregularidades en financiación, nombramientos, subvenciones y contratación, así como los conflictos de interés y las dificultades para exigir cuentas. Una sospecha requiere comprobación; no equivale a un delito demostrado.
 
@@ -59,10 +78,16 @@ Para abordar estos problemas, proponemos las siguientes medidas:
 - Publicar la financiación de sindicatos y organizaciones empresariales, distinguiendo cuotas, servicios, patrimonio, subvenciones y contratos públicos. Contrastar sus cuentas auditadas con presupuestos, resoluciones y la Base de Datos Nacional de Subvenciones, sin depender únicamente de datos de los propios beneficiarios ni revelar identidades de afiliados [F38].
 - Evaluar finalidad, resultados e independencia de las subvenciones sindicales y comparar mantenerlas con condiciones, reducirlas o sustituirlas por recursos propios. Estimar efectos sobre representación y servicios antes de cambiar el modelo; recibir financiación pública no demuestra por sí solo obediencia política ni corrupción.
 - Exigir criterios públicos de acceso a ayudas y canales independientes de reclamación frente a concesiones partidistas, coacciones o compra de votos. Investigar indicios con garantías, sin presumir cómo votan las personas beneficiarias ni condicionar sus derechos políticos a recibir una ayuda.
+- Conectar los controles de integridad electoral del eje 22 con canales seguros para denunciar compra de votos, suplantaciones, coacciones o uso partidista de recursos públicos. Remitir indicios documentados a los órganos electorales, Fiscalía o tribunales según proceda, conservando pruebas y protegiendo a denunciantes; no atribuir fraude a un partido o modalidad de voto por una sospecha.
 - Reforzar la independencia, los recursos y la capacidad de seguimiento de los órganos de fiscalización.
 - Establecer criterios públicos de mérito y procedimientos transparentes para puestos técnicos y directivos.
+- Publicar funciones, currículum profesional pertinente, retribución y justificación del nombramiento de asesores y personal de confianza, con los límites legales de protección de datos. Justificar la necesidad del puesto, no solo su ocupación.
+- Auditar la adecuación de capacidades y experiencia a funciones técnicas y directivas mediante criterios previos y revisión independiente, sin exigir titulaciones como condición general para representar a la ciudadanía ni presumir incapacidad por afiliación política.
+- Proponer un código ético público para el Gobierno y compromisos equivalentes para representantes, con obligaciones concretas, órgano revisor competente, procedimiento, consecuencias proporcionadas y publicación de su cumplimiento. No sustituir la ley ni dejar su aplicación únicamente al criterio del cargo afectado.
+- Exigir rectificación pública de errores ante el Parlamento y dimisión cuando se acredite una mentira deliberada sobre hechos relevantes, con independencia, pruebas, audiencia y resolución motivada. Distinguir responsabilidad política de delito y diferenciar ministros y otros cargos del Ejecutivo de diputados y senadores; estudiar el encaje jurídico de cada consecuencia, sin presentar la pérdida del escaño como automática.
 - Proteger a quienes denuncien irregularidades y facilitar canales seguros con seguimiento.
 - Aplicar controles proporcionados sobre conflictos de interés y puertas giratorias, con sanciones efectivas y garantías.
+- Conectar esos controles con el sistema preventivo del eje 23: declaraciones al inicio y durante el mandato, revisión independiente, medidas escritas, abstenciones efectivas, sustitución y seguimiento.
 - Preparar un mapa abierto de decisiones y cargos que conecte personas, funciones, instituciones, nombramientos, intereses declarados y contratos mediante relaciones documentadas. Cada conexión incluirá fuente, fecha y tipo de relación; se distinguirán hechos, datos pendientes e indicios sometidos a revisión, sin llamar «red clientelar» a una mera coincidencia.
 - Utilizar estimación asistida por IA para identificar posibles sobrecostes en contratación, con el método, los límites y la revisión humana descritos en el eje de licitaciones. Una desviación estimada no demuestra por sí sola corrupción.
 
@@ -72,11 +97,15 @@ En las ayudas, contrastaremos la financiación pública y propia de cada entidad
 
 El mapa reutilizará registros y documentos oficiales antes de crear otra base de datos. Verificaremos identidades para evitar confundir homónimos, conservaremos fechas de vigencia y ofreceremos corrección y revisión. Una relación profesional, familiar o partidista no demuestra trato de favor; no recopilaremos familiares por defecto ni publicaremos domicilios, contactos privados u otros datos innecesarios. El acceso público a un documento no elimina la obligación de justificar su reutilización y proteger datos personales. Mediremos cobertura documental y errores de enlace, no personas supuestamente corruptas.
 
+La revisión de veracidad identificará la afirmación concreta, su relevancia, las pruebas de falsedad y de conocimiento de esa falsedad y la respuesta del afectado. Una opinión, una previsión fallida, un cambio de criterio o un error de buena fe no equivalen por sí solos a mentir deliberadamente. No se creará un mecanismo para sancionar discrepancias políticas. La rectificación deberá quedar vinculada a la intervención original. El compromiso de renuncia de un representante no equivale a que una comisión pueda retirar su escaño; cualquier mecanismo obligatorio requiere analizar las garantías del mandato y la reforma correspondiente [F35].
+
+Para asesores, código ético y veracidad, publicaremos cobertura de puestos con documentación exigible completa, revisiones pendientes, rectificaciones y resoluciones motivadas dentro del plazo fijado antes de aplicar cada medida. Una auditoría de mérito no sustituye los procedimientos de selección o cese ni permite represalias políticas. Estos desarrollos se integran en el frente de integridad según capacidad, sin cambiar sus metas ni declarar instituciones adheridas.
+
 El Estado y las demás administraciones aplicarían las medidas dentro de sus atribuciones. Los órganos de control y la justicia actuarían con independencia.
 
 El diagnóstico deberá revisar auditorías, financiación política, resoluciones y cumplimiento de transparencia. Antes de aprobar medidas, habrá que comprobar el alcance, la actualidad y las limitaciones de estas fuentes.
 
-El coste y su financiación están pendientes de estimación. El cálculo deberá incluir fiscalización, canales de denuncia, sistemas de publicación y revisión de ayudas y financiación sindical. No hay presupuesto ni financiación aprobados en este borrador.
+El coste y su financiación están pendientes de estimación. El cálculo deberá incluir fiscalización, canales de denuncia, sistemas de publicación, auditorías de mérito, revisión del código ético y de veracidad parlamentaria y revisión de ayudas y financiación sindical. No hay presupuesto ni financiación aprobados en este borrador.
 
 La aplicación deberá evitar acusaciones sin prueba, proteger denunciantes y preservar independencia judicial.
 
@@ -98,7 +127,7 @@ En cuatro años, el objetivo es tener las 150 viviendas realmente disponibles y 
 
 La ejecución correspondería a ayuntamientos y comunidad autónoma; el calendario previsto incluye inventario de demanda, suelo y vivienda recuperable en M1–M3; personal técnico, financiación y contratos en M4–M6; licencias y adjudicaciones en M7–M12; rehabilitación, movilización o construcción en M13–M36; comprobación de ocupación y mantenimiento en M37–M48. Coordinar garantías de alquiler, mediación y apoyos vulnerables sin sustituir decisiones judiciales.
 
-#### La propuesta en detalle
+<!-- proposal-detail -->
 
 Alquilar o comprar resulta difícil para muchos hogares, especialmente donde se concentra el empleo. Queremos comprobar dónde faltan viviendas asequibles y qué obstáculos impiden construir, rehabilitar o poner en uso las que ya existen.
 
@@ -108,6 +137,7 @@ Para abordar estos problemas, proponemos las siguientes medidas:
 
 - Elaborar diagnósticos locales de demanda, oferta, suelo disponible, vivienda vacía y capacidad de infraestructuras.
 - Aumentar el parque público y protegido de alquiler con mecanismos que preserven su asequibilidad a largo plazo.
+- Evaluar colaboración pública y privada para ampliar alquiler asequible cuando aporte valor verificable, con adjudicación transparente, reparto explícito de riesgos, mantenimiento y condiciones que preserven el patrimonio aportado públicamente y su finalidad asequible a largo plazo. No contabilizar anuncios o convenios como viviendas entregadas.
 - Evaluar habilitar suelo residencial y revisar restricciones urbanísticas innecesarias donde exista demanda acreditada, con costes de urbanización, agua, transporte y servicios financiados y respeto a seguridad, ambiente y garantías. No confundir reclasificar suelo con entregar viviendas habitables ni prometer que todo suelo debe urbanizarse.
 - Agilizar licencias con procedimientos claros, plazos verificables y personal suficiente, sin eliminar controles de seguridad o ambientales.
 - Facilitar rehabilitación y movilización de vivienda vacía mediante incentivos y garantías evaluables, distinguiendo viviendas habitables de inmuebles inutilizables.
@@ -165,7 +195,7 @@ En cuatro años, el objetivo es extender a 10 municipios, comprobar el 95 % de l
 
 La ejecución correspondería a turismo autonómico, ayuntamientos e inspección; el calendario previsto incluye muestra y acceso legal a registros en M1–M3; coordinación con plataformas y notificaciones en M4–M6; expedientes con garantías desde M7. Proponer límites territoriales solo donde el diagnóstico los justifique.
 
-#### La propuesta en detalle
+<!-- proposal-detail -->
 
 En algunas localidades, la vivienda turística puede desplazar alquiler residencial, aumentar la presión sobre los barrios o funcionar sin la autorización exigida. Su impacto debe comprobarse en cada zona: no explica por sí solo todos los precios de la vivienda.
 
@@ -214,7 +244,7 @@ En cuatro años, el objetivo es incorporar 1.000 pymes y 5.000 trabajadores al s
 
 La ejecución correspondería a servicios de empleo, empresas y agentes sociales; el calendario previsto incluye sectores y medición inicial en M1–M3; formación aplicada, inversión y acuerdos de reparto de mejoras en M4–M6; aplicación desde M7. Ampliar en años 2–4 solo con resultados y financiación.
 
-#### La propuesta en detalle
+<!-- proposal-detail -->
 
 Queremos estudiar los salarios que no alcanzan para afrontar el coste de vida, la baja productividad de determinados sectores y las dificultades para desarrollar una carrera profesional.
 
@@ -260,7 +290,7 @@ En cuatro años, el objetivo es mantener 15 aplicaciones evaluadas y lograr que 
 
 La ejecución correspondería a titulares de los procesos, centros tecnológicos y responsables de datos; el calendario previsto incluye tareas y pruebas en M1–M3; contratación interoperable y portabilidad en M4–M6; pilotos supervisados en M7–M12; ampliación de casos útiles en años 2–4.
 
-#### La propuesta en detalle
+<!-- proposal-detail -->
 
 Queremos identificar qué impide desarrollar tecnología propia, adoptar herramientas que realmente ayuden y llevar los resultados de la investigación a empresas y servicios.
 
@@ -305,7 +335,7 @@ En cuatro años, el objetivo es extender a 50 procedimientos y 10 administracion
 
 La ejecución correspondería a administraciones participantes; el calendario previsto incluye mapa de procesos y cargas en M1–M3; recursos, formación e intercambio legal de datos en M4–M6; eliminación de pasos redundantes desde M7. Tramitar por separado reorganizaciones que requieran reformas y descontar transición del ahorro neto.
 
-#### La propuesta en detalle
+<!-- proposal-detail -->
 
 Los trámites repetidos, las competencias que se solapan y los sistemas que no intercambian información pueden dificultar la atención. Esto no permite presumir que sobre personal en todos los servicios: antes hay que conocer su trabajo y sus necesidades.
 
@@ -369,7 +399,7 @@ Sobre el teletrabajo internacional, los artículos 74 quater y 74 quinquies de l
 
 Antes de M12, se propone publicar una comparación jurídica y económica de ambas opciones, con tiempos, coste administrativo, atracción y retención, vivienda y servicios; someter una propuesta motivada a las instituciones competentes. En M48, informar si se aprobó y aplicó, de sus resultados o del bloqueo. No contabilizar una propuesta como permisos concedidos.
 
-#### La propuesta en detalle
+<!-- proposal-detail -->
 
 Queremos estudiar las entradas y estancias irregulares, la explotación laboral, los obstáculos administrativos y la capacidad de acogida e integración. Una situación administrativa irregular no debe equipararse automáticamente con delincuencia.
 
@@ -419,7 +449,7 @@ En cuatro años, el objetivo es actualizar anualmente la evaluación y lograr qu
 
 La ejecución correspondería a departamento competente en relaciones exteriores, ICEX y evaluadores independientes; el calendario previsto incluye preguntas y mercados en M1–M3; contratación del estudio y apoyo comercial en M4–M6; publicación y acompañamiento de operaciones desde M7.
 
-#### La propuesta en detalle
+<!-- proposal-detail -->
 
 Queremos comprobar cómo aprovechar la cooperación internacional para mejorar la seguridad, las oportunidades económicas, la investigación y la autonomía estratégica.
 
@@ -477,7 +507,7 @@ En cuatro años, el objetivo es extender a 100 centros y 500 docentes y mantener
 
 La ejecución correspondería a autoridades educativas autonómicas y centros; el calendario previsto incluye materiales, rúbrica y evaluación externa en M1–M3; adaptación curricular y formación en M4–M6; actividades prácticas desde M7. Comparar con grupos semejantes antes de ampliar.
 
-#### La propuesta en detalle
+<!-- proposal-detail -->
 
 Queremos comprobar si el alumnado adquiere herramientas suficientes para entender información, gestionar dinero y cuidar su bienestar, y qué apoyos necesita para utilizarlas.
 
@@ -531,7 +561,7 @@ En cuatro años, el objetivo es ampliar a 1.000 profesionales, alcanzar un 95 % 
 
 La ejecución correspondería a entidades contratantes, áreas de cultura y organizaciones profesionales; el calendario previsto incluye auditar facturas y seleccionar participantes en M1–M3; mentorías y contratos claros en M4–M6; conexión con clientes y seguimiento de pagos desde M7.
 
-#### La propuesta en detalle
+<!-- proposal-detail -->
 
 Muchas personas encuentran dificultades para convertir sus capacidades creativas o especializadas en ingresos sostenibles. Queremos conocer qué barreras afectan a sus contratos, cobros y continuidad profesional.
 
@@ -576,7 +606,7 @@ En cuatro años, el objetivo es conseguir inversión privada para 30 de esos pro
 
 La ejecución correspondería a agencias de inversión, universidades y empresas; el calendario previsto incluye obstáculos en M1–M3; permisos, preparación financiera y conexiones con capital en M4–M6; desembolsos y ejecución desde M7. Las empresas deciden invertir; la coinversión pública requiere presupuesto y selección competitiva.
 
-#### La propuesta en detalle
+<!-- proposal-detail -->
 
 Queremos identificar las barreras que dificultan atraer y mantener inversión capaz de generar empleo de calidad, tecnología y relaciones con proveedores locales.
 
@@ -637,7 +667,7 @@ En cuatro años, el objetivo es extender a 20 entidades y 1.000 contratos; reduc
 
 La ejecución correspondería a unidades de contratación y órganos competentes de control; el calendario previsto incluye enlazar presupuesto, licitación, adjudicación, modificaciones, facturas y entrega en M1–M6; publicar datos no reservados y activar revisión desde M7; ampliar tras evaluación. Coordinar con controles existentes, no duplicarlos con un organismo sin función definida.
 
-#### La propuesta en detalle
+<!-- proposal-detail -->
 
 Queremos estudiar los sobrecostes, la escasa competencia en contratos, los requisitos que excluyen proveedores y las posibles influencias indebidas. Un precio alto no demuestra por sí solo corrupción; representar intereses tampoco es ilícito por definición.
 
@@ -692,7 +722,7 @@ En cuatro años, el objetivo es extender a 10 áreas y reducir un 25 % la espera
 
 La ejecución correspondería a servicios de salud autonómicos y direcciones clínicas; el calendario previsto incluye demanda, capacidad y prioridades en M1–M3; presupuesto de personal, agendas y continuidad en M4–M6; ejecución desde M7. Comparar refuerzo público y colaboración privada por coste completo y resultado, sin seleccionar solo casos fáciles.
 
-#### La propuesta en detalle
+<!-- proposal-detail -->
 
 Las listas de espera, las diferencias territoriales y las dificultades para acceder a determinados servicios pueden perjudicar la atención y aumentar la presión económica sobre hogares y empresas.
 
@@ -751,7 +781,7 @@ En cuatro años, el objetivo es extender a 20 actividades y 15 municipios y alca
 
 La ejecución correspondería a ayuntamientos, comunidad autónoma y unidades estatales del trámite; el calendario previsto incluye inventario y eliminación de duplicidades en M1–M3; ventanilla coordinada y asistencia en M4–M6; seguimiento e inspección desde M7. Usar declaración responsable solo donde sea legalmente adecuada.
 
-#### La propuesta en detalle
+<!-- proposal-detail -->
 
 Los pequeños negocios pueden afrontar costes, trámites repetidos e incertidumbre al iniciar, mantener o cerrar una actividad. Crear una sociedad y conseguir los permisos para operar son procesos distintos: simplificar solo el primero no resuelve todo el problema.
 
@@ -764,6 +794,7 @@ Para abordar estos problemas, proponemos las siguientes medidas:
 - Reutilizar datos ya aportados cuando exista base legal y simplificar obligaciones según tamaño, complejidad y riesgo de la actividad.
 - Ampliar el uso de declaraciones responsables donde sea jurídicamente adecuado, con inspección posterior efectiva; no sustituir controles previos necesarios para salud, seguridad o medio ambiente.
 - Revisar barreras regulatorias que dificulten contratar, crecer o trabajar en distintos territorios, sin rebajar derechos laborales ni protección del consumidor.
+- Auditar recorridos completos de trámites con personas usuarias, incluidas jóvenes que emprenden: identificar cada requisito, su finalidad, coste, tiempo y administración responsable; eliminar duplicidades y barreras sin justificación acreditada por la vía legal o de coordinación correspondiente. Conservar controles necesarios y publicar cambios y resultados.
 - Facilitar el cierre ordenado y la segunda oportunidad, con garantías para trabajadores y acreedores.
 - Fomentar cultura emprendedora y formación práctica en ventas, finanzas, gestión, contratos y evaluación de riesgos, sin presentar crear una empresa como opción adecuada para todo el mundo.
 - Conectar proyectos con mentorías, clientes e inversores mediante programas abiertos y evaluables, distinguiendo acompañamiento de promesas de financiación.
@@ -777,6 +808,8 @@ Para abordar estos problemas, proponemos las siguientes medidas:
 Los expedientes y las tasas permitirán medir días y coste desde la solicitud completa hasta la autorización o habilitación legal para operar. Publicaremos también el tiempo desde el primer contacto, para no desplazar la espera fuera del indicador, y las solicitudes pendientes o rechazadas.
 
 Seguiremos horas de gestión, documentación repetida, inspecciones, incidencias y supervivencia empresarial. La rapidez no puede lograrse eliminando controles necesarios de seguridad, consumo o medio ambiente, ni reduciendo derechos o protección de acreedores.
+
+La auditoría de trámites distinguirá requisitos inventariados, cambios aprobados y obstáculos realmente eliminados. Medirá tiempo y coste del recorrido completo antes y después, con pendientes y rechazos, sin contar trasladar una obligación a otra oficina como simplificación. La coordinación entre administraciones deberá tener responsables y acuerdos documentados; participar no garantiza crédito ni éxito empresarial.
 
 El Estado, las comunidades autónomas y los ayuntamientos intervendrían según el trámite y sus atribuciones.
 
@@ -806,7 +839,7 @@ En cuatro años, el objetivo es extender el acompañamiento a 3.000 autónomos y
 
 La ejecución correspondería a Seguridad Social, áreas fiscales competentes y organizaciones de autónomos; el calendario previsto incluye perfiles y trámites en M1–M3; herramientas públicas y asistencia en M4–M6; seguimiento de regularizaciones desde M7. Cualquier cambio de cuotas o prestaciones se tramitará por la vía normativa competente, no por una exención informal del piloto.
 
-#### La propuesta en detalle
+<!-- proposal-detail -->
 
 Queremos estudiar cómo afectan las cotizaciones y las obligaciones administrativas a actividades con ingresos bajos, estacionales o imprevisibles, y qué relación existe entre lo aportado y la protección recibida.
 
@@ -856,7 +889,7 @@ En cuatro años, el objetivo es extender a 3.000 participantes y reducir un 30 %
 
 La ejecución correspondería a Hacienda, administraciones tributarias competentes y legisladores; el calendario previsto incluye perfiles y obligaciones en M1–M3; herramientas y eliminación legal de duplicidades en M4–M6; evaluación desde M7. Comparar IVA y ayudas directas antes de escoger una rebaja, verificando su traslado al precio.
 
-#### La propuesta en detalle
+<!-- proposal-detail -->
 
 Queremos comprobar la carga fiscal real de hogares y empresas, las dificultades para cumplir las obligaciones y los efectos de los impuestos sobre consumo, empleo e inversión. Para valorar si una carga es alta, hay que comparar ingresos, deducciones, servicios financiados y contribuyentes en condiciones semejantes.
 
@@ -911,7 +944,7 @@ En cuatro años, el objetivo es extender a 5.000 hogares y 200 pymes y reducir u
 
 La ejecución correspondería a administraciones energéticas y de vivienda, municipios y participantes; el calendario previsto incluye auditoría y selección de actuaciones en M1–M3; financiación de aislamiento, eficiencia y electrificación viable en M4–M6; instalación desde M7. Coordinar redes y suministro; evaluar aviación por pilotos y certificación, no prometer sustituir toda la flota.
 
-#### La propuesta en detalle
+<!-- proposal-detail -->
 
 Depender de combustibles importados expone al país a precios internacionales y dificulta reducir emisiones del transporte y la industria. Ganar independencia energética no significa necesariamente aislarse ni producir todos los recursos dentro del país.
 
@@ -965,7 +998,7 @@ En cuatro años, el objetivo es mantener 10 servicios usuarios y conseguir que a
 
 La ejecución correspondería a Agencia Espacial Española, autoridades usuarias y centros de investigación; el calendario previsto incluye necesidades en M1–M3; acceso a datos y acuerdos compatibles con programas europeos en M4–M6; pruebas y formación desde M7. Priorizar servicios útiles antes de infraestructura propia.
 
-#### La propuesta en detalle
+<!-- proposal-detail -->
 
 Queremos comprobar cómo desarrollar capacidades espaciales competitivas y utilizarlas para investigación, empleo cualificado y mejores servicios públicos.
 
@@ -1015,7 +1048,7 @@ La ejecución correspondería a entidades anunciantes y órganos independientes 
 
 El primer entregable de «¿Quién paga a quién?» sería seleccionar 1 entidad y 1 ejercicio con criterio publicado, inventariar fuentes y revisar hasta 10 expedientes de publicidad institucional, o todos si hay menos. Preparar un registro descargable y una vista administración → campaña → agencia → medio con enlaces verificables, importes y huecos explícitos. La aceptación exigirá revisión por una persona distinta de quien extrae los datos y conciliación con el gasto ejecutado publicado, o explicación de por qué no puede conciliarse. Podrá sustituir el caso de contratación del frente de integridad si se prioriza y hay recursos; no añade un cuarto frente ni da por activado todo el eje.
 
-#### La propuesta en detalle
+<!-- proposal-detail -->
 
 Queremos estudiar las interferencias políticas o económicas, la falta de claridad sobre financiación y propiedad y las dificultades para distinguir información, opinión y publicidad. Tener una línea editorial no equivale por sí solo a manipulación.
 
@@ -1071,7 +1104,7 @@ En cuatro años, el objetivo es alcanzar 40 proyectos y conseguir que el 60 % de
 
 La ejecución correspondería a municipios, comunidades, centros educativos y entidades culturales; el calendario previsto incluye convocatoria plural y accesible en M1–M3; facilitadores y pequeños proyectos con presupuesto en M4–M6; ejecución desde M7; seguimiento anual de continuidad.
 
-#### La propuesta en detalle
+<!-- proposal-detail -->
 
 La polarización alrededor de la Guerra Civil, el franquismo, los símbolos nacionales y los proyectos territoriales puede dificultar acuerdos. Queremos estudiar cómo construirlos sin excluir identidades ni opiniones democráticas.
 
@@ -1146,7 +1179,7 @@ En cuatro años, el objetivo es actualizar anualmente las cuentas y la comparaci
 
 La ejecución correspondería a instituciones constitucionales en su competencia y equipo de evaluación independiente; el calendario previsto incluye alcance y fuentes en M1–M3; análisis y participación en M4–M9; publicación en M10–M12. Si se promueve una reforma, definir después su tramitación constitucional, mayoría y costes.
 
-#### La propuesta en detalle
+<!-- proposal-detail -->
 
 Queremos estudiar qué aporta la monarquía parlamentaria, cómo rinde cuentas y si otros modelos institucionales podrían servir mejor a la ciudadanía. Hay que distinguir funciones constitucionales, conducta de personas concretas y preferencias sobre la forma de Estado.
 
@@ -1179,7 +1212,7 @@ La aplicación no deberá atribuir beneficios sin prueba ni confundir debate con
 
 ### 2.22. Democracia, igualdad del voto y conocimiento experto
 
-Queremos tomar decisiones informadas sin que tener más estudios, dinero o una profesión dé más valor al voto. Para ello, proponemos combinar información accesible, asesoría experta plural y participación ciudadana, manteniendo la igualdad política. Revisaríamos la proporcionalidad electoral y el cumplimiento de compromisos; recibir ayudas no justifica perder el derecho a votar.
+Queremos tomar decisiones informadas sin que tener más estudios, dinero o una profesión dé más valor al voto. Para ello, proponemos combinar información accesible, asesoría experta plural y participación ciudadana, manteniendo la igualdad política. Revisaríamos la proporcionalidad electoral y el cumplimiento de compromisos; recibir ayudas no justifica perder el derecho a votar. Proponemos también reforzar las garantías del voto presencial, por correo y desde el extranjero, con controles verificables que protejan el secreto del voto y no creen barreras innecesarias.
 
 En un caso hipotético, antes de una consulta sobre transporte se explican costes y alternativas, intervienen especialistas y se escuchan necesidades de usuarios. Una persona sin título participa en igualdad; las recomendaciones técnicas se publican, pero no sustituyen la decisión democrática.
 
@@ -1195,13 +1228,15 @@ En cuatro años, el objetivo es completar 12 deliberaciones y publicar respuesta
 
 La ejecución correspondería a instituciones convocantes, facilitadores independientes y asesores con conflictos declarados; el calendario previsto incluye pregunta, selección y prueba en M1–M3; información, apoyos y deliberación en M4–M9; evaluación y respuesta en M10–M12; nuevas rondas en años 2–4.
 
-#### La propuesta en detalle
+<!-- proposal-detail -->
 
 Las personas disponen de conocimientos, experiencia, tiempo y acceso a información diferentes. Queremos estudiar cómo mejorar las decisiones colectivas sin convertir esas diferencias en privilegios políticos, y discutir quién define qué conocimiento cuenta y cómo se controla a quienes deciden.
 
 La información accesible y una asesoría plural pueden ayudar a comprender las opciones sin dar más poder electoral a quienes tienen formación o riqueza. Compararemos la deliberación con consultas ordinarias, publicando sus límites. El conocimiento técnico y la legitimidad democrática cumplen funciones distintas.
 
 La democracia no consiste solo en votar o imponer la voluntad de una mayoría. También requiere derechos, pluralismo, elecciones libres, controles del poder, protección de minorías y posibilidad real de sustituir a los gobernantes.
+
+La integridad electoral exige prevenir suplantaciones, votos duplicados, compra de votos y coacciones sin excluir a quienes necesitan votar a distancia. Compararemos los controles vigentes y mejoras proporcionadas de identificación, custodia y trazabilidad, junto con su coste y sus efectos sobre el acceso. Una incidencia, una diferencia de resultados entre voto interior y exterior o una noticia sobre una investigación no demuestra por sí sola fraude ni que se haya alterado un resultado electoral; distinguiremos hechos acreditados, procedimientos abiertos e hipótesis.
 
 La igualdad del sufragio reconoce la misma condición política a las personas con derecho a votar; no afirma que todas sepan lo mismo ni que todas las opiniones técnicas sean igual de fiables. Un experto puede comprender mejor un asunto de su especialidad y, aun así, tener intereses propios o discrepar con otros especialistas sobre sus consecuencias.
 
@@ -1235,8 +1270,12 @@ Para abordar estos problemas, proponemos las siguientes medidas:
 - Probar procesos deliberativos con selección representativa, accesibilidad y compensación razonable para que participar no dependa de tener dinero o tiempo libre; aclarar si su función es consultiva.
 - Mejorar rendición de cuentas y evaluación de representantes y políticas por resultados, respeto a derechos y calidad de decisiones, no solo por credenciales académicas.
 - Publicar balances periódicos de compromisos electorales, incluido el programa del presidente y su Gobierno, con situación inicial, responsable, recursos, avances, bloqueos y cambios motivados. Definir periodicidad y criterios antes de evaluar, contrastar con fuentes independientes y distinguir un compromiso incumplido de un delito o de un resultado ajeno al control del gobernante.
+- Proponer encuentros abiertos al menos trimestrales de representantes con la ciudadanía de sus circunscripciones, con calendario accesible, preguntas sin filtro de afinidad partidista y respuestas o seguimiento público en un plazo propuesto de 30 días. Ofrecer participación presencial y alternativas accesibles, sin publicar datos personales de quienes consultan ni prometer resolver asuntos fuera de sus competencias.
+- Revisar reglas de debate parlamentario frente a insultos personales, con definiciones y medidas disciplinarias proporcionadas, incluida la expulsión de la sesión cuando proceda conforme al reglamento. Motivar decisiones y permitir revisión por los cauces aplicables; no confundir crítica política contundente con insulto ni usar la disciplina para silenciar a la oposición.
 - Distinguir igualdad del derecho al voto de las reglas que convierten votos en escaños; comparar proporcionalidad, circunscripciones y representación territorial con simulaciones sobre los mismos votos y explicar qué cambios bastarían por ley y cuáles exigen reforma constitucional [F35]. Tener más votos no garantiza más escaños ni permite atribuir corrupción sin indicios; la formación de Gobierno depende del procedimiento de investidura, no de una regla automática de partido más votado.
 - Proteger el sufragio universal e igual de quienes reciben prestaciones, becas o subvenciones: no retirar el voto por su situación económica o por recibir ayudas. Combatir compra de votos, coacciones y uso partidista de recursos mediante investigación y controles con garantías, no castigos colectivos [F35].
+- Garantizar un voto accesible, libre y verificable, tanto presencial como por correo y desde el extranjero. Revisar identificación del elector y prevención de suplantaciones y votos duplicados; reforzar custodia y trazabilidad de la documentación sin vincular identidad con opción votada. Promover controles independientes por los órganos competentes y preservar apoyos y vías legales para residentes en el exterior y personas con discapacidad, sin barreras innecesarias ni requisitos nuevos presentados como vigentes [F42].
+- Publicar información agregada sobre incidencias electorales y su resolución, con definiciones, ámbito, fechas y denominadores comparables. Facilitar instrucciones accesibles sobre censo, modalidades, plazos y reclamaciones según residencia y convocatoria; no confundir residentes ausentes (CERA) con residentes temporalmente en el extranjero (ERTA) ni afirmar que todo voto exterior exige acudir presencialmente al consulado. Conectar denuncias documentadas con los ejes 1 y 31, sin publicar datos personales, opción votada ni información que facilite eludir controles [F42].
 - Separar decisiones sobre fines y prioridades de la validación técnica de medios: publicar evidencia, revisión especializada y responsabilidades profesionales en salud, IA y otros ámbitos de riesgo.
 - Garantizar accesibilidad y protección frente a coacciones para personas mayores y otras que requieran apoyos, sin pruebas de estudios, afinidad política ni un límite superior de edad para votar.
 - Explicar públicamente las diferencias entre penas, inhabilitaciones y derechos electorales y aplicar únicamente las restricciones legalmente procedentes, mediante los órganos competentes y con garantías.
@@ -1245,15 +1284,23 @@ Antes de deliberar se publicará una prueba de comprensión y se compararán sus
 
 Las simulaciones electorales compararán proporcionalidad y representación en escenarios equivalentes. El seguimiento de compromisos recogerá balances publicados, verificación y cambios motivados, no solo anuncios. Mediremos comprensión, no apoyo a la opción del convocante. La deliberación será consultiva; no introduciremos votos de distinto valor ni exámenes para acceder al sufragio.
 
+Los encuentros ciudadanos se evaluarán por sesiones previstas y celebradas, accesibilidad, preguntas pendientes y respuestas o seguimientos en plazo, no por aplausos ni adhesiones políticas. Para el debate se revisarán decisiones disciplinarias motivadas y reclamaciones, sin puntuar ideologías. Estos compromisos y los de veracidad del eje 1 requieren acuerdo y, cuando proceda, reforma de los reglamentos parlamentarios por cada Cámara; no cambian las metas de deliberación ni activan un frente adicional.
+
+En integridad electoral, el diagnóstico separará solicitudes, documentación entregada, votos recibidos en plazo y votos admitidos, además de incidencias y reclamaciones resueltas, por modalidad y convocatoria cuando existan datos comparables. Evaluaremos cobertura de controles de custodia, tiempos de resolución y barreras de acceso con datos agregados y revisión independiente autorizada. Más denuncias no significa automáticamente más fraude, y una entrega trazable no prueba por sí sola la validez del voto. Antes de proponer cambios, habrá que documentar controles existentes, carencias acreditadas y alternativas; esta ampliación no modifica las metas de deliberación ni activa un nuevo piloto electoral.
+
 Cualquier cambio electoral debe analizarse conforme al sufragio universal e igual y a los derechos de participación. Un examen de votantes o un voto de distinto peso por títulos no es un simple ajuste administrativo. Las herramientas de IA tampoco deben clasificar ciudadanos como más o menos merecedores de representación.
 
 Las instituciones legislativas y electorales intervendrían dentro de sus atribuciones. Las administraciones educativas y los organismos públicos participarían en información, participación y evaluación.
+
+La revisión electoral requeriría participación de la administración electoral, la Oficina del Censo Electoral, Correos y los servicios consulares según sus competencias; los controles independientes no sustituirían las decisiones de las juntas electorales ni de los tribunales. OpenSpain puede analizar información pública y proponer mejoras, no acceder al censo individual, custodiar votos ni certificar elecciones.
 
 Las referencias jurídicas de partida son la Ley Orgánica del Régimen Electoral General, especialmente sus reglas de sufragio activo y pasivo, y la Ley Orgánica 2/2018 sobre participación electoral de personas con discapacidad. Las consecuencias de una condena concreta requieren examinar la sentencia y la normativa aplicable.
 
 El diagnóstico deberá revisar normativa electoral y evaluación de información y participación. Antes de aprobar medidas, habrá que comprobar el alcance, la actualidad y las limitaciones de estas fuentes.
 
-El coste y su financiación están pendientes de estimación. El cálculo deberá incluir educación cívica, asesoría, procesos deliberativos accesibles, simulaciones electorales y verificación de compromisos. No hay presupuesto ni financiación aprobados en este borrador.
+Para el voto por correo y exterior, la referencia de partida será la LOREG, especialmente sus artículos 72–75, y las instrucciones oficiales aplicables a cada convocatoria [F42]. El marco jurídico no acredita ausencia ni existencia de fraude; las afirmaciones sobre casos concretos requieren documentos contrastados y, cuando corresponda, resoluciones judiciales, sin extrapolar investigaciones locales al conjunto del sistema o a elecciones de otros países.
+
+El coste y su financiación están pendientes de estimación. El cálculo deberá incluir educación cívica, asesoría, procesos deliberativos accesibles, encuentros ciudadanos, seguimiento de preguntas, revisión de disciplina parlamentaria, simulaciones electorales, verificación de compromisos y revisión de identificación, custodia, trazabilidad, accesibilidad y reclamaciones electorales. No hay presupuesto ni financiación aprobados en este borrador.
 
 La aplicación deberá preservar la igualdad, la libertad del voto y los apoyos necesarios. Las credenciales no sustituirán la legitimidad democrática.
 
@@ -1275,7 +1322,7 @@ En cuatro años, el objetivo es ampliar como máximo a 10 equipos que superen ev
 
 La ejecución correspondería a administraciones empleadoras y órganos de control; el calendario previsto incluye compatibilidad jurídica y comparación de puestos en M1–M3; negociación, presupuesto y evaluación externa en M4–M6; aplicación desde M7. Un equipo jurídico plural preparará la propuesta para las instituciones legislativas competentes antes de M12. Sin habilitación legal se ensayará la medición, pero no se autorizarán actividades incompatibles ni se abonará remuneración nueva.
 
-#### La propuesta en detalle
+<!-- proposal-detail -->
 
 Queremos estudiar cómo atraer y retener personas competentes en responsabilidades públicas y reconocer resultados sin favorecer corrupción, decisiones interesadas o beneficios privados derivados del poder.
 
@@ -1304,6 +1351,11 @@ Para abordar estos problemas, proponemos las siguientes medidas:
 - Medir mejoras atribuibles de servicio, calidad, accesibilidad y eficiencia, ajustadas por recursos y contexto. No premiar exclusivamente recortes, multas, recaudación o denegaciones.
 - Impedir que una persona fije, evalúe o autorice por sí sola su propio incentivo; prever revisión y recuperación de pagos indebidos cuando exista base legal.
 - Analizar antes del nombramiento actividades, patrimonio e intereses relevantes, incluyendo incentivos diferidos u opciones que puedan depender de empresas afectadas por sus decisiones.
+- Implantar un sistema preventivo de conflictos de interés desde la toma de posesión, con declaración inicial, actualización durante el mandato, revisión independiente y asesoramiento escrito. Examinar intereses personales, profesionales, económicos y familiares pertinentes para las funciones del cargo, con base legal y datos proporcionados.
+- Distinguir conflictos reales, potenciales y aparentes; revisar riesgos razonables para la imparcialidad sin considerar una apariencia o parentesco como infracción acreditada. Dictar medidas escritas y motivadas por una unidad con autonomía funcional, recursos y protección frente a interferencias, sin permitir que el interesado se autorice a sí mismo ni duplicar órganos sin necesidad demostrada.
+- Hacer efectiva la abstención en expedientes, reuniones, instrucciones y decisiones afectados; designar un sustituto sin el mismo conflicto y registrar las medidas y su seguimiento. Si la abstención no neutraliza la influencia o existe una incompatibilidad, exigir la solución que corresponda, incluida la elección entre actividad y cargo.
+- Publicar un registro proporcionado de intereses relevantes, abstenciones y medidas preventivas legalmente publicables, con fechas, motivación y estado de cumplimiento; proteger datos privados, confidencialidad profesional y secretos legalmente protegidos, explicando las reservas de información.
+- Habilitar alertas seguras y revisión de incumplimientos del sistema, con protección frente a represalias, audiencia y recurso. Proponer consecuencias proporcionadas, incluida dimisión o cese por ocultación deliberada o incumplimiento grave acreditado según el cargo y el marco aplicable, sin imponer sanciones por una mera denuncia.
 - Conectar declaraciones legalmente publicables con cargos, competencias, nombramientos y decisiones documentadas en el mapa del eje 1; registrar abstenciones y resoluciones de compatibilidad cuando sean accesibles. No tratar una declaración como conflicto acreditado ni publicar relaciones familiares salvo pertinencia, base legal y revisión; habilitar corrección de identidades y datos.
 - Aplicar el régimen de compatibilidad correspondiente y controles sobre cambios patrimoniales, contratación y actividad posterior al cese. Declarar un interés o abstenerse en un expediente no resuelve por sí solo todas las incompatibilidades.
 - No proponer acciones o pagos de empresas reguladas, adjudicatarias o beneficiarias como recompensa personal por decisiones públicas que las favorezcan, aunque se alegue impacto positivo.
@@ -1314,6 +1366,12 @@ Para abordar estos problemas, proponemos las siguientes medidas:
 
 Las evaluaciones y registros competentes permitirán comparar plazos, calidad y accesibilidad del servicio con equipos semejantes, ajustando recursos y complejidad. Seguiremos capacidad de atraer talento, resultados atribuibles, coste total de remuneración, cumplimiento de controles, resolución de conflictos y pagos corregidos.
 
+El sistema preventivo pondrá la obligación sobre quien ejerce poder público, no sobre sus familiares por defecto. Desde la toma de posesión se revisará la declaración y se entregarán instrucciones escritas; los cambios relevantes se declararán y revisarán antes de intervenir en la decisión afectada. Antes de implantarlo, cada administración deberá fijar responsables, plazos, suplencias y recursos, aprovechando los órganos existentes si pueden garantizar independencia y capacidad. Una consulta no autoriza mientras esté pendiente una actividad incompatible.
+
+En un ejemplo hipotético, la pareja de una ministra trabaja para una empresa que solicita una ayuda de su ministerio. Se declara y evalúa la relación, se aparta a la ministra de cualquier intervención pertinente y se designa un sustituto sin ese conflicto. La solicitud se tramita con criterios objetivos y control independiente: ni trato de favor ni exclusión automática por parentesco. Si la influencia no se puede neutralizar, la abstención aislada no basta.
+
+Publicaremos la proporción de declaraciones exigibles recibidas y revisadas en plazo, medidas preventivas documentadas y cumplidas, abstenciones con sustitución efectiva y alertas resueltas con garantías. Distinguir consultas, riesgos e incumplimientos acreditados: más conflictos declarados puede significar mejor detección, no más corrupción. La información pública será proporcionada; el acceso reservado de control y la publicación no tienen por qué contener los mismos datos. Esta ampliación desarrolla los controles del eje 1 sin activar otro piloto ni autorizar nuevas compatibilidades.
+
 No atribuiremos al presidente toda variación del PIB ni equipararemos dividendos con una recompensa lícita por favorecer a una empresa. Un aumento de patrimonio se analizará por su origen y circunstancias, sin presumirlo lícito o corrupto automáticamente. El propio beneficiario no fijará ni evaluará su bono; los recortes o las denegaciones, por sí solos, no merecerán un premio.
 
 El artículo 13 de la Ley 3/2015 establece dedicación exclusiva para los altos cargos sujetos a ella, con excepciones concretas; también existen límites sobre participaciones y conflictos de interés. La compatibilidad más amplia descrita aquí es una propuesta de reforma, no una autorización vigente. Otras funciones y administraciones pueden tener reglas diferentes. Cambiar esos límites exige examinar y reformar la normativa correspondiente, no solo acreditar que alguien genera valor.
@@ -1322,7 +1380,7 @@ Las instituciones legislativas, las administraciones empleadoras, los órganos d
 
 El diagnóstico deberá revisar retribución por puesto, resultados y normativa de incompatibilidades. Antes de aprobar medidas, habrá que comprobar el alcance, la actualidad y las limitaciones de estas fuentes.
 
-El coste y su financiación están pendientes de estimación. El cálculo deberá incluir remuneración, evaluación y auditoría, con límites presupuestarios. No hay presupuesto ni financiación aprobados en este borrador.
+El coste y su financiación están pendientes de estimación. El cálculo deberá incluir remuneración, evaluación, auditoría, revisión independiente de intereses, asesoramiento, registro, suplencias y canales de alerta, con límites presupuestarios. No hay presupuesto ni financiación aprobados en este borrador.
 
 La aplicación no deberá premiar recortes o denegaciones por sí solos ni permitir autoevaluación o conflictos encubiertos.
 
@@ -1344,7 +1402,7 @@ En cuatro años, el objetivo es alcanzar 3.000 participantes y conseguir que el 
 
 La ejecución correspondería a centros educativos y de empleo, municipios y entidades sociales; el calendario previsto incluye necesidades y apoyos en M1–M3; mentores y proyectos accesibles en M4–M6; ciclos de planificación, ejecución y revisión desde M7. Coordinar con oportunidades de empleo y servicios.
 
-#### La propuesta en detalle
+<!-- proposal-detail -->
 
 Queremos estudiar qué impide convertir preocupaciones en acciones, mantener hábitos de constancia y cooperación y percibir que el esfuerzo merece la pena. No existe una «mentalidad española» única que permita explicar estos problemas, ni la falta de ingresos, la enfermedad o el desempleo demuestran pereza.
 
@@ -1402,7 +1460,7 @@ En cuatro años, el objetivo es extender a 50 localidades, 3.000 hogares o negoc
 
 La ejecución correspondería a administraciones de telecomunicaciones y transporte, municipios, operadores y empleadores; el calendario previsto incluye cobertura real y demanda en M1–M3; comparar fibra, móvil y satélite, coste y mantenimiento en M4–M6; despliegue y acuerdos laborales desde M7. Seleccionar pilotos de recarga por demanda, no instalar puntos sin mantenimiento.
 
-#### La propuesta en detalle
+<!-- proposal-detail -->
 
 La concentración de empleo y servicios, las diferencias de conectividad y las dificultades de desplazamiento pueden limitar oportunidades. Mejorar internet ayuda, pero no sustituye vivienda, cuidados, sanidad, educación ni empleo local.
 
@@ -1466,7 +1524,7 @@ En cuatro años, el objetivo es lograr 2 proyectos industriales con inversión p
 
 La ejecución correspondería a administraciones de industria, comunidades, municipios, centros tecnológicos y empresas; el calendario previsto incluye demanda, suelo, energía, agua y logística en M1–M3; convocatorias, formación y estudios en M4–M12; proyectos seleccionados en años 2–3; verificación de inversión y empleo en año 4. Coordinar antes conectividad, vivienda y energía.
 
-#### La propuesta en detalle
+<!-- proposal-detail -->
 
 Queremos estudiar cómo ampliar capacidades industriales, empleo cualificado y acceso a tecnologías útiles, y si fabricar en España puede reducir costes y dependencias. Producir aquí no garantiza por sí solo precios más bajos para compradores.
 
@@ -1516,7 +1574,7 @@ En cuatro años, el objetivo es actualizar cada año los escenarios y someter a 
 
 La ejecución correspondería a Seguridad Social, autoridades competentes de Hacienda, agentes sociales y evaluación actuarial independiente; el calendario previsto incluye datos, perímetro y perfiles en M1–M3; escenarios y mejoras de proceso en M4–M6; revisión pública y gestión desde M7. Presentar alternativas al diálogo social y a las instituciones legislativas antes de comprometer cambios; ampliación solo con recursos.
 
-#### La propuesta en detalle
+<!-- proposal-detail -->
 
 Queremos estudiar la suficiencia y la sostenibilidad de las pensiones ante cambios demográficos, carreras discontinuas, productividad y financiación. No afirmamos que vayan a desaparecer ni que estén garantizadas sin decisiones futuras.
 
@@ -1563,7 +1621,7 @@ En cuatro años, si se autoriza y financia, el objetivo es completar un piloto d
 
 La ejecución correspondería a administraciones de protección social, Hacienda, servicios de empleo y evaluación independiente; el calendario previsto incluye perfiles, derechos y alternativas en M1–M3; microsimulación, costes y salvaguardas en M4–M9; protocolo y decisión en M10–M12. La institución competente debe habilitar la prueba antes de pagos y no retirar protección necesaria para crear un grupo de comparación.
 
-#### La propuesta en detalle
+<!-- proposal-detail -->
 
 La automatización y la IA pueden cambiar tareas y oportunidades y aumentar la incertidumbre económica. Queremos estudiar las opciones de participación laboral y protección sin asumir que todo empleo desaparecerá, que la renta básica es inevitable o que no tener trabajo demuestra falta de voluntad.
 
@@ -1609,7 +1667,7 @@ En cuatro años, el objetivo es extender a 30 entidades; alcanzar el 90 % de pru
 
 La ejecución correspondería a autoridades de protección civil, responsables sectoriales, comunidades, municipios y operadores; el calendario previsto incluye mapa de riesgos y línea base en M1–M3; convenios, recursos y prioridades en M4–M6; ejercicios y correcciones en M7–M12; ampliación en años 2–4 solo tras evaluación y financiación. OpenSpain puede preparar el método y examinar información pública, no dirigir una emergencia ni certificar reservas de terceros.
 
-#### La propuesta en detalle
+<!-- proposal-detail -->
 
 Depender de un solo proveedor, ruta o sistema y carecer de coordinación, financiación o práctica puede agravar una interrupción. Queremos estudiar sus efectos en hogares vulnerables y empresas cuando fallan energía, agua, salud, comunicaciones, pagos, alimentación o transporte.
 
@@ -1672,7 +1730,7 @@ En cuatro años, el objetivo es ampliar a 40 fichas y 600 participantes acumulad
 
 La ejecución correspondería a equipo ciudadano, especialistas plurales en derecho constitucional y accesibilidad y revisión independiente; el calendario previsto incluye selección, alcance y protocolo en M1–M3; redacción y contraste jurídico en M4–M6; pruebas y publicación en M7–M12; ampliación condicionada en años 2–4. Gobierno, Cámaras y asambleas autonómicas por los cauces de iniciativa aplicables, y ciudadanía cuando proceda referéndum, deciden la reforma; OpenSpain no puede aprobarla.
 
-#### La propuesta en detalle
+<!-- proposal-detail -->
 
 El vocabulario, la estructura y las remisiones entre artículos pueden dificultar entender la Constitución. Queremos distinguir problemas evitables de redacción de los desacuerdos de fondo, los problemas de sus leyes de desarrollo y la función legítima de los tribunales. Contar artículos no mide la complejidad.
 
@@ -1730,7 +1788,7 @@ En cuatro años, el objetivo es extender a 10 unidades, reducir un 25 % la esper
 
 La ejecución correspondería a Administración de Justicia estatal y autonómica en sus competencias, responsables de oficinas y unidades judiciales, órganos de gobierno judicial y colegios profesionales; el calendario previsto incluye diagnóstico y permisos en M1–M3; revisión de procesos, recursos y garantías en M4–M6; pruebas y evaluación en M7–M12; ampliación condicionada en años 2–4. Los jueces deciden los asuntos con independencia; OpenSpain puede preparar propuestas y evaluar información pública, no dirigir expedientes ni ofrecer defensa profesional.
 
-#### La propuesta en detalle
+<!-- proposal-detail -->
 
 La sobrecarga, las vacantes, los cambios de equipo, los fallos de notificación y los sistemas que no intercambian información pueden alargar los expedientes. También queremos estudiar duplicidades y barreras para obtener orientación o asistencia jurídica. Los conflictos de interés o las irregularidades se investigarán cuando existan indicios concretos, no se presumirán por un retraso o una resolución desfavorable.
 
@@ -1754,7 +1812,7 @@ Con registros autorizados y datos agregados de las unidades participantes, medir
 
 Contaremos asuntos antiguos, repeticiones, anulaciones, notificaciones fallidas y cargas trasladadas. Seguiremos acceso y tiempos de asistencia jurídica, comprensión, incidencias y coste completo. En el gobierno judicial, observaremos publicidad y motivación de nombramientos, conflictos examinados y renovación en plazo, sin tratarlos como prueba automática de independencia. No mejoraremos las cifras excluyendo casos difíciles ni premiaremos condenar, absolver o cerrar. No puntuaremos jueces por el sentido de sus resoluciones ni publicaremos expedientes identificativos.
 
-El eje 1 hace trazable el uso de fondos y exige controles; este eje refuerza capacidad y garantías para investigar, defender, resolver y ejecutar conforme a derecho. Una mejora de gestión no acredita menos corrupción. En vivienda conecta con el eje 2 para resolver conflictos con tutela efectiva, sin desalojo privado, condena automática ni privilegios por renta o afinidad política.
+El eje 1 hace trazable el uso de fondos y exige controles; este eje refuerza capacidad y garantías para investigar, defender, resolver y ejecutar conforme a derecho. Una mejora de gestión no acredita menos corrupción. Conecta con el eje 22 para investigar posibles delitos electorales por los cauces competentes, con conservación de pruebas, protección de denunciantes y presunción de inocencia, sin sustituir reclamaciones electorales ni sus plazos. En vivienda conecta con el eje 2 para resolver conflictos con tutela efectiva, sin desalojo privado, condena automática ni privilegios por renta o afinidad política.
 
 El artículo 122 de la Constitución distingue 12 vocales entre jueces y magistrados y 8 juristas a propuesta de las Cámaras; la LOPJ vigente atribuye la designación de los 20 a las Cortes, 10 por Cámara por mayoría de tres quintos [F35] [F39]. Los cambios deben distinguir lo regulado por ley orgánica de lo fijado constitucionalmente. El CGPJ es un órgano de gobierno, no el tribunal que dicta todas las sentencias. Su relación institucional con las Cortes no permite dar por probada la parcialidad de cada juez ni justifica eliminar controles y responsabilidad.
 
@@ -2059,7 +2117,7 @@ Participar o votar dentro de la iniciativa no sustituye las competencias de las 
 
 | Eje | Compromiso propuesto |
 |---|---|
-| 1. Integridad pública | Hacer trazables la financiación política, los conflictos de interés y el uso de fondos públicos. |
+| 1. Integridad pública | Hacer trazables financiación y fondos; publicar asesores, auditar mérito y exigir código ético, rectificación y dimisión por mentira deliberada acreditada con garantías. |
 | 2. Vivienda accesible y seguridad jurídica | Aumentar vivienda asequible, proteger a propietarios e inquilinos y resolver conflictos con garantías y apoyos públicos viables. |
 | 3. Turismo accesible y barrios habitables | Facilitar alojamiento legal a precios accesibles y competencia, controlando irregularidad y presión residencial según evidencia local. |
 | 4. Mejores ingresos | Mejorar productividad, formación, cumplimiento laboral y capacidad de negociación. |
@@ -2080,8 +2138,8 @@ Participar o votar dentro de la iniciativa no sustituye las competencias de las 
 | 19. Medios libres e independientes | Impulsar «¿Quién paga a quién?» para seguir pagos públicos a medios y proteger autonomía editorial, pluralismo y nombramientos transparentes, sin censura ni clasificaciones partidistas. |
 | 20. Unir sin uniformar | Cooperar entre personas con ideas distintas, evitar el «y tú más», reconocer aportaciones y cumplir acuerdos sin silenciar crítica, memoria o responsabilidades. |
 | 21. Jefatura del Estado al servicio de la ciudadanía | Evaluar utilidad, costes y controles de la monarquía y de alternativas concretas mediante debate informado y los cauces constitucionales. |
-| 22. Democracia informada e igualdad política | Debatir cómo aprovechar conocimiento experto y mejorar decisiones sin convertir estudios o profesión en privilegios electorales. |
-| 23. Remuneración y actividad privada compatible | Evaluar una reforma que permita inversiones y determinadas actividades empresariales compatibles, con dedicación suficiente y control independiente, e incentivos públicos limitados por resultados verificables. |
+| 22. Democracia informada e igualdad política | Mejorar información sin privilegios electorales; encuentros ciudadanos, debate sin insultos y garantías del voto presencial, por correo y exterior con trazabilidad, secreto y acceso. |
+| 23. Remuneración y actividad privada compatible | Prevenir conflictos desde el primer día con revisión independiente, abstención y seguimiento; evaluar compatibilidades e incentivos públicos limitados sin autorizar actividades incompatibles. |
 | 24. Iniciativa y responsabilidad compartida | Facilitar hábitos, oportunidades y pruebas voluntarias de ingresos complementarios sin prometer riqueza ni imponer emprendimiento. |
 | 25. Oportunidades y movilidad abierta | Conectar trabajo remoto, internet fiable y servicios con transporte público, taxi, VTC y soluciones compartidas en competencia, con acceso legal y garantías. |
 | 26. Industria tecnológica competitiva | Explorar fabricación de vehículos eléctricos con Tesla y otros fabricantes y desarrollar robótica e IA por fases, con costes y beneficios públicos verificables. |
@@ -2148,6 +2206,8 @@ Revisión documental y ampliación de gráficos: 4 de octubre de 2026; incorpora
 **[F40] IBI, entidades religiosas y entidades sin ánimo de lucro.** [Texto refundido de la Ley Reguladora de las Haciendas Locales, artículo 62](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a62), [Ley 49/2002, artículo 15](https://www.boe.es/buscar/act.php?id=BOE-A-2002-25039#a15) y [Acuerdo con la Santa Sede sobre asuntos económicos de 1979](https://www.boe.es/buscar/act.php?id=BOE-A-1979-29490), consultados el 5 de octubre de 2026. Las exenciones dependen de titularidad, régimen, uso y supuestos legales; no toda propiedad religiosa está exenta por el mero hecho de serlo. Revisar una exención exige identificar su fundamento y efectos, no inventar recaudación recuperable ni equiparar beneficio legal con fraude.
 
 **[F41] Energía nuclear · autorización, seguridad y residuos.** [Ley 25/1964 sobre energía nuclear](https://www.boe.es/buscar/act.php?id=BOE-A-1964-7544), [Real Decreto 1217/2024, Reglamento sobre instalaciones nucleares y radiactivas](https://www.boe.es/buscar/act.php?id=BOE-A-2024-25205) y [Real Decreto 102/2014 sobre gestión responsable y segura del combustible nuclear gastado y los residuos radiactivos](https://www.boe.es/buscar/act.php?id=BOE-A-2014-2489), consultados el 5 de octubre de 2026. Marco de autorización, control, residuos y desmantelamiento; no demuestra costes, plazos o rentabilidad de una extensión o nueva central. Cada escenario requiere estudios técnicos, regulatorios y económicos propios y comparación del sistema completo.
+
+**[F42] Garantías electorales, voto por correo y voto exterior.** [Ley Orgánica 5/1985 del Régimen Electoral General, texto consolidado](https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672), consultado el 9 de octubre de 2026; especialmente artículos 72–75, junto con las instrucciones de los órganos competentes para cada convocatoria. Marco para voto por correo y residentes ausentes; los procedimientos de residentes temporalmente en el extranjero deben contrastarse por separado con su normativa e instrucciones oficiales. Inscripción censal, modalidades, documentación y plazos dependen de la situación y convocatoria: no se exige genéricamente presencia consular a todo votante exterior. La norma no prueba ausencia o existencia de fraude ni el impacto de una mejora propuesta; una investigación, anomalía o diferencia de resultados no acredita por sí sola manipulación electoral.
 
 **Qué sigue pendiente:** evidencia específica y costes por intervención, fuentes de datos locales, evaluación jurídica detallada y acuerdos de ejecución. Argumentar un mecanismo y definir métricas mejora el diseño, pero no convierte todos los ejes en soluciones probadas.
 

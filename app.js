@@ -1,4 +1,4 @@
-import { categories, parseProgram, filterAxes, ipc, months, getChapter, inlineParts, detailHeading } from './program.js';
+import { categories, parseProgram, filterAxes, ipc, months, getChapter, getCitizenDemands, inlineParts } from './program.js';
 import { createPolicyEvidence, observedCharts } from './charts.js';
 
 const $ = selector => document.querySelector(selector);
@@ -73,8 +73,10 @@ function appendInline(container, text) {
       const node = element(part.type === 'link' ? 'a' : 'strong', '', part.text);
       if (part.type === 'link') {
         node.href = part.href;
-        node.target = '_blank';
-        node.rel = 'noopener noreferrer';
+        if (!part.href.startsWith('#')) {
+          node.target = '_blank';
+          node.rel = 'noopener noreferrer';
+        }
       }
       container.append(node);
     }
@@ -165,12 +167,9 @@ function openMeasure(axis, trigger) {
   content.replaceChildren(heading);
   const summary = element('div', 'citizen-summary');
   appendMarkdown(summary, axis.citizenSummary);
-  const details = element('details', 'technical-details');
-  details.append(element('summary', '', detailHeading));
   const technical = element('div', 'technical-content');
   appendMarkdown(technical, axis.technicalBody);
-  details.append(technical);
-  content.append(summary, createPolicyEvidence(axis.id), details);
+  content.append(summary, createPolicyEvidence(axis.id), technical);
   openDialog($('#measure-dialog'), trigger);
 }
 
@@ -262,6 +261,9 @@ async function loadProgram() {
     const guide = $('#program-guide-content');
     guide.replaceChildren();
     appendMarkdown(guide, getChapter(markdown, 2).split(/^### /m)[0].trim());
+    const demands = $('#citizen-demands-content');
+    demands.replaceChildren();
+    appendMarkdown(demands, getCitizenDemands(markdown));
     $('#axis-count').replaceChildren(document.createTextNode(String(axes.length)), element('span', '', 'ejes'));
     renderFilters();
     renderCards();

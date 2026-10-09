@@ -264,8 +264,6 @@ dialog h2 { font-size: 32px; letter-spacing: -1px; margin-bottom: 22px; }
 .measure-paragraph strong { color: var(--navy); }
 .citizen-summary { background: #e8eefb; padding: 10px 20px; border-radius: 7px; }
 .citizen-summary .measure-paragraph { color: var(--ink); }
-.technical-details { margin-top: 24px; border-top: 1px solid var(--line); }
-.technical-details > summary { padding: 18px 0; font-size: 14px; font-weight: 700; cursor: pointer; }
 .technical-content { padding-bottom: 10px; }
 .policy-evidence { margin-block: 22px; }
 .evidence-figure { margin: 18px 0; padding: 20px; border: 1px solid var(--line); border-radius: 7px; background: var(--surface); }

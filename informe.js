@@ -1,4 +1,4 @@
-import { categories, parseProgram, ipc, months, inlineParts, detailHeading } from './program.js';
+import { categories, parseProgram, ipc, months, inlineParts, detailMarker } from './program.js';
 import { createPolicyEvidence } from './charts.js';
 
 function node(tag, text, className) {
@@ -15,8 +15,10 @@ function inline(parent, text) {
       const child = node(part.type === 'link' ? 'a' : 'strong', part.text);
       if (part.type === 'link') {
         child.href = part.href;
-        child.target = '_blank';
-        child.rel = 'noopener noreferrer';
+        if (!part.href.startsWith('#')) {
+          child.target = '_blank';
+          child.rel = 'noopener noreferrer';
+        }
       }
       parent.append(child);
     }
@@ -56,10 +58,15 @@ function renderMarkdown(markdown) {
       section.append(content);
       container.append(section);
     }
-    if (line.startsWith('#### ')) {
-      if (line === `#### ${detailHeading}` && activeAxisId !== undefined) {
+    if (line === detailMarker) {
+      if (activeAxisId !== undefined) {
         content.append(createPolicyEvidence(activeAxisId));
       }
+      list = undefined;
+      table = undefined;
+      continue;
+    }
+    if (line.startsWith('#### ')) {
       content.append(node('h4', line.slice(5), 'technical-heading'));
       list = undefined;
       continue;

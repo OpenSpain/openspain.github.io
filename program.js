@@ -6,7 +6,7 @@ export const categories = [
   { id: 'future', label: 'El siguiente salto', short: 'Tecnología y futuro' },
 ];
 
-export const detailHeading = 'La propuesta en detalle';
+export const detailMarker = '<!-- proposal-detail -->';
 
 export const axisMetadata = [
   ['institutions', 'Integridad sin excepciones.', 'Que cada euro público tenga explicación.', '◎'],
@@ -51,12 +51,18 @@ export function getChapter(markdown, number) {
 }
 
 export function inlineParts(text) {
-  return text.split(/(\*\*[^*]+\*\*|\[[^\]]+\]\(https?:\/\/[^\s)]+\))/g).filter(Boolean).map(part => {
+  return text.split(/(\*\*[^*]+\*\*|\[[^\]]+\]\((?:https?:\/\/[^\s)]+|#[\w-]+)\))/g).filter(Boolean).map(part => {
     if (part.startsWith('**')) return { type: 'strong', text: part.slice(2, -2) };
-    const link = part.match(/^\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)$/);
+    const link = part.match(/^\[([^\]]+)\]\((https?:\/\/[^\s)]+|#[\w-]+)\)$/);
     if (link) return { type: 'link', text: link[1], href: link[2] };
     return { type: 'text', text: part };
   });
+}
+
+export function getCitizenDemands(markdown) {
+  const demands = getChapter(markdown.replaceAll('\r\n', '\n'), 1).split(/^### 1\.1\. .+\n/m)[1]?.trim();
+  if (!demands) throw new Error('Falta el decálogo de exigencias ciudadanas.');
+  return demands;
 }
 
 export function parseProgram(markdown) {
@@ -71,7 +77,7 @@ export function parseProgram(markdown) {
     const body = markdown.slice(start, end).trim();
     const metadata = axisMetadata[id - 1];
     if (!metadata) throw new Error(`Falta información visual para el eje ${id}.`);
-    const marker = `\n#### ${detailHeading}`;
+    const marker = `\n${detailMarker}`;
     const split = body.indexOf(marker);
     if (split === -1) throw new Error(`El eje ${id} no distingue resumen ciudadano y propuesta en detalle.`);
     const technicalBody = body.slice(split + marker.length).trim();
