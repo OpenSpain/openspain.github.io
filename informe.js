@@ -1,5 +1,5 @@
-import { categories, parseProgram, ipc, months, inlineParts, detailMarker } from './program.js';
-import { createPolicyEvidence } from './charts.js';
+import { categories, parseProgram, ipc, months, inlineParts, detailMarker } from './program.js?v=20261009-video';
+import { createPolicyEvidence } from './charts.js?v=20261009-video';
 
 function node(tag, text, className) {
   const result = document.createElement(tag);
@@ -166,7 +166,7 @@ function renderIPC() {
 
 let reportAxes = [];
 try {
-  const response = await fetch('./PROGRAMA.md');
+  const response = await fetch('./PROGRAMA.md', { cache: 'no-store' });
   if (!response.ok) throw new Error(`HTTP ${response.status}`);
   const markdown = await response.text();
   reportAxes = parseProgram(markdown);

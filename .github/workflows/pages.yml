@@ -30,6 +30,9 @@ jobs:
             favicon.svg bandera.svg openspain-logo.svg openspain-logo.png PROGRAMA.md \
             informe.html informe.css informe.js \
             OpenSpain-Programa.pdf OpenSpain-Presentacion.pdf _site/
+          mkdir _site/video
+          cp video/OpenSpain-Hazte-Simpatizante.mp4 video/hazte-simpatizante-portada.jpg \
+            video/hazte-simpatizante-es.vtt _site/video/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site

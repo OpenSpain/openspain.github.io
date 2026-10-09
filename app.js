@@ -1,5 +1,5 @@
-import { categories, parseProgram, filterAxes, ipc, months, getChapter, getCitizenDemands, inlineParts } from './program.js';
-import { createPolicyEvidence, observedCharts } from './charts.js';
+import { categories, parseProgram, filterAxes, ipc, months, getChapter, getCitizenDemands, inlineParts } from './program.js?v=20261009-video';
+import { createPolicyEvidence, observedCharts } from './charts.js?v=20261009-video';
 
 const $ = selector => document.querySelector(selector);
 let axes = [];
@@ -254,7 +254,7 @@ async function loadProgram() {
   $('#results-count').textContent = 'Cargando el programa…';
   $('#retry-program').disabled = true;
   try {
-    const response = await fetch('./PROGRAMA.md');
+    const response = await fetch('./PROGRAMA.md', { cache: 'no-store' });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const markdown = await response.text();
     axes = parseProgram(markdown);
@@ -262,8 +262,12 @@ async function loadProgram() {
     guide.replaceChildren();
     appendMarkdown(guide, getChapter(markdown, 2).split(/^### /m)[0].trim());
     const demands = $('#citizen-demands-content');
-    demands.replaceChildren();
-    appendMarkdown(demands, getCitizenDemands(markdown));
+    if (demands) {
+      demands.replaceChildren();
+      appendMarkdown(demands, getCitizenDemands(markdown));
+    } else {
+      console.warn('La página conserva una versión anterior sin el decálogo. Recarga para ver el contenido nuevo.');
+    }
     $('#axis-count').replaceChildren(document.createTextNode(String(axes.length)), element('span', '', 'ejes'));
     renderFilters();
     renderCards();
@@ -284,6 +288,10 @@ async function loadProgram() {
     revealLinkedAxis();
   } catch (error) {
     console.error('Error al cargar el programa:', error);
+    const guidance = window.location.protocol === 'file:'
+      ? 'Abre la web mediante npm start o usa su dirección pública.'
+      : 'Reintenta la carga o recarga la página para obtener la versión actual.';
+    $('#program-error p').textContent = `No se pudo cargar el programa. ${guidance} Detalle: ${error instanceof Error ? error.message : String(error)}`;
     $('#program-error').hidden = false;
     $('#results-count').textContent = 'Programa no disponible';
     $('#coverage-chart').replaceChildren(element('p', '', 'No se pudo calcular el mapa. Reintenta la carga del programa.'));
@@ -293,6 +301,15 @@ async function loadProgram() {
 }
 
 const orbitToggle = $('#orbit-toggle');
+const sympathizerVideo = $('#sympathizer-video');
+if (sympathizerVideo) {
+  const showVideoError = () => {
+    console.error('No se pudo cargar o reproducir el vídeo de simpatizantes.', sympathizerVideo.error);
+    $('#sympathizer-video-error').hidden = false;
+  };
+  sympathizerVideo.addEventListener('error', showVideoError);
+  sympathizerVideo.querySelector('source').addEventListener('error', showVideoError);
+}
 const heroArt = $('.hero-art');
 heroArt.dataset.orbitMotion = 'running';
 orbitToggle.textContent = 'Pausar animación';

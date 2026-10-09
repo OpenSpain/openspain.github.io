@@ -245,8 +245,12 @@ h3 { font-size: 18px; letter-spacing: -.5px; line-height: 1.3; margin: 10px 0; f
 .participate p:not(.eyebrow) { font-size: 15px; line-height: 1.8; max-width: 405px; color: var(--muted); }
 .participate .button { margin-top: 16px; }
 .participate small { display: block; font-size: 12px; max-width: 360px; margin-top: 16px; line-height: 1.8; color: var(--muted); }
-.participate-art { color: var(--blue); font-size: 270px; line-height: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; font-weight: 300; transform: rotate(-8deg); }
-.participate-art > span { font-size: 12px; line-height: 1.8; letter-spacing: 1.5px; text-align: center; transform: rotate(8deg); }
+.participate-video { margin: 0; width: 100%; max-width: 300px; min-width: 0; justify-self: center; align-self: center; }
+.participate-video video { display: block; width: 100%; height: auto; aspect-ratio: 9 / 16; border-radius: 9px; background: var(--navy); }
+.participate-video figcaption { margin: 12px 0; font-size: 12px; line-height: 1.7; color: var(--muted); }
+.participate-video > a { font-size: 12px; }
+.video-transcript { margin-top: 16px; font-size: 13px; line-height: 1.7; }
+.video-transcript > summary { cursor: pointer; font-weight: 600; }
 footer { padding: 0 6% 28px; max-width: 1440px; margin: auto; }
 .footer-top { display: flex; justify-content: space-between; align-items: center; padding: 28px 0; border-block: 1px solid var(--line); gap: 20px; }
 .footer-top > p { font-size: 13px; color: var(--muted); }
@@ -356,7 +360,6 @@ form .button { align-self: flex-start; }
   .frontier-copy h2 { font-size: 46px; }
   .method-grid { grid-template-columns: repeat(2, 1fr); gap: 28px; }
   .participate { padding: 35px; grid-template-columns: 1.5fr 1fr; }
-  .participate-art { font-size: 180px; }
 }
 @media (max-width: 560px) {
   .donation-principles { grid-template-columns: 1fr; gap: 20px; }
@@ -445,7 +448,6 @@ form .button { align-self: flex-start; }
   .participate { margin: 0 6% 45px; padding: 30px 25px; grid-template-columns: 1fr; gap: 15px; }
   .participate h2 { font-size: 37px; }
   .participate .eyebrow { font-size: 11px; }
-  .participate-art { display: none; }
   .footer-top { flex-wrap: wrap; gap: 10px; }
   .footer-top > p { order: 3; width: 100%; margin-block: 5px; font-size: 13px; }
   .footer-top > a:last-child { font-size: 12px; }

@@ -15,7 +15,9 @@ try {
   await page.emulateMedia({ reducedMotion: 'no-preference' });
   page.on('pageerror', error => errors.push(error.message));
   const signupProviderRequests = [];
+  const videoRequests = [];
   page.on('request', request => {
+    if (request.url().includes('OpenSpain-Hazte-Simpatizante.mp4')) videoRequests.push(request.url());
     const hostname = new URL(request.url()).hostname;
     if (['tally.so', 'typeform.com'].some(domain => hostname === domain || hostname.endsWith(`.${domain}`))) {
       signupProviderRequests.push(request.url());
@@ -85,6 +87,53 @@ try {
   assert.match(await page.locator('.signup-note').textContent(), /no es una afiliación ni un aval electoral/);
   assert.match(await page.locator('#participa').textContent(), /no es una afiliación, una firma electoral ni un compromiso de avalar/);
   assert.equal(await page.locator('iframe').count(), 0);
+  const video = page.locator('#sympathizer-video');
+  assert.equal(await video.getAttribute('preload'), 'none');
+  assert.equal(await video.getAttribute('autoplay'), null);
+  assert.equal(await video.getAttribute('loop'), null);
+  assert.equal(await video.getAttribute('controls'), '');
+  assert.equal(await video.getAttribute('playsinline'), '');
+  assert.deepEqual(videoRequests, [], 'The MP4 must not download before voluntary playback');
+  assert.equal(await video.evaluate(node => node.paused), true);
+  assert.equal(await video.locator('track').getAttribute('srclang'), 'es');
+  const poster = await page.request.get(new URL(await video.getAttribute('poster'), baseURL).href);
+  assert.equal(poster.status(), 200);
+  assert.match(poster.headers()['content-type'], /image\/jpeg/);
+  const captions = await page.request.get(new URL(await video.locator('track').getAttribute('src'), baseURL).href);
+  assert.equal(captions.status(), 200);
+  assert.match(captions.headers()['content-type'], /text\/vtt/);
+  assert.match(await captions.text(), /^WEBVTT/);
+  const videoURL = new URL(await video.locator('source').getAttribute('src'), baseURL).href;
+  const videoHead = await page.request.head(videoURL);
+  assert.equal(videoHead.status(), 200);
+  assert.equal(videoHead.headers()['content-type'], 'video/mp4');
+  assert.equal(videoHead.headers()['accept-ranges'], 'bytes');
+  const range = await page.request.get(videoURL, { headers: { Range: 'bytes=0-15' } });
+  assert.equal(range.status(), 206);
+  assert.match(range.headers()['content-range'], /^bytes 0-15\/\d+$/);
+  assert.equal((await range.body()).length, 16);
+  assert.equal((await range.body()).subarray(4, 8).toString(), 'ftyp');
+  const suffix = await page.request.get(videoURL, { headers: { Range: 'bytes=-16' } });
+  assert.equal(suffix.status(), 206);
+  assert.equal((await suffix.body()).length, 16);
+  const invalidRange = await page.request.get(videoURL, { headers: { Range: 'bytes=999999999999-'} });
+  assert.equal(invalidRange.status(), 416);
+  await video.scrollIntoViewIfNeeded();
+  await video.evaluate(node => node.play());
+  await page.waitForFunction(() => document.querySelector('#sympathizer-video').currentTime > 0.2);
+  await page.waitForFunction(() => document.querySelector('#sympathizer-video track').readyState === 2);
+  assert.equal(await video.evaluate(node => node.textTracks[0].cues.length), 16);
+  assert.ok(Math.abs(await video.evaluate(node => node.duration) - 44.8) < 0.1);
+  await video.evaluate(node => { node.pause(); node.currentTime = 25; });
+  await page.waitForFunction(() => {
+    const node = document.querySelector('#sympathizer-video');
+    return !node.seeking && node.readyState >= 2 && Math.abs(node.currentTime - 25) < 0.1;
+  });
+  assert.equal(await page.locator('#sympathizer-video-error').isVisible(), false);
+  assert.equal(await page.locator('#participa').getByRole('link', { name: /Hazte simpatizante/ }).isVisible(), true);
+  await page.getByText('Leer el contenido del vídeo', { exact: true }).click();
+  assert.match(await page.locator('.video-transcript').textContent(), /No es afiliación/);
+  await page.getByText('Leer el contenido del vídeo', { exact: true }).click();
   assert.equal(await page.locator('.program-card').count(), axisMetadata.length);
   assert.equal(await page.locator('#citizen-demands-content li').count(), 10);
   assert.equal(await page.locator('#citizen-demands-content').isVisible(), true);
@@ -254,6 +303,12 @@ try {
     assert.ok(Math.abs(prioritiesSpacing.gap - prioritiesSpacing.expected) <= 1,
       `Priorities gap must use only the preceding section spacing at ${width}px`);
     assert.equal(await page.locator('.hero').getByRole('link', { name: /Hazte simpatizante/ }).isVisible(), true);
+    assert.equal(await video.isVisible(), true);
+    assert.ok(await video.evaluate(node => node.getBoundingClientRect().width <= 300));
+    assert.ok(await video.evaluate(node => {
+      const rect = node.getBoundingClientRect();
+      return Math.abs(rect.width / rect.height - 9 / 16) < 0.01;
+    }));
     assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth), `Horizontal overflow at ${width}px`);
     assert.ok(await page.locator('.card-description').first().evaluate(node => Number.parseFloat(getComputedStyle(node).fontSize) >= 15));
     await page.evaluate(() => window.scrollTo(0, 1200));
@@ -378,10 +433,41 @@ try {
   await failurePage.route('**/PROGRAMA.md', route => route.fulfill({ status: 500, body: 'Error' }));
   await failurePage.goto(baseURL);
   await failurePage.locator('#program-error').waitFor({ state: 'visible' });
+  assert.match(await failurePage.locator('#program-error').textContent(), /Detalle: HTTP 500/);
+  assert.doesNotMatch(await failurePage.locator('#program-error').textContent(), /ejecuta npm start/);
   await failurePage.unroute('**/PROGRAMA.md');
   await failurePage.getByRole('button', { name: 'Reintentar' }).click();
   await failurePage.waitForSelector('.program-card');
   assert.equal(await failurePage.locator('.program-card').count(), axisMetadata.length);
+  const legacyPage = await browser.newPage();
+  const legacyWarnings = [];
+  legacyPage.on('console', message => {
+    if (message.type() === 'warning') legacyWarnings.push(message.text());
+  });
+  await legacyPage.route('**/*', async route => {
+    if (route.request().resourceType() !== 'document') return route.continue();
+    const response = await route.fetch();
+    const html = (await response.text()).replace(/<div class="program-chapter" id="exigencias"[\s\S]*?<\/div>\s*<\/div>/, '');
+    await route.fulfill({ response, body: html });
+  });
+  await legacyPage.goto(baseURL);
+  await legacyPage.waitForSelector('.program-card');
+  assert.equal(await legacyPage.locator('.program-card').count(), axisMetadata.length);
+  assert.equal(await legacyPage.locator('#citizen-demands-content').count(), 0);
+  assert.equal(await legacyPage.locator('#program-error').isVisible(), false);
+  assert.ok(legacyWarnings.some(message => message.includes('versión anterior sin el decálogo')));
+  await legacyPage.close();
+  const videoFailurePage = await browser.newPage();
+  await videoFailurePage.route('**/video/OpenSpain-Hazte-Simpatizante.mp4',
+    route => route.fulfill({ status: 404, body: 'Vídeo no encontrado' }));
+  await videoFailurePage.goto(baseURL);
+  await videoFailurePage.waitForSelector('.program-card');
+  await videoFailurePage.locator('#sympathizer-video').evaluate(node => node.load());
+  await videoFailurePage.locator('#sympathizer-video-error').waitFor({ state: 'visible' });
+  assert.equal(await videoFailurePage.locator('#participa').getByRole('link', { name: /Hazte simpatizante/ }).isVisible(), true);
+  assert.equal(await videoFailurePage.getByRole('link', { name: /Descargar vídeo/ }).isVisible(), true);
+  assert.equal(await videoFailurePage.locator('#program-error').isVisible(), false);
+  await videoFailurePage.close();
   await page.getByRole('searchbox').fill('zzzzzzzz');
   await page.evaluate(() => { window.location.hash = '#eje-30'; });
   await page.waitForFunction(() => document.querySelector('#eje-30')?.getBoundingClientRect().top >= 0
