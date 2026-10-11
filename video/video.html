@@ -7,7 +7,7 @@
 <style>
   :root {
     --paper: #f8f6f0; --surface: #fffdf8; --ink: #15243e; --navy: #0d1b34; --blue: #2459df;
-    --muted: #536177; --line: #d6dae2; --gold: #f0cc76; --tint: #e5ebfa; --soft: #cad5e9;
+    --muted: #536177; --line: #d6dae2; --gold: var(--brand-gold); --tint: #e5ebfa; --soft: #cad5e9;
     --serif: var(--brand-font); --sans: var(--brand-font);
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -80,7 +80,7 @@
   #progress { position: absolute; left: 0; bottom: 0; height: 10px; background: var(--blue); z-index: 50; }
   .scene, .scene.navy, .scene.tint { background: var(--brand-gradient); color: var(--brand-paper); }
   .scene .eyebrow, .scene .lead, .scene .note, .scene .legal { color: var(--brand-light); }
-  .scene .eyebrow::before { background: var(--brand-gold); box-shadow: 0 0 0 10px #f0cc7626; }
+  .scene .eyebrow::before { background: var(--brand-gold); box-shadow: 0 0 0 10px #ffffff26; }
   .h { font-weight: 800; }
   .s, .stat .lbl span { font-style: normal; font-weight: 500; color: var(--brand-gold); }
   .scene .s { color: var(--brand-gold); }
@@ -205,7 +205,7 @@
     <svg class="orbits" viewBox="0 0 1080 1100">
       <ellipse cx="560" cy="480" rx="430" ry="170" fill="none" stroke="#a7c5ff55" stroke-width="3" transform="rotate(-18 560 480)"/>
       <ellipse cx="560" cy="480" rx="330" ry="120" fill="none" stroke="#a7c5ff33" stroke-width="3" transform="rotate(-18 560 480)"/>
-      <circle id="orbit-dot" r="16" fill="#f0cc76"/>
+      <circle id="orbit-dot" r="16" fill="#ffffff"/>
     </svg>
     <div class="el planet" data-in="22.5" data-fx="pop"></div>
     <div class="el float" data-in="23" data-fx="pop" style="right:70px;top:610px;transform-origin:50% 50%"><i>↗</i><span>Más oportunidades.<br><b>Menos barreras.</b></span></div>
@@ -257,7 +257,7 @@ const logoSvg = text => `<svg viewBox="80 30 1040 180" xmlns="http://www.w3.org/
   <g fill="none" stroke="#f8f6f0" stroke-width="8" stroke-linecap="square"><path d="M 151 60 A 82 82 0 1 0 215 122"/><path d="M 174 101 L 229 46 M 210 46 H 229 V 65" stroke-width="5"/></g>
   <path fill="#f8f6f0" fill-rule="evenodd" d="M 167 140 A 32 32 0 1 1 103 140 A 32 32 0 1 1 167 140 Z M 145 140 A 10 10 0 1 0 125 140 A 10 10 0 1 0 145 140 Z"/>
   <g fill="${text}" font-family="Manrope, sans-serif" font-size="120"><text x="270" y="179" font-weight="800" textLength="300" lengthAdjust="spacingAndGlyphs">open</text><text x="570" y="179" font-weight="400" textLength="310" lengthAdjust="spacingAndGlyphs">spain</text></g>
-  <circle cx="903" cy="164" r="15" fill="#f0cc76"/>
+  <circle cx="903" cy="164" r="15" fill="#ffffff"/>
   <clipPath id="flag"><rect x="969" y="100" width="125" height="82" rx="8"/></clipPath>
   <g clip-path="url(#flag)"><path fill="#aa2525" d="M 969 100 H 1094 V 182 H 969 Z"/><path fill="#f0c83d" d="M 969 120.5 H 1094 V 161.5 H 969 Z"/></g></svg>`;
 const logo = document.getElementById('logo');

@@ -319,6 +319,7 @@ function makeFigure(series, target = false) {
     if (value !== null) make('rect', {
       x: 148, y, width: value / maximum * 335, height: 22, rx: 3,
       fill: target ? (index === 0 ? '#8795ae' : '#d2ac4e') : '#2459df',
+      class: target ? (index === 0 ? 'baseline-bar' : 'target-bar') : 'observed-bar',
     });
     make('text', { x: 610, y: y + 16, fill: '#15243e', 'font-size': 15, 'text-anchor': 'end' },
       value === null ? 'N/D' : value.toLocaleString('es-ES', { maximumFractionDigits: 2 }));

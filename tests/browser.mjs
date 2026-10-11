@@ -33,8 +33,14 @@ try {
   assert.equal(await page.evaluate(() => document.fonts.check('800 24px Manrope')), true);
   assert.equal(await page.evaluate(() => [...document.fonts].find(font => font.family === 'Manrope')?.status), 'loaded');
   assert.match(await page.locator('body').evaluate(node => getComputedStyle(node).fontFamily), /Manrope/);
-  assert.equal(await page.locator('.manifesto').evaluate(node => getComputedStyle(node).backgroundColor),
-    await page.locator('footer').evaluate(node => getComputedStyle(node).backgroundColor));
+  assert.equal(await page.locator('.hero').evaluate(node => getComputedStyle(node).backgroundColor), 'rgb(49, 89, 220)');
+  assert.equal(await page.locator('body').evaluate(node => getComputedStyle(node).backgroundColor), 'rgb(255, 255, 255)');
+  assert.equal(await page.locator('.manifesto').evaluate(node => getComputedStyle(node).backgroundColor), 'rgb(49, 89, 220)');
+  assert.equal(await page.locator('footer').evaluate(node => getComputedStyle(node).backgroundColor), 'rgb(17, 19, 24)');
+  assert.equal(await page.locator('.highlights-section').evaluate(node => getComputedStyle(node).backgroundColor), 'rgb(244, 246, 249)');
+  assert.equal(await page.locator('.change-preview').first().evaluate(node => getComputedStyle(node).backgroundColor), 'rgb(255, 255, 255)');
+  assert.match(await page.locator('.manifesto h2').textContent(), /Menos «y tú más».*Más responsabilidad/);
+  assert.equal(await page.locator('.manifesto > a').getAttribute('href'), './como.html');
   assert.ok(await page.locator('.manifesto').evaluate(node => node.getBoundingClientRect().height) <= 300);
   assert.ok(await page.locator('footer').evaluate(node => node.getBoundingClientRect().height) <= 240);
   assert.equal(await page.locator('.program-card').count(), 0, 'The homepage must not contain the full programme');
@@ -61,6 +67,8 @@ try {
     - document.querySelector('.changes-intro').getBoundingClientRect().bottom);
   assert.ok(introToPillarsGap >= 0 && introToPillarsGap <= 40, `Gap before pillars: ${introToPillarsGap}px`);
   assert.equal(await page.locator('#prioridades details').getAttribute('open'), '');
+  assert.equal(await page.locator('#priorities-title').evaluate(node => getComputedStyle(node).fontWeight), '700');
+  assert.equal(await page.locator('#prioridades summary').evaluate(node => getComputedStyle(node).fontWeight), '800');
   assert.equal(await page.locator('#priorities-content').isVisible(), true);
   assert.equal(await page.locator('.content-error').evaluate(node => node.getBoundingClientRect().height), 0);
   const prioritiesGap = await page.evaluate(() => document.querySelector('#priorities-title').getBoundingClientRect().top
@@ -144,6 +152,7 @@ try {
     const measures = await page.locator('#measure-content .technical-content li').allTextContents();
     for (const measure of axis.measures) assert.ok(measures.includes(plain(measure)));
     assert.equal(await page.locator('#measure-content .target-figure').count(), 1);
+    assert.equal(await page.locator('#measure-content .target-bar').first().evaluate(node => getComputedStyle(node).fill), 'rgb(17, 19, 24)');
     assert.equal(await page.locator('#measure-content').evaluate(content => {
       const summary = content.querySelector('.citizen-summary');
       const evidence = content.querySelector('.policy-evidence');
@@ -206,6 +215,8 @@ try {
       assert.ok(methodToPlanGap >= 0 && methodToPlanGap <= 96, `Gap before plan: ${methodToPlanGap}px`);
     }
     const instagram = page.locator('footer .footer-socials a');
+    const subtitle = page.locator('main .section-subtitle, main .section-heading > p').first();
+    assert.equal(await subtitle.evaluate(node => getComputedStyle(node).fontWeight), '600');
     assert.equal(await instagram.count(), 1);
     assert.equal(await instagram.getAttribute('href'), 'https://www.instagram.com/openspainorg/');
     assert.equal(await instagram.getAttribute('target'), '_blank');

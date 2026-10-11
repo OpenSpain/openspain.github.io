@@ -41,7 +41,7 @@ test('presentation video, captions and transcript use the public domain and vers
   }
   const html = await readFile(new URL('../participa.html', import.meta.url), 'utf8');
   for (const filename of ['OpenSpain-Hazte-Simpatizante.mp4', 'hazte-simpatizante-portada.jpg', 'hazte-simpatizante-es.vtt']) {
-    assert.ok(html.includes(`${filename}?v=20261011-brand`));
+    assert.ok(html.includes(`${filename}?v=20261011-contrast`));
   }
 });
 
@@ -91,7 +91,7 @@ test('all six pages preserve relative navigation and old public anchors', async 
     for (const [destination] of pages) assert.ok(html.includes(`href="./${destination}"`), `${path} → ${destination}`);
     assert.equal((html.match(/aria-current="page"/g) || []).length, 1);
     assert.ok(html.includes('site.js?v=20261011-mobile'));
-    assert.ok(html.includes('styles.css?v=20261011-mobile'));
+    assert.ok(html.includes('styles.css?v=20261011-contrast'));
     assert.match(html, /class="footer-socials"><a href="https:\/\/www\.instagram\.com\/openspainorg\/" target="_blank" rel="noopener noreferrer"/);
     assert.doesNotMatch(html, /autoplay/);
   }
