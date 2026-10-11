@@ -7,8 +7,8 @@
   <meta name="description" content="OpenSpain: abrir España y ampliar oportunidades. Iniciativa ciudadana independiente, propuestas concretas y rendición de cuentas.">
   <title>OpenSpain — Abrir España. Ampliar oportunidades.</title>
   <link rel="icon" href="./favicon.svg?v=20261011-wordmark" type="image/svg+xml">
-  <link rel="stylesheet" href="./styles.css?v=20261011-values">
-  <script type="module" src="./site.js?v=20261011-values"></script>
+  <link rel="stylesheet" href="./styles.css?v=20261011-editorial">
+  <script type="module" src="./site.js?v=20261011-editorial"></script>
 </head>
 <body data-page="home">
   <a class="skip-link" href="#contenido">Saltar al contenido</a>
@@ -26,7 +26,7 @@
         <div class="hero-footnote"><span class="tiny-orbit" aria-hidden="true">✳</span><span>No somos un partido. Somos un punto de partida.</span></div>
       </div>
       <div class="hero-art" aria-label="Ilustración conceptual en azul: una esfera luminosa, órbitas y un horizonte conectado" role="group" data-orbit-motion="paused">
-        <button class="orbit-toggle" id="orbit-toggle" type="button" hidden>Reanudar animación</button>
+        <button class="orbit-toggle" id="orbit-toggle" type="button" aria-label="Reanudar animación" hidden></button>
         <div class="art-grid"></div><div class="art-label">EL FUTURO ES UN PROYECTO COLECTIVO</div>
         <div class="sun"><span></span></div><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
         <div class="land land-back"></div><div class="land land-front"></div>
@@ -36,12 +36,12 @@
     </section>
     <div class="principle-strip" aria-label="Principios"><span>LIBERTAD PARA CREAR</span><span aria-hidden="true">✳</span><span>SEGURIDAD PARA VIVIR</span><span aria-hidden="true">✳</span><span>INSTITUCIONES QUE RESPONDEN</span><span aria-hidden="true">✳</span><span>AMBICIÓN CON EVIDENCIA</span></div>
     <section class="section highlights-section" aria-labelledby="changes-title">
-      <div class="section-heading"><h2 id="changes-title">Ocho pilares.<br><span>Cambios concretos.</span></h2><p>Del problema a una propuesta concreta, con costes, condiciones y garantías.</p></div>
+      <div class="section-heading"><h2 id="changes-title">Ocho pilares.<br><span>Cambios concretos.</span></h2><p>Una primera lectura de lo que proponemos. Consulta el desarrollo, los costes y las garantías en cada pilar.</p></div>
       <div class="change-previews" data-program-content="highlights"><p>Las propuestas se cargarán desde el programa. <a href="./PROGRAMA.md">Leer el documento original</a>.</p></div>
       <div id="page-content-error" class="error-message" role="alert" hidden><p>No se pudo cargar el contenido.</p><button id="retry-content" class="button button-dark">Reintentar</button><a href="./PROGRAMA.md">Documento original</a></div>
       <p><a class="text-link" href="./cambios.html">Ver los ocho pilares y sus límites ↗</a></p>
     </section>
-    <section class="section video-section" aria-labelledby="video-title">
+    <section class="section video-section home-video-section" aria-labelledby="video-title">
       <div class="section-heading"><h2 id="video-title">Qué queremos cambiar.<br><span>En un minuto.</span></h2><p>Los ocho pilares, en una pieza horizontal. Reproducción voluntaria, con música y subtítulos.</p></div>
       <figure class="landscape-video">
         <video id="changes-video" controls playsinline preload="none" width="1920" height="1080" poster="./video/cambios-portada.jpg?v=20261011-contrast" aria-label="OpenSpain: qué queremos cambiar" aria-describedby="changes-caption">
@@ -55,6 +55,13 @@
         <details class="video-transcript"><summary>Leer el contenido del vídeo</summary><div data-program-content="video-transcript"></div><p>No basta con anunciar cambios: hay que explicar quién los ejecuta, cuánto cuestan y cómo se comprueban.</p></details>
       </figure>
       <div class="hero-actions"><a class="button button-dark" href="./participa.html">Quiero participar ↗</a><a class="button button-accent" href="./programa.html">Examinar el programa ↗</a></div>
+    </section>
+    <section class="section updates-section" id="actualizaciones" aria-labelledby="updates-title">
+      <div class="updates-copy"><p class="eyebrow">BORRADOR ABIERTO · CAMBIOS RECIENTES</p><h2 id="updates-title">Un proyecto.<br><span>En movimiento.</span></h2><p class="section-subtitle">Revisamos las propuestas y explicamos qué cambia. Sin confundir actividad con resultados.</p><p class="update-stamp">Última actualización del contenido: <time datetime="2026-10-11">11 de octubre de 2026</time>.</p></div>
+      <ol class="update-list">
+        <li><time datetime="2026-10-11">11 oct. 2026</time><h3>Valores con compromisos.</h3><p>Diez valores cívicos y cinco compromisos de conducta, incorporados también al programa completo.</p><a class="text-link" href="./transparencia.html#valores">Ver valores y compromisos ↗</a></li>
+        <li><time datetime="2026-10-11">11 oct. 2026</time><h3>Una identidad más clara.</h3><p>Símbolo circular modernizado, cabecera más compacta y avatar actualizado.</p><a class="text-link" href="https://github.com/OpenSpain/openspain.github.io/commit/6d6f33ab5da25a32de6c30eb273ca1ac4557544e" target="_blank" rel="noopener noreferrer">Ver el cambio publicado ↗<span class="sr-only"> (abre en otra pestaña)</span></a></li>
+      </ol>
     </section>
     <section class="manifesto">
       <div class="manifesto-copy"><p class="eyebrow">UNA FORMA DISTINTA DE HACER LAS COSAS.</p><h2>Menos «y tú más».<br><span>Más responsabilidad.</span></h2><p>Unir esfuerzos, reconocer errores y convertir problemas en propuestas concretas.<br>Con responsables, plazos y seguimiento.</p></div>

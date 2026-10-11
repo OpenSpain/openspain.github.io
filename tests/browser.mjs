@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { mkdir, readFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { createServer } from 'node:http';
-import { parseProgram, inlineParts, getInitiativeActionItems } from '../program.js';
+import { parseProgram, inlineParts, getInitiativeActionItems, getChangeVideoMessages } from '../program.js';
 import { pages, legacyTarget } from '../routes.js';
 import { observedCharts } from '../charts.js';
 
@@ -37,8 +37,21 @@ try {
   assert.equal(await page.locator('body').evaluate(node => getComputedStyle(node).backgroundColor), 'rgb(255, 255, 255)');
   assert.equal(await page.locator('.manifesto').evaluate(node => getComputedStyle(node).backgroundColor), 'rgb(49, 89, 220)');
   assert.equal(await page.locator('footer').evaluate(node => getComputedStyle(node).backgroundColor), 'rgb(17, 19, 24)');
-  assert.equal(await page.locator('.highlights-section').evaluate(node => getComputedStyle(node).backgroundColor), 'rgb(244, 246, 249)');
-  assert.equal(await page.locator('.change-preview').first().evaluate(node => getComputedStyle(node).backgroundColor), 'rgb(255, 255, 255)');
+  assert.equal(await page.locator('.highlights-section').evaluate(node => getComputedStyle(node).backgroundColor), 'rgba(0, 0, 0, 0)');
+  assert.equal(await page.locator('.home-video-section').evaluate(node => getComputedStyle(node).backgroundColor), 'rgb(244, 246, 249)');
+  assert.equal(await page.locator('.change-preview').first().evaluate(node => getComputedStyle(node).borderRadius), '0px');
+  for (const [index, message] of getChangeVideoMessages(markdown).entries()) {
+    const preview = page.locator('.change-preview').nth(index);
+    assert.equal(await preview.locator('h3').textContent(), message.title);
+    assert.equal(await preview.locator('.preview-description').textContent(), message.description);
+    assert.equal(await preview.getAttribute('href'), `./cambios.html#cambio-${message.id}`);
+    assert.equal(await preview.locator('.pillar-number').textContent(), String(message.id).padStart(2, '0'));
+  }
+  assert.equal(await page.locator('.hero-brand-symbol').count(), 0);
+  assert.equal(await page.locator('.hero-art .sun, .hero-art .orbit').count(), 3);
+  assert.equal(await page.locator('#actualizaciones .update-list > li').count(), 2);
+  assert.equal(await page.locator('.update-stamp time').getAttribute('datetime'), '2026-10-11');
+  assert.equal(await page.locator('#actualizaciones a').first().getAttribute('href'), './transparencia.html#valores');
   assert.match(await page.locator('.manifesto h2').textContent(), /Menos «y tú más».*Más responsabilidad/);
   assert.equal(await page.locator('.manifesto > a').getAttribute('href'), './como.html');
   assert.ok(await page.locator('.manifesto').evaluate(node => node.getBoundingClientRect().height) <= 300);
@@ -48,11 +61,23 @@ try {
   const satelliteStyle = property => page.locator('.orbit-one').evaluate((node, key) =>
     getComputedStyle(node, '::after')[key], property);
   assert.equal(await satelliteStyle('animationName'), 'satellite-orbit');
+  assert.equal(await page.locator('#orbit-toggle').textContent(), '');
+  assert.equal(await page.locator('#orbit-toggle').evaluate(node => getComputedStyle(node).backgroundColor), 'rgba(0, 0, 0, 0)');
   await page.getByRole('button', { name: 'Pausar animación', exact: true }).click();
   assert.equal(await satelliteStyle('animationPlayState'), 'paused');
-  await page.getByRole('button', { name: 'Reanudar animación', exact: true }).click();
+  await page.keyboard.press('Tab');
+  await page.keyboard.press('Shift+Tab');
+  assert.equal(await page.locator('#orbit-toggle').evaluate(node => node === document.activeElement), true);
+  assert.equal(await page.locator('#orbit-toggle').evaluate(node => getComputedStyle(node).outlineStyle), 'solid');
+  await page.keyboard.press('Enter');
   assert.equal(await satelliteStyle('animationPlayState'), 'running');
+  await page.locator('.hero .button').first().focus();
+  assert.equal(await page.locator('.hero .button').first().evaluate(node => getComputedStyle(node).outlineStyle), 'solid');
+  await page.locator('.change-preview').first().hover();
+  assert.equal(await page.locator('.change-preview h3').first().evaluate(node => getComputedStyle(node).color), 'rgb(49, 89, 220)');
+  await page.mouse.move(0, 0);
   await page.emulateMedia({ reducedMotion: 'reduce' });
+  assert.equal(await page.locator('.change-preview').first().evaluate(node => getComputedStyle(node).transitionDuration), '0s');
   assert.equal(await satelliteStyle('animationName'), 'none');
   await page.emulateMedia({ reducedMotion: 'no-preference' });
   assert.deepEqual(videoRequests, []);

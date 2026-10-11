@@ -73,12 +73,12 @@ const orbitToggle = $('#orbit-toggle');
 if (orbitToggle) {
   const heroArt = $('.hero-art');
   heroArt.dataset.orbitMotion = 'running';
-  orbitToggle.textContent = 'Pausar animación';
+  orbitToggle.setAttribute('aria-label', 'Pausar animación');
   orbitToggle.hidden = false;
   orbitToggle.addEventListener('click', () => {
     const paused = heroArt.dataset.orbitMotion === 'running';
     heroArt.dataset.orbitMotion = paused ? 'paused' : 'running';
-    orbitToggle.textContent = paused ? 'Reanudar animación' : 'Pausar animación';
+    orbitToggle.setAttribute('aria-label', paused ? 'Reanudar animación' : 'Pausar animación');
   });
 }
 
@@ -132,11 +132,18 @@ async function loadPageContent() {
       container.replaceChildren();
       if (section === 'highlights') {
         const actions = getInitiativeActionItems(markdown);
-        container.append(...actions.map(action => {
+        const messages = getChangeVideoMessages(markdown);
+        container.append(...actions.map((action, index) => {
+          const message = messages[index];
           const link = element('a', 'change-preview');
           link.href = `./cambios.html#cambio-${action.id}`;
+          const copy = element('div', 'preview-copy');
+          copy.append(element('h3', '', message.title), element('p', 'preview-description', message.description),
+            element('span', 'text-link', 'Ver propuesta y garantías'));
+          const arrow = element('span', 'preview-arrow', '↗');
+          arrow.setAttribute('aria-hidden', 'true');
           link.append(element('span', 'pillar-number pillar-preview-number', String(action.id).padStart(2, '0')),
-            element('h3', '', action.title), element('span', 'text-link', 'Ver propuesta y garantías ↗'));
+            copy, arrow);
           return link;
         }));
       } else if (section === 'video-transcript') {

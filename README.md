@@ -34,7 +34,11 @@ La cabecera combina el símbolo circular azul, de trazo grueso y redondeado, con
 
 El lema de portada es «Abrir España. Ampliar oportunidades.», compartido por la web y el programa PDF. «Open» conecta apertura a personas, ideas y propuestas con menos barreras para vivir y crear y transparencia sobre decisiones y dinero público. Al cambiarlo, actualiza también título y descripción de la web y regenera el PDF.
 
-La ilustración de portada anima un punto claro alrededor de su órbita con CSS, sin mover los textos. Incluye un botón para pausar y reanudar; permanece estática sin JavaScript o con la preferencia de movimiento reducido, y no se imprime.
+La ilustración de portada conserva la esfera, las órbitas y el horizonte. Anima un punto claro alrededor de su órbita con CSS, sin mover los textos. La propia ilustración permite pausar y reanudar mediante un botón transparente que cubre su superficie, con nombre accesible y foco visible para el teclado, sin un rótulo sobre el dibujo. Permanece estática sin JavaScript o con la preferencia de movimiento reducido, y no se imprime. Las transiciones de botones, enlaces y filtros son breves y se desactivan con la preferencia de movimiento reducido.
+
+Inicio combina una portada azul, pilares en filas numeradas sobre blanco, vídeo sobre gris, un bloque editorial de actualizaciones y un cierre azul. Los pilares reutilizan los títulos breves y frases del apartado 1.3 del programa; los costes, condiciones y garantías completos permanecen en «Cambios». Los valores utilizan filas abiertas en dos columnas (una en móvil), sin cajas individuales. Las tarjetas se mantienen donde facilitan explorar contenido, como los 31 ejes.
+
+«Un proyecto. En movimiento.» muestra cambios ya publicados con fechas y enlaces comprobables, sin cifras de apoyos o resultados inventadas. La fecha de actualización es editorial: debe cambiar solo al actualizar el contenido, junto con el historial pertinente; no se recalcula al visitar la página.
 
 Los títulos de sección usan peso 700 y los encabezados desplegables 800, sin aumentar su tamaño; los párrafos mantienen un peso normal para distinguir contenido y navegación.
 
