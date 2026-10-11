@@ -64,6 +64,31 @@ Guion editorial del vídeo horizontal, vinculado a los ocho pilares. Resume prop
 
 No basta con anunciar cambios: hay que explicar quién los ejecuta, cuánto cuestan y cómo se comprueban.
 
+### 1.4. Nuestros valores
+
+Valores cívicos compartidos, abiertos a personas con ideas y convicciones distintas. Orientan nuestra conducta; no sustituyen los derechos, las pruebas ni las garantías.
+
+- **Dignidad humana.** Respetar a cada persona, también a quien piensa distinto. Nadie debe ser humillado para ganar votos.
+- **Compasión y cuidado.** Comprender el sufrimiento y ofrecer soluciones que ayuden a recuperar autonomía, no solo ayudas puntuales.
+- **Honestidad.** No mentir, manipular ni prometer lo que sabemos que no podemos cumplir. Rectificar públicamente.
+- **Humildad.** Reconocer errores, escuchar y cambiar de opinión ante mejores argumentos o pruebas.
+- **Vocación de servicio.** El cargo público sirve a la ciudadanía y merece una remuneración justa. No debe utilizarse para obtener ventajas indebidas.
+- **Justicia y equidad.** Aplicar las mismas reglas y atender las dificultades reales de quienes parten con menos oportunidades.
+- **Diálogo y convivencia.** Buscar acuerdos sin convertir al adversario en enemigo. Cooperar no significa renunciar a las diferencias.
+- **Responsabilidad y reparación.** Responder por las decisiones y reparar el daño causado. Dar segundas oportunidades no implica impunidad.
+- **Prosperidad y bien común.** Crear riqueza y vivir bien es compatible con contribuir al bien común. Respetar el éxito económico legítimo y usar los recursos públicos con responsabilidad.
+- **Cuidado del futuro.** Considerar cómo nuestras decisiones afectan al entorno y a las próximas generaciones.
+
+### 1.5. Cómo los cumplimos
+
+Estos son compromisos de conducta para OpenSpain, también en su fase de borrador. No afirmamos que existan ya registros, órganos de control o sistemas de reclamación operativos.
+
+- **Decir la verdad y rectificar.** Distinguir hechos contrastados, opiniones y propuestas. Corregir los errores detectados con una explicación pública de qué cambia y por qué, sin divulgar datos privados.
+- **Escuchar sin dividir.** Recoger argumentos de personas con posiciones distintas, reconocer sus aportaciones y responder a las críticas sin insultos ni descalificaciones personales. Buscar acuerdos sin exigir unanimidad.
+- **Servir sin privilegios.** Declarar y gestionar los conflictos de interés relevantes antes de intervenir en una decisión, con abstención y sustitución cuando corresponda. Ninguna aportación económica comprará influencia ni trato preferente.
+- **Responder y reparar.** Acompañar los compromisos de responsable, plazo y prueba de cumplimiento. Explicar los bloqueos y los incumplimientos, corregir lo que no funcione y proponer reparación cuando exista daño acreditado, con medidas proporcionadas y garantías.
+- **Cuidar los recursos y el futuro.** Justificar el gasto, su financiación y su utilidad. Evaluar los efectos sobre quienes tienen menos oportunidades, el entorno y las próximas generaciones; no presentar ahorros supuestos como dinero disponible.
+
 ## 2. Mapa de problemas y propuestas
 
 Los problemas siguientes son hipótesis de trabajo y preocupaciones ciudadanas. Su alcance y sus causas deben contrastarse antes de aprobar medidas.

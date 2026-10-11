@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
-import { parseProgram, filterAxes, categories, axisMetadata, ipc, getChapter, getCitizenDemands, getInitiativeActions, getInitiativeActionItems, getChangeVideoMessages, inlineParts, detailMarker } from '../program.js';
+import { parseProgram, filterAxes, categories, axisMetadata, ipc, getChapter, getCitizenDemands, getInitiativeActions, getInitiativeActionItems, getChangeVideoMessages, getCivicValues, getValueCommitments, inlineParts, detailMarker } from '../program.js';
 import { pages, legacyTarget } from '../routes.js';
 import { observedCharts, targetCharts } from '../charts.js';
 import { getInstagramVideos, participationMessage } from '../video/instagram.mjs';
@@ -90,8 +90,9 @@ test('all six pages preserve relative navigation and old public anchors', async 
     const html = await readFile(new URL(`../${path}`, import.meta.url), 'utf8');
     for (const [destination] of pages) assert.ok(html.includes(`href="./${destination}"`), `${path} → ${destination}`);
     assert.equal((html.match(/aria-current="page"/g) || []).length, 1);
-    assert.ok(html.includes('site.js?v=20261011-mobile'));
-    assert.ok(html.includes('styles.css?v=20261011-wordmark'));
+    assert.ok(html.includes('site.js?v=20261011-values'));
+    assert.ok(html.includes('styles.css?v=20261011-values'));
+    assert.ok(html.includes('>Valores</a>'));
     assert.match(html, /class="footer-socials"><a href="https:\/\/www\.instagram\.com\/openspainorg\/" target="_blank" rel="noopener noreferrer"/);
     assert.doesNotMatch(html, /autoplay/);
   }
@@ -110,6 +111,28 @@ test('all six pages preserve relative navigation and old public anchors', async 
   assert.equal(avatar.subarray(1, 4).toString(), 'PNG');
   assert.equal(avatar.readUInt32BE(16), 1080);
   assert.equal(avatar.readUInt32BE(20), 1080);
+});
+
+test('civic values and commitments are distinct source sections with explicit safeguards', () => {
+  const values = getCivicValues(markdown);
+  const commitments = getValueCommitments(markdown);
+  assert.equal((values.match(/^- /gm) || []).length, 10);
+  assert.equal((commitments.match(/^- /gm) || []).length, 5);
+  assert.match(values, /Dar segundas oportunidades no implica impunidad/);
+  assert.match(values, /personas con ideas y convicciones distintas/);
+  assert.match(values, /remuneración justa/);
+  assert.match(values, /Prosperidad y bien común/);
+  assert.match(values, /Respetar el éxito económico legítimo/);
+  assert.doesNotMatch(values, /Evitar el lujo|vía de enriquecimiento/);
+  assert.doesNotMatch(values, /Decir la verdad y rectificar|Mapa de problemas/);
+  assert.match(commitments, /No afirmamos que existan ya registros/);
+  assert.match(commitments, /sin divulgar datos privados/);
+  assert.match(commitments, /con medidas proporcionadas y garantías/);
+  assert.doesNotMatch(commitments, /Mapa de problemas/);
+  assert.equal(getCivicValues(markdown.replaceAll('\n', '\r\n')), values);
+  assert.equal(getValueCommitments(markdown.replaceAll('\n', '\r\n')), commitments);
+  assert.throws(() => getCivicValues(markdown.replace('### 1.4.', '### 1.9.')), /Falta el apartado 1.4/);
+  assert.throws(() => getValueCommitments(markdown.replace('### 1.5.', '### 1.9.')), /Falta el apartado 1.5/);
 });
 
 test('citizen demands contain exactly ten commitments and link to existing axes', () => {

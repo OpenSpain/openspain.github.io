@@ -1,6 +1,6 @@
-import { getChapter, getInitiativeActions, getInitiativeActionItems, getChangeVideoMessages } from './program.js?v=20261011-pillars';
+import { getChapter, getInitiativeActions, getInitiativeActionItems, getChangeVideoMessages, getCivicValues, getValueCommitments } from './program.js?v=20261011-values';
 import { element, appendMarkdown, openDialog, setupDialogs, replaceArrowIcons } from './ui.js?v=20261011-mobile';
-import { legacyTarget } from './routes.js?v=20261011-pillars';
+import { legacyTarget } from './routes.js?v=20261011-values';
 
 const $ = selector => document.querySelector(selector);
 document.querySelectorAll('a, button, .note-icon').forEach(replaceArrowIcons);
@@ -146,7 +146,10 @@ async function loadPageContent() {
           container.append(paragraph);
         }
       } else {
-        const content = section === 'actions' ? getInitiativeActions(markdown) : getChapter(markdown, Number(section));
+        const content = section === 'actions' ? getInitiativeActions(markdown)
+          : section === 'values' ? getCivicValues(markdown)
+          : section === 'value-commitments' ? getValueCommitments(markdown)
+          : getChapter(markdown, Number(section));
         appendMarkdown(container, content, './programa.html');
         if (section === 'actions') {
           const list = element('ol', 'pillar-grid');

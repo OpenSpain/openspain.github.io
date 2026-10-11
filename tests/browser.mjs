@@ -186,6 +186,13 @@ try {
   assert.match(await page.locator('#method-content').textContent(), /Un seguimiento que no confunda actividad con resultados/);
   await page.goto(`${baseURL}/transparencia.html`);
   await page.waitForFunction(() => document.querySelector('[data-program-content="6"]')?.textContent.includes('Alejandro'));
+  assert.equal(await page.title(), 'Valores y transparencia — OpenSpain');
+  assert.equal(await page.locator('#valores .measure-list > li').count(), 10);
+  assert.equal(await page.locator('#compromisos .measure-list > li').count(), 5);
+  assert.match(await page.locator('#valores').textContent(), /Pensar distinto\. Trabajar juntos\./);
+  assert.match(await page.locator('#compromisos').textContent(), /No afirmamos que existan ya registros/);
+  assert.ok(await page.locator('#valores').evaluate(node => node.compareDocumentPosition(document.querySelector('#compromisos')) & Node.DOCUMENT_POSITION_FOLLOWING));
+  assert.ok(await page.locator('#compromisos').evaluate(node => node.compareDocumentPosition(document.querySelector('#transparencia')) & Node.DOCUMENT_POSITION_FOLLOWING));
   assert.match(await page.locator('#registro-donaciones').textContent(), /no está habilitado|No es un servicio de pagos/);
   assert.equal(await page.locator('a[href*="paypal"], a[href*="stripe"]').count(), 0);
 
@@ -215,6 +222,7 @@ try {
       assert.ok(methodToPlanGap >= 0 && methodToPlanGap <= 96, `Gap before plan: ${methodToPlanGap}px`);
     }
     const instagram = page.locator('footer .footer-socials a');
+    assert.equal(await page.locator('.site-header nav a[href="./transparencia.html"]').textContent(), 'Valores');
     assert.equal(await page.locator('.site-header > .brand').textContent(), 'openspain.');
     assert.equal(await page.locator('.site-header > .brand img').count(), 1);
     assert.equal(await page.locator('.site-header .brand-symbol').getAttribute('src'), './favicon.svg?v=20261011-wordmark');
@@ -228,6 +236,11 @@ try {
     assert.equal(await instagram.getAttribute('rel'), 'noopener noreferrer');
     for (const width of [320, 390, 768, 1024, 1440]) {
       await page.setViewportSize({ width, height: 900 });
+      if (path === 'transparencia.html') {
+        const valuesGap = await page.evaluate(() => document.querySelector('#valores').getBoundingClientRect().top
+          - document.querySelector('.page-intro').getBoundingClientRect().bottom);
+        assert.ok(valuesGap >= 24 && valuesGap <= 32, `Gap before values at ${width}px: ${valuesGap}px`);
+      }
       assert.equal(await page.locator('.site-header nav a').count(), 6);
       const menu = page.locator('.menu-toggle');
       if (width <= 1200) {

@@ -73,6 +73,14 @@ export function getCitizenDemands(markdown) {
   return getIntroductionSection(markdown, 1);
 }
 
+export function getCivicValues(markdown) {
+  return getIntroductionSection(markdown, 4);
+}
+
+export function getValueCommitments(markdown) {
+  return getIntroductionSection(markdown, 5);
+}
+
 export function getInitiativeActions(markdown) {
   return getIntroductionSection(markdown, 2);
 }

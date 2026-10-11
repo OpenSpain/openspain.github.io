@@ -3,7 +3,7 @@ export const pages = [
   ['cambios.html', 'Cambios'],
   ['programa.html', 'Programa'],
   ['como.html', 'Cómo lo impulsamos'],
-  ['transparencia.html', 'Transparencia'],
+  ['transparencia.html', 'Valores'],
   ['participa.html', 'Participa'],
 ];
 

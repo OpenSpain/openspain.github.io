@@ -142,6 +142,13 @@ video:focus-visible { outline: 3px solid var(--blue); outline-offset: 5px; }
 .principle-strip > span:nth-child(even) { font-size: 20px; color: var(--blue); }
 .section { max-width: 1440px; margin: auto; padding: 40px 6%; }
 .section + .section { padding-top: 24px; }
+.values-section { margin-top: 24px; background: var(--paper); border-radius: 28px; }
+.values-content .measure-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; padding: 0; list-style: none; }
+.values-content .measure-list > li { margin: 0; padding: 20px; border: 1px solid var(--line); border-radius: 16px; background: var(--surface); }
+.values-content .measure-list > li > strong:first-child { display: block; margin-bottom: 8px; color: var(--ink); font-size: 18px; font-weight: 800; }
+@media (max-width: 600px) {
+  .values-content .measure-list { grid-template-columns: 1fr; }
+}
 .highlights-section, .program-section, .data-section, .priorities-section, .donations-section { background: var(--paper); border-radius: 28px; }
 .program-section, .data-section, .priorities-section, .donations-section { margin-block: 24px; }
 .priorities-section .program-chapter { background: var(--surface); border: 1px solid var(--line); border-radius: 20px; }

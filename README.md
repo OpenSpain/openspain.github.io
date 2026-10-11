@@ -4,7 +4,9 @@ Web informativa de un programa ciudadano independiente. Seis páginas con HTML, 
 
 ## Páginas y navegación
 
-`index.html` presenta los ocho pilares prácticos y un vídeo horizontal; `cambios.html` desarrolla sus acciones, límites y primeros pasos; `programa.html` conserva los 31 ejes, buscador, filtros, datos y fuentes; `como.html` explica método y fases; `transparencia.html` reúne impulsor, organización y financiación; `participa.html` contiene inscripción, vídeo vertical y propuestas locales.
+`index.html` presenta los ocho pilares prácticos y un vídeo horizontal; `cambios.html` desarrolla sus acciones, límites y primeros pasos; `programa.html` conserva los 31 ejes, buscador, filtros, datos y fuentes; `como.html` explica método y fases; `transparencia.html`, bajo «Valores» en el menú, reúne valores, compromisos de conducta, impulsor, organización y financiación; `participa.html` contiene inscripción, vídeo vertical y propuestas locales.
+
+La página «Valores y transparencia», abreviada como «Valores» en el menú, conserva la ruta y los enlaces de donaciones anteriores. Muestra primero diez valores cívicos y después cinco compromisos concretos, leídos de los apartados 1.4 y 1.5 de `PROGRAMA.md` mediante `getCivicValues` y `getValueCommitments`. No exige creencias ni presenta órganos de control o registros como operativos. El PDF completo incluye estos mismos apartados.
 
 `PROGRAMA.md` sigue siendo la fuente única de acciones, mensajes del vídeo y capítulos. Los apartados 1.1, 1.2 y 1.3 contienen decálogo, acciones y guion; sus lectores en `program.js` delimitan cada apartado sin mezclar listas. `site.js` carga el contenido de cada página; `ui.js` comparte renderizado seguro y diálogos. `app.js` se carga solo en la página del programa. Los estados de carga fallida ofrecen reintento y documento original.
 
