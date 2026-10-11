@@ -1,8 +1,41 @@
 import { getChapter, getInitiativeActions, getInitiativeActionItems, getChangeVideoMessages } from './program.js?v=20261011-pillars';
-import { element, appendMarkdown, openDialog, setupDialogs } from './ui.js?v=20261011-pillars';
+import { element, appendMarkdown, openDialog, setupDialogs, replaceArrowIcons } from './ui.js?v=20261011-mobile';
 import { legacyTarget } from './routes.js?v=20261011-pillars';
 
 const $ = selector => document.querySelector(selector);
+document.querySelectorAll('a, button, .note-icon').forEach(replaceArrowIcons);
+const header = $('.site-header');
+const navigation = header.querySelector('nav');
+navigation.id = 'site-navigation';
+const menuToggle = element('button', 'menu-toggle');
+menuToggle.type = 'button';
+menuToggle.setAttribute('aria-controls', navigation.id);
+const menuIcon = element('span', 'menu-toggle-icon');
+menuIcon.setAttribute('aria-hidden', 'true');
+menuToggle.append(menuIcon, document.createTextNode('Menú'));
+function setMenuOpen(open) {
+  header.classList.toggle('menu-open', open);
+  menuToggle.setAttribute('aria-expanded', String(open));
+  menuToggle.setAttribute('aria-label', open ? 'Cerrar menú' : 'Abrir menú');
+}
+setMenuOpen(false);
+header.insertBefore(menuToggle, navigation);
+header.classList.add('menu-ready');
+menuToggle.addEventListener('click', () => setMenuOpen(!header.classList.contains('menu-open')));
+navigation.addEventListener('click', event => {
+  if (event.target.closest('a')) setMenuOpen(false);
+});
+document.addEventListener('keydown', event => {
+  if (event.key === 'Escape' && header.classList.contains('menu-open')) {
+    setMenuOpen(false);
+    menuToggle.focus();
+  }
+});
+document.addEventListener('click', event => {
+  if (!header.contains(event.target)) setMenuOpen(false);
+});
+window.matchMedia('(max-width: 1200px)').addEventListener('change', () => setMenuOpen(false));
+
 const floatingSignup = element('a', 'floating-signup');
 floatingSignup.href = './participa.html#participa';
 floatingSignup.append(document.createTextNode('Hazte simpatizante'),
@@ -16,13 +49,15 @@ function updateFloatingSignup() {
     const rect = node.getBoundingClientRect();
     return rect.bottom > 0 && rect.top < window.innerHeight && rect.width > 0 && rect.height > 0;
   });
-  floatingSignup.hidden = window.scrollY < 160 || obstructed || document.body.classList.contains('dialog-open');
+  floatingSignup.hidden = window.scrollY < 160 || obstructed || document.body.classList.contains('dialog-open')
+    || header.classList.contains('menu-open');
 }
 const signupObserver = new IntersectionObserver(updateFloatingSignup);
 signupObstacles.forEach(node => signupObserver.observe(node));
 window.addEventListener('scroll', updateFloatingSignup, { passive: true });
 window.addEventListener('resize', updateFloatingSignup);
 new MutationObserver(updateFloatingSignup).observe(document.body, { attributes: true, attributeFilter: ['class'] });
+new MutationObserver(updateFloatingSignup).observe(header, { attributes: true, attributeFilter: ['class'] });
 updateFloatingSignup();
 
 if (document.body.dataset.page === 'home') {

@@ -56,7 +56,17 @@ test('actions and video messages are separate summaries without adopting evaluat
   assert.equal((getInitiativeActions(markdown).match(/^- /gm) || []).length, 8);
   assert.match(actions[0].description, /proporcionalidad, pruebas, defensa y control judicial/);
   assert.match(actions[1].description, /no garantiza por sí sola subir el salario bruto/);
+  assert.equal(actions[2].title, 'Innovar, emprender y crecer desde España.');
+  assert.match(actions[2].description, /empresas existentes, industria y servicios públicos/);
+  assert.match(actions[2].description, /criterios transparentes, hitos verificables y evaluación/);
+  assert.match(actions[2].description, /\[innovación\]\(#eje-5\)/);
+  assert.match(getChangeVideoMessages(markdown)[2].title, /Innovar/);
   assert.match(actions[5].description, /no se adopta una abolición general de comunidades autónomas/);
+  assert.match(actions[5].title, /Menos burocracia/);
+  assert.match(actions[5].description, /requisitos obsoletos, duplicados o sin utilidad acreditada/);
+  assert.match(actions[5].description, /Mantener seguridad, derechos laborales, protección ambiental y controles contra el fraude/);
+  assert.match(actions[5].description, /tiempo y coste por trámite/);
+  assert.match(axes.find(axis => axis.id === 6).technicalBody, /cauce legal correspondiente/);
   assert.match(actions[6].description, /Un contrato no autoriza por sí solo a trabajar/);
   assert.match(actions[7].description, /evitar segregación y barrios sin servicios/);
   assert.match(getInitiativeActions(markdown), /no modifica sus metas ni activa nuevos frentes/);
@@ -67,14 +77,21 @@ test('actions and video messages are separate summaries without adopting evaluat
   }
 });
 
+test('horizontal captions match all eight programme messages', async () => {
+  const captions = await readFile(new URL('../video/cambios-es.vtt', import.meta.url), 'utf8');
+  for (const message of getChangeVideoMessages(markdown)) {
+    assert.ok(captions.includes(`${message.title}\n${message.description}`));
+  }
+});
+
 test('all six pages preserve relative navigation and old public anchors', async () => {
   assert.equal(pages.length, 6);
   for (const [path] of pages) {
     const html = await readFile(new URL(`../${path}`, import.meta.url), 'utf8');
     for (const [destination] of pages) assert.ok(html.includes(`href="./${destination}"`), `${path} → ${destination}`);
     assert.equal((html.match(/aria-current="page"/g) || []).length, 1);
-    assert.ok(html.includes('site.js?v=20261011-pillars'));
-    assert.ok(html.includes('styles.css?v=20261011-brand'));
+    assert.ok(html.includes('site.js?v=20261011-mobile'));
+    assert.ok(html.includes('styles.css?v=20261011-mobile'));
     assert.match(html, /class="footer-socials"><a href="https:\/\/www\.instagram\.com\/openspainorg\/" target="_blank" rel="noopener noreferrer"/);
     assert.doesNotMatch(html, /autoplay/);
   }

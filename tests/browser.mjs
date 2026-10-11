@@ -213,7 +213,24 @@ try {
     for (const width of [320, 390, 768, 1024, 1440]) {
       await page.setViewportSize({ width, height: 900 });
       assert.equal(await page.locator('.site-header nav a').count(), 6);
+      const menu = page.locator('.menu-toggle');
+      if (width <= 1200) {
+        await menu.waitFor({ state: 'visible' });
+        assert.equal(await menu.getAttribute('aria-expanded'), 'false');
+        assert.equal(await page.locator('.site-header nav').isVisible(), false);
+        await menu.click();
+        assert.equal(await menu.getAttribute('aria-expanded'), 'true');
+      } else {
+        assert.equal(await menu.isVisible(), false);
+      }
       for (const link of await page.locator('.site-header nav a').all()) assert.equal(await link.isVisible(), true);
+      assert.equal(await page.locator('.site-header .nav-action svg.direction-icon').count(), 1);
+      assert.doesNotMatch(await page.locator('.site-header nav').textContent(), /↗/);
+      if (width <= 1200) {
+        await page.keyboard.press('Escape');
+        assert.equal(await menu.getAttribute('aria-expanded'), 'false');
+        assert.equal(await page.locator('.site-header nav').isVisible(), false);
+      }
       assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), `${path}: overflow at ${width}px`);
       const video = page.locator('video');
       if (await video.count()) {

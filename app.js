@@ -1,6 +1,6 @@
 import { categories, parseProgram, filterAxes, ipc, months, getChapter, getCitizenDemands } from './program.js?v=20261011-pillars';
 import { createPolicyEvidence, observedCharts } from './charts.js?v=20261011-pillars';
-import { element, appendMarkdown, openDialog } from './ui.js?v=20261011-pillars';
+import { element, appendMarkdown, openDialog } from './ui.js?v=20261011-mobile';
 
 const $ = selector => document.querySelector(selector);
 let axes = [];

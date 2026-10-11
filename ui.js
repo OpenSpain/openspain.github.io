@@ -3,8 +3,34 @@ import { inlineParts } from './program.js?v=20261011-pillars';
 export function element(tag, className, text) {
   const node = document.createElement(tag);
   if (className) node.className = className;
-  if (text !== undefined) node.textContent = text;
+  if (text !== undefined) {
+    node.textContent = text;
+    replaceArrowIcons(node);
+  }
   return node;
+}
+
+export function replaceArrowIcons(container) {
+  const walker = document.createTreeWalker(container, NodeFilter.SHOW_TEXT);
+  const texts = [];
+  while (walker.nextNode()) {
+    if (/[↗↓]/.test(walker.currentNode.textContent)) texts.push(walker.currentNode);
+  }
+  for (const text of texts) {
+    const parts = text.textContent.split(/([↗↓])/);
+    text.replaceWith(...parts.map(part => {
+      if (part !== '↗' && part !== '↓') return document.createTextNode(part);
+      const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+      svg.setAttribute('viewBox', '0 0 24 24');
+      svg.setAttribute('class', 'direction-icon');
+      svg.setAttribute('aria-hidden', 'true');
+      svg.setAttribute('focusable', 'false');
+      const path = document.createElementNS(svg.namespaceURI, 'path');
+      path.setAttribute('d', part === '↗' ? 'M6 18 18 6M6 6h12v12' : 'M12 4v16m-7-7 7 7 7-7');
+      svg.append(path);
+      return svg;
+    }));
+  }
 }
 
 export function appendInline(container, text, axisPage = '') {
