@@ -215,6 +215,11 @@ try {
       assert.ok(methodToPlanGap >= 0 && methodToPlanGap <= 96, `Gap before plan: ${methodToPlanGap}px`);
     }
     const instagram = page.locator('footer .footer-socials a');
+    assert.equal(await page.locator('.site-header > .brand').textContent(), 'openspain.');
+    assert.equal(await page.locator('.site-header > .brand img').count(), 1);
+    assert.equal(await page.locator('.site-header .brand-symbol').getAttribute('src'), './favicon.svg?v=20261011-wordmark');
+    assert.equal(await page.locator('.site-header .brand-symbol').getAttribute('alt'), '');
+    assert.equal(await page.locator('.site-header > .brand').getAttribute('aria-label'), 'OpenSpain, inicio');
     const subtitle = page.locator('main .section-subtitle, main .section-heading > p').first();
     assert.equal(await subtitle.evaluate(node => getComputedStyle(node).fontWeight), '600');
     assert.equal(await instagram.count(), 1);
@@ -227,6 +232,10 @@ try {
       const menu = page.locator('.menu-toggle');
       if (width <= 1200) {
         await menu.waitFor({ state: 'visible' });
+        const brandBounds = await page.locator('.site-header > .brand').boundingBox();
+        const menuBounds = await menu.boundingBox();
+        assert.ok(brandBounds.x + brandBounds.width < menuBounds.x, 'Logo and menu must fit on the same row');
+        assert.ok(Math.abs(brandBounds.y + brandBounds.height / 2 - menuBounds.y - menuBounds.height / 2) <= 1);
         assert.equal(await menu.getAttribute('aria-expanded'), 'false');
         assert.equal(await page.locator('.site-header nav').isVisible(), false);
         await menu.click();

@@ -28,7 +28,7 @@ Las seis páginas incluyen un enlace flotante «Hazte simpatizante» a `particip
 
 En móvil y tablet, un botón «Menú» despliega los seis enlaces sin desplazamiento horizontal, con estado accesible y cierre mediante Escape. Sin JavaScript se conserva la navegación visible. Las flechas de enlaces y botones se muestran como SVG monocromos, no como caracteres que puedan convertirse en emojis del sistema.
 
-La cabecera utiliza un logo de 250 píxeles, ajustado entre 140 y 220 en móvil para dejar espacio al menú, navegación de 16 píxeles y estado activo en cápsula; «Plan de acción» enlaza a `como.html`. Los pilares y ejes destacan números grandes en azul, con filtros de la misma marca. «Participa» es la acción principal: azul sobre claro y blanco sobre azul; los botones secundarios usan borde. El cierre azul contrasta con el pie oscuro, manteniendo una composición compacta.
+La cabecera combina el símbolo circular azul, de trazo grueso y redondeado, con «openspain.» en Manrope de peso 800, sin bandera. Comparte el símbolo de `favicon.svg`: mide 40 píxeles en escritorio y 32 en móvil; el nombre pasa de 34 a 24–32 píxeles para dejar espacio al menú. La navegación utiliza 16 píxeles y estado activo en cápsula; «Plan de acción» enlaza a `como.html`. Los pilares y ejes destacan números grandes en azul, con filtros de la misma marca. «Participa» es la acción principal: azul sobre claro y blanco sobre azul; los botones secundarios usan borde. El cierre azul contrasta con el pie oscuro, manteniendo una composición compacta.
 
 El lema de portada es «Abrir España. Ampliar oportunidades.», compartido por la web y el programa PDF. «Open» conecta apertura a personas, ideas y propuestas con menos barreras para vivir y crear y transparencia sobre decisiones y dinero público. Al cambiarlo, actualiza también título y descripción de la web y regenera el PDF.
 
@@ -64,9 +64,9 @@ GitHub Pages sirve los archivos; no ejecuta `npm start` ni genera el PDF. Regene
 
 ## Logo para formularios
 
-`openspain-logo.png` es el logo horizontal con fondo transparente (2400 × 560 píxeles), listo para usar en formularios externos. `openspain-logo.svg` conserva la versión vectorial editable; el texto usa la familia tipográfica del sitio y puede variar si no está instalada. La web publicada sirve ambos archivos desde su raíz.
+`openspain-logo.png` es el logo horizontal anterior con fondo transparente (2400 × 560 píxeles) y bandera, disponible para formularios externos. `openspain-logo.svg` conserva su versión vectorial editable. Estos archivos y la variante clara utilizada en los vídeos no se han rediseñado con el cambio de cabecera. La web publicada sirve ambos archivos desde su raíz.
 
-`openspain-instagram.png` es la variante de perfil de 1080 × 1080, con el símbolo azul original centrado sobre marfil y margen para recorte circular. `openspain-instagram.svg` conserva la fuente. El PNG puede descargarse desde `/openspain-instagram.png`; no incluye texto pequeño ni datos personales.
+`openspain-instagram.png` es la variante de perfil de 1080 × 1080, con el nuevo símbolo azul `#3159dc` sobre blanco y margen para recorte circular. `openspain-instagram.svg` conserva la fuente, con la misma geometría que el favicon y la cabecera. El PNG puede descargarse desde `/openspain-instagram.png`; no incluye texto pequeño ni datos personales.
 
 ## Contenido y datos
 
