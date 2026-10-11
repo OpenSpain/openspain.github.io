@@ -41,19 +41,24 @@ test('presentation video, captions and transcript use the public domain and vers
   }
   const html = await readFile(new URL('../participa.html', import.meta.url), 'utf8');
   for (const filename of ['OpenSpain-Hazte-Simpatizante.mp4', 'hazte-simpatizante-portada.jpg', 'hazte-simpatizante-es.vtt']) {
-    assert.ok(html.includes(`${filename}?v=20261009-org`));
+    assert.ok(html.includes(`${filename}?v=20261011-brand`));
   }
 });
 
 test('actions and video messages are separate summaries without adopting evaluated alternatives', () => {
   const actions = getInitiativeActionItems(markdown);
-  assert.equal(actions.length, 15);
-  assert.equal(getChangeVideoMessages(markdown).length, 6);
+  assert.equal(actions.length, 8);
+  assert.equal(getChangeVideoMessages(markdown).length, 8);
+  for (const message of getChangeVideoMessages(markdown)) {
+    assert.ok(`${message.title} ${message.description}`.split(/\s+/).length <= 15);
+  }
   assert.equal((getCitizenDemands(markdown).match(/^- /gm) || []).length, 10);
-  assert.equal((getInitiativeActions(markdown).match(/^- /gm) || []).length, 15);
-  assert.match(actions[0].description, /No todos estos beneficios son salarios ni vitalicios/);
-  assert.match(actions[9].description, /no elige una abolición general/);
-  assert.match(actions[10].description, /siguen sujetas a comparación/);
+  assert.equal((getInitiativeActions(markdown).match(/^- /gm) || []).length, 8);
+  assert.match(actions[0].description, /proporcionalidad, pruebas, defensa y control judicial/);
+  assert.match(actions[1].description, /no garantiza por sí sola subir el salario bruto/);
+  assert.match(actions[5].description, /no se adopta una abolición general de comunidades autónomas/);
+  assert.match(actions[6].description, /Un contrato no autoriza por sí solo a trabajar/);
+  assert.match(actions[7].description, /evitar segregación y barrios sin servicios/);
   assert.match(getInitiativeActions(markdown), /no modifica sus metas ni activa nuevos frentes/);
   for (const action of actions) {
     for (const link of inlineParts(action.description).filter(part => part.type === 'link')) {
@@ -68,7 +73,9 @@ test('all six pages preserve relative navigation and old public anchors', async 
     const html = await readFile(new URL(`../${path}`, import.meta.url), 'utf8');
     for (const [destination] of pages) assert.ok(html.includes(`href="./${destination}"`), `${path} → ${destination}`);
     assert.equal((html.match(/aria-current="page"/g) || []).length, 1);
-    assert.ok(html.includes('site.js?v=20261009-pages'));
+    assert.ok(html.includes('site.js?v=20261011-pillars'));
+    assert.ok(html.includes('styles.css?v=20261011-brand'));
+    assert.match(html, /class="footer-socials"><a href="https:\/\/www\.instagram\.com\/openspainorg\/" target="_blank" rel="noopener noreferrer"/);
     assert.doesNotMatch(html, /autoplay/);
   }
   for (const axis of axes) assert.equal(legacyTarget(`#eje-${axis.id}`), `programa.html#eje-${axis.id}`);
@@ -77,6 +84,11 @@ test('all six pages preserve relative navigation and old public anchors', async 
   assert.equal(legacyTarget('#donaciones'), 'transparencia.html#donaciones');
   assert.equal(legacyTarget('#eje-32'), undefined);
   assert.equal(legacyTarget('#vision'), undefined);
+  const changes = await readFile(new URL('../cambios.html', import.meta.url), 'utf8');
+  assert.doesNotMatch(changes, /class="section content-error"/);
+  assert.match(changes, /<details class="program-chapter" open><summary>Prioridades/);
+  const implementation = await readFile(new URL('../como.html', import.meta.url), 'utf8');
+  assert.equal((implementation.match(/<details class="program-chapter" open>/g) || []).length, 2);
   const avatar = await readFile(new URL('../openspain-instagram.png', import.meta.url));
   assert.equal(avatar.subarray(1, 4).toString(), 'PNG');
   assert.equal(avatar.readUInt32BE(16), 1080);
@@ -182,7 +194,6 @@ test('media transparency follows documented payments without inventing dependenc
   assert.match(getChapter(markdown, 5), /C01 y C02 se aplicarán a «¿Quién paga a quién\?»/);
   assert.match(getChapter(markdown, 5), /registro parcial no cumple por sí solo la meta anual/);
   assert.match(getChapter(markdown, 7), /19\. Medios libres.*¿Quién paga a quién/);
-  assert.match(getChapter(markdown, 9), /Dinero público a medios difícil de seguir/);
   for (const query of ['quien paga a quien', 'agencia intermediaria', 'patrocinios', 'RTVE']) {
     assert.ok(filterAxes(axes, 'institutions', query).some(axis => axis.id === 19));
   }

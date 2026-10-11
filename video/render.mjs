@@ -20,7 +20,7 @@ await page.goto(pathToFileURL(join(dir, changes ? 'cambios.html' : 'video.html')
 if (changes) {
   const messages = getChangeVideoMessages(readFileSync(join(dir, '../PROGRAMA.md'), 'utf8'));
   await page.evaluate(messages => window.initialize(messages), messages);
-  for (const time of [1, 5, 11, 17, 23, 29, 35, 42]) {
+  for (const time of [1, 7, 13, 19, 25, 31, 37, 43, 49, 56]) {
     await page.evaluate(time => window.render(time), time);
     const overflow = await page.evaluate(() => [...document.querySelectorAll('#copy > *, .footer, .logo')]
       .some(node => {

@@ -28,7 +28,15 @@ try {
   await page.goto(baseURL);
   await page.waitForSelector('.change-preview');
   assert.equal(await page.title(), 'OpenSpain — Abrir España. Ampliar oportunidades.');
-  assert.equal(await page.locator('.change-preview').count(), 6);
+  assert.equal(await page.locator('.change-preview').count(), 8);
+  await page.evaluate(() => document.fonts.ready);
+  assert.equal(await page.evaluate(() => document.fonts.check('800 24px Manrope')), true);
+  assert.equal(await page.evaluate(() => [...document.fonts].find(font => font.family === 'Manrope')?.status), 'loaded');
+  assert.match(await page.locator('body').evaluate(node => getComputedStyle(node).fontFamily), /Manrope/);
+  assert.equal(await page.locator('.manifesto').evaluate(node => getComputedStyle(node).backgroundColor),
+    await page.locator('footer').evaluate(node => getComputedStyle(node).backgroundColor));
+  assert.ok(await page.locator('.manifesto').evaluate(node => node.getBoundingClientRect().height) <= 300);
+  assert.ok(await page.locator('footer').evaluate(node => node.getBoundingClientRect().height) <= 240);
   assert.equal(await page.locator('.program-card').count(), 0, 'The homepage must not contain the full programme');
   await page.emulateMedia({ reducedMotion: 'no-preference' });
   const satelliteStyle = property => page.locator('.orbit-one').evaluate((node, key) =>
@@ -45,15 +53,29 @@ try {
   await page.screenshot({ path: join(screenshotDir, 'openspain-desktop.png'), fullPage: true });
 
   await page.goto(`${baseURL}/cambios.html`);
-  await page.waitForSelector('#cambio-15');
-  assert.equal(await page.locator('.actions-content li').count(), 15);
+  await page.waitForSelector('#cambio-8');
+  assert.equal(await page.locator('.actions-content li').count(), 8);
+  assert.equal(await page.locator('video').count(), 0, 'Changes should not duplicate the homepage video');
+  assert.ok(await page.locator('.changes-intro').evaluate(node => node.getBoundingClientRect().height) <= 300);
+  const introToPillarsGap = await page.evaluate(() => document.querySelector('.actions-content').getBoundingClientRect().top
+    - document.querySelector('.changes-intro').getBoundingClientRect().bottom);
+  assert.ok(introToPillarsGap >= 0 && introToPillarsGap <= 40, `Gap before pillars: ${introToPillarsGap}px`);
+  assert.equal(await page.locator('#prioridades details').getAttribute('open'), '');
+  assert.equal(await page.locator('#priorities-content').isVisible(), true);
+  assert.equal(await page.locator('.content-error').evaluate(node => node.getBoundingClientRect().height), 0);
+  const prioritiesGap = await page.evaluate(() => document.querySelector('#priorities-title').getBoundingClientRect().top
+    - document.querySelector('.actions-content').getBoundingClientRect().bottom);
+  assert.ok(prioritiesGap >= 0 && prioritiesGap <= 96, `Gap before priorities: ${prioritiesGap}px`);
   for (const action of getInitiativeActionItems(markdown)) {
-    assert.equal(await page.locator(`#cambio-${action.id}`).textContent(), `${action.id}. ${action.title} ${plain(action.description)}`);
+    const card = page.locator(`#cambio-${action.id}`);
+    assert.equal(await card.locator('.pillar-number').textContent(), String(action.id).padStart(2, '0'));
+    assert.equal(await card.locator('.pillar-title').textContent(), action.title);
+    assert.equal(await card.locator('.pillar-body').textContent(), plain(action.description));
   }
-  assert.match(await page.locator('#cambio-10').textContent(), /no elige una abolición general/);
+  assert.match(await page.locator('#cambio-6').textContent(), /no se adopta una abolición general/);
   assert.equal(await page.locator('#priorities-content tbody tr').count(), 8);
-  assert.equal(await page.locator('#cambio-1 a').getAttribute('href'), './programa.html#eje-23');
-  assert.equal(await page.locator('#cambio-1 a').getAttribute('target'), null);
+  assert.equal(await page.locator('#cambio-1 a').first().getAttribute('href'), './programa.html#eje-1');
+  assert.equal(await page.locator('#cambio-1 a').first().getAttribute('target'), null);
 
   async function checkVideo(selector, expectedDuration, expectedCues, ratio) {
     const video = page.locator(selector);
@@ -96,14 +118,20 @@ try {
     assert.equal(await video.locator('xpath=..').locator('[data-video-error]').isVisible(), false);
   }
   assert.deepEqual(videoRequests, [], 'No MP4 should load before voluntary playback');
-  await checkVideo('#changes-video', 45, 8, 16 / 9);
+  await page.goto(baseURL);
+  await checkVideo('#changes-video', 60, 10, 16 / 9);
   await page.getByText('Leer el contenido del vídeo', { exact: true }).click();
-  assert.equal(await page.locator('[data-program-content="video-transcript"] p').count(), 6);
-  assert.match(await page.locator('.video-transcript').textContent(), /abolición general ya decidida/);
+  assert.equal(await page.locator('[data-program-content="video-transcript"] p').count(), 8);
+  assert.match(await page.locator('.video-transcript').textContent(), /sin abolición autonómica general/);
 
   await page.goto(`${baseURL}/programa.html`);
   await page.waitForSelector('.program-card');
+  assert.ok(await page.locator('.compact-intro').evaluate(node => node.getBoundingClientRect().height) <= 320);
+  assert.equal(await page.locator('.compact-intro a[download]').count(), 2);
   assert.equal(await page.locator('.program-card').count(), axes.length);
+  assert.ok(await page.locator('.card-index').first().evaluate(node => parseFloat(getComputedStyle(node).fontSize)) >= 52);
+  assert.equal(await page.locator('.filter-button[aria-pressed="true"]').evaluate(node => getComputedStyle(node).backgroundColor),
+    await page.locator('.card-index').first().evaluate(node => getComputedStyle(node).color));
   assert.equal(await page.locator('#citizen-demands-content li').count(), 10);
   for (const axis of axes) {
     await page.locator(`#eje-${axis.id}`).getByRole('button').click();
@@ -170,6 +198,18 @@ try {
 
   for (const [path] of pages) {
     await page.goto(`${baseURL}/${path}`);
+    if (path === 'como.html') {
+      assert.equal(await page.locator('#metodo details[open], #plan details[open]').count(), 2);
+      await page.waitForSelector('#method-content > p');
+      const methodToPlanGap = await page.evaluate(() => document.querySelector('#plan-title').getBoundingClientRect().top
+        - document.querySelector('#method-content').getBoundingClientRect().bottom);
+      assert.ok(methodToPlanGap >= 0 && methodToPlanGap <= 96, `Gap before plan: ${methodToPlanGap}px`);
+    }
+    const instagram = page.locator('footer .footer-socials a');
+    assert.equal(await instagram.count(), 1);
+    assert.equal(await instagram.getAttribute('href'), 'https://www.instagram.com/openspainorg/');
+    assert.equal(await instagram.getAttribute('target'), '_blank');
+    assert.equal(await instagram.getAttribute('rel'), 'noopener noreferrer');
     for (const width of [320, 390, 768, 1024, 1440]) {
       await page.setViewportSize({ width, height: 900 });
       assert.equal(await page.locator('.site-header nav a').count(), 6);
@@ -212,12 +252,48 @@ try {
   await failurePage.locator('#page-content-error').waitFor({ state: 'visible' });
   await failurePage.unroute('**/PROGRAMA.md');
   await failurePage.locator('#retry-content').click();
-  await failurePage.waitForSelector('#cambio-15');
-  await failurePage.route('**/video/OpenSpain-Cambios.mp4', route => route.fulfill({ status: 404, body: 'No encontrado' }));
+  await failurePage.waitForSelector('#cambio-8');
+  assert.equal(await failurePage.locator('#cambio-8').isVisible(), true);
+  await failurePage.route('**/video/OpenSpain-Cambios.mp4*', route => route.fulfill({ status: 404, body: 'No encontrado' }));
+  await failurePage.goto(baseURL);
   await failurePage.locator('video').evaluate(node => node.load());
   await failurePage.locator('[data-video-error]').waitFor({ state: 'visible' });
-  assert.equal(await failurePage.locator('#cambio-15').isVisible(), true);
+  assert.equal(await failurePage.locator('.change-preview').count(), 8);
   await failurePage.close();
+
+  const signupPage = await browser.newPage();
+  for (const width of [390, 1440]) {
+    await signupPage.setViewportSize({ width, height: 900 });
+    for (const [path] of pages) {
+      await signupPage.goto(`${baseURL}/${path}`);
+      const floating = signupPage.locator('.floating-signup');
+      assert.equal(await floating.count(), 1);
+      assert.equal(await floating.getAttribute('href'), './participa.html#participa');
+      assert.equal(await floating.isVisible(), false);
+      if (path !== 'participa.html') {
+        await signupPage.evaluate(() => window.scrollTo({ top: 180, behavior: 'instant' }));
+        await floating.waitFor({ state: 'visible' });
+        assert.equal(await floating.evaluate(node => {
+          const rect = node.getBoundingClientRect();
+          return rect.left >= 0 && rect.right <= innerWidth && rect.bottom <= innerHeight;
+        }), true);
+      }
+      await signupPage.locator('footer').scrollIntoViewIfNeeded();
+      await floating.waitFor({ state: 'hidden' });
+    }
+  }
+  await signupPage.goto(`${baseURL}/participa.html`);
+  await signupPage.locator('a[href^="https://tally.so/"]').scrollIntoViewIfNeeded();
+  assert.equal(await signupPage.locator('.floating-signup').isVisible(), false);
+  await signupPage.goto(baseURL);
+  await signupPage.locator('#changes-video').scrollIntoViewIfNeeded();
+  await signupPage.locator('.floating-signup').waitFor({ state: 'hidden' });
+  await signupPage.close();
+
+  await page.goto(`${baseURL}/transparencia.html`);
+  await page.locator('.founder-photo').waitFor();
+  assert.equal(await page.locator('.founder-photo').evaluate(image => image.complete && image.naturalWidth === 480), true);
+  assert.equal(await page.locator('.founder-photo').getAttribute('alt'), 'Retrato de Alejandro Acosta, impulsor de OpenSpain');
 
   const report = await browser.newPage();
   await report.goto(`${baseURL}/informe.html`);
@@ -226,7 +302,7 @@ try {
   assert.equal(await report.locator('.target-figure').count(), axes.length);
   assert.equal(await report.locator('.evidence-figure:not(.target-figure)').count(), Object.values(observedCharts).flat().length);
   assert.match(await report.locator('#report-body').textContent(), /Cambios que impulsamos/);
-  assert.match(await report.locator('#report-body').textContent(), /no elige una abolición general/);
+  assert.match(await report.locator('#report-body').textContent(), /no se adopta una abolición general/);
   await report.close();
 
   const proxy = createServer(async (request, response) => {
@@ -251,14 +327,14 @@ try {
     await prefixPage.waitForSelector('#eje-23');
     assert.equal(await prefixPage.locator('.program-card').count(), axes.length);
     await prefixPage.goto(`${prefixURL}cambios.html`);
-    await prefixPage.waitForSelector('#cambio-15');
+    await prefixPage.waitForSelector('#cambio-8');
     await prefixPage.close();
   } finally {
     await new Promise(resolve => proxy.close(resolve));
   }
   assert.deepEqual(errors, []);
   assert.deepEqual(signupRequests, [], 'Tally must not load before a signup click');
-  console.log('Browser checks passed: six pages, 31 axes, 15 actions, both videos, captions, downloads, legacy links, subpath deployment, retry and mobile navigation.');
+  console.log('Browser checks passed: six pages, 31 axes, eight pillars, both videos, captions, downloads, legacy links, subpath deployment, retry and mobile navigation.');
 } finally {
   await browser.close();
 }

@@ -1,8 +1,30 @@
-import { getChapter, getInitiativeActions, getInitiativeActionItems, getChangeVideoMessages } from './program.js?v=20261009-pages';
-import { element, appendMarkdown, openDialog, setupDialogs } from './ui.js?v=20261009-pages';
-import { legacyTarget } from './routes.js?v=20261009-pages';
+import { getChapter, getInitiativeActions, getInitiativeActionItems, getChangeVideoMessages } from './program.js?v=20261011-pillars';
+import { element, appendMarkdown, openDialog, setupDialogs } from './ui.js?v=20261011-pillars';
+import { legacyTarget } from './routes.js?v=20261011-pillars';
 
 const $ = selector => document.querySelector(selector);
+const floatingSignup = element('a', 'floating-signup');
+floatingSignup.href = './participa.html#participa';
+floatingSignup.append(document.createTextNode('Hazte simpatizante'),
+  element('span', '', '↗'));
+floatingSignup.lastElementChild.setAttribute('aria-hidden', 'true');
+floatingSignup.hidden = true;
+document.body.append(floatingSignup);
+const signupObstacles = [...document.querySelectorAll('main a[href^="https://tally.so/"], video, footer')];
+function updateFloatingSignup() {
+  const obstructed = signupObstacles.some(node => {
+    const rect = node.getBoundingClientRect();
+    return rect.bottom > 0 && rect.top < window.innerHeight && rect.width > 0 && rect.height > 0;
+  });
+  floatingSignup.hidden = window.scrollY < 160 || obstructed || document.body.classList.contains('dialog-open');
+}
+const signupObserver = new IntersectionObserver(updateFloatingSignup);
+signupObstacles.forEach(node => signupObserver.observe(node));
+window.addEventListener('scroll', updateFloatingSignup, { passive: true });
+window.addEventListener('resize', updateFloatingSignup);
+new MutationObserver(updateFloatingSignup).observe(document.body, { attributes: true, attributeFilter: ['class'] });
+updateFloatingSignup();
+
 if (document.body.dataset.page === 'home') {
   const redirect = () => {
     const target = legacyTarget(location.hash);
@@ -75,11 +97,10 @@ async function loadPageContent() {
       container.replaceChildren();
       if (section === 'highlights') {
         const actions = getInitiativeActionItems(markdown);
-        container.append(...[1, 2, 6, 8, 11, 13].map(id => {
-          const action = actions.find(item => item.id === id);
+        container.append(...actions.map(action => {
           const link = element('a', 'change-preview');
-          link.href = `./cambios.html#cambio-${id}`;
-          link.append(element('span', 'eyebrow', `CAMBIO ${String(id).padStart(2, '0')}`),
+          link.href = `./cambios.html#cambio-${action.id}`;
+          link.append(element('span', 'pillar-number pillar-preview-number', String(action.id).padStart(2, '0')),
             element('h3', '', action.title), element('span', 'text-link', 'Ver propuesta y garantías ↗'));
           return link;
         }));
@@ -93,7 +114,19 @@ async function loadPageContent() {
         const content = section === 'actions' ? getInitiativeActions(markdown) : getChapter(markdown, Number(section));
         appendMarkdown(container, content, './programa.html');
         if (section === 'actions') {
-          container.querySelectorAll('li').forEach((item, index) => { item.id = `cambio-${index + 1}`; });
+          const list = element('ol', 'pillar-grid');
+          for (const action of getInitiativeActionItems(markdown)) {
+            const item = element('li', 'pillar-card');
+            item.id = `cambio-${action.id}`;
+            const heading = element('div', 'pillar-heading');
+            heading.append(element('span', 'pillar-number', String(action.id).padStart(2, '0')),
+              element('h3', 'pillar-title', action.title));
+            const body = element('div', 'pillar-body');
+            appendMarkdown(body, action.description, './programa.html');
+            item.append(heading, body);
+            list.append(item);
+          }
+          container.querySelector('.measure-list').replaceWith(list);
         }
       }
     }

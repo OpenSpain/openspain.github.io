@@ -1,4 +1,4 @@
-import { inlineParts } from './program.js?v=20261009-pages';
+import { inlineParts } from './program.js?v=20261011-pillars';
 
 export function element(tag, className, text) {
   const node = document.createElement(tag);

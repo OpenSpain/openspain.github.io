@@ -87,11 +87,11 @@ function numberedMessages(section, count) {
 }
 
 export function getInitiativeActionItems(markdown) {
-  return numberedMessages(getInitiativeActions(markdown), 15);
+  return numberedMessages(getInitiativeActions(markdown), 8);
 }
 
 export function getChangeVideoMessages(markdown) {
-  return numberedMessages(getIntroductionSection(markdown, 3), 6);
+  return numberedMessages(getIntroductionSection(markdown, 3), 8);
 }
 
 export function parseProgram(markdown) {
