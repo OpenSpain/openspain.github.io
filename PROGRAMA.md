@@ -68,26 +68,27 @@ No basta con anunciar cambios: hay que explicar quién los ejecuta, cuánto cues
 
 Valores cívicos compartidos, abiertos a personas con ideas y convicciones distintas. Orientan nuestra conducta; no sustituyen los derechos, las pruebas ni las garantías.
 
-- **Dignidad humana.** Respetar a cada persona, también a quien piensa distinto. Nadie debe ser humillado para ganar votos.
-- **Compasión y cuidado.** Comprender el sufrimiento y ofrecer soluciones que ayuden a recuperar autonomía, no solo ayudas puntuales.
-- **Honestidad.** No mentir, manipular ni prometer lo que sabemos que no podemos cumplir. Rectificar públicamente.
-- **Humildad.** Reconocer errores, escuchar y cambiar de opinión ante mejores argumentos o pruebas.
-- **Vocación de servicio.** El cargo público sirve a la ciudadanía y merece una remuneración justa. No debe utilizarse para obtener ventajas indebidas.
-- **Justicia y equidad.** Aplicar las mismas reglas y atender las dificultades reales de quienes parten con menos oportunidades.
-- **Diálogo y convivencia.** Buscar acuerdos sin convertir al adversario en enemigo. Cooperar no significa renunciar a las diferencias.
-- **Responsabilidad y reparación.** Responder por las decisiones y reparar el daño causado. Dar segundas oportunidades no implica impunidad.
-- **Prosperidad y bien común.** Crear riqueza y vivir bien es compatible con contribuir al bien común. Respetar el éxito económico legítimo y usar los recursos públicos con responsabilidad.
-- **Cuidado del futuro.** Considerar cómo nuestras decisiones afectan al entorno y a las próximas generaciones.
+- **Dignidad humana.** Respetar a cada persona, con independencia de sus ideas, origen o situación. Su dignidad no depende de su riqueza, cargo o reconocimiento. Nadie debe ser humillado ni deshumanizado para ganar votos.
+- **Cuidado y generosidad.** No ser indiferentes al sufrimiento. Compartir tiempo, conocimiento, oportunidades y recursos para ayudar a recuperar autonomía. Cuidar especialmente a quienes atraviesan dificultades, sin exigir lealtad ni favores a cambio.
+- **Honestidad.** Decir la verdad y usar la palabra con responsabilidad. No mentir, manipular ni prometer lo que sabemos que no podemos cumplir. Reconocer y rectificar públicamente los errores.
+- **Humildad y apertura.** Escuchar antes de juzgar, contrastar los hechos y comprender sus causas. Reconocer nuestros límites y cambiar ante mejores argumentos o pruebas, sin aferrarnos a tener razón ni a una propuesta por ser nuestra.
+- **Vocación de servicio.** Servir a toda la ciudadanía, no solo a quienes nos apoyan, y compartir el mérito. El cargo público merece una remuneración justa, no ventajas indebidas: es una responsabilidad temporal que exige rendir cuentas, preparar relevos y aceptar dejarlo cuando corresponda.
+- **Justicia y equidad.** Aplicar las mismas reglas y actuar con solidaridad ante las dificultades reales de quienes parten con menos oportunidades.
+- **Diálogo y convivencia.** Buscar acuerdos sin convertir al adversario en enemigo. Discrepar con firmeza, sin insultos ni revancha; cooperar sin renunciar a las diferencias. Actuar con serenidad no significa callar ante una injusticia.
+- **Responsabilidad y reparación.** Responder por las decisiones y reparar el daño causado. Favorecer la reconciliación, sin borrar responsabilidades. Dar segundas oportunidades no implica impunidad.
+- **Prosperidad y bien común.** Respetar el éxito económico legítimo. Ganarse la vida y prosperar de forma honesta, sin fraude, explotación ni abuso del cargo. Crear valor para uno mismo y para los demás, y cuidar los recursos públicos.
+- **Cuidado del futuro.** Mirar más allá del beneficio inmediato: nuestras decisiones afectan también a otras personas. Cuidar el entorno y considerar las consecuencias para quienes vendrán después.
 
 ### 1.5. Cómo los cumplimos
 
 Estos son compromisos de conducta para OpenSpain, también en su fase de borrador. No afirmamos que existan ya registros, órganos de control o sistemas de reclamación operativos.
 
 - **Decir la verdad y rectificar.** Distinguir hechos contrastados, opiniones y propuestas. Corregir los errores detectados con una explicación pública de qué cambia y por qué, sin divulgar datos privados.
-- **Escuchar sin dividir.** Recoger argumentos de personas con posiciones distintas, reconocer sus aportaciones y responder a las críticas sin insultos ni descalificaciones personales. Buscar acuerdos sin exigir unanimidad.
+- **Escuchar, compartir y unir.** Recoger argumentos de personas con posiciones distintas, reconocer sus aportaciones y compartir conocimiento y oportunidades sin exigir favores. Responder a las críticas sin insultos ni descalificaciones personales. Buscar acuerdos sin exigir unanimidad.
 - **Servir sin privilegios.** Declarar y gestionar los conflictos de interés relevantes antes de intervenir en una decisión, con abstención y sustitución cuando corresponda. Ninguna aportación económica comprará influencia ni trato preferente.
 - **Responder y reparar.** Acompañar los compromisos de responsable, plazo y prueba de cumplimiento. Explicar los bloqueos y los incumplimientos, corregir lo que no funcione y proponer reparación cuando exista daño acreditado, con medidas proporcionadas y garantías.
 - **Cuidar los recursos y el futuro.** Justificar el gasto, su financiación y su utilidad. Evaluar los efectos sobre quienes tienen menos oportunidades, el entorno y las próximas generaciones; no presentar ahorros supuestos como dinero disponible.
+- **Decidir con atención y actuar con constancia.** Escuchar antes de responder, contrastar las consecuencias y priorizar lo importante. No decidir por impulso, miedo o revancha. Mantener el seguimiento de los compromisos, también cuando dejan de ocupar titulares, y revisar o abandonar lo que no funcione, aunque sea una propuesta propia.
 
 ## 2. Mapa de problemas y propuestas
 

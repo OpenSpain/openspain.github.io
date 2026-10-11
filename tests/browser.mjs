@@ -213,7 +213,14 @@ try {
   await page.waitForFunction(() => document.querySelector('[data-program-content="6"]')?.textContent.includes('Alejandro'));
   assert.equal(await page.title(), 'Valores y transparencia — OpenSpain');
   assert.equal(await page.locator('#valores .measure-list > li').count(), 10);
-  assert.equal(await page.locator('#compromisos .measure-list > li').count(), 5);
+  assert.equal(await page.locator('#compromisos .measure-list > li').count(), 6);
+  assert.match(await page.locator('#valores').textContent(), /comprender sus causas/);
+  assert.match(await page.locator('#valores').textContent(), /remuneración justa/);
+  assert.match(await page.locator('#valores').textContent(), /sin fraude, explotación ni abuso del cargo/);
+  assert.match(await page.locator('#valores').textContent(), /Cuidado y generosidad/);
+  assert.match(await page.locator('#valores').textContent(), /sin aferrarnos a tener razón/);
+  assert.match(await page.locator('#valores').textContent(), /preparar relevos y aceptar dejarlo cuando corresponda/);
+  assert.match(await page.locator('#compromisos').textContent(), /Decidir con atención y actuar con constancia/);
   assert.match(await page.locator('#valores').textContent(), /Pensar distinto\. Trabajar juntos\./);
   assert.match(await page.locator('#compromisos').textContent(), /No afirmamos que existan ya registros/);
   assert.ok(await page.locator('#valores').evaluate(node => node.compareDocumentPosition(document.querySelector('#compromisos')) & Node.DOCUMENT_POSITION_FOLLOWING));
