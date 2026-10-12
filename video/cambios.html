@@ -7,31 +7,22 @@
   <style>
     * { box-sizing: border-box; }
     html, body { margin: 0; width: 1920px; height: 1080px; overflow: hidden; }
-    body { background: var(--brand-deep); color: var(--brand-paper); font-family: var(--brand-font); }
+    body { background: var(--brand-blue); color: var(--brand-paper); font-family: var(--brand-font); }
     #stage { position: relative; width: 100%; height: 100%; padding: 82px 120px; }
-    #stage.dark { background: radial-gradient(ellipse at 85% 20%, #234486, #0d1b34 70%); color: #f8f6f0; }
-    .logo { width: 360px; height: auto; display: block; }
-    .dark .logo { background: #f8f6f0; border-radius: 12px; padding: 10px 16px; }
-    .eyebrow { margin: 56px 0 26px; font-size: 27px; letter-spacing: 3px; font-weight: 700; color: #2459df; }
-    .dark .eyebrow { color: #f0cc76; }
+    .logo { display: flex; align-items: center; gap: 18px; width: max-content; font-size: 58px; font-weight: 800; letter-spacing: -2px; }
+    .logo img { width: 70px; height: 70px; filter: brightness(0) invert(1); }
+    .eyebrow { margin: 62px 0 26px; font-size: 27px; letter-spacing: 3px; font-weight: 700; }
     #copy { width: 1430px; }
     h1 { font-size: 100px; line-height: 1.08; letter-spacing: -4px; margin: 0; font-weight: 800; }
-    p { font-size: 42px; line-height: 1.5; max-width: 1420px; margin: 34px 0 0; color: #536177; }
-    .dark p { color: #cad5e9; }
-    #number { position: absolute; top: 80px; right: 120px; font-family: Georgia, serif; font-style: italic; font-size: 116px; color: #2459df; }
-    .dark #number { color: #f0cc76; }
-    .footer { position: absolute; bottom: 66px; left: 120px; right: 120px; display: flex; justify-content: space-between; border-top: 2px solid #d6dae2; padding-top: 22px; font-size: 25px; }
-    .dark .footer { border-color: #a7c5ff55; color: #cad5e9; }
-    #progress { position: absolute; bottom: 0; left: 0; height: 8px; background: #2459df; }
-    #stage, #stage.dark { background: var(--brand-gradient); color: var(--brand-paper); }
-    #stage .logo { background: none; padding: 0; }
-    #stage .eyebrow, #stage #number { color: var(--brand-gold); }
-    #stage p, #stage .footer { color: var(--brand-light); }
+    p { font-size: 46px; line-height: 1.45; max-width: 1380px; margin: 34px 0 0; color: var(--brand-light); }
+    #number { position: absolute; top: 80px; right: 120px; font-size: 96px; font-weight: 800; letter-spacing: -5px; }
+    .footer { position: absolute; bottom: 66px; left: 120px; right: 120px; display: flex; justify-content: space-between; border-top: 2px solid #ffffff55; padding-top: 22px; font-size: 25px; color: var(--brand-light); }
+    #progress { position: absolute; bottom: 0; left: 0; height: 8px; background: #ffffff; }
   </style>
 </head>
 <body>
   <div id="stage">
-    <img class="logo" src="../openspain-logo-light.svg" alt="OpenSpain">
+    <div class="logo"><img src="../favicon.svg" alt="">openspain.</div>
     <span id="number"></span>
     <div id="copy">
       <div class="eyebrow" id="eyebrow"></div>
@@ -44,13 +35,10 @@
   <script>
     let messages;
     window.DURATION = 60;
-    window.PACE = 52 / 27;
-    window.HITS = [0, 4, 10, 16, 22, 28, 34, 40, 46, 52];
-    window.FLASHES = window.HITS;
     window.initialize = async data => {
       messages = data;
       await document.fonts.ready;
-      await document.querySelector('.logo').decode();
+      await document.querySelector('.logo img').decode();
       window.render(0);
     };
     window.render = time => {
@@ -58,21 +46,20 @@
       let title, description, eyebrow, number = '';
       const index = time < 4 ? -1 : Math.min(messages.length, Math.floor((time - 4) / 6));
       if (index === -1) {
-        eyebrow = 'QUÉ QUEREMOS CAMBIAR';
-        title = 'Ocho pilares.';
-        description = 'Cambios concretos. Con costes y garantías.';
+        eyebrow = 'UN PROGRAMA CIUDADANO INDEPENDIENTE';
+        title = 'Abrir España. Ampliar oportunidades.';
+        description = '';
       } else if (index === messages.length) {
-        eyebrow = 'DEL ANUNCIO A LA ACCIÓN';
-        title = 'Los cambios hay que explicarlos.';
-        description = 'Responsables, costes y resultados comprobables. Conoce el programa y participa en openspain.org.';
+        eyebrow = 'ABIERTO A PERSONAS, IDEAS Y PROPUESTAS';
+        title = 'Tu experiencia también cuenta.';
+        description = 'Conoce el programa y aporta tu idea en openspain.org.';
       } else {
         const message = messages[index];
-        eyebrow = 'PILAR PROPUESTO';
+        eyebrow = 'LO QUE PROPONEMOS';
         title = message.title;
         description = message.description;
         number = String(message.id).padStart(2, '0');
       }
-      document.querySelector('#stage').classList.toggle('dark', index % 2 === 0);
       document.querySelector('#title').textContent = title;
       document.querySelector('#description').textContent = description;
       document.querySelector('#eyebrow').textContent = eyebrow;

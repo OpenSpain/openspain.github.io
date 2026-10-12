@@ -1,10 +1,13 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { readFile } from 'node:fs/promises';
+import { readFile, mkdtemp, rm } from 'node:fs/promises';
+import { tmpdir } from 'node:os';
+import { join } from 'node:path';
 import { parseProgram, filterAxes, categories, axisMetadata, ipc, getChapter, getCitizenDemands, getInitiativeActions, getInitiativeActionItems, getChangeVideoMessages, getCivicValues, getValueCommitments, inlineParts, detailMarker } from '../program.js';
 import { pages, legacyTarget } from '../routes.js';
 import { observedCharts, targetCharts } from '../charts.js';
 import { getInstagramVideos, participationMessage } from '../video/instagram.mjs';
+import { synth } from '../video/audio.mjs';
 
 const markdown = await readFile(new URL('../PROGRAMA.md', import.meta.url), 'utf8');
 const axes = parseProgram(markdown);
@@ -33,16 +36,23 @@ test('Instagram series covers the decalogue and every axis without inventing mea
   assert.throws(() => getInstagramVideos(markdown.replace('### 2.31.', '### 3.31.')));
 });
 
-test('presentation video, captions and transcript use the public domain and versioned media', async () => {
-  for (const path of ['video/video.html', 'video/hazte-simpatizante-es.vtt', 'participa.html']) {
+test('presentation video and transcript use the public domain and current identity', async () => {
+  for (const path of ['video/video.html', 'video/cambios.html', 'participa.html']) {
     const content = await readFile(new URL(`../${path}`, import.meta.url), 'utf8');
     assert.match(content, /openspain\.org/);
     assert.doesNotMatch(content, /openspain\.github\.io/);
   }
   const html = await readFile(new URL('../participa.html', import.meta.url), 'utf8');
-  for (const filename of ['OpenSpain-Hazte-Simpatizante.mp4', 'hazte-simpatizante-portada.jpg', 'hazte-simpatizante-es.vtt']) {
-    assert.ok(html.includes(`${filename}?v=20261011-contrast`));
+  for (const filename of ['OpenSpain-Hazte-Simpatizante.mp4', 'hazte-simpatizante-portada.jpg']) {
+    assert.ok(html.includes(`${filename}?v=20261011-refresh`));
   }
+  for (const path of ['video/video.html', 'video/cambios.html']) {
+    const template = await readFile(new URL(`../${path}`, import.meta.url), 'utf8');
+    assert.match(template, /src="\.\.\/favicon\.svg"/);
+    assert.match(template, />openspain\.</);
+    assert.doesNotMatch(template, /openspain-logo-light|clipPath id="flag"|logoSvg/);
+  }
+  assert.match(html, /libertad, generosidad y responsabilidad/);
 });
 
 test('actions and video messages are separate summaries without adopting evaluated alternatives', () => {
@@ -77,10 +87,41 @@ test('actions and video messages are separate summaries without adopting evaluat
   }
 });
 
-test('horizontal captions match all eight programme messages', async () => {
-  const captions = await readFile(new URL('../video/cambios-es.vtt', import.meta.url), 'utf8');
-  for (const message of getChangeVideoMessages(markdown)) {
-    assert.ok(captions.includes(`${message.title}\n${message.description}`));
+test('text-led website videos retain readable transcripts without duplicate caption tracks', async () => {
+  for (const path of ['index.html', 'participa.html']) {
+    const html = await readFile(new URL(`../${path}`, import.meta.url), 'utf8');
+    assert.doesNotMatch(html, /<track|\.vtt|con música y subtítulos/);
+    assert.match(html, /Leer el contenido del vídeo/);
+    assert.match(html, /20261011-refresh/);
+  }
+  const workflow = await readFile(new URL('../.github/workflows/pages.yml', import.meta.url), 'utf8');
+  const server = await readFile(new URL('../server.mjs', import.meta.url), 'utf8');
+  assert.doesNotMatch(workflow + server, /cambios-es\.vtt|hazte-simpatizante-es\.vtt/);
+});
+
+test('ambient soundtrack produces unclipped stereo audio with a quiet entrance and exit', async () => {
+  const directory = await mkdtemp(join(tmpdir(), 'openspain-audio-'));
+  try {
+    const out = join(directory, 'test.wav');
+    synth({ duration: 4, out });
+    const wav = await readFile(out);
+    assert.equal(wav.toString('ascii', 0, 4), 'RIFF');
+    assert.equal(wav.readUInt16LE(22), 2);
+    assert.equal(wav.readUInt32LE(24), 48000);
+    assert.equal(wav.length, 44 + 4 * 48000 * 4);
+    let peak = 0, middle = 0, entrance = 0, exit = 0;
+    for (let i = 0; i < 4 * 48000; i++) {
+      const sample = wav.readInt16LE(44 + i * 4);
+      peak = Math.max(peak, Math.abs(sample));
+      if (i < 4800) entrance += sample ** 2;
+      if (i >= 48000 && i < 52800) middle += sample ** 2;
+      if (i >= 4 * 48000 - 4800) exit += sample ** 2;
+    }
+    assert.ok(peak > 1000 && peak < 32767);
+    assert.ok(entrance < middle / 10 && exit < middle / 10);
+    assert.throws(() => synth({ duration: 0, out }), /duración/);
+  } finally {
+    await rm(directory, { recursive: true, force: true });
   }
 });
 
@@ -118,21 +159,24 @@ test('civic values and commitments are distinct source sections with explicit sa
   const commitments = getValueCommitments(markdown);
   assert.equal((values.match(/^- /gm) || []).length, 10);
   assert.equal((commitments.match(/^- /gm) || []).length, 6);
-  assert.match(values, /Dar segundas oportunidades no implica impunidad/);
+  assert.match(values, /segundas oportunidades junto a una rendición de cuentas efectiva/);
   assert.match(values, /personas con ideas y convicciones distintas/);
   assert.match(values, /remuneración justa/);
   assert.match(values, /Prosperidad y bien común/);
-  assert.match(values, /Respetar el éxito económico legítimo/);
-  assert.match(values, /comprender sus causas/);
-  assert.match(values, /no solo a quienes nos apoyan/);
-  assert.match(values, /Favorecer la reconciliación, sin borrar responsabilidades/);
-  assert.match(values, /sin fraude, explotación ni abuso del cargo/);
+  assert.match(values, /Celebrar el éxito económico legítimo y el trabajo honesto/);
+  assert.match(values, /comprender las causas/);
+  assert.match(values, /servicio de toda la ciudadanía/);
+  assert.match(values, /Favorecer la reconciliación/);
+  assert.match(values, /crear valor con respeto a las personas/);
   assert.match(values, /Cuidado y generosidad/);
-  assert.match(values, /sin exigir lealtad ni favores a cambio/);
-  assert.match(values, /Ganarse la vida y prosperar de forma honesta/);
-  assert.match(values, /sin aferrarnos a tener razón ni a una propuesta por ser nuestra/);
-  assert.match(values, /preparar relevos y aceptar dejarlo cuando corresponda/);
-  assert.match(values, /serenidad no significa callar ante una injusticia/);
+  assert.match(values, /por el valor de ayudar/);
+  assert.match(values, /Emprender, invertir/);
+  assert.match(values, /libertad de cambiar de opinión.*una propuesta propia/);
+  assert.match(values, /preparar relevos: servir es una responsabilidad temporal/);
+  assert.match(values, /actuar con serenidad y alzar la voz ante las injusticias/);
+  assert.match(values, /Dignidad y libertad/);
+  assert.match(values, /reconocer el esfuerzo y el mérito/);
+  assert.doesNotMatch(values, /No ser indiferentes|No mentir|Nadie debe|no implica/);
   assert.doesNotMatch(values + commitments, /cristianismo|budismo|óctuple|religión/i);
   assert.doesNotMatch(values, /Evitar el lujo|vía de enriquecimiento/);
   assert.doesNotMatch(values, /Decir la verdad y rectificar|Mapa de problemas/);
@@ -148,6 +192,21 @@ test('civic values and commitments are distinct source sections with explicit sa
   assert.equal(getValueCommitments(markdown.replaceAll('\n', '\r\n')), commitments);
   assert.throws(() => getCivicValues(markdown.replace('### 1.4.', '### 1.9.')), /Falta el apartado 1.4/);
   assert.throws(() => getValueCommitments(markdown.replace('### 1.5.', '### 1.9.')), /Falta el apartado 1.5/);
+});
+
+test('Fabio is an individual collaborator without a portrait or institutional endorsement', async () => {
+  const html = await readFile(new URL('../transparencia.html', import.meta.url), 'utf8');
+  const profile = html.match(/<article[^>]*id="fabio-franco">([\s\S]+?)<\/article>/)?.[1];
+  assert.ok(profile);
+  assert.match(profile, /COLABORADOR/);
+  assert.match(profile, /Fabio Franco/);
+  assert.match(profile, /Policía Municipal de Madrid · Geólogo/);
+  assert.doesNotMatch(profile, /<img|QUIÉN IMPULSA/);
+  const participation = getChapter(markdown, 6);
+  assert.match(participation, /Fabio Franco.*Policía Municipal de Madrid y geólogo/);
+  assert.match(participation, /seguridad cotidiana, la convivencia/);
+  assert.match(participation, /título personal; no se atribuye respaldo/);
+  assert.match(participation, /Alejandro Acosta.*impulsa esta iniciativa/);
 });
 
 test('citizen demands contain exactly ten commitments and link to existing axes', () => {
@@ -614,6 +673,24 @@ test('justice strengthens defence and integrity without treating delay as corrup
   assert.ok(filterAxes(axes, 'institutions', 'asistencia juridica').some(axis => axis.id === 31));
 });
 
+test('legal routes distinguish constitutional reform from legislative and administrative changes', () => {
+  const byId = id => axes.find(axis => axis.id === id).technicalBody;
+  assert.match(byId(6), /Suprimir el Senado.*artículo 167/);
+  assert.match(byId(6), /derecho a la autonomía del artículo 2 requiere el artículo 168/);
+  assert.match(byId(9), /No exigen por sí mismos cambiar la Constitución/);
+  assert.match(byId(9), /168 si afecta al artículo 27/);
+  assert.match(byId(13), /listas de espera no exige por sí solo reforma constitucional/);
+  assert.match(byId(21), /artículo 1\.3.*exige el artículo 168/);
+  assert.match(byId(22), /circunscripción provincial del Congreso exige reformar el artículo 68\.2 por el artículo 167/);
+  assert.match(byId(23), /artículos 101, 113 o 114.*artículo 167/);
+  assert.match(byId(31), /12 vocales judiciales puede articularse mediante reforma de la LOPJ/);
+  assert.match(byId(31), /8 juristas sí requiere reforma constitucional/);
+  assert.match(byId(30), /Qué propuestas requieren cambiar la Constitución/);
+  assert.match(byId(30), /no requieren automáticamente reforma constitucional/);
+  assert.match(getChapter(markdown, 2), /Comparar una alternativa no significa adoptarla/);
+  assert.match(getChapter(markdown, 4), /cauce 167 o 168, mayorías y referéndum/);
+});
+
 test('closing priorities reuse programme measures and preserve feasibility and guarantees', () => {
   const closing = getChapter(markdown, 9);
   const rows = closing.split('\n').filter(line => line.startsWith('|') && !line.includes('---'));
@@ -667,4 +744,43 @@ test('citizen contributions cover all agreed topics without unconditional abolit
     [16, 'iglesia ibi'], [17, 'nuclear'], [22, 'compromisos electorales'], [31, 'elección cgpj']]) {
     assert.ok(filterAxes(axes, 'all', query).some(axis => axis.id === id), query);
   }
+});
+
+test('economic examples distinguish illustrative arithmetic from tax rules and proposed savings', () => {
+  const fiscal = axes.find(axis => axis.id === 16);
+  assert.match(fiscal.technicalBody, /casos didácticos con cantidades ficticias/);
+  assert.match(fiscal.technicalBody, /no cálculos de impuestos vigentes, previsiones ni rebajas propuestas/);
+  const rows = fiscal.technicalBody.split('\n').filter(line => /^\| (Persona asalariada|Autónomo con ingresos variables|Pequeño negocio) \|/.test(line));
+  assert.equal(rows.length, 3);
+  assert.match(rows[0], /30\.000.*6\.000.*24\.000/);
+  assert.match(rows[1], /24\.000.*8\.000.*16\.000/);
+  assert.match(rows[2], /120\.000.*100\.000.*20\.000/);
+  assert.match(fiscal.technicalBody, /Las retenciones no se sumarán otra vez a la cuota definitiva/);
+  assert.match(fiscal.technicalBody, /pendiente de cálculo y no anunciará un ahorro individual/);
+  assert.match(fiscal.citizenSummary, /10 perfiles comparables/);
+  assert.match(axes.find(axis => axis.id === 15).technicalBody, /meses de poca actividad/);
+});
+
+test('simplification catalogue is prioritised without expanding pilots or dropping safeguards', () => {
+  const administration = axes.find(axis => axis.id === 6);
+  assert.equal((administration.technicalBody.match(/^\| [1-6] \|/gm) || []).length, 6);
+  assert.match(administration.technicalBody, /no se activan todos los recorridos de la tabla ni se amplía el piloto/);
+  assert.match(administration.technicalBody, /lo inventariado, lo aprobado, lo realmente eliminado y lo bloqueado/);
+  assert.match(administration.technicalBody, /Mantendremos atención asistida, privacidad y los controles necesarios/);
+  assert.match(administration.citizenSummary, /10 procedimientos de 3 administraciones/);
+  assert.match(axes.find(axis => axis.id === 14).technicalBody, /ni ampliar automáticamente las 5 actividades iniciales/);
+  assert.ok(filterAxes(axes, 'institutions', 'catálogo inicial').some(axis => axis.id === 6));
+});
+
+test('citizen security has visible initial proposals, measurement limits and individual guarantees', () => {
+  const development = getChapter(markdown, 3);
+  assert.equal(axes.length, 31);
+  assert.match(development, /Seguridad ciudadana: prevención, víctimas y respuesta efectiva/);
+  assert.match(development, /ni activa un cuarto frente inicial/);
+  assert.match(development, /Una mayor denuncia puede reflejar mejor acceso y no más delitos/);
+  assert.match(development, /no utilizar origen o nacionalidad como indicador individual de peligrosidad/);
+  assert.match(development, /sin identificar víctimas, expedientes ni operativos sensibles/);
+  assert.match(development, /No hay aumento de plantilla, presupuesto ni despliegue aprobados/);
+  assert.match(development, /presunción de inocencia, la defensa, la privacidad/);
+  assert.match(getChapter(markdown, 7), /apartado 3.1 desarrolla seguridad ciudadana/);
 });

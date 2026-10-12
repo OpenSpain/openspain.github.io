@@ -35,8 +35,7 @@ jobs:
           mkdir _site/fonts
           cp fonts/manrope-variable.ttf fonts/OFL.txt _site/fonts/
           cp video/OpenSpain-Hazte-Simpatizante.mp4 video/hazte-simpatizante-portada.jpg \
-            video/hazte-simpatizante-es.vtt video/OpenSpain-Cambios.mp4 \
-            video/cambios-portada.jpg video/cambios-es.vtt _site/video/
+            video/OpenSpain-Cambios.mp4 video/cambios-portada.jpg _site/video/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site

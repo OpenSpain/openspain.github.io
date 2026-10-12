@@ -172,8 +172,12 @@ async function loadProgram() {
     renderFilters();
     renderCards();
     renderCoverage();
-    for (const [selector, chapter] of [['#sources-content', 8]]) {
+    for (const [selector, chapter] of [['#sources-content', 8], ['#development-content', 3]]) {
       const container = $(selector);
+      if (!container && chapter === 3) {
+        console.warn('La página conserva una versión anterior sin las propuestas de seguridad ciudadana. Recarga para ver el contenido nuevo.');
+        continue;
+      }
       container.replaceChildren();
       appendMarkdown(container, getChapter(markdown, chapter));
     }

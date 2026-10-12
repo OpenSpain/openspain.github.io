@@ -30,10 +30,8 @@ const files = new Map([
   ['/OpenSpain-Presentacion.pdf', ['OpenSpain-Presentacion.pdf', 'application/pdf']],
   ['/video/OpenSpain-Hazte-Simpatizante.mp4', ['video/OpenSpain-Hazte-Simpatizante.mp4', 'video/mp4']],
   ['/video/hazte-simpatizante-portada.jpg', ['video/hazte-simpatizante-portada.jpg', 'image/jpeg']],
-  ['/video/hazte-simpatizante-es.vtt', ['video/hazte-simpatizante-es.vtt', 'text/vtt; charset=utf-8']],
   ['/video/OpenSpain-Cambios.mp4', ['video/OpenSpain-Cambios.mp4', 'video/mp4']],
   ['/video/cambios-portada.jpg', ['video/cambios-portada.jpg', 'image/jpeg']],
-  ['/video/cambios-es.vtt', ['video/cambios-es.vtt', 'text/vtt; charset=utf-8']],
 ]);
 const port = Number(process.env.PORT || 4173);
 if (!Number.isInteger(port) || port < 1 || port > 65535) {

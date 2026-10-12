@@ -110,7 +110,7 @@ try {
   assert.equal(await page.locator('#cambio-1 a').first().getAttribute('href'), './programa.html#eje-1');
   assert.equal(await page.locator('#cambio-1 a').first().getAttribute('target'), null);
 
-  async function checkVideo(selector, expectedDuration, expectedCues, ratio) {
+  async function checkVideo(selector, expectedDuration, ratio) {
     const video = page.locator(selector);
     assert.equal(await video.getAttribute('preload'), 'none');
     assert.equal(await video.getAttribute('autoplay'), null);
@@ -121,10 +121,7 @@ try {
     const poster = await page.request.get(new URL(await video.getAttribute('poster'), page.url()).href);
     assert.equal(poster.status(), 200);
     assert.match(poster.headers()['content-type'], /image\/jpeg/);
-    const captions = await page.request.get(new URL(await video.locator('track').getAttribute('src'), page.url()).href);
-    assert.equal(captions.status(), 200);
-    assert.match(captions.headers()['content-type'], /text\/vtt/);
-    assert.match(await captions.text(), /^WEBVTT/);
+    assert.equal(await video.locator('track').count(), 0);
     const videoURL = new URL(await video.locator('source').getAttribute('src'), page.url()).href;
     const head = await page.request.head(videoURL);
     assert.equal(head.status(), 200);
@@ -139,8 +136,7 @@ try {
     await video.scrollIntoViewIfNeeded();
     await video.evaluate(node => node.play());
     await page.waitForFunction(selector => document.querySelector(selector).currentTime > 0.2, selector);
-    await page.waitForFunction(selector => document.querySelector(`${selector} track`).readyState === 2, selector);
-    assert.equal(await video.evaluate(node => node.textTracks[0].cues.length), expectedCues);
+    assert.equal(await video.evaluate(node => node.textTracks.length), 0);
     assert.ok(Math.abs(await video.evaluate(node => node.duration) - expectedDuration) < 0.1);
     assert.ok(Math.abs(await video.evaluate(node => node.videoWidth / node.videoHeight) - ratio) < 0.01);
     await video.evaluate(node => { node.pause(); node.currentTime = 25; });
@@ -152,10 +148,12 @@ try {
   }
   assert.deepEqual(videoRequests, [], 'No MP4 should load before voluntary playback');
   await page.goto(baseURL);
-  await checkVideo('#changes-video', 60, 10, 16 / 9);
+  await checkVideo('#changes-video', 60, 16 / 9);
   await page.getByText('Leer el contenido del vídeo', { exact: true }).click();
   assert.equal(await page.locator('[data-program-content="video-transcript"] p').count(), 8);
-  assert.match(await page.locator('.video-transcript').textContent(), /sin abolición autonómica general/);
+  for (const message of getChangeVideoMessages(markdown)) {
+    assert.ok((await page.locator('.video-transcript').textContent()).includes(`${message.title} ${message.description}`));
+  }
 
   await page.goto(`${baseURL}/programa.html`);
   await page.waitForSelector('.program-card');
@@ -166,6 +164,12 @@ try {
   assert.equal(await page.locator('.filter-button[aria-pressed="true"]').evaluate(node => getComputedStyle(node).backgroundColor),
     await page.locator('.card-index').first().evaluate(node => getComputedStyle(node).color));
   assert.equal(await page.locator('#citizen-demands-content li').count(), 10);
+  await page.locator('#seguridad-ciudadana > summary').click();
+  assert.equal(await page.locator('#development-content li').count(), 7);
+  assert.match(await page.locator('#development-content').textContent(), /ni activa un cuarto frente inicial/);
+  assert.match(await page.locator('#development-content').textContent(), /No hay aumento de plantilla, presupuesto ni despliegue aprobados/);
+  assert.match(await page.locator('#development-content').textContent(), /presunción de inocencia/);
+  await page.locator('#seguridad-ciudadana > summary').click();
   for (const axis of axes) {
     await page.locator(`#eje-${axis.id}`).getByRole('button').click();
     const summary = page.locator('#measure-content .citizen-summary');
@@ -173,7 +177,16 @@ try {
       .filter(text => !text.startsWith('#### ')).map(plain));
     assert.equal(await summary.locator('h4').textContent(), 'Plan de actuación');
     assert.deepEqual(await page.locator('#measure-content .technical-content p').allTextContents(),
-      axis.technicalBody.split('\n\n').filter(text => !text.startsWith('- ') && !text.startsWith('|')).map(plain));
+      axis.technicalBody.split('\n\n').filter(text => !text.startsWith('- ') && !text.startsWith('|') && !text.startsWith('#### ')).map(plain));
+    assert.deepEqual(await page.locator('#measure-content .technical-content h4').allTextContents(),
+      axis.technicalBody.split('\n\n').filter(text => text.startsWith('#### ')).map(text => plain(text.slice(5))));
+    if ([6, 16, 30].includes(axis.id)) {
+      assert.equal(await page.locator('#measure-content .technical-content table tbody tr').count(), { 6: 6, 16: 3, 30: 11 }[axis.id]);
+      await page.setViewportSize({ width: 320, height: 900 });
+      assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth));
+      assert.ok(await page.locator('#measure-dialog').evaluate(node => node.scrollWidth <= node.clientWidth));
+      await page.setViewportSize({ width: 1440, height: 1000 });
+    }
     const measures = await page.locator('#measure-content .technical-content li').allTextContents();
     for (const measure of axis.measures) assert.ok(measures.includes(plain(measure)));
     assert.equal(await page.locator('#measure-content .target-figure').count(), 1);
@@ -209,17 +222,18 @@ try {
   await page.waitForFunction(() => document.querySelector('#plan-content')?.textContent.includes('H04'));
   assert.match(await page.locator('#plan-content').textContent(), /Si solo cabe uno/);
   assert.match(await page.locator('#method-content').textContent(), /Un seguimiento que no confunda actividad con resultados/);
+  assert.match(await page.locator('#method-content').textContent(), /cauce 167 o 168, mayorías y referéndum/);
   await page.goto(`${baseURL}/transparencia.html`);
   await page.waitForFunction(() => document.querySelector('[data-program-content="6"]')?.textContent.includes('Alejandro'));
   assert.equal(await page.title(), 'Valores y transparencia — OpenSpain');
   assert.equal(await page.locator('#valores .measure-list > li').count(), 10);
   assert.equal(await page.locator('#compromisos .measure-list > li').count(), 6);
-  assert.match(await page.locator('#valores').textContent(), /comprender sus causas/);
+  assert.match(await page.locator('#valores').textContent(), /comprender las causas/);
   assert.match(await page.locator('#valores').textContent(), /remuneración justa/);
-  assert.match(await page.locator('#valores').textContent(), /sin fraude, explotación ni abuso del cargo/);
+  assert.match(await page.locator('#valores').textContent(), /éxito económico legítimo y el trabajo honesto/);
   assert.match(await page.locator('#valores').textContent(), /Cuidado y generosidad/);
-  assert.match(await page.locator('#valores').textContent(), /sin aferrarnos a tener razón/);
-  assert.match(await page.locator('#valores').textContent(), /preparar relevos y aceptar dejarlo cuando corresponda/);
+  assert.match(await page.locator('#valores').textContent(), /libertad de cambiar de opinión/);
+  assert.match(await page.locator('#valores').textContent(), /preparar relevos: servir es una responsabilidad temporal/);
   assert.match(await page.locator('#compromisos').textContent(), /Decidir con atención y actuar con constancia/);
   assert.match(await page.locator('#valores').textContent(), /Pensar distinto\. Trabajar juntos\./);
   assert.match(await page.locator('#compromisos').textContent(), /No afirmamos que existan ya registros/);
@@ -227,6 +241,10 @@ try {
   assert.ok(await page.locator('#compromisos').evaluate(node => node.compareDocumentPosition(document.querySelector('#transparencia')) & Node.DOCUMENT_POSITION_FOLLOWING));
   assert.match(await page.locator('#registro-donaciones').textContent(), /no está habilitado|No es un servicio de pagos/);
   assert.equal(await page.locator('a[href*="paypal"], a[href*="stripe"]').count(), 0);
+  assert.match(await page.locator('#fabio-franco').textContent(), /COLABORADOR.*Fabio Franco.*Policía Municipal de Madrid · Geólogo/);
+  assert.equal(await page.locator('#fabio-franco img').count(), 0);
+  assert.match(await page.locator('.founder-section').textContent(), /Conocer la calle\. Escuchar al ciudadano\./);
+  assert.match(await page.locator('[data-program-content="6"]').textContent(), /Fabio Franco/);
 
   await page.goto(`${baseURL}/participa.html`);
   const signup = page.getByRole('link', { name: /Hazte simpatizante/ });
@@ -234,7 +252,7 @@ try {
   assert.equal(await signup.getAttribute('target'), '_blank');
   assert.equal(await signup.getAttribute('rel'), 'noopener noreferrer');
   assert.match(await page.locator('#participa').textContent(), /no es una afiliación/);
-  await checkVideo('#sympathizer-video', 44.8, 16, 9 / 16);
+  await checkVideo('#sympathizer-video', 44.8, 9 / 16);
   await page.getByRole('button', { name: /Prepara tu propuesta/ }).click();
   for (const [name, value] of Object.entries({ title: 'Prueba ciudadana', problem: 'Un problema concreto', solution: 'Una solución revisable', evaluation: 'Indicador verificable' })) {
     await page.locator(`[name="${name}"]`).fill(value);
@@ -385,6 +403,10 @@ try {
   assert.equal(await report.locator('.evidence-figure:not(.target-figure)').count(), Object.values(observedCharts).flat().length);
   assert.match(await report.locator('#report-body').textContent(), /Cambios que impulsamos/);
   assert.match(await report.locator('#report-body').textContent(), /no se adopta una abolición general/);
+  assert.match(await report.locator('#report-body').textContent(), /Tres ejemplos para entender las cuentas/);
+  assert.match(await report.locator('#report-body').textContent(), /Seguridad ciudadana: prevención, víctimas y respuesta efectiva/);
+  assert.match(await report.locator('#report-body').textContent(), /Qué propuestas requieren cambiar la Constitución/);
+  assert.match(await report.locator('#report-body').textContent(), /Fabio Franco/);
   await report.close();
 
   const proxy = createServer(async (request, response) => {
@@ -416,7 +438,7 @@ try {
   }
   assert.deepEqual(errors, []);
   assert.deepEqual(signupRequests, [], 'Tally must not load before a signup click');
-  console.log('Browser checks passed: six pages, 31 axes, eight pillars, both videos, captions, downloads, legacy links, subpath deployment, retry and mobile navigation.');
+  console.log('Browser checks passed: six pages, 31 axes, eight pillars, both videos, transcripts, downloads, legacy links, subpath deployment, retry and mobile navigation.');
 } finally {
   await browser.close();
 }

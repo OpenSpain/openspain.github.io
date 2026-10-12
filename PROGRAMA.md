@@ -53,31 +53,31 @@ La financiación, el encaje legal, los responsables y las condiciones de cada pi
 
 Guion editorial del vídeo horizontal, vinculado a los ocho pilares. Resume propuestas, no logros ni decisiones institucionales ya tomadas.
 
-- **1. Corrupción con consecuencias.** Revisar penas proporcionadas y recuperar dinero ilícito. Con control judicial.
-- **2. Menos impuestos.** Mejorar renta disponible con rebajas financiadas. No garantizar salarios mayores.
-- **3. Innovar, emprender y crecer.** Investigación útil, empresas y primeros clientes. Apoyos evaluados, sin garantizar éxito.
-- **4. Inversión con empleo.** Seguridad jurídica y actividad real. Medir desembolsos, no anuncios.
-- **5. Talento internacional.** Permisos más previsibles e integración. Ampliaciones propuestas, no aprobadas.
-- **6. Menos burocracia y gasto.** Simplificar normas y duplicidades. Preservar servicios, sin abolición autonómica general.
-- **7. Contratos y vías legales.** Verificar empleo y permisos. Combatir explotación y preservar el asilo.
-- **8. Más vivienda social.** Construir y rehabilitar con servicios. Contar viviendas entregadas, no anuncios.
+- **1. Corrupción con consecuencias.** Recuperar el dinero robado y revisar penas, con pruebas y garantías judiciales.
+- **2. Menos impuestos.** Que trabajar y emprender deje más dinero disponible, con financiación clara.
+- **3. Innovar, emprender y crecer.** Llevar buenas ideas a productos, empresas y primeros clientes.
+- **4. Inversión que cree empleo.** Reglas claras para invertir, abrir negocios y mantener puestos de trabajo.
+- **5. Talento que suma.** Facilitar la llegada de talento, su integración y el intercambio de conocimientos.
+- **6. Trámites fáciles. Gasto útil.** Pedir menos papeles, coordinar administraciones y cuidar los servicios esenciales.
+- **7. Trabajo con vías legales.** Contratos reales, permisos claros y protección frente a la explotación.
+- **8. Vivienda para construir una vida.** Alquiler social, rehabilitación y barrios con transporte, escuelas y servicios.
 
 No basta con anunciar cambios: hay que explicar quién los ejecuta, cuánto cuestan y cómo se comprueban.
 
 ### 1.4. Nuestros valores
 
-Valores cívicos compartidos, abiertos a personas con ideas y convicciones distintas. Orientan nuestra conducta; no sustituyen los derechos, las pruebas ni las garantías.
+Queremos una España donde vivir con libertad, prosperar y contribuir esté al alcance de más personas. Estos valores cívicos compartidos están abiertos a personas con ideas y convicciones distintas y se concretan en los compromisos del apartado siguiente, con derechos, pruebas y garantías.
 
-- **Dignidad humana.** Respetar a cada persona, con independencia de sus ideas, origen o situación. Su dignidad no depende de su riqueza, cargo o reconocimiento. Nadie debe ser humillado ni deshumanizado para ganar votos.
-- **Cuidado y generosidad.** No ser indiferentes al sufrimiento. Compartir tiempo, conocimiento, oportunidades y recursos para ayudar a recuperar autonomía. Cuidar especialmente a quienes atraviesan dificultades, sin exigir lealtad ni favores a cambio.
-- **Honestidad.** Decir la verdad y usar la palabra con responsabilidad. No mentir, manipular ni prometer lo que sabemos que no podemos cumplir. Reconocer y rectificar públicamente los errores.
-- **Humildad y apertura.** Escuchar antes de juzgar, contrastar los hechos y comprender sus causas. Reconocer nuestros límites y cambiar ante mejores argumentos o pruebas, sin aferrarnos a tener razón ni a una propuesta por ser nuestra.
-- **Vocación de servicio.** Servir a toda la ciudadanía, no solo a quienes nos apoyan, y compartir el mérito. El cargo público merece una remuneración justa, no ventajas indebidas: es una responsabilidad temporal que exige rendir cuentas, preparar relevos y aceptar dejarlo cuando corresponda.
-- **Justicia y equidad.** Aplicar las mismas reglas y actuar con solidaridad ante las dificultades reales de quienes parten con menos oportunidades.
-- **Diálogo y convivencia.** Buscar acuerdos sin convertir al adversario en enemigo. Discrepar con firmeza, sin insultos ni revancha; cooperar sin renunciar a las diferencias. Actuar con serenidad no significa callar ante una injusticia.
-- **Responsabilidad y reparación.** Responder por las decisiones y reparar el daño causado. Favorecer la reconciliación, sin borrar responsabilidades. Dar segundas oportunidades no implica impunidad.
-- **Prosperidad y bien común.** Respetar el éxito económico legítimo. Ganarse la vida y prosperar de forma honesta, sin fraude, explotación ni abuso del cargo. Crear valor para uno mismo y para los demás, y cuidar los recursos públicos.
-- **Cuidado del futuro.** Mirar más allá del beneficio inmediato: nuestras decisiones afectan también a otras personas. Cuidar el entorno y considerar las consecuencias para quienes vendrán después.
+- **Dignidad y libertad.** Reconocer el valor de cada persona y su libertad para pensar, elegir y construir su vida. Respetar su dignidad en cualquier situación y defender la libertad propia junto a los derechos de los demás.
+- **Cuidado y generosidad.** Compartir tiempo, conocimiento, oportunidades y recursos por el valor de ayudar. Acompañar a quienes atraviesan dificultades para que recuperen autonomía, y fortalecer familias, amistades y comunidades que se cuidan.
+- **Honestidad y confianza.** Hablar con claridad, contrastar los hechos y comprometer lo que podemos cumplir. Construir confianza con información comprensible, reconocer los errores y rectificar públicamente.
+- **Humildad y apertura.** Escuchar con curiosidad, comprender las causas y aprender de otras experiencias. Reconocer nuestros límites y tener la libertad de cambiar de opinión ante mejores argumentos o pruebas, también sobre una propuesta propia.
+- **Vocación de servicio.** Poner las capacidades al servicio de toda la ciudadanía y compartir el mérito. Ejercer el cargo con remuneración justa, rendición de cuentas y disposición a preparar relevos: servir es una responsabilidad temporal.
+- **Justicia y oportunidades.** Aplicar las mismas reglas, reconocer el esfuerzo y el mérito y abrir oportunidades reales para avanzar. Combinar responsabilidad personal y solidaridad para que más personas puedan desarrollar su potencial.
+- **Diálogo y convivencia.** Discrepar con respeto, defender las ideas con firmeza y construir acuerdos útiles. Cooperar desde nuestras diferencias, actuar con serenidad y alzar la voz ante las injusticias.
+- **Responsabilidad y reparación.** Hacernos cargo de nuestras decisiones, cumplir los compromisos y reparar el daño acreditado. Favorecer la reconciliación y las segundas oportunidades junto a una rendición de cuentas efectiva.
+- **Prosperidad y bien común.** Celebrar el éxito económico legítimo y el trabajo honesto. Emprender, invertir y crear valor con respeto a las personas; disfrutar de lo conseguido y contribuir a una sociedad con más oportunidades, cuidando también los recursos públicos.
+- **Cuidado del futuro.** Construir sobre lo mejor de lo recibido y dejar más oportunidades a quienes vendrán. Cuidar el entorno, transmitir conocimiento y valorar las consecuencias de nuestras decisiones a largo plazo.
 
 ### 1.5. Cómo los cumplimos
 
@@ -101,6 +101,8 @@ Los problemas siguientes son hipótesis de trabajo y preocupaciones ciudadanas. 
 **Palabras que usamos:** «trazabilidad» significa poder seguir quién decide, qué hace y con qué dinero; «interoperabilidad», que sistemas distintos puedan intercambiar información con autorización; «línea base», la situación medida antes de empezar; «cohorte», el mismo grupo seguido durante un período; y «adicionalidad», la mejora que no habría ocurrido sin la ayuda o medida. Medir una actividad no demuestra que haya causado un resultado.
 
 **Qué significa «haremos»:** expresa la actuación que proponemos impulsar, no una medida ya aprobada. OpenSpain puede investigar, preparar propuestas, reunir apoyos y solicitar acuerdos; las administraciones y demás entidades competentes deben autorizar y ejecutar lo que les corresponde. Si falta un acuerdo, personal o financiación, publicaremos el bloqueo, no una entrega ficticia.
+
+**Qué necesita reforma constitucional:** cada alternativa debe identificar si basta un acuerdo administrativo, una reforma legal o estatutaria, o si exige cambiar la Constitución. Suprimir el Senado, sustituir la circunscripción provincial del Congreso o introducir nuevas causas de cese obligatorio del Gobierno no son simples cambios de gestión. Cambiar la forma de Estado o eliminar el derecho a la autonomía exige el procedimiento agravado del artículo 168. La [guía de reformas constitucionales](#eje-30) distingue estos casos de las mejoras posibles dentro del marco vigente [F35]. Comparar una alternativa no significa adoptarla.
 
 **Cómo leer los plazos:** el primer año tiene como referencia octubre de 2026–2027 y el horizonte de cuatro años, octubre de 2030. Los códigos M3, M6, M12 y M48 indican meses desde el inicio de referencia; sirven para seguir los pasos, no para afirmar que todos los ejes estén activos. Los capítulos 4 y 5 explican condiciones, calendario y financiación. Las demás medidas de cada eje requieren su propio desarrollo antes de ejecutarse.
 
@@ -428,6 +430,23 @@ Para abordar estos problemas, proponemos las siguientes medidas:
 
 Los registros administrativos permitirán comprobar cuántas veces se pide el mismo documento por expediente, cuánto tarda la resolución y qué cuesta el procedimiento completo. Publicaremos los casos pendientes, su complejidad, la mediana y otros percentiles de espera, las reclamaciones y el coste de transición, para no presentar como ahorro una carga trasladada al usuario.
 
+Suprimir el Senado o modificar la composición fijada en el artículo 69 requiere reforma constitucional, en principio por el artículo 167 si no afecta a materias protegidas por el 168; habría que revisar todos los artículos afectados y redistribuir sus funciones. Compartir servicios o reorganizar organismos dentro de las competencias vigentes puede hacerse mediante acuerdos o cambios legales. Una reasignación territorial exige identificar qué disposiciones constitucionales, estatutos y leyes habría que modificar; eliminar el derecho a la autonomía del artículo 2 requiere el artículo 168. No se adopta aquí ninguna supresión institucional [F35].
+
+#### Catálogo inicial de simplificación
+
+Este orden propone qué recorridos revisar primero, no afirma que sus requisitos sean innecesarios ni que ya estén eliminados. La selección definitiva de los 10 procedimientos de las 3 administraciones participantes se hará en M1–M3 según volumen, tiempo, coste, riesgo y capacidad de coordinación; no se activan todos los recorridos de la tabla ni se amplía el piloto.
+
+| Prioridad | Recorrido | Cambio que evaluar | Comprobación |
+|---|---|---|---|
+| 1 | Documentación que ya posee una administración | Consulta o reutilización con base legal, trazabilidad y corrección de errores, en lugar de pedir de nuevo el mismo certificado | Documentos repetidos por expediente, tiempo del ciudadano y errores de intercambio |
+| 2 | Abrir y mantener un pequeño negocio | Requisitos, tasas y responsables publicados de una vez; expediente coordinado hasta poder operar legalmente | Días desde el primer contacto y desde la solicitud completa, coste y horas de gestión |
+| 3 | Declaraciones fiscales y regularización de cotizaciones | Reutilizar información legalmente disponible y ofrecer formularios y cálculos comprensibles, sin eliminar obligaciones necesarias | Horas por ciclo, errores, rectificaciones y protección conservada |
+| 4 | Licencias de obra y rehabilitación | Lista completa de requisitos desde el inicio, seguimiento y coordinación técnica sin suprimir controles de seguridad o ambientales | Tiempo total, pendientes, peticiones sucesivas y calidad de la resolución |
+| 5 | Facturación y cobro de contratos públicos | Evitar presentar información ya disponible legalmente y aclarar recepción, conformidad y estado del pago | Días hasta conformidad y cobro, documentos repetidos e incidencias |
+| 6 | Cierre ordenado de actividad | Coordinar comunicaciones y explicar obligaciones pendientes, sin borrar deudas ni derechos de trabajadores o acreedores | Gestiones, coste, tiempo de cierre y obligaciones correctamente resueltas |
+
+Cada ficha identificará administración competente, responsable del recorrido, requisito y fundamento legal, cambio propuesto, coste de implantación y prueba de cumplimiento. Distinguiremos cambios de formulario, acuerdos de intercambio y reformas normativas: OpenSpain no puede derogar una obligación ni conceder una licencia. Publicaremos lo inventariado, lo aprobado, lo realmente eliminado y lo bloqueado, sin contar trasladar el trámite a otra oficina como simplificación. Mantendremos atención asistida, privacidad y los controles necesarios; las licencias, la fiscalidad y la apertura de negocios conservan además sus propias metas en los ejes 2, 14, 15 y 16.
+
 La evaluación incluirá ahorro neto verificado, ingresos complementarios netos, adecuación de plantillas, calidad según la complejidad de los casos, accesibilidad y satisfacción ciudadana. Mantendremos la atención presencial. No mejoraremos las cifras excluyendo casos difíciles o denegando más solicitudes.
 
 La aplicación correspondería a todas las administraciones, mediante coordinación y acuerdos cuando sean necesarios.
@@ -598,6 +617,8 @@ Se utilizará una puntuación media sobre 100 y una rúbrica publicada de antema
 También observaremos formación docente y acceso a orientación. Una mejora en una prueba no demuestra por sí sola mayor bienestar psicológico. La evaluación no medirá adhesión ideológica ni sustituirá la atención clínica por educación emocional.
 
 El Estado y las comunidades autónomas intervendrían en currículo y recursos, y los centros educativos en su aplicación.
+
+La coordinación curricular y los estándares comunes pueden desarrollarse dentro de las competencias vigentes, con las reformas legales que procedan. No exigen por sí mismos cambiar la Constitución. Una centralización que altere el reparto constitucional de competencias o el derecho a la educación deberá identificar los artículos afectados: el 167 para cambios no protegidos y el 168 si afecta al artículo 27 u otras materias protegidas, además de las reformas estatutarias y legales necesarias [F35].
 
 El diagnóstico deberá revisar evaluación educativa, currículo y disponibilidad de orientación. Antes de aprobar medidas, habrá que comprobar el alcance, la actualidad y las limitaciones de estas fuentes.
 
@@ -819,6 +840,8 @@ No se propondrá una bajada de ingresos públicos sin financiación alternativa 
 
 Las comunidades autónomas intervendrían en organización y prestación sanitaria. El Estado lo haría en bases, coordinación y materias fiscales de su competencia, respetando los distintos regímenes de financiación.
 
+Mejorar la coordinación, los equipos o las listas de espera no exige por sí solo reforma constitucional. Reasignar funciones requiere revisar leyes y estatutos; si la alternativa modifica el reparto constitucional de competencias, como el artículo 149, deberá tramitar la reforma por el artículo 167, salvo que también afecte a materias protegidas por el 168. Un acuerdo administrativo no puede modificar una competencia constitucional o estatutaria [F35].
+
 El diagnóstico deberá revisar listas de espera, resultados clínicos, recursos y costes comparables. Antes de aprobar medidas, habrá que comprobar el alcance, la actualidad y las limitaciones de estas fuentes.
 
 El coste y su financiación están pendientes de estimación. El cálculo deberá incluir personal, capacidad asistencial, coordinación y evaluación de contratos. No hay presupuesto ni financiación aprobados en este borrador.
@@ -873,6 +896,8 @@ Seguiremos horas de gestión, documentación repetida, inspecciones, incidencias
 
 La auditoría de trámites distinguirá requisitos inventariados, cambios aprobados y obstáculos realmente eliminados. Medirá tiempo y coste del recorrido completo antes y después, con pendientes y rechazos, sin contar trasladar una obligación a otra oficina como simplificación. La coordinación entre administraciones deberá tener responsables y acuerdos documentados; participar no garantiza crédito ni éxito empresarial.
 
+La apertura, el mantenimiento y el cierre de negocios se incluirán en el catálogo inicial del eje 6, según la selección acordada. Publicaremos una ficha por actividad con administraciones responsables, pasos, tasas, controles y habilitación final, sin contar constituir una sociedad como autorización para operar ni ampliar automáticamente las 5 actividades iniciales.
+
 El Estado, las comunidades autónomas y los ayuntamientos intervendrían según el trámite y sus atribuciones.
 
 En los municipios participantes, se elegirán modalidades de economía colaborativa con demanda contrastada y habilitación clara. Primero se explicarán las reglas y se calcularán costes; después se probará legalmente con clientes; finalmente se revisarán ingresos netos, horas y reclamaciones antes de ampliar. La guía es una entrega de OpenSpain, no una autorización administrativa. Este itinerario se integra en el frente de simplificación, no añade un cuarto frente inicial ni obliga a activar transporte.
@@ -925,6 +950,8 @@ Seguiremos errores, volatilidad de pagos, cobertura efectiva y morosidad. Una me
 
 Cualquier reducción de cuotas debe explicar cómo afecta a pensiones y otras prestaciones y quién cubre la financiación necesaria. Las condiciones concretas deberán contrastarse con la normativa vigente antes de redactar una reforma.
 
+Los casos comparables del eje 16 distinguirán facturación sin IVA, gastos de actividad, margen antes de cotización e impuestos, cobros efectivos y renta disponible. Para ingresos variables se explicarán meses de poca actividad, pagos provisionales y regularización, sin inventar cuotas vigentes ni tratar la reducción de horas de gestión como una rebaja ya aprobada.
+
 La aplicación correspondería principalmente al Estado en Seguridad Social y fiscalidad estatal. Otras administraciones participarían mediante los apoyos de su competencia.
 
 El diagnóstico deberá revisar rendimientos, cotizaciones, cobertura y morosidad por perfiles. Antes de aprobar medidas, habrá que comprobar el alcance, la actualidad y las limitaciones de estas fuentes.
@@ -974,6 +1001,20 @@ Para abordar estos problemas, proponemos las siguientes medidas:
 - Reforzar prevención del fraude con controles proporcionados y garantías, sin tratar a todos los contribuyentes como sospechosos.
 
 Compararemos impuestos y cotizaciones pagados respecto de ingresos comparables por perfil, actividad y nivel de renta, indicando norma y territorio. Diferenciaremos el tipo marginal del efectivo, así como salario bruto, rendimiento neto y facturación. Seguiremos horas, coste y errores de cumplimiento, renta disponible, recaudación, inversión adicional, precios y saldo presupuestario.
+
+#### Tres ejemplos para entender las cuentas
+
+Son casos didácticos con cantidades ficticias, no cálculos de impuestos vigentes, previsiones ni rebajas propuestas. Solo muestran por qué salario, facturación, margen y dinero disponible son distintos; no sustituyen los 10 perfiles tributarios comparables previstos en este eje.
+
+| Perfil hipotético | Datos supuestos al año | Lectura de las cuentas |
+|---|---|---|
+| Persona asalariada | Salario bruto de 30.000 euros; impuestos y cotizaciones personales supuestos de 6.000 euros | Quedarían 24.000 euros después de esas deducciones, antes de los gastos del hogar. Los 6.000 euros son un supuesto ilustrativo, no una liquidación según la ley ni un tipo aplicable a otra persona. |
+| Autónomo con ingresos variables | Facturación sin IVA de 24.000 euros y gastos de actividad de 8.000 euros | El margen previo a cotización e IRPF sería 16.000 euros, no 24.000. Falta comprobar deducibilidad, cotización, impuestos y facturas cobradas; un mes sin cobros puede exigir pagos. |
+| Pequeño negocio | Ventas sin IVA de 120.000 euros y costes de 100.000 euros, incluidos personal y cotizaciones empresariales en este supuesto | El margen previo a impuestos sería 20.000 euros. No equivale al sueldo del propietario ni a caja disponible: hay que revisar cobros, obligaciones, inversiones y distribución de resultados. |
+
+Para cada propuesta fiscal publicaremos la comparación antes/después con el mismo perfil, año, territorio y situación familiar; distinguiremos salario bruto, cotizaciones personales y empresariales, cuota tributaria definitiva, retenciones o anticipos, tasas, horas de gestión y dinero disponible. Las retenciones no se sumarán otra vez a la cuota definitiva; el IVA repercutido no se tratará como ingreso propio y su recuperación dependerá de las reglas aplicables. El autónomo conservará una explicación de cobertura y prestaciones. No mezclaremos beneficio empresarial, sueldo y dividendos ni presentaremos margen contable como saldo bancario.
+
+Cada alternativa explicará quién se beneficia, quién soporta el coste, cuánto deja de ingresar cada administración, qué recursos verificables lo cubrirían y qué servicios o prestaciones podrían verse afectados. Si esos datos faltan, la ficha aparecerá como pendiente de cálculo y no anunciará un ahorro individual. No se financiarán rebajas con crecimiento garantizado ni con ahorro administrativo todavía no verificado.
 
 Para las exenciones, revisaremos su fundamento, coste fiscal estimado por actividad, recaudación municipal y efectos sobre servicios. Distinguiremos estimaciones de ingresos realmente obtenidos. No prometemos un tipo fiscal concreto sin una memoria de efectos ni contaremos crecimiento o fraude evitado como financiación cierta.
 
@@ -1265,6 +1306,8 @@ Compararemos costes completos, posibles transiciones y calidad de la evaluación
 
 La crítica a la monarquía y su defensa son posiciones democráticas legítimas. La institución no debe utilizarse para promocionar partidos. Cambiar la forma de Estado no puede hacerse mediante un decreto ni confundirse con una consulta informal; una reforma del título II está sujeta al procedimiento agravado del artículo 168 de la Constitución, con referéndum de ratificación.
 
+Sustituir la monarquía parlamentaria por una república afectaría también al artículo 1.3 del título preliminar y exige el artículo 168. Mejorar cuentas, información o reglas de gestión compatibles con el texto vigente no requiere automáticamente esa reforma; cambiar atribuciones o garantías constitucionales de la Corona sí. La comparación no adopta de antemano una forma de Estado [F35].
+
 Las instituciones constitucionales y la ciudadanía intervendrían mediante los procedimientos aplicables. Las obligaciones y los controles se ejercerían dentro del marco legal vigente.
 
 El diagnóstico deberá revisar funciones, cuentas y reglas de modelos institucionales concretos. Antes de aprobar medidas, habrá que comprobar el alcance, la actualidad y las limitaciones de estas fuentes.
@@ -1347,6 +1390,8 @@ Antes de deliberar se publicará una prueba de comprensión y se compararán sus
 
 Las simulaciones electorales compararán proporcionalidad y representación en escenarios equivalentes. El seguimiento de compromisos recogerá balances publicados, verificación y cambios motivados, no solo anuncios. Mediremos comprensión, no apoyo a la opción del convocante. La deliberación será consultiva; no introduciremos votos de distinto valor ni exámenes para acceder al sufragio.
 
+Cambiar la fórmula electoral o el reparto de escaños puede hacerse mediante reforma de la LOREG si respeta el artículo 68: circunscripción provincial, representación mínima inicial, proporcionalidad y entre 300 y 400 diputados, entre otras condiciones. Sustituir la circunscripción provincial del Congreso exige reformar el artículo 68.2 por el artículo 167, salvo que la propuesta afecte además a materias protegidas. Alterar el derecho de participación del artículo 23 requeriría el 168; no se propone restringirlo ni introducir votos desiguales [F35].
+
 Los encuentros ciudadanos se evaluarán por sesiones previstas y celebradas, accesibilidad, preguntas pendientes y respuestas o seguimientos en plazo, no por aplausos ni adhesiones políticas. Para el debate se revisarán decisiones disciplinarias motivadas y reclamaciones, sin puntuar ideologías. Estos compromisos y los de veracidad del eje 1 requieren acuerdo y, cuando proceda, reforma de los reglamentos parlamentarios por cada Cámara; no cambian las metas de deliberación ni activan un frente adicional.
 
 En integridad electoral, el diagnóstico separará solicitudes, documentación entregada, votos recibidos en plazo y votos admitidos, además de incidencias y reclamaciones resueltas, por modalidad y convocatoria cuando existan datos comparables. Evaluaremos cobertura de controles de custodia, tiempos de resolución y barreras de acceso con datos agregados y revisión independiente autorizada. Más denuncias no significa automáticamente más fraude, y una entrega trazable no prueba por sí sola la validez del voto. Antes de proponer cambios, habrá que documentar controles existentes, carencias acreditadas y alternativas; esta ampliación no modifica las metas de deliberación ni activa un nuevo piloto electoral.
@@ -1411,6 +1456,7 @@ Para abordar estos problemas, proponemos las siguientes medidas:
 - Evaluar pilotos de remuneración variable donde sean legalmente viables, con objetivos públicos, componente limitado y evaluación independiente; no presentar el modelo como aplicable automáticamente a todos los cargos.
 - Estudiar incentivos para responsables políticos, incluido el presidente, solo mediante reglas públicas anteriores al periodo evaluado, presupuesto y verificación independiente. No usar únicamente PIB, recaudación o recortes ni pagar recompensas desde empresas beneficiadas; un bono no sustituye responsabilidad política o jurídica.
 - Vincular los balances de compromisos del eje 22 a rendición de cuentas parlamentaria, sin convertir al presidente en un empleado sujeto a despido por una comisión evaluadora. Explicar investidura, cese, cuestión de confianza y moción de censura; cualquier mecanismo nuevo debe preservar legitimidad democrática y tramitar su reforma constitucional cuando proceda [F35].
+- Distinguir pedir una dimisión o aplicar los mecanismos actuales de crear nuevas causas de cese obligatorio del Gobierno: si alteran los artículos 101, 113 o 114, exigen reforma constitucional por el artículo 167, salvo afectación adicional a materias protegidas por el 168. No basta una ley de evaluación ni un reglamento de una comisión; revisar remuneraciones, compatibilidades o beneficios tras el cese no exige por sí solo esa reforma [F35].
 - Medir mejoras atribuibles de servicio, calidad, accesibilidad y eficiencia, ajustadas por recursos y contexto. No premiar exclusivamente recortes, multas, recaudación o denegaciones.
 - Impedir que una persona fije, evalúe o autorice por sí sola su propio incentivo; prever revisión y recuperación de pagos indebidos cuando exista base legal.
 - Analizar antes del nombramiento actividades, patrimonio e intereses relevantes, incluyendo incentivos diferidos u opciones que puedan depender de empresas afectadas por sus decisiones.
@@ -1823,6 +1869,22 @@ La Constitución establece los siguientes procedimientos de reforma [F35]:
 | Revisión total o parcial que afecte al título preliminar, sección primera del capítulo segundo del título I o título II: artículo 168 | Aprobación del principio por dos tercios de cada Cámara y disolución inmediata de las Cortes; las nuevas Cámaras ratifican la decisión y aprueban el texto por dos tercios de ambas; referéndum de ratificación obligatorio. No eludir este cauce presentando la revisión como simplificación. |
 | Iniciativa y límites: artículos 166 y 169 | Iniciativa conforme al artículo 87.1 y 87.2: no hay iniciativa legislativa popular directa de reforma constitucional. No puede iniciarse en tiempo de guerra ni durante alguno de los estados del artículo 116. |
 
+#### Qué propuestas requieren cambiar la Constitución
+
+Este mapa orienta el desarrollo jurídico de alternativas ya contempladas, no incorpora reformas aprobadas ni adopta las supresiones que se comparan. El procedimiento definitivo depende del texto concreto y de todos los artículos afectados, no del nombre de la medida [F35].
+
+| Alternativa del programa | Encaje y cauce |
+|---|---|
+| Suprimir el Senado o cambiar su composición constitucional (eje 6) | Requiere modificar el artículo 69 y, en caso de supresión, el 66 y demás preceptos afectados; en principio, artículo 167 si no afecta a materias protegidas por el 168. Una ley ordinaria no puede suprimir la Cámara. |
+| Eliminar el derecho a la autonomía (eje 6) | Afecta al artículo 2 del título preliminar: artículo 168, con nuevas Cortes y referéndum obligatorio. Coordinar servicios no equivale a eliminar la autonomía. |
+| Cambiar la forma de Estado o las reglas constitucionales de la Corona (eje 21) | Artículo 168 por afectar al título II y, en el cambio de monarquía a república, también al artículo 1.3. Transparencia compatible con el texto vigente no implica por sí sola cambiar la forma de Estado. |
+| Sustituir la circunscripción provincial del Congreso (eje 22) | Modificar el artículo 68.2 exige el 167, salvo afectación adicional a materias protegidas. Otros ajustes electorales pueden tramitarse mediante LOREG si respetan las condiciones constitucionales. |
+| Introducir nuevas causas de cese obligatorio del Gobierno (eje 23) | Si cambian el régimen de los artículos 101, 113 o 114, requieren el 167, salvo afectación adicional a materias protegidas. Pedir una dimisión o exigir cuentas dentro de los cauces actuales no necesita crear otro mecanismo constitucional. |
+| Cambiar la elección de los 12 vocales judiciales del CGPJ (eje 31) | Puede tramitarse mediante reforma de la LOPJ, pues el artículo 122.3 remite ese turno a ley orgánica. Cambiar los 20 miembros, su mandato de cinco años o la propuesta parlamentaria y mayoría de tres quintos de los 8 juristas exige reforma constitucional, en principio por el 167. |
+| Coordinar educación o sanidad, o reasignar funciones (ejes 6, 9 y 13) | La coordinación dentro de las competencias vigentes no exige por sí sola reforma constitucional. Revisar leyes y estatutos para reasignar funciones; modificar el reparto constitucional exige el 167, y afectar a derechos como el artículo 27 exige el 168. |
+
+Las rebajas fiscales, la simplificación de trámites, el refuerzo de servicios, la revisión de penas con garantías y las reglas de conflictos de interés no requieren automáticamente reforma constitucional. Cada medida debe respetar la Constitución y las obligaciones europeas e internacionales y contar con la ley ordinaria u orgánica, presupuesto, autorización y acuerdos que correspondan. Una reforma legal no puede utilizarse para eludir una garantía constitucional.
+
 El trabajo se organizaría en estas etapas: K01 (semanas 1–2): elegir 1 artículo y documentar una dificultad; K02 (semanas 3–4): redactar explicación y comparar alternativas con revisión jurídica; K03 (semanas 5–8): realizar una prueba de comprensión y corregir; K04 (semanas 9–12): publicar ficha, límites y decisión. Se activa según capacidad, sin añadir automáticamente un cuarto frente al arranque.
 
 Las instituciones con iniciativa y decisión constitucional intervendrían según el título X, y los tribunales en sus funciones de interpretación y control. La colaboración académica y ciudadana contribuiría a investigación, accesibilidad y debate. No se presupone apoyo institucional ni reforma autorizada.
@@ -1879,6 +1941,8 @@ El eje 1 hace trazable el uso de fondos y exige controles; este eje refuerza cap
 
 El artículo 122 de la Constitución distingue 12 vocales entre jueces y magistrados y 8 juristas a propuesta de las Cámaras; la LOPJ vigente atribuye la designación de los 20 a las Cortes, 10 por Cámara por mayoría de tres quintos [F35] [F39]. Los cambios deben distinguir lo regulado por ley orgánica de lo fijado constitucionalmente. El CGPJ es un órgano de gobierno, no el tribunal que dicta todas las sentencias. Su relación institucional con las Cortes no permite dar por probada la parcialidad de cada juez ni justifica eliminar controles y responsabilidad.
 
+La elección por jueces y magistrados de los 12 vocales judiciales puede articularse mediante reforma de la LOPJ, respetando el artículo 122.3; no exige por sí sola cambiar la Constitución. Alterar el número de miembros, el mandato de cinco años o la propuesta parlamentaria y mayoría de tres quintos de los 8 juristas sí requiere reforma constitucional, en principio por el artículo 167 si no se afectan materias protegidas por el 168. Comparar esos diseños no autoriza al Gobierno a nombrar vocales ni modifica una renovación vigente [F35] [F39].
+
 El CGPJ estima para asuntos civiles terminados en 2025 en primera instancia 15,5 meses en ordinarios y 11,1 en la categoría «Demás verbales» [F36]. Son aproximaciones mediante un modelo de asuntos ingresados, resueltos y pendientes, no mediciones individuales ni medias de toda la justicia. No incluyen por sí solas recursos o ejecución ni prueban corrupción; no sirven para pronosticar un caso concreto.
 
 El trabajo se organizaría en estas etapas: J01 (semanas 1–2): elegir 1 procedimiento y mapear fases con fuentes públicas; J02 (semanas 3–4): documentar un cuello de botella y una alternativa con revisión jurídica; J03 (semanas 5–8): acordar acceso legal a datos y recursos o declarar el bloqueo; J04 (semanas 9–12): probar una explicación o mejora autorizada y publicar evaluación agregada. No añade automáticamente un cuarto frente inicial.
@@ -1893,9 +1957,35 @@ La aplicación debe prevenir presiones sobre la independencia, decisiones apresu
 
 ## 3. Ámbitos pendientes para un programa completo
 
-Esta versión incorpora pensiones, resiliencia, claridad constitucional y justicia accesible, pero no cubre todavía todos los ámbitos de España. Quedan por desarrollar cuidados, adaptación climática y agua por sector y seguridad ciudadana, además de accesibilidad en todos los servicios. El eje de contingencia no sustituye planes técnicos de cada ámbito, las pensiones requieren estudio actuarial y presupuestario y el eje de justicia no agota las reformas de cada jurisdicción.
+Esta versión incorpora pensiones, resiliencia, claridad constitucional y justicia accesible, pero no cubre todavía todos los ámbitos de España. Quedan por desarrollar cuidados, adaptación climática y agua por sector, además de accesibilidad en todos los servicios. Seguridad ciudadana tiene un desarrollo inicial a continuación, todavía sin diagnóstico local, presupuesto ni metas de impacto aprobadas. El eje de contingencia no sustituye planes técnicos de cada ámbito, las pensiones requieren estudio actuarial y presupuestario y el eje de justicia no agota las reformas de cada jurisdicción.
 
 Estas áreas no deben rellenarse con promesas genéricas: requieren diagnóstico, participación de personas afectadas y evaluación de recursos.
+
+### 3.1. Seguridad ciudadana: prevención, víctimas y respuesta efectiva
+
+Queremos vivir, trabajar y movernos con seguridad, proteger a las víctimas y responder a los delitos sin convertir el miedo en enfrentamiento. Proponemos combinar prevención, recursos policiales según necesidades, investigación y coordinación con la justicia. Este desarrollo no añade un eje con metas ficticias, no sustituye el plan de contingencia del eje 29 ni activa un cuarto frente inicial.
+
+En un caso hipotético, varios comercios sufren hurtos repetidos. Antes de prometer más penas, se contrastan los hechos, se atiende a las víctimas y se revisan prevención, investigación, recursos y coordinación de los casos. Una denuncia no equivale a una condena ni demuestra por sí sola reincidencia.
+
+Para abordar estos problemas, proponemos las siguientes medidas:
+
+- Preparar diagnósticos por territorio y tipo de delito con estadísticas oficiales, denuncias, información judicial y encuestas de victimización cuando estén disponibles. Separar hechos conocidos, investigaciones, condenas y percepción de inseguridad; declarar los datos ausentes y no extrapolar una incidencia local a todo el país.
+- Evaluar prevención según el problema: iluminación y mantenimiento de espacios, protección frente a fraudes, apoyo a comercios y coordinación educativa y social. Comparar alternativas y sus efectos; no instalar vigilancia indiscriminada ni presentar una medida urbana como solución para cualquier delito.
+- Revisar carga de trabajo, turnos, medios, formación y capacidad de investigación de los cuerpos competentes antes de ampliar o redistribuir efectivos. Presupuestar personal, equipamiento y mantenimiento; reforzar protección y apoyo profesional sin eliminar supervisión, proporcionalidad ni derechos.
+- Coordinar información y asistencia accesible a víctimas, con orientación sobre denuncia, protección, atención sanitaria y apoyo jurídico y social según el caso. Evitar trámites repetidos, revictimización y barreras digitales; no sustituir servicios profesionales por actuaciones ciudadanas de vigilancia o confrontación.
+- Mejorar la investigación y el seguimiento de delincuencia organizada y reincidencia acreditada, con coordinación legal entre policía, fiscalía y órganos judiciales. Revisar medidas y recursos cuando se documenten insuficiencias, con pruebas, defensa y control judicial; no garantizar menos delitos solo por elevar penas ni confundir reiteración de denuncias con condenas firmes.
+- Diferenciar allanamiento, usurpación, impago y otros conflictos, conforme al desarrollo del eje 2, sin dar una respuesta automática idéntica a todos. La actuación sobre personas extranjeras debe seguir el cauce legal individual y sus garantías; no utilizar origen o nacionalidad como indicador individual de peligrosidad ni equiparar irregularidad administrativa y delincuencia.
+- Evaluar calidad del servicio y resultados, incluyendo atención a víctimas, accesibilidad, tiempos de respuesta por prioridad y esclarecimiento de hechos con definiciones públicas. Las detenciones o el número de sanciones no serán por sí solos medidas de éxito.
+
+El trabajo empezaría con diagnóstico y participación de víctimas, vecinos, profesionales y servicios competentes; continuaría con una ficha que compare prevención, investigación y refuerzo de recursos; solo pasaría a ejecución con autoridad competente, financiación y garantías confirmadas. El Estado, las comunidades autónomas y los municipios intervendrían según sus atribuciones, con policía, fiscalía, órganos judiciales y servicios de atención a víctimas. OpenSpain puede investigar, proponer y solicitar acuerdos, no dirigir cuerpos policiales ni decisiones judiciales.
+
+Antes de fijar metas, se definirá el territorio, la población expuesta, el periodo y la situación inicial. Se compararán hechos por tipo y tasas con denominadores pertinentes, reincidencia según una definición jurídica verificada, tiempos por prioridad y satisfacción de víctimas. Una mayor denuncia puede reflejar mejor acceso y no más delitos; cambios de registro o clasificación no se presentarán como mejora. Se publicarán incertidumbre, evolución comparable, costes y daños o desplazamientos a otros barrios, sin identificar víctimas, expedientes ni operativos sensibles.
+
+El diagnóstico consultará el Portal Estadístico de Criminalidad del Ministerio del Interior, información judicial y de atención a víctimas y registros autorizados de los cuerpos participantes. La serie de allanamiento y usurpación [F7] solo describe esas infracciones, no toda la seguridad ciudadana; los datos generales del CGPJ [F36] tampoco sustituyen una medición penal local. No afirmamos una crisis nacional ni un efecto causal sin datos comparables.
+
+El coste y su financiación están pendientes de estimación. La ficha deberá incluir personal, formación, sistemas, protección de datos, mantenimiento, prevención, asistencia y evaluación. No hay aumento de plantilla, presupuesto ni despliegue aprobados; el posible ahorro por delitos evitados no se contará como financiación disponible.
+
+Toda actuación respetará la presunción de inocencia, la defensa, la privacidad, la no discriminación y la revisión independiente de abusos. Ni la preocupación por seguridad ni la simplificación justifican poderes ilimitados, expulsiones colectivas o actuaciones sin garantías.
 
 ## 4. Cómo convertir una idea en una medida
 
@@ -1910,7 +2000,7 @@ Cada propuesta que pase al programa definitivo tendrá una ficha:
 | Plan y resultado esperado | Qué se hará el primer año y qué se quiere conseguir en cuatro años, para quién y dónde, con viabilidad comprobada. |
 | Medida | Actuación, alternativas consideradas y motivo de elección. |
 | Responsable | Administración competente y colaboradores necesarios. |
-| Encaje legal | Normativa aplicable y cambios que serían necesarios. |
+| Encaje legal | Normativa y artículos afectados; distinguir acuerdo administrativo, ley ordinaria u orgánica, estatuto o reforma constitucional. Si exige cambiar la Constitución, identificar el cauce 167 o 168, mayorías y referéndum cuando proceda, con revisión jurídica. |
 | Coste | Inversión inicial, gasto recurrente y costes administrativos. |
 | Financiación | Recursos identificados y qué otras prioridades se desplazarían. |
 | Impacto | Beneficiarios, posibles perjudicados y efectos distributivos. |
@@ -2127,6 +2217,12 @@ Su presentación profesional se incorpora a partir de la información facilitada
 
 El liderazgo inicial no sustituye la revisión técnica ni el debate plural. La iniciativa deberá hacer públicos sus criterios de decisión, financiación y conflictos de interés a medida que se organice.
 
+### Personas colaboradoras
+
+**Fabio Franco**, Policía Municipal de Madrid y geólogo, colabora con una mirada cercana a la seguridad cotidiana, la convivencia y los problemas que viven las personas en sus barrios. Su experiencia profesional y su formación aportan una perspectiva práctica sobre el territorio y cómo las decisiones públicas se traducen en la vida diaria.
+
+Presentación facilitada a la iniciativa. Participa a título personal; no se atribuye respaldo al Ayuntamiento de Madrid ni a la Policía Municipal, ni se añaden credenciales o responsabilidades institucionales no acreditadas.
+
 ### Vías de actuación: iniciativa propia y colaboración institucional
 
 **Modelo propuesto:** plataforma ciudadana independiente que investiga, formula y evalúa, sin exigir que un partido adopte todo el programa. Para gestionar fondos o contratos, revisar antes forma jurídica, responsabilidad y obligaciones; la asociación puede ser una opción, no se afirma que ya exista.
@@ -2185,7 +2281,7 @@ Participar o votar dentro de la iniciativa no sustituye las competencias de las 
 | 3. Turismo accesible y barrios habitables | Facilitar alojamiento legal a precios accesibles y competencia, controlando irregularidad y presión residencial según evidencia local. |
 | 4. Mejores ingresos | Mejorar productividad, formación, cumplimiento laboral y capacidad de negociación. |
 | 5. Tecnología e innovación | Conectar investigación con productos, procesos y servicios en empresas e industria; desarrollar capacidades propias y adoptar IA útil, evaluable y respetuosa con los derechos. |
-| 6. Administración eficaz | Simplificar normas, permisos y trámites sin eliminar protecciones esenciales; clarificar responsabilidades, revisar organismos y plantillas y evaluar desempeño sin comprometer servicios. |
+| 6. Administración eficaz | Priorizar un catálogo de trámites, publicar responsables y cambios realmente eliminados; simplificar sin quitar protecciones y revisar organismos y plantillas sin comprometer servicios. |
 | 7. Migración, talento e integración | Mejorar contratación legal con contratos verificados y permisos exigibles, atraer talento, evaluar permisos remotos más largos e integrar con derechos, protección y control. |
 | 8. Cooperación exterior y posición europea | Facilitar ventas en la UE y Estados Unidos, cooperar y comparar escenarios europeos con evidencia y garantías. |
 | 9. Educación para la vida | Desarrollar habilidades cotidianas, pensamiento crítico, finanzas e inglés práctico; actualizar contenidos sin perder conocimientos fundamentales. |
@@ -2195,7 +2291,7 @@ Participar o votar dentro de la iniciativa no sustituye las competencias de las 
 | 13. Sanidad universal y colaboración evaluable | Mejorar acceso, triaje y continuidad, combinar capacidades cuando aporte valor y reducir costes evitables sin disuadir atención necesaria. |
 | 14. Emprender e ingresos complementarios | Simplificar hasta poder operar y facilitar servicios y economía colaborativa, con reglas claras, clientes y evaluación de ingreso neto. |
 | 15. Trabajo autónomo y plataformas | Hacer las obligaciones proporcionadas a ingresos variables, proteger derechos y evaluar comisiones, costes e ingreso por hora total. |
-| 16. Fiscalidad sencilla y proporcionada | Diseñar rebajas sostenibles sobre trabajo y actividad empresarial, evaluar IVA y efectos por perfiles, con financiación explícita sin prometer mayores salarios automáticamente. |
+| 16. Fiscalidad sencilla y proporcionada | Diseñar rebajas sostenibles con casos comparables de trabajadores, autónomos y negocios; separar facturación, margen y dinero disponible y publicar coste y financiación sin prometer mayores salarios automáticamente. |
 | 17. Energía y transporte con menor dependencia | Reducir consumo de petróleo y gas natural mediante eficiencia, electrificación y alternativas fiables, y desarrollar aviación de bajas emisiones con viabilidad verificable. |
 | 18. Una economía espacial útil | Participar en ciencia e industria espacial mediante cooperación, contratación competitiva y aplicaciones que mejoren la vida cotidiana. |
 | 19. Medios libres e independientes | Impulsar «¿Quién paga a quién?» para seguir pagos públicos a medios y proteger autonomía editorial, pluralismo y nombramientos transparentes, sin censura ni clasificaciones partidistas. |
@@ -2213,6 +2309,8 @@ Participar o votar dentro de la iniciativa no sustituye las competencias de las 
 | 31. Justicia accesible y ágil | Reducir demoras evitables y trámites repetidos, facilitar seguimiento y defensa efectiva y reforzar integridad sin interferir en decisiones judiciales. |
 
 **Regla de cierre:** ninguna propuesta se considerará lista para ejecución sin responsable, encaje legal, coste, financiación y evaluación. Este es un punto de partida para construir un programa, no una promesa de resultados aún no demostrados.
+
+Además de los 31 ejes, el apartado 3.1 desarrolla seguridad ciudadana: prevención, asistencia a víctimas, recursos policiales según necesidades y respuesta a reincidencia acreditada, con garantías y diagnóstico previo. No tiene todavía metas de impacto ni financiación aprobadas y no activa un nuevo frente inicial.
 
 ## 8. Fuentes y límites de la evidencia
 
@@ -2256,7 +2354,7 @@ Revisión documental y ampliación de gráficos: 4 de octubre de 2026; incorpora
 
 **[F34] CNMC · impugnación de la regulación balear de taxi y VTC, 17 de julio de 2026.** [Nota oficial y expediente LA/02/2026](https://www.cnmc.es/prensa/impugnacion-decreto-vtc-taxi-20260717). Cuestiona determinados artículos del Decreto 6/2026: requisitos de vehículos, solicitudes, contratación parcial y tarifas. Describe la posición de la autoridad de competencia y una actuación judicial, no una sentencia firme ni una derogación general de restricciones españolas. Sus efectos económicos propuestos deben contrastarse, no contabilizarse como mejoras ya medidas.
 
-**[F35] Constitución Española · texto y reforma.** [Texto consolidado del BOE](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229), consultado el 5 de octubre de 2026. Artículos 166–169: iniciativa, procedimiento ordinario y agravado y límites temporales; artículos 87.1–2 y 116 por remisión. Para las ampliaciones institucionales: artículos 2 y 137, autonomía; 23 y 68, participación y sufragio; 66, 69 y 90, funciones parlamentarias y Senado; 99, 101, 108 y 112–114, investidura, cese y responsabilidad del Gobierno; 117 y 122, independencia y gobierno judicial; 27 y 149, educación y distribución competencial. Estructura: 169 artículos, 4 disposiciones adicionales, 9 transitorias, 1 derogatoria y 1 final, sin contar preámbulo, títulos o rúbricas como artículos. Son cifras normativas, no una medición de dificultad, ambigüedad o comprensión. No justifican por sí solas reformar el texto; las explicaciones ciudadanas no tienen valor normativo.
+**[F35] Constitución Española · texto y reforma.** [Texto consolidado del BOE](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229), consultado el 5 de octubre de 2026 y revisado para el mapa de reformas. Artículos 166–169: iniciativa, procedimiento ordinario y agravado y límites temporales; artículos 87.1–2 y 116 por remisión. Para las ampliaciones institucionales: artículo 1.3 y título II, monarquía parlamentaria y Corona; artículos 2 y 137, autonomía; 23 y 68, participación y sufragio; 66, 69 y 90, funciones parlamentarias y Senado; 99, 101, 108 y 112–114, investidura, cese y responsabilidad del Gobierno; 117 y 122, independencia y gobierno judicial; 27 y 149, educación y distribución competencial. Estructura: 169 artículos, 4 disposiciones adicionales, 9 transitorias, 1 derogatoria y 1 final, sin contar preámbulo, títulos o rúbricas como artículos. Son cifras normativas, no una medición de dificultad, ambigüedad o comprensión. No justifican por sí solas reformar el texto; las explicaciones ciudadanas no tienen valor normativo.
 
 **[F36] CGPJ · duración media estimada de asuntos civiles terminados en 2025.** [Metodología oficial](https://www.poderjudicial.es/cgpj/es/Temas/Estadistica-Judicial/Estadistica-por-temas/Actividad-de-los-organos-judiciales/Estimacion-de-los-tiempos-medios-de-los-asuntos-terminados/) y [Excel original de primera instancia civil](https://www.poderjudicial.es/stfls/ESTADISTICA/FICHEROS/Duraciones/20260416%20Juzgados%20de%20Primera%20Instancia%20%20y%20Primera%20Instancia%20e%20Instruccion%20-%20Civil%20-%20Duraciones.xlsx), de 16 de abril de 2026, consultados el 5 de octubre. Hojas «Ordinarios» y «Demas verbales», fila España, columna 2025: 15,464086576143092 y 11,137450171266176 meses, redondeados a 15,5 y 11,1. Modelo de ingresos, resoluciones y pendientes, no medición directa ni previsión individual; no distingue formas de terminación. La categoría «Demás verbales» no incluye todas las modalidades verbales. No cubre por sí sola recursos y ejecución ni cuantifica corrupción.
 

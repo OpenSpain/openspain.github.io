@@ -6,7 +6,7 @@
 <link rel="stylesheet" href="../brand.css">
 <style>
   :root {
-    --paper: #f8f6f0; --surface: #fffdf8; --ink: #15243e; --navy: #0d1b34; --blue: #2459df;
+    --paper: #ffffff; --surface: #ffffff; --ink: #111318; --navy: #111318; --blue: var(--brand-blue);
     --muted: #536177; --line: #d6dae2; --gold: var(--brand-gold); --tint: #e5ebfa; --soft: #cad5e9;
     --serif: var(--brand-font); --sans: var(--brand-font);
   }
@@ -34,8 +34,8 @@
   .lead { font-size: 50px; line-height: 1.5; color: var(--muted); margin-top: 48px; max-width: 880px; }
   .navy .lead { color: var(--soft); }
 
-  .logo { position: absolute; top: 150px; left: 90px; width: 400px; z-index: 40; }
-  .logo svg { width: 100%; height: auto; display: block; }
+  .logo { position: absolute; top: 150px; left: 90px; z-index: 40; display: flex; align-items: center; gap: 18px; font-size: 58px; font-weight: 800; letter-spacing: -2px; color: #ffffff; }
+  .logo img { width: 70px; height: 70px; filter: brightness(0) invert(1); }
 
   /* Stat card (como .stat-highlight de la web) */
   .stat { background: var(--navy); color: #fff; border-radius: 22px; padding: 56px 60px 50px; }
@@ -45,7 +45,7 @@
   .stat .lbl { font-size: 70px; font-weight: 600; letter-spacing: -.03em; }
   .stat .lbl span { font-family: var(--serif); font-style: italic; font-weight: 400; color: var(--gold); }
   .checks { margin-top: 50px; font-size: 58px; font-weight: 600; letter-spacing: -.02em; line-height: 1.55; }
-  .checks .el::before { content: "↗ "; color: var(--blue); }
+  .checks .el::before { content: "↗ "; color: var(--brand-paper); }
   .note { font-size: 34px; color: var(--muted); margin-top: 30px; }
 
   /* Tarjetas del programa */
@@ -65,7 +65,7 @@
   .float b { font-weight: 700; }
   .float i { font-style: normal; color: var(--blue); font-size: 62px; }
 
-  .bigarrow { position: absolute; right: 70px; top: 230px; font-weight: 300; font-size: 640px; line-height: 1; color: var(--blue); }
+  .bigarrow { position: absolute; right: 150px; top: 230px; font-weight: 300; font-size: 460px; line-height: 1; color: var(--blue); }
 
   /* CTA (como .participate) */
   #cta { justify-content: flex-start; padding-top: 300px; }
@@ -93,27 +93,23 @@
 <body>
 <div id="stage">
 
-  <!-- S1: España no necesita más eslóganes -->
+  <!-- S1: propósito -->
   <section class="scene" data-in="0" data-out="2.5">
     <div class="inner">
-      <div class="el eyebrow" data-in="0" data-fx="rise">Independiente. Abierto. Por construir.</div>
-      <div class="el h fit" data-in="0" data-fx="slam" data-max="300">España</div>
-      <div class="el h fit" data-in="0.5" data-fx="slam">no necesita</div>
-      <div class="rel">
-        <div class="el s fit" data-in="1" data-fx="slam">más eslóganes.</div>
-        <div class="el strike" data-in="1.75" data-fx="strike"></div>
-      </div>
+      <div class="el eyebrow" data-in="0" data-fx="rise">Un programa ciudadano independiente</div>
+      <div class="el h fit" data-in="0" data-fx="slam" data-max="250">Abrir España.</div>
+      <div class="el s fit" data-in="0.5" data-fx="slam">Ampliar</div>
+      <div class="el s fit" data-in="1" data-fx="slam">oportunidades.</div>
     </div>
   </section>
 
-  <!-- S2: necesita -->
+  <!-- S2: valores -->
   <section class="scene navy" data-in="2.5" data-out="4.5">
     <div class="inner">
-      <div class="el eyebrow" data-in="2.5" data-fx="rise">Necesita</div>
-      <div class="el h fit" data-in="2.75" data-fx="slam" data-max="230">Datos.</div>
-      <div class="el s fit" data-in="3.25" data-fx="slam" data-max="230">Responsables.</div>
-      <div class="el h fit" data-in="3.75" data-fx="slam" data-max="230">Resultados</div>
-      <div class="el s fit" data-in="4" data-fx="slam" data-max="230">comprobables.</div>
+      <div class="el eyebrow" data-in="2.5" data-fx="rise">Lo que nos mueve</div>
+      <div class="el h fit" data-in="2.75" data-fx="slam" data-max="180">Libertad.</div>
+      <div class="el s fit" data-in="3.25" data-fx="slam" data-max="180">Generosidad.</div>
+      <div class="el h fit" data-in="3.75" data-fx="slam" data-max="180">Responsabilidad.</div>
     </div>
   </section>
 
@@ -155,10 +151,10 @@
   <!-- S4: cooperación -->
   <section class="scene navy" data-in="10.5" data-out="12.0">
     <div class="inner">
-      <div class="el eyebrow" data-in="10.5" data-fx="rise">Sin cheques en blanco</div>
-      <div class="el h fit" data-in="10.5" data-fx="slam">Menos</div>
-      <div class="el h fit" data-in="10.75" data-fx="slam">«y tú más».</div>
-      <div class="el s fit" data-in="11.25" data-fx="slam">Más soluciones.</div>
+      <div class="el eyebrow" data-in="10.5" data-fx="rise">Una forma de trabajar</div>
+      <div class="el h fit" data-in="10.5" data-fx="slam">Pensar</div>
+      <div class="el h fit" data-in="10.75" data-fx="slam">distinto.</div>
+      <div class="el s fit" data-in="11.25" data-fx="slam">Trabajar juntos.</div>
     </div>
   </section>
   <section class="scene tint" data-in="12" data-out="13.5">
@@ -176,7 +172,7 @@
       <div class="el stat" data-in="13.5" data-fx="pop">
         <div class="eyebrow">Nuestro borrador</div>
         <div class="num" data-count="31" data-dur="1.0">0</div>
-        <div class="lbl">ejes de actuación.<br><span>Con evidencia.</span></div>
+        <div class="lbl">ejes de actuación.<br><span>Para contrastar.</span></div>
       </div>
       <div class="checks">
         <div class="el" data-in="15.25" data-fx="wipe">Fuentes públicas citadas.</div>
@@ -190,10 +186,10 @@
   <!-- S6: tres frentes -->
   <section class="scene" data-in="18.5" data-out="22.5">
     <div class="inner">
-      <div class="el eyebrow" data-in="18.5" data-fx="rise">Para empezar, tres frentes</div>
+      <div class="el eyebrow" data-in="18.5" data-fx="rise">Hasta tres frentes para empezar</div>
       <div class="el h fit" data-in="18.5" data-fx="slam" data-max="140">Menos ruido.</div>
       <div class="el s fit" data-in="19" data-fx="slam" data-max="140">Más soluciones.</div>
-      <div class="el card" data-in="19.5" data-fx="slide"><span class="n">01</span><span class="t">Integridad y contratación<small>Del presupuesto a la entrega, trazable.</small></span></div>
+      <div class="el card" data-in="19.5" data-fx="slide"><span class="n">01</span><span class="t">Integridad y contratación<small>Saber quién decide y cómo se gasta.</small></span></div>
       <div class="el card" data-in="20.25" data-fx="slide"><span class="n">02</span><span class="t">Vivienda accesible<small>Más oferta, con garantías para todos.</small></span></div>
       <div class="el card" data-in="21" data-fx="slide"><span class="n">03</span><span class="t">Menos burocracia<small>Un trámite concreto, menos papeles.</small></span></div>
     </div>
@@ -229,7 +225,7 @@
   <!-- S9: CTA -->
   <section class="scene" id="cta" data-in="27" data-out="99">
     <div class="inner">
-      <div class="el eyebrow" data-in="27" data-fx="rise">El siguiente paso no es un eslogan.</div>
+      <div class="el eyebrow" data-in="27" data-fx="rise">Tu experiencia también cuenta</div>
       <div class="el h fit" data-in="27.25" data-fx="slam" data-max="178">Hazte</div>
       <div class="el h fit" data-in="27.5" data-fx="slam">simpatizante.</div>
       <div class="el s fit" data-in="27.75" data-fx="slam">Construyamos juntos.</div>
@@ -239,7 +235,7 @@
     </div>
   </section>
 
-  <div class="logo" id="logo"></div>
+  <div class="logo" id="logo"><img src="../favicon.svg" alt="">openspain.</div>
   <div id="progress"></div>
 </div>
 <script>
@@ -253,16 +249,7 @@ const easeInOut = p => p < .5 ? 4 * p * p * p : 1 - Math.pow(-2 * p + 2, 3) / 2;
 const easeOutBack = p => { const c = 1.6; return 1 + (c + 1) * Math.pow(p - 1, 3) + c * Math.pow(p - 1, 2); };
 const TRANS = 0.4;
 
-const logoSvg = text => `<svg viewBox="80 30 1040 180" xmlns="http://www.w3.org/2000/svg">
-  <g fill="none" stroke="#f8f6f0" stroke-width="8" stroke-linecap="square"><path d="M 151 60 A 82 82 0 1 0 215 122"/><path d="M 174 101 L 229 46 M 210 46 H 229 V 65" stroke-width="5"/></g>
-  <path fill="#f8f6f0" fill-rule="evenodd" d="M 167 140 A 32 32 0 1 1 103 140 A 32 32 0 1 1 167 140 Z M 145 140 A 10 10 0 1 0 125 140 A 10 10 0 1 0 145 140 Z"/>
-  <g fill="${text}" font-family="Manrope, sans-serif" font-size="120"><text x="270" y="179" font-weight="800" textLength="300" lengthAdjust="spacingAndGlyphs">open</text><text x="570" y="179" font-weight="400" textLength="310" lengthAdjust="spacingAndGlyphs">spain</text></g>
-  <circle cx="903" cy="164" r="15" fill="#ffffff"/>
-  <clipPath id="flag"><rect x="969" y="100" width="125" height="82" rx="8"/></clipPath>
-  <g clip-path="url(#flag)"><path fill="#aa2525" d="M 969 100 H 1094 V 182 H 969 Z"/><path fill="#f0c83d" d="M 969 120.5 H 1094 V 161.5 H 969 Z"/></g></svg>`;
 const logo = document.getElementById('logo');
-logo.innerHTML = logoSvg('#15243e');
-let logoDark = false;
 
 const scenes = [...document.querySelectorAll('.scene')];
 scenes.forEach((s, i) => { s.style.zIndex = i + 1; s._in = +s.dataset.in * PACE; s._out = +s.dataset.out * PACE; });
@@ -281,22 +268,16 @@ function fitAll() {
   }
 }
 
-const HITS = [...new Set(els.filter(e => ['slam', 'pop', 'strike'].includes(e.dataset.fx)).map(e => e._in))].sort((a, b) => a - b);
-const FLASHES = scenes.map(s => s._in);
-
 function render(t) {
-  let top = null;
   for (const sc of scenes) {
-    // La escena se revela antes de su entrada para quedar completa justo en el golpe.
     const start = sc._in === 0 ? 0 : sc._in - TRANS;
     const on = t >= start && t < sc._out;
     sc.classList.toggle('on', on);
     if (!on) continue;
     const p = easeInOut(clamp((t - start) / TRANS));
     sc.style.clipPath = sc._in === 0 ? 'none' : `circle(${p * 120}% at 50% 50%)`;
-    if (t >= sc._in - TRANS / 2) top = sc;
     const inner = sc.querySelector('.inner');
-    if (inner) inner.style.transform = `scale(${1 + Math.min(0.02, Math.max(0, t - sc._in) * 0.004)})`;
+    if (inner) inner.style.transform = '';
   }
 
   for (const el of els) {
@@ -306,8 +287,8 @@ function render(t) {
     const l = (t - el._in) / ANIM, fx = el.dataset.fx;
     let tr = '', op = 1;
     if (fx === 'slam') {
-      const p = clamp(l / 0.13);
-      tr = `translateY(${(1 - easeOut(p)) * 30}px) scale(${1.18 - 0.18 * easeOutBack(p)})`; op = clamp(l / 0.03);
+      const p = easeOut(clamp(l / 0.3));
+      tr = `translateY(${(1 - p) * 22}px)`; op = p;
     } else if (fx === 'rise') {
       const p = easeOut(clamp(l / 0.35)); tr = `translateY(${(1 - p) * 40}px)`; op = p;
     } else if (fx === 'wipe') {
@@ -327,22 +308,19 @@ function render(t) {
     if (num) num.textContent = Math.round(easeOut(clamp((l - 0.2) / +num.dataset.dur)) * +num.dataset.count);
   }
 
-  // Punto dorado recorriendo la órbita.
   const a = t * 1.6, rx = 430, ry = 170, rot = -18 * Math.PI / 180;
   const x = rx * Math.cos(a), y = ry * Math.sin(a);
   const dot = document.getElementById('orbit-dot');
   dot.setAttribute('cx', 560 + x * Math.cos(rot) - y * Math.sin(rot));
   dot.setAttribute('cy', 480 + x * Math.sin(rot) + y * Math.cos(rot));
 
-  const dark = Boolean(top);
-  if (dark !== logoDark) { logo.innerHTML = logoSvg(dark ? '#f8f6f0' : '#15243e'); logoDark = dark; }
   logo.style.opacity = clamp(t / 0.3);
   document.getElementById('progress').style.width = (clamp(t / CTA_AT) * 100) + '%';
   document.getElementById('progress').style.opacity = t < CTA_AT ? 1 : 0;
 }
 
-window.DURATION = DURATION; window.PACE = PACE; window.HITS = HITS; window.FLASHES = FLASHES; window.render = render;
-window.ready = document.fonts.ready.then(() => Promise.all([...document.images].map(i => i.decode().catch(() => {})))).then(() => { fitAll(); render(0); });
+window.DURATION = DURATION; window.PACE = PACE; window.render = render;
+window.ready = document.fonts.ready.then(() => Promise.all([...document.images].map(i => i.decode()))).then(() => { fitAll(); render(0); });
 if (!navigator.webdriver) window.ready.then(() => { const t0 = performance.now(); const loop = () => { render(((performance.now() - t0) / 1000) % DURATION); requestAnimationFrame(loop); }; loop(); });
 </script>
 </body>
