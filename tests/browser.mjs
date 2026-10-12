@@ -107,6 +107,9 @@ try {
   }
   assert.match(await page.locator('#cambio-6').textContent(), /no se adopta una abolición general/);
   assert.equal(await page.locator('#priorities-content tbody tr').count(), 8);
+  assert.match(await page.locator('#priorities-content').textContent(), /Por dónde empezar/);
+  assert.match(await page.locator('#priorities-content').textContent(), /qué hemos hecho, qué nos ha frenado y cuánto hemos gastado/);
+  assert.doesNotMatch(await page.locator('#priorities-content').textContent(), /fichas y entregas verificadas|criterio de aceptación/);
   assert.equal(await page.locator('#cambio-1 a').first().getAttribute('href'), './programa.html#eje-1');
   assert.equal(await page.locator('#cambio-1 a').first().getAttribute('target'), null);
 

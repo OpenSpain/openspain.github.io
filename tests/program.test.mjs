@@ -44,7 +44,7 @@ test('presentation video and transcript use the public domain and current identi
   }
   const html = await readFile(new URL('../participa.html', import.meta.url), 'utf8');
   for (const filename of ['OpenSpain-Hazte-Simpatizante.mp4', 'hazte-simpatizante-portada.jpg']) {
-    assert.ok(html.includes(`${filename}?v=20261011-refresh`));
+    assert.ok(html.includes(`${filename}?v=${filename.endsWith('.mp4') ? '20261012-audio' : '20261011-refresh'}`));
   }
   for (const path of ['video/video.html', 'video/cambios.html']) {
     const template = await readFile(new URL(`../${path}`, import.meta.url), 'utf8');
@@ -93,13 +93,14 @@ test('text-led website videos retain readable transcripts without duplicate capt
     assert.doesNotMatch(html, /<track|\.vtt|con música y subtítulos/);
     assert.match(html, /Leer el contenido del vídeo/);
     assert.match(html, /20261011-refresh/);
+    assert.match(html, /\.mp4\?v=20261012-audio/);
   }
   const workflow = await readFile(new URL('../.github/workflows/pages.yml', import.meta.url), 'utf8');
   const server = await readFile(new URL('../server.mjs', import.meta.url), 'utf8');
   assert.doesNotMatch(workflow + server, /cambios-es\.vtt|hazte-simpatizante-es\.vtt/);
 });
 
-test('ambient soundtrack produces unclipped stereo audio with a quiet entrance and exit', async () => {
+test('restored soundtrack retains its original bass and produces unclipped stereo audio', async () => {
   const directory = await mkdtemp(join(tmpdir(), 'openspain-audio-'));
   try {
     const out = join(directory, 'test.wav');
@@ -119,7 +120,19 @@ test('ambient soundtrack produces unclipped stereo audio with a quiet entrance a
     }
     assert.ok(peak > 1000 && peak < 32767);
     assert.ok(entrance < middle / 10 && exit < middle / 10);
+    const energyAt = frequency => {
+      let real = 0, imaginary = 0;
+      for (let i = 48000; i < 96000; i++) {
+        const sample = wav.readInt16LE(44 + i * 4);
+        const phase = 2 * Math.PI * frequency * i / 48000;
+        real += sample * Math.cos(phase);
+        imaginary += sample * Math.sin(phase);
+      }
+      return real ** 2 + imaginary ** 2;
+    };
+    assert.ok(energyAt(55) > energyAt(130.81) * 10, 'Retain the original bass rather than the replacement ambient chords');
     assert.throws(() => synth({ duration: 0, out }), /duración/);
+    assert.throws(() => synth({ duration: 4, pace: 0, out }), /ritmo/);
   } finally {
     await rm(directory, { recursive: true, force: true });
   }
@@ -703,6 +716,11 @@ test('closing priorities reuse programme measures and preserve feasibility and g
   assert.match(closing, /hasta 3 frentes/);
   assert.match(closing, /Si solo hay capacidad para uno/);
   assert.match(closing, /primer ciclo de 90 días/);
+  assert.match(closing, /Por dónde empezar/);
+  assert.match(closing, /cómo comprobar el resultado/);
+  assert.match(closing, /qué hemos hecho, qué nos ha frenado y cuánto hemos gastado/);
+  assert.match(closing, /no equivale a entregar viviendas/);
+  assert.doesNotMatch(closing, /La acción importante para empezar|fichas y entregas verificadas|criterio de aceptación/);
   for (const [, headline] of axisMetadata) assert.match(headline, /[.?]$/);
 });
 

@@ -1,5 +1,5 @@
 // Renders video.html frame by frame with Playwright and encodes an MP4 with ffmpeg.
-// Usage: node video/render.mjs [--preview 1,4.6,13.9,...]   (preview writes PNG stills only)
+// Usage: node video/render.mjs [--changes] [--audio-only | --preview 1,4.6,13.9,...]
 import { chromium } from '@playwright/test';
 import { spawn } from 'node:child_process';
 import { fileURLToPath, pathToFileURL } from 'node:url';
@@ -11,6 +11,7 @@ import { getChangeVideoMessages } from '../program.js';
 const dir = dirname(fileURLToPath(import.meta.url));
 const FPS = 30;
 const changes = process.argv.includes('--changes');
+const audioOnly = process.argv.includes('--audio-only');
 const previewArg = process.argv.indexOf('--preview');
 const preview = previewArg > -1 ? process.argv[previewArg + 1].split(',').map(Number) : null;
 
@@ -34,6 +35,7 @@ if (changes) {
   await page.evaluate(() => window.ready);
 }
 const duration = await page.evaluate(() => window.DURATION);
+const soundtrack = await page.evaluate(() => ({ hits: window.HITS, flashes: window.FLASHES, pace: window.PACE }));
 if (!changes) {
   const times = await page.evaluate(() => [...document.querySelectorAll('.scene')].map(scene =>
     Math.min(window.DURATION - 0.1, (Number(scene.dataset.out) - 0.1) * window.PACE)));
@@ -61,27 +63,34 @@ if (preview) {
 }
 
 const wav = join(dir, changes ? 'cambios-soundtrack.wav' : 'soundtrack.wav');
-synth({ duration, out: wav });
+synth({ duration, ...soundtrack, out: wav });
 process.on('exit', () => rmSync(wav, { force: true }));
 
 const out = join(dir, changes ? 'OpenSpain-Cambios.mp4' : 'OpenSpain-Hazte-Simpatizante.mp4');
 const pending = join(dir, changes ? '.OpenSpain-Cambios.pending.mp4' : '.OpenSpain-Hazte-Simpatizante.pending.mp4');
 process.on('exit', () => rmSync(pending, { force: true }));
-const ff = spawn('ffmpeg', ['-y', '-loglevel', 'error',
-  '-f', 'image2pipe', '-framerate', String(FPS), '-c:v', 'png', '-i', '-',
-  '-i', wav,
-  '-c:v', 'libx264', '-preset', 'fast', '-threads', '2', '-crf', '18', '-pix_fmt', 'yuv420p', '-profile:v', 'high',
-  '-af', 'loudnorm=I=-22:TP=-3:LRA=9', '-ar', '48000', '-c:a', 'aac', '-b:a', '192k', '-shortest', '-movflags', '+faststart', pending], { stdio: ['pipe', 'inherit', 'inherit'] });
+const videoArgs = audioOnly
+  ? ['-i', out, '-i', wav, '-map', '0:v:0', '-map', '1:a:0', '-c:v', 'copy']
+  : ['-f', 'image2pipe', '-framerate', String(FPS), '-c:v', 'png', '-i', '-', '-i', wav,
+    '-c:v', 'libx264', '-preset', 'fast', '-threads', '2', '-crf', '18', '-pix_fmt', 'yuv420p', '-profile:v', 'high'];
+const ff = spawn('ffmpeg', ['-y', '-loglevel', 'error', ...videoArgs,
+  '-af', 'alimiter=limit=0.5:attack=5:release=40:level=false,loudnorm=I=-14:TP=-4:LRA=11',
+  '-ar', '48000', '-c:a', 'aac', '-b:a', '192k', '-shortest', '-movflags', '+faststart', pending],
+{ stdio: [audioOnly ? 'ignore' : 'pipe', 'inherit', 'inherit'] });
+const encoded = new Promise((resolve, reject) => {
+  ff.once('error', reject);
+  ff.once('close', code => code === 0 ? resolve() : reject(new Error('ffmpeg ' + code)));
+});
 
 const frames = Math.round(duration * FPS);
-for (let i = 0; i < frames; i++) {
+for (let i = 0; !audioOnly && i < frames; i++) {
   await page.evaluate(t => window.render(t), i / FPS);
   const png = await page.screenshot({ type: 'png' });
   if (!ff.stdin.write(png)) await new Promise(r => ff.stdin.once('drain', r));
   if (i % 60 === 0) process.stdout.write(`\r${i}/${frames}`);
 }
-ff.stdin.end();
-await new Promise((res, rej) => ff.on('close', c => (c === 0 ? res() : rej(new Error('ffmpeg ' + c)))));
+if (!audioOnly) ff.stdin.end();
+await encoded;
 renameSync(pending, out);
 await browser.close();
 console.log(`\nOK ${out}`);

@@ -320,6 +320,8 @@ function render(t) {
 }
 
 window.DURATION = DURATION; window.PACE = PACE; window.render = render;
+window.HITS = [...new Set(els.filter(el => ['slam', 'pop', 'strike'].includes(el.dataset.fx)).map(el => el._in))].sort((a, b) => a - b);
+window.FLASHES = scenes.map(scene => scene._in);
 window.ready = document.fonts.ready.then(() => Promise.all([...document.images].map(i => i.decode()))).then(() => { fitAll(); render(0); });
 if (!navigator.webdriver) window.ready.then(() => { const t0 = performance.now(); const loop = () => { render(((performance.now() - t0) / 1000) % DURATION); requestAnimationFrame(loop); }; loop(); });
 </script>
