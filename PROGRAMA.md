@@ -2217,9 +2217,9 @@ Su presentación profesional se incorpora a partir de la información facilitada
 
 El liderazgo inicial no sustituye la revisión técnica ni el debate plural. La iniciativa deberá hacer públicos sus criterios de decisión, financiación y conflictos de interés a medida que se organice.
 
-### Personas colaboradoras
+### Coimpulsor de OpenSpain
 
-**Fabio Franco**, Policía Municipal de Madrid y geólogo, colabora con una mirada cercana a la seguridad cotidiana, la convivencia y los problemas que viven las personas en sus barrios. Su experiencia profesional y su formación aportan una perspectiva práctica sobre el territorio y cómo las decisiones públicas se traducen en la vida diaria.
+**Fabio Franco**, español, Policía Municipal de Madrid y geólogo, es coimpulsor de OpenSpain y aporta una mirada cercana a la seguridad cotidiana, la convivencia y los problemas que viven las personas en sus barrios. Su experiencia profesional y su formación aportan una perspectiva práctica sobre el territorio y cómo las decisiones públicas se traducen en la vida diaria.
 
 Presentación facilitada a la iniciativa. Participa a título personal; no se atribuye respaldo al Ayuntamiento de Madrid ni a la Policía Municipal, ni se añaden credenciales o responsabilidades institucionales no acreditadas.
 

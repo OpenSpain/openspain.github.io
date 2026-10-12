@@ -36,8 +36,8 @@
     let messages;
     window.DURATION = 60;
     window.PACE = 52 / 27;
-    window.HITS = [0, 4, 10, 16, 22, 28, 34, 40, 46, 52];
-    window.FLASHES = window.HITS;
+    window.HITS = [];
+    window.FLASHES = [0, 4, 10, 16, 22, 28, 34, 40, 46, 52];
     window.initialize = async data => {
       messages = data;
       await document.fonts.ready;

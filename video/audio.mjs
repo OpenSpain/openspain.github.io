@@ -1,8 +1,30 @@
 import { writeFileSync } from 'node:fs';
 
-export function synth({ duration, hits = [], flashes = [], pace = 1, out }) {
+export function percussionSchedule({ duration, hits = [], flashes = [], pace = 1 }) {
   if (!Number.isFinite(duration) || duration <= 0) throw new Error('La duración de la música debe ser positiva.');
   if (!Number.isFinite(pace) || pace <= 0) throw new Error('El ritmo de la música debe ser positivo.');
+  const separation = 0.12;
+  const near = (time, events) => events.some(event => Math.abs(time - event) <= separation + 1e-9);
+  const transitions = [...new Set(flashes)].sort((a, b) => a - b);
+  const textAccents = [...new Set(hits)].sort((a, b) => a - b)
+    .filter(time => !near(time, transitions));
+  const beats = [];
+  const step = 0.5 * pace, closing = 27 * pace;
+  for (let time = 2.5 * pace; time < closing - 0.01; time += step) {
+    if (time >= 24.75 * pace) continue;
+    beats.push({ time, kick: true, snare: Math.round(time / step) % 2 === 1 && time >= 4.5 * pace });
+  }
+  const betweenBeats = time => {
+    const collision = beats.find(beat => Math.abs(time - beat.time) < step / 4 - 1e-9);
+    return collision ? collision.time + step / 4 : time;
+  };
+  const impacts = [...new Set(transitions.map(betweenBeats))];
+  const accents = [...new Set(textAccents.map(betweenBeats))].filter(time => !near(time, impacts));
+  return { beats, accents, impacts };
+}
+
+export function synth({ duration, hits = [], flashes = [], pace = 1, out }) {
+  const percussion = percussionSchedule({ duration, hits, flashes, pace });
   const SR = 48000;
   const N = Math.ceil(duration * SR);
   const L = new Float32Array(N), R = new Float32Array(N);
@@ -79,15 +101,14 @@ export function synth({ duration, hits = [], flashes = [], pace = 1, out }) {
     }
   }
 
-  for (let t = 2.5 * P; t < CTA - 0.01; t += BEAT) {
-    if (t >= 24.75 * P && t < CTA) continue;
-    kick(t, 0.55);
+  for (const { time: t, kick: playKick, snare: playSnare } of percussion.beats) {
+    if (playKick) kick(t, 0.55);
     hat(t + BEAT / 2, 1);
     hat(t + BEAT * 0.75, 0.5);
-    if (Math.round(t / BEAT) % 2 === 1 && t >= 4.5 * P) snare(t);
+    if (playSnare) snare(t);
   }
-  for (const h of hits) kick(h, h < 2.5 * P ? 0.9 : 0.5);
-  for (const f of flashes) impact(f, Math.abs(f - CTA) < 1e-6 ? 1.3 : f === 0 ? 1 : 0.6);
+  for (const h of percussion.accents) kick(h, h < 2.5 * P ? 0.9 : 0.5);
+  for (const f of percussion.impacts) impact(f, Math.abs(f - CTA) < 1e-6 ? 1.3 : f === 0 ? 1 : 0.6);
   riser(23.5 * P, 25.0 * P);
   riser(25.6 * P, CTA);
 

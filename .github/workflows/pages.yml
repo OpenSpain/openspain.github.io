@@ -28,7 +28,7 @@ jobs:
           mkdir _site
           cp .nojekyll index.html cambios.html programa.html como.html transparencia.html participa.html \
             styles.css brand.css app.js program.js charts.js site.js ui.js routes.js \
-            favicon.svg bandera.svg openspain-logo.svg openspain-logo-light.svg openspain-logo.png openspain-instagram.svg openspain-instagram.png alejandro-acosta.jpg PROGRAMA.md \
+            favicon.svg bandera.svg openspain-logo.svg openspain-logo-light.svg openspain-logo.png openspain-instagram.svg openspain-instagram.png alejandro-acosta.jpg fabio-franco.jpg PROGRAMA.md \
             informe.html informe.css informe.js \
             OpenSpain-Programa.pdf OpenSpain-Presentacion.pdf _site/
           mkdir _site/video

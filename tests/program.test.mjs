@@ -7,7 +7,7 @@ import { parseProgram, filterAxes, categories, axisMetadata, ipc, getChapter, ge
 import { pages, legacyTarget } from '../routes.js';
 import { observedCharts, targetCharts } from '../charts.js';
 import { getInstagramVideos, participationMessage } from '../video/instagram.mjs';
-import { synth } from '../video/audio.mjs';
+import { synth, percussionSchedule } from '../video/audio.mjs';
 
 const markdown = await readFile(new URL('../PROGRAMA.md', import.meta.url), 'utf8');
 const axes = parseProgram(markdown);
@@ -44,7 +44,7 @@ test('presentation video and transcript use the public domain and current identi
   }
   const html = await readFile(new URL('../participa.html', import.meta.url), 'utf8');
   for (const filename of ['OpenSpain-Hazte-Simpatizante.mp4', 'hazte-simpatizante-portada.jpg']) {
-    assert.ok(html.includes(`${filename}?v=${filename.endsWith('.mp4') ? '20261012-audio' : '20261011-refresh'}`));
+    assert.ok(html.includes(`${filename}?v=${filename.endsWith('.mp4') ? '20261012-audio-contratiempo' : '20261011-refresh'}`));
   }
   for (const path of ['video/video.html', 'video/cambios.html']) {
     const template = await readFile(new URL(`../${path}`, import.meta.url), 'utf8');
@@ -93,11 +93,60 @@ test('text-led website videos retain readable transcripts without duplicate capt
     assert.doesNotMatch(html, /<track|\.vtt|con música y subtítulos/);
     assert.match(html, /Leer el contenido del vídeo/);
     assert.match(html, /20261011-refresh/);
-    assert.match(html, /\.mp4\?v=20261012-audio/);
+    assert.match(html, /\.mp4\?v=20261012-audio-contratiempo/);
   }
   const workflow = await readFile(new URL('../.github/workflows/pages.yml', import.meta.url), 'utf8');
   const server = await readFile(new URL('../server.mjs', import.meta.url), 'utf8');
   assert.doesNotMatch(workflow + server, /cambios-es\.vtt|hazte-simpatizante-es\.vtt/);
+});
+
+test('homepage FAQs explain open participation and funding without claiming a constituted party or active donations', async () => {
+  const html = await readFile(new URL('../index.html', import.meta.url), 'utf8');
+  const faq = html.match(/<section[^>]*id="preguntas-frecuentes"[\s\S]*?<\/section>/)?.[0];
+  assert.ok(faq);
+  assert.equal((faq.match(/<details /g) || []).length, 4);
+  for (const question of ['¿Es un partido político?', '¿Quién puede colaborar?', '¿Tengo que estar de acuerdo con todo?', '¿Cómo se financia?']) {
+    assert.ok(faq.includes(`<summary>${question}</summary>`));
+  }
+  assert.match(faq, /no es una decisión tomada ni hay una candidatura anunciada/);
+  assert.match(faq, /Todo el mundo/);
+  assert.match(faq, /buscamos acuerdos útiles, no unanimidad/);
+  assert.match(faq, /donaciones económicas todavía no están habilitadas/);
+  assert.match(faq, /No presentamos ayudas o subvenciones como concedidas/);
+  assert.match(faq, /href="\.\/transparencia\.html#donaciones"/);
+});
+
+test('website soundtracks accent topic transitions but not individual text entrances', async () => {
+  for (const path of ['video/cambios.html', 'video/video.html']) {
+    const template = await readFile(new URL(`../${path}`, import.meta.url), 'utf8');
+    assert.match(template, /window\.HITS = \[\];/);
+    assert.match(template, /window\.FLASHES = (?:\[0, 4, 10, 16, 22, 28, 34, 40, 46, 52\]|scenes\.map\(scene => scene\._in\));/);
+  }
+});
+
+test('transition accents move between beats without removing or changing rhythm percussion', () => {
+  const baseline = percussionSchedule({ duration: 7 }).beats;
+  for (const offset of [-0.12, -0.05, 0, 0.05, 0.12]) {
+    const transition = 4.5 + offset;
+    const schedule = percussionSchedule({ duration: 7, hits: [transition], flashes: [transition, transition] });
+    assert.deepEqual(schedule.impacts, [4.625]);
+    assert.deepEqual(schedule.accents, []);
+    assert.deepEqual(schedule.beats, baseline);
+    assert.ok(Math.abs(schedule.impacts[0] - transition) <= 0.25);
+  }
+  assert.deepEqual(percussionSchedule({ duration: 7, flashes: [4.63] }).impacts, [4.63]);
+  for (const pace of [1.4, 52 / 27]) {
+    const transitions = [0, 4, 10, 16, 22, 28, 34, 40, 46, 27 * pace].sort((a, b) => a - b);
+    const schedule = percussionSchedule({ duration: 60, pace, flashes: transitions });
+    assert.deepEqual(schedule.beats, percussionSchedule({ duration: 60, pace }).beats);
+    assert.equal(schedule.impacts.length, transitions.length);
+    assert.equal(schedule.impacts[0], 0);
+    assert.ok(schedule.impacts.includes(27 * pace));
+    for (const [index, time] of schedule.impacts.entries()) {
+      assert.ok(Math.abs(time - transitions[index]) <= 0.25 * pace + 1e-9);
+      assert.ok(schedule.beats.every(beat => Math.abs(beat.time - time) >= 0.125 * pace - 1e-9));
+    }
+  }
 });
 
 test('restored soundtrack retains its original bass and produces unclipped stereo audio', async () => {
@@ -145,7 +194,7 @@ test('all six pages preserve relative navigation and old public anchors', async 
     for (const [destination] of pages) assert.ok(html.includes(`href="./${destination}"`), `${path} → ${destination}`);
     assert.equal((html.match(/aria-current="page"/g) || []).length, 1);
     assert.ok(html.includes('site.js?v=20261011-editorial'));
-    assert.ok(html.includes('styles.css?v=20261011-editorial'));
+    assert.ok(html.includes(`styles.css?v=${path === 'transparencia.html' ? '20261012-profiles' : '20261011-editorial'}`));
     assert.ok(html.includes('>Valores</a>'));
     assert.match(html, /class="footer-socials"><a href="https:\/\/www\.instagram\.com\/openspainorg\/" target="_blank" rel="noopener noreferrer"/);
     assert.doesNotMatch(html, /autoplay/);
@@ -207,16 +256,25 @@ test('civic values and commitments are distinct source sections with explicit sa
   assert.throws(() => getValueCommitments(markdown.replace('### 1.5.', '### 1.9.')), /Falta el apartado 1.5/);
 });
 
-test('Fabio is an individual collaborator without a portrait or institutional endorsement', async () => {
+test('Fabio is an individual co-promoter with the supplied portrait and no institutional endorsement', async () => {
   const html = await readFile(new URL('../transparencia.html', import.meta.url), 'utf8');
   const profile = html.match(/<article[^>]*id="fabio-franco">([\s\S]+?)<\/article>/)?.[1];
   assert.ok(profile);
-  assert.match(profile, /COLABORADOR/);
+  assert.match(profile, /COIMPULSOR DE OPENSPAIN/);
   assert.match(profile, /Fabio Franco/);
-  assert.match(profile, /Policía Municipal de Madrid · Geólogo/);
-  assert.doesNotMatch(profile, /<img|QUIÉN IMPULSA/);
+  assert.match(profile, /Español · Policía Municipal de Madrid · Geólogo/);
+  assert.match(profile, /src="\.\/fabio-franco\.jpg\?v=20261012-coimpulsor"/);
+  assert.match(profile, /alt="Retrato de Fabio Franco, coimpulsor de OpenSpain"/);
+  assert.doesNotMatch(profile, /QUIÉN IMPULSA/);
+  const portrait = await readFile(new URL('../fabio-franco.jpg', import.meta.url));
+  assert.equal(portrait.readUInt16BE(0), 0xffd8);
+  const server = await readFile(new URL('../server.mjs', import.meta.url), 'utf8');
+  const workflow = await readFile(new URL('../.github/workflows/pages.yml', import.meta.url), 'utf8');
+  assert.match(server, /fabio-franco\.jpg/);
+  assert.match(workflow, /fabio-franco\.jpg/);
   const participation = getChapter(markdown, 6);
-  assert.match(participation, /Fabio Franco.*Policía Municipal de Madrid y geólogo/);
+  assert.match(participation, /Fabio Franco.*español, Policía Municipal de Madrid y geólogo/);
+  assert.match(participation, /es coimpulsor de OpenSpain/);
   assert.match(participation, /seguridad cotidiana, la convivencia/);
   assert.match(participation, /título personal; no se atribuye respaldo/);
   assert.match(participation, /Alejandro Acosta.*impulsa esta iniciativa/);

@@ -24,13 +24,17 @@ El método completo y el plan de 90 días en `como.html` también se muestran ab
 
 El vídeo de los ocho pilares se presenta en Inicio, sin duplicarlo en `cambios.html`. La página de cambios utiliza una cabecera compacta y muestra directamente los pilares y sus primeras acciones.
 
+Inicio incluye cuatro preguntas frecuentes en `index.html#preguntas-frecuentes`, con desplegables nativos disponibles sin JavaScript. Explican la posible evolución a partido sin anunciar una decisión o candidatura, la colaboración abierta, los acuerdos sin unanimidad y el apoyo voluntario. Distinguen la colaboración actual de futuras aportaciones económicas: las donaciones siguen sin habilitar y no se afirman ayudas o subvenciones concedidas.
+
 La cabecera de `programa.html` también es compacta, con el título sin salto de línea forzado y las dos descargas visibles antes de explorar los ejes.
 
 Plan de acción y Transparencia comparten esa cabecera compacta, sin reducir el contenido del método, las fases ni los compromisos de transparencia.
 
-Transparencia presenta el retrato facilitado por Alejandro Acosta en `alejandro-acosta.jpg`, optimizado y servido localmente, sin servicios externos de imágenes.
+Transparencia presenta los retratos facilitados en `alejandro-acosta.jpg` y `fabio-franco.jpg`, a 480 × 612 píxeles, optimizados y servidos localmente, sin servicios externos de imágenes. El de Fabio utiliza la última imagen aportada, recortada al formato del perfil. El de Alejandro aclara suavemente las sombras, sobre todo a la izquierda, conservando encuadre y facciones. Sus URLs llevan una versión para renovar la caché.
 
-Fabio Franco aparece como colaborador sin fotografía, con la presentación facilitada: Policía Municipal de Madrid y geólogo. Se destaca su perspectiva sobre seguridad cotidiana, convivencia, territorio y problemas ciudadanos, sin añadir credenciales ni atribuir respaldo a su institución. El capítulo 6 del programa y el PDF recogen la misma presentación; Alejandro conserva su condición de impulsor.
+Fabio Franco aparece como coimpulsor de OpenSpain con la fotografía y presentación facilitadas: español, Policía Municipal de Madrid y geólogo. Se destaca su perspectiva sobre seguridad cotidiana, convivencia, territorio y problemas ciudadanos, sin añadir credenciales ni atribuir respaldo a su institución. El capítulo 6 del programa y el PDF recogen la misma presentación; Alejandro conserva su condición de impulsor.
+
+Los mensajes junto a ambos perfiles usan títulos de la misma jerarquía, tamaño y peso. Alejandro se presenta con «Escuchar. Proponer. Construir.» y Fabio con «Conocer la calle. Escuchar al ciudadano.», sin saltos de línea forzados. Las aclaraciones sobre el liderazgo inicial y las credenciales de Alejandro se conservan en el capítulo de organización, no en su mensaje de presentación.
 
 Las seis páginas incluyen un enlace flotante «Hazte simpatizante» a `participa.html#participa`. Aparece tras desplazarse 160 píxeles y se oculta mientras son visibles la inscripción, un vídeo o el pie, y cuando hay un diálogo abierto. Respeta las zonas seguras del móvil y no aparece al imprimir. No abre servicios externos ni carga rastreadores; las donaciones siguen sin habilitar.
 
@@ -155,7 +159,7 @@ La página `participa.html` muestra el vídeo vertical con controles nativos, si
 
 Cuando regeneres el vídeo, actualiza transcripción y portada. El renderizador comprueba el encuadre de ambos formatos y sustituye el MP4 solo al terminar la codificación. La portada actual se extrae del segundo 42,5 y se reduce a 540 × 960 píxeles:
 
-Para cambiar solo la música, `node video/render.mjs --audio-only` (o con `--changes` para el horizontal) conserva el flujo de vídeo sin recodificar: no altera diseño, animaciones, textos ni portada. Renueva únicamente la versión de los MP4 en las páginas.
+Para cambiar solo la música, `node video/render.mjs --audio-only` (o con `--changes` para el horizontal) conserva el flujo de vídeo sin recodificar: no altera diseño, animaciones, textos ni portada. Renueva únicamente la versión de los MP4 en las páginas. Los dos vídeos web acentúan los cambios de tema, no las entradas de cada texto. El sintetizador conserva todos los bombos y cajas del ritmo original. Si el impacto de transición cae demasiado cerca de un beat, desplaza solo ese impacto a un cuarto del intervalo después del beat; no borra ni sustituye percusión. Mantiene el bajo y la melodía.
 
 ```sh
 ffmpeg -y -ss 42.5 -i video/OpenSpain-Hazte-Simpatizante.mp4 -frames:v 1 -vf scale=540:960 -q:v 3 video/hazte-simpatizante-portada.jpg

@@ -23,6 +23,7 @@ const files = new Map([
   ['/openspain-instagram.svg', ['openspain-instagram.svg', 'image/svg+xml']],
   ['/openspain-instagram.png', ['openspain-instagram.png', 'image/png']],
   ['/alejandro-acosta.jpg', ['alejandro-acosta.jpg', 'image/jpeg']],
+  ['/fabio-franco.jpg', ['fabio-franco.jpg', 'image/jpeg']],
   ['/informe.html', ['informe.html', 'text/html; charset=utf-8']],
   ['/informe.css', ['informe.css', 'text/css; charset=utf-8']],
   ['/informe.js', ['informe.js', 'text/javascript; charset=utf-8']],

@@ -57,6 +57,17 @@ try {
   assert.ok(await page.locator('.manifesto').evaluate(node => node.getBoundingClientRect().height) <= 300);
   assert.ok(await page.locator('footer').evaluate(node => node.getBoundingClientRect().height) <= 240);
   assert.equal(await page.locator('.program-card').count(), 0, 'The homepage must not contain the full programme');
+  const faqs = page.locator('#preguntas-frecuentes details');
+  assert.equal(await faqs.count(), 4);
+  for (const faq of await faqs.all()) {
+    assert.equal(await faq.evaluate(node => node.open), false);
+    await faq.locator('summary').focus();
+    await page.keyboard.press('Enter');
+    assert.equal(await faq.evaluate(node => node.open), true);
+    assert.equal(await faq.locator('p').first().isVisible(), true);
+    await page.keyboard.press('Enter');
+    assert.equal(await faq.evaluate(node => node.open), false);
+  }
   await page.emulateMedia({ reducedMotion: 'no-preference' });
   const satelliteStyle = property => page.locator('.orbit-one').evaluate((node, key) =>
     getComputedStyle(node, '::after')[key], property);
@@ -244,9 +255,21 @@ try {
   assert.ok(await page.locator('#compromisos').evaluate(node => node.compareDocumentPosition(document.querySelector('#transparencia')) & Node.DOCUMENT_POSITION_FOLLOWING));
   assert.match(await page.locator('#registro-donaciones').textContent(), /no está habilitado|No es un servicio de pagos/);
   assert.equal(await page.locator('a[href*="paypal"], a[href*="stripe"]').count(), 0);
-  assert.match(await page.locator('#fabio-franco').textContent(), /COLABORADOR.*Fabio Franco.*Policía Municipal de Madrid · Geólogo/);
-  assert.equal(await page.locator('#fabio-franco img').count(), 0);
+  assert.match(await page.locator('#fabio-franco').textContent(), /COIMPULSOR DE OPENSPAIN.*Fabio Franco.*Español · Policía Municipal de Madrid · Geólogo/);
+  assert.equal(await page.locator('#fabio-franco img').count(), 1);
   assert.match(await page.locator('.founder-section').textContent(), /Conocer la calle\. Escuchar al ciudadano\./);
+  const profileHeadings = page.locator('.founder-message > h3');
+  assert.equal(await profileHeadings.count(), 2);
+  assert.equal(await profileHeadings.first().textContent(), 'Escuchar. Proponer. Construir.');
+  const headingStyle = node => {
+    const style = getComputedStyle(node);
+    return [style.fontSize, style.fontWeight, style.lineHeight, style.letterSpacing];
+  };
+  assert.deepEqual(await profileHeadings.first().evaluate(headingStyle), await profileHeadings.last().evaluate(headingStyle));
+  assert.equal(await profileHeadings.first().evaluate(node => getComputedStyle(node).fontWeight), '800');
+  assert.equal(await page.locator('.founder-message h2, .founder-message h3 br').count(), 0);
+  assert.doesNotMatch(await page.locator('.founder-message').first().textContent(), /No se afirma respaldo institucional|liderazgo inicial/);
+  assert.match(await page.locator('[data-program-content="6"]').textContent(), /no implica respaldo institucional|liderazgo inicial/);
   assert.match(await page.locator('[data-program-content="6"]').textContent(), /Fabio Franco/);
 
   await page.goto(`${baseURL}/participa.html`);
@@ -394,9 +417,16 @@ try {
   await signupPage.close();
 
   await page.goto(`${baseURL}/transparencia.html`);
-  await page.locator('.founder-photo').waitFor();
-  assert.equal(await page.locator('.founder-photo').evaluate(image => image.complete && image.naturalWidth === 480), true);
-  assert.equal(await page.locator('.founder-photo').getAttribute('alt'), 'Retrato de Alejandro Acosta, impulsor de OpenSpain');
+  assert.equal(await page.locator('.founder-photo').count(), 2);
+  for (const [filename, alt] of [
+    ['alejandro-acosta.jpg', 'Retrato de Alejandro Acosta, impulsor de OpenSpain'],
+    ['fabio-franco.jpg', 'Retrato de Fabio Franco, coimpulsor de OpenSpain'],
+  ]) {
+    const photo = page.locator(`.founder-photo[src^="./${filename}"]`);
+    await photo.waitFor();
+    assert.equal(await photo.evaluate(image => image.complete && image.naturalWidth === 480 && image.naturalHeight === 612), true);
+    assert.equal(await photo.getAttribute('alt'), alt);
+  }
 
   const report = await browser.newPage();
   await report.goto(`${baseURL}/informe.html`);
