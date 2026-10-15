@@ -13,6 +13,50 @@ await mkdir(screenshotDir, { recursive: true });
 const markdown = await readFile(new URL('../PROGRAMA.md', import.meta.url), 'utf8');
 const axes = parseProgram(markdown);
 const plain = text => inlineParts(text).map(part => part.text).join('');
+async function assertReadableText(locator) {
+  const measurements = await locator.evaluateAll(nodes => nodes.filter(node => node.getBoundingClientRect().width > 0).map(node => {
+    const style = getComputedStyle(node);
+    const context = document.createElement('canvas').getContext('2d');
+    context.font = `${style.fontWeight} ${style.fontSize} ${style.fontFamily}`;
+    return {
+      text: node.textContent.slice(0, 80),
+      fontSize: parseFloat(style.fontSize),
+      lineHeight: parseFloat(style.lineHeight),
+      color: style.color,
+      width: node.getBoundingClientRect().width,
+      readingWidth: context.measureText('0').width * 68,
+    };
+  }));
+  assert.ok(measurements.length > 0, 'The page must expose readable body text');
+  for (const measurement of measurements) {
+    assert.ok(measurement.fontSize >= 17, `${measurement.text}: body text must be at least 17px`);
+    assert.ok(measurement.lineHeight >= measurement.fontSize * 1.7, `${measurement.text}: body text needs comfortable line spacing`);
+    assert.equal(measurement.color, 'rgb(245, 245, 247)', `${measurement.text}: body text must be white, not grey`);
+    assert.ok(measurement.width <= measurement.readingWidth + 1, `${measurement.text}: reading line exceeds 68ch`);
+  }
+}
+
+async function assertTextContrast(locator, minimum = 4.5) {
+  const ratio = await locator.evaluate(node => {
+    const channels = color => color.match(/[\d.]+/g).map(Number);
+    const composite = (foreground, background) => {
+      const alpha = foreground[3] ?? 1;
+      return foreground.slice(0, 3).map((value, index) => value * alpha + background[index] * (1 - alpha));
+    };
+    const ancestors = [];
+    for (let current = node; current; current = current.parentElement) ancestors.unshift(current);
+    let background = [255, 255, 255];
+    for (const ancestor of ancestors) background = composite(channels(getComputedStyle(ancestor).backgroundColor), background);
+    const foreground = composite(channels(getComputedStyle(node).color), background);
+    const luminance = color => color.map(value => {
+      const channel = value / 255;
+      return channel <= .04045 ? channel / 12.92 : ((channel + .055) / 1.055) ** 2.4;
+    }).reduce((sum, value, index) => sum + value * [.2126, .7152, .0722][index], 0);
+    const values = [luminance(foreground), luminance(background)].sort((a, b) => b - a);
+    return (values[0] + .05) / (values[1] + .05);
+  });
+  assert.ok(ratio >= minimum, `${await locator.textContent()}: text contrast ${ratio.toFixed(2)} must be at least ${minimum}`);
+}
 const browser = await chromium.launch();
 const errors = [];
 try {
@@ -33,13 +77,28 @@ try {
   assert.equal(await page.evaluate(() => document.fonts.check('800 24px Manrope')), true);
   assert.equal(await page.evaluate(() => [...document.fonts].find(font => font.family === 'Manrope')?.status), 'loaded');
   assert.match(await page.locator('body').evaluate(node => getComputedStyle(node).fontFamily), /Manrope/);
-  assert.equal(await page.locator('.hero').evaluate(node => getComputedStyle(node).backgroundColor), 'rgb(49, 89, 220)');
-  assert.equal(await page.locator('body').evaluate(node => getComputedStyle(node).backgroundColor), 'rgb(255, 255, 255)');
-  assert.equal(await page.locator('.manifesto').evaluate(node => getComputedStyle(node).backgroundColor), 'rgb(49, 89, 220)');
-  assert.equal(await page.locator('footer').evaluate(node => getComputedStyle(node).backgroundColor), 'rgb(17, 19, 24)');
+  assert.equal(await page.locator('.hero').evaluate(node => getComputedStyle(node).backgroundColor), 'rgb(24, 24, 30)');
+  assert.equal(await page.locator('body').evaluate(node => getComputedStyle(node).backgroundColor), 'rgb(16, 16, 20)');
+  assert.equal(await page.locator('.manifesto').evaluate(node => getComputedStyle(node).backgroundColor), 'rgb(32, 32, 38)');
+  assert.equal(await page.locator('footer').evaluate(node => getComputedStyle(node).backgroundColor), 'rgb(9, 9, 12)');
   assert.equal(await page.locator('.highlights-section').evaluate(node => getComputedStyle(node).backgroundColor), 'rgba(0, 0, 0, 0)');
-  assert.equal(await page.locator('.home-video-section').evaluate(node => getComputedStyle(node).backgroundColor), 'rgb(244, 246, 249)');
-  assert.equal(await page.locator('.change-preview').first().evaluate(node => getComputedStyle(node).borderRadius), '0px');
+  assert.equal(await page.locator('.home-video-section').evaluate(node => getComputedStyle(node).backgroundColor), 'rgb(24, 24, 30)');
+  assert.equal(await page.locator('.change-preview').first().evaluate(node => getComputedStyle(node).borderRadius), '12px');
+  assert.equal(await page.locator('html').evaluate(node => getComputedStyle(node).colorScheme), 'dark');
+  for (const selector of ['.hero .button-dark', '.site-header .nav-action', '.manifesto > .button', '.floating-signup']) {
+    assert.equal(await page.locator(selector).first().evaluate(node => getComputedStyle(node).backgroundColor), 'rgb(198, 243, 107)');
+    await assertTextContrast(page.locator(selector).first());
+  }
+  for (const selector of ['.hero h1 > span', '.pillar-preview-number', 'nav a[aria-current="page"]']) {
+    assert.equal(await page.locator(selector).first().evaluate(node => getComputedStyle(node).color), 'rgb(198, 243, 107)');
+    await assertTextContrast(page.locator(selector).first());
+  }
+  assert.equal(await page.locator('.change-previews').evaluate(node => getComputedStyle(node).gridTemplateColumns.split(' ').length), 4);
+  for (const selector of ['.hero-description', '.hero h1 > span', '.hero .eyebrow', '.hero .button-dark', '.hero .button-accent',
+    '.preview-description', '.change-preview h3', '.preview-copy > .text-link', '.footer-bottom', '.site-header .nav-action',
+    '.manifesto h2 > span', '.manifesto > .button', '.manifesto .eyebrow', '.manifesto-copy > p:not(.eyebrow)']) {
+    await assertTextContrast(page.locator(selector).first());
+  }
   for (const [index, message] of getChangeVideoMessages(markdown).entries()) {
     const preview = page.locator('.change-preview').nth(index);
     assert.equal(await preview.locator('h3').textContent(), message.title);
@@ -53,6 +112,9 @@ try {
   assert.equal(await page.locator('.update-stamp time').getAttribute('datetime'), '2026-10-11');
   assert.equal(await page.locator('#actualizaciones a').first().getAttribute('href'), './transparencia.html#valores');
   assert.match(await page.locator('.manifesto h2').textContent(), /Menos «y tú más».*Más responsabilidad/);
+  assert.equal(await page.locator('.manifesto h2 br').count(), 0);
+  assert.ok(await page.locator('.manifesto h2').evaluate(node =>
+    node.getBoundingClientRect().height <= parseFloat(getComputedStyle(node).lineHeight) + 1));
   assert.equal(await page.locator('.manifesto > a').getAttribute('href'), './como.html');
   assert.ok(await page.locator('.manifesto').evaluate(node => node.getBoundingClientRect().height) <= 300);
   assert.ok(await page.locator('footer').evaluate(node => node.getBoundingClientRect().height) <= 240);
@@ -85,7 +147,9 @@ try {
   await page.locator('.hero .button').first().focus();
   assert.equal(await page.locator('.hero .button').first().evaluate(node => getComputedStyle(node).outlineStyle), 'solid');
   await page.locator('.change-preview').first().hover();
-  assert.equal(await page.locator('.change-preview h3').first().evaluate(node => getComputedStyle(node).color), 'rgb(49, 89, 220)');
+  await page.waitForFunction(() => getComputedStyle(document.querySelector('.change-preview')).borderTopColor === 'rgb(198, 243, 107)');
+  assert.equal(await page.locator('.change-preview').first().evaluate(node => getComputedStyle(node).borderTopColor), 'rgb(198, 243, 107)');
+  assert.equal(await page.locator('.change-preview h3').first().evaluate(node => getComputedStyle(node).color), 'rgb(245, 245, 247)');
   await page.mouse.move(0, 0);
   await page.emulateMedia({ reducedMotion: 'reduce' });
   assert.equal(await page.locator('.change-preview').first().evaluate(node => getComputedStyle(node).transitionDuration), '0s');
@@ -93,6 +157,10 @@ try {
   await page.emulateMedia({ reducedMotion: 'no-preference' });
   assert.deepEqual(videoRequests, []);
   await page.screenshot({ path: join(screenshotDir, 'openspain-desktop.png'), fullPage: true });
+  await page.emulateMedia({ media: 'print' });
+  assert.equal(await page.locator('body').evaluate(node => getComputedStyle(node).backgroundColor), 'rgb(255, 255, 255)');
+  assert.equal(await page.locator('body').evaluate(node => getComputedStyle(node).color), 'rgb(17, 19, 24)');
+  await page.emulateMedia({ media: 'screen' });
 
   await page.goto(`${baseURL}/cambios.html`);
   await page.waitForSelector('#cambio-8');
@@ -153,11 +221,28 @@ try {
     assert.equal(await video.evaluate(node => node.textTracks.length), 0);
     assert.ok(Math.abs(await video.evaluate(node => node.duration) - expectedDuration) < 0.1);
     assert.ok(Math.abs(await video.evaluate(node => node.videoWidth / node.videoHeight) - ratio) < 0.01);
-    await video.evaluate(node => { node.pause(); node.currentTime = 25; });
+    await video.evaluate(node => new Promise(resolve => {
+      node.pause();
+      node.requestVideoFrameCallback(() => resolve());
+      node.currentTime = 25;
+    }));
     await page.waitForFunction(selector => {
       const node = document.querySelector(selector);
       return !node.seeking && node.readyState >= 2 && Math.abs(node.currentTime - 25) < 0.1;
     }, selector);
+    const pixels = await video.evaluate(node => {
+      const canvas = document.createElement('canvas');
+      canvas.width = node.videoWidth;
+      canvas.height = node.videoHeight;
+      const context = canvas.getContext('2d');
+      context.drawImage(node, 0, 0);
+      return [context.getImageData(1, 1, 1, 1).data.slice(0, 3),
+        context.getImageData(1, node.videoHeight - 2, 1, 1).data.slice(0, 3)].map(pixel => [...pixel]);
+    });
+    for (const [index, expected] of [[16, 16, 20], [198, 243, 107]].entries()) {
+      assert.ok(pixels[index].every((value, channel) => Math.abs(value - expected[channel]) <= 8),
+        `${selector}: encoded video must have the dark background and lime progress bar`);
+    }
     assert.equal(await video.locator('xpath=..').locator('[data-video-error]').isVisible(), false);
   }
   assert.deepEqual(videoRequests, [], 'No MP4 should load before voluntary playback');
@@ -177,7 +262,21 @@ try {
   assert.ok(await page.locator('.card-index').first().evaluate(node => parseFloat(getComputedStyle(node).fontSize)) >= 52);
   assert.equal(await page.locator('.filter-button[aria-pressed="true"]').evaluate(node => getComputedStyle(node).backgroundColor),
     await page.locator('.card-index').first().evaluate(node => getComputedStyle(node).color));
+  await assertTextContrast(page.locator('.filter-button[aria-pressed="true"]'));
+  await assertTextContrast(page.locator('.filter-button[aria-pressed="false"]').first());
+  assert.equal(await page.locator('.card-index').first().evaluate(node => getComputedStyle(node).color), 'rgb(198, 243, 107)');
+  await assertTextContrast(page.locator('.card-index').first());
   assert.equal(await page.locator('#citizen-demands-content li').count(), 10);
+  assert.equal(await page.locator('#program-title > span').textContent(), 'programa.');
+  assert.equal(await page.locator('#evidence-title > span').textContent(), 'límites.');
+  await page.locator('#exigencias > summary').click();
+  const demandHeadings = page.locator('#citizen-demands-content .measure-list > li > strong:first-child');
+  assert.equal(await demandHeadings.count(), 10);
+  for (const heading of await demandHeadings.all()) {
+    assert.equal(await heading.evaluate(node => getComputedStyle(node).color), 'rgb(198, 243, 107)');
+    await assertTextContrast(heading);
+  }
+  await page.locator('#exigencias > summary').click();
   await page.locator('#seguridad-ciudadana > summary').click();
   assert.equal(await page.locator('#development-content li').count(), 7);
   assert.match(await page.locator('#development-content').textContent(), /ni activa un cuarto frente inicial/);
@@ -190,6 +289,10 @@ try {
     assert.deepEqual(await summary.locator('p').allTextContents(), axis.citizenSummary.split('\n\n')
       .filter(text => !text.startsWith('#### ')).map(plain));
     assert.equal(await summary.locator('h4').textContent(), 'Plan de actuación');
+    for (const heading of await page.locator('#measure-content .technical-heading').all()) {
+      assert.equal(await heading.evaluate(node => getComputedStyle(node).color), 'rgb(198, 243, 107)');
+      await assertTextContrast(heading);
+    }
     assert.deepEqual(await page.locator('#measure-content .technical-content p').allTextContents(),
       axis.technicalBody.split('\n\n').filter(text => !text.startsWith('- ') && !text.startsWith('|') && !text.startsWith('#### ')).map(plain));
     assert.deepEqual(await page.locator('#measure-content .technical-content h4').allTextContents(),
@@ -197,6 +300,7 @@ try {
     if ([6, 16, 30].includes(axis.id)) {
       assert.equal(await page.locator('#measure-content .technical-content table tbody tr').count(), { 6: 6, 16: 3, 30: 11 }[axis.id]);
       await page.setViewportSize({ width: 320, height: 900 });
+      await assertReadableText(page.locator('#measure-content .measure-paragraph, #measure-content .measure-list > li'));
       assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth));
       assert.ok(await page.locator('#measure-dialog').evaluate(node => node.scrollWidth <= node.clientWidth));
       await page.setViewportSize({ width: 1440, height: 1000 });
@@ -204,7 +308,12 @@ try {
     const measures = await page.locator('#measure-content .technical-content li').allTextContents();
     for (const measure of axis.measures) assert.ok(measures.includes(plain(measure)));
     assert.equal(await page.locator('#measure-content .target-figure').count(), 1);
-    assert.equal(await page.locator('#measure-content .target-bar').first().evaluate(node => getComputedStyle(node).fill), 'rgb(17, 19, 24)');
+    assert.equal(await page.locator('#measure-content .target-bar').first().evaluate(node => getComputedStyle(node).fill), 'rgb(143, 149, 163)');
+    assert.equal(await page.locator('#measure-content .target-figure').evaluate(node => getComputedStyle(node).borderLeftStyle), 'dashed');
+    if (axis.id === 1) {
+      for (const selector of ['#measure-title', '.citizen-summary .measure-paragraph', '.evidence-label', '.target-figure .evidence-label',
+        '.technical-content .measure-paragraph', '.close-dialog']) await assertTextContrast(page.locator(selector).first());
+    }
     assert.equal(await page.locator('#measure-content').evaluate(content => {
       const summary = content.querySelector('.citizen-summary');
       const evidence = content.querySelector('.policy-evidence');
@@ -242,6 +351,12 @@ try {
   assert.equal(await page.title(), 'Valores y transparencia — OpenSpain');
   assert.equal(await page.locator('#valores .measure-list > li').count(), 10);
   assert.equal(await page.locator('#compromisos .measure-list > li').count(), 6);
+  const transparencyAccents = page.locator('#values-title > span, #commitments-title > span, .values-content .measure-list > li > strong:first-child, #compromisos .measure-list > li > strong:first-child, .founder-identity .eyebrow, .donation-principles article > span, #compromisos > .text-link');
+  assert.equal(await transparencyAccents.count(), 24);
+  for (const accent of await transparencyAccents.all()) {
+    assert.equal(await accent.evaluate(node => getComputedStyle(node).color), 'rgb(198, 243, 107)');
+    await assertTextContrast(accent);
+  }
   assert.match(await page.locator('#valores').textContent(), /comprender las causas/);
   assert.match(await page.locator('#valores').textContent(), /remuneración justa/);
   assert.match(await page.locator('#valores').textContent(), /éxito económico legítimo y el trabajo honesto/);
@@ -277,6 +392,14 @@ try {
   assert.equal(await signup.getAttribute('href'), 'https://tally.so/r/D4lvRN');
   assert.equal(await signup.getAttribute('target'), '_blank');
   assert.equal(await signup.getAttribute('rel'), 'noopener noreferrer');
+  const endorsement = page.locator('#avales a');
+  assert.equal(await endorsement.getAttribute('href'), 'https://tally.so/r/D4lvRN');
+  assert.equal(await endorsement.getAttribute('target'), '_blank');
+  assert.equal(await endorsement.getAttribute('rel'), 'noopener noreferrer');
+  assert.match(await endorsement.getAttribute('aria-describedby'), /endorsement-disclaimer/);
+  assert.match(await page.locator('#avales').textContent(), /Aún no hay una recogida de avales abierta/);
+  assert.match(await page.locator('#endorsement-disclaimer').textContent(), /No estás firmando un aval ni comprometiéndote a avalar/);
+  await assertTextContrast(endorsement);
   assert.match(await page.locator('#participa').textContent(), /no es una afiliación/);
   await checkVideo('#sympathizer-video', 44.8, 9 / 16);
   await page.getByRole('button', { name: /Prepara tu propuesta/ }).click();
@@ -293,6 +416,14 @@ try {
     if (path === 'como.html') {
       assert.equal(await page.locator('#metodo details[open], #plan details[open]').count(), 2);
       await page.waitForSelector('#method-content > p');
+      await page.waitForSelector('#plan-content > .chapter-heading');
+      assert.equal(await page.locator('#plan-title > span').textContent(), 'tres frentes.');
+      const methodAccents = page.locator('.method-grid h3, #method-content > .chapter-heading, #plan-content > .chapter-heading');
+      assert.ok(await methodAccents.count() > 4, 'Method steps and source headings must expose lime accents');
+      for (const heading of await methodAccents.all()) {
+        assert.equal(await heading.evaluate(node => getComputedStyle(node).color), 'rgb(198, 243, 107)');
+        await assertTextContrast(heading);
+      }
       const methodToPlanGap = await page.evaluate(() => document.querySelector('#plan-title').getBoundingClientRect().top
         - document.querySelector('#method-content').getBoundingClientRect().bottom);
       assert.ok(methodToPlanGap >= 0 && methodToPlanGap <= 96, `Gap before plan: ${methodToPlanGap}px`);
@@ -306,16 +437,58 @@ try {
     assert.equal(await page.locator('.site-header > .brand').getAttribute('aria-label'), 'OpenSpain, inicio');
     const subtitle = page.locator('main .section-subtitle, main .section-heading > p').first();
     assert.equal(await subtitle.evaluate(node => getComputedStyle(node).fontWeight), '600');
+    await assertTextContrast(subtitle);
+    await assertTextContrast(page.locator('.site-header .nav-action'));
+    for (const emphasis of await page.locator('main h2 > span').all()) {
+      assert.equal(await emphasis.evaluate(node => getComputedStyle(node).color), 'rgb(198, 243, 107)');
+      await assertTextContrast(emphasis);
+    }
+    for (const action of await page.locator('main .text-link, .card-link, .quiet-button, .method-grid article > span, #open-contribution, #frontier-action').all()) {
+      assert.equal(await action.evaluate(node => getComputedStyle(node).color), 'rgb(198, 243, 107)');
+      await assertTextContrast(action);
+    }
     assert.equal(await instagram.count(), 1);
     assert.equal(await instagram.getAttribute('href'), 'https://www.instagram.com/openspainorg/');
     assert.equal(await instagram.getAttribute('target'), '_blank');
     assert.equal(await instagram.getAttribute('rel'), 'noopener noreferrer');
     for (const width of [320, 390, 768, 1024, 1440]) {
       await page.setViewportSize({ width, height: 900 });
+      await assertReadableText(page.locator('main .hero-description, main .page-lead, main .section-subtitle, main .section-heading > p, main .preview-description, main .card-description, main .measure-paragraph, main .measure-list > li, main .method-grid p, main .donation-principles p, main .founder-message > p, main .founder-identity p:not(.eyebrow), main .participate p:not(.eyebrow), main .update-list p, main .manifesto-copy > p:not(.eyebrow), main .video-transcript > p'));
+      if (path === 'como.html') {
+        const steps = await page.locator('.method-grid article').evaluateAll(articles => articles.map(article => ({
+          number: parseFloat(getComputedStyle(article.querySelector('span')).fontSize),
+          title: parseFloat(getComputedStyle(article.querySelector('h3')).fontSize),
+          body: parseFloat(getComputedStyle(article.querySelector('p')).fontSize),
+        })));
+        assert.equal(steps.length, 4);
+        for (const step of steps) assert.deepEqual(step, width <= 560
+          ? { number: 28, title: 24, body: 18 }
+          : { number: 32, title: 26, body: 20 });
+        assert.equal(await page.locator('.method-grid').evaluate(grid =>
+          getComputedStyle(grid).gridTemplateColumns.trim().split(/\s+/).length), width <= 560 ? 1 : 2);
+      }
       if (path === 'transparencia.html') {
         const valuesGap = await page.evaluate(() => document.querySelector('#valores').getBoundingClientRect().top
           - document.querySelector('.page-intro').getBoundingClientRect().bottom);
         assert.ok(valuesGap >= 24 && valuesGap <= 32, `Gap before values at ${width}px: ${valuesGap}px`);
+        const commitments = await page.locator('#compromisos .measure-list').evaluate(list => {
+          const bounds = list.getBoundingClientRect();
+          const first = list.firstElementChild.getBoundingClientRect();
+          const second = list.children[1].getBoundingClientRect();
+          const last = list.lastElementChild.getBoundingClientRect();
+          return {
+            columns: getComputedStyle(list).gridTemplateColumns.trim().split(/\s+/).length,
+            width: bounds.width,
+            availableWidth: list.parentElement.getBoundingClientRect().width,
+            firstTop: first.top,
+            secondTop: second.top,
+            rightGap: bounds.right - last.right,
+          };
+        });
+        assert.equal(commitments.columns, width > 800 ? 2 : 1, `Commitment columns at ${width}px`);
+        assert.ok(Math.abs(commitments.width - commitments.availableWidth) < 1, 'Commitments must use the available width');
+        assert.ok(Math.abs(commitments.rightGap) < 1, 'The last commitment must fill the right column');
+        if (width > 800) assert.ok(Math.abs(commitments.firstTop - commitments.secondTop) < 1, 'Desktop commitments must start side by side');
       }
       assert.equal(await page.locator('.site-header nav a').count(), 6);
       const menu = page.locator('.menu-toggle');
@@ -355,6 +528,7 @@ try {
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto(baseURL);
   await page.waitForSelector('.change-preview');
+  assert.equal(await page.locator('.change-previews').evaluate(node => getComputedStyle(node).gridTemplateColumns.split(' ').length), 1);
   await page.screenshot({ path: join(screenshotDir, 'openspain-mobile.png'), fullPage: true });
   for (const hash of ['#eje-31', '#programa', '#datos', '#exigencias', '#diagnostico', '#prioridades', '#plan', '#metodo', '#donaciones', '#participa']) {
     await page.goto(`${baseURL}/${hash}`);
@@ -409,8 +583,10 @@ try {
     }
   }
   await signupPage.goto(`${baseURL}/participa.html`);
-  await signupPage.locator('a[href^="https://tally.so/"]').scrollIntoViewIfNeeded();
-  assert.equal(await signupPage.locator('.floating-signup').isVisible(), false);
+  for (const signupLink of await signupPage.locator('main a[href^="https://tally.so/"]').all()) {
+    await signupLink.scrollIntoViewIfNeeded();
+    assert.equal(await signupPage.locator('.floating-signup').isVisible(), false);
+  }
   await signupPage.goto(baseURL);
   await signupPage.locator('#changes-video').scrollIntoViewIfNeeded();
   await signupPage.locator('.floating-signup').waitFor({ state: 'hidden' });

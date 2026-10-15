@@ -1,0 +1,39 @@
+:root {
+  --brand-blue: #101014;
+  --brand-mid: #24242c;
+  --brand-deep: #101014;
+  --brand-paper: #f5f5f7;
+  --brand-light: #b5b5bf;
+  --brand-gold: #c6f36b;
+  --brand-gradient: #101014;
+  --paper: #101014;
+  --surface: #202026;
+  --ink: #f5f5f7;
+  --navy: #18181e;
+  --blue: #c6f36b;
+  --muted: #b5b5bf;
+  --line: #34343e;
+  --gold: #c6f36b;
+  --tint: #18181e;
+  --soft: #b5b5bf;
+}
+
+#number, #progress { color: var(--brand-gold); }
+#progress { background: var(--brand-gold); }
+.footer { border-color: #34343e; }
+.footer > span:last-child { color: var(--brand-gold); }
+.scene.tint { background: #18181e; }
+.scene .eyebrow::before, .stat .eyebrow::before { box-shadow: 0 0 0 10px #c6f36b12; }
+.stat { border: 2px solid var(--line); }
+.checks .el::before { color: var(--brand-gold); }
+.card { box-shadow: none; }
+.planet {
+  background: radial-gradient(circle at 30% 24%, #f5f5f7, #a5a5af 30%, #50505c 62%, #202027 82%);
+  box-shadow: inset -24px -36px 60px #08080d88, 0 40px 100px #0004;
+}
+.planet::after { background: repeating-linear-gradient(0deg, transparent 0 16px, #ffffff14 16px 18px); }
+.orbits ellipse { stroke: #f5f5f755; }
+.orbits #orbit-dot { fill: var(--brand-gold); }
+.grid { background-image: linear-gradient(#ffffff06 2px, transparent 2px), linear-gradient(90deg, #ffffff06 2px, transparent 2px); }
+#cta .qr img { background: white; padding: 24px; }
+.btn { color: #101014; box-shadow: none; }

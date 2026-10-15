@@ -1,10 +1,10 @@
 // Renders video.html frame by frame with Playwright and encodes an MP4 with ffmpeg.
-// Usage: node video/render.mjs [--changes] [--audio-only | --preview 1,4.6,13.9,...]
+// Usage: node video/render.mjs [--changes] [--keep-audio | --audio-only | --preview 1,4.6,13.9,...]
 import { chromium } from '@playwright/test';
 import { spawn } from 'node:child_process';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { dirname, join } from 'node:path';
-import { mkdirSync, rmSync, readFileSync, renameSync } from 'node:fs';
+import { existsSync, mkdirSync, rmSync, readFileSync, renameSync } from 'node:fs';
 import { synth } from './audio.mjs';
 import { getChangeVideoMessages } from '../program.js';
 
@@ -12,8 +12,12 @@ const dir = dirname(fileURLToPath(import.meta.url));
 const FPS = 30;
 const changes = process.argv.includes('--changes');
 const audioOnly = process.argv.includes('--audio-only');
+const keepAudio = process.argv.includes('--keep-audio');
 const previewArg = process.argv.indexOf('--preview');
 const preview = previewArg > -1 ? process.argv[previewArg + 1].split(',').map(Number) : null;
+if (audioOnly && keepAudio) throw new Error('--audio-only y --keep-audio no se pueden combinar.');
+const out = join(dir, changes ? 'OpenSpain-Cambios.mp4' : 'OpenSpain-Hazte-Simpatizante.mp4');
+if (keepAudio && !preview && !existsSync(out)) throw new Error(`No existe el MP4 cuyo audio se debe conservar: ${out}`);
 
 const browser = await chromium.launch();
 const page = await browser.newPage({ viewport: changes ? { width: 1920, height: 1080 } : { width: 1080, height: 1920 }, deviceScaleFactor: 1 });
@@ -63,19 +67,23 @@ if (preview) {
 }
 
 const wav = join(dir, changes ? 'cambios-soundtrack.wav' : 'soundtrack.wav');
-synth({ duration, ...soundtrack, out: wav });
+if (!keepAudio) synth({ duration, ...soundtrack, out: wav });
 process.on('exit', () => rmSync(wav, { force: true }));
 
-const out = join(dir, changes ? 'OpenSpain-Cambios.mp4' : 'OpenSpain-Hazte-Simpatizante.mp4');
 const pending = join(dir, changes ? '.OpenSpain-Cambios.pending.mp4' : '.OpenSpain-Hazte-Simpatizante.pending.mp4');
 process.on('exit', () => rmSync(pending, { force: true }));
 const videoArgs = audioOnly
   ? ['-i', out, '-i', wav, '-map', '0:v:0', '-map', '1:a:0', '-c:v', 'copy']
-  : ['-f', 'image2pipe', '-framerate', String(FPS), '-c:v', 'png', '-i', '-', '-i', wav,
-    '-c:v', 'libx264', '-preset', 'fast', '-threads', '2', '-crf', '18', '-pix_fmt', 'yuv420p', '-profile:v', 'high'];
-const ff = spawn('ffmpeg', ['-y', '-loglevel', 'error', ...videoArgs,
+  : ['-f', 'image2pipe', '-framerate', String(FPS), '-c:v', 'png', '-i', '-', '-i', keepAudio ? out : wav,
+    '-map', '0:v:0', '-map', '1:a:0',
+    '-c:v', 'libx264', '-preset', 'fast', '-threads', '2', '-crf', '18', '-pix_fmt', 'yuv420p', '-profile:v', 'high',
+    '-vf', 'scale=out_color_matrix=bt709', '-colorspace', 'bt709', '-color_primaries', 'bt709', '-color_trc', 'bt709'];
+const audioArgs = keepAudio ? ['-c:a', 'copy'] : [
   '-af', 'alimiter=limit=0.5:attack=5:release=40:level=false,loudnorm=I=-14:TP=-4:LRA=11',
-  '-ar', '48000', '-c:a', 'aac', '-b:a', '192k', '-shortest', '-movflags', '+faststart', pending],
+  '-ar', '48000', '-c:a', 'aac', '-b:a', '192k',
+];
+const ff = spawn('ffmpeg', ['-y', '-loglevel', 'error', ...videoArgs,
+  ...audioArgs, '-shortest', '-movflags', '+faststart', pending],
 { stdio: [audioOnly ? 'ignore' : 'pipe', 'inherit', 'inherit'] });
 const encoded = new Promise((resolve, reject) => {
   ff.once('error', reject);

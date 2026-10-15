@@ -7,6 +7,7 @@ const files = new Map([
   ...['cambios', 'programa', 'como', 'transparencia', 'participa'].map(page =>
     [`/${page}.html`, [`${page}.html`, 'text/html; charset=utf-8']]),
   ['/styles.css', ['styles.css', 'text/css; charset=utf-8']],
+  ['/studio.css', ['studio.css', 'text/css; charset=utf-8']],
   ['/brand.css', ['brand.css', 'text/css; charset=utf-8']],
   ['/fonts/manrope-variable.ttf', ['fonts/manrope-variable.ttf', 'font/ttf']],
   ['/fonts/OFL.txt', ['fonts/OFL.txt', 'text/plain; charset=utf-8']],

@@ -44,7 +44,7 @@ test('presentation video and transcript use the public domain and current identi
   }
   const html = await readFile(new URL('../participa.html', import.meta.url), 'utf8');
   for (const filename of ['OpenSpain-Hazte-Simpatizante.mp4', 'hazte-simpatizante-portada.jpg']) {
-    assert.ok(html.includes(`${filename}?v=${filename.endsWith('.mp4') ? '20261012-audio-contratiempo' : '20261011-refresh'}`));
+    assert.ok(html.includes(`${filename}?v=20261015-studio-lima`));
   }
   for (const path of ['video/video.html', 'video/cambios.html']) {
     const template = await readFile(new URL(`../${path}`, import.meta.url), 'utf8');
@@ -92,12 +92,22 @@ test('text-led website videos retain readable transcripts without duplicate capt
     const html = await readFile(new URL(`../${path}`, import.meta.url), 'utf8');
     assert.doesNotMatch(html, /<track|\.vtt|con música y subtítulos/);
     assert.match(html, /Leer el contenido del vídeo/);
-    assert.match(html, /20261011-refresh/);
-    assert.match(html, /\.mp4\?v=20261012-audio-contratiempo/);
+    assert.match(html, /\.jpg\?v=20261015-studio-lima/);
+    assert.match(html, /\.mp4\?v=20261015-studio-lima/);
   }
   const workflow = await readFile(new URL('../.github/workflows/pages.yml', import.meta.url), 'utf8');
   const server = await readFile(new URL('../server.mjs', import.meta.url), 'utf8');
   assert.doesNotMatch(workflow + server, /cambios-es\.vtt|hazte-simpatizante-es\.vtt/);
+});
+
+test('homepage introduces an open country as an aspiration and invites people to build it together', async () => {
+  const html = await readFile(new URL('../index.html', import.meta.url), 'utf8');
+  assert.match(html, /Una España abierta donde vivir bien, crear y prosperar/);
+  assert.match(html, /Un país en el que quieras quedarte, al que puedas volver y donde empezar una nueva etapa/);
+  assert.match(html, /Un proyecto ciudadano independiente para construirlo juntos/);
+  assert.match(html, /href="\.\/participa\.html">Construyamos juntos ↗<\/a>/);
+  assert.equal((html.match(/class="hero-description"/g) || []).length, 2);
+  assert.doesNotMatch(html, /todos ganan/i);
 });
 
 test('homepage FAQs explain open participation and funding without claiming a constituted party or active donations', async () => {
@@ -114,6 +124,18 @@ test('homepage FAQs explain open participation and funding without claiming a co
   assert.match(faq, /donaciones económicas todavía no están habilitadas/);
   assert.match(faq, /No presentamos ayudas o subvenciones como concedidas/);
   assert.match(faq, /href="\.\/transparencia\.html#donaciones"/);
+});
+
+test('future endorsement notifications use the existing signup form without collecting an electoral endorsement', async () => {
+  const home = await readFile(new URL('../index.html', import.meta.url), 'utf8');
+  const participation = await readFile(new URL('../participa.html', import.meta.url), 'utf8');
+  assert.match(home, /href="\.\/participa\.html#avales">Quiero avalar/);
+  assert.match(participation, /id="avales" aria-labelledby="endorsement-title"/);
+  assert.match(participation, /Aún no hay una recogida de avales abierta/);
+  assert.match(participation, /si OpenSpain decide presentar una candidatura/);
+  assert.match(participation, /href="https:\/\/tally\.so\/r\/D4lvRN" target="_blank" rel="noopener noreferrer" aria-describedby="endorsement-disclaimer">Quiero avalar/);
+  assert.match(participation, /Abre el mismo formulario de novedades/);
+  assert.match(participation, /No estás firmando un aval ni comprometiéndote a avalar/);
 });
 
 test('website soundtracks accent topic transitions but not individual text entrances', async () => {
@@ -214,6 +236,42 @@ test('all six pages preserve relative navigation and old public anchors', async 
   assert.equal(avatar.subarray(1, 4).toString(), 'PNG');
   assert.equal(avatar.readUInt32BE(16), 1080);
   assert.equal(avatar.readUInt32BE(20), 1080);
+});
+
+test('the screen preview is wired across all pages without changing the base brand', async () => {
+  for (const [path] of pages) {
+    const html = await readFile(new URL(`../${path}`, import.meta.url), 'utf8');
+    assert.match(html, /href="\.\/studio\.css\?v=20261015-preview"/);
+    assert.ok(html.indexOf('studio.css') > html.indexOf('styles.css'));
+  }
+  const studio = await readFile(new URL('../studio.css', import.meta.url), 'utf8');
+  assert.match(studio, /^@media screen \{/);
+  assert.match(studio, /color-scheme: dark/);
+  assert.match(studio, /--surface: #101014/);
+  assert.match(studio, /--muted: #f5f5f7/);
+  assert.match(studio, /--reading-color: #f5f5f7/);
+  assert.match(studio, /--reading-width: 68ch/);
+  assert.doesNotMatch(studio, /https?:|url\(/);
+  const brand = await readFile(new URL('../brand.css', import.meta.url), 'utf8');
+  assert.match(brand, /--brand-blue: #3159dc/);
+  for (const path of ['server.mjs', '.github/workflows/pages.yml']) {
+    assert.ok((await readFile(new URL(`../${path}`, import.meta.url), 'utf8')).includes('studio.css'));
+  }
+});
+
+test('both website videos share the dark and lime render theme without changing their soundtrack schedule', async () => {
+  const theme = await readFile(new URL('../video/studio.css', import.meta.url), 'utf8');
+  assert.match(theme, /--brand-blue: #101014/);
+  assert.match(theme, /--brand-gold: #c6f36b/);
+  assert.match(theme, /#cta \.qr img \{ background: white; padding: 24px; \}/);
+  for (const path of ['video/video.html', 'video/cambios.html']) {
+    const template = await readFile(new URL(`../${path}`, import.meta.url), 'utf8');
+    assert.match(template, /href="\.\/studio\.css"/);
+    assert.ok(template.indexOf('./studio.css') > template.indexOf('</style>'));
+    assert.match(template, /window\.HITS = \[\]/);
+  }
+  const renderer = await readFile(new URL('../video/render.mjs', import.meta.url), 'utf8');
+  assert.match(renderer, /keepAudio \? \['-c:a', 'copy'\]/);
 });
 
 test('civic values and commitments are distinct source sections with explicit safeguards', () => {
