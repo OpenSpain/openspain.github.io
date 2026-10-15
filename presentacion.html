@@ -5,28 +5,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>OpenSpain — Presentación y propuesta de colaboración</title>
   <style>
-    :root { color-scheme: light; }
+    @font-face { font-family: Manrope; src: url('./fonts/manrope-variable.ttf') format('truetype'); font-weight: 200 800; font-style: normal; font-display: swap; }
+    :root { color-scheme: dark; --ink: #f5f5f7; --accent: #c6f36b; --surface: #101014; --paper: #18181e; --line: #34343e; }
     * { box-sizing: border-box; }
-    body { margin: 0; color: #15243e; background: #fffdf8; font: 11pt/1.4 Arial, Helvetica, sans-serif; }
+    body { margin: 0; color: var(--ink); background: var(--surface); font: 11pt/1.4 Manrope, Arial, sans-serif; font-weight: 450; }
     .sheet { width: 174mm; margin: 0 auto; }
-    header { display: flex; justify-content: space-between; align-items: center; gap: 16pt; padding-bottom: 9pt; border-bottom: 2pt solid #2459df; }
-    .brand { font-size: 25pt; font-weight: 700; letter-spacing: -1pt; }
-    .brand span { font-weight: 400; }
-    .brand img { vertical-align: middle; margin-left: 10pt; border-radius: 2pt; }
-    .edition { margin: 0; font-size: 9pt; text-align: right; color: #394b66; }
+    header { display: flex; justify-content: space-between; align-items: center; gap: 16pt; padding-bottom: 9pt; border-bottom: 2pt solid var(--accent); }
+    .brand { display: flex; align-items: center; gap: 8pt; font-size: 25pt; font-weight: 800; letter-spacing: -1pt; }
+    .brand img { width: 25pt; height: 25pt; filter: grayscale(1) brightness(0) invert(1); }
+    .edition { margin: 0; font-size: 9pt; text-align: right; }
     h1 { margin: 15pt 0 8pt; font-size: 25pt; line-height: 1.12; letter-spacing: -.6pt; }
-    h2 { margin: 10pt 0 5pt; font-size: 12pt; color: #2459df; }
+    h1, h2 { font-weight: 800; }
+    h1 span, h2 { color: var(--accent); }
+    h2 { margin: 10pt 0 5pt; font-size: 12pt; }
     p { margin: 6pt 0; text-align: justify; text-align-last: start; hyphens: auto; }
-    .lead { color: #394b66; }
-    .priority { border-left: 2pt solid #2459df; padding-left: 10pt; }
+    .priority { border-left: 2pt solid var(--accent); padding-left: 10pt; }
     .priority p { margin: 7pt 0; }
-    .meeting { margin-top: 10pt; padding: 10pt 12pt; background: #e8eefb; border-radius: 4pt; break-inside: avoid; }
-    .meeting h2 { margin-top: 0; color: #15243e; }
+    .meeting { margin-top: 10pt; padding: 10pt 12pt; background: var(--paper); border: 1px solid var(--line); border-radius: 4pt; break-inside: avoid; }
+    .meeting h2 { margin-top: 0; }
     .meeting p:last-child { margin-bottom: 0; }
-    .limits { color: #394b66; font-size: 10pt; }
-    footer { margin-top: 12pt; border-top: 1px solid #d6dae2; padding-top: 8pt; font-size: 9pt; color: #394b66; }
+    .limits { font-size: 10pt; }
+    footer { margin-top: 12pt; border-top: 1px solid var(--line); padding-top: 8pt; font-size: 9pt; }
     footer p { margin: 0; text-align: left; }
-    @page { size: A4; margin: 16mm 18mm 18mm; }
+    @page { size: A4; margin: 16mm 18mm 18mm; background: #101014; }
     @media print { body { -webkit-print-color-adjust: exact; print-color-adjust: exact; } }
     @media screen { body { padding: 24px 0; } }
   </style>
@@ -34,10 +35,10 @@
 <body>
   <main class="sheet">
     <header>
-      <div class="brand">open<span>spain</span>.<img src="./bandera.svg" alt="Bandera de España, versión sin escudo" width="34" height="23"></div>
+      <div class="brand"><img src="./favicon.svg" alt="" width="34" height="34">openspain.</div>
       <p class="edition">PRESENTACIÓN / COLABORACIÓN<br>Octubre de 2026</p>
     </header>
-    <h1>Unir fuerzas para mejorar España.</h1>
+    <h1>Unir fuerzas para <span>mejorar España.</span></h1>
     <p class="lead">Una iniciativa ciudadana independiente para convertir problemas reales en propuestas viables, con datos, responsabilidades claras y resultados que se puedan comprobar.</p>
 
     <h2>Quién soy y qué quiero aportar</h2>

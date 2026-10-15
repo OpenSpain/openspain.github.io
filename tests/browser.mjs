@@ -616,6 +616,25 @@ try {
   assert.match(await report.locator('#report-body').textContent(), /Seguridad ciudadana: prevención, víctimas y respuesta efectiva/);
   assert.match(await report.locator('#report-body').textContent(), /Qué propuestas requieren cambiar la Constitución/);
   assert.match(await report.locator('#report-body').textContent(), /Fabio Franco/);
+  for (const media of ['screen', 'print']) {
+    await report.emulateMedia({ media });
+    await report.evaluate(() => document.fonts.ready);
+    assert.equal(await report.locator('body').evaluate(node => getComputedStyle(node).backgroundColor), 'rgb(16, 16, 20)');
+    assert.match(await report.locator('body').evaluate(node => getComputedStyle(node).fontFamily), /Manrope/);
+    for (const selector of ['.cover-description', '.lead', '.report-body-content p', '.report-stats small', 'td']) {
+      const text = report.locator(selector).first();
+      assert.equal(await text.evaluate(node => getComputedStyle(node).color), 'rgb(245, 245, 247)');
+      await assertTextContrast(text);
+    }
+    for (const selector of ['.cover h1 em', '.axis-heading', '.technical-heading']) {
+      const text = report.locator(selector).first();
+      assert.equal(await text.evaluate(node => getComputedStyle(node).color), 'rgb(198, 243, 107)');
+      await assertTextContrast(text);
+    }
+    assert.equal(await report.locator('.observed-bar').first().evaluate(node => getComputedStyle(node).fill), 'rgb(245, 245, 247)');
+    assert.equal(await report.locator('.target-bar').first().evaluate(node => getComputedStyle(node).fill), 'rgb(143, 149, 163)');
+    assert.equal(await report.locator('.target-figure').first().evaluate(node => getComputedStyle(node).borderLeftStyle), 'dashed');
+  }
   await report.close();
 
   const proxy = createServer(async (request, response) => {

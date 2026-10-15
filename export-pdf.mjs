@@ -38,7 +38,7 @@ try {
   await page.pdf({
     path, format: 'A4', printBackground: true, preferCSSPageSize: true, displayHeaderFooter: true,
     headerTemplate: '<span></span>',
-    footerTemplate: '<div style="font-family:Arial,sans-serif;font-size:9px;color:#394b66;width:100%;margin:0 68px;display:flex;justify-content:space-between;border-top:1px solid #d6dae2;padding-top:8px"><span>OPENSPAIN / PROGRAMA CIUDADANO / BORRADOR 0.1</span><span><span class="pageNumber"></span> / <span class="totalPages"></span></span></div>',
+    footerTemplate: '<div style="-webkit-print-color-adjust:exact;print-color-adjust:exact;font-family:Arial,sans-serif;font-size:10px;color:#f5f5f7;width:100%;margin:0 68px;display:flex;justify-content:space-between;border-top:1px solid #34343e;padding-top:8px"><span>OPENSPAIN / PROGRAMA CIUDADANO / BORRADOR 0.1</span><span><span class="pageNumber"></span> / <span class="totalPages"></span></span></div>',
   });
   console.log(`PDF generado: ${path} · ${count} ejes · ${measures} elementos de lista del documento completo.`);
 } finally {

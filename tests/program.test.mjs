@@ -12,6 +12,32 @@ import { synth, percussionSchedule } from '../video/audio.mjs';
 const markdown = await readFile(new URL('../PROGRAMA.md', import.meta.url), 'utf8');
 const axes = parseProgram(markdown);
 
+test('both PDF templates use the dark Manrope identity and version their public downloads', async () => {
+  const report = await readFile(new URL('../informe.html', import.meta.url), 'utf8');
+  const reportStyles = await readFile(new URL('../informe.css', import.meta.url), 'utf8');
+  const presentation = await readFile(new URL('../presentacion.html', import.meta.url), 'utf8');
+  for (const styles of [reportStyles, presentation]) {
+    assert.match(styles, /font-family: Manrope/);
+    assert.match(styles, /color-scheme: dark/);
+    assert.match(styles, /--ink: #f5f5f7/);
+    assert.match(styles, /--accent: #c6f36b/);
+    assert.match(styles, /--surface: #101014/);
+    assert.match(styles, /print-color-adjust: exact/);
+    assert.match(styles, /@page \{[^}]*background: #101014/);
+  }
+  for (const html of [report, presentation]) {
+    assert.match(html, /src="\.\/favicon\.svg/);
+    assert.doesNotMatch(html, /bandera\.svg/);
+  }
+  assert.match(report, /barras blancas identifican observaciones/);
+  assert.match(report, /barras grises y borde discontinuo/);
+  for (const path of ['programa.html', 'cambios.html']) {
+    const html = await readFile(new URL(`../${path}`, import.meta.url), 'utf8');
+    assert.match(html, /OpenSpain-Programa\.pdf\?v=20261015-studio/);
+    if (path === 'programa.html') assert.match(html, /OpenSpain-Presentacion\.pdf\?v=20261015-studio/);
+  }
+});
+
 test('Instagram series covers the decalogue and every axis without inventing measures or results', () => {
   const videos = getInstagramVideos(markdown);
   assert.equal(videos.length, 32);
