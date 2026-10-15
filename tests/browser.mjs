@@ -454,6 +454,13 @@ try {
     for (const width of [320, 390, 768, 1024, 1440]) {
       await page.setViewportSize({ width, height: 900 });
       await assertReadableText(page.locator('main .hero-description, main .page-lead, main .section-subtitle, main .section-heading > p, main .preview-description, main .card-description, main .measure-paragraph, main .measure-list > li, main .method-grid p, main .donation-principles p, main .founder-message > p, main .founder-identity p:not(.eyebrow), main .participate p:not(.eyebrow), main .update-list p, main .manifesto-copy > p:not(.eyebrow), main .video-transcript > p'));
+      if (path === 'cambios.html' && width >= 1024) {
+        const heights = await page.locator('.pillar-body .measure-paragraph').evaluateAll(nodes => nodes.map(node => node.getBoundingClientRect().height));
+        for (const [expanded, neighbour] of [[3, 2], [4, 5]]) {
+          const ratio = heights[expanded] / heights[neighbour];
+          assert.ok(ratio >= .85 && ratio <= 1.15, `Pillar ${expanded + 1} must have comparable text height to its neighbour at ${width}px: ${ratio}`);
+        }
+      }
       if (path === 'como.html') {
         const steps = await page.locator('.method-grid article').evaluateAll(articles => articles.map(article => ({
           number: parseFloat(getComputedStyle(article.querySelector('span')).fontSize),

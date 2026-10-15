@@ -33,7 +33,7 @@ test('both PDF templates use the dark Manrope identity and version their public 
   assert.match(report, /barras grises y borde discontinuo/);
   for (const path of ['programa.html', 'cambios.html']) {
     const html = await readFile(new URL(`../${path}`, import.meta.url), 'utf8');
-    assert.match(html, /OpenSpain-Programa\.pdf\?v=20261015-studio/);
+    assert.match(html, /OpenSpain-Programa\.pdf\?v=20261015-pillars/);
     if (path === 'programa.html') assert.match(html, /OpenSpain-Presentacion\.pdf\?v=20261015-studio/);
   }
 });
@@ -97,6 +97,17 @@ test('actions and video messages are separate summaries without adopting evaluat
   assert.match(actions[2].description, /criterios transparentes, hitos verificables y evaluación/);
   assert.match(actions[2].description, /\[innovación\]\(#eje-5\)/);
   assert.match(getChangeVideoMessages(markdown)[2].title, /Innovar/);
+  assert.match(actions[3].description, /proveedores locales y empleo de calidad/);
+  assert.match(actions[3].description, /devolución por incumplimiento/);
+  assert.match(actions[3].description, /No confundir inversión anunciada con ejecutada/);
+  assert.match(actions[4].description, /sin prometer que una oferta de empleo conceda automáticamente un permiso/);
+  assert.match(actions[4].description, /complementando la formación y las oportunidades de quienes ya viven aquí/);
+  assert.match(actions[4].description, /reformas propuestas, no permisos vigentes ni exenciones fiscales automáticas/);
+  for (const [expanded, neighbour] of [[3, 2], [4, 5]]) {
+    const words = index => actions[index].description.split(/\s+/).length;
+    assert.ok(words(expanded) >= words(neighbour) * .85);
+    assert.ok(words(expanded) <= words(neighbour) * 1.15);
+  }
   assert.match(actions[5].description, /no se adopta una abolición general de comunidades autónomas/);
   assert.match(actions[5].title, /Menos burocracia/);
   assert.match(actions[5].description, /requisitos obsoletos, duplicados o sin utilidad acreditada/);
@@ -126,13 +137,14 @@ test('text-led website videos retain readable transcripts without duplicate capt
   assert.doesNotMatch(workflow + server, /cambios-es\.vtt|hazte-simpatizante-es\.vtt/);
 });
 
-test('homepage introduces an open country as an aspiration and invites people to build it together', async () => {
+test('homepage introduces an open country concisely and invites participation', async () => {
   const html = await readFile(new URL('../index.html', import.meta.url), 'utf8');
   assert.match(html, /Una España abierta donde vivir bien, crear y prosperar/);
-  assert.match(html, /Un país en el que quieras quedarte, al que puedas volver y donde empezar una nueva etapa/);
-  assert.match(html, /Un proyecto ciudadano independiente para construirlo juntos/);
-  assert.match(html, /href="\.\/participa\.html">Construyamos juntos ↗<\/a>/);
+  assert.match(html, /Libertad, oportunidades e instituciones al servicio de todos\. Un proyecto ciudadano independiente\./);
+  assert.match(html, /href="\.\/participa\.html">Participa ↗<\/a>/);
   assert.equal((html.match(/class="hero-description"/g) || []).length, 2);
+  const descriptions = [...html.matchAll(/<p class="hero-description">([^<]+)<\/p>/g)].map(match => match[1]);
+  assert.ok(descriptions.join(' ').split(/\s+/).length <= 30);
   assert.doesNotMatch(html, /todos ganan/i);
 });
 

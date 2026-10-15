@@ -30,7 +30,9 @@ Las secciones situadas fuera de la vista inicial aparecen una sola vez con un de
 
 `index.html` presenta los ocho pilares prácticos y un vídeo horizontal; `cambios.html` desarrolla sus acciones, límites y primeros pasos; `programa.html` conserva los 31 ejes, buscador, filtros, datos y fuentes; `como.html` explica método y fases; `transparencia.html`, bajo «Valores» en el menú, reúne valores, compromisos de conducta, impulsor, organización y financiación; `participa.html` contiene inscripción, vídeo vertical y propuestas locales.
 
-La portada presenta primero la aspiración de una España abierta donde vivir, crear y prosperar, quedarse, volver o empezar una nueva etapa. Conserva «Abrir España. Ampliar oportunidades.» y enlaza a Participa mediante «Construyamos juntos». Es una invitación a construir, no una promesa de beneficios universales.
+La portada resume la aspiración de una España abierta donde vivir bien, crear y prosperar. Dos párrafos breves presentan libertad, oportunidades, instituciones al servicio de todos y el carácter ciudadano e independiente del proyecto. Conserva «Abrir España. Ampliar oportunidades.» y enlaza a Participa mediante «Participa». Es una invitación a construir, no una promesa de beneficios universales.
+
+En Cambios, los pilares 4 y 5 desarrollan inversión verificable y atracción e integración de talento con contenido de los ejes 7, 8 y 11. Su extensión se equilibra con los pilares contiguos sin añadir metas ni permisos vigentes. Los textos proceden de `PROGRAMA.md` y también se incorporan al PDF completo.
 
 «Quiero avalar» lleva desde la portada a `participa.html#avales`. El bloque explica que no hay recogida de avales abierta y ofrece recibir información si se decide presentar una candidatura. Su botón abre el mismo formulario externo de novedades en Tally, cuya descripción contempla estos avisos; no guarda una preferencia separada en esta web. No constituye firma, aval ni compromiso de avalar y no anuncia una candidatura. No se incrusta Tally ni se realiza una solicitud a ese servicio antes de seguir el enlace.
 
@@ -153,7 +155,7 @@ GitHub Pages sirve los archivos; no ejecuta `npm start` ni genera el PDF. Regene
 
 ## PDF editorial
 
-El programa completo y la presentación de una página usan fondo grafito en todas sus páginas, incluidos los márgenes, texto blanco sin grises de lectura y acentos lima. Comparten Manrope, símbolo circular blanco y nombre sin bandera con la web. `informe.css` adapta portada, tablas y gráficos del programa; `presentacion.html` define el mismo estilo en su hoja independiente. Los datos observados siguen siendo distintos de las metas propuestas. La portada del programa recoge la aspiración «Una España abierta donde vivir bien, crear y prosperar»; el texto completo se conserva desde `PROGRAMA.md`. Los enlaces de descarga llevan `?v=20261015-studio` para renovar la caché.
+El programa completo y la presentación de una página usan fondo grafito en todas sus páginas, incluidos los márgenes, texto blanco sin grises de lectura y acentos lima. Comparten Manrope, símbolo circular blanco y nombre sin bandera con la web. `informe.css` adapta portada, tablas y gráficos del programa; `presentacion.html` define el mismo estilo en su hoja independiente. Los datos observados siguen siendo distintos de las metas propuestas. La portada del programa recoge la aspiración «Una España abierta donde vivir bien, crear y prosperar»; el texto completo se conserva desde `PROGRAMA.md`. Los enlaces de descarga están versionados para renovar la caché al regenerar cada PDF.
 
 Después de instalar las dependencias de desarrollo y Chromium:
 
