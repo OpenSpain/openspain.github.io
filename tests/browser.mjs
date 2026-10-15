@@ -604,6 +604,70 @@ try {
     assert.equal(await photo.getAttribute('alt'), alt);
   }
 
+  const motion = await browser.newPage({ viewport: { width: 1440, height: 900 }, reducedMotion: 'no-preference' });
+  motion.on('pageerror', error => errors.push(error.message));
+  await motion.addInitScript(() => {
+    window.sectionReveals = [];
+    const animate = Element.prototype.animate;
+    Element.prototype.animate = function (keyframes, options) {
+      const animation = animate.call(this, keyframes, options);
+      if (this.matches('main > section')) {
+        window.sectionReveals.push({ id: this.id, keyframes, duration: options.duration });
+        if (window.pauseReveals) animation.pause();
+      }
+      return animation;
+    };
+  });
+  await motion.goto(baseURL);
+  await motion.locator('.change-preview').first().waitFor();
+  assert.deepEqual(await motion.evaluate(() => window.sectionReveals), [], 'Initial content must not animate');
+  const faq = motion.locator('#preguntas-frecuentes');
+  await faq.scrollIntoViewIfNeeded();
+  await motion.waitForFunction(() => window.sectionReveals.some(reveal => reveal.id === 'preguntas-frecuentes'));
+  const reveal = await motion.evaluate(() => window.sectionReveals.find(reveal => reveal.id === 'preguntas-frecuentes'));
+  assert.equal(reveal.duration, 300);
+  assert.deepEqual(reveal.keyframes, [
+    { opacity: .75, transform: 'translateY(8px)' },
+    { opacity: 1, transform: 'translateY(0)' },
+  ]);
+  await motion.waitForFunction(() => document.querySelector('#preguntas-frecuentes').getAnimations().length === 0);
+  await motion.evaluate(() => window.scrollTo({ top: 0, behavior: 'instant' }));
+  await faq.scrollIntoViewIfNeeded();
+  await motion.evaluate(() => new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve))));
+  assert.equal(await motion.evaluate(() => window.sectionReveals.filter(reveal => reveal.id === 'preguntas-frecuentes').length), 1);
+  const heroAction = motion.locator('.hero .button-dark');
+  await heroAction.hover();
+  await motion.waitForFunction(() => getComputedStyle(document.querySelector('.hero .button-dark .direction-icon')).transform === 'matrix(1, 0, 0, 1, 2, -2)');
+  await motion.goto(`${baseURL}/programa.html`);
+  await motion.locator('.page-intro a[download]').first().hover();
+  await motion.waitForFunction(() => getComputedStyle(document.querySelector('.page-intro a[download] .direction-icon')).transform === 'matrix(1, 0, 0, 1, 0, 2)');
+  await motion.emulateMedia({ reducedMotion: 'reduce' });
+  await motion.goto(baseURL);
+  await motion.locator('.change-preview').first().waitFor();
+  await faq.scrollIntoViewIfNeeded();
+  await motion.evaluate(() => new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve))));
+  assert.deepEqual(await motion.evaluate(() => window.sectionReveals), [], 'Reduced motion must disable section reveals');
+  await heroAction.hover();
+  assert.equal(await heroAction.locator('.direction-icon').evaluate(node => getComputedStyle(node).transform), 'none');
+  await motion.emulateMedia({ reducedMotion: 'no-preference' });
+  await motion.goto(baseURL);
+  await motion.locator('.change-preview').first().waitFor();
+  await motion.evaluate(() => { window.pauseReveals = true; });
+  await faq.scrollIntoViewIfNeeded();
+  await motion.waitForFunction(() => document.querySelector('#preguntas-frecuentes').getAnimations().some(animation => animation.playState === 'paused'));
+  await motion.emulateMedia({ reducedMotion: 'reduce' });
+  await motion.waitForFunction(() => document.querySelector('#preguntas-frecuentes').getAnimations().length === 0);
+  assert.deepEqual(await faq.evaluate(node => ({ opacity: getComputedStyle(node).opacity, transform: getComputedStyle(node).transform })),
+    { opacity: '1', transform: 'none' });
+  await motion.close();
+
+  const staticPage = await browser.newPage({ javaScriptEnabled: false });
+  await staticPage.goto(baseURL);
+  await staticPage.locator('#preguntas-frecuentes').scrollIntoViewIfNeeded();
+  assert.deepEqual(await staticPage.locator('#preguntas-frecuentes').evaluate(node =>
+    ({ opacity: getComputedStyle(node).opacity, transform: getComputedStyle(node).transform })), { opacity: '1', transform: 'none' });
+  await staticPage.close();
+
   const report = await browser.newPage();
   await report.goto(`${baseURL}/informe.html`);
   await report.waitForFunction(() => document.documentElement.dataset.reportReady === 'true');

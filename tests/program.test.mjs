@@ -241,7 +241,7 @@ test('all six pages preserve relative navigation and old public anchors', async 
     const html = await readFile(new URL(`../${path}`, import.meta.url), 'utf8');
     for (const [destination] of pages) assert.ok(html.includes(`href="./${destination}"`), `${path} → ${destination}`);
     assert.equal((html.match(/aria-current="page"/g) || []).length, 1);
-    assert.ok(html.includes('site.js?v=20261011-editorial'));
+    assert.ok(html.includes('site.js?v=20261015-motion'));
     assert.ok(html.includes(`styles.css?v=${path === 'transparencia.html' ? '20261012-profiles' : '20261011-editorial'}`));
     assert.ok(html.includes('>Valores</a>'));
     assert.match(html, /class="footer-socials"><a href="https:\/\/www\.instagram\.com\/openspainorg\/" target="_blank" rel="noopener noreferrer"/);
@@ -267,7 +267,7 @@ test('all six pages preserve relative navigation and old public anchors', async 
 test('the screen preview is wired across all pages without changing the base brand', async () => {
   for (const [path] of pages) {
     const html = await readFile(new URL(`../${path}`, import.meta.url), 'utf8');
-    assert.match(html, /href="\.\/studio\.css\?v=20261015-preview"/);
+    assert.match(html, /href="\.\/studio\.css\?v=20261015-motion"/);
     assert.ok(html.indexOf('studio.css') > html.indexOf('styles.css'));
   }
   const studio = await readFile(new URL('../studio.css', import.meta.url), 'utf8');

@@ -186,3 +186,28 @@ async function loadPageContent() {
 }
 $('#retry-content')?.addEventListener('click', loadPageContent);
 loadPageContent();
+
+const sectionMotion = window.matchMedia('screen and (prefers-reduced-motion: no-preference)');
+const sectionAnimations = new Set();
+const sectionObserver = new IntersectionObserver(entries => {
+  for (const { target, isIntersecting } of entries) {
+    if (!isIntersecting) continue;
+    sectionObserver.unobserve(target);
+    if (!sectionMotion.matches || target.contains(document.activeElement)
+      || target.matches(':target') || target.querySelector(':target')) continue;
+    const animation = target.animate([
+      { opacity: .75, transform: 'translateY(8px)' },
+      { opacity: 1, transform: 'translateY(0)' },
+    ], { duration: 300, easing: 'cubic-bezier(.2,.65,.3,1)' });
+    sectionAnimations.add(animation);
+    animation.addEventListener('finish', () => sectionAnimations.delete(animation), { once: true });
+  }
+}, { rootMargin: '0px 0px -24px 0px' });
+document.querySelectorAll('main > section:not(.hero):not(.page-intro)').forEach(section => {
+  if (section.getBoundingClientRect().top >= window.innerHeight) sectionObserver.observe(section);
+});
+sectionMotion.addEventListener('change', ({ matches }) => {
+  if (matches) return;
+  for (const animation of sectionAnimations) animation.cancel();
+  sectionAnimations.clear();
+});

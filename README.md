@@ -4,7 +4,7 @@ Web informativa de un programa ciudadano independiente. Seis páginas con HTML, 
 
 ## Estilo visual Studio
 
-Las seis páginas cargan `studio.css?v=20261015-preview` después de sus estilos base para aplicar una dirección visual oscura: fondo negro suave, superficies de grafito, tipografía blanca y pilares en tarjetas amplias. Un acento lima (`#c6f36b`) resalta palabras clave de los titulares, números de pilares y ejes, navegación activa, filtros seleccionados y estados de foco o interacción. Las frases destacadas con `span` en los títulos principales y de sección siguen el mismo criterio, incluido «Resolver juntos». Los botones principales, incluida la inscripción flotante, usan fondo lima y texto oscuro; los secundarios conservan fondo oscuro y borde, con acento lima al interactuar. El símbolo y la esfera se presentan en blanco y plata, sin cambiar los archivos de marca originales. Esta capa define el estilo de pantalla de la web.
+Las seis páginas cargan `studio.css?v=20261015-motion` después de sus estilos base para aplicar una dirección visual oscura: fondo negro suave, superficies de grafito, tipografía blanca y pilares en tarjetas amplias. Un acento lima (`#c6f36b`) resalta palabras clave de los titulares, números de pilares y ejes, navegación activa, filtros seleccionados y estados de foco o interacción. Las frases destacadas con `span` en los títulos principales y de sección siguen el mismo criterio, incluido «Resolver juntos». Los botones principales, incluida la inscripción flotante, usan fondo lima y texto oscuro; los secundarios conservan fondo oscuro y borde, con acento lima al interactuar. El símbolo y la esfera se presentan en blanco y plata, sin cambiar los archivos de marca originales. Esta capa define el estilo de pantalla de la web.
 
 La capa se aplica solo en pantalla: no modifica la impresión de las seis páginas ni el contenido o la música de los vídeos. Los informes y PDF usan sus propias plantillas Studio. Conserva navegación, formularios, fuentes y controles de movimiento. Los gráficos distinguen datos observados y metas mediante tonos, etiquetas y un borde discontinuo en las metas. Para volver al diseño base de la web basta con retirar el enlace a `studio.css` de las seis páginas. El servidor y la lista de archivos públicos incluyen la hoja.
 
@@ -23,6 +23,8 @@ Los pasos del método tienen mayor presencia: números lima de 32 px, títulos d
 En Plan de acción, el lima también destaca los títulos de los cuatro pasos, «tres frentes» y los subtítulos del método completo y sus fases. Los párrafos, tablas y avisos conservan el texto blanco.
 
 En Programa, los acentos destacan «programa», «límites», los encabezados de las diez exigencias y los títulos de los apartados dentro del detalle de cada eje. El acceso a energía, tecnología y espacio usa texto y borde lima, como acción secundaria. No se recolorean los datos observados ni las metas propuestas.
+
+Las secciones situadas fuera de la vista inicial aparecen una sola vez con un desplazamiento de 8 px y una transición de opacidad de 0,75 a 1 durante 300 ms. No se oculta contenido para preparar la animación ni se animan las cabeceras iniciales, los destinos de anclas o secciones con foco. Las flechas de acciones avanzan 2 px al pasar el cursor o recibir foco de teclado; las descargas se desplazan hacia abajo. Se desactiva con `prefers-reduced-motion`, y activar esa preferencia cancela las entradas en curso. Sin JavaScript el contenido permanece visible. Estos efectos no cambian los PDF ni los vídeos.
 
 ## Páginas y navegación
 
