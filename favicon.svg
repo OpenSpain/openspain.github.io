@@ -1,7 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
-  <g fill="none" stroke="#3159dc" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M32 9a23 23 0 1 0 23 23"/>
-    <path d="m43 21 15-15M47 6h11v11"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">OpenSpain: O abierta con S geométrica</title>
+  <style>
+    .os-symbol { color: #101014; }
+    @media (prefers-color-scheme: dark) { .os-symbol { color: #c6f36b; } }
+  </style>
+  <g id="os-monogram">
+    <path class="os-symbol" d="M55.49 23.45A25 25 0 1 1 48.07 12.85" fill="none" stroke="currentColor" stroke-width="5.5" stroke-linecap="round"/>
+    <path class="os-symbol" d="M44 15H25L18 22V29L25 36H38L40 38V42L37 45H25L23 42H17V45L23 51H40L47 44V35L41 29H28L25 26V24L28 21H40L42 24H48V21Z" transform="translate(1.28 .32) scale(.96)" fill="currentColor"/>
   </g>
-  <path fill="#3159dc" fill-rule="evenodd" d="M41 32a9 9 0 1 1-18 0 9 9 0 1 1 18 0Zm-6 0a3 3 0 1 0-6 0 3 3 0 1 0 6 0Z"/>
 </svg>

@@ -4,7 +4,7 @@ import { mkdir, readFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { createServer } from 'node:http';
 import { parseProgram, inlineParts, getInitiativeActionItems, getChangeVideoMessages } from '../program.js';
-import { pages, legacyTarget } from '../routes.js';
+import { pages, publicPath, legacyTarget } from '../routes.js';
 import { observedCharts } from '../charts.js';
 
 const baseURL = (process.env.BASE_URL || 'http://127.0.0.1:4173').replace(/\/$/, '');
@@ -60,6 +60,60 @@ async function assertTextContrast(locator, minimum = 4.5) {
 const browser = await chromium.launch();
 const errors = [];
 try {
+  const brandPage = await browser.newPage();
+  await brandPage.goto(baseURL);
+  await brandPage.setContent('<!doctype html><title>OS brand rendering</title><body></body>');
+  for (const theme of ['light', 'dark']) {
+    await brandPage.emulateMedia({ colorScheme: theme });
+    const rendering = await brandPage.evaluate(async ({ baseURL, theme }) => {
+      document.documentElement.style.colorScheme = theme;
+      async function pixels(filename, width, height) {
+        const image = new Image();
+        document.body.append(image);
+        image.src = new URL(filename, `${baseURL}/`).href;
+        await image.decode();
+        const canvas = document.createElement('canvas');
+        canvas.width = width;
+        canvas.height = height;
+        const context = canvas.getContext('2d');
+        context.drawImage(image, 0, 0, width, height);
+        image.remove();
+        return context.getImageData(0, 0, width, height).data;
+      }
+      const sizes = [];
+      for (const size of [16, 24, 32, 34, 64]) {
+        const data = await pixels(`favicon.svg?v=20261016-os&theme=${theme}`, size, size);
+        const sample = (x, y) => {
+          const offset = (Math.floor(y / 64 * size) * size + Math.floor(x / 64 * size)) * 4;
+          return Array.from(data.slice(offset, offset + 4));
+        };
+        sizes.push({ size, ring: sample(7, 32), s: sample(32, 32), gap: sample(53, 18),
+          upper: sample(31, 23), lower: sample(32, 40) });
+      }
+      const svg = await pixels('openspain-logo.svg', 1200, 280);
+      const png = await pixels('openspain-logo.png', 1200, 280);
+      let differences = 0;
+      for (let index = 0; index < svg.length; index += 4) {
+        if ([0, 1, 2, 3].some(channel => Math.abs(svg[index + channel] - png[index + channel]) > 24)) differences++;
+      }
+      const light = await pixels('openspain-logo-light.svg', 1200, 280);
+      const avatar = await pixels('openspain-instagram.svg', 1080, 1080);
+      const sample = (data, width, x, y) => Array.from(data.slice((y * width + x) * 4, (y * width + x) * 4 + 4));
+      return { sizes, differences, light: sample(light, 1200, 55, 140), avatar: sample(avatar, 1080, 240, 540) };
+    }, { baseURL, theme });
+    for (const sample of rendering.sizes) {
+      assert.ok(sample.ring[3] >= 180, `${theme}/${sample.size}px: O must remain visible`);
+      assert.ok(sample.s[3] >= 160, `${theme}/${sample.size}px: S must remain visible`);
+      for (const region of ['gap', 'upper', 'lower']) {
+        assert.ok(sample[region][3] <= 48, `${theme}/${sample.size}px: ${region} must stay open`);
+      }
+    }
+    assert.deepEqual(rendering.sizes.at(-1).ring, theme === 'dark' ? [198, 243, 107, 255] : [16, 16, 20, 255]);
+    assert.ok(rendering.differences / (1200 * 280) < .02, 'SVG image must preserve the embedded Manrope wordmark, not use a fallback font');
+    assert.deepEqual(rendering.light, [245, 245, 247, 255]);
+    assert.deepEqual(rendering.avatar, [198, 243, 107, 255]);
+  }
+  await brandPage.close();
   const page = await browser.newPage({ viewport: { width: 1440, height: 1000 } });
   const videoRequests = [];
   const signupRequests = [];
@@ -103,19 +157,19 @@ try {
     const preview = page.locator('.change-preview').nth(index);
     assert.equal(await preview.locator('h3').textContent(), message.title);
     assert.equal(await preview.locator('.preview-description').textContent(), message.description);
-    assert.equal(await preview.getAttribute('href'), `./cambios.html#cambio-${message.id}`);
+    assert.equal(await preview.getAttribute('href'), `./cambios#cambio-${message.id}`);
     assert.equal(await preview.locator('.pillar-number').textContent(), String(message.id).padStart(2, '0'));
   }
   assert.equal(await page.locator('.hero-brand-symbol').count(), 0);
   assert.equal(await page.locator('.hero-art .sun, .hero-art .orbit').count(), 3);
   assert.equal(await page.locator('#actualizaciones .update-list > li').count(), 2);
   assert.equal(await page.locator('.update-stamp time').getAttribute('datetime'), '2026-10-11');
-  assert.equal(await page.locator('#actualizaciones a').first().getAttribute('href'), './transparencia.html#valores');
+  assert.equal(await page.locator('#actualizaciones a').first().getAttribute('href'), './transparencia#valores');
   assert.match(await page.locator('.manifesto h2').textContent(), /Menos «y tú más».*Más responsabilidad/);
   assert.equal(await page.locator('.manifesto h2 br').count(), 0);
   assert.ok(await page.locator('.manifesto h2').evaluate(node =>
     node.getBoundingClientRect().height <= parseFloat(getComputedStyle(node).lineHeight) + 1));
-  assert.equal(await page.locator('.manifesto > a').getAttribute('href'), './como.html');
+  assert.equal(await page.locator('.manifesto > a').getAttribute('href'), './como');
   assert.ok(await page.locator('.manifesto').evaluate(node => node.getBoundingClientRect().height) <= 300);
   assert.ok(await page.locator('footer').evaluate(node => node.getBoundingClientRect().height) <= 240);
   assert.equal(await page.locator('.program-card').count(), 0, 'The homepage must not contain the full programme');
@@ -162,7 +216,7 @@ try {
   assert.equal(await page.locator('body').evaluate(node => getComputedStyle(node).color), 'rgb(17, 19, 24)');
   await page.emulateMedia({ media: 'screen' });
 
-  await page.goto(`${baseURL}/cambios.html`);
+  await page.goto(`${baseURL}/cambios`);
   await page.waitForSelector('#cambio-8');
   assert.equal(await page.locator('.actions-content li').count(), 8);
   assert.equal(await page.locator('video').count(), 0, 'Changes should not duplicate the homepage video');
@@ -189,7 +243,7 @@ try {
   assert.match(await page.locator('#priorities-content').textContent(), /Por dónde empezar/);
   assert.match(await page.locator('#priorities-content').textContent(), /qué hemos hecho, qué nos ha frenado y cuánto hemos gastado/);
   assert.doesNotMatch(await page.locator('#priorities-content').textContent(), /fichas y entregas verificadas|criterio de aceptación/);
-  assert.equal(await page.locator('#cambio-1 a').first().getAttribute('href'), './programa.html#eje-1');
+  assert.equal(await page.locator('#cambio-1 a').first().getAttribute('href'), './programa#eje-1');
   assert.equal(await page.locator('#cambio-1 a').first().getAttribute('target'), null);
 
   async function checkVideo(selector, expectedDuration, ratio) {
@@ -254,7 +308,7 @@ try {
     assert.ok((await page.locator('.video-transcript').textContent()).includes(`${message.title} ${message.description}`));
   }
 
-  await page.goto(`${baseURL}/programa.html`);
+  await page.goto(`${baseURL}/programa`);
   await page.waitForSelector('.program-card');
   assert.ok(await page.locator('.compact-intro').evaluate(node => node.getBoundingClientRect().height) <= 320);
   assert.equal(await page.locator('.compact-intro a[download]').count(), 2);
@@ -341,12 +395,12 @@ try {
   assert.equal(await page.locator('#axis-data-content > details').count(), axes.length);
   assert.ok(await page.locator('#sources-content a[href^="https://"]').count() >= 18);
 
-  await page.goto(`${baseURL}/como.html`);
+  await page.goto(`${baseURL}/como`);
   await page.waitForFunction(() => document.querySelector('#plan-content')?.textContent.includes('H04'));
   assert.match(await page.locator('#plan-content').textContent(), /Si solo cabe uno/);
   assert.match(await page.locator('#method-content').textContent(), /Un seguimiento que no confunda actividad con resultados/);
   assert.match(await page.locator('#method-content').textContent(), /cauce 167 o 168, mayorías y referéndum/);
-  await page.goto(`${baseURL}/transparencia.html`);
+  await page.goto(`${baseURL}/transparencia`);
   await page.waitForFunction(() => document.querySelector('[data-program-content="6"]')?.textContent.includes('Alejandro'));
   assert.equal(await page.title(), 'Valores y transparencia — OpenSpain');
   assert.equal(await page.locator('#valores .measure-list > li').count(), 10);
@@ -387,7 +441,7 @@ try {
   assert.match(await page.locator('[data-program-content="6"]').textContent(), /no implica respaldo institucional|liderazgo inicial/);
   assert.match(await page.locator('[data-program-content="6"]').textContent(), /Fabio Franco/);
 
-  await page.goto(`${baseURL}/participa.html`);
+  await page.goto(`${baseURL}/participa`);
   const signup = page.getByRole('link', { name: /Hazte simpatizante/ });
   assert.equal(await signup.getAttribute('href'), 'https://tally.so/r/D4lvRN');
   assert.equal(await signup.getAttribute('target'), '_blank');
@@ -412,7 +466,12 @@ try {
   await page.getByRole('button', { name: 'Cerrar formulario de propuesta' }).click();
 
   for (const [path] of pages) {
-    await page.goto(`${baseURL}/${path}`);
+    const clean = await page.request.get(`${baseURL}/${publicPath(path)}`);
+    const legacy = await page.request.get(`${baseURL}/${path}`);
+    assert.equal(clean.status(), 200);
+    assert.equal(legacy.status(), 200);
+    assert.equal(await clean.text(), await legacy.text(), `${path}: old and clean URLs must serve the same page`);
+    await page.goto(`${baseURL}/${publicPath(path)}`);
     if (path === 'como.html') {
       assert.equal(await page.locator('#metodo details[open], #plan details[open]').count(), 2);
       await page.waitForSelector('#method-content > p');
@@ -429,10 +488,10 @@ try {
       assert.ok(methodToPlanGap >= 0 && methodToPlanGap <= 96, `Gap before plan: ${methodToPlanGap}px`);
     }
     const instagram = page.locator('footer .footer-socials a');
-    assert.equal(await page.locator('.site-header nav a[href="./transparencia.html"]').textContent(), 'Valores');
+    assert.equal(await page.locator('.site-header nav a[href="./transparencia"]').textContent(), 'Valores');
     assert.equal(await page.locator('.site-header > .brand').textContent(), 'openspain.');
     assert.equal(await page.locator('.site-header > .brand img').count(), 1);
-    assert.equal(await page.locator('.site-header .brand-symbol').getAttribute('src'), './favicon.svg?v=20261011-wordmark');
+    assert.equal(await page.locator('.site-header .brand-symbol').getAttribute('src'), './favicon.svg?v=20261016-os');
     assert.equal(await page.locator('.site-header .brand-symbol').getAttribute('alt'), '');
     assert.equal(await page.locator('.site-header > .brand').getAttribute('aria-label'), 'OpenSpain, inicio');
     const subtitle = page.locator('main .section-subtitle, main .section-heading > p').first();
@@ -548,14 +607,14 @@ try {
 
   const failurePage = await browser.newPage();
   await failurePage.route('**/PROGRAMA.md', route => route.fulfill({ status: 500, body: 'Error' }));
-  await failurePage.goto(`${baseURL}/programa.html`);
+  await failurePage.goto(`${baseURL}/programa`);
   await failurePage.locator('#program-error').waitFor({ state: 'visible' });
   assert.match(await failurePage.locator('#program-error').textContent(), /Detalle: HTTP 500/);
   await failurePage.unroute('**/PROGRAMA.md');
   await failurePage.locator('#retry-program').click();
   await failurePage.waitForSelector('.program-card');
   await failurePage.route('**/PROGRAMA.md', route => route.fulfill({ status: 500, body: 'Error' }));
-  await failurePage.goto(`${baseURL}/cambios.html`);
+  await failurePage.goto(`${baseURL}/cambios`);
   await failurePage.locator('#page-content-error').waitFor({ state: 'visible' });
   await failurePage.unroute('**/PROGRAMA.md');
   await failurePage.locator('#retry-content').click();
@@ -572,10 +631,10 @@ try {
   for (const width of [390, 1440]) {
     await signupPage.setViewportSize({ width, height: 900 });
     for (const [path] of pages) {
-      await signupPage.goto(`${baseURL}/${path}`);
+      await signupPage.goto(`${baseURL}/${publicPath(path)}`);
       const floating = signupPage.locator('.floating-signup');
       assert.equal(await floating.count(), 1);
-      assert.equal(await floating.getAttribute('href'), './participa.html#participa');
+      assert.equal(await floating.getAttribute('href'), './participa#participa');
       assert.equal(await floating.isVisible(), false);
       if (path !== 'participa.html') {
         await signupPage.evaluate(() => window.scrollTo({ top: 180, behavior: 'instant' }));
@@ -589,7 +648,7 @@ try {
       await floating.waitFor({ state: 'hidden' });
     }
   }
-  await signupPage.goto(`${baseURL}/participa.html`);
+  await signupPage.goto(`${baseURL}/participa`);
   for (const signupLink of await signupPage.locator('main a[href^="https://tally.so/"]').all()) {
     await signupLink.scrollIntoViewIfNeeded();
     assert.equal(await signupPage.locator('.floating-signup').isVisible(), false);
@@ -599,7 +658,7 @@ try {
   await signupPage.locator('.floating-signup').waitFor({ state: 'hidden' });
   await signupPage.close();
 
-  await page.goto(`${baseURL}/transparencia.html`);
+  await page.goto(`${baseURL}/transparencia`);
   assert.equal(await page.locator('.founder-photo').count(), 2);
   for (const [filename, alt] of [
     ['alejandro-acosta.jpg', 'Retrato de Alejandro Acosta, impulsor de OpenSpain'],
@@ -645,7 +704,7 @@ try {
   const heroAction = motion.locator('.hero .button-dark');
   await heroAction.hover();
   await motion.waitForFunction(() => getComputedStyle(document.querySelector('.hero .button-dark .direction-icon')).transform === 'matrix(1, 0, 0, 1, 2, -2)');
-  await motion.goto(`${baseURL}/programa.html`);
+  await motion.goto(`${baseURL}/programa`);
   await motion.locator('.page-intro a[download]').first().hover();
   await motion.waitForFunction(() => getComputedStyle(document.querySelector('.page-intro a[download] .direction-icon')).transform === 'matrix(1, 0, 0, 1, 0, 2)');
   await motion.emulateMedia({ reducedMotion: 'reduce' });
@@ -676,7 +735,7 @@ try {
   await staticPage.close();
 
   const report = await browser.newPage();
-  await report.goto(`${baseURL}/informe.html`);
+  await report.goto(`${baseURL}/informe`);
   await report.waitForFunction(() => document.documentElement.dataset.reportReady === 'true');
   assert.equal(await report.locator('.axis-heading').count(), axes.length);
   assert.equal(await report.locator('.target-figure').count(), axes.length);
@@ -726,10 +785,10 @@ try {
     const prefixPage = await browser.newPage();
     const prefixURL = `http://127.0.0.1:${proxy.address().port}/preview/`;
     await prefixPage.goto(`${prefixURL}#eje-23`);
-    await prefixPage.waitForURL('**/preview/programa.html#eje-23');
+    await prefixPage.waitForURL('**/preview/programa#eje-23');
     await prefixPage.waitForSelector('#eje-23');
     assert.equal(await prefixPage.locator('.program-card').count(), axes.length);
-    await prefixPage.goto(`${prefixURL}cambios.html`);
+    await prefixPage.goto(`${prefixURL}cambios`);
     await prefixPage.waitForSelector('#cambio-8');
     await prefixPage.close();
   } finally {

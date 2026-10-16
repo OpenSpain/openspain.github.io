@@ -1,11 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080" role="img" aria-labelledby="title">
-  <title id="title">OpenSpain: símbolo para perfil de Instagram</title>
-  <rect width="1080" height="1080" fill="#ffffff"/>
-  <g transform="translate(180 180) scale(11.25)">
-    <g fill="none" stroke="#3159dc" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M32 9a23 23 0 1 0 23 23"/>
-      <path d="m43 21 15-15M47 6h11v11"/>
-    </g>
-    <path fill="#3159dc" fill-rule="evenodd" d="M41 32a9 9 0 1 1-18 0 9 9 0 1 1 18 0Zm-6 0a3 3 0 1 0-6 0 3 3 0 1 0 6 0Z"/>
+  <title id="title">OpenSpain: monograma OS para perfil de Instagram</title>
+  <rect width="1080" height="1080" fill="#101014"/>
+  <g transform="translate(156 156) scale(12)">
+    <path color="#c6f36b" d="M55.49 23.45A25 25 0 1 1 48.07 12.85" fill="none" stroke="currentColor" stroke-width="5.5" stroke-linecap="round"/>
+    <path color="#c6f36b" d="M44 15H25L18 22V29L25 36H38L40 38V42L37 45H25L23 42H17V45L23 51H40L47 44V35L41 29H28L25 26V24L28 21H40L42 24H48V21Z" transform="translate(1.28 .32) scale(.96)" fill="currentColor"/>
   </g>
 </svg>

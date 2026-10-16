@@ -54,7 +54,7 @@ export function getInstagramVideos(markdown) {
   };
   const videos = [{
     id: '00-decalogo', title: 'Diez exigencias ciudadanas',
-    url: 'https://openspain.org/programa.html#exigencias',
+    url: 'https://openspain.org/programa#exigencias',
     scenes: [
       { label: 'EL DECÁLOGO', title: 'Diez reglas. Para cualquier gobierno.',
         body: 'También para quienes votamos. Responsabilidad política con pruebas y garantías.', duration: 7 },
@@ -75,7 +75,7 @@ export function getInstagramVideos(markdown) {
     }
     videos.push({
       id: `eje-${String(axis.id).padStart(2, '0')}`, title: axis.title,
-      url: `https://openspain.org/programa.html#eje-${axis.id}`,
+      url: `https://openspain.org/programa#eje-${axis.id}`,
       scenes: [
         { label: `EJE ${axis.id} / 31`, title: axis.headline, body: axis.description, duration: 6 },
         ...cards(paragraphs[0], 'QUÉ PROPONEMOS'),

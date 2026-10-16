@@ -1,11 +1,13 @@
 import { createServer } from 'node:http';
 import { readFile } from 'node:fs/promises';
+import { pages, publicPath } from './routes.js';
 
 const files = new Map([
   ['/', ['index.html', 'text/html; charset=utf-8']],
   ['/index.html', ['index.html', 'text/html; charset=utf-8']],
-  ...['cambios', 'programa', 'como', 'transparencia', 'participa'].map(page =>
-    [`/${page}.html`, [`${page}.html`, 'text/html; charset=utf-8']]),
+  ...pages.filter(([filename]) => filename !== 'index.html').flatMap(([filename]) =>
+    [`/${publicPath(filename)}`, `/${filename}`].map(path =>
+      [path, [filename, 'text/html; charset=utf-8']])),
   ['/styles.css', ['styles.css', 'text/css; charset=utf-8']],
   ['/studio.css', ['studio.css', 'text/css; charset=utf-8']],
   ['/brand.css', ['brand.css', 'text/css; charset=utf-8']],
@@ -26,6 +28,7 @@ const files = new Map([
   ['/alejandro-acosta.jpg', ['alejandro-acosta.jpg', 'image/jpeg']],
   ['/fabio-franco.jpg', ['fabio-franco.jpg', 'image/jpeg']],
   ['/informe.html', ['informe.html', 'text/html; charset=utf-8']],
+  ['/informe', ['informe.html', 'text/html; charset=utf-8']],
   ['/informe.css', ['informe.css', 'text/css; charset=utf-8']],
   ['/informe.js', ['informe.js', 'text/javascript; charset=utf-8']],
   ['/OpenSpain-Programa.pdf', ['OpenSpain-Programa.pdf', 'application/pdf']],

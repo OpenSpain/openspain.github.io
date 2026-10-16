@@ -4,13 +4,40 @@ import { readFile, mkdtemp, rm } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { parseProgram, filterAxes, categories, axisMetadata, ipc, getChapter, getCitizenDemands, getInitiativeActions, getInitiativeActionItems, getChangeVideoMessages, getCivicValues, getValueCommitments, inlineParts, detailMarker } from '../program.js';
-import { pages, legacyTarget } from '../routes.js';
+import { pages, publicPath, legacyTarget } from '../routes.js';
 import { observedCharts, targetCharts } from '../charts.js';
 import { getInstagramVideos, participationMessage } from '../video/instagram.mjs';
 import { synth, percussionSchedule } from '../video/audio.mjs';
 
 const markdown = await readFile(new URL('../PROGRAMA.md', import.meta.url), 'utf8');
 const axes = parseProgram(markdown);
+
+test('OS brand variants preserve the canonical open O and original angular S', async () => {
+  const favicon = await readFile(new URL('../favicon.svg', import.meta.url), 'utf8');
+  const paths = [...favicon.matchAll(/<path class="os-symbol" d="([^"]+)"/g)].map(match => match[1]);
+  assert.equal(paths.length, 2);
+  assert.match(favicon, /stroke-width="5\.5"/);
+  assert.match(favicon, /transform="translate\(1\.28 \.32\) scale\(\.96\)"/);
+  assert.doesNotMatch(favicon, /<mask|<text|<image/);
+  for (const [file, color] of [
+    ['openspain-logo.svg', '#101014'],
+    ['openspain-logo-light.svg', '#f5f5f7'],
+    ['openspain-instagram.svg', '#c6f36b'],
+  ]) {
+    const svg = await readFile(new URL(`../${file}`, import.meta.url), 'utf8');
+    for (const path of paths) assert.ok(svg.includes(`d="${path}"`), `${file}: canonical geometry`);
+    assert.equal(svg.split(`color="${color}"`).length - 1, 2);
+    assert.doesNotMatch(svg, /class="os-symbol"|<mask|bandera|Avenir/);
+    if (file !== 'openspain-instagram.svg') {
+      assert.match(svg, /data:font\/ttf;base64,/);
+      assert.match(svg, /font-weight="800"/);
+      assert.match(svg, />openspain\.<\/text>/);
+    }
+  }
+  const logo = await readFile(new URL('../openspain-logo.png', import.meta.url));
+  assert.equal(logo.readUInt32BE(16), 1200);
+  assert.equal(logo.readUInt32BE(20), 280);
+});
 
 test('both PDF templates use the dark Manrope identity and version their public downloads', async () => {
   const report = await readFile(new URL('../informe.html', import.meta.url), 'utf8');
@@ -33,8 +60,8 @@ test('both PDF templates use the dark Manrope identity and version their public 
   assert.match(report, /barras grises y borde discontinuo/);
   for (const path of ['programa.html', 'cambios.html']) {
     const html = await readFile(new URL(`../${path}`, import.meta.url), 'utf8');
-    assert.match(html, /OpenSpain-Programa\.pdf\?v=20261015-pillars/);
-    if (path === 'programa.html') assert.match(html, /OpenSpain-Presentacion\.pdf\?v=20261015-studio/);
+    assert.match(html, /OpenSpain-Programa\.pdf\?v=20261016-os/);
+    if (path === 'programa.html') assert.match(html, /OpenSpain-Presentacion\.pdf\?v=20261016-os/);
   }
 });
 
@@ -46,7 +73,7 @@ test('Instagram series covers the decalogue and every axis without inventing mea
     assert.equal(video.duration, video.scenes.reduce((sum, scene) => sum + scene.duration, 0));
     assert.equal(video.scenes.at(-1).body, participationMessage);
     assert.match(video.caption, /no medidas aprobadas ni resultados obtenidos/);
-    assert.match(video.url, /^https:\/\/openspain\.org\/programa\.html#/);
+    assert.match(video.url, /^https:\/\/openspain\.org\/programa#/);
     for (const scene of video.scenes) {
       assert.ok(scene.duration >= 6);
       assert.ok(`${scene.title} ${scene.body}`.trim().split(/\s+/).length / scene.duration <= 2.5);
@@ -70,7 +97,7 @@ test('presentation video and transcript use the public domain and current identi
   }
   const html = await readFile(new URL('../participa.html', import.meta.url), 'utf8');
   for (const filename of ['OpenSpain-Hazte-Simpatizante.mp4', 'hazte-simpatizante-portada.jpg']) {
-    assert.ok(html.includes(`${filename}?v=20261015-studio-lima`));
+    assert.ok(html.includes(`${filename}?v=20261016-os`));
   }
   for (const path of ['video/video.html', 'video/cambios.html']) {
     const template = await readFile(new URL(`../${path}`, import.meta.url), 'utf8');
@@ -129,8 +156,8 @@ test('text-led website videos retain readable transcripts without duplicate capt
     const html = await readFile(new URL(`../${path}`, import.meta.url), 'utf8');
     assert.doesNotMatch(html, /<track|\.vtt|con música y subtítulos/);
     assert.match(html, /Leer el contenido del vídeo/);
-    assert.match(html, /\.jpg\?v=20261015-studio-lima/);
-    assert.match(html, /\.mp4\?v=20261015-studio-lima/);
+    assert.match(html, /\.jpg\?v=20261016-os/);
+    assert.match(html, /\.mp4\?v=20261016-os/);
   }
   const workflow = await readFile(new URL('../.github/workflows/pages.yml', import.meta.url), 'utf8');
   const server = await readFile(new URL('../server.mjs', import.meta.url), 'utf8');
@@ -141,7 +168,7 @@ test('homepage introduces an open country concisely and invites participation', 
   const html = await readFile(new URL('../index.html', import.meta.url), 'utf8');
   assert.match(html, /Una España abierta donde vivir bien, crear y prosperar/);
   assert.match(html, /Libertad, oportunidades e instituciones al servicio de todos\. Un proyecto ciudadano independiente\./);
-  assert.match(html, /href="\.\/participa\.html">Participa ↗<\/a>/);
+  assert.match(html, /href="\.\/participa">Participa ↗<\/a>/);
   assert.equal((html.match(/class="hero-description"/g) || []).length, 2);
   const descriptions = [...html.matchAll(/<p class="hero-description">([^<]+)<\/p>/g)].map(match => match[1]);
   assert.ok(descriptions.join(' ').split(/\s+/).length <= 30);
@@ -161,13 +188,13 @@ test('homepage FAQs explain open participation and funding without claiming a co
   assert.match(faq, /buscamos acuerdos útiles, no unanimidad/);
   assert.match(faq, /donaciones económicas todavía no están habilitadas/);
   assert.match(faq, /No presentamos ayudas o subvenciones como concedidas/);
-  assert.match(faq, /href="\.\/transparencia\.html#donaciones"/);
+  assert.match(faq, /href="\.\/transparencia#donaciones"/);
 });
 
 test('future endorsement notifications use the existing signup form without collecting an electoral endorsement', async () => {
   const home = await readFile(new URL('../index.html', import.meta.url), 'utf8');
   const participation = await readFile(new URL('../participa.html', import.meta.url), 'utf8');
-  assert.match(home, /href="\.\/participa\.html#avales">Quiero avalar/);
+  assert.match(home, /href="\.\/participa#avales">Quiero avalar/);
   assert.match(participation, /id="avales" aria-labelledby="endorsement-title"/);
   assert.match(participation, /Aún no hay una recogida de avales abierta/);
   assert.match(participation, /si OpenSpain decide presentar una candidatura/);
@@ -251,18 +278,21 @@ test('all six pages preserve relative navigation and old public anchors', async 
   assert.equal(pages.length, 6);
   for (const [path] of pages) {
     const html = await readFile(new URL(`../${path}`, import.meta.url), 'utf8');
-    for (const [destination] of pages) assert.ok(html.includes(`href="./${destination}"`), `${path} → ${destination}`);
+    for (const [destination] of pages) assert.ok(html.includes(`href="./${publicPath(destination)}"`), `${path} → ${destination}`);
     assert.equal((html.match(/aria-current="page"/g) || []).length, 1);
-    assert.ok(html.includes('site.js?v=20261015-motion'));
+    assert.ok(html.includes('site.js?v=20261016-clean'));
+    assert.doesNotMatch(html, /href="\.\/(?:index|cambios|programa|como|transparencia|participa)\.html/);
     assert.ok(html.includes(`styles.css?v=${path === 'transparencia.html' ? '20261012-profiles' : '20261011-editorial'}`));
     assert.ok(html.includes('>Valores</a>'));
     assert.match(html, /class="footer-socials"><a href="https:\/\/www\.instagram\.com\/openspainorg\/" target="_blank" rel="noopener noreferrer"/);
     assert.doesNotMatch(html, /autoplay/);
   }
-  for (const axis of axes) assert.equal(legacyTarget(`#eje-${axis.id}`), `programa.html#eje-${axis.id}`);
-  assert.equal(legacyTarget('#plan'), 'como.html#plan');
-  assert.equal(legacyTarget('#participa'), 'participa.html#participa');
-  assert.equal(legacyTarget('#donaciones'), 'transparencia.html#donaciones');
+  for (const axis of axes) assert.equal(legacyTarget(`#eje-${axis.id}`), `programa#eje-${axis.id}`);
+  assert.equal(legacyTarget('#plan'), 'como#plan');
+  assert.equal(legacyTarget('#participa'), 'participa#participa');
+  assert.equal(legacyTarget('#donaciones'), 'transparencia#donaciones');
+  assert.equal(publicPath('index.html'), '');
+  assert.equal(publicPath('participa.html'), 'participa');
   assert.equal(legacyTarget('#eje-32'), undefined);
   assert.equal(legacyTarget('#vision'), undefined);
   const changes = await readFile(new URL('../cambios.html', import.meta.url), 'utf8');

@@ -1,6 +1,6 @@
 import { getChapter, getInitiativeActions, getInitiativeActionItems, getChangeVideoMessages, getCivicValues, getValueCommitments } from './program.js?v=20261011-values';
 import { element, appendMarkdown, openDialog, setupDialogs, replaceArrowIcons } from './ui.js?v=20261011-mobile';
-import { legacyTarget } from './routes.js?v=20261011-values';
+import { legacyTarget } from './routes.js?v=20261016-clean';
 
 const $ = selector => document.querySelector(selector);
 document.querySelectorAll('a, button, .note-icon').forEach(replaceArrowIcons);
@@ -37,7 +37,7 @@ document.addEventListener('click', event => {
 window.matchMedia('(max-width: 1200px)').addEventListener('change', () => setMenuOpen(false));
 
 const floatingSignup = element('a', 'floating-signup');
-floatingSignup.href = './participa.html#participa';
+floatingSignup.href = './participa#participa';
 floatingSignup.append(document.createTextNode('Hazte simpatizante'),
   element('span', '', '↗'));
 floatingSignup.lastElementChild.setAttribute('aria-hidden', 'true');
@@ -136,7 +136,7 @@ async function loadPageContent() {
         container.append(...actions.map((action, index) => {
           const message = messages[index];
           const link = element('a', 'change-preview');
-          link.href = `./cambios.html#cambio-${action.id}`;
+          link.href = `./cambios#cambio-${action.id}`;
           const copy = element('div', 'preview-copy');
           copy.append(element('h3', '', message.title), element('p', 'preview-description', message.description),
             element('span', 'text-link', 'Ver propuesta y garantías'));
@@ -157,7 +157,7 @@ async function loadPageContent() {
           : section === 'values' ? getCivicValues(markdown)
           : section === 'value-commitments' ? getValueCommitments(markdown)
           : getChapter(markdown, Number(section));
-        appendMarkdown(container, content, './programa.html');
+        appendMarkdown(container, content, './programa');
         if (section === 'actions') {
           const list = element('ol', 'pillar-grid');
           for (const action of getInitiativeActionItems(markdown)) {
@@ -167,7 +167,7 @@ async function loadPageContent() {
             heading.append(element('span', 'pillar-number', String(action.id).padStart(2, '0')),
               element('h3', 'pillar-title', action.title));
             const body = element('div', 'pillar-body');
-            appendMarkdown(body, action.description, './programa.html');
+            appendMarkdown(body, action.description, './programa');
             item.append(heading, body);
             list.append(item);
           }

@@ -8,6 +8,10 @@
     "start": "node server.mjs",
     "test": "node --test tests/program.test.mjs",
     "test:browser": "node tests/browser.mjs",
+    "brand": "node export-brand.mjs",
+    "comic": "node comic/render.mjs",
+    "comic:bolsillo": "node comic/render.mjs bolsillo-seguridad",
+    "comic:vida": "node comic/render.mjs vida-preparada",
     "pdf": "node export-pdf.mjs",
     "pdf:presentacion": "node export-presentacion.mjs"
   },

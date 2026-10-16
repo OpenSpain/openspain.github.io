@@ -24,7 +24,7 @@ try {
   const page = await browser.newPage();
   const errors = [];
   page.on('pageerror', error => errors.push(error.message));
-  const response = await page.goto(`${baseURL}/informe.html`);
+  const response = await page.goto(`${baseURL}/informe`);
   if (!response?.ok()) throw new Error('No se pudo abrir la página del informe.');
   await page.waitForFunction(() => Boolean(document.documentElement.dataset.reportReady));
   if (await page.getAttribute('html', 'data-report-ready') !== 'true') {

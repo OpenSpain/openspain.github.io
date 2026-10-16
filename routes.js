@@ -7,15 +7,19 @@ export const pages = [
   ['participa.html', 'Participa'],
 ];
 
+export function publicPath(filename) {
+  return filename === 'index.html' ? '' : filename.replace(/\.html$/, '');
+}
+
 export function legacyTarget(hash) {
-  if (/^#eje-(?:[1-9]|[12]\d|3[01])$/.test(hash)) return `programa.html${hash}`;
+  if (/^#eje-(?:[1-9]|[12]\d|3[01])$/.test(hash)) return `programa${hash}`;
   const destinations = {
-    '#programa': 'programa.html#programa', '#datos': 'programa.html#datos',
-    '#exigencias': 'programa.html#exigencias', '#diagnostico': 'programa.html#diagnostico',
-    '#prioridades': 'cambios.html#prioridades', '#metodo': 'como.html#metodo',
-    '#plan': 'como.html#plan', '#donaciones': 'transparencia.html#donaciones',
-    '#registro-donaciones': 'transparencia.html#registro-donaciones',
-    '#participa': 'participa.html#participa',
+    '#programa': 'programa#programa', '#datos': 'programa#datos',
+    '#exigencias': 'programa#exigencias', '#diagnostico': 'programa#diagnostico',
+    '#prioridades': 'cambios#prioridades', '#metodo': 'como#metodo',
+    '#plan': 'como#plan', '#donaciones': 'transparencia#donaciones',
+    '#registro-donaciones': 'transparencia#registro-donaciones',
+    '#participa': 'participa#participa',
   };
   return destinations[hash];
 }
