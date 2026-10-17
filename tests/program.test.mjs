@@ -12,12 +12,14 @@ import { synth, percussionSchedule } from '../video/audio.mjs';
 const markdown = await readFile(new URL('../PROGRAMA.md', import.meta.url), 'utf8');
 const axes = parseProgram(markdown);
 
-test('OS brand variants preserve the canonical open O and original angular S', async () => {
+test('OS brand variants preserve the canonical open O and curved Manrope S', async () => {
   const favicon = await readFile(new URL('../favicon.svg', import.meta.url), 'utf8');
   const paths = [...favicon.matchAll(/<path class="os-symbol" d="([^"]+)"/g)].map(match => match[1]);
   assert.equal(paths.length, 2);
   assert.match(favicon, /stroke-width="5\.5"/);
-  assert.match(favicon, /transform="translate\(1\.28 \.32\) scale\(\.96\)"/);
+  assert.match(paths[1], /^M32\.465 51Q/);
+  assert.ok((paths[1].match(/Q/g) || []).length > 30);
+  assert.doesNotMatch(paths[1], /[HV]/);
   assert.doesNotMatch(favicon, /<mask|<text|<image/);
   for (const [file, color] of [
     ['openspain-logo.svg', '#101014'],
@@ -31,7 +33,7 @@ test('OS brand variants preserve the canonical open O and original angular S', a
     if (file !== 'openspain-instagram.svg') {
       assert.match(svg, /data:font\/ttf;base64,/);
       assert.match(svg, /font-weight="800"/);
-      assert.match(svg, />openspain\.<\/text>/);
+      assert.match(svg, />OpenSpain\.<\/text>/);
     }
   }
   const logo = await readFile(new URL('../openspain-logo.png', import.meta.url));
@@ -60,8 +62,8 @@ test('both PDF templates use the dark Manrope identity and version their public 
   assert.match(report, /barras grises y borde discontinuo/);
   for (const path of ['programa.html', 'cambios.html']) {
     const html = await readFile(new URL(`../${path}`, import.meta.url), 'utf8');
-    assert.match(html, /OpenSpain-Programa\.pdf\?v=20261016-os/);
-    if (path === 'programa.html') assert.match(html, /OpenSpain-Presentacion\.pdf\?v=20261016-os/);
+    assert.match(html, /OpenSpain-Programa\.pdf\?v=20261017-curved/);
+    if (path === 'programa.html') assert.match(html, /OpenSpain-Presentacion\.pdf\?v=20261017-curved/);
   }
 });
 
@@ -97,12 +99,12 @@ test('presentation video and transcript use the public domain and current identi
   }
   const html = await readFile(new URL('../participa.html', import.meta.url), 'utf8');
   for (const filename of ['OpenSpain-Hazte-Simpatizante.mp4', 'hazte-simpatizante-portada.jpg']) {
-    assert.ok(html.includes(`${filename}?v=20261016-os`));
+    assert.ok(html.includes(`${filename}?v=20261017-curved`));
   }
   for (const path of ['video/video.html', 'video/cambios.html']) {
     const template = await readFile(new URL(`../${path}`, import.meta.url), 'utf8');
     assert.match(template, /src="\.\.\/favicon\.svg"/);
-    assert.match(template, />openspain\.</);
+    assert.match(template, />OpenSpain\.</);
     assert.doesNotMatch(template, /openspain-logo-light|clipPath id="flag"|logoSvg/);
   }
   assert.match(html, /libertad, generosidad y responsabilidad/);
@@ -156,8 +158,8 @@ test('text-led website videos retain readable transcripts without duplicate capt
     const html = await readFile(new URL(`../${path}`, import.meta.url), 'utf8');
     assert.doesNotMatch(html, /<track|\.vtt|con música y subtítulos/);
     assert.match(html, /Leer el contenido del vídeo/);
-    assert.match(html, /\.jpg\?v=20261016-os/);
-    assert.match(html, /\.mp4\?v=20261016-os/);
+    assert.match(html, /\.jpg\?v=20261017-curved/);
+    assert.match(html, /\.mp4\?v=20261017-curved/);
   }
   const workflow = await readFile(new URL('../.github/workflows/pages.yml', import.meta.url), 'utf8');
   const server = await readFile(new URL('../server.mjs', import.meta.url), 'utf8');

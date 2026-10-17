@@ -82,7 +82,7 @@ try {
       }
       const sizes = [];
       for (const size of [16, 24, 32, 34, 64]) {
-        const data = await pixels(`favicon.svg?v=20261016-os&theme=${theme}`, size, size);
+        const data = await pixels(`favicon.svg?v=20261017-curved&theme=${theme}`, size, size);
         const sample = (x, y) => {
           const offset = (Math.floor(y / 64 * size) * size + Math.floor(x / 64 * size)) * 4;
           return Array.from(data.slice(offset, offset + 4));
@@ -489,9 +489,10 @@ try {
     }
     const instagram = page.locator('footer .footer-socials a');
     assert.equal(await page.locator('.site-header nav a[href="./transparencia"]').textContent(), 'Valores');
-    assert.equal(await page.locator('.site-header > .brand').textContent(), 'openspain.');
+    assert.equal(await page.locator('.site-header > .brand').textContent(), 'OpenSpain.');
+    assert.equal(await page.locator('.footer-top > .brand').textContent(), 'OpenSpain.');
     assert.equal(await page.locator('.site-header > .brand img').count(), 1);
-    assert.equal(await page.locator('.site-header .brand-symbol').getAttribute('src'), './favicon.svg?v=20261016-os');
+    assert.equal(await page.locator('.site-header .brand-symbol').getAttribute('src'), './favicon.svg?v=20261017-curved');
     assert.equal(await page.locator('.site-header .brand-symbol').getAttribute('alt'), '');
     assert.equal(await page.locator('.site-header > .brand').getAttribute('aria-label'), 'OpenSpain, inicio');
     const subtitle = page.locator('main .section-subtitle, main .section-heading > p').first();

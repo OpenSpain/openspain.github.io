@@ -11,7 +11,7 @@ const wordmark = color => `<svg xmlns="http://www.w3.org/2000/svg" width="1200" 
   <title id="title">OpenSpain: monograma OS y nombre</title>
   <style>@font-face { font-family: Manrope; src: url(data:font/ttf;base64,${font.toString('base64')}) format('truetype'); font-weight: 200 800; }</style>
   <g transform="translate(32 36) scale(3.25)">${mark(color)}</g>
-  <text x="272" y="185" fill="${color}" font-family="Manrope, sans-serif" font-size="144" font-weight="800" letter-spacing="-7">openspain.</text>
+  <text x="272" y="185" fill="${color}" font-family="Manrope, sans-serif" font-size="144" font-weight="800" letter-spacing="-7">OpenSpain.</text>
 </svg>\n`;
 const assets = [
   ['openspain-logo.svg', wordmark('#101014'), 'openspain-logo.png'],
